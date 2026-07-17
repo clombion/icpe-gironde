@@ -93,10 +93,11 @@ python3 scripts/build_metadata_samples.py
 L'outil `/rapports/` offre 3 sous-pages pour exploiter les rapports
 d'inspection ICPE extraits de Géorisques :
 
-- **Vérifier** (`/rapports/`) — recherche plein texte via DuckDB WASM
-  sur les 10 992 lignes du pivot `fiches.parquet` (10 599 fiches
-  structurées + 393 prose rows), avec snippet PDF cropé à la bbox de
-  chaque fiche via PDF.js (desktop) ou lien direct (mobile)
+- **Vérifier** (`/rapports/`) — recherche plein texte via sql.js
+  (SQLite WASM) sur `fiches.sqlite`, construit depuis les 10 992 lignes
+  du pivot `fiches.parquet` (10 599 fiches structurées + 393 prose
+  rows), avec snippet PDF cropé à la bbox de chaque fiche via PDF.js
+  (desktop) ou lien direct (mobile)
 - **Analyser par angle** (`/rapports/angles.html`) — 5 requêtes SQL
   prédéfinies avec export CSV en un clic. Contributions via PR (1
   fichier `.md` par angle dans `rapports/angles/`)
@@ -109,7 +110,40 @@ sidecar `_fiches.jsonl` (produit par `extract_rapports_markdown.py`
 v0.2.0), parse les 7 champs labélisés DREAL (Thème, Type de suites,
 Référence réglementaire, Prescription, Constats, Proposition de suites,
 Déjà contrôlé) et joint les métadonnées installation. Validation
-per-row contre un JSON Schema strict.
+per-row contre un JSON Schema strict. `scripts/build_sqlite.py`
+projette ensuite le parquet en `fiches.sqlite` indexé (consommé par la
+page Vérifier), et `scripts/build_angles_data.py` pré-calcule le JSON
+de chaque angle d'analyse.
+
+## Tagging thématique (taxonomie v5)
+
+Les fiches sont classifiées sur 6 axes (domaine technique, mécanisme
+réglementaire, dynamique relationnelle, acteur/stade, gravité,
+trajectoire temporelle) selon une taxonomie inductive construite par
+analyse thématique (Braun & Clarke) d'un échantillon de 146 fiches,
+puis validée sur 659 fiches. Taxonomie, codebook et prompts vivent dans
+`outputs-fiches/` (`taxonomy-v5.md`, `codebook.json`,
+`prompts-hunter-skeptic.md`).
+
+Le tagging suit un pattern Hunter/Skeptic en deux passes (agents
+Sonnet) sur 81 batches de 130 fiches :
+
+```bash
+# Extraire le corpus taggable (local/corpus-all/, gitignoré) + manifest
+uv run scripts/extract_corpus.py
+
+# État du tagging : couverture des batches, validation taxonomie,
+# taux de correction Skeptic
+python3 scripts/tag_status.py
+
+# Fusionner les tags audités en fiches-tags.parquet
+# (refuse si des batches n'ont pas de final Skeptic)
+uv run scripts/merge_tags.py
+```
+
+`build_sqlite.py` joint `fiches-tags.parquet` au moment de la
+projection sqlite quand il existe. Le plan d'implémentation complet est
+documenté dans `backlog/docs/doc-3`.
 
 ```bash
 # Extraire les markdowns + sidecar
@@ -209,7 +243,13 @@ bounding-box Gironde) par `carte/scripts/prep_reserves.py`.
 │   ├── build_metadata_samples.py           # sidecar d'échantillons pour /donnees/
 │   ├── apply_corrections.py               # compile les revues d'audit → sidecar de corrections
 │   ├── construire_fiches.py                # construit fiches.parquet depuis les sidecars
+│   ├── build_sqlite.py                     # projette le parquet en fiches.sqlite indexé (+ join tags)
+│   ├── build_angles_data.py                # pré-calcule le JSON de chaque angle (SQL → DuckDB)
 │   ├── build_angles_index.py              # scanne rapports/angles/*.md → index.json
+│   ├── extract_corpus.py                   # exporte le corpus taggable vers local/corpus-all/
+│   ├── tag_status.py                       # couverture + validation du tagging Hunter/Skeptic
+│   ├── merge_tags.py                       # fusionne les tags audités → fiches-tags.parquet
+│   ├── _verdicts.py                        # StrEnum des verdicts de revue (miroir de audit/lib.js)
 │   ├── schemas/
 │   │   ├── markdown_frontmatter.json       # JSON Schema draft-07 du front matter YAML
 │   │   ├── fiches_sidecar.json             # JSON Schema du sidecar _fiches.jsonl
@@ -285,10 +325,19 @@ bounding-box Gironde) par `carte/scripts/prep_reserves.py`.
 │   ├── methodologie.html          # doc méthodologie (rendu depuis .md via marked.js)
 │   ├── methodologie.md            # source markdown de la méthodologie
 │   └── methodologie.js
-└── donnees/                       # outil 3 : catalogue des données
-    ├── index.html
-    ├── app.js
-    └── style.css
+├── donnees/                       # outil 3 : catalogue des données
+│   ├── index.html
+│   ├── app.js
+│   └── style.css
+├── corpus-fiches/                 # échantillon de 146 fiches (analyse thématique)
+├── outputs-fiches/                # taxonomie v5, codebook, prompts, tags Hunter/Skeptic
+│   ├── taxonomy-v5.md
+│   ├── codebook.json
+│   ├── prompts-hunter-skeptic.md
+│   ├── manifest-all.csv           # mapping slug ↔ fiche_id du corpus taggable
+│   └── tags/                      # hunter-NN.json / final-NN.json + listes de slugs
+└── local/                         # artefacts régénérables non versionnés (gitignoré)
+    └── corpus-all/                # corpus taggable complet (extract_corpus.py)
 ```
 
 ## Rafraîchir les données
@@ -326,6 +375,12 @@ python3 scripts/build_metadata_samples.py
 
 # 9. Compile les décisions de revue et applique les corrections à la carte
 python3 scripts/apply_corrections.py
+
+# 10. Projette le parquet en fiches.sqlite (joint fiches-tags.parquet si présent)
+uv run scripts/build_sqlite.py
+
+# 11. Pré-calcule les JSON des angles d'analyse
+uv run scripts/build_angles_data.py
 # Le script écrit coordonnees-corrections.csv puis relance automatiquement
 # enrichir_libelles.py pour mettre à jour le CSV de la carte.
 # Prévisualisation sans écriture : python3 scripts/apply_corrections.py --dry-run
