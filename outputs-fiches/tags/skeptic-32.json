@@ -1,0 +1,99 @@
+{
+  "total_audited": 41,
+  "errors_found": 9,
+  "corrections": [
+    {
+      "slug": "etex-france-building-performance52012222024-10-2156262077300423f16",
+      "field": "domains",
+      "hunter_value": [
+        "D01"
+      ],
+      "corrected_value": [
+        "D01",
+        "D07"
+      ],
+      "reason": "Bassin de confinement des eaux d'extinction incendie matches D07_RETENTION ('confinement liquides') verbatim; D01 alone misses the retention/containment dimension explicit in the text."
+    },
+    {
+      "slug": "etex-france-building-performance52012222024-10-2156262077300423f14",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08"
+      ],
+      "corrected_value": [
+        "M08",
+        "M11"
+      ],
+      "reason": "Fiche is fundamentally an accident root-cause analysis / REX ('analyse des causes de l'accident de 2023', 'rapport... consigné dans des cahiers de forçage') — matches M11_INCIDENT ('rapport circonstancié, REX') which Hunter missed, keeping only the resulting-conformity M08."
+    },
+    {
+      "slug": "etablissements-laplace31065432023-03-0242471581100024f13",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "M14"
+      ],
+      "corrected_value": [
+        "M07"
+      ],
+      "reason": "No physical/technical NC is described for the new exutoire (text states positioning 'n'est pas applicable' i.e. compliant); the only gap is the missed 2023 annual atmospheric measurement campaign — a control-not-performed issue (M07), not an M14 site observation."
+    },
+    {
+      "slug": "etablissements-laplace31065432023-03-0242471581100024f13",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "NC is purely procedural (missed annual measurement obligation, exutoire itself already compliant, no VLE exceedance evidenced) — matches G2 'PUREMENT documentaire/formelle sans dimension physique', not G3."
+    },
+    {
+      "slug": "ets-dominique-labat-sarl1000513512024-11-2734023730400035f01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M04",
+        "M17"
+      ],
+      "corrected_value": [
+        "M04",
+        "M17",
+        "M14"
+      ],
+      "reason": "The unresolved core of the fiche is the physical presence of ~10 remaining VHU on site ('une dizaine de VHU était encore présente') — a directly observed technical NC (stockage non conforme), matching M14, which Hunter omitted alongside M04 (MED en suspens) and M17 (seuil rubrique 2712)."
+    },
+    {
+      "slug": "evv1001264202026-03-0433062049300172f01",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "The NC (missing changement-d'exploitant declaration) is purely administrative/documentary with no physical or technical dimension mentioned in the text — matches G2, not G3."
+    },
+    {
+      "slug": "euro-demolition-systems31034172023-08-3041404576500016f01",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T4",
+      "reason": "Text explicitly states the zone delimitation problem was already noted 'lors de la précédente inspection de 2020' and 'n'a pas été déplacée' (only reduced on one side by an unrelated reassignment) — matches T4_STAGNATION, not the T1 default."
+    },
+    {
+      "slug": "energie-des-bassins1000365532023-11-1679068741200029f10",
+      "field": "trajectory",
+      "hunter_value": "T4",
+      "corrected_value": "T1",
+      "reason": "Hunter's T4 rationale ('même NC que chaufferie Chartrons') cross-references a different SIRET/site (energie-des-bassins1000365722023, the neighbouring Chartrons boiler house remotely managed by this operator) rather than this installation's own inspection history. The fiche's own text gives no prior-inspection reference for this site, so the T1 default applies."
+    },
+    {
+      "slug": "euro-demolition-systems31034172023-08-3041404576500016f09",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07"
+      ],
+      "corrected_value": [
+        "M07",
+        "M06"
+      ],
+      "reason": "The 2018 noise-limit exceedances are the same NC repeated/unresolved across three inspections (2018 measurement, 2020 inspection, 2023 inspection) without a new measurement ever confirming resolution — matches M06_RECIDIVE in addition to M07 (control not performed)."
+    }
+  ],
+  "false_positive_rate": 0.195,
+  "error_patterns": "8 of 130 records needed correction across 9 field edits, no invalid codes found. Patterns: (1) Missed multi-label — mechanism or domain under-labeled when text clearly supports a second code (accident REX missing M11 alongside M08; retention basin missing D07 alongside D01; residual physical NC missing M14 alongside enforcement/classification codes; recurring unmeasured noise NC missing M06 alongside M07) — 4 instances, the dominant error type in this batch. (2) False M14 — one case where a control-not-performed gap (missed annual measurement) was tagged M14 despite no physical/technical defect in the text; downgraded to M07 only, with gravity following from G3 to G2 since the residual NC is purely procedural. (3) Gravity overstated on purely administrative NCs — G3 assigned to a missing changement-d'exploitant declaration with zero physical dimension; corrected to G2 per the strict gravity heuristic. (4) Wrong trajectory — one T1 that ignored an explicit 'précédente inspection de 2020' reference (should be T4), and one T4 that was justified by cross-referencing a DIFFERENT SIRET's history (a neighbouring site remotely managed by the same operator) rather than the fiche's own site history (corrected to default T1). No false M08, no over-aggressive M17 (12 M17 records reviewed, all textually well-grounded threshold/classification determinations), no R02/R01 over-attribution (all 3 R01/R02 assignments in the batch verified against the future-commitment vs. factual-statement rule and confirmed correct).",
+  "verdict": "Good quality batch. All 130 slugs present exactly once, all codes valid against the codebook (short-form ids, no invented/abbreviated codes), all single-valued fields hold exactly one value, all records carry every required field. Error rate (8/41 audited ≈ 19.5%, or 8/130 ≈ 6% of the full batch) is concentrated in missed secondary domain/mechanism labels and two gravity/trajectory calls rather than in systemic misuse of any single code — no widespread false-M08, false-M14, or R-code misuse pattern detected. M15_AUTRE usage is 0%, meeting the Hunter mandate."
+}

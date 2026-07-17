@@ -1,0 +1,128 @@
+{
+  "total_audited": 23,
+  "errors_found": 11,
+  "corrections": [
+    {
+      "slug": "gie-chantemerle52062352022-11-0939129721500017f02",
+      "field": "mechanisms",
+      "hunter_value": "M08_CONFORMITE, M12_IED_MTD",
+      "corrected_value": "M08_CONFORMITE",
+      "reason": "M12_IED_MTD (MTD/BREF/réexamen décennal) est sans rapport avec le texte, qui décrit uniquement des mesures compensatoires de pompage d'effluents. Code invalide non supporté par le corpus."
+    },
+    {
+      "slug": "gie-chantemerle52062352023-08-2439129721500017f01",
+      "field": "mechanisms",
+      "hunter_value": "M14_CONSTAT_TECHNIQUE, M03_REPORTING",
+      "corrected_value": "M14_CONSTAT_TECHNIQUE",
+      "reason": "GIDAF est ici la source de données ayant permis de détecter le dépassement de VLE couleur, pas l'objet d'un manquement de reporting (les transmissions GIDAF elles-mêmes ne sont pas mises en cause)."
+    },
+    {
+      "slug": "gie-chantemerle52062352023-08-2439129721500017f01",
+      "field": "modifiers",
+      "hunter_value": "m_MENACE",
+      "corrected_value": "m_DELAI",
+      "reason": "Le texte fixe un délai correctif explicite (\"sous 3 mois\") mais ne comporte aucune formule conditionnelle d'escalade (\"à défaut, MED\") pour ce point précis — m_MENACE n'est pas supporté, m_DELAI l'est."
+    },
+    {
+      "slug": "gie-chantemerle52062352023-08-2439129721500017f01",
+      "field": "trajectory",
+      "hunter_value": "T4",
+      "corrected_value": "T1",
+      "reason": "Aucune référence à un constat antérieur sur le paramètre couleur dans ce texte — c'est la première occurrence signalée, pas une stagnation."
+    },
+    {
+      "slug": "gie-chantemerle52062352024-07-0239129721500017f07",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "Le texte confirme la disposition respectée (élimination des boues en filière autorisée) et formule une demande d'information conditionnelle (\"s'il existe une procédure\"), pas la constatation d'un écart documentaire établi. G2 suppose une NC qui n'est pas affirmée."
+    },
+    {
+      "slug": "gie-chantemerle52062352024-07-0239129721500017f07",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "Conséquence de la correction de gravité : sans NC établie, il n'y a pas de délai correctif à imposer, seulement une demande d'information."
+    },
+    {
+      "slug": "giporc-sa52077312023-06-0743325544500028f02",
+      "field": "mechanisms",
+      "hunter_value": "M08_CONFORMITE, M01_DOCUMENTATION",
+      "corrected_value": "M08_CONFORMITE",
+      "reason": "Le texte indique seulement que les FDS ont été transmises en 2020 et qu'aucune demande n'a été formulée. L'ancienneté du document n'est signalée comme un écart nulle part dans le corps du constat — M01_DOCUMENTATION n'est pas supporté par le texte, c'est une inférence du hunter non fondée sur des signaux explicites (absence/obsolescence)."
+    },
+    {
+      "slug": "girondine-de-carbonisation52008362024-03-1946920056200020f02",
+      "field": "trajectory",
+      "hunter_value": "T4",
+      "corrected_value": "T2",
+      "reason": "Le texte référence explicitement le constat de l'inspection précédente du 13/04/2023 et rapporte une action engagée depuis (campagne de mesure réalisée, bien qu'insuffisante) — c'est un suivi explicite (T2), pas une stagnation sans évolution (T4)."
+    },
+    {
+      "slug": "glp-cestas-sci-ex-bermie-nautic52076732025-03-2191113090400012f10",
+      "field": "reasoning",
+      "hunter_value": "Reasoning décrivait un rapport de vérification semestrielle du système d'extinction automatique daté du 05/11/2024 avec citation \"ne pouvons pas garantir qu'ils soient couverts\" et une proposition de MED",
+      "corrected_value": "Reasoning recalculé à partir du corpus réel de la fiche (système de détection incendie, rapports Episaveurs 27/12/2024 et RT Logistique 11/02/2025, partie CGA SUPPLY PACKING non vérifiée)",
+      "reason": "Le contenu du reasoning hunter pour f10 appartient en réalité à la fiche f13 du même lot (système d'extinction automatique, rapport du 05/11/2024, MED proposée) — vérifié par lecture croisée des deux corpus. Bug probable de traitement par lot sur des points adjacents d'une même fiche multi-points. Les codes (mécanismes, gravité) ont été revérifiés indépendamment sur le vrai texte de f10 et restent appropriés (M07_CONTROLE + M14_CONSTAT_TECHNIQUE par incertitude, G3)."
+    },
+    {
+      "slug": "glp-cestas-sci-ex-bermie-nautic52076732025-03-2191113090400012f10",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "Conséquence du bug de contenu ci-dessus : le délai de 3 mois provenait du texte de f13. La demande réelle de f10 (\"L'exploitant transmet les documents...\") ne comporte pas de délai explicite."
+    },
+    {
+      "slug": "gourdon-paysagiste1002856372025-02-1981376750600013f01",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "La demande de positionnement sur la rubrique 2518 ne comporte aucun délai explicite dans le texte."
+    },
+    {
+      "slug": "gpmb52083372024-03-1478180414100021f11",
+      "field": "mechanisms",
+      "hunter_value": "M04_MISE_EN_DEMEURE",
+      "corrected_value": "M05_SANCTION",
+      "reason": "Le texte n'énonce pas de mise en demeure sur ce point : il avertit d'un retrait possible de l'agrément (articles R.515-37/38) en cas de non-régularisation — c'est un avertissement conditionnel précédant une sanction (retrait d'agrément), pas une APMD."
+    },
+    {
+      "slug": "gpmb52083372024-03-1478180414100021f11",
+      "field": "modifiers",
+      "hunter_value": "(aucun)",
+      "corrected_value": "m_MENACE",
+      "reason": "\"il pourra être décidé de retirer l'agrément\" est un avertissement conditionnel typique de m_MENACE, précurseur de mesure coercitive."
+    },
+    {
+      "slug": "gpmb52083372025-11-2678180414100021f01",
+      "field": "trajectory",
+      "hunter_value": "T5",
+      "corrected_value": "T4",
+      "reason": "Le texte montre une répétition du même type d'incident (hydrocarbures malgré navires \"dépollués\") sur 13 mois, sans preuve d'aggravation objective (fréquence ou gravité croissante) — c'est une stagnation (même problème, non résolu) plutôt qu'une aggravation caractérisée."
+    },
+    {
+      "slug": "greece-9352086862024-01-1897865076000025f07",
+      "field": "actor",
+      "hunter_value": "A11",
+      "corrected_value": "A01",
+      "reason": "Le texte traite exclusivement de l'ancien exploitant (CASINO Distribution) et de l'exploitant actuel — aucun rôle de propriétaire distinct de l'exploitant n'est établi dans le corps du constat. A11_PROPRIETAIRE n'est pas supporté."
+    },
+    {
+      "slug": "grands-moulins-de-paris52005892023-03-0735146649500030f01",
+      "field": "mechanisms",
+      "hunter_value": "M01_DOCUMENTATION",
+      "corrected_value": "M15_AUTRE",
+      "reason": "Le constats_body renvoie intégralement à une annexe confidentielle (\"Voir l'annexe confidentielle\"), sans aucun contenu exploitable. Le hunter a classé M01_DOCUMENTATION à partir du bloc Prescription (obligation de plan de formation), en violation directe de la règle STRICT imposant de classifier le mécanisme sur constats_body UNIQUEMENT."
+    },
+    {
+      "slug": "grands-moulins-de-paris52005892023-03-0735146649500030f01",
+      "field": "domains, dynamic, stage, gravity, confidence",
+      "hunter_value": "D02_ATEX+D11_SECURITE / R13 / S03 / G2 / medium",
+      "corrected_value": "D15_SECTEUR+D11_SECURITE / R15 / S07 / G1 / low",
+      "reason": "Même cause que ci-dessus : faute de contenu vérifiable dans constats_body, dynamique et stade sont ramenés aux codes résiduels/inclassables (règle STRICT : stade classifié sur constats_body uniquement). D02_ATEX retiré faute de signal ATEX explicite dans le texte disponible (le Prescription ne mentionne que la formation générale du personnel, pas l'atmosphère explosive). Gravité ramenée à G1 par défaut, aucune non-conformité n'étant démontrée. Confiance abaissée à low : classification par défaut, pas par évidence."
+    }
+  ],
+  "false_positive_rate": 0.085,
+  "error_patterns": "Sur 130 fiches, 23 ont été auditées (3 confidence medium relues intégralement + échantillon spot-check de 20 fiches high confidence, soit ~15% du lot) : 11 fiches corrigées, un taux d'erreur de 47.8% sur l'échantillon audité (11/23), ce qui donne un taux d'erreur global estimé de ~8.5% sur le lot en extrapolant au prorata (11/130). Aucun code hors taxonomie ne subsistait dans le hunter output brut (déjà validé structurellement par tag_status.py avant l'audit) ; les erreurs relevées portent sur le jugement de classification plutôt que sur la syntaxe des codes. Motifs récurrents : (1) mécanismes secondaires ajoutés sans support textuel clair (M12_IED_MTD, M03_REPORTING, M01_DOCUMENTATION) — le hunter sur-complète le multi-label sur l'axe mécanisme quand un signal faible/adjacent est présent (ex. GIDAF cité comme source de données déclenche à tort M03_REPORTING même quand ce n'est pas le sujet de la NC) ; (2) modificateur m_MENACE substitué à m_DELAI ou ajouté/omis sans vérifier la présence effective d'une formule conditionnelle d'escalade (\"à défaut...MED\") dans le texte — le hunter semble parfois inférer une menace implicite du contexte MED/agrément général de la fiche plutôt que du point précis audité ; (3) trajectoire T4 (stagnation) sur-utilisée pour des situations qui sont en réalité un suivi explicite (T2) ou un premier constat (T1) — le hunter semble déclencher T4 dès qu'un historique est mentionné, sans distinguer stagnation, suivi et aggravation ; (4) un bug de contenu confirmé (glp-cestas f10) où le reasoning et une partie des modificateurs d'une fiche multi-points ont été contaminés par le contenu d'une fiche adjacente (f13) du même lot — les codes finaux sont restés fortuitement corrects mais le reasoning était factuellement faux, ce qui aurait pu masquer une vraie erreur de code si elle avait existé ; (5) une violation de la règle STRICT \"constats_body uniquement\" pour le mécanisme/stade quand ce champ est vide ou renvoie à une annexe confidentielle — le hunter comble le vide en puisant dans le bloc Prescription (boilerplate réglementaire), ce qui est explicitement interdit par le prompt ; ce cas doit être traité en M15_AUTRE / codes résiduels plutôt que déduit du contexte réglementaire générique.",
+  "verdict": "Qualité globale correcte sur les axes structurels (aucun code invalide, aucun champ manquant, aucune valeur jointe sur les champs mono-label) mais le taux d'erreur de jugement sur l'échantillon audité (11/23, ~48%) est nettement supérieur à la cible batch de <15% et à l'observé historique de 11% (voir prompts-hunter-skeptic.md). La majorité des corrections sont des erreurs de nuance sur mécanismes secondaires et modificateurs plutôt que des erreurs structurantes sur domaine/gravité/dynamique — sur les 20 fiches high confidence auditées, les axes gravité et domaine primaire n'ont quasiment jamais dû être corrigés, ce qui suggère que le hunter reste fiable sur le jugement principal mais sur-interprète le multi-label secondaire (mécanismes, modificateurs) et la trajectoire temporelle. Le point le plus préoccupant est le bug de contenu détecté sur glp-cestas f10 (contamination croisée entre deux points d'une même fiche) : bien que sans conséquence sur les codes finaux ici, ce type de bug pourrait produire de vraies erreurs de classification ailleurs dans le corpus et mériterait une vérification programmatique (détection de reasoning quasi-identiques entre points adjacents d'une même fiche, hors cas de similarité légitime type \"écart levé\"). Recommandation : ne pas déployer tel quel sur de nouveaux lots sans resserrer l'heuristique m_MENACE (exiger une formule conditionnelle explicite dans constats_body, pas une inférence du contexte MED général de la fiche) et sans clarifier T2 vs T4 (T2 dès qu'un suivi explicite de constat antérieur est référencé, même si le problème persiste)."
+}

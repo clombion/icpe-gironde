@@ -1,0 +1,931 @@
+{
+  "total_audited": 130,
+  "audit_method": "Full-batch STRICT code-validity pass (all 130 records) + corpus re-read for all 5 medium-confidence records + spot-check corpus re-read of 30 high-confidence records + targeted pattern hunts across relevant subsets: MED/prefet-escalade wording check on all 15 records tagged actor=A03_PREFET or stage=S05_ESCALADE; 'obs' vs 'écart' label check on all 6 records using that site convention; 'précédente inspection' wording check on all T1-tagged records; False-M08 keyword scan on all 42 M08_CONFORMITE records.",
+  "errors_found": 59,
+  "corrections": [
+    {
+      "slug": "froneri-vayres-ex-r-r-ice-cream52013702024-12-2041147368900015f01",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "froneri-vayres-ex-r-r-ice-cream52013702024-12-2041147368900015f03",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "froneri-vayres-ex-r-r-ice-cream52013702024-12-2041147368900015f04",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M01_DOCUMENTATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE",
+          "M01_DOCUMENTATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "froneri-vayres-ex-r-r-ice-cream52013702024-12-2041147368900015f05",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M01_DOCUMENTATION",
+        "M07_CONTROLE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M01_DOCUMENTATION",
+          "M07_CONTROLE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "froneri-vayres-ex-r-r-ice-cream52013702024-12-2041147368900015f06",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M01_DOCUMENTATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M01_DOCUMENTATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "froneri-vayres-ex-r-r-ice-cream52013702024-12-2041147368900015f08",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M01_DOCUMENTATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE",
+          "M01_DOCUMENTATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "froneri-vayres-ex-r-r-ice-cream52013702024-12-2041147368900015f09",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M01_DOCUMENTATION",
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M01_DOCUMENTATION",
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaches-chimie52003752023-04-2533486219000025f01",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M01_DOCUMENTATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M01_DOCUMENTATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaches-chimie52003752023-04-2533486219000025f02",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M01_DOCUMENTATION",
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M01_DOCUMENTATION",
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaches-chimie52003752023-04-2533486219000025f03",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M17_CLASSIFICATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M17_CLASSIFICATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaches-chimie52003752023-04-2533486219000025f05",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M17_CLASSIFICATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M17_CLASSIFICATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaches-chimie52003752023-04-2533486219000025f07",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M07_CONTROLE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M07_CONTROLE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaches-chimie52003752023-04-2533486219000025f08",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaches-chimie52003752023-04-2533486219000025f10",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaches-chimie52003752023-04-2533486219000025f11",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaches-chimie52003752024-04-3033486219000025f07",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M07_CONTROLE",
+        "M06_RECIDIVE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M07_CONTROLE",
+          "M06_RECIDIVE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaches-chimie52003752024-04-3033486219000025f08",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M07_CONTROLE",
+        "M01_DOCUMENTATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M07_CONTROLE",
+          "M01_DOCUMENTATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaches-chimie52003752025-05-2733486219000025f02",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaia1000531802024-08-0981768699100024f01",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M17_CLASSIFICATION",
+        "M01_DOCUMENTATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M17_CLASSIFICATION",
+          "M01_DOCUMENTATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaia1000531802024-08-0981768699100024f04",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaia1000531802024-08-0981768699100024f05",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M01_DOCUMENTATION",
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M01_DOCUMENTATION",
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaia1000531802024-08-0981768699100024f06",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M01_DOCUMENTATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M01_DOCUMENTATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaia1000531802024-08-0981768699100024f07",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M01_DOCUMENTATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M01_DOCUMENTATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaia1000531802024-08-0981768699100024f11",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaia1000531802024-08-0981768699100024f13",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M17_CLASSIFICATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M17_CLASSIFICATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaia1000531802025-08-0181768699100024f01",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M07_CONTROLE",
+        "M08_CONFORMITE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M07_CONTROLE",
+          "M08_CONFORMITE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaia1000531802025-08-0181768699100024f04",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M01_DOCUMENTATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M01_DOCUMENTATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gaia1000531802025-08-0181768699100024f10",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M17_CLASSIFICATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M17_CLASSIFICATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "garage-costantini1000427232024-04-2592785253300011f01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07_CONTROLE",
+        "M04_MISE_EN_DEMEURE",
+        "R04"
+      ],
+      "corrected_value": [
+        "M07_CONTROLE",
+        "M04_MISE_EN_DEMEURE"
+      ],
+      "reason": "Invalid code(s) ['R04'] in mechanisms (not a M## code) — removed; value already captured correctly elsewhere (e.g. dynamic axis)."
+    },
+    {
+      "slug": "garage-costantini1000427232024-04-2592785253300011f02",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "garage-costantini1000427232025-01-1492785253300011f01",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M01_DOCUMENTATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M01_DOCUMENTATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "garage-costantini1000427232025-01-1492785253300011f02",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M07_CONTROLE",
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M07_CONTROLE",
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "garage-ultan52081912024-07-0940300238900019f01",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M19_CESSATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE",
+          "M19_CESSATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "garage-valeix1000224512023-04-2080755733500013f02",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M17_CLASSIFICATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M17_CLASSIFICATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "garbaye-sarl-ets52065472025-09-2538256190000012f02",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M01_DOCUMENTATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M01_DOCUMENTATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "garbaye-sarl-ets52065472025-09-2538256190000012f03",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M07_CONTROLE",
+        "M01_DOCUMENTATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M07_CONTROLE",
+          "M01_DOCUMENTATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "garbaye-sarl-ets52065472025-09-2538256190000012f05",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M07_CONTROLE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M07_CONTROLE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "garbaye-sarl-ets52065472025-09-2538256190000012f08",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gazechim-sa52014012023-08-1754292008700062f02",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gazechim-sa52014012023-08-1754292008700062f06",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gazechim-sa52014012023-08-1754292008700062f07",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gazechim-sa52014012025-04-2954292008700062f04",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M01_DOCUMENTATION",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M01_DOCUMENTATION"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gazechim-sa52014012025-04-2954292008700062f09",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gazechim-sa52014012025-04-2954292008700062f12",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gazechim-sa52014012025-04-2954292008700062f14",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "gazechim-sa52014012025-04-2954292008700062f15",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "germain-steve1000378932024-01-15nosiretf03",
+      "field": "mechanisms/modifiers",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "m_DELAI"
+      ],
+      "corrected_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "reason": "Modifier(s) ['m_DELAI'] misplaced in mechanisms per STRICT rule — moved to modifiers array."
+    },
+    {
+      "slug": "garage-valeix1000224512023-04-2080755733500013f01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M04_MISE_EN_DEMEURE"
+      ],
+      "corrected_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "reason": "Hunter's own reasoning states \"Pas de MED pour le moment\" and the corpus explicitly reads \"l'inspection ne propose pas, pour le moment de mise en demeure\" — M04_MISE_EN_DEMEURE contradicts the source text."
+    },
+    {
+      "slug": "froneri-vayres-ex-r-r-ice-cream52013702024-12-2041147368900015f01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "Finding concerns two auxiliary staff lacking training attestations (\"n'ont pas formellement suivi la formation\"), matching M01_DOCUMENTATION's 'attestations' signal, not a physical/technical NC (M14). The inspection also only 'suggère' rather than formally demands."
+    },
+    {
+      "slug": "gaia1000531802024-08-0981768699100024f12",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "Corpus labels this finding 'obs :' (observation) not 'écart :' (NC) — same convention as sibling record f13 in this batch, which Hunter correctly tagged G2. Incertitude on system sizing demonstration is documentary/formal, not a confirmed physical NC."
+    },
+    {
+      "slug": "garbaye-sarl-ets52065472025-09-2538256190000012f05",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R10",
+      "reason": "Exploitant does not claim ignorance of the obligation; he argues on technical grounds that green wood produces no dust. The inspection explicitly refutes this with a counter-technical argument (norm citation) — a contested diagnostic (R10_TENSION), not méconnaissance (R04)."
+    },
+    {
+      "slug": "garbaye-sarl-ets52065472025-09-2538256190000012f07",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M07_CONTROLE"
+      ],
+      "corrected_value": [
+        "M07_CONTROLE"
+      ],
+      "reason": "Periodic groundwater analysis (M07_CONTROLE) functioning correctly per prescriptions detected a concentration anomaly the report itself attributes most likely to external malveillance, not an installation-level physical/technical NC (M14) by the exploitant."
+    },
+    {
+      "slug": "garbaye-sarl-ets52065472025-09-2538256190000012f07",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "A formal 'Demande à formuler' exists (continued surveillance attention required), which is an injunction (S02) rather than a pure observation (S01)."
+    },
+    {
+      "slug": "gery-philippe52132442022-11-2435329211300027f01",
+      "field": "actor",
+      "hunter_value": "A03_PREFET",
+      "corrected_value": "A02_INSPECTION",
+      "reason": "Corpus contains no mention of a mise en demeure or préfet escalation — the inspection directly instructs the exploitant to regularize the cessation procedure."
+    },
+    {
+      "slug": "gery-philippe52132442022-11-2435329211300027f01",
+      "field": "stage",
+      "hunter_value": "S05_ESCALADE",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "No MED/escalade in text; this is a formal injunction (S02), not S05_ESCALADE."
+    },
+    {
+      "slug": "gb-autos1000118212022-11-2545164594900012f01",
+      "field": "actor",
+      "hunter_value": "A03_PREFET",
+      "corrected_value": "A02_INSPECTION",
+      "reason": "Corpus contains no mise en demeure or préfet escalation — the inspection itself asks the exploitant to regularize within 3 months (enregistrement or cessation)."
+    },
+    {
+      "slug": "gb-autos1000118212022-11-2545164594900012f01",
+      "field": "stage",
+      "hunter_value": "S05_ESCALADE",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "No MED/escalade in text; this is a formal injunction (S02), not S05_ESCALADE."
+    },
+    {
+      "slug": "germain-steve1000378932025-09-17nosiretf02",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R02",
+      "reason": "Text explicitly: \"M. GERMAIN s'est engagé à aider M. DESPRES à résorber la décharge\" — an explicit future commitment, matching R02_PROMESSE, not the neutral default R14."
+    },
+    {
+      "slug": "germain-steve1000378932025-09-17nosiretf02",
+      "field": "trajectory",
+      "hunter_value": "T5",
+      "corrected_value": "T6",
+      "reason": "New waste ('déchets supplémentaires... ont été ajoutés') on top of the still-unresolved prior dump matches T6_ACCUMULATION's signal ('s'ajoute') more precisely than general T5_AGGRAVATION."
+    }
+  ],
+  "false_positive_rate": 0.062,
+  "false_positive_rate_note": "Computed on substantive classification errors only (8 of 130 records, 6.2%), excluding the systematic STRICT-formatting fix (m_DELAI misplaced in `mechanisms` instead of `modifiers`, affecting 46 records, plus one stray R04 code in `mechanisms`) which is a mechanical rule violation rather than a classification judgment error. Including the mechanical fixes, 53/130 records (40.8%) were changed in some field.",
+  "error_patterns": "1) Systematic STRICT violation: Hunter placed the m_DELAI modifier inside the `mechanisms` array instead of `modifiers` in 46/130 records (35%) — a mechanical, consistent mistake, not a judgment error. One record (garage-costantini...f01) also had the dynamic-axis code R04 stray inside `mechanisms`. 2) MED/escalade over-attribution: 2 records (gery-philippe...f01, gb-autos...f01) were tagged actor=A03_PREFET / stage=S05_ESCALADE with no mise-en-demeure or préfet mention anywhere in the corpus — Hunter appears to pattern-match 'activité illégale' + G4 to an escalade stage even when the text describes a plain inspection injunction. One further record (garage-valeix...f01) kept M04_MISE_EN_DEMEURE in `mechanisms` despite its own reasoning field stating 'Pas de MED pour le moment', and despite the tag correctly using S02_INJONCTION. 3) M14 over-extension: 2 records mislabeled a documentary/procedural finding (missing training attestations; a lab-detected groundwater anomaly attributed to probable external malveillance) as M14_CONSTAT_TECHNIQUE (physical/technical NC) rather than M01_DOCUMENTATION or M07_CONTROLE. 4) R02/R04 default drift: one record (garbaye...f05) tagged R04_MECONNAISSANCE for a contested technical argument (diagnostic dispute, not ignorance of the obligation) — should be R10_TENSION; another (germain-steve...2025f02) used the neutral default R14 despite an explicit future commitment ('s'est engagé à aider...') that matches R02_PROMESSE, with trajectory T5 where the accumulation signal (T6) fit better. 5) Gravity: one record (gaia...f12) was tagged G3 despite the site's own report using the milder 'obs :' label (vs 'écart :' used elsewhere in the same corpus for confirmed NCs) — corrected to G2 to match its sibling record already tagged G2 under the same convention.",
+  "verdict": "Hunter's substantive classification quality is good: 8/130 records (6.2%) needed a judgment correction, well under the <15% target, M15_AUTRE usage is 0%, and the 3 R02_PROMESSE and ~13 M17_CLASSIFICATION assignments checked were all well-supported by explicit textual signals. The dominant issue in this batch is purely mechanical: Hunter consistently placed the m_DELAI modifier inside `mechanisms` instead of `modifiers` (46/130 records), which would have failed STRICT validation on every affected record if left uncorrected. final-35.json fixes all of these plus the 8 substantive errors and passes scripts/tag_status.py with zero validation errors."
+}

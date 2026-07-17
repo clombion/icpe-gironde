@@ -1,0 +1,79 @@
+{
+  "total_audited": 31,
+  "errors_found": 10,
+  "corrections": [
+    {
+      "slug": "cobas-dechetterie-gujan-mestras52119592023-02-10nosiretf07",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R02",
+      "reason": "Texte: \"L'exploitant justifie que le bac à huiles de vidange est double-peau sous 15 jours\" — engagement explicite à fournir une preuve dans un délai futur, signal R02 (promesse), pas R14 (NC neutre)."
+    },
+    {
+      "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632022-10-2145620101100016f03",
+      "field": "mechanisms",
+      "hunter_value": ["M14"],
+      "corrected_value": ["M01"],
+      "reason": "Système de sélection EE 'en cours de rédaction dans la procédure d'achat' — NC documentaire/procédurale (processus à formaliser), aucune observation physique sur site. M14 réservé aux constats techniques observés sur site."
+    },
+    {
+      "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632022-10-2145620101100016f05",
+      "field": "mechanisms",
+      "hunter_value": ["M14"],
+      "corrected_value": ["M01"],
+      "reason": "Formation 'accueil sécurité' incomplète et plan de prévention imprécis sur les consignes d'évacuation — lacunes de contenu documentaire, pas de constat physique. M01, pas M14."
+    },
+    {
+      "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632022-10-2145620101100016f06",
+      "field": "mechanisms",
+      "hunter_value": ["M14"],
+      "corrected_value": ["M01", "M14"],
+      "reason": "Deux constats distincts: absence de traçabilité de la participation des EE aux exercices POI (documentaire = M01) ET un chauffeur n'a pas entendu l'alarme lors de l'exercice de nov. 2021 (constat technique d'audibilité = M14). Hunter n'avait retenu que M14, manque le multi-label M01."
+    },
+    {
+      "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632022-10-2145620101100016f06",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Le chauffeur n'ayant pas entendu l'alarme PPI lors d'un exercice constitue un écart technique avec risque potentiel (défaut de couverture d'alarme en cas d'urgence réelle sur site Seveso) = G3 minimum, pas G2 (qui suppose une NC purement documentaire sans dimension physique)."
+    },
+    {
+      "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632022-10-2145620101100016f11",
+      "field": "gravity",
+      "hunter_value": "G4",
+      "corrected_value": "G6",
+      "reason": "\"Il a été constaté la présence d'une fuite... et d'un écoulement d'hydrocarbures au sol\" — événement de pollution déjà survenu (déversement), pas seulement un risque identifié. G6_INCIDENT s'applique, pas G4."
+    },
+    {
+      "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-01-2445620101100016f10",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G6",
+      "reason": "Incident déclaré: accrochage du bras de chargement GPL avec fuite de gaz liquide de 15kg — événement déjà survenu (incident/fuite), correspond à G6_INCIDENT et non à G3 (risque potentiel non matérialisé)."
+    },
+    {
+      "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-10-0845620101100016f02",
+      "field": "mechanisms",
+      "hunter_value": ["M14"],
+      "corrected_value": ["M01"],
+      "reason": "Demande de vérifier que les MMR/EIPS sont bien couvertes dans l'ARF (document); l'exploitant n'a apporté aucun élément — lacune de preuve documentaire, pas de constat physique sur site. M01, pas M14."
+    },
+    {
+      "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632025-06-1145620101100016f04",
+      "field": "mechanisms",
+      "hunter_value": ["M14"],
+      "corrected_value": ["M01"],
+      "reason": "La consigne de perte d'alimentation électrique est incomplète (numéros de téléphone utiles absents) — lacune de contenu documentaire dans une fiche écrite, pas un constat physique. M01, pas M14."
+    },
+    {
+      "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632025-06-1145620101100016f14",
+      "field": "mechanisms",
+      "hunter_value": ["M14"],
+      "corrected_value": ["M01"],
+      "reason": "La fiche 'Nettoyage et remise en état' du POI reste à compléter (liste des moyens de nettoyage absente) — lacune de contenu documentaire, pas un constat physique observé sur site. M01, pas M14."
+    }
+  ],
+  "false_positive_rate": 0.29,
+  "error_patterns": "9/130 fiches (7%) corrigées, 10 champs modifiés. Dominante: fausse M14 attribuée à des NC purement documentaires/procédurales (formation, consigne, plan de prévention, tableau de suivi, ARF non complétée) — 6 occurrences, toutes sur le site COBOGAL, concentrées sur les inspections 2022-10-21, 2024-10-08 et 2025-06-11 (probablement un biais du Hunter à sur-utiliser M14 dès qu'un document ou une procédure interne est en cause, même sans observation physique sur site). Gravité sous-estimée sur 2 fiches où un événement de pollution/fuite s'était déjà produit (fuite GPL 15kg, écoulement d'hydrocarbures au sol) et avait été classé G3/G4 (risque potentiel) au lieu de G6_INCIDENT (événement survenu) — le Hunter ne semble pas distinguer 'risque identifié' de 'événement déjà matérialisé'. Un multi-label manqué (fiche combinant un défaut documentaire et un défaut technique d'audibilité d'alarme, seul M14 retenu) a entraîné une gravité également sous-évaluée sur le même enregistrement. Une sous-attribution de R02 identifiée (engagement de l'exploitant à fournir une preuve sous 15 jours classé R14 au lieu de R02). Aucune erreur de validité stricte des codes (tous les codes du Hunter étaient déjà des ids exacts de la taxonomie, aucun champ manquant, aucun modificateur mal placé, aucune valeur jointe sur un champ mono-valué). Aucun cas de faux M08, faux M17, ou R02 sur-attribué détecté dans l'échantillon audité.",
+  "verdict": "Bonne qualité globale (93% des fiches auditées confirmées sans changement, aucune violation de validité stricte des codes, 0% M15). Le seul défaut systématique identifiable est la confusion M14/M01 pour les non-conformités organisationnelles ou documentaires sur le site Seveso COBOGAL, corrigée dans ce batch. Les axes gravité et trajectoire sont globalement bien calibrés à l'exception des 2 cas d'incident déjà survenu mal classés en risque potentiel plutôt qu'en G6."
+}

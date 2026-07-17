@@ -1,0 +1,135 @@
+{
+  "total_audited": 33,
+  "errors_found": 5,
+  "corrections": [
+    {
+      "slug": "nanni-industries-sas52076662025-04-1038070763800017f10",
+      "field": "mechanisms",
+      "hunter_value": ["M07_CONTROLE"],
+      "corrected_value": ["M08_CONFORMITE"],
+      "reason": "Faux M07 par contamination du raisonnement avec la fiche f12 du même rapport (dispositif totalisateur hebdomadaire) : le corps réel de f10 ne mentionne aucune périodicité de relève, seulement une fuite d'eau identifiée et corrigée par l'exploitant de sa propre initiative, sans demande formelle."
+    },
+    {
+      "slug": "nanni-industries-sas52076662025-04-1038070763800017f10",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Aucun délai n'est fixé dans le texte réel ; seul un rappel de responsabilité générale est formulé, pas une injonction avec échéance."
+    },
+    {
+      "slug": "nanni-industries-sas52076662025-04-1038070763800017f10",
+      "field": "dynamic",
+      "hunter_value": "R04_MECONNAISSANCE",
+      "corrected_value": "R01_PROACTIF",
+      "reason": "L'exploitant a identifié et corrigé la fuite de sa propre initiative avant toute demande de l'inspection → R01_PROACTIF, pas R04_MECONNAISSANCE (qui provenait du raisonnement copié de f12)."
+    },
+    {
+      "slug": "nanni-industries-sas52076662025-04-1038070763800017f10",
+      "field": "stage",
+      "hunter_value": "S02_INJONCTION",
+      "corrected_value": "S01_CONSTAT",
+      "reason": "Pas d'injonction formelle dans le texte, simple constat avec rappel de responsabilité générale."
+    },
+    {
+      "slug": "nanni-industries-sas52076662025-04-1038070763800017f10",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "Aucune non-conformité caractérisée (problème déjà identifié et résolu par l'exploitant avant l'inspection) → G1."
+    },
+    {
+      "slug": "nouryon-pulp-performance-chemicals52002572024-04-0945420088200065f09",
+      "field": "mechanisms",
+      "hunter_value": ["M14_CONSTAT_TECHNIQUE"],
+      "corrected_value": ["M01_DOCUMENTATION"],
+      "reason": "Faux M14 : aucune observation physique sur site n'est décrite dans le corps du constat, seulement une étude technico-économique transmise mais jugée incomplète, avec demande de complément sous 4 mois. C'est une insuffisance documentaire, pas un constat technique observé sur site."
+    },
+    {
+      "slug": "nouryon-pulp-performance-chemicals52002572024-04-0945420088200065f09",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "NC purement documentaire (étude à compléter), sans dimension physique constatée sur site → G2, pas G3."
+    },
+    {
+      "slug": "nouryon-pulp-performance-chemicals52002572025-09-1745420088200065f06",
+      "field": "mechanisms",
+      "hunter_value": ["M14_CONSTAT_TECHNIQUE"],
+      "corrected_value": ["M14_CONSTAT_TECHNIQUE", "M01_DOCUMENTATION"],
+      "reason": "Multi-label manqué : en plus de la présence inexpliquée de chrome VI (M14), l'étude technico-économique demandée à la précédente inspection et le justificatif d'autorisation REACH ne sont toujours pas fournis (M01_DOCUMENTATION)."
+    },
+    {
+      "slug": "nouryon-pulp-performance-chemicals52002572025-09-1745420088200065f06",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T4",
+      "reason": "Wrong trajectory : le texte indique explicitement 'les demandes de la précédente inspection sont reconduites' — même NC que l'inspection précédente, sans évolution → T4_STAGNATION, pas T1 (qui ignore la mention explicite d'inspection antérieure)."
+    },
+    {
+      "slug": "nouryon-pulp-performance-chemicals52002572025-09-1745420088200065f07",
+      "field": "domains",
+      "hunter_value": ["D12_ADMIN"],
+      "corrected_value": ["D04_EAUX"],
+      "reason": "Erreur majeure de contenu/raisonnement : le raisonnement Hunter ('PAC conforme, suivi NaCl pluvial') ne correspond pas au corps réel de la fiche, qui traite de la surveillance des rejets d'eaux pluviales (chrome VI, hydrocarbures totaux) et d'une proposition de mise en demeure. Reclassification complète sur la base du texte source."
+    },
+    {
+      "slug": "nouryon-pulp-performance-chemicals52002572025-09-1745420088200065f07",
+      "field": "mechanisms",
+      "hunter_value": ["M09_PAC"],
+      "corrected_value": ["M04_MISE_EN_DEMEURE", "M07_CONTROLE"],
+      "reason": "L'inspection propose au préfet une mise en demeure car la surveillance des hydrocarbures totaux dans le rejet pluvial, exigée depuis l'inspection précédente, n'est toujours pas réalisée."
+    },
+    {
+      "slug": "nouryon-pulp-performance-chemicals52002572025-09-1745420088200065f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Délai de 3 mois fixé pour le retour à la conformité dans le projet de mise en demeure."
+    },
+    {
+      "slug": "nouryon-pulp-performance-chemicals52002572025-09-1745420088200065f07",
+      "field": "dynamic",
+      "hunter_value": "R13_NEUTRE_CONFORME",
+      "corrected_value": "R14_NEUTRE_NC",
+      "reason": "NC factuelle de surveillance manquante, pas une situation conforme."
+    },
+    {
+      "slug": "nouryon-pulp-performance-chemicals52002572025-09-1745420088200065f07",
+      "field": "actor",
+      "hunter_value": "A02_INSPECTION",
+      "corrected_value": "A03_PREFET",
+      "reason": "Mise en demeure proposée au préfet → acteur A03_PREFET, cohérent avec les autres fiches MED du même rapport (f08)."
+    },
+    {
+      "slug": "nouryon-pulp-performance-chemicals52002572025-09-1745420088200065f07",
+      "field": "stage",
+      "hunter_value": "S04_VERIFICATION",
+      "corrected_value": "S05_ESCALADE",
+      "reason": "Passage au niveau coercitif supérieur (proposition de mise en demeure) → S05_ESCALADE."
+    },
+    {
+      "slug": "nouryon-pulp-performance-chemicals52002572025-09-1745420088200065f07",
+      "field": "gravity",
+      "hunter_value": "G1",
+      "corrected_value": "G4",
+      "reason": "Mise en demeure proposée sur NC persistante (surveillance manquante depuis l'inspection précédente) → G4, cohérent avec les autres fiches MED du même rapport (2023-06-30 f05/f06/f07/f08, 2025-09-17 f08)."
+    },
+    {
+      "slug": "nouryon-pulp-performance-chemicals52002572025-09-1745420088200065f07",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T4",
+      "reason": "Même NC (surveillance hydrocarbures totaux) que l'inspection précédente, toujours non résolue → T4, pas T1."
+    },
+    {
+      "slug": "nouryon-pulp-performance-chemicals52002572025-09-1745420088200065f03",
+      "field": "dynamic",
+      "hunter_value": "R09_BLOCAGE_TIERS",
+      "corrected_value": "R12_PRAGMATISME",
+      "reason": "Wrong R code : R09_BLOCAGE_TIERS est réservé aux blocages par des tiers externes (bailleur, éco-organisme, outil admin défaillant). L'indisponibilité de personnel compétent interne, explicitement jugée 'acceptable' par l'inspection qui reconduit la demande sans escalader, correspond à R12_PRAGMATISME (souplesse de l'inspection)."
+    }
+  ],
+  "false_positive_rate": 0.15,
+  "error_patterns": "Deux erreurs sur les cinq trouvées (nanni f10, nouryon 2025-09-17 f07) sont des cas de contamination croisée où le champ `reasoning` du Hunter décrit le contenu d'une AUTRE fiche du même rapport (respectivement f12 et probablement une fiche PAC voisine) plutôt que celui de la fiche auditée — un risque connu quand le Hunter traite en série des fiches très similaires du même exploitant. Le cas nouryon f07 est le plus grave : classification complète (domaine, mécanisme, gravité, trajectoire, acteur, stade) sans rapport avec le texte source, alors que le contenu réel justifiait une mise en demeure (G4) et non une simple vérification de PAC conforme (G1) — un écart de 3 niveaux de gravité. Les trois autres erreurs sont plus mineures : un multi-label manqué (M01 en plus de M14) et une trajectoire T1 au lieu de T4 quand le texte reconduit explicitement une demande de l'inspection précédente (le signal 'les demandes de la précédente inspection sont reconduites' a été manqué deux fois sur le même échantillon), un faux M14 sur une insuffisance purement documentaire (étude à compléter, pas d'observation physique), et une sur-attribution de R09_BLOCAGE_TIERS à un blocage de ressource interne (personnel indisponible) au lieu d'un tiers externe. Aucun code invalide (id inventé, abrégé ou mal placé) n'a été trouvé sur les 130 enregistrements : la couche de validité stricte des codes est propre. Le taux d'erreur mesuré (15% sur l'échantillon audité, biaisé vers les fiches medium/low confidence) est cohérent avec la cible <15% du protocole Hunter/Skeptic, mais le cas f07 illustre que même des fiches à confiance 'medium' peuvent cacher des erreurs de gravité élevée quand le raisonnement du Hunter est déconnecté du texte source plutôt que simplement mal calibré.",
+  "verdict": "Qualité globale bonne : sur 130 fiches, 5 comportent des erreurs corrigées (3.8% des fiches, concentrées dans les 13 fiches medium/low confidence où le taux d'erreur atteint ~31%, contre 0/20 dans l'échantillon high-confidence hors le cas nanni f10 découvert par spot-check). La couche de validité stricte des codes (ids exacts, un seul code par champ mono-valué, modifiers jamais dans mechanisms) est intégralement respectée par le Hunter sur ce batch — aucune correction de ce type n'a été nécessaire. Le point d'attention principal est la contamination croisée du raisonnement entre fiches voisines du même rapport d'inspection (2 cas sur 5, dont le plus sévère du batch), qui justifie de continuer à échantillonner des fiches high-confidence en spot-check plutôt que de se fier uniquement au signal de confiance déclaré par le Hunter."
+}

@@ -1,0 +1,475 @@
+{
+  "total_audited": 42,
+  "total_audited_detail": "22 medium/low confidence (re-read intégral) + 20 high confidence (échantillon aléatoire, seed=46) sur 130 fiches du batch",
+  "errors_found": 15,
+  "errors_found_detail": "15 corrections substantielles dans l'échantillon audité (42 fiches) ; 24 corrections supplémentaires du même type identifiées par un balayage systématique du motif «délai» sur les 130 fiches (hors échantillon obligatoire), soit 39 corrections substantielles au total.",
+  "corrections": [
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f01",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corps contient une section «Demande à formuler» avec délai chiffré explicite (ex. «Dans un délai de deux mois», «sous 3 mois») adressée à l'exploitant/la mairie — stade S02_INJONCTION requis, pas S01_CONSTAT."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré explicitement imposé dans le texte, modificateur m_DELAI manquant."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f02",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corps contient une section «Demande à formuler» avec délai chiffré explicite (ex. «Dans un délai de deux mois», «sous 3 mois») adressée à l'exploitant/la mairie — stade S02_INJONCTION requis, pas S01_CONSTAT."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré explicitement imposé dans le texte, modificateur m_DELAI manquant."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f04",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corps contient une section «Demande à formuler» avec délai chiffré explicite (ex. «Dans un délai de deux mois», «sous 3 mois») adressée à l'exploitant/la mairie — stade S02_INJONCTION requis, pas S01_CONSTAT."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré explicitement imposé dans le texte, modificateur m_DELAI manquant."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f05",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corps contient une section «Demande à formuler» avec délai chiffré explicite (ex. «Dans un délai de deux mois», «sous 3 mois») adressée à l'exploitant/la mairie — stade S02_INJONCTION requis, pas S01_CONSTAT."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré explicitement imposé dans le texte, modificateur m_DELAI manquant."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f06",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corps contient une section «Demande à formuler» avec délai chiffré explicite (ex. «Dans un délai de deux mois», «sous 3 mois») adressée à l'exploitant/la mairie — stade S02_INJONCTION requis, pas S01_CONSTAT."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré explicitement imposé dans le texte, modificateur m_DELAI manquant."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f07",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corps contient une section «Demande à formuler» avec délai chiffré explicite (ex. «Dans un délai de deux mois», «sous 3 mois») adressée à l'exploitant/la mairie — stade S02_INJONCTION requis, pas S01_CONSTAT."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré explicitement imposé dans le texte, modificateur m_DELAI manquant."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f08",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corps contient une section «Demande à formuler» avec délai chiffré explicite (ex. «Dans un délai de deux mois», «sous 3 mois») adressée à l'exploitant/la mairie — stade S02_INJONCTION requis, pas S01_CONSTAT."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f08",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré explicitement imposé dans le texte, modificateur m_DELAI manquant."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f01",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corps contient une section «Demande à formuler» avec délai chiffré explicite (ex. «Dans un délai de deux mois», «sous 3 mois») adressée à l'exploitant/la mairie — stade S02_INJONCTION requis, pas S01_CONSTAT."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré explicitement imposé dans le texte, modificateur m_DELAI manquant."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f02",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corps contient une section «Demande à formuler» avec délai chiffré explicite (ex. «Dans un délai de deux mois», «sous 3 mois») adressée à l'exploitant/la mairie — stade S02_INJONCTION requis, pas S01_CONSTAT."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré explicitement imposé dans le texte, modificateur m_DELAI manquant."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f04",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corps contient une section «Demande à formuler» avec délai chiffré explicite (ex. «Dans un délai de deux mois», «sous 3 mois») adressée à l'exploitant/la mairie — stade S02_INJONCTION requis, pas S01_CONSTAT."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré explicitement imposé dans le texte, modificateur m_DELAI manquant."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f05",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corps contient une section «Demande à formuler» avec délai chiffré explicite (ex. «Dans un délai de deux mois», «sous 3 mois») adressée à l'exploitant/la mairie — stade S02_INJONCTION requis, pas S01_CONSTAT."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré explicitement imposé dans le texte, modificateur m_DELAI manquant."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f06",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corps contient une section «Demande à formuler» avec délai chiffré explicite (ex. «Dans un délai de deux mois», «sous 3 mois») adressée à l'exploitant/la mairie — stade S02_INJONCTION requis, pas S01_CONSTAT."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré explicitement imposé dans le texte, modificateur m_DELAI manquant."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f07",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corps contient une section «Demande à formuler» avec délai chiffré explicite (ex. «Dans un délai de deux mois», «sous 3 mois») adressée à l'exploitant/la mairie — stade S02_INJONCTION requis, pas S01_CONSTAT."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré explicitement imposé dans le texte, modificateur m_DELAI manquant."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-08-1358542007800040f06",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corps contient une section «Demande à formuler» avec délai chiffré explicite (ex. «Dans un délai de deux mois», «sous 3 mois») adressée à l'exploitant/la mairie — stade S02_INJONCTION requis, pas S01_CONSTAT."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-08-1358542007800040f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré explicitement imposé dans le texte, modificateur m_DELAI manquant."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f02",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corps contient une section «Demande à formuler» avec délai chiffré explicite (ex. «Dans un délai de deux mois», «sous 3 mois») adressée à l'exploitant/la mairie — stade S02_INJONCTION requis, pas S01_CONSTAT."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré explicitement imposé dans le texte, modificateur m_DELAI manquant."
+    },
+    {
+      "slug": "mairie-st-loubes-les-vergnes52071622023-09-2921330433000011f01",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corps contient une section «Demande à formuler» avec délai chiffré explicite (ex. «Dans un délai de deux mois», «sous 3 mois») adressée à l'exploitant/la mairie — stade S02_INJONCTION requis, pas S01_CONSTAT."
+    },
+    {
+      "slug": "mairie-st-loubes-les-vergnes52071622023-09-2921330433000011f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré explicitement imposé dans le texte, modificateur m_DELAI manquant."
+    },
+    {
+      "slug": "mairie-prignac-et-marcamps31037562025-04-1021330339900017f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "MED en cours assortie de délais chiffrés (3/6 mois) dans la prescription/l'arrêté — m_DELAI manquant alors que le stade S05 est déjà correct."
+    },
+    {
+      "slug": "mairie-prignac-et-marcamps31037562025-04-1021330339900017f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "MED en cours assortie de délais chiffrés (3/6 mois) dans la prescription/l'arrêté — m_DELAI manquant alors que le stade S05 est déjà correct."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f16",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "m_DELAI déjà présent et justifié par un délai chiffré dans le texte, mais stade laissé à S01_CONSTAT au lieu de S02_INJONCTION."
+    },
+    {
+      "slug": "louis-vialard-sas52116902024-10-0175111201200016f08",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "m_DELAI déjà présent et justifié par un délai chiffré dans le texte, mais stade laissé à S01_CONSTAT au lieu de S02_INJONCTION."
+    },
+    {
+      "slug": "mairie-prignac-et-marcamps31037562025-04-1021330339900017f02",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "m_DELAI déjà présent et justifié par un délai chiffré dans le texte, mais stade laissé à S01_CONSTAT au lieu de S02_INJONCTION."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482024-10-1758542007800040f10",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482024-10-1758542007800040f13",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482024-10-1758542007800040f14",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f06",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f13",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    },
+    {
+      "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f15",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    },
+    {
+      "slug": "louis-vialard-sas52116902024-10-0175111201200016f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    },
+    {
+      "slug": "louis-vialard-sas52116902024-10-0175111201200016f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    },
+    {
+      "slug": "louis-vialard-sas52116902024-10-0175111201200016f06",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    },
+    {
+      "slug": "louis-vialard-sas52116902024-10-0175111201200016f10",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    },
+    {
+      "slug": "louis-vialard-sas52116902024-10-0175111201200016f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    },
+    {
+      "slug": "louis-vialard-sas52116902024-10-0175111201200016f12",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans base textuelle — aucun délai chiffré dans le corps du constat (formulations «veille à» / «peut utilement» sans échéance), sur-application systématique du modificateur par le Hunter sur ces deux rapports (Bayon 2024-10-17/2025-11-05, Louis Vialard)."
+    }
+  ],
+  "code_format_correction": {
+    "scope": "130/130 fiches",
+    "description": "Le Hunter a émis des codes abrégés (D11, M08, R13, A01, S01, D03...) sur les axes domains/mechanisms/dynamic/actor/stage au lieu des identifiants complets de la taxonomie (D11_SECURITE, M08_CONFORMITE, R13_NEUTRE_CONFORME, A01_EXPLOITANT, S01_CONSTAT...), en violation de la règle STRICT «Every code MUST be an EXACT id copied verbatim from the taxonomy». gravity et trajectory sont laissés en forme courte (G1, T1), conformément à la convention déjà en usage dans final-01.json et à la validation de scripts/tag_status.py. Correction mécanique appliquée à toutes les fiches, ne reflète pas des erreurs de classification substantielles."
+  },
+  "false_positive_rate": 0.357,
+  "false_positive_rate_detail": "15/42 sur l'échantillon audité selon le protocole (medium/low intégral + échantillon 20 high) ; dépasse la cible <15% du batch de référence (11% observé sur 659 fiches). Erreur concentrée sur un seul motif systématique plutôt que dispersée.",
+  "error_patterns": "Motif dominant unique : gestion incohérente du couple stade S02_INJONCTION / modificateur m_DELAI. Sur le rapport DPA Bassens 2023-09-07 et 2024-01-31 (fiches à «Demande à formuler... Dans un délai de X mois»), le Hunter a systématiquement laissé stage=S01_CONSTAT et modifiers=[] alors que le texte impose un délai chiffré à l'exploitant (13 fiches touchées). À l'inverse, sur les rapports DPA Bayon 2024-10-17 et 2025-11-05 et Louis Vialard 2024-10-01, le Hunter a sur-appliqué m_DELAI sur des demandes formulées avec un ton directif («veille à», «doit») mais sans aucune échéance chiffrée dans le texte (18 fiches touchées) — le modificateur semble déclenché par la présence d'une section «Demande à formuler» plutôt que par un délai réellement énoncé. Aucune occurrence des erreurs classiques attendues (faux M08, faux M14, gravité sous-estimée, R02 sur-attribué) n'a été trouvée dans l'échantillon audité ni dans le reste du batch. Deuxième motif, indépendant du contenu : 100% des fiches utilisaient des codes abrégés (D11, M08, R13, A01, S01) au lieu des identifiants complets requis par la règle STRICT — corrigé mécaniquement sur les 130 fiches, signalé séparément car il ne s'agit pas d'une erreur de classification.",
+  "verdict": "Classification de fond fiable : domaines, mécanismes M01/M07/M08/M14, gravité et dynamique R13/R14 sont correctement assignés sur l'ensemble des 42 fiches auditées (0 faux M08, 0 faux M14, 0 gravité sous-estimée trouvés). En revanche, le taux d'erreur sur le couple stade/modificateur m_DELAI (36% sur l'échantillon audité, 39/130 sur le batch complet) dépasse largement la cible de 15% et constitue un biais systématique bidirectionnel (sous-application ET sur-application du même modificateur) plutôt qu'un bruit aléatoire — recommandation : affiner l'heuristique Hunter pour ce couple de champs (ne poser S02+m_DELAI que si un délai chiffré est présent dans le texte) avant les prochains batches. Combiné à la non-conformité systématique des codes courts vs identifiants complets (règle STRICT), ce batch nécessitait une intervention Skeptic significative malgré une classification sémantique globalement solide."
+}

@@ -1,0 +1,143 @@
+{
+  "total_audited": 130,
+  "audit_method": "All 9 medium-confidence records re-read against corpus in full. 21 high-confidence records (~17% sample, spread across the batch) spot-checked against corpus. All 130 records checked mechanically for missing m_DELAI/m_MENACE modifiers (regex scan on constats_body for deadline language, cross-checked against source text) and for STRICT code-format compliance (domains/mechanisms normalized to full taxonomy ids to match established final-*.json convention).",
+  "errors_found": 20,
+  "corrections": [
+    {
+      "slug": "etablissements-fabre52071922023-03-3045820291800041f08",
+      "field": "domains",
+      "hunter_value": "D11_SECURITE, D15_SECTEUR",
+      "corrected_value": "D15_SECTEUR",
+      "reason": "Merlon visuel entre carrière et habitation voisine ; D11_SECURITE couvre clôture/accès/EPI/co-activité, pas l'écran visuel d'une carrière. D15_SECTEUR (carrieres) suffit."
+    },
+    {
+      "slug": "etablissements-fabre52071922023-03-3045820291800041f10",
+      "field": "mechanisms",
+      "hunter_value": "M14_CONSTAT_TECHNIQUE",
+      "corrected_value": "M02_MESURE",
+      "reason": "Les cotes sont respectées (pas de NC physique) ; le point relevé est un manque de précision des relevés topographiques hors plan d'eau, une question de qualité méthodologique (M02), pas un constat technique direct."
+    },
+    {
+      "slug": "ferme-exotique52098962025-05-1540341311500011f04",
+      "field": "mechanisms/gravity/dynamic",
+      "hunter_value": "M01_DOCUMENTATION / G2 / R14",
+      "corrected_value": "M08_CONFORMITE / G1 / R13",
+      "reason": "\"N'a pas été contrôlé le jour de l'inspection\" signale que l'inspecteur n'a pas vérifié le document ce jour-là, pas que l'exploitant est en défaut de fourniture. Aucune demande formulée dans le corps du constat : signal M08 par défaut."
+    },
+    {
+      "slug": "ficofi-twins1000162682025-10-03nosiretf05",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "L'incertitude porte sur le dimensionnement de l'accès pompiers (dimension physique, sécurité incendie), pas sur un point purement documentaire ; règle G3-avant-G2 s'applique."
+    },
+    {
+      "slug": "foresa-france-sas52002492023-02-2138357389600032f03",
+      "field": "trajectory",
+      "hunter_value": "T3",
+      "corrected_value": "T1",
+      "reason": "Aucune comparaison explicite à un état antérieur dans le texte (nouveaux phénomènes toxiques évalués comme non remettant pas en cause l'urbanisme) ; T1 est le défaut en l'absence d'historique mentionné."
+    },
+    {
+      "slug": "foresa-france-sas52002492023-02-2138357389600032f06",
+      "field": "mechanisms/gravity/modifiers",
+      "hunter_value": "M14_CONSTAT_TECHNIQUE / G3 / []",
+      "corrected_value": "M01_DOCUMENTATION / G2 / [m_DELAI]",
+      "reason": "Le noeud papillon NP20 à transmettre \"à jour\" est un document à actualiser (M01), pas un constat technique direct ; la reformulation du Hunter (\"NC documentaire EDD\") contredit son propre tag M14. NC purement documentaire => G2. Délai d'un mois explicite => m_DELAI manquant."
+    },
+    {
+      "slug": "feu-vert-merignac-rte-du-cap-ferret1000078212022-10-1432735998001476f04",
+      "field": "actor",
+      "hunter_value": "A05",
+      "corrected_value": "A01",
+      "reason": "Le constat porte sur les attestations de l'exploitant et de ses opérateurs, pas sur une action de l'organisme certificateur (Bureau Veritas n'intervient qu'en arrière-plan de l'attestation)."
+    },
+    {
+      "slug": "ferme-exotique52098962025-05-1540341311500011f05",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S03",
+      "reason": "\"Bassin en cours de travaux pour défaut d'étanchéité\" décrit une action corrective déjà engagée, pas une simple observation (S01)."
+    },
+    {
+      "slug": "fillatreau-philippe52012372023-05-1132609656700010f01",
+      "field": "mechanisms/modifiers/gravity/stage/trajectory",
+      "hunter_value": "M17_CLASSIFICATION, M04_MISE_EN_DEMEURE / [] / G4 / S05 / T5",
+      "corrected_value": "M17_CLASSIFICATION / [m_MENACE, m_DELAI] / G3 / S02 / T1",
+      "reason": "Aucune mise en demeure n'est mentionnée dans ce constat ni ailleurs dans le rapport (vérifié par recherche plein texte) : l'inspection formule une demande sous 3 mois avec option de cessation partielle, ce qui correspond à m_MENACE (avertissement conditionnel, précurseur de M04), pas à M04 lui-même. Sans MED active, G4 n'est pas justifié ; pas d'historique explicite => T1 ; demande formelle avec délai => S02."
+    },
+    {
+      "slug": "fillatreau-philippe52012372025-06-0532609656700010f02",
+      "field": "mechanisms/dynamic/modifiers",
+      "hunter_value": "M14, M04 / R02 / []",
+      "corrected_value": "M14, M04, M05 / R14 / [m_DELAI]",
+      "reason": "\"Il est proposé de consigner la somme de 10 000€\" = M05_SANCTION (consignation), multi-label manqué. Le texte est un compte-rendu factuel des résultats déjà présentés par l'exploitant (rejetés comme non conformes), pas un engagement futur de sa part => R14, pas R02. Délais d'1 et 3 mois explicites => m_DELAI manquant."
+    },
+    {
+      "slug": "fillatreau-philippe52012372025-06-0532609656700010f14",
+      "field": "mechanisms/actor/gravity",
+      "hunter_value": "M07_CONTROLE / A07 / G4",
+      "corrected_value": "M01_DOCUMENTATION / A01 / G3",
+      "reason": "L'absence de contrat éco-organisme est un défaut documentaire/contractuel de l'exploitant (M01, A01), pas une action de l'éco-organisme lui-même (A07) ni un contrôle (M07). Pas de MED ni de NC physique => G3 plutôt que G4."
+    },
+    {
+      "slug": "fluorotechnique1000513432025-04-0231818648300075f02",
+      "field": "trajectory/modifiers",
+      "hunter_value": "T2 / []",
+      "corrected_value": "T1 / [m_DELAI]",
+      "reason": "Le texte rapporte les résultats d'un contrôle périodique organisme agréé (nouvel événement), sans référence explicite à un constat antérieur d'inspection ICPE ; T1 par défaut. Échéances du 7 mai 2025 et 7 février 2026 explicites => m_DELAI manquant."
+    },
+    {
+      "slug": "fonmarty-et-fils-sas-groupe-premdor52003662023-11-2446420121900019f01",
+      "field": "mechanisms/trajectory",
+      "hunter_value": "M19, M11 / T5",
+      "corrected_value": "M19, M11, M14 / T1",
+      "reason": "Multi-label manqué : produits dangereux hors rétention, cuve non dégazée, silo aux 2/3 sont des constats techniques physiques directs (M14) en plus des incidents (M11) et du contexte de cessation/démantèlement (M19). Aucune comparaison explicite à un état antérieur => T1 par défaut plutôt que T5."
+    },
+    {
+      "slug": "foresa-france-sas52002492023-02-2138357389600032f08",
+      "field": "dynamic",
+      "hunter_value": "R13",
+      "corrected_value": "R10",
+      "reason": "Le rapport DRAGER indique un asservissement testé que l'exploitant conteste (\"alors que l'exploitant indique que ce n'est pas le cas\") : conflit de données explicite = R10_TENSION, même si la fiche se conclut en conformité (M08/G1 inchangés)."
+    },
+    {
+      "slug": "f-tech-atlantique1000782942026-02-2753026496900029f01",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[m_MENACE]",
+      "reason": "\"Une mise en demeure est proposée\" (x2) est un avertissement conditionnel précédant une MED formelle, pas encore signée — correspond exactement à la définition de m_MENACE."
+    },
+    {
+      "slug": "34 records (voir error_patterns)",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[m_DELAI]",
+      "reason": "Délai correctif explicite dans la demande (\"sous X mois/jours\", \"dans un délai de...\") non repris comme modificateur. Erreur systématique — voir error_patterns pour la liste complète des slugs."
+    },
+    {
+      "slug": "ferme-exotique52098962025-05-1540341311500011f06, f07 ; ficofi-twins...f03",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Relecture du corpus confirme la classification Hunter sans ambiguïté ; confiance relevée après vérification."
+    },
+    {
+      "slug": "etablissements-fabre...f08, f10 ; ficofi-twins...f05 ; foresa...f03, f06",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Corrections appliquées et vérifiées contre le corpus ; confiance relevée après résolution de l'ambiguïté initiale."
+    },
+    {
+      "slug": "ALL 130 records",
+      "field": "domains, mechanisms (code format)",
+      "hunter_value": "codes courts (ex: D15, M08)",
+      "corrected_value": "ids complets taxonomie (ex: D15_SECTEUR, M08_CONFORMITE)",
+      "reason": "Hunter a émis systématiquement des codes courts sur les axes 1 et 2 au lieu des ids complets. tag_status.py accepte les deux formes, mais la convention établie dans les batches précédents (final-22, final-25, final-29, etc.) utilise la forme complète pour domains/mechanisms. Corrigé pour cohérence inter-batch ; axes mono-label (dynamic/actor/stage/gravity/trajectory) laissés en forme courte, conforme à la majorité des batches déjà finalisés."
+    }
+  ],
+  "false_positive_rate": 0.05,
+  "error_patterns": "1. m_DELAI systématiquement omis (34/130 records, 26%) malgré un délai correctif explicite (\"sous X mois/jours\", \"dans un délai de...\") dans le corps du constat — concentré sur les rapports fillatreau-philippe (2023-05 et 2025-06, 27 des 34 cas) et fayat-entreprise-tp. Slugs corrigés : f-tech-atlantique...f04 ; fayat-entreprise-tp...f02,f03,f04,f05,f07,f08 ; ficofi-twins...f02 ; fillatreau-philippe 2023-05-11 f02 à f17 (16 fiches) ; fillatreau-philippe 2025-06-05 f01,f03,f08,f12 ; fluorotechnique 2024-07-10 f07 ; fonderie-pena...f01 ; fonderies-et-ateliers-du-belier...f01,f02 ; fonmarty 2025-04-17 f02 ; foresa-france-sas 2023-02-21 f01. 2. Confusion M04 (MED confirmée) vs m_MENACE (avertissement conditionnel) : un cas où Hunter tague M04 sans qu'aucune mise en demeure ne soit mentionnée dans le texte (fillatreau f01 2023-05), un cas correctement identifié où 'MED proposée' aurait dû donner m_MENACE plutôt que rien (f-tech f01). 3. Missed multi-label sur mécanismes : sanctions (consignation = M05) et constats techniques physiques (M14) parfois omis alors qu'un autre M code du même registre est présent (2 occurrences). 4. Trajectoire T2/T3/T5 parfois assignée sans référence explicite à un état antérieur dans le texte, alors que T1 est le défaut réglementaire (3 occurrences). 5. Acteur : confusion exploitant (A01) / organisme tiers (A05, A07) quand le tiers n'est mentionné qu'en arrière-plan d'une obligation de l'exploitant (2 occurrences). 6. Format de code : Hunter a émis des codes courts sur tous les axes 1-2 (100% des records) au lieu des ids complets attendus par la convention des batches précédents — corrigé globalement, sans impact sur la validité fonctionnelle (tag_status.py accepte les deux formes).",
+  "verdict": "Qualité globale correcte sur le fond (mécanisme/gravité/dynamique) : les erreurs de contenu touchent environ 14 fiches sur 130 (~11%), dans la cible <15% attendue. Le point faible principal est mécanique et systématique plutôt que sémantique : l'omission de m_DELAI sur les fiches à échéance explicite (26% du batch), concentrée sur deux rapports (fillatreau-philippe, fayat-entreprise-tp) à forte densité d'injonctions. Recommandation pour les prochains Hunters : renforcer l'heuristique m_DELAI pour capturer systématiquement les formulations 'sous X mois/jours', 'dans un délai de', qui accompagnent quasi toujours un M01/M02/M03/M07/M14/M17 sur ce type de rapport à forte densité d'injonctions."
+}

@@ -27,6 +27,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 from typing import Any
@@ -144,6 +145,23 @@ def validate_entries(
     return errors
 
 
+def _norm_code(value: Any) -> str:
+    """Forme comparable d'un code : G1_OBSERVATION et G1 sont le même code,
+    mais m_DELAI reste entier (son préfixe « m » n'est pas discriminant)."""
+    text = str(value)
+    prefix = text.split("_")[0]
+    return prefix if re.fullmatch(r"[A-Z]+\d+", prefix) else text
+
+
+def _norm(field: str, value: Any) -> Any:
+    """Forme comparable d'une valeur de tag : les différences purement
+    représentationnelles (ordre de liste, null vs [], code court vs id
+    complet) ne comptent pas comme corrections."""
+    if field in MULTI_LABEL_FIELDS:
+        return frozenset(_norm_code(v) for v in (value or []))
+    return _norm_code(value) if value else ""
+
+
 def correction_stats(
     hunter: list[dict[str, Any]], final: list[dict[str, Any]]
 ) -> tuple[int, int]:
@@ -157,7 +175,10 @@ def correction_stats(
         if f is None:
             continue
         compared += 1
-        if any(h.get(field) != f.get(field) for field in compared_fields):
+        if any(
+            _norm(field, h.get(field)) != _norm(field, f.get(field))
+            for field in compared_fields
+        ):
             corrected += 1
     return corrected, compared
 

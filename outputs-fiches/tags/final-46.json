@@ -1,1432 +1,2361 @@
 [
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502022-09-2158542007800040f03",
-    "domains": ["D11"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Suivi des habilitations et badges d'accès. L'exploitant a indiqué les modalités d'accès avec badges permanents et renouvellement défini. Observation formulée (Obs 2+3) mais sans ECART. Demande vide. Conformité opérationnelle avec suggestion d'amélioration formelle uniquement."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502022-09-2158542007800040f04",
-    "domains": ["D11", "D03"],
-    "mechanisms": ["M01"],
+    "domains": [
+      "D11_SECURITE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
-    "gravity": "G2",
-    "trajectory": "T1"
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "ECART 2 explicite: questionnaire d'un salarié de la société de peinture ne précise pas le nombre de bonnes/mauvaises réponses. NC physique observée (document de contrôle incomplet). Formation entreprises extérieures au SGS Seveso."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502022-09-2158542007800040f05",
-    "domains": ["D11", "D03"],
-    "mechanisms": ["M14"],
+    "domains": [
+      "D11_SECURITE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Constat terrain: personne de l'entreprise extérieure non formée à la manipulation des extincteurs alors qu'un extincteur est à sa disposition. NC technique observée sur site (Obs 6: mauvaise utilisation pourrait entraîner sur-accident). Enjeu sécurité physique."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502022-09-2158542007800040f06",
-    "domains": ["D11", "D03"],
-    "mechanisms": ["M14"],
+    "domains": [
+      "D11_SECURITE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
-    "gravity": "G2",
-    "trajectory": "T1"
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Lors de l'exercice POI, le personnel EE se rend à un point de rassemblement différent de celui prescrit (à proximité du local chauffeur au lieu du rassemblement DPA). NC terrain sur les procédures d'urgence en situation réelle."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502022-09-2158542007800040f07",
-    "domains": ["D11", "D03"],
-    "mechanisms": ["M14", "M01"],
+    "domains": [
+      "D11_SECURITE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Multiples ECARTs: ECART 3 (plan de prévention sans PJ ni plans), ECART 4 (plan ne couvre pas les risques ATEX de la tranchée pétrolière), ECART 5 (évaluation risque plomb incorrecte). NC technique et documentaire avec dimension physique. Diagnostic plomb révèle présence de plomb non pris en compte."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502022-09-2158542007800040f08",
-    "domains": ["D11", "D03"],
-    "mechanisms": ["M01"],
+    "domains": [
+      "D11_SECURITE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Permis feu présenté mais contient des mentions inadaptées (bâche anti-étincelles pour soudage non prévu). Observations sur les modalités d'analyse d'atmosphère et systèmes d'alerte. NC purement documentaire/formelle sur le contenu du permis feu."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502022-09-2158542007800040f09",
-    "domains": ["D11", "D03"],
-    "mechanisms": ["M07", "M01"],
+    "domains": [
+      "D11_SECURITE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Aucun enregistrement des actions de surveillance du chantier. Aucun audit HSE réalisé alors que le chantier a démarré une semaine avant. NC de traçabilité/vérification sans dimension physique directe."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502022-09-2158542007800040f10",
-    "domains": ["D11", "D03"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D11_SECURITE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Remise en service après travaux réalisée par les équipes DPA. Observation uniquement sur la formalisation (Obs 21). Pas d'ECART. Pratique existante décrite opérationnellement correcte."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502022-09-2158542007800040f11",
-    "domains": ["D03", "D11"],
-    "mechanisms": ["M14"],
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "ECART 6 explicite: structures supportant les tuyauteries dans la tranchée pétrolière 'ne semblent pas être en bon état' (appui non effectif, tenue mécanique insuffisante). NC technique physique observée sur site sur une installation pétrolière Seveso."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502022-09-2158542007800040f12",
-    "domains": ["D08"],
-    "mechanisms": ["M14", "M01"],
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "ECART 7: exploitant n'a pas été en mesure de préciser le devenir des déchets (tuyauteries avec plomb = déchets dangereux). NC observée avec dimension physique sur gestion déchets dangereux."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-03-1058542007800040f01",
-    "domains": ["D03", "D11"],
-    "mechanisms": ["M07", "M01"],
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G3",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi contre-visite: inspection initiale 2022 avait constaté défauts VR récurrents sur infrastructure ferroviaire. En 2023, exploitant a réalisé refonte plan maintenance avec intégration GMAO et traçabilité. Amélioration notable mais VR 1 non traitée (criticité 2 selon grille interne). Trajectoire T3 car progression constatée, mais persistance partielle."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-03-1058542007800040f02",
-    "domains": ["D03", "D11"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S03",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi de la demande 2022: plan de maintenance refondu, opérations de visites courantes mensuelles intégrées, traçabilité GMAO depuis novembre 2022, fiches de vie équipements ferroviaires. NC résolue."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-03-1058542007800040f03",
-    "domains": ["D12"],
-    "mechanisms": ["M09"],
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Porter à connaissance déposé pour chargement wagons RBOB/SP98. Demande de compléments adressée à l'exploitant pour démontrer caractère non substantiel. Procédure administrative en cours, dimension purement procédurale."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-03-1058542007800040f04",
-    "domains": ["D03", "D11"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Casier de sabots/cales anti-dérive constaté à proximité du poste de chargement. Procédure de calage non examinée car aucune opération en cours. Conformité de l'équipement constatée, procédure non vérifiable le jour J."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-03-1058542007800040f05",
-    "domains": ["D03", "D01"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Sondes anti-débordement observées sur chacun des 10 postes. Activation alarme + arrêt chargement constatés. Conformité complète des équipements anti-débordement."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-03-1058542007800040f06",
-    "domains": ["D01", "D03"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Poste de chargement/déchargement équipé d'une rampe incendie commandable à distance, 3 poteaux incendie >100m3/h à moins de 100m, 3 canons 2000 l/min. Conformité pleine des moyens DCI."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-03-1058542007800040f07",
-    "domains": ["D03", "D11"],
-    "mechanisms": ["M14"],
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Au niveau du sol, l'activité de chargement wagon ne dispose pas de bouton d'arrêt d'urgence (seul le déchargement éthanol en est doté). NC technique physique sur équipement de sécurité critique. Prévu dans PAC mais non encore réalisé."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-03-1058542007800040f08",
-    "domains": ["D03", "D11"],
-    "mechanisms": ["M14"],
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Vannes de sécurité en pied de bras de chargement à actionnement manuel (non automatique). PAC prévoit mise en place de vannes de fermeture automatique. NC technique: dispositif d'isolement non conforme à l'exigence de fermeture automatique."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-03-1058542007800040f09",
-    "domains": ["D07", "D04"],
-    "mechanisms": ["M14"],
+    "domains": [
+      "D07_RETENTION",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "NC technique observée: vanne d'isolement du compartiment C1 ouverte lors de l'inspection (météo pluvieuse), sans surveillance alors qu'il n'y a pas d'opération en cours. Position/sens de manœuvre non identifiés clairement. Organisation insuffisante pour rétention déportée hydrocarbures."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f01",
-    "domains": ["D03"],
-    "mechanisms": ["M01"],
-    "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Formalisation du recensement PM2I dans la procédure 5-05 incomplète (distinction entre critères peu précise). Exploitant n'a pas recensé les tuyauteries pouvant relever du critère 4. NC documentaire sur inventaire réglementaire sans dimension physique directe."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f02",
-    "domains": ["D04", "D03"],
-    "mechanisms": ["M14"],
-    "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D04_EAUX",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Canalisation dans la tranchée pétrolière avec revêtement qui craquelle, effritement entraînant coloration orangée des eaux et dépôts s'apparentant à graisse/huile. NC physique observée sur site affectant la qualité des eaux. Propriétaire tiers."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f03",
-    "domains": ["D03"],
-    "mechanisms": ["M07", "M01"],
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "L'exploitant ne dispose pas d'outil de suivi pour justifier que les anomalies des rapports de contrôle des supportages sont levées. Les critères d'inspection/acceptabilité ne sont pas suivis malgré leur définition dans la procédure 5-05. NC technique sur maintenance des structures supportantes tuyauteries."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f04",
-    "domains": ["D03"],
-    "mechanisms": ["M01"],
-    "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Exploitant n'a pas réalisé de recensement précis des réservoirs vis-à-vis des critères AM 3/10/10 et AM 4/10/10. Mode opératoire 5-02-01 pose des questions sur l'application des arrêtés. NC documentaire sur inventaire réglementaire PM2I réservoirs."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f05",
-    "domains": ["D03"],
-    "mechanisms": ["M08"],
-    "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Gammes de contrôle présentées en inspection sans écart identifié. Exploitant réalise même des contrôles supplémentaires par rapport aux exigences PM2I. Liste des contrôles dans mode opératoire incomplète mais pratique conforme. Observation uniquement."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f06",
-    "domains": ["D03"],
-    "mechanisms": ["M01"],
-    "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Incohérences entre documents de suivi réservoir R0023 (état initial vs fiche de vie: dates de révision décennale différentes). NC documentaire: dossier de suivi individuel non autoportant, dates incohérentes pouvant entraîner décalage dans programmation des inspections."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f07",
-    "domains": ["D03"],
-    "mechanisms": ["M14"],
-    "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "22 points de contrôle non conformes identifiés lors de la recherche de tassements internes sur R0023. L'exploitant n'a pas fourni de justification suffisante sur l'acceptabilité des résultats de déformation de robe et tassements selon DT94. NC technique avec incertitude sur acceptabilité."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502023-09-0758542007800040f08",
-    "domains": ["D03"],
-    "mechanisms": ["M07"],
-    "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Tassements internes et déformation de la robe ne sont pas effectués lors des inspections externes détaillées quinquennales. Bande de protection de pied de robe non encore mise en place malgré corrosion constatée en 2017. NC technique sur programme d'inspection PM2I réservoir."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f01",
-    "domains": ["D05"],
-    "mechanisms": ["M14", "M01"],
-    "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Inventaire COV ne couvre pas l'éthanol ni les additifs. URV utilisée sur détection au bruit/odeur uniquement, pas sur données de l'analyseur. Procédure de pilotage URV non formalisée. Analyseur en amont URV hors service. NCs techniques et documentaires sur surveillance COV."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f02",
-    "domains": ["D05"],
-    "mechanisms": ["M14", "M02"],
-    "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Analyseur amont URV hors service le jour de l'inspection. Dossier COV ne se positionne pas sur les COV spécifiques H350 (benzène notamment). Affichage logiciel en m³ au lieu de Nm³ (unité non conforme). NCs sur surveillance émissions canalisées."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f03",
-    "domains": ["D05"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rejets canalisés ~15 t/an (2kg/h), bien inférieurs à 150 kg/h. Pas d'étude de dispersion requise. Hauteur de rejet URV ~4m, site dégagé, zone industrielle avec peu d'enjeu population. Conformité constatée sur hauteur et dispersion COV."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f04",
-    "domains": ["D05"],
-    "mechanisms": ["M02"],
-    "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Méthode de calcul bilan COV mensuels globalement correcte mais plusieurs points à affiner: prise en compte éthanol, facteurs Q et T, suivi arrêts URV, calcul émissions canalisées. NC méthodologique sur qualité du bilan sans dépassement avéré."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f05",
-    "domains": ["D05"],
-    "mechanisms": ["M14"],
-    "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dépassement des valeurs de référence d'émissions diffuses sur bacs 3 et 4 de JET en 2023 (47 kg vs 38 kg limite). NC technique avec dépassement VLE confirmé. Demande d'éléments et actions correctrices."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f06",
-    "domains": ["D05"],
-    "mechanisms": ["M14"],
-    "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Données constructeur des joints de toits flottants ne précisent pas le niveau de retenue globale des vapeurs (objectif 95%). NC technique: impossibilité de justifier conformité des joints par rapport au seuil réglementaire."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-01-3158542007800040f07",
-    "domains": ["D05"],
-    "mechanisms": ["M07"],
-    "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Pas de point de contrôle particulier sur la collecte de gaz allant des postes de chargement à l'URV. Exploitant propose de réaliser des campagnes de mesure d'émissions fugitives. NC sur vérification des fuites sur le réseau de collecte vapeurs."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-08-1358542007800040f01",
-    "domains": ["D04", "D01"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant a consulté toutes les FDS pour identifier les PFAS. Seule présence dans les émulseurs. Observation suggérant d'investiguer dégrippants/dégraissants et joints téflon. Conformité à l'inventaire initial constatée."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-08-1358542007800040f02",
-    "domains": ["D04"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Campagne PFAS réalisée sur 3 jours (15/02, 12/03, 3/05/2024). Analyses sur 20 PFAS obligatoires + indice AOF. Conformité sur la réalisation de la campagne elle-même."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-08-1358542007800040f03",
-    "domains": ["D04"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapports d'analyse précisent que prestataires prélèvements et analyses sont agréés/accrédités COFRAC. Conformité procédurale des organismes intervenants constatée."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-08-1358542007800040f04",
-    "domains": ["D04"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Paramètres obligatoires pris en compte, prélèvements homogènes par échantillonnage asservi au débit sur 24h dans conditions normales. Point de prélèvement correspondant aux eaux de ruissellement surfaces imperméabilisées. Conformité totale sur méthodologie."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-08-1358542007800040f05",
-    "domains": ["D04"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Limites de quantification réglementaires (100 ng/l PFAS, 2 µg/L AOF) respectées dans les rapports de mesures. Conformité sur les seuils de quantification analytiques."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-08-1358542007800040f06",
-    "domains": ["D04"],
-    "mechanisms": ["M14"],
-    "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G4",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Résultats PFAS: 7 substances sur 20 dépassent la limite réglementaire (100 ng/l) sur le point de rejet. Indice AOF aussi supérieur. Résultats homogènes sur 3 campagnes. Contamination PFAS avérée dans rejets aqueux avec plan d'investigation lancé. MED implicite dans les suites."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502024-08-1358542007800040f07",
-    "domains": ["D04", "D01"],
-    "mechanisms": ["M14"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G4",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Stockage de 70m3 d'émulseur contenant PFOA>25 ppb, interdit depuis 01/01/2023 sauf sites pouvant contenir tous rejets. Remplacement imposé avant juillet 2025. NC technique avec deadline réglementaire. Demande formelle avec délai sur programme d'action."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f01",
-    "domains": ["D03"],
-    "mechanisms": ["M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Notice de réexamen de l'étude de dangers attendue pour 31/12/2024 non fournie. Retard pris en raison de mise à jour intégrant évolutions site. Document manquant = NC documentaire. Demande formelle sous 1 mois."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f02",
-    "domains": ["D03"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "POI mis à jour en décembre 2023. Fréquence de mise à jour 3 ans respectée (dernière version avril 2020). Conformité sur le rythme de mise à jour du POI."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f03",
-    "domains": ["D03"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exercices POI réalisés tous les ans. Dernier exercice 27 août 2024 (épandage essence / feu de nappe zone wagons). Conformité sur la fréquence des exercices."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f04",
-    "domains": ["D03"],
-    "mechanisms": ["M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "POI ne justifie pas les raisons du choix des substances retenues pour les prélèvements environnementaux. Grandes familles identifiées mais certaines substances listées dans guide France Chimie (acroléine, métaux, PM2.5, dioxines) non prises en compte. NC documentaire sur contenu POI."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f05",
-    "domains": ["D03"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "POI intègre substances recherchées, mode de prélèvements, matériel, méthode analytique, limites de détection, cartographies points de prélèvement par scénario vent. Stratégie limitée à phase accidentelle (risque aigu). Observation sur stratégie post-accidentelle."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f06",
-    "domains": ["D03"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "DPA a contractualisé avec SOCOTEC (contrat 01/06/2023). Délai intervention astreinte <4h. Fiche réflexe d'alerte présente dans le POI. Conformité sur disponibilité organismes habilités pour prélèvements environnementaux."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f07",
-    "domains": ["D04"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R01",
-    "actor": "A01",
-    "stage": "S03",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi inspection 2024 PFAS: plan d'action transmis le 05/06/2025 avec 11 actions dont PFAS dans émulseurs identifiés, analyses terrain réalisées, choix émulseurs sans PFAS réalisé, destruction de 50 000L en cours, travaux en cours. Correction engagée de manière substantielle."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f08",
-    "domains": ["D04"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S03",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plan d'action DPA prévoit mesures de suppression de la source PFAS: substitution des émulseurs avec PFAS d'ici fin 2025. Action corrective de fond engagée."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f09",
-    "domains": ["D04"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "medium",
+    "reasoning": "Nouvelle campagne d'analyse PFAS dans rejets aqueux prévue début 2026 pour évaluer l'efficacité du plan d'action. Vérification post-correction planifiée."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f10",
-    "domains": ["D03", "D11"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Travaux aire de chargement wagons PAC 2023 réalisés. Lors de la visite, mise en œuvre des équipements de sécurité constatée par sondage: tube plongeur, cône récupération vapeurs, sonde anti-débordement, capteur position, vannes automatiques. Conformité post-travaux constatée."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f11",
-    "domains": ["D03", "D01"],
-    "mechanisms": ["M08", "M01"],
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "DPA n'a pas réalisé l'étude technico-économique prescrite MAIS a intégré arrête-flammes sur tous les bras essence lors de la phase de conception. Ces équipements visualisés lors de l'inspection. NC documentaire levée par mesure technique équivalente."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f12",
-    "domains": ["D03", "D11"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Mise en place constatée de 2 arrêts d'urgence par poste de chargement (5 postes): 1 au pied des bras + 1 sur passerelle haute. Équipements bien signalés. Conformité sur arrêts d'urgence."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f13",
-    "domains": ["D03", "D02"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "medium",
+    "reasoning": "Réseau de détection vapeur comprend 5 détecteurs sur zone chargement/déchargement + 1 dans compartiment C1. Conformité constatée sur présence du réseau de détection. Dimensionnement non évalué en détail."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f14",
-    "domains": ["D07", "D03"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D07_RETENTION",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Sols étanchéifiés par dalle béton, réseau d'égout vers séparateur HC puis compartiment C1. Aire suffisamment dimensionnée. 2 vannes sectionnement C1 en position fermée + vanne motorisée asservie automatiquement à la détection. Conformité rétention déportée constatée."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f15",
-    "domains": ["D03", "D11"],
-    "mechanisms": ["M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant n'a pas été en capacité de fournir les consignes d'exploitation de l'aire de chargement/déchargement. Document absent. NC documentaire sur consignes opérationnelles. Demande sous 3 mois."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f16",
-    "domains": ["D01", "D03"],
-    "mechanisms": ["M14"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "REX exercice POI 2024: rampe de refroidissement au niveau poste de chargement wagon ne permet pas de refroidir l'ensemble d'une rame. NC technique sur capacité des moyens incendie. Exploitant engagé à mener réflexion. Demande plan d'actions sous 3 mois."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bassens52051502025-06-2758542007800040f17",
-    "domains": ["D03"],
-    "mechanisms": ["M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Documents liés au poste de chargement/déchargement wagons (procédures, fiches réflexes, POI, PDI) non mis à jour suite aux travaux, à l'exception des plans PID. NC documentaire sur mise à jour post-travaux. Demande sous 1 mois."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f01",
-    "domains": ["D03", "D13"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO",
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi inspection 2021: démantèlement des équipements appontement 517 constaté. Exploitant veillera à transmettre rapport de fin d'intervention. NC résolue partiellement (démantèlement effectué, rapport à fournir)."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f02",
-    "domains": ["D13", "D03"],
-    "mechanisms": ["M14", "M01"],
-    "modifiers": [],
-    "dynamic": "R07",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D13_CESSATION",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G3",
-    "trajectory": "T2"
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Réservoirs 72-86 vidangés et mis en sécurité. Tuyauteries non exploitées non nettoyées/dégazées (impossibilité technique de raclage). Surveillance via rondes journalières tracées. NC technique sur état tuyauteries arrêtées. Observation: liste équipements à l'arrêt demandée sous 3 mois."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f03",
-    "domains": ["D04", "D13"],
-    "mechanisms": ["M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D04_EAUX",
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T2"
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Suivi FSMD 3 inspection 2021: forage F3 présente corrosion tubage. DPA et GPMB s'accordent pour arrêter utilisation et boucher forage. Programme de bouchage et travaux à réaliser fin 2023. NC documentaire/procédurale avec plan d'action défini."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f04",
-    "domains": ["D03"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi FSMD 2 et OBS5 inspection 2021: étude feu de nappe transmise (rayon 350m) + test sirène PPI efficace à 500m. Les deux demandes ont été satisfaites. NC résolue."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f05",
-    "domains": ["D03"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi OBS1+2 inspection 2021: nouvelle version POI transmise intégrant observations. Permis de construire pour PC à l'étage déposé fin 2022, travaux planifiés 2023. Deux demandes substantiellement satisfaites."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f06",
-    "domains": ["D03", "D01"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi Obs 12 inspection 2021: mise en place effective d'un second déversoir à mousse au bac 91 constatée. Observation de mise à jour PDI pour intégrer cet équipement."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f07",
-    "domains": ["D04"],
-    "mechanisms": ["M14"],
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
     "modifiers": [],
-    "dynamic": "R02",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G3",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi FSMD 4 inspection 2021 (corrosion canalisation rejet eaux industrielles): collier mis en place, scanner révèle pertes d'épaisseur notables. Exploitant s'engage à réfection (nouvelle tuyauterie inox) avant fin 2023. NC physique encore présente mais correction planifiée."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f08",
-    "domains": ["D03", "D01"],
-    "mechanisms": ["M07"],
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Test de détecteurs incendie prévu tous les 18 mois alors que prescription est annuel. Test incomplet: bon fonctionnement mise en sécurité non enregistré. NC technique sur fréquence et complétude du test de la barrière MMR critique."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f09",
-    "domains": ["D03", "D01"],
-    "mechanisms": ["M14"],
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G4",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Caméras thermiques présentes et fonctionnelles sur terrain. Mais report des images en salle de contrôle SPBA non opérationnel. NC technique: barrière de surveillance à distance inopérante. Seuil 100°C pour mise en sécurité automatique non vérifiable depuis SPBA. Dimension sécurité critique site Seveso."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f10",
-    "domains": ["D10"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A05",
-    "stage": "S04",
-    "gravity": "G1",
-    "trajectory": "T3"
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A05_ORGANISME",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle électrique Q18 05/07/2022 avec 2 observations, levée des réserves 07/12/2022, thermographie Q19 sans anomalie. NC levée mais rapport souligne absence de transmission de certains documents lors du contrôle. Observation documentaire mineure."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f11",
-    "domains": ["D10", "D03"],
-    "mechanisms": ["M01"],
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "ARF 2018 (APAVE, certifié F2C): liste des équipements/fonctions à protéger se limite aux MMR. Caméras thermiques et détecteurs flammes non identifiés. NC documentaire sur exhaustivité de l'ARF."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f12",
-    "domains": ["D10", "D03"],
-    "mechanisms": ["M01"],
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Étude technique foudre 2018 (APAVE) conclut à nécessité travaux. Mais ne donne aucune modalité de vérification et maintenance des mesures de prévention et dispositifs de protection. NC documentaire sur notice de vérification et maintenance."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f13",
-    "domains": ["D10"],
-    "mechanisms": ["M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cahier des charges valant notice de vérification/maintenance ne comprend pas les éléments minimaux exigibles (liste exhaustive protections, localisation, méthode de vérification, critères de conformité, domaines visuels/complets). NC documentaire sur contenu NVM. Demande sous 2 mois."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f14",
-    "domains": ["D10"],
-    "mechanisms": ["M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Carnet de bord foudre incomplet et non mis à jour. Ne comprend pas toutes les références requises (ARF, ET, NVM, DOE, vérifications). NC documentaire sur carnet de bord. Demande sous 1 mois."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f15",
-    "domains": ["D10"],
-    "mechanisms": ["M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "DOE (dossier d'exécution travaux foudre réalisés en 2020) non présenté lors de l'inspection. Document manquant. NC documentaire. Demande sous 15 jours."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482023-01-1358542007800040f16",
-    "domains": ["D10"],
-    "mechanisms": ["M07"],
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Agressions de la foudre non enregistrées ni suivies sur le site de Bayon. L'exploitant n'assure pas le suivi des installations dans le délai maximal d'un mois après impact foudre. NC sur contrôle post-impact. Les vérifications visuelles et complètes sont conformes (fréquences respectées) mais sans référence à la NVM."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482024-10-1758542007800040f01",
-    "domains": ["D13", "D03"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D13_CESSATION",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi demande inspection 2023: liste équipements arrêt transmise (mise à jour 31/05/2023) précisant niveau de mise en sécurité de chaque équipement. NC documentaire résolue."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482024-10-1758542007800040f02",
-    "domains": ["D04", "D13"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D04_EAUX",
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi demande inspection 2023 bouchage forage F3: rapport FORAPULSE janvier 2024 transmis justifiant rebouchage dans les règles de l'art. NC résolue."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482024-10-1758542007800040f03",
-    "domains": ["D04"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi demande inspection 2023 réfection canalisation corrodée: travaux réalisés le 6 mars 2023. Remplacement tuyauterie constaté sur terrain lors de l'inspection 17/10/2024. NC résolue et vérifiée."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482024-10-1758542007800040f04",
-    "domains": ["D03", "D01"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi demande inspection 2023: tests détecteurs réalisés annuellement (même tous les 6 mois). Plan de maintenance intègre cette fréquence. Test comprend bien toute la chaîne MMR 'détection / mise en sécurité / DCI'. NC résolue."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482024-10-1758542007800040f05",
-    "domains": ["D03", "D01"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi demande inspection 2023: caméras thermiques remplacées (hors service précédemment). Report d'image depuis SPBA rétabli. NC technique résolue."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482024-10-1758542007800040f06",
-    "domains": ["D10", "D03"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi demande inspection 2023: ARF et ET mis à jour (Bureau Véritas avril 2023) intégrant nouvelles barrières (caméras thermiques). Rapport vérification complète installations foudre 11/06/2024 atteste conformité. NC résolue."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482024-10-1758542007800040f07",
-    "domains": ["D10"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi demande inspection 2023: notice de vérification et maintenance correctement rédigée et mise à jour sur la base des nouvelles ARF et ETF (Bureau Veritas 29/06/2023). NC documentaire résolue."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482024-10-1758542007800040f08",
-    "domains": ["D10"],
-    "mechanisms": ["M07", "M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi demande inspection 2023: abonnement Météorage mis en place pour suivi impacts foudre. Gestion conforme aux exigences réglementaires. MAIS organisation non formalisée dans une procédure spécifique. NC documentaire résiduelle sur formalisation."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482024-10-1758542007800040f09",
-    "domains": ["D10"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant précise ne disposer d'aucun équipement sous pression sur le site de Bayon. Visite par sondage n'a pas mis en évidence la présence de tels équipements. Conformité (absence d'ESP)."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482024-10-1758542007800040f10",
-    "domains": ["D03"],
-    "mechanisms": ["M14", "M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Écart entre organisation théorique et réelle sur gestion inhibitions MMR: code direction theoriquement requis mais semble ne pas l'être en pratique. By-pass physiques interdits mais restriction non formalisée dans les procédures. Procédure 2-04 incomplète. NC technique/procédurale sur gestion sécurité SGS Seveso."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482024-10-1758542007800040f11",
-    "domains": ["D03"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Gestion des inhibitions MMR intégrée au SGS du dépôt. Conformité constatée sur l'intégration SGS."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482024-10-1758542007800040f12",
-    "domains": ["D03"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fiches 2-04-00-03 en classeur salle de contrôle. Ordres de travail GMAO priorité 1. Réunions d'exploitation hebdomadaires, CODIR mensuel, revue annuelle sur modes dégradés. Dispositif de suivi des inhibitions MMR conforme et opérationnel."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482024-10-1758542007800040f13",
-    "domains": ["D03"],
-    "mechanisms": ["M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure 2-04 sur inhibition MMR peu détaillée: ne précise pas fonctions des personnes, coordination, communication, pose/dépose inhibition. Organisation actuelle insuffisante. NC documentaire sur contenu de la procédure de gestion des modes dégradés."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482024-10-1758542007800040f14",
-    "domains": ["D03", "D04"],
-    "mechanisms": ["M07", "M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D03_SEVESO",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Inhibition barrière de sécurité en cours (détecteur HC liquide sur rejet EP, dysfonctionnement grenouille). Fiches 2-04-00-03 examinées: pas toujours correctement renseignées. Réflexion engagée sur amélioration traçabilité. NC de traçabilité sur gestion modes dégradés MMR avec inhibition active."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f01",
-    "domains": ["D03"],
-    "mechanisms": ["M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "POI révisé novembre 2023. Mais liste des scénarios POI incomplète: boil over et rupture zip réservoirs absents malgré leur présence dans l'étude de dangers. NC documentaire sur exhaustivité du POI. Demande de compléter."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f02",
-    "domains": ["D03"],
-    "mechanisms": ["M07"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun exercice POI réalisé en 2025 (derniers: 23/03/2023 et 15/10/2024). Non-respect de la fréquence annuelle prescrite. NC sur contrôle périodique des exercices POI. Certains points faibles persistants du REX 2024 (télésurveillance, caméras thermiques)."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f03",
-    "domains": ["D03", "D11"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan de formation personnel situations d'urgence: opérateurs GESIP SD1/SD2, cadres DOI GESIP POI1/POI2. Attestations examinées sans observation. Exercice POI inopiné met en évidence bonne maîtrise gestion crise. Conformité sur formation."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f04",
-    "domains": ["D03", "D01"],
-    "mechanisms": ["M14"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Lors exercice POI inopiné: disponibilité personnel et équipements DCI constatées. MAIS équipements hors service de télésurveillance depuis SPBA constatés (point annexe confidentielle). Demande plan amélioration télésurveillance: remise en fonctionnement équipements hors service."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f05",
-    "domains": ["D03"],
-    "mechanisms": ["M14", "M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Lors exercice POI: non application fiche mission agent d'exploitation (levée de doute/déclenchement DCI à distance non réalisée). Incohérence POI/PDI sur tenue vestimentaire agent. Rôle gardien absent du POI. NCs sur application pratique du POI et cohérence documents."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f06",
-    "domains": ["D03"],
-    "mechanisms": ["M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "POI ne prévoit pas le basculement vers le PPI (Plan Particulier d'Intervention). NC documentaire sur contenu réglementaire POI. Demande de compléter."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f07",
-    "domains": ["D03", "D01"],
-    "mechanisms": ["M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Zones de regroupement correctes, plans et stratégies d'intervention présents. Vérification opérationnalité OK pour scénario feu cuvette R0091. MAIS plans installations et PDI n'intègrent pas le second déversoir à mousse de la cuvette bac 91. NC documentaire sur PDI."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f08",
-    "domains": ["D03"],
-    "mechanisms": ["M01"],
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Logigramme d'alerte et fiche de diffusion présents dans le POI. Testé lors de l'exercice. Nécessité de vérifier cohérence fiches de diffusion avec annexe 1. NC documentaire de cohérence interne POI."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f09",
-    "domains": ["D03"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan du site à jour avec voies d'accès et points sensibles disponible dans le POI. Plan réseaux et organes d'isolement à jour disponible. Conformité sur documentation cartographique POI."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f10",
-    "domains": ["D03", "D01"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Site de Bayon équipé de moyens d'atténuation hors site (arrosage périphérie côté route et bâtiments). Ces mesures ont fonctionné correctement lors de l'exercice. Conformité constatée."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f11",
-    "domains": ["D03"],
-    "mechanisms": ["M14"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "POI intègre volet prélèvements environnementaux (Fiche SCEN-11), SOCOTEC contacté lors test. Astreinte SOCOTEC répond. MAIS confusion possible de SOCOTEC sur l'identification du site concerné (DPA Bassens / SPBA / DPA Bayon). NC opérationnelle sur identification du site pour prestataire prélèvements."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f12",
-    "domains": ["D03"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Annexes POI contiennent listes de sociétés en capacité d'intervenir pour travaux urgence (réparation, pompage, curage, déchets). Remise en état post-accident prévue après évaluation spécifique. Conformité sur moyens remise en état."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f13",
-    "domains": ["D03"],
-    "mechanisms": ["M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "État des stocks non référencé dans le POI du dépôt de DPA Bayon. NC documentaire sur contenu réglementaire POI. Demande de compléter."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f14",
-    "domains": ["D03", "D01"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Disponibilité moyens DCI et adéquation avec stratégie scénario feu de cuvette R0091 constatées lors exercice. Cartographies effets thermiques 3/5/8 kW présentes dans le POI. Conformité sur disponibilité et adéquation moyens incendie."
   },
   {
     "slug": "les-docks-petroliers-d-ambes-dpa-bayon-sur-gironde52051482025-11-0558542007800040f15",
-    "domains": ["D01", "D04"],
-    "mechanisms": ["M08"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S03",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plan substitution émulseurs PFAS mis en œuvre: vidange/rinçage 2 compartiments, transfert 20 000 litres émulseur 3% récent (2022, faibles concentrations PFAS). Travaux modifications installations en cours. Demande évaluation impact stratégie DCI avec nouvel émulseur. Correction engagée."
   },
   {
     "slug": "louis-vialard-sas52116902024-10-0175111201200016f01",
-    "domains": ["D15", "D03"],
-    "mechanisms": ["M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D15_SECTEUR",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "État des stocks présenté ne comprend pas les matières combustibles constituées par les palettes bois. NC documentaire sur exhaustivité de l'état des stocks réglementaire (entrepôt logistique). Demande de compléter."
   },
   {
     "slug": "louis-vialard-sas52116902024-10-0175111201200016f02",
-    "domains": ["D01", "D15"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi inspection 2022: stockages extérieurs supprimés suite construction cellule C5. Abri futur dédié palettes et box métalliques. NC résolue sur distance parois/stockages extérieurs."
   },
   {
     "slug": "louis-vialard-sas52116902024-10-0175111201200016f03",
-    "domains": ["D01", "D15"],
-    "mechanisms": ["M14", "M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Attestation BATISOL REI120 présentée mais le PV CERIB est valable pour hauteur max 6m alors que les murs maçonnés REI120 ont une hauteur supérieure à 6m. Attestation Broof t3 toiture non présentée. NC technique sur caractère REI120 des murs de la cellule C5. Demande justificatifs."
   },
   {
     "slug": "louis-vialard-sas52116902024-10-0175111201200016f04",
-    "domains": ["D01", "D15"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Attestation du 10/01/2024 de non ruine en chaîne présentée n'appelant aucun commentaire. Conformité sur étude non ruine en chaîne."
   },
   {
     "slug": "louis-vialard-sas52116902024-10-0175111201200016f05",
-    "domains": ["D01", "D15"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Conditions de stockage contrôlées par sondage sans observation. Cellule C2 en travaux pour installation racks mobiles conformément à l'APC 28/05/2024. Conformité sur conditions de stockage."
   },
   {
     "slug": "louis-vialard-sas52116902024-10-0175111201200016f06",
-    "domains": ["D01", "D15"],
-    "mechanisms": ["M14"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "DAI contrôlée 23/09/2024: défauts sur détection linéaire et batteries à remplacer. Centrale de détection incendie présentait toujours statut 'dérangement' lors de la visite. NC technique: système de détection incendie inopérant. Devis établi mais levée non justifiée."
   },
   {
     "slug": "louis-vialard-sas52116902024-10-0175111201200016f07",
-    "domains": ["D01", "D15"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S04",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "2 nouveaux poteaux incendie installés et conformes (tests avril 2024: débit 60 m3/h à 2,7 bar). Contrôle annuel des 2 réserves incendie (19/12/2023): réserves en bon état. Conformité sur DECI."
   },
   {
     "slug": "louis-vialard-sas52116902024-10-0175111201200016f08",
-    "domains": ["D01", "D15"],
-    "mechanisms": ["M07", "M14"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre de sécurité correctement renseigné. Désenfumage conforme. RIA: 1 diffuseur HS (Obs) - levée non justifiée par document mais constatée sur site. Porte CF: observation 'prévoir changement batterie' non levée. NC technique sur portes coupe-feu (batteries). Demande justification sous 1 mois."
   },
   {
     "slug": "louis-vialard-sas52116902024-10-0175111201200016f09",
-    "domains": ["D01", "D04"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vannes d'isolement actionnées par SSI, manœuvrables électriquement et manuellement. Test de fermeture concluant. Vannes obturation signalées. Volume bassin confinement totalement libre. Conformité sur eaux d'extinction."
   },
   {
     "slug": "louis-vialard-sas52116902024-10-0175111201200016f10",
-    "domains": ["D04", "D15"],
-    "mechanisms": ["M02"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Entretien séparateurs HC réalisé avec BSD. Mais respect des conditions de rejet en sortie n'a jamais fait l'objet de mesures pour démontrer efficacité des systèmes. NC méthodologique: absence de mesures de conformité des rejets. Demande de réaliser les mesures."
   },
   {
     "slug": "louis-vialard-sas52116902024-10-0175111201200016f11",
-    "domains": ["D10"],
-    "mechanisms": ["M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G2",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vérification électrique Q18 23/11/2023 avec 3 observations mineures non levées. Thermographie Q19 sans observation. ARF et ETF non mis à jour suite construction cellule C5 alors que modification substantielle. Protection foudre C5 réalisée sans appui ARF/ETF actualisées. NC documentaire sur ARF/ETF."
   },
   {
     "slug": "louis-vialard-sas52116902024-10-0175111201200016f12",
-    "domains": ["D01", "D15"],
-    "mechanisms": ["M01"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S02",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan de défense incendie (PDI) non formalisé. Exploitant dispose de certains éléments mais non regroupés dans document unique. L'absence de PDI constitue une non-conformité susceptible de conduire à des suites administratives (mentionné explicitement). NC majeure documentaire avec risque procédural."
   },
   {
     "slug": "louis-vialard-sas52116902024-10-0175111201200016f13",
-    "domains": ["D01", "D15"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cellules C1-C4 relèvent annexe V. Cellule C5 relève point 3.3 annexe II. Longueur murs CF >50m. Aires de mise en station présentes pour C5. Façades C1-C4 accessibles voie engin avec aire de mise en station. Conformité sur accessibilité secours."
   },
   {
     "slug": "m-a-g-331003039922025-11-2834752655000046f01",
-    "domains": ["D12"],
-    "mechanisms": ["M17"],
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A02",
-    "stage": "S01",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
     "gravity": "G1",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Activités (travail bois rubrique 2410, peinture 2940) examinées. Moyens très limités sur place, essentiel activité hors site. Pas de cabine de peinture ni machine bois à poste fixe. Aucune raison valide de classement ICPE. Établissement non classé ICPE."
   },
   {
     "slug": "maignal-sylvain31039202022-10-1932251668300024f01",
-    "domains": ["D04"],
-    "mechanisms": ["M14"],
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Constat terrain: présence de traces de raisins et aire de lavage qui ne collecte pas les effluents. NC physique observée sur site: effluents de vinification s'écoulant sans collecte."
   },
   {
     "slug": "maignal-sylvain31039202022-10-1932251668300024f02",
-    "domains": ["D04"],
-    "mechanisms": ["M14"],
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Traces de raisins et écoulements en bordure du site constatés. NC physique terrain: effluents non contenus, écoulements en limite de site."
   },
   {
     "slug": "maignal-sylvain31039202022-10-1932251668300024f03",
-    "domains": ["D04"],
-    "mechanisms": ["M14"],
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "La presse est lavée dehors sur une zone non collectée. NC physique observée: eaux de nettoyage de la presse non collectées, rejet sur zone sans réseau séparatif."
   },
   {
     "slug": "maignal-sylvain31039202022-10-1932251668300024f04",
-    "domains": ["D04", "D07"],
-    "mechanisms": ["M14"],
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
     "modifiers": [],
-    "dynamic": "R14",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G4",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cuve de collecte des effluents pleine au moment de l'inspection. NC physique avec risque de débordement imminent et déversement dans milieu naturel. Situation à risque avéré."
   },
   {
     "slug": "maille-joseph52007692022-11-2545039961300014f01",
-    "domains": ["D13", "D06"],
-    "mechanisms": ["M19"],
+    "domains": [
+      "D13_CESSATION",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M19_CESSATION"
+    ],
     "modifiers": [],
-    "dynamic": "R05",
-    "actor": "A01",
-    "stage": "S01",
+    "dynamic": "R05_VIDE_FACTUEL",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Site à l'abandon, exploitants décédés (M. Maille Joseph, femme, fils). Portail au sol, végétation recouverte. Présence VHU, ferrailles, pneumatiques. Cessation d'activité sans mise en sécurité ni diagnostic sols. Risque pollution sols non exclu, SUP envisagées. R05 car exploitant absent/décédé."
   },
   {
     "slug": "mairie-prignac-et-marcamps31037562023-11-2321330339900017f01",
-    "domains": ["D06", "D13"],
-    "mechanisms": ["M04", "M14"],
+    "domains": [
+      "D06_SOLS",
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
     "modifiers": [],
-    "dynamic": "R08",
-    "actor": "A08",
-    "stage": "S05",
+    "dynamic": "R08_CONTRAINTE_ECONOMIQUE",
+    "actor": "A08_COLLECTIVITE",
+    "stage": "S05_ESCALADE",
     "gravity": "G4",
-    "trajectory": "T4"
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Mise en demeure AP2019 non respectée: aucun travail de réhabilitation. Roncier recouvert le site. Aucun débroussaillage depuis 2021. Aucune démarche entreprise après consultation Biganos. La Mairie semble ne pas se donner les moyens. Escalade: MED proposée en pièce jointe. R08 car financement présenté comme obstacle."
   },
   {
     "slug": "mairie-prignac-et-marcamps31037562023-11-2321330339900017f02",
-    "domains": ["D04", "D06"],
-    "mechanisms": ["M07"],
+    "domains": [
+      "D04_EAUX",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
     "modifiers": [],
-    "dynamic": "R08",
-    "actor": "A08",
-    "stage": "S05",
+    "dynamic": "R08_CONTRAINTE_ECONOMIQUE",
+    "actor": "A08_COLLECTIVITE",
+    "stage": "S05_ESCALADE",
     "gravity": "G3",
-    "trajectory": "T4"
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Derniers résultats analyse nappe transmis datent de mars 2021. Surveillance qualité nappe souterraine non respectée (obligation 2 campagnes annuelles). MED en cours prend en compte cette NC. Absence de contrôle périodique."
   },
   {
     "slug": "mairie-prignac-et-marcamps31037562025-04-1021330339900017f01",
-    "domains": ["D06", "D13"],
-    "mechanisms": ["M04"],
-    "modifiers": [],
-    "dynamic": "R08",
-    "actor": "A08",
-    "stage": "S05",
+    "domains": [
+      "D06_SOLS",
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R08_CONTRAINTE_ECONOMIQUE",
+    "actor": "A08_COLLECTIVITE",
+    "stage": "S05_ESCALADE",
     "gravity": "G4",
-    "trajectory": "T4"
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "MED toujours non respectée. Aucun travail de réhabilitation commencé. Projet INELFE rejeté (coût tri 720k€). Nouveau maire ne connaît pas l'historique. Délai supplémentaire accordé en raison nouvelle équipe municipale. R08 car financement et coût comme frein démontré."
   },
   {
     "slug": "mairie-prignac-et-marcamps31037562025-04-1021330339900017f02",
-    "domains": ["D06", "D13"],
-    "mechanisms": ["M14"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A08",
-    "stage": "S01",
+    "domains": [
+      "D06_SOLS",
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A08_COLLECTIVITE",
+    "stage": "S02_INJONCTION",
     "gravity": "G3",
-    "trajectory": "T4"
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Constatations terrain: ouverture clôture, végétation sur panneaux, site non accessible en sécurité, fers et bétons apparents dangereux, excavations renforçant terrain accidenté. NCs physiques multiples sur sécurisation périmètre. Demande justification clôtures + devis sous 1 mois."
   },
   {
     "slug": "mairie-prignac-et-marcamps31037562025-04-1021330339900017f03",
-    "domains": ["D04", "D06"],
-    "mechanisms": ["M04", "M07"],
-    "modifiers": [],
-    "dynamic": "R08",
-    "actor": "A08",
-    "stage": "S05",
+    "domains": [
+      "D04_EAUX",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R08_CONTRAINTE_ECONOMIQUE",
+    "actor": "A08_COLLECTIVITE",
+    "stage": "S05_ESCALADE",
     "gravity": "G3",
-    "trajectory": "T4"
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Surveillance nappe souterraine MED non respectée: derniers résultats mars 2021. Facture 2023 retrouvée sans résultats. Engagement du Maire à corriger. MED non respectée sur surveillance eaux. Demande bon de commande sous 1 mois."
   },
   {
     "slug": "mairie-salleboeuf52075182022-08-2634996491600036f01",
-    "domains": ["D06", "D13"],
-    "mechanisms": ["M08"],
+    "domains": [
+      "D06_SOLS",
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
     "modifiers": [],
-    "dynamic": "R13",
-    "actor": "A08",
-    "stage": "S06",
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A08_COLLECTIVITE",
+    "stage": "S06_CLOTURE",
     "gravity": "G1",
-    "trajectory": "T3"
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Travaux réhabilitation réalisés dans délai 18 mois imposé. Massif déchets évacué (421 tonnes). Analyses résiduelles conformes (métaux < bruit fond géochimique). Absence d'impact significatif. Aucun risque caractérisé pour usage actuel. Site laissé en état de propreté satisfaisant. NC résolue, clôture procédure."
   },
   {
     "slug": "mairie-st-loubes-les-vergnes52071622023-09-2921330433000011f01",
-    "domains": ["D13", "D11"],
-    "mechanisms": ["M14"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R14",
-    "actor": "A08",
-    "stage": "S01",
+    "domains": [
+      "D13_CESSATION",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A08_COLLECTIVITE",
+    "stage": "S02_INJONCTION",
     "gravity": "G3",
-    "trajectory": "T1"
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Portail absent (démonté), portions de clôture manquantes (piquets seuls), aucune signalisation. Traces de circulation témoignant de l'utilisation du site. NC physique observée sur sécurisation périmètre d'une ancienne décharge. Demande remédiation sous 1 mois."
   },
   {
     "slug": "mairie-st-loubes-les-vergnes52071622023-09-2921330433000011f02",
-    "domains": ["D13", "D06", "D08"],
-    "mechanisms": ["M04", "M14"],
-    "modifiers": ["m_DELAI"],
-    "dynamic": "R11",
-    "actor": "A08",
-    "stage": "S05",
+    "domains": [
+      "D13_CESSATION",
+      "D06_SOLS",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A08_COLLECTIVITE",
+    "stage": "S05_ESCALADE",
     "gravity": "G4",
-    "trajectory": "T5"
+    "trajectory": "T5",
+    "confidence": "high",
+    "reasoning": "MED non respectée. Stockage de nouveaux déchets (déconstruction, déchets verts apportés illégalement). DEEE et carcasses VHU présents. 2 zones de brûlis pour récupération cuivre. Situation s'aggrave (nouveaux dépôts et activités illégales). T5 aggravation. G4 risque avéré avec activités illégales."
   }
 ]

@@ -1,0 +1,144 @@
+{
+  "total_audited": 25,
+  "errors_found": 7,
+  "corrections": [
+    {
+      "slug": "cooperative-maritime-d-avitaillement-d-arcachon52072032025-07-1678175604400017f10",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R01",
+      "reason": "Hunter avait laissé R14 (défaut) alors que le corps renvoie explicitement au point 9, où R01_PROACTIF est le code correct (demande d'arrêté préfectoral aménagé + programme de surveillance renforcée à l'initiative de l'exploitant)."
+    },
+    {
+      "slug": "cooperative-maritime-d-avitaillement-d-arcachon52072032025-07-1678175604400017f10",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Hunter avait laissé R14 (défaut) alors que le corps renvoie explicitement au point 9, où R01_PROACTIF est le code correct (demande d'arrêté préfectoral aménagé + programme de surveillance renforcée à l'initiative de l'exploitant)."
+    },
+    {
+      "slug": "crcaa52077882022-12-0130469123100035f12",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R12",
+      "reason": "R14 (défaut) ne rend pas compte du signal explicite: l'inspection elle-même qualifie la prescription d'inadaptée et propose une mesure compensatoire au lieu d'exiger la stricte conformité — c'est la définition même de R12_PRAGMATISME."
+    },
+    {
+      "slug": "crcaa52077882022-12-0130469123100035f12",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "R14 (défaut) ne rend pas compte du signal explicite: l'inspection elle-même qualifie la prescription d'inadaptée et propose une mesure compensatoire au lieu d'exiger la stricte conformité — c'est la définition même de R12_PRAGMATISME."
+    },
+    {
+      "slug": "crcaa52077882022-12-0130469123100035f13",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R12",
+      "reason": "Même motif que f12: l'inspection accepte une pratique différente de la prescription écrite et propose une adaptation réglementaire plutôt qu'une mise en conformité stricte — R12 plutôt que R14 par défaut."
+    },
+    {
+      "slug": "crcaa52077882022-12-0130469123100035f13",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Même motif que f12: l'inspection accepte une pratique différente de la prescription écrite et propose une adaptation réglementaire plutôt qu'une mise en conformité stricte — R12 plutôt que R14 par défaut."
+    },
+    {
+      "slug": "cuilhe-jean-louis52096692023-04-1239120442700010f10",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14"
+      ],
+      "corrected_value": [
+        "M08"
+      ],
+      "reason": "Faux M14: le corps ne décrit ni écart ni incertitude, il n'y a pas de champ Demande, et le chiffre cité par l'éleveur est en réalité largement sous le seuil autorisé (2143 vs 4500 m3/an) — Hunter a mal interprété un constat conforme comme une incertitude technique."
+    },
+    {
+      "slug": "cuilhe-jean-louis52096692023-04-1239120442700010f10",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R13",
+      "reason": "Faux M14: le corps ne décrit ni écart ni incertitude, il n'y a pas de champ Demande, et le chiffre cité par l'éleveur est en réalité largement sous le seuil autorisé (2143 vs 4500 m3/an) — Hunter a mal interprété un constat conforme comme une incertitude technique."
+    },
+    {
+      "slug": "cuilhe-jean-louis52096692023-04-1239120442700010f10",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "Faux M14: le corps ne décrit ni écart ni incertitude, il n'y a pas de champ Demande, et le chiffre cité par l'éleveur est en réalité largement sous le seuil autorisé (2143 vs 4500 m3/an) — Hunter a mal interprété un constat conforme comme une incertitude technique."
+    },
+    {
+      "slug": "cuilhe-jean-louis52096692023-04-1239120442700010f10",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Faux M14: le corps ne décrit ni écart ni incertitude, il n'y a pas de champ Demande, et le chiffre cité par l'éleveur est en réalité largement sous le seuil autorisé (2143 vs 4500 m3/an) — Hunter a mal interprété un constat conforme comme une incertitude technique."
+    },
+    {
+      "slug": "cdc-du-bazadais-marions52009372023-10-1924330127200015f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08",
+        "M14"
+      ],
+      "corrected_value": [
+        "M08",
+        "M14",
+        "M01"
+      ],
+      "reason": "Label multiple manquant: le corps distingue explicitement un volet physique résiduel (terrain à nu, pentes abruptes) déjà couvert par M14, ET un volet documentaire séparé (\"il reste des justificatifs à transmettre\": origine des remblais, relevé topographique, justificatifs de végétalisation) qui appelle M01 en plus de M08/M14."
+    },
+    {
+      "slug": "cdc-du-bazadais-marions52009372023-10-1924330127200015f05",
+      "field": "confidence",
+      "hunter_value": "high",
+      "corrected_value": "high",
+      "reason": "Label multiple manquant: le corps distingue explicitement un volet physique résiduel (terrain à nu, pentes abruptes) déjà couvert par M14, ET un volet documentaire séparé (\"il reste des justificatifs à transmettre\": origine des remblais, relevé topographique, justificatifs de végétalisation) qui appelle M01 en plus de M08/M14."
+    },
+    {
+      "slug": "cuma-des-tuileries1002855132025-02-1143928632900016f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M17"
+      ],
+      "corrected_value": [
+        "M17",
+        "M04"
+      ],
+      "reason": "Gravité surestimée: G5_URGENCE suppose un risque imminent (délai 48h, pollution en cours) — l'incident du 22/03/2024 est antérieur de onze mois à l'inspection et déjà couvert par la fiche f04 (G6_INCIDENT); le délai de régularisation accordé ici est de 3 mois. G4 (risque avéré, MED en préparation) est le code correct. Mécanisme manquant: le texte joint explicitement un \"projet d'arrêté préfectoral de mise en demeure\", ce qui correspond à M04 en plus de M17."
+    },
+    {
+      "slug": "cuma-des-tuileries1002855132025-02-1143928632900016f02",
+      "field": "gravity",
+      "hunter_value": "G5",
+      "corrected_value": "G4",
+      "reason": "Gravité surestimée: G5_URGENCE suppose un risque imminent (délai 48h, pollution en cours) — l'incident du 22/03/2024 est antérieur de onze mois à l'inspection et déjà couvert par la fiche f04 (G6_INCIDENT); le délai de régularisation accordé ici est de 3 mois. G4 (risque avéré, MED en préparation) est le code correct. Mécanisme manquant: le texte joint explicitement un \"projet d'arrêté préfectoral de mise en demeure\", ce qui correspond à M04 en plus de M17."
+    },
+    {
+      "slug": "cuma-des-tuileries1002855132025-02-1143928632900016f02",
+      "field": "confidence",
+      "hunter_value": "high",
+      "corrected_value": "high",
+      "reason": "Gravité surestimée: G5_URGENCE suppose un risque imminent (délai 48h, pollution en cours) — l'incident du 22/03/2024 est antérieur de onze mois à l'inspection et déjà couvert par la fiche f04 (G6_INCIDENT); le délai de régularisation accordé ici est de 3 mois. G4 (risque avéré, MED en préparation) est le code correct. Mécanisme manquant: le texte joint explicitement un \"projet d'arrêté préfectoral de mise en demeure\", ce qui correspond à M04 en plus de M17."
+    },
+    {
+      "slug": "cour-d-appel-de-bordeaux-tribunal-judiciaire1000394002025-04-0317330111000529f13",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Gravité sous-estimée: la taxonomie indique explicitement que \"non réalisé\" pour un contrôle/mesure est un signal G3 minimum; ici l'eau d'appoint des TAR — point de surveillance légionelles — n'a jamais été analysée, ce qui correspond à ce signal plutôt qu'à G2."
+    },
+    {
+      "slug": "cour-d-appel-de-bordeaux-tribunal-judiciaire1000394002025-04-0317330111000529f13",
+      "field": "confidence",
+      "hunter_value": "high",
+      "corrected_value": "high",
+      "reason": "Gravité sous-estimée: la taxonomie indique explicitement que \"non réalisé\" pour un contrôle/mesure est un signal G3 minimum; ici l'eau d'appoint des TAR — point de surveillance légionelles — n'a jamais été analysée, ce qui correspond à ce signal plutôt qu'à G2."
+    }
+  ],
+  "false_positive_rate": 0.28,
+  "error_patterns": "1) R14-par-defaut mal applique quand le corps du constat renvoie explicitement a un point de controle anterieur au comportement proactif deja etabli (R01) — l'agent n'a pas propage le contexte d'un point 'idem point X'. 2) Sous-utilisation de R12_PRAGMATISME: quand l'inspection reconnait elle-meme qu'une prescription est inadaptee a l'activite reelle et propose des prescriptions complementaires au lieu d'une mise en conformite stricte, Hunter retombe sur R14 neutre au lieu de R12 (2 cas, meme etablissement CRCAA, meme motif). 3) Faux M14 sur corps de constat tres court sans champ Demande: Hunter a traite un constat d'une phrase (chiffre factuel cite par l'exploitant, bien en-deca du seuil autorise, aucune section Demande) comme une incertitude technique alors que c'est un signal fort de conformite (regle generale de la taxonomie sur les corps courts). 4) Omission de multi-label M01 quand un constat combine un volet physique residuel (couvert par M14/M08) et un volet documentaire distinct explicitement enumere dans le texte. 5) Gravite surestimee (G5 au lieu de G4) quand un 'projet de mise en demeure joint' est confondu avec un risque imminent/48h, alors que l'incident sous-jacent est deja couvert par une fiche G6 separee et que le delai de regularisation accorde est de plusieurs mois. 6) Gravite sous-estimee (G2 au lieu de G3) quand une mesure/controle reglementaire n'a jamais ete realise (et pas seulement en retard) — la taxonomie liste explicitement 'non realise (controle/mesure)' comme signal G3.",
+  "verdict": "Hunter output tres majoritairement solide: 0 violation STRICT de validite des codes sur les 130 enregistrements (verification programmatique complete: aucun code invente, aucun modificateur en mechanisms, aucun champ mono-valeur multi-valeur, aucun champ manquant). Sur les 25 enregistrements audites (5 medium-confidence relus integralement + echantillon aleatoire de 20 high-confidence), 7 corrections ont ete appliquees (28% des enregistrements audites, mais l'echantillon medium-confidence concentre logiquement les erreurs: 4 corrections sur 5 medium vs 3 sur 20 high — coherent avec l'usage prevu du champ confidence). Aucune erreur des 8 types cibles (faux M08, faux M14 par confusion M01/M07, mauvaise trajectoire, R02 par sur-attribution) n'a ete trouvee dans l'echantillon high-confidence hormis les cas de gravite et de dynamique releves. Qualite globale: bonne, corrections mineures et localisees."
+}

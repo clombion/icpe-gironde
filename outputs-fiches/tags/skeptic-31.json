@@ -1,0 +1,37 @@
+{
+  "total_audited": 26,
+  "errors_found": 4,
+  "corrections": [
+    {
+      "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf12",
+      "field": "gravity",
+      "hunter_value": "G1",
+      "corrected_value": "G2",
+      "reason": "Record has a formal 'Demande à formuler' (organisme de formation manquant sur les fiches). G1 is reserved for pure conformity with no observation; a genuine formal request, even minor and purely documentary, is G2 per the gravity heuristic ('G2 uniquement si la NC est PUREMENT documentaire/formelle sans dimension physique')."
+    },
+    {
+      "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf13",
+      "field": "gravity",
+      "hunter_value": "G1",
+      "corrected_value": "G2",
+      "reason": "Record has a formal 'Demande à formuler' (transmission des procédures CVE-CVEBS-PRO-3101 et FOR-5105 demandée). Same G1-vs-G2 error as f12: a genuine documentary NC with a formal request cannot be G1 (conforme, aucun enjeu)."
+    },
+    {
+      "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf24",
+      "field": "domains",
+      "hunter_value": "[\"D04\"]",
+      "corrected_value": "[\"D04\", \"D11\"]",
+      "reason": "Missed multi-label. Beyond the eaux/bassin observation (D04), the inspector explicitly flags a personal-safety concern: the bassin's protection (rubalise + panneau) 'pourrait se révéler insuffisant pour prévenir efficacement le risque de chute et de noyade' — this is a D11_SECURITE signal (sécurité des personnes) that Hunter did not tag."
+    },
+    {
+      "slug": "epg-ambes-la-gragnodere52002562023-03-2138016697500025f02",
+      "field": "mechanisms",
+      "hunter_value": "[\"M14\"]",
+      "corrected_value": "[\"M07\"]",
+      "reason": "False M14. The constat is not a physically observed technical defect — it is a review/verification question about whether the DCI activation time should be integrated into the MMR 1 response-time calculation for a Seveso scenario, with the exploitant asked to justify the methodology within 3 months. This is a 'revue MMR' verification gap, which the taxonomy places under M07_CONTROLE, not M14 (reserved for NC physique directement observée sur site). Sibling record f01 in the same batch, with an analogous MMR-testing gap, was correctly tagged M07 by Hunter — f02 should be consistent."
+    }
+  ],
+  "false_positive_rate": 0.03,
+  "error_patterns": "No systematic error cluster. Two of the four corrections are the same isolated mistake (G1 used instead of G2 for minor-but-real documentary NC with a formal 'Demande à formuler' present) inside the equibio-pays-de-buch batch — Hunter appears to have treated 'NC très mineure' as equivalent to 'no NC' (G1) rather than applying the G2 rule strictly whenever a formal request exists. The other two corrections (missed D11 multi-label, one false M14 vs M07) are isolated and not part of a pattern. No false M08, no wrong trajectory, no R02 over-attribution, no over-aggressive M17 found across the audited sample — those error types were checked systematically (grep across the whole batch for prior-inspection language, all R01-R12 assignments, all M17 assignments, all M04/M05/M06 assignments, all G4+ assignments) and all held up.",
+  "verdict": "High quality batch. 130/130 records passed STRICT code-validity (exact ids, correct axis placement, single-valued fields, all required fields present) with zero structural errors. Of 26 audited records (6 medium-confidence re-read in full + 20 high-confidence spot-check sample), 4 needed correction — a false-positive rate of ~3% on the audited sample, well within the <15% target from the prompt's expected metrics. M15_AUTRE usage: 0/130, matching the 0% target. No corrections needed on domains/mechanisms for the majority of records; the two gravity corrections point to a minor, easily-taught G1-vs-G2 confusion when a demande exists but the NC is trivial."
+}

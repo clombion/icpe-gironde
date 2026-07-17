@@ -1,0 +1,2376 @@
+[
+  {
+    "slug": "envie2e-aquitaine-saint-loubes-1-chemin-de-bel-air52139152022-12-0648222277500033f04",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucune procédure d'information préalable à l'admission des déchets établie — absence documentaire pure. Exploitant s'engage à la créer sous 1 mois. Pas de dimension physique NC."
+  },
+  {
+    "slug": "envie2e-aquitaine-saint-loubes-1-chemin-de-bel-air52139152022-12-0648222277500033f05",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre déchets entrants incomplet (heure pesée, SIREN éco-organisme absents) et code déchet erroné (160214* inexistant). NC purement documentaire/registre."
+  },
+  {
+    "slug": "envie2e-aquitaine-saint-loubes-1-chemin-de-bel-air52139152022-12-0648222277500033f06",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réserve incendie 120m³ hors service. Exploitant ne peut justifier la disponibilité opérationnelle simultanée des deux poteaux (débit 210m³/h). Équipement physiquement inopérant = G3 minimum."
+  },
+  {
+    "slug": "envie2e-aquitaine-saint-loubes-1-chemin-de-bel-air52139152022-12-0648222277500033f07",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Modélisation EDD confirme absence d'effet domino sur site SEVESO voisin. Moyens de lutte décrits. Constat de conformité sans demande formulée."
+  },
+  {
+    "slug": "envie2e-aquitaine-saint-loubes-1-chemin-de-bel-air52139152022-12-0648222277500033f08",
+    "domains": [
+      "D07",
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Modalités de confinement des eaux d'extinction non précisées sur place. Volume 540m³ revendiqué mais aucun justificatif fourni. Incertitude technique sur la capacité réelle = constat d'incertitude M14, G3."
+  },
+  {
+    "slug": "envie2e-aquitaine-saint-loubes-1-chemin-de-bel-air52139152022-12-0648222277500033f09",
+    "domains": [
+      "D11",
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Responsable site ne connaît ni la vanne de barrage ni les moyens de confinement. Personnel non formé aux consignes de sécurité article 7.6.4. Exploitation sans connaissance des dispositifs de sécurité = NC technique G3."
+  },
+  {
+    "slug": "epalia-landiras52124702022-12-2233000087800398f01",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Exploitant ne peut indiquer le volume de bois présent. Demande de confirmation du respect du volume maximal. NC documentaire/justificative sans preuve physique directe de dépassement."
+  },
+  {
+    "slug": "epalia-landiras52124702022-12-2233000087800398f02",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Largeur zone stockage 1 de 30m constatée au lieu de 26m prescrits. Distance physique non respectée = G3 minimum selon heuristique (dimension violée)."
+  },
+  {
+    "slug": "epalia-landiras52124702022-12-2233000087800398f03",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vérification par sondage: aucun dépassement de hauteur. Constat conforme, pas de demande."
+  },
+  {
+    "slug": "epalia-landiras52124702022-12-2233000087800398f04",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Remorques chargées sans tracteur disponible = possibilité de dégagement sans délai incertaine. 'Susceptible de constituer un écart' — incertitude technique, G3 évitée car quantités faibles et extincteur présent."
+  },
+  {
+    "slug": "epalia-landiras52124702022-12-2233000087800398f05",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Quantités intérieur = besoin journalier. Inspection n'a pas de remarques particulières. Constat conforme."
+  },
+  {
+    "slug": "epalia-landiras52124702022-12-2233000087800398f06",
+    "domains": [
+      "D12",
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant voisin stocke dans zone d'Epalia sans autorisation, aucune séparation physique. PAC ne mentionnait pas cette modification. NC physique constatée sur site (usage non autorisé d'une zone) = G3."
+  },
+  {
+    "slug": "epalia-landiras52124702022-12-2233000087800398f07",
+    "domains": [
+      "D03",
+      "D01"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant ne peut fournir détail des mesures organisationnelles contre effets irréversibles (3-5 kW/m²). Absence de document. NC purement documentaire."
+  },
+  {
+    "slug": "epalia-landiras52124702022-12-2233000087800398f08",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Convention avec exploitant voisin en cours de rédaction — engagement verbal de l'exploitant, document non fourni. R02 car engagement futur non vérifiable."
+  },
+  {
+    "slug": "epalia-landiras52124702022-12-2233000087800398f09",
+    "domains": [
+      "D01",
+      "D09"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Ne peut justifier du débroussaillement; arbres proches des limites interrogent l'inspection. 'Susceptible de constituer un écart' = incertitude M14. G2 car présence arbres = potentiel mais pas de NC directe mesurable."
+  },
+  {
+    "slug": "epalia-landiras52124702025-09-2533000087800398f01",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Largeur dépasse encore la matérialisation au sol (même NC qu'en 2022). Inspection 2025 = même constat physique. T4 stagnation. G3 car dimension physique non respectée."
+  },
+  {
+    "slug": "epalia-landiras52124702025-09-2533000087800398f02",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Palettes zone 2 temporairement déplacées pour tri, repositionnement en cours le jour J. Constat conforme, pas d'observation."
+  },
+  {
+    "slug": "epalia-landiras52124702025-09-2533000087800398f03",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Convention toujours non présentée (visite inopinée) — même NC documentaire que 2022. T4 stagnation car convention n'a pas été formalisée malgré délai écoulé."
+  },
+  {
+    "slug": "epalia-landiras52124702025-09-2533000087800398f04",
+    "domains": [
+      "D08",
+      "D12"
+    ],
+    "mechanisms": [
+      "M17",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchets BTP en transit sur site non autorisé; nature dangereuse/non-dangereuse inconnue. Rubrique 2718 potentiellement applicable mais non déclarée. Double NC: M17 (classement à vérifier) + M14 (stockage non autorisé constaté physiquement)."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562023-03-2138016697500025f01",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Tests MMR 1 inadéquats: programme inexistant, chaîne entière non testée, traçabilité insuffisante. MMR de sécurité Seveso non correctement vérifiée = G3 (contrôle non réalisé sur équipement critique)."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562023-03-2138016697500025f02",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Temps de réponse MMR 1 n'intègre pas la DCI. Incertitude sur l'efficacité réelle de la chaîne MMR sur scénario Seveso. Constat d'incertitude technique = M14, G3."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562023-03-2138016697500025f03",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "ARF transmise (juin 2017, certifié Qualifoudre). Prescription documentaire satisfaite. Pas de demande."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562023-03-2138016697500025f04",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Étude technique foudre transmise (TelComTec oct 2017). Prescription satisfaite. Pas de demande."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562023-03-2138016697500025f05",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Notice de maintenance datée mars 2021 mais non réalisée lors de l'ET 2017 comme requis par l'AM du 4/10/2010. Écart documentaire de timing."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562023-03-2138016697500025f06",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Carnet de bord consulté sans remarque. Certificat de compétences vérificateur foudre valide jusqu'au 15/04/2026."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562023-03-2138016697500025f07",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dispositifs de protection foudre installés en 2019. Conformité constatée. Pas de demande."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562023-03-2138016697500025f08",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M06",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Actions correctives recommandations 1-3 non mises en place dans les délais (mêmes remarques 2022). Mais rapport vérification complète 21/03/2023 est conforme. M06 récidive sur délai + M08 résolution finale. T3 amélioration."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-03-1938016697500025f01",
+    "domains": [
+      "D04",
+      "D07"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Vanne guillotine + nouvelle vanne automatique bien intégrées en GMAO. Mais nouvelle vanne non encore actionnable à distance depuis salle de contrôle (travaux en cours). Équipement de sécurité partiellement inopérant = G3."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-03-1938016697500025f02",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Travail de remise à plat MMR engagé, éléments de réponse apportés. Notice de réexamen EDD attendue pour 09/2025. Amélioration en cours mais non terminée."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-03-1938016697500025f03",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "DCI retirée des MMRI sans dégradation de la maîtrise des risques. EDD révisée en juin 2023. Interrogation de l'inspection levée. T3 amélioration."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-03-1938016697500025f04",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure PR09 ne couvre pas les shunts physiques ni les équipements importants (DCI). NC documentaire sur procédure de gestion des MMR."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-03-1938016697500025f05",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Gestion des shunts intégrée au SGS. Pas de demande formulée."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-03-1938016697500025f06",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas de revue régulière et formalisée des FO33 ouvertes. REX sur récurrences non formalisé. NC documentaire/organisationnelle."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-03-1938016697500025f07",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure PR09 peu détaillée: fonctions, coordination, communication, pose/dépose shunts non précisés. Shunts terrain non signalisés. NC documentaire/procédurale."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-03-1938016697500025f08",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun shunt actif le jour de l'inspection. Les 2 dernières FO33 correctement renseignées avec mesures compensatoires et remise en service tracée."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-03-1938016697500025f09",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Traçabilité des shunts via FO33 + affichage salle contrôle. Communication SDIS/DREAL possible. Pas de demande."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-03-1938016697500025f10",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas d'habilitation formelle pour opérateurs posant les shunts. Formation sur MMR planifiée mais non réalisée. NC organisationnelle sur vérification/formation."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-03-1938016697500025f11",
+    "domains": [
+      "D01",
+      "D04"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Émulseurs PFOA >25ppb présents sur site (réglementation POP). Remplacement planifié pour juillet 2025 mais non réalisé. Produits dangereux non conformes en stock actif = G3. R02 engagement futur."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-07-1638016697500025f01",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan implantation présent + bacs correctement identifiés (numéro, volume, produit). Conforme."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-07-1638016697500025f02",
+    "domains": [
+      "D03",
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Détection liquide inflammable en rétention vérifiée par sondage (bacs E et D). Conforme."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-07-1638016697500025f03",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Sondes explosimètres arrivant en fin de vie (4 ans) non remplacées. Sondes JOLA remplacées par VEGASE mais non vérifiées et non documentées. Équipements de sécurité en fin de vie = G3."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-07-1638016697500025f04",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Peinture bac E RAL 9001 conforme AM 8/12/1995 (coefficient chaleur ≥70%). Conforme."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-07-1638016697500025f05",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure CE57 ne prévoit pas la vérification des gestes de bonne conduite (écoconduite) lors d'alerte pollution air. NC documentaire/procédurale."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-07-1638016697500025f06",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre déchets + BSD + récépissés transporteurs consultés. Pas d'observation."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562024-07-1638016697500025f07",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Ne peut exclure dépassement des plages de température fabricant (pompes, vannes, détecteurs) lors de canicule. Constat d'incertitude technique sur équipements de sécurité MMR = M14, G3."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562025-05-2238016697500025f01",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas d'interface visuelle synoptique d'alimentation électrique en salle de contrôle. NC technique documentaire/instrumentale sans dimension physique directe de danger immédiat."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562025-05-2238016697500025f02",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Stratégie perte d'électricité partiellement formalisée mais insuffisante pour délestage programmé et perte inopinée 48h. NC documentaire/procédurale."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562025-05-2238016697500025f03",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas de procédure spécifique pour perte d'utilité électrique. Config site assure la sécurité mais procédure formelle absente. NC documentaire/procédurale."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562025-05-2238016697500025f04",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mise en sécurité automatique OK mais consignes/actions pour suivi relai par équipements de secours non formalisées. NC documentaire."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562025-05-2238016697500025f05",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "MMR maintenus pendant perte d'alimentation électrique. Cf partie confidentielle. Pas de demande."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562025-05-2238016697500025f06",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Groupe électrogène et onduleurs présents, en bâtiments surélevés/batardeaux anti-crue. Conforme."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562025-05-2238016697500025f07",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Autonomie des secours correcte mais pas de niveau minimal de remplissage GNR défini dans les procédures. NC documentaire."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562025-05-2238016697500025f08",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Maintenance groupe électrogène + onduleurs OK. Mais boîtes d'appâts dératisation absentes au niveau du poste d'alimentation principal et local TGBT. NC de contrôle/entretien partiel."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562025-05-2238016697500025f09",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S07",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Site non concerné par la prescription. Pas de demande."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562025-05-2238016697500025f10",
+    "domains": [
+      "D01",
+      "D04"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plan d'action PFAS présenté, FLUOROPOLYDOL en cours de destruction, étude hydraulique en cours. POLYPETROFILM analysé TOP Assay (PFOS et PFHxS conformes). Situation en amélioration mais remplacement non finalisé."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562025-05-2238016697500025f11",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PFHxS <0,1 mg/kg (seuil tolérance). Analyse conforme. Pas de demande."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562025-05-2238016697500025f12",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PFOA et composés apparentés en dessous des tolérances (0,025 mg/kg et 1 mg/kg). Conforme."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562025-05-2238016697500025f13",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S07",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Site non concerné par les stocks POP >50kg. Pas de demande."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562025-05-2238016697500025f14",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Analyse TOP ASSAY incomplète sur PFCA C9-C14: résultats C13 et C14 manquants, impossible de conclure sur la contamination. Protocole analytique insuffisant = M02, G3 (incertitude sur substance POP réglementée)."
+  },
+  {
+    "slug": "epg-ambes-la-gragnodere52002562025-05-2238016697500025f15",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PFHxA et composés apparentés inférieurs aux seuils. POLYPETROFILM ne semble pas soumis à restriction (sous réserve PFCA C9-C14). Conforme."
+  },
+  {
+    "slug": "epg-ambes-lieu-dit-la-gragnodere-152114392023-03-2138016697500025f01",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "APMD 3/08/2021 respectée: GE installé, MOV101 désormais secouru. Constat du 21/03/2023 confirme la levée. T3 amélioration."
+  },
+  {
+    "slug": "epg-ambes-lieu-dit-la-gragnodere-152114392023-03-2138016697500025f02",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "EDD révisé avril 2022, fiches MMR corrigées et cohérentes. APMD respectée. T3 amélioration."
+  },
+  {
+    "slug": "epg-ambes-lieu-dit-la-gragnodere-152114392023-03-2138016697500025f03",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Test complet chaîne MMR réalisé le 14/03/2022 avec navire. Concluant, temps d'action conforme EDD. NC levée. T3 amélioration."
+  },
+  {
+    "slug": "epg-ambes-lieu-dit-la-gragnodere-152114392023-03-2138016697500025f04",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Noeuds papillons révisés, MMR pressostat supprimée (non valorisée dans criticité), MMR HC liquide/gaz correctement identifiées. NC levée. T3 amélioration."
+  },
+  {
+    "slug": "epg-ambes-lieu-dit-la-gragnodere-152114392023-03-2138016697500025f05",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "ERC3/4 révisés, réponses exploitant cohérentes. Interrogation de l'inspection levée. T3 amélioration."
+  },
+  {
+    "slug": "epg-ambes-lieu-dit-la-gragnodere-152114392023-03-2138016697500025f06",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "POI mis à jour pour scénario épandage hors rétention. Diffusé à DREAL, préfecture, SDIS. NC levée. T3 amélioration."
+  },
+  {
+    "slug": "epg-ambes-lieu-dit-la-gragnodere-152114392023-03-2138016697500025f07",
+    "domains": [
+      "D03",
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "DCI appontement non secoure en cas de perte d'utilité ou casse pompe. Equipements MMR potentiellement non disponibles lors sinistre. Analyse technico-économique proposée via futur AP. Équipement de lutte incendie inopérant en scénario dégradé = G3."
+  },
+  {
+    "slug": "epg-ambes-lieu-dit-la-gragnodere-152114392023-03-2138016697500025f08",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Maintenance annuelle bras marins: travaux 2022 réalisés, rapport 2023 sans NC critique. Intégré au plan maintenance. T3 amélioration."
+  },
+  {
+    "slug": "epg-ambes-lieu-dit-la-gragnodere-152114392023-03-2138016697500025f09",
+    "domains": [
+      "D02"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "4 points encore ouverts sur 20 du plan ATEX DEKRA 2021. Zonage identifié sur site. Plan d'action en cours pour finalisation septembre 2023. NC physique partielle sur adéquation matériels ATEX = G3."
+  },
+  {
+    "slug": "epg-ambes-lieu-dit-la-gragnodere-152114392023-03-2138016697500025f10",
+    "domains": [
+      "D01",
+      "D03"
+    ],
+    "mechanisms": [
+      "M08",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "DCI testée et opérationnelle. Mais erreur de signalétique armoire DCI 511 (étiquetée 501). Pas d'exercice annuel avec NETMAN. NC mineure d'identification et organisationnelle."
+  },
+  {
+    "slug": "epg-ambes-lieu-dit-la-gragnodere-152114392023-03-2138016697500025f11",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vannes sectionnement et arrêts d'urgence correctement signalisés. Conforme."
+  },
+  {
+    "slug": "epg-ambes-lieu-dit-la-gragnodere-152114392023-03-2138016697500025f12",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "1 opérateur NETMAN sans habilitation. Habilitations anciens opérateurs ne couvrent pas le suivi des amarres. NC de formation/habilitation personnel critique."
+  },
+  {
+    "slug": "epg-ambes-lieu-dit-la-gragnodere-152114392023-03-2138016697500025f13",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pompe alimentation eau non testée avant chaque déchargement (seulement hebdomadaire). Fréquence insuffisante vs prescription."
+  },
+  {
+    "slug": "epg-ambes-lieu-dit-la-gragnodere-152114392023-03-2138016697500025f14",
+    "domains": [
+      "D03",
+      "D11"
+    ],
+    "mechanisms": [
+      "M01",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Traçabilité contrôle amarres par opérateur insuffisante (rondes sans points contrôlés précisés, heures inversions marée non indiquées). NC documentaire/traçabilité de procédure de sécurité critique."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf01",
+    "domains": [
+      "D12",
+      "D08"
+    ],
+    "mechanisms": [
+      "M17"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation déconditionnement biodéchets (rubrique 2783) exploitée sans déclaration ni enregistrement. Non-classement ICPE pour activité en cours = M17, G3."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf02",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation non conforme aux plans dossier d'enregistrement: modifications multiples non portées à connaissance. PAC en cours. NC administrative/procédurale."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf03",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dossier ICPE incomplet, seule une partie des documents réglementaires présentée. Installation non encore pleinement réceptionnée. NC documentaire."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf04",
+    "domains": [
+      "D02",
+      "D03"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Distance torchère/équipements méthanisation 'très proche ou inférieure à 10m'. Ne peut être appréciée précisément = constat d'incertitude sur distance réglementaire. G3 car distance physique potentiellement violée."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf05",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Distance d'implantation >200m des habitations confirmée. Pas d'observation."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf06",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure astreinte opérationnelle 24/24 en cours de finalisation, non transmise. Attestations de formation non transmises. NC documentaire sur surveillance."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf07",
+    "domains": [
+      "D02"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan entrée ne précise pas les installations concernées par ATEX. Seuils chaufferie précédemment non justifiés (corrigés suite à inspection). Zones identifiées sur site mais plan général insuffisant."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf08",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Clôture + portail contrôle accès + zone digestat délimitée par chaînette + panneaux danger. Pas de remarque."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf09",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Accès SDIS par portail commun, validé par SDIS. Zone de stationnement dédiée. Pas d'observation."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf10",
+    "domains": [
+      "D02",
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Détecteurs CH4 et H2S présents, étalonnés. Ventilations naturelles + forcées asservies aux détecteurs. Détecteurs portatifs pour personnel. Conforme."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf11",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Groupe électrogène de secours dédié ventilation/sécurité (torchère, épurateur) et surveillance. Conforme."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf12",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Plan de formation présent avec passeports sécurité. Seule lacune: organisme de formation non systématiquement indiqué. NC très mineure documentaire — G1 car contenu des formations existe."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf13",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Procédures admission intrants présentes mais non vérifiées lors inspection, transmission demandée. NC documentaire légère."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf14",
+    "domains": [
+      "D08",
+      "D14"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure d'acceptation préalable SPA catégories 2 et 3 non transmise. Fiches d'information préalable absentes pour ces déchets sensibles. NC documentaire sur déchets à risque biologique."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf15",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Volume rétention 5060m³ ≥ plus grande cuve (4925m³). Drains installés. Conforme."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf16",
+    "domains": [
+      "D02",
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Torchère présente avec dispositif pare-flammes complet (Progeco). Conforme."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf17",
+    "domains": [
+      "D04",
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cuves digestats avec couverture flottante Nénufar. Silos digestats solides avec limiteur visuel hauteur. Conforme."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf18",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "CIVE ensilées sous bâche. Fumier équin et biodéchets sous bâtiment. Silos reliés à collecte en point bas. Conforme."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf19",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Télésurveillance process SCADA: tous paramètres visibles. Pas d'observation."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf20",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation pas encore en service lors inspection. Contrôle d'étanchéité digesteur non encore réalisé/transmis. Vérification réglementaire au démarrage non justifiée."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf21",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure gestion eaux avec séparation sales/propres et plan réseaux présentés. Pas d'observation."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf22",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Premier contrôle rejets eaux résiduaires prévu juin 2025. Programme de surveillance pas encore en place (installation neuve). NC sur absence de premier contrôle réglementaire."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf23",
+    "domains": [
+      "D14",
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aires réception SPA en bâtiment fermé, jus collectés. Agrément sanitaire temporaire (6 mois) en place. Conforme à ce stade."
+  },
+  {
+    "slug": "equibio-pays-de-buch-cap-vert-energie31066652025-05-22nosiretf24",
+    "domains": [
+      "D04",
+      "D11"
+    ],
+    "mechanisms": [
+      "M08",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Réseau séparatif OK. Niveau bassin confinement anormalement élevé lors inspection (repère non visible), mais vidange réalisée post-visite et photo justificative transmise. NC physique temporaire résolue = G2 résidu, M08 principal."
+  },
+  {
+    "slug": "esso-france1001252332025-03-1239936081701732f01",
+    "domains": [
+      "D02",
+      "D07"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contrôle périodique 2022 avec NCM résolues (contrôle complémentaire). ANC (panneaux ATEX évents) subsistent. ATEX évents correctement signalisés constatés sur site. Amélioration partielle — G2 car NC simples résiduelles."
+  },
+  {
+    "slug": "esso-france1001252332025-03-1239936081701732f02",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Accès pompiers dans conditions acceptables. Conforme."
+  },
+  {
+    "slug": "esso-france1001252332025-03-1239936081701732f03",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Site en état de propreté correct. Conforme."
+  },
+  {
+    "slug": "esso-france1001252332025-03-1239936081701732f04",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PV étanchéité réservoirs et détecteurs fuites conformes (14/02/2022). Contrôle périodique conclut à la conformité. Conforme."
+  },
+  {
+    "slug": "esso-france1001252332025-03-1239936081701732f05",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucune borne incendie repérée à proximité du site lors de l'inspection. Moyens défense incendie exigés absents = G3 (dispositif de sécurité absent physiquement)."
+  },
+  {
+    "slug": "esso-france1001252332025-03-1239936081701732f06",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Extinction automatique (contrôle 10/2024), extincteur (06/2024), réserves sable, couvertures anti-feu présents. Conforme."
+  },
+  {
+    "slug": "esso-france1001252332025-03-1239936081701732f07",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dispositif arrêt d'urgence présent mais non signalé et peu visible. NC physique mineure (présence matérielle OK mais identification défaillante)."
+  },
+  {
+    "slug": "esso-france1001252332025-03-1239936081701732f08",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "2 interphones présents. Mais organisation de surveillance pendant et hors heures ouvrées non précisée à l'inspection. NC documentaire/organisationnelle."
+  },
+  {
+    "slug": "esso-france1001252332025-03-1239936081701732f09",
+    "domains": [
+      "D07",
+      "D04"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Séparateur HC: 2 derniers entretiens justifiés (07/03/2023 et 27/02/2024), pompages, nettoyages, obturateur automatique vérifiés. Conforme."
+  },
+  {
+    "slug": "etablissements-hostein-et-laval52084162025-03-1345520654000029f01",
+    "domains": [
+      "D07",
+      "D01"
+    ],
+    "mechanisms": [
+      "M04",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A03",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "MED 02/08/2022 toujours non respectée en 2025: muret non retiré, capacité confinement 160m³ au lieu de 310m³. Astreinte administrative en cours de liquidation partielle. MED active + NC physique constatée = G4. T4 stagnation."
+  },
+  {
+    "slug": "etablissements-hostein-et-laval52084162025-03-1345520654000029f02",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Conditions stockage zone Nord vérifiées par sondage. Pas de remarques."
+  },
+  {
+    "slug": "etablissements-hostein-et-laval52084162025-03-1345520654000029f03",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Nombre d'îlots plateforme béton non conforme: 5 dans longueur au lieu de 3, 2 dans largeur au lieu de 3. Dimensions de stockage non respectées = G3 (NC physique sur distances/configurations)."
+  },
+  {
+    "slug": "etablissements-hostein-et-laval52084162025-03-1345520654000029f04",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Zone Ouest stockage OK. Produits zone non-stockage confirmés comme commandes en attente expédition prochaine. Pas de remarques particulières."
+  },
+  {
+    "slug": "etablissements-hostein-et-laval52084162025-03-1345520654000029f05",
+    "domains": [
+      "D06",
+      "D04"
+    ],
+    "mechanisms": [
+      "M02",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Tébuconazole détecté en aval PZ2 (1,4 µg/l avril 2024) > amont PZ1 (0,14 µg/l). Rapport ne commente pas les causes. Contamination groundwater potentiellement liée à l'installation = G3 (indice de pollution sols/eaux souterraines)."
+  },
+  {
+    "slug": "etablissements-hostein-et-laval52084162025-03-1345520654000029f06",
+    "domains": [
+      "D03",
+      "D07"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Alarmes point bas/point haut installation traitement confirmées présentes mais test non réalisé lors inspection (traitement en cours). Vérification périodique non justifiée sur le moment."
+  },
+  {
+    "slug": "etablissements-hostein-et-laval52084162025-03-1345520654000029f07",
+    "domains": [
+      "D07",
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cuve GNR non déplacée. Aucune solution retenue. Stockage de liquide inflammable dans bâtiment de travail du bois interdit = NC physique constatée, G3."
+  },
+  {
+    "slug": "etablissements-hostein-et-laval52084162025-03-1345520654000029f08",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle électrique 28/03/2024 partiel: locaux HT et prises de terre HT/BT exclus (hors mission). Vérification annuelle incomplète."
+  },
+  {
+    "slug": "etablissements-hostein-et-laval52084162025-03-1345520654000029f09",
+    "domains": [
+      "D02"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun zonage ATEX défini sur site. Exploitant invoque ignorance (poussières bois non considérées ATEX par lui). L'absence de délimitation constitue une NC explicite = G3 (risque ATEX non maîtrisé)."
+  },
+  {
+    "slug": "etablissements-l-n-maurice52092362024-11-1932644554100039f01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dossier installation: plan non daté semblant dater de 2014. Puissance installation à justifier. NC documentaire administrative."
+  },
+  {
+    "slug": "etablissements-l-n-maurice52092362024-11-1932644554100039f02",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Puits utilisé pour lavage matériaux sans dispositif de mesure totalisateur. Consommation/débit non justifiés. NC de contrôle/suivi eau."
+  },
+  {
+    "slug": "etablissements-l-n-maurice52092362024-11-1932644554100039f03",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Capot puits endommagé = sécurisation insuffisante. Équipement physiquement dégradé = G3 (risque pollution et sécurité puits)."
+  },
+  {
+    "slug": "etablissements-l-n-maurice52092362024-11-1932644554100039f04",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas de réseau de suivi des retombées de poussières dans l'air ambiant. NC sur absence de mesure environnementale réglementaire."
+  },
+  {
+    "slug": "etablissements-l-n-maurice52092362024-11-1932644554100039f05",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchets présents: terres/cailloux 17-05-04 et matériaux déconstruction chaussées 17-03-02. Nature et état des stockages sans remarque. Conforme."
+  },
+  {
+    "slug": "etablissements-l-n-maurice52092362024-11-1932644554100039f06",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure acceptation préalable incomplète: absence de vérification origine/nature déchets, quantité réelle reçue non saisie. NC documentaire procédure acceptation."
+  },
+  {
+    "slug": "etablissements-l-n-maurice52092362024-11-1932644554100039f07",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle qualité fines de lavage pour ISDI Noaillac: analyses juin 2024 sans remarque. Conforme."
+  },
+  {
+    "slug": "etablissements-l-n-maurice52092362024-11-1932644554100039f08",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01",
+      "M03"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun registre déchets le jour de l'inspection. RNDTS (télédéclaration) non opérationnel (API incompatible). Double NC: absence registre (M01) + absence reporting électronique obligatoire (M03). Période de tolérance écoulée = G3."
+  },
+  {
+    "slug": "etablissements-l-n-maurice52092362024-11-1932644554100039f09",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle sonore 2020 = protection travailleurs, pas environnemental (limites de site/voisinage). NC sur protocole/paramètres mesurés non adaptés à la prescription."
+  },
+  {
+    "slug": "etablissements-laplace31065432023-03-0242471581100024f01",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Protections coupe-feu EI30 mises en œuvre. PV attestant conformité présentés. NC antérieure levée. T3 amélioration."
+  },
+  {
+    "slug": "etablissements-laplace31065432023-03-0242471581100024f02",
+    "domains": [
+      "D01",
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Fermeture vanne gaz asservie détection incendie vérifiée (CEMIS 28/02/2023: OK). Mesures compensatoires en place. APC 22/08/2022 satisfait. T3 amélioration."
+  },
+  {
+    "slug": "etablissements-laplace31065432023-03-0242471581100024f03",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Cuves traitement de surface désormais dotées d'affichages CLP réglementaires. NC 2022 levée. T3 amélioration."
+  },
+  {
+    "slug": "etablissements-laplace31065432023-03-0242471581100024f04",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "BSD codes déchets corrigés, prestataires autorisés vérifiés. NC 2022 levée. T3 amélioration."
+  },
+  {
+    "slug": "etablissements-laplace31065432023-03-0242471581100024f05",
+    "domains": [
+      "D07",
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plan de contrôle confinement eaux extinction mis en place (CEMIS, vérif régulières, procédures en cours). NC 2022 levée. T3 amélioration."
+  }
+]

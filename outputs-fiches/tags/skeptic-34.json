@@ -1,0 +1,107 @@
+{
+  "total_audited": 25,
+  "errors_found": 10,
+  "corrections": [
+    {
+      "slug": "foresa-france-sas52002492024-03-2038357389600032f06",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R02",
+      "reason": "Procédure de shunts créée EN RÉACTION à l'annonce du programme d'inspection (pas spontanément), et plusieurs engagements futurs non vérifiés au moment de l'inspection (LOTO conditionné à livraison de cadenas, suivi chef de quart à venir, travail EGI engagé). R02_PROMESSE convient mieux que R01_PROACTIF."
+    },
+    {
+      "slug": "foresa-france-sas52002492025-04-1538357389600032f09",
+      "field": "dynamic",
+      "hunter_value": "R10",
+      "corrected_value": "R03",
+      "reason": "L'exploitant affirme un contrôle des autorisations de shunt qui s'avère inopérant en pratique (shunt non autorisé constaté in situ) : conformité apparente mais inopérante = R03_FACADE. Pas de conflit de diagnostic (R10) — le fait n'est pas contesté."
+    },
+    {
+      "slug": "foresa-france-sas52002492025-04-1538357389600032f09",
+      "field": "actor",
+      "hunter_value": "A02_INSPECTION",
+      "corrected_value": "A01_EXPLOITANT",
+      "reason": "La demande formulée porte sur la modification de l'organisation de l'exploitant ; l'inspection n'est que l'acteur qui constate, pas le sujet du constat."
+    },
+    {
+      "slug": "foresa-france-sas52002492025-04-1538357389600032f04",
+      "field": "dynamic",
+      "hunter_value": "R10",
+      "corrected_value": "R14",
+      "reason": "Répétition de la même NC technique qu'en 2023 malgré un engagement écrit non tenu, sans dispute ni façade active à ce point de contrôle précis. Le simple écart engagement/réalité ne suffit pas à caractériser un conflit de diagnostic (R10) — l'absence factuelle persistante est mieux capturée par le défaut neutre R14."
+    },
+    {
+      "slug": "foresa-france-sas52002492025-04-1538357389600032f06",
+      "field": "dynamic",
+      "hunter_value": "R10",
+      "corrected_value": "R03",
+      "reason": "Procédures et cahier de shunt existent sur le papier mais un shunt non autorisé est resté non détecté plusieurs quarts : conformité apparente mais inopérante = R03_FACADE, pas un conflit de diagnostic (R10)."
+    },
+    {
+      "slug": "foresa-france52111242022-12-0938357389600032f05",
+      "field": "dynamic",
+      "hunter_value": "R10",
+      "corrected_value": "R14",
+      "reason": "Promesse écrite de 2019 jamais tenue (demande officielle jamais transmise), sans dispute ni façade testée à ce point de contrôle. Défaut neutre R14, pas R10."
+    },
+    {
+      "slug": "foresa-france52111242022-12-0938357389600032f06",
+      "field": "dynamic",
+      "hunter_value": "R10",
+      "corrected_value": "R07",
+      "reason": "L'exploitant justifie unilatéralement le non-respect de son engagement par un argument technique (risque d'endommager les pompes du navire) : R07_CONTRAINTE_TECHNIQUE, pas R10 (aucun échange contradictoire décrit)."
+    },
+    {
+      "slug": "foresa-france52111242022-12-0938357389600032f04",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R10",
+      "reason": "Signal R10 manqué par le Hunter : l'exploitant conteste explicitement la nécessité des bacs à égouttures, et l'inspection rebat directement cet argument (les bacs préviennent aussi un déversement pendant le dépotage, pas seulement à la déconnexion) — conflit de diagnostic caractérisé."
+    },
+    {
+      "slug": "foresa-france52111242022-12-0938357389600032f04",
+      "field": "mechanisms",
+      "hunter_value": "[M14_CONSTAT_TECHNIQUE, M04_MISE_EN_DEMEURE]",
+      "corrected_value": "[M14_CONSTAT_TECHNIQUE, M01_DOCUMENTATION, M04_MISE_EN_DEMEURE]",
+      "reason": "Multi-label manqué : l'exploitant ne dispose pas d'un plan des réseaux d'eau (absence documentaire = M01_DOCUMENTATION), distinct de la NC technique sur les bacs à égouttures (M14)."
+    },
+    {
+      "slug": "foresa-france-sas52002492024-09-2438357389600032f25",
+      "field": "mechanisms",
+      "hunter_value": "[M14_CONSTAT_TECHNIQUE]",
+      "corrected_value": "[M14_CONSTAT_TECHNIQUE, M03_REPORTING]",
+      "reason": "Multi-label manqué : en plus des dépassements VLE (M14), les résultats d'autosurveillance de juillet n'ont pas été déclarés dans GIDAF dans le délai réglementaire d'un mois (M03_REPORTING)."
+    },
+    {
+      "slug": "foresa-france-sas52002492023-07-0638357389600032f08",
+      "field": "gravity",
+      "hunter_value": "G4",
+      "corrected_value": "G6",
+      "reason": "Un déversement de formol (produit toxique cancérigène) est réellement survenu pendant l'inspection et a exposé une inspectrice, avec dissimulation par le chef de quart. G6_INCIDENT (\"événement survenu... déversement\") est le signal explicite de la taxonomie, et domine sur la NC latente sur le report de vanne MMR (G4)."
+    },
+    {
+      "slug": "foresa-france-sas52002492023-07-0638357389600032f08",
+      "field": "mechanisms",
+      "hunter_value": "[M14_CONSTAT_TECHNIQUE, M07_CONTROLE]",
+      "corrected_value": "[M14_CONSTAT_TECHNIQUE, M07_CONTROLE, M11_INCIDENT]",
+      "reason": "Multi-label manqué : le déversement de formol non signalé à l'inspection par le chef de quart est un incident non déclaré (M11_INCIDENT)."
+    },
+    {
+      "slug": "foresa-france-sas52002492025-04-1538357389600032f07",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G4",
+      "reason": "Incohérence interne au batch : ce point de contrôle appartient à la même inspection du 2025-04-15 que f01, f04 et f06, tous escaladés en G4 pour des déficiences comparables sur les MMR/barrières de sécurité avec projet d'APMD proposé. Le Hunter avait sous-évalué ce point à G3 sans justification différenciante."
+    },
+    {
+      "slug": "foresa-france-sas52002492025-04-1538357389600032f07",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R03",
+      "reason": "Le formulaire de shunt a été modifié pour intégrer la mise à jour documentaire, mais il a été constaté sur certains formulaires que cette prise en compte n'avait pas été faite en pratique : conformité apparente mais inopérante = R03_FACADE (même motif que f06 du même jour)."
+    }
+  ],
+  "false_positive_rate": 0.4,
+  "error_patterns": "Échantillon ciblé (pas un tirage uniforme) : les 2 fiches medium/low confidence ont été relues intégralement, complétées par 23 fiches high-confidence choisies dans les catégories les plus à risque selon les 8 types d'erreurs à chasser (les 6 M17_CLASSIFICATION, les 5 R10_TENSION, les 4 R02_PROMESSE, les 12 G4, le seul M19_CESSATION, les 10 S05_ESCALADE — avec chevauchement). Le taux d'erreur de 40% sur cet échantillon N'EST PAS représentatif du batch entier (il surpondère délibérément les catégories difficiles) ; les 6 M17_CLASSIFICATION et les 4 R02_PROMESSE audités se sont tous révélés corrects (pas de sur-utilisation type 6/8). Le vrai problème systématique concentré est R10_TENSION : sur les 5 occurrences hunter, 4 étaient de fausses attributions (le Hunter confond \"écart entre un engagement passé et la réalité observée\" avec un conflit de diagnostic — R10 exige un désaccord actif sur les faits/l'interprétation, pas simplement une promesse non tenue) ; ces 4 cas se répartissent en réalité entre R14_NEUTRE_NC (promesse non tenue, aucune dispute — 2 cas), R03_FACADE (procédure/contrôle affiché mais inopérant en pratique — 2 cas) et R07_CONTRAINTE_TECHNIQUE (justification technique unilatérale — 1 cas). À l'inverse, un vrai cas de R10 a été manqué (l'exploitant conteste explicitement la nécessité d'un équipement et l'inspection rebat l'argument). Deux cas de multi-label manqué sur mechanisms (M01_DOCUMENTATION et M03_REPORTING absents alors que le corps du constat couvre clairement ces mécanismes en plus du mécanisme principal retenu). Une incohérence de gravité intra-campagne (G3 vs G4 sur des points de contrôle comparables de la même inspection) et un cas de sous-évaluation de gravité où un incident réellement survenu (déversement toxique non signalé) a été noyé dans une NC latente (G4 au lieu de G6), avec un mécanisme M11_INCIDENT manqué en conséquence. Aucun code hors taxonomie, aucune valeur jointe sur un champ mono-label, aucun modificateur mal placé, aucun champ manquant — le Hunter est propre sur la validité STRICT des codes ; les erreurs sont toutes sémantiques (mauvais axe R, gravité incohérente, mécanisme secondaire non capturé).",
+  "verdict": "Bonne qualité globale sur la validité formelle des codes (0 erreur STRICT sur les 130 fiches) et sur les mécanismes principaux (M08/M14/M01/M07 bien discriminés, M17 jamais sur-utilisé, R02 jamais sur-attribué). La faiblesse concentrée est l'axe 3 (dynamique relationnelle) sur R10_TENSION, systématiquement confondu avec des scénarios de promesse non tenue qui relèvent en réalité de R14 (défaut), R03_FACADE ou R07_CONTRAINTE_TECHNIQUE — recommandation pour les prochains batches : resserrer la définition opérationnelle de R10 dans le prompt Hunter (\"réservé à un désaccord actif sur les faits, pas à un engagement non honoré\"). Le multi-label sur mechanisms mérite aussi une vérification plus systématique en fin de constat (deuxième mécanisme secondaire souvent implicite dans la dernière phrase du corps de texte). M15_AUTRE = 0% confirmé sur l'ensemble du batch."
+}
