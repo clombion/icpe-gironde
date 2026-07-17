@@ -15,13 +15,6 @@ La première section, **Décisions en attente**, liste les choix identifiés mai
 **Ce qui débloque :** Vérification d'un échantillon contre les PDFs source — fiches réellement vides, ou défaut du parser DREAL ?
 **Conséquence du contournement :** Ces lignes polluent la recherche plein texte et les statistiques d'angles.
 
-### Alias hors taxonomie dans les tags Hunter/Skeptic
-
-**Question :** Les codes inventés par les agents (`M04_MED` pour `M04_MISE_EN_DEMEURE`, `D09_PAC`, modificateurs classés dans `mechanisms`, ~30 fichiers concernés — voir BUG-004) doivent-ils être normalisés au moment du merge, ou corrigés par re-runs ciblés des batches ?
-**Contournement actuel :** Aucun — `scripts/tag_status.py` les signale, le merge est bloqué tant que la Phase 4 est incomplète.
-**Ce qui débloque :** Trancher avant la Phase 5 (merge). La normalisation par préfixe (`M04_*` → id canonique du codebook) couvre la majorité des cas.
-**Conséquence du contournement :** Le merge produirait des valeurs de filtre fantômes côté web.
-
 ---
 
 ## 1. Sources et acquisition
@@ -121,6 +114,12 @@ La première section, **Décisions en attente**, liste les choix identifiés mai
 **Situation :** Exposer 6 axes de tags dans les filtres web.
 **Décision :** Les axes mono-valeur (gravité, trajectoire, dynamique) deviennent des colonnes indexées ; les axes multi-label (domaines, mécanismes) sont stockés en JSON array string, parsés côté client.
 **Justification :** Filtrage SQL natif sur les axes principaux sans faire exploser le schéma pour les axes multi-label.
+
+### Traitement des alias hors taxonomie : trois classes, pas de règle générale
+
+**Situation :** Les agents ont produit des codes hors taxonomie (~300 occurrences, voir BUG-004) : déplacements d'axe mécaniques (`m_DELAI`/`m_MENACE` dans `mechanisms`, ×270), un alias de suffixe prouvé (`M04_MED`, ×12), et ~16 codes sémantiquement ambigus — surtout des suffixes de mécanisme miroités en domaines (`D09_PAC` ← `M09_PAC`, `D17_CLASSIFICATION` ← `M17_CLASSIFICATION`).
+**Décision :** Pas de normalisation par préfixe généralisée. Trois traitements : (1) prompt v1.1 avec règles de validité stricte — les hunter des batches non audités sont corrigés par la passe Skeptic elle-même ; (2) `scripts/fix_tag_aliases.py` pour les deux seules corrections prouvées non ambiguës (déplacement d'axe `m_*`, `M04_MED` → `M04_MISE_EN_DEMEURE`) ; (3) ré-adjudication par relecture de fiche (agent Sonnet) pour les 6 entrées ambiguës des finals. Chaque passe est tracée dans `outputs-fiches/tags/_provenance.jsonl`.
+**Justification :** La normalisation par préfixe aurait mal étiqueté les cas ambigus (`D09_PAC` → `D09_BIODIVERSITE` alors que PAC = porter-à-connaissance → `D12_ADMIN` ; `D10_GARANTIES` → `D10_ELECTRIQUE_ESP` alors que les garanties financières sont administratives). En dessous d'une vingtaine de cas, relire les fiches coûte moins cher que faire confiance à une règle astucieuse.
 
 ### Le merge refuse les batches non audités
 

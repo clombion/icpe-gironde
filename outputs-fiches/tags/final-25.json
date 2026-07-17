@@ -1,2281 +1,2280 @@
 [
-  {
-    "slug": "dalkia-biganos52088482025-10-2845650053703756f04",
-    "domains": [
-      "D05_AIR_BRUIT",
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M02_MESURE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitant ne respecte pas les périodicités de mesures (cendres, rejets atmosphériques, rejets aqueux) et ne détaille pas les actions correctives. Surveillance continue absente pour plusieurs paramètres. NC technique sur surveillance réglementaire (M02_MESURE) + constat de lacunes dans la justification (M14). Demande formelle avec délai = S02."
-  },
-  {
-    "slug": "dalkia-biganos52088482025-10-2845650053703756f05",
-    "domains": [
-      "D12_ADMIN",
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M17_CLASSIFICATION",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Litige sur l'applicabilité de la rubrique 3520 (seuil 3t/h). Exploitant argue une capacité inférieure mais n'est pas en mesure de suivre en continu la quantité horaire. Inspection conteste avec plan d'approvisionnement à 30 000t/an. M17 (classement/seuil rubrique) + M14 (impossibilité de justifier mesure horaire). NC sur positionnement réglementaire."
-  },
-  {
-    "slug": "dalkia-biganos52088482025-10-2845650053703756f06",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Rapport de mesures du second semestre des chaudières gaz de secours non transmis. Exploitant en attente du document. NC purement documentaire (absence de rapport). Demande de transmission = S02."
-  },
-  {
-    "slug": "dalkia-biganos52088482025-10-2845650053703756f07",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M02_MESURE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T2",
-    "confidence": "high",
-    "reasoning": "Multiples dépassements VLE NOx et CO sur la période mai 2024 - mai 2025. Tableau détaillé des dépassements et causes. Plusieurs dépassements sans confirmation si réels ou indisponibilités de baie d'analyse. L'inspection interroge sur la durée et la nature de chaque dépassement. Suivi explicite depuis inspection précédente (avril 2024). M02 (qualité surveillance/autosurveillance) + M14 (dépassements observés physiquement). T2 car suivi de la période précédente."
-  },
-  {
-    "slug": "dalkia-biganos52088482025-10-2845650053703756f08",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M02_MESURE",
-      "M17_CLASSIFICATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Dépassements poussières août et septembre 2025 comparés à mauvaise VLE (arrêté 12/01/2021 que l'exploitant dit inapplicable). Incohérence dans les VLE utilisées. M02 (protocole de mesure inadéquat, mauvais référentiel) + M17 (positionnement vis-à-vis de la rubrique 3520). Demande de recalcul des VLE applicables."
-  },
-  {
-    "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f01",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Récépissé consulté, contenu correspond au niveau d'activité constaté. Aucun écart ni demande. Conformité constatée sur le classement ICPE rubriques 2910 et 1532."
-  },
-  {
-    "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f02",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Dernier contrôle périodique 2016, aucune NC relevée. ISO 14001 → périodicité 10 ans respectée. Certification fournie valable jusqu'à 2026. Conformité totale, aucune demande."
-  },
-  {
-    "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f03",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Suivi du combustible réalisé via tableur, contrôles à réception (taux d'humidité, visuel). Exploitant s'assure de la conformité des combustibles. Aucun écart ni demande formulée."
-  },
-  {
-    "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f04",
-    "domains": [
-      "D11_SECURITE",
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Dispositifs de coupure de l'alimentation combustible situés à l'intérieur du local d'alimentation (non à l'extérieur comme requis). NC physique directement observée sur site. Délai de mise en conformité de 3 mois imposé."
-  },
-  {
-    "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f05",
-    "domains": [
-      "D11_SECURITE",
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitant ne dispose pas d'un registre de suivi des produits dangereux ni d'un plan annexé indiquant leur emplacement (article 3.5 AM 03/08/2018). NC purement documentaire - registre et plan manquants. Délai d'un mois imposé."
-  },
-  {
-    "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f06",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Dépassement VLE dioxines/furanes (1,52 ng vs 0,1 ng I-TEQ/Nm3) sur chaudière biomasse 1. Exploitant n'a pu justifier les raisons. Mesure conforme en décembre 2022 mais analyse et plan d'actions non formalisés. NC technique (dépassement VLE observé) avec dimension physique réelle. Mesure corrective insuffisante (pas de traçabilité d'analyse)."
-  },
-  {
-    "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f07",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Périodicité de 2 ans non respectée pour les mesures des chaudières biomasse (mesures auraient dû être réalisées en avril 2024 au plus tard). Contrôle périodique par organisme agréé en retard. Demande de transmission des rapports de décembre 2024 dès réception."
-  },
-  {
-    "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f08",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Appareils de combustion équipés de dispositifs de suivi. Système d'astreinte en place. Tout conforme, aucune demande ni observation critique."
-  },
-  {
-    "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f09",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Système de détection incendie avec dérangements présents lors de la visite de contrôle (zones hors service pour travaux). Rapport indique que le système n'est pas en bon état de fonctionnement. Document Q7 non encore délivré. NC technique sur équipement de sécurité incendie hors service partiellement."
-  },
-  {
-    "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f10",
-    "domains": [
-      "D02_ATEX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Dispositif de détection gaz en place. Dernier rapport de contrôle (février 2024) sans remarque. Conformité constatée."
-  },
-  {
-    "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f11",
-    "domains": [
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitation par techniciens qualifiés, contrôles de bon fonctionnement présentés, personnel d'astreinte alerté en cas de défaut. Aucune NC ni demande."
-  },
-  {
-    "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f12",
-    "domains": [
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Consignes d'exploitation examinées sans remarque particulière. Personnel bien informé. Conformité constatée."
-  },
-  {
-    "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f13",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Extincteurs présents, plans facilitant l'intervention des secours en place. Moyens de lutte contre l'incendie requis constatés. Aucune demande."
-  },
-  {
-    "slug": "dalkia-electrotechnics-ig1000156052023-02-0143005467600068f01",
-    "domains": [
-      "D12_ADMIN",
-      "D08_DECHETS"
-    ],
-    "mechanisms": [
-      "M17_CLASSIFICATION",
-      "M04_MISE_EN_DEMEURE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S05_ESCALADE",
-    "gravity": "G4",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitation irrégulière au titre des rubriques 2790/2791 (traitement déchets dangereux - régénération huiles) et 2718 (regroupement huiles usagées) sans classement ICPE. Projet d'APMD proposé au Préfet. Site susceptible d'être soumis au régime de l'Autorisation. M17 (positionnement vs rubriques) + M04 (APMD proposé). G4: exploitation illégale avec substances dangereuses sans encadrement ICPE. S05 escalade vers MED."
-  },
-  {
-    "slug": "darbonne-pepiniere-groupe-planasa-france52065892023-01-1943394590400012f01",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE",
-      "M17_CLASSIFICATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A02_INSPECTION",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Inspection n'a pas constaté d'installation relevant de la rubrique 4718. Erreur de reclassement dans les logiciels lors du changement de nomenclature (1412→4718). Constat de non-applicabilité = conformité en fait. Aucune demande."
-  },
-  {
-    "slug": "darbonne-pepiniere-groupe-planasa-france52065892023-01-1943394590400012f02",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE",
-      "M17_CLASSIFICATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A02_INSPECTION",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Station service privée non classée rubrique 1435 car volume annuel (73 000L) nettement inférieur au seuil de 100 m3. Ensemble de mesurage non certifié relevé mais pas NC ICPE. Aucune NC ICPE identifiée sur ce point."
-  },
-  {
-    "slug": "darbonne-pepiniere-groupe-planasa-france52065892023-01-1943394590400012f03",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M17_CLASSIFICATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Incertitude sur la nécessité de déclarer pour la rubrique 4734 (cuve 60m3 hydrocarbures). Inspection ne peut pas déterminer les proportions GNR/gazole. Demande à l'exploitant de calculer et se positionner. NC documentaire (absence de positionnement réglementaire). M17 (positionnement vis-à-vis d'une rubrique)."
-  },
-  {
-    "slug": "darbonne-pepiniere-groupe-planasa-france52065892023-01-1943394590400012f04",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE",
-      "M17_CLASSIFICATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A02_INSPECTION",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Inspection n'a pas constaté d'installation relevant de la rubrique 2921 et d'après les recherches le site n'est pas déclaré. Conformité sur ce point (absence d'installation concernée)."
-  },
-  {
-    "slug": "darbonne-pepiniere-groupe-planasa-france52065892023-01-1943394590400012f05",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE",
-      "M17_CLASSIFICATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A02_INSPECTION",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Engrais présents non classés au titre de la rubrique 4702 et quantités nettement inférieures à 250t. Aucune NC ICPE sur ce point."
-  },
-  {
-    "slug": "darbonne-pepiniere-groupe-planasa-france52065892023-01-1943394590400012f06",
-    "domains": [
-      "D12_ADMIN",
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE",
-      "M17_CLASSIFICATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A02_INSPECTION",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Fluide frigorigène R-1234 ze listé en annexe II du règlement EU (non visé par rubrique 1185 qui concerne annexe I). Société non classée au titre de la rubrique 1185. Conformité constatée."
-  },
-  {
-    "slug": "darbonne-pepiniere-groupe-planasa-france52065892023-01-1943394590400012f07",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitant n'a pas pu présenter les éléments attestant que les équipements sous pression ont été vérifiés conformément aux échéances prévues. NC sur inspection périodique réglementaire ESP non réalisée dans les délais."
-  },
-  {
-    "slug": "darbonne-pepiniere-groupe-planasa-france52065892023-01-1943394590400012f08",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitant n'a pas présenté de liste des équipements sous pression lors de la visite. NC purement documentaire (absence de liste réglementaire ESP)."
-  },
-  {
-    "slug": "dartess-saint-andre-de-cubzac1000605512024-11-1942418554400113f01",
-    "domains": [
-      "D12_ADMIN",
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M17_CLASSIFICATION",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Stockage 569t matières combustibles sans classement ICPE requis (rubrique 1510 DC). Exploitant exploite sans autorisation requise (DC). Activité irrégulière. Rappel que exploitation sans autorisation est passible de suites administratives et pénales. G4 car exploitation illégale d'entrepôt combustible. Déménagement annoncé."
-  },
-  {
-    "slug": "dartess-saint-andre-de-cubzac1000605512024-11-1942418554400113f02",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M17_CLASSIFICATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitant n'a pas pu fournir l'inventaire des quantités d'alcools de bouche (rubrique 4755). Sans déclaration, il doit limiter sous 50 m3. Exploitation potentiellement irrégulière sur ce point. NC documentaire avec risque de dépassement de seuil non vérifié."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f01",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Audit de conformité réalisé le 25 juin 2025 conformément à l'arrêté préfectoral. Non-conformités et actions traitées lors de l'inspection. Démarche proactive de l'exploitant (audit commandé conformément à la prescription). Aucune NC résiduelle mentionnée sur ce point précis."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f02",
-    "domains": [
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "État des stocks par sondage sans observation, mais exploitant n'a pas pu extraire la quantité de liquide stocké (manque de suivi volume liquide par cellule). NC documentaire/gestion de registre. Demande de mise en place du suivi volumique."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f03",
-    "domains": [
-      "D04_EAUX",
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Séparateur à hydrocarbures présent et fonctionnel. Curage pas encore réalisé car site en exploitation depuis mars 2025 (moins d'un an). Aucune demande formulée. Conformité constatée."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f04",
-    "domains": [
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Portail avec clé tricoise pour services de secours, ouverture à distance testée de manière concluante. Accès permanent garanti. Conformité constatée."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f05",
-    "domains": [
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Voie engins présente mais stock de palettes extérieurs réduisant la largeur. Absence de matérialisation de la zone de stockage, largeur potentiellement inférieure à 6m. NC physique sur voie d'accès secours (dimension non garantie). Demande de justification et matérialisation."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f06",
-    "domains": [
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Voies échelles présentes, matérialisées et accessibles depuis voie engins périphérique. Conformité constatée."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f07",
-    "domains": [
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Issues de secours accessibles depuis voie engins périphérique. Chemin stabilisé requis. Conformité constatée."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f08",
-    "domains": [
-      "D01_INCENDIE",
-      "D02_ATEX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Plans locaux avec description des dangers, étude ATEX présentée, local charge batterie non classé ATEX avec mesures préventives validées par l'exploitant. Inspection n'a pas remis en cause l'étude. Conformité constatée."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f09",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "PV de principe de montage des murs coupe-feu transmis mais pas d'attestation de conformité de réalisation. NC documentaire (absence de justificatif de bonne exécution). Demande d'attestation."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f10",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Note de calcul désenfumage présentée, attestation de pose des commandes fournie. Contrôle ouvrants par sondage sans remarque. Exploitant réalise contrôle trimestriel. Conformité constatée."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f11",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "PV montage transmis mais pas d'attestation de conformité de réalisation des murs et structure. NC documentaire similaire au f09. Demande d'attestation et nouvelle modélisation flux thermiques avec portes de quai."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f12",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Conditions de stockage différentes de celles prévues au dossier: largeur allées inférieure, racks supplémentaires, stockage en masse non prévu. Modification sans nouvelle modélisation thermique. NC technique physique constatée sur site. Risque de non-conformité sur flux thermiques calculés."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f13",
-    "domains": [
-      "D04_EAUX",
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Bassin de confinement étanche extérieur présent et en bon état apparent. Conformité constatée."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f14",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Bassin de confinement avec dispositif d'obturation automatique + manœuvre manuelle. Procédure d'entretien présentée. Non-conformité du récolement levée par l'exploitant. Conformité constatée."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f15",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Système d'extinction automatique vérifié le 08/12/2025 sans observation. Détection reliée à alarme + télésurveillance + société sécurité privée. Système en fonctionnement lors de l'inspection. Conformité constatée."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f16",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Besoins 180m3/h, réseau avec 4 poteaux privés + réserve 240m3 (vs 360m3 initial). Test simultané 4 poteaux non réalisé. Justificatif d'essai SDIS sur réserve en attente. NC documentaire sur justification des débits disponibles. Besoin théorique probablement couvert mais non formellement justifié."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f17",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "RIA contrôlés le 16/06/2025 sans observation. Vérification accessibilité par sondage sans remarque. Conformité constatée."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f18",
-    "domains": [
-      "D01_INCENDIE",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE",
-      "M07_CONTROLE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exercices d'évacuation réalisés les 24 avril et 10 décembre 2025. CR de décembre fourni sans point bloquant. Exercice avec RIA/extincteurs prévu en janvier 2026. Demande de transmission du CR futur. Conformité globale mais suivi demandé."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f19",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Analyse risque foudre préconise des mesures de protection sur l'armoire de gestion du sprinkler, mais ce point n'a pu être vérifié lors de la visite (constaté après l'inspection). Panneaux PV non installés mais prévus. NC technique sur protection foudre armoire sprinkler non vérifiable/non mis en place."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f20",
-    "domains": [
-      "D02_ATEX",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Charge batteries réalisée exclusivement dans le local prévu. Conformité constatée."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f21",
-    "domains": [
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Consignes affichées mentionnent toutes les informations requises. QR code pour accès aux informations. Conformité constatée."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f22",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Rapport de vérification semestrielle du système d'extinction automatique (décembre 2025) concluant à la conformité. Rapport conforme RIA (juin 2025). Conformité constatée."
-  },
-  {
-    "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f23",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Aucune mesure de bruit réalisée. Exploitant indique planification pour le 26/01/2026. Mesure requise dans les 3 mois suivant la mise en service (mars 2025). NC sur contrôle périodique non réalisé. Purement documentaire/contrôle absent."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102023-05-1071204245600228f01",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M09_PAC"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Modifications installations sans PAC préalable: puissance combustion 40→43,9 MW, ateliers charge 400→500 kW, GES 1235→2941 kg. NC sur obligation de PAC avant réalisation. Susceptible de conduire à des sanctions administratives. M09 (PAC non réalisé avant modification)."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102023-05-1071204245600228f02",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Liste ESP frigorifiques incomplète (type, régime surveillance, dates manquants). Doute sur présence de tuyauteries non listées. NC documentaire + incertitude sur complétude réelle de la liste. Susceptible de suites administratives."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102023-05-1071204245600228f03",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "IP de deux récipients air comprimé avec vérification documentaire non satisfaisante → 'résultats non satisfaisants'. Équipements maintenus en service malgré résultats non satisfaisants. NC technique ESP: équipements en service avec IP non satisfaisante. Susceptible de suites administratives."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102023-05-1071204245600228f04",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Erreur de saisie dans la liste ESP: prochaine IP ACAFR indiquée 2027 au lieu de 2025 (périodicité 2 ans). Exploitant reconnaît l'erreur. NC purement documentaire sur la liste ESP."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102023-05-1071204245600228f05",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Requalification périodique ACAFR réalisée le 20/05/2016 par l'APAVE, prononcée sans remarque. Conformité constatée sur requalification."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102023-05-1071204245600228f06",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Deux récipients d'air n'ont pas fait l'objet de déclaration ni de contrôle de mise en service. NC technique ESP sur mise en service réglementaire. Susceptible de suites administratives."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102023-05-1071204245600228f07",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Marquage suite à requalification ACAFR réalisé avec date et tête de cheval. Conformité constatée."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102024-04-1071204245600228f01",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Dispositif d'isolement réseau assainissement EP3 non actionnable par Dassault (vanne chez SABENA). Plans incomplets n'incluant pas ce système. NC technique sur isolement réseau (dispositif absent/non maîtrisable). Demande de convention SABENA et mise à jour des plans."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102024-04-1071204245600228f02",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M09_PAC",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Taxiway Dassault et rejet EP3 non mentionnés dans AP ICPE Dassault. PAC 2023 en cours d'instruction ne couvre pas tous les éléments manquants (débourbeurs, périmètre taxiway). NC sur situation administrative incomplète et nécessité de compléter le PAC."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102024-04-1071204245600228f03",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T2",
-    "confidence": "high",
-    "reasoning": "Suivi du point susceptible de suite de l'inspection 12/05/2022. Plan des réseaux transmis via PAC incomplet: bassin d'orage mal raccordé sur plans vs terrain, rejet EP4 potentiellement sans débourbeur, incohérences EP3. NC technique sur réseaux eaux pluviales avec incohérences plan/terrain. T2 car suivi explicite d'un constat antérieur."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102024-04-1071204245600228f04",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Débourbeur/déshuileur bassin d'orage non analysé. Exploitant réalise analyses EP3 mais pas sur bassin d'orage. NC sur surveillance des installations de traitement des eaux (M07) + incertitude sur conformité du séparateur sans analyses (M14)."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102025-09-2471204245600228f01",
-    "domains": [
-      "D05_AIR_BRUIT",
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M02_MESURE",
-      "M09_PAC"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T2",
-    "confidence": "high",
-    "reasoning": "Contrôles rejets atmosphériques réalisés triannuellement au lieu d'annuellement (article 9.2.1.1 AP). Nouvelle chaudière bâtiment T non encore portée à connaissance. AT4 mise en service sans PAC préalable finalisé. Plusieurs NC: fréquence de mesures insuffisante + PAC non réalisé avant modifications. T2 suivi d'inspections précédentes."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102025-09-2471204245600228f02",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Consommation eau 1245+66214 m3 > volume autorisé 20000 m3/an. Dépassement volume autorisé. Forage 4 supprimé sans justification de comblement dans les règles. Plan 'eau' incomplet. NC technique sur dépassement volume autorisé."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102025-09-2471204245600228f03",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M02_MESURE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Périodicité trimestrielle de mesures eaux pluviales non respectée depuis 2024 (exploitant se référait à périodicité annuelle convention Bordeaux Métropole). Cadre GIDAF à mettre à jour. NC sur fréquence de surveillance non respectée (M02). Purement documentaire/fréquence."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102025-09-2471204245600228f04",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "R09_BLOCAGE_TIERS"
-    ],
-    "modifiers": [],
-    "dynamic": "R09_BLOCAGE_TIERS",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T2",
-    "confidence": "high",
-    "reasoning": "Convention SABENA toujours en cours de discussion depuis l'inspection précédente. Problème d'isolement réseau car fermeture vanne SABENA ferait monter réseau en charge chez Dassault. Tiers bloquants multiples (SABENA, Aéroport, Dassault Falcon Service, Airbus). R09 signal clair de tiers bloquant. T2 suivi explicite constat antérieur."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102025-09-2471204245600228f05",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE"
-    ],
-    "modifiers": [],
-    "dynamic": "R09_BLOCAGE_TIERS",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T2",
-    "confidence": "high",
-    "reasoning": "Séparateur n°9 situé sur périmètre aéroport. Accord à trouver avec l'aéroport pour son entretien. Plan transmis identifiant les séparateurs. NC: séparateur sans accord d'entretien formalisé. Tiers (aéroport) bloquant. T2 suivi."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102025-09-2471204245600228f06",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Plan global jusqu'au point de rejet dans le Magudas établi par SABENA, version projet présentée en séance. Demande antérieure satisfaite. T3 amélioration depuis inspection précédente."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102025-09-2471204245600228f07",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R09_BLOCAGE_TIERS",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "Séparateur 4 entretenu en 2023 (justificatif transmis). Séparateur 9 non entretenu car en attente de convention avec aéroport. Même NC persistante depuis inspection précédente sur séparateur 9. T4 stagnation sur séparateur 9. R09 tiers bloquant (aéroport)."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102025-09-2471204245600228f08",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Surveillance eaux souterraines hautes/basses eaux menée et renseignée sous GIDAF. Mesures consultées. Nécessité d'ajouter piézomètre bât. J dans GIDAF (point mineur). Conformité substantielle constatée."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102025-09-2471204245600228f09",
-    "domains": [
-      "D08_DECHETS"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Registre déchets présenté via TENNAXIA. Quantités globalement stables sur 4 ans. Aucune demande formulée. Conformité constatée."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102025-09-2471204245600228f10",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Aucune campagne de mesures acoustiques à l'échelle du site depuis les travaux d'extension. Exploitant prévoit en 2026. NC sur contrôle acoustique non réalisé post-modifications. NC purement documentaire/contrôle absent."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102025-09-2471204245600228f11",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Dernière version POI datée du 5 mars 2025. Demande de transmission version papier complète à l'inspection. POI à jour mais transmission formelle requise. Conformité sur le fond, demande documentaire mineure."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102025-09-2471204245600228f12",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitant ne peut pas indiquer le niveau minimal de carburant des motopompes pour sécurité du site. Bâtiments J et U récents: justificatifs vérifications systèmes incendie/désenfumage/coupe-feu non transmis. NC technique et documentaire sur moyens de défense incendie des nouvelles extensions."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102025-09-2471204245600228f13",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Vérification visuelle protection foudre de septembre 2025 n'intègre pas les nouveaux bâtiments U et J. Vérification complète à mener en 2026. NC sur contrôle foudre incomplet (nouveaux bâtiments exclus)."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102025-09-2471204245600228f14",
-    "domains": [
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Armoire vannes automatiques coupure gaz non clairement identifiée. Armoire poste nourrice gaz fermée à clé, accès impossible le jour de l'inspection (pas de clé disponible). NC technique: dispositif de coupure gaz non accessible en toutes circonstances comme requis par la réglementation."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102026-02-2471204245600228f01",
-    "domains": [
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "FDS centralisées dans base QUICK FDS, fiches simplifiées pour produits CMR, accessibles via intranet et sur le terrain. Conformité constatée."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102026-02-2471204245600228f02",
-    "domains": [
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "FDS examinées par sondage à jour (2024 et 2022). Fiches simplifiées disponibles. EPI propres à chaque agent et disponibles aux zones. Robinet et douche en atelier. Conformité constatée."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102026-02-2471204245600228f03",
-    "domains": [
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Stockage produits dangereux dans alvéoles fermées avec rétention (sol des alvéoles). Zones utilisation avec armoires jaunes à rétention. Sol propre sans fissure. Conformité constatée."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102026-02-2471204245600228f04",
-    "domains": [
-      "D07_RETENTION",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Produits acides et basiques corrosifs stockés sur racks adjacents dans même alvéole. Réaction acide/base potentiellement dangereuse (exothermique, dégagement gazeux). NC technique physique constatée sur site: incompatibilité dans stockage avec risque réel. Demande de réorganisation."
-  },
-  {
-    "slug": "dassault-aviation-sa52010102026-02-2471204245600228f05",
-    "domains": [
-      "D08_DECHETS"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "État des stocks via SAP avec traçabilité complète. Volumes SAP cohérents avec stock effectif. Conformité constatée."
-  },
-  {
-    "slug": "dassault-falcon-service52132562024-07-0367980188600038f01",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Liste ESP incomplète: régime surveillance, dates inspection/requalification manquants. Groupes froids absents de la liste alors que susceptibles d'être soumis ESP. Doute sur complétude non levé. NC documentaire + incertitude technique. Susceptible de suites administratives."
-  },
-  {
-    "slug": "dassault-falcon-service52132562024-07-0367980188600038f02",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M04_MISE_EN_DEMEURE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S05_ESCALADE",
-    "gravity": "G4",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Inspections périodiques ESP non réalisées depuis 2017 alors qu'elles auraient dû être faites en 2021 (4 ans). NC grave: équipements sous pression sans IP depuis +3 ans. APMD proposé. G4: MED active + NC technique ESP. S05 escalade vers APMD."
-  },
-  {
-    "slug": "dassault-falcon-service52132562024-07-0367980188600038f03",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A05_ORGANISME",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "IP réalisées par organisme habilité. Compte-rendu précise absence vérification intérieure mais précise que pas de danger grave et équipements maintenus en service. Résultat satisfaisant suite à l'IP."
-  },
-  {
-    "slug": "dassault-falcon-service52132562024-07-0367980188600038f04",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Requalification périodique pas encore requise avant 2026. Conformité constatée sur cet aspect."
-  },
-  {
-    "slug": "dassault-falcon-service52132562024-07-0367980188600038f05",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Aucun équipement soumis à déclaration ou contrôle de mise en service. Conformité constatée."
-  },
-  {
-    "slug": "dassault-falcon-service52132562024-07-0367980188600038f06",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Marquage CE constaté sur les 3 équipements. Conformité constatée."
-  },
-  {
-    "slug": "dassault-falcon-service52132562024-07-0367980188600038f07",
-    "domains": [
-      "D04_EAUX",
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Bassin apparemment suffisamment dimensionné selon plans et constats. Conformité constatée."
-  },
-  {
-    "slug": "dassault-falcon-service52132562024-07-0367980188600038f08",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "2 hydrants sur 5 requis non repérés ni sur site ni sur plans. Alimentation hydrant privé par réseau public non justifiée. NC technique sur défense incendie: nombre d'hydrants requis non confirmé. Susceptible de suites administratives."
-  },
-  {
-    "slug": "dassault-falcon-service52132562025-11-2567980188600038f01",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S06_CLOTURE",
-    "gravity": "G2",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "IP de tous les appareils réalisées le 23/10/2024, rapports sans observation. Lève la MED du 12/08/2024. Mais plaques signalétiques groupes froids non lisibles + incohérence pression sur rapport. Conformité principale avec MED levée (S06) mais reste une NC mineure sur plaque signalétique (G2). T3 amélioration depuis la MED."
-  },
-  {
-    "slug": "dassault-falcon-service52132562025-11-2567980188600038f02",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "Hydrant privé par réseau public toujours non justifié depuis inspection 2024. Alimentation uniquement depuis Dassault Aviation. Demande de justification débit 360 m3/h requis. NC persistante sur défense incendie. T4 stagnation depuis inspection précédente."
-  },
-  {
-    "slug": "dassault-falcon-service52132562025-11-2567980188600038f03",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Plan des réseaux eaux pluviales consulté dans dossier des ouvrages exécutés. Réseau identifié avec bassin tampon, vanne guillotine, collecteur Dassault. Conformité constatée."
-  },
-  {
-    "slug": "dassault-falcon-service52132562025-11-2567980188600038f04",
-    "domains": [
-      "D04_EAUX",
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Dépression topographique du bassin tampon réduisant sa capacité. Exploitant ne peut pas justifier le volume disponible au-dessus du niveau de sur-verse. NC technique physique observée: capacité de confinement incertaine/réduite. Demande de relevé topographique."
-  },
-  {
-    "slug": "dassault-falcon-service52132562025-11-2567980188600038f05",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M02_MESURE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "Dépassement DCO (101 mg/L vs VLE 100) en juillet 2025 sans justification. Même type de dépassement en juillet 2024 sans justification. T4 stagnation: même NC récurrente en juillet sans analyse. M02 (protocole de surveillance sans réponse aux dépassements) + M14 (dépassement VLE observé)."
-  },
-  {
-    "slug": "dassault-falcon-service52132562025-11-2567980188600038f06",
-    "domains": [
-      "D06_SOLS",
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "Anomalies récurrentes en solvants chlorés et métaux (PZ3) déjà relevées en 2023. Exploitant dit antérieures à l'activité mais sans rapport initial des sols transmis. NC persistante: pollution souterraine non expliquée. T4 stagnation: même NC depuis au moins 2023."
-  },
-  {
-    "slug": "dassault-falcon-service52132562025-11-2567980188600038f07",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M02_MESURE",
-      "M06_RECIDIVE",
-      "M04_MISE_EN_DEMEURE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S05_ESCALADE",
-    "gravity": "G4",
-    "trajectory": "T5",
-    "confidence": "high",
-    "reasoning": "Vitesse d'éjection NC (4,28 m/s vs 8 m/s requis) déjà relevée en 2023 sans action corrective. Paramètres COV spécifiques absents du rapport de contrôle (déjà relevé en 2023). Récidive explicite sur 2 NC après 2 inspections. APMD proposé. G4 MED active + NC technique récurrente. T5 aggravation: NC non traitées."
-  },
-  {
-    "slug": "dassault52009442024-04-3071204245600046f01",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Multiples NC documentaires sur bâtiment B06: composition matériaux sans justificatifs classe feu, stacbond potentiellement classe C au lieu de A2, rapport réception sprinklage manquant, parois séparatives box sans justificatifs A2 s1 d0. NC techniques et documentaires multiples sur résistance au feu. M14 (impossibilité de confirmer conformité) + M01 (documents manquants)."
-  },
-  {
-    "slug": "dassault52009442024-04-3071204245600046f02",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Signalétique 'mode incendie' des vannes au niveau du bassin d'infiltration jugée insuffisante et nécessitant interprétation. NC technique physique: signalisation des vannes de confinement incendie inadéquate, risque en cas d'urgence. Demande d'amélioration du marquage."
-  },
-  {
-    "slug": "dassault52009442024-04-3071204245600046f03",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Séparation aires d'aspiration demandée par SDIS (avis du 7/12/2023) entre bâche 120m3 et poteau réseau surpressé non effective. SDIS local a confirmé verbalement mais pas par écrit. NC technique: disposition SDIS non mise en œuvre formellement. Demande de validation écrite du SDIS."
-  },
-  {
-    "slug": "dassault52009442024-04-3071204245600046f04",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Test simultané de 2 poteaux du réseau surpressé non réalisé (requis par prescription). Tests individuels faits mais pas simultanés. NC sur vérification fonctionnelle de la défense incendie en conditions réelles."
-  },
-  {
-    "slug": "dassault52009442024-04-3071204245600046f05",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M09_PAC",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Plan indique 6 box au lieu de 7 dans l'arrêté (le 7e est la zone de préparation). Voie échelle façade sud B06 absente du plan de masse. NC documentaires sur conformité des plans avec l'arrêté préfectoral. PAC nécessaire pour mettre à jour l'AP."
-  },
-  {
-    "slug": "dassault52009442024-04-3071204245600046f06",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Selon plan, 2 poteaux au lieu de 3 à moins de 100m du B07 LT. Exploitant doit justifier si cela est suffisant ou si un PAC est requis. NC potentielle sur défense incendie. Incertitude sur le fait qu'il n'y ait vraiment que 2 poteaux (à vérifier). Préférence G2 car pas encore confirmé comme NC technique réelle."
-  },
-  {
-    "slug": "daxap-logistique1000229912025-02-1482939175400019f01",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M17_CLASSIFICATION",
-      "M04_MISE_EN_DEMEURE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S05_ESCALADE",
-    "gravity": "G4",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Puissance réelle des machines 323 kW > 200 kW déclaré. Site exploite au régime de la déclaration alors que l'enregistrement est requis. Situation irrégulière. APMD proposé. G4: exploitation sans autorisation requise + APMD. S05 escalade."
-  },
-  {
-    "slug": "daxap-logistique1000229912025-02-1482939175400019f02",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M17_CLASSIFICATION",
-      "M04_MISE_EN_DEMEURE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S05_ESCALADE",
-    "gravity": "G4",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Activité transit/regroupement produits minéraux sur ~9 500 m2 sans déclaration rubrique 2517. Seuil de déclaration 5 000 m2 dépassé. Exploitation irrégulière. APMD proposé. G4: exploitation sans autorisation + APMD."
-  },
-  {
-    "slug": "daxap-logistique1000229912025-02-1482939175400019f03",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE",
-      "M17_CLASSIFICATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Centrale à béton déclarée DC rubrique 2518-b (malaxeur 2m3 < 3m3). Récépissé présent. Aucune remarque de l'inspection sur ce point."
-  },
-  {
-    "slug": "daxap-logistique1000229912025-02-1482939175400019f04",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Dossier de déclaration non présenté à la demande de l'inspection. NC documentaire: dossier réglementaire non disponible lors de l'inspection."
-  },
-  {
-    "slug": "daxap-logistique1000229912025-02-1482939175400019f05",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S01_CONSTAT",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Gestion effluents centrale à béton correcte (dalle étanche, bassins décantation, réutilisation). Mais exploitant n'a pu expliquer la gestion des effluents sur le reste du site (activités 2515 et 2517 non encore régularisées). NC partielle: absence de justification pour le reste du site. G2 car NC documentaire/explicative uniquement."
-  },
-  {
-    "slug": "daxap-logistique1000229912025-02-1482939175400019f06",
-    "domains": [
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G4",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Stockages liquides dangereux (AdBlue, adjuvant, décapant béton, essence, huiles) sans capacité de rétention adaptée. Sol bétonné seul. NC physique directement constatée sur site. Risque de pollution sol/eau en cas de déversement."
-  },
-  {
-    "slug": "daxap-logistique1000229912025-02-1482939175400019f07",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitant ne peut justifier les dernières mesures des retombées de poussières. Centrale à béton non en fonctionnement (pas de centraliste). NC sur contrôle périodique non justifié. Applicable aussi pour activité broyage/concassage."
-  },
-  {
-    "slug": "daxap-logistique1000229912025-02-1482939175400019f08",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Aucune mesure bruit/émergence justifiée. Centrale non en fonctionnement. NC sur contrôle acoustique périodique non réalisé."
-  },
-  {
-    "slug": "daxap-logistique1000229912025-02-1482939175400019f09",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Forage non utilisé sur site, bon état non vérifié. Pas de justificatifs de déclaration loi sur l'eau (IOTA rubrique 1.1.1.0). NC documentaire sur déclaration réglementaire du forage."
-  },
-  {
-    "slug": "daxap-logistique1000229912025-02-1482939175400019f10",
-    "domains": [
-      "D08_DECHETS"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Enrobés bitumineux dans monticule déchets sans procédure d'acceptation préalable ni test attestant absence de goudron/amiante. NC technique: déchets potentiellement non inertes admis sans vérification réglementaire."
-  },
-  {
-    "slug": "dbp-aquitaine52080902023-11-2384498503600020f01",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "PPAM datant du 14/02/2014, aucune révision depuis. Révision quinquennale requise → au moins 1 révision manquée (2019). NC documentaire: document de prévention accidents majeurs obsolète (non mis à jour depuis 9 ans)."
-  },
-  {
-    "slug": "dbp-aquitaine52080902023-11-2384498503600020f02",
-    "domains": [
-      "D02_ATEX",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Plan des zones à risque transmis (juin 2019), localisant zones risque chimique, électrique et ATEX. Aucune demande formulée sur ce point."
-  },
-  {
-    "slug": "dbp-aquitaine52080902023-11-2384498503600020f03",
-    "domains": [
-      "D11_SECURITE",
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Inventaire produits chimiques présenté, suivi quotidien via logiciel. Extraction rapide possible sur demande. Conformité constatée."
-  },
-  {
-    "slug": "dbp-aquitaine52080902023-11-2384498503600020f04",
-    "domains": [
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Site clôturé sur toute la périphérie, vidéosurveillance et alarmes avec report. Société externe d'intervention en dehors des heures ouvrées. Conformité constatée."
-  },
-  {
-    "slug": "dbp-aquitaine52080902023-11-2384498503600020f05",
-    "domains": [
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Formation générique périodique sans périodicité formelle, dernière en 2018. Organisation EPI peu claire. NC sur formation et organisation d'intervention. Demande de clarification. NC principalement organisationnelle/documentaire."
-  },
-  {
-    "slug": "dbp-aquitaine52080902023-11-2384498503600020f06",
-    "domains": [
-      "D01_INCENDIE",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Aucun exercice réalisé en 2023 (novembre). Exercice incendie octobre 2022 sans CR. Exercices d'évacuation irréguliers. NC sur fréquence annuelle requise des exercices. Contrôle périodique non réalisé."
-  },
-  {
-    "slug": "dbp-aquitaine52080902023-11-2384498503600020f07",
-    "domains": [
-      "D01_INCENDIE",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Corps de constat parle d'exercice incendie sans CR et sans exercice 2023, mais la prescription cite contrôle annuel installations électriques. Le constat body est identique au f06. Ce point de contrôle concerne les vérifications électriques périodiques. NC documentaire sur vérifications électriques. Confidence medium car corps de constat peu clair sur ce point spécifique."
-  },
-  {
-    "slug": "dbp-aquitaine52080902023-11-2384498503600020f08",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Extincteurs contrôlés en 2023. Mais débits poteaux incendie publics non disponibles (exploitant a relancé la mairie). NC partielle: données débit poteaux publics manquantes. Purement documentaire."
-  },
-  {
-    "slug": "dbp-aquitaine52080902023-11-2384498503600020f09",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Vérification moyens d'intervention faite en mars 2023 par ACCORD INCENDIE sans observation. Conformité constatée."
-  },
-  {
-    "slug": "dbp-aquitaine52080902023-11-2384498503600020f10",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Rapports de contrôle système de détection incendie transmis. Système redondant avec détecteurs de température dans gaines de ventilation. Conformité constatée sur ce point."
-  },
-  {
-    "slug": "dbp-aquitaine52080902023-11-2384498503600020f11",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Rapport de vérification mars 2023 relève nécessité d'intervention sur désenfumage (vérins, câble, poulie). Devis validé mais intervention non programmée au jour de l'inspection (novembre 2023). NC technique physique: équipement de désenfumage avec pièces à remplacer non encore réparé. Suites administratives MED possibles."
-  },
-  {
-    "slug": "dbp-aquitaine52080902023-11-2384498503600020f12",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Justificatifs de tenue au feu des parois de l'atelier de traitement de surface (coupe-feu 2h requises) non présentés. NC documentaire mais avec dimension physique car les parois peuvent être non conformes au degré REI requis sans le justifier. G3 car NC sur résistance au feu non prouvée d'un bâtiment contenant des produits chimiques."
-  },
-  {
-    "slug": "dbp-aquitaine52080902023-11-2384498503600020f13",
-    "domains": [
-      "D01_INCENDIE",
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M06_RECIDIVE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G4",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "Magasin stockage produits chimiques avec murs extérieurs en bardage métallique (REI15 au mieux) au lieu de REI60 requis. Portes extérieures non coupe-feu au degré requis. NC déjà constatée lors d'une inspection précédente. T4 stagnation. G4: NC technique grave sur résistance au feu magasin produits chimiques (bardage non conforme) avec historique de récidive. MED possibles annoncées."
-  },
-  {
-    "slug": "dbp-aquitaine52080902023-11-2384498503600020f14",
-    "domains": [
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M06_RECIDIVE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "Substances/préparations liquides stockées sur rack > 5m de hauteur alors que la limite réglementaire est 5m. NC déjà constatée lors d'une inspection précédente. NC physique directe sur stockage dangereux. T4 stagnation."
-  },
-  {
-    "slug": "dbp-aquitaine52080902023-11-2384498503600020f15",
-    "domains": [
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Alarme rétention zone polissage électrolytique testée: volume sonore jugé insuffisant pour alerter le personnel. Report d'alarme sur téléphones avec délai de plusieurs minutes (problème réseau). NC technique sur fonctionnalité de l'alarme de rétention: signal insuffisant pour garantir alerte efficace."
-  },
-  {
-    "slug": "dbp-aquitaine52080902023-11-2384498503600020f16",
-    "domains": [
-      "D04_EAUX",
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Bassin de confinement en bon état global avec pompe de relevage manuelle. Mais le bassin contenait déjà plusieurs dizaines de centimètres d'eau le jour de l'inspection. Pas de matérialisation du volume minimal à laisser libre. NC sur garantie de disponibilité du volume requis."
-  },
-  {
-    "slug": "dbp-aquitaine52080902023-11-2384498503600020f17",
-    "domains": [
-      "D02_ATEX"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A02_INSPECTION",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Détecteurs gaz installés en 2023 sans justificatifs. Vérification périodique pas encore mise en œuvre. NC documentaire: installation récente sans attestation de réalisation ni plan de vérification périodique. Conformité de principe mais contrôle non encore établi."
-  }
+ {
+  "slug": "dalkia-biganos52088482025-10-2845650053703756f04",
+  "domains": [
+   "D05_AIR_BRUIT",
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M02_MESURE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitant ne respecte pas les périodicités de mesures (cendres, rejets atmosphériques, rejets aqueux) et ne détaille pas les actions correctives. Surveillance continue absente pour plusieurs paramètres. NC technique sur surveillance réglementaire (M02_MESURE) + constat de lacunes dans la justification (M14). Demande formelle avec délai = S02."
+ },
+ {
+  "slug": "dalkia-biganos52088482025-10-2845650053703756f05",
+  "domains": [
+   "D12_ADMIN",
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M17_CLASSIFICATION",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Litige sur l'applicabilité de la rubrique 3520 (seuil 3t/h). Exploitant argue une capacité inférieure mais n'est pas en mesure de suivre en continu la quantité horaire. Inspection conteste avec plan d'approvisionnement à 30 000t/an. M17 (classement/seuil rubrique) + M14 (impossibilité de justifier mesure horaire). NC sur positionnement réglementaire."
+ },
+ {
+  "slug": "dalkia-biganos52088482025-10-2845650053703756f06",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Rapport de mesures du second semestre des chaudières gaz de secours non transmis. Exploitant en attente du document. NC purement documentaire (absence de rapport). Demande de transmission = S02."
+ },
+ {
+  "slug": "dalkia-biganos52088482025-10-2845650053703756f07",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M02_MESURE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T2",
+  "confidence": "high",
+  "reasoning": "Multiples dépassements VLE NOx et CO sur la période mai 2024 - mai 2025. Tableau détaillé des dépassements et causes. Plusieurs dépassements sans confirmation si réels ou indisponibilités de baie d'analyse. L'inspection interroge sur la durée et la nature de chaque dépassement. Suivi explicite depuis inspection précédente (avril 2024). M02 (qualité surveillance/autosurveillance) + M14 (dépassements observés physiquement). T2 car suivi de la période précédente."
+ },
+ {
+  "slug": "dalkia-biganos52088482025-10-2845650053703756f08",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M02_MESURE",
+   "M17_CLASSIFICATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Dépassements poussières août et septembre 2025 comparés à mauvaise VLE (arrêté 12/01/2021 que l'exploitant dit inapplicable). Incohérence dans les VLE utilisées. M02 (protocole de mesure inadéquat, mauvais référentiel) + M17 (positionnement vis-à-vis de la rubrique 3520). Demande de recalcul des VLE applicables."
+ },
+ {
+  "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f01",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Récépissé consulté, contenu correspond au niveau d'activité constaté. Aucun écart ni demande. Conformité constatée sur le classement ICPE rubriques 2910 et 1532."
+ },
+ {
+  "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f02",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Dernier contrôle périodique 2016, aucune NC relevée. ISO 14001 → périodicité 10 ans respectée. Certification fournie valable jusqu'à 2026. Conformité totale, aucune demande."
+ },
+ {
+  "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f03",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Suivi du combustible réalisé via tableur, contrôles à réception (taux d'humidité, visuel). Exploitant s'assure de la conformité des combustibles. Aucun écart ni demande formulée."
+ },
+ {
+  "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f04",
+  "domains": [
+   "D11_SECURITE",
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Dispositifs de coupure de l'alimentation combustible situés à l'intérieur du local d'alimentation (non à l'extérieur comme requis). NC physique directement observée sur site. Délai de mise en conformité de 3 mois imposé."
+ },
+ {
+  "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f05",
+  "domains": [
+   "D11_SECURITE",
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitant ne dispose pas d'un registre de suivi des produits dangereux ni d'un plan annexé indiquant leur emplacement (article 3.5 AM 03/08/2018). NC purement documentaire - registre et plan manquants. Délai d'un mois imposé."
+ },
+ {
+  "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f06",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Dépassement VLE dioxines/furanes (1,52 ng vs 0,1 ng I-TEQ/Nm3) sur chaudière biomasse 1. Exploitant n'a pu justifier les raisons. Mesure conforme en décembre 2022 mais analyse et plan d'actions non formalisés. NC technique (dépassement VLE observé) avec dimension physique réelle. Mesure corrective insuffisante (pas de traçabilité d'analyse)."
+ },
+ {
+  "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f07",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Périodicité de 2 ans non respectée pour les mesures des chaudières biomasse (mesures auraient dû être réalisées en avril 2024 au plus tard). Contrôle périodique par organisme agréé en retard. Demande de transmission des rapports de décembre 2024 dès réception."
+ },
+ {
+  "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f08",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Appareils de combustion équipés de dispositifs de suivi. Système d'astreinte en place. Tout conforme, aucune demande ni observation critique."
+ },
+ {
+  "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f09",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Système de détection incendie avec dérangements présents lors de la visite de contrôle (zones hors service pour travaux). Rapport indique que le système n'est pas en bon état de fonctionnement. Document Q7 non encore délivré. NC technique sur équipement de sécurité incendie hors service partiellement."
+ },
+ {
+  "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f10",
+  "domains": [
+   "D02_ATEX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Dispositif de détection gaz en place. Dernier rapport de contrôle (février 2024) sans remarque. Conformité constatée."
+ },
+ {
+  "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f11",
+  "domains": [
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitation par techniciens qualifiés, contrôles de bon fonctionnement présentés, personnel d'astreinte alerté en cas de défaut. Aucune NC ni demande."
+ },
+ {
+  "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f12",
+  "domains": [
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Consignes d'exploitation examinées sans remarque particulière. Personnel bien informé. Conformité constatée."
+ },
+ {
+  "slug": "dalkia-chaufferie-chu-charles-perrens1002826272024-12-0245650053706585f13",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Extincteurs présents, plans facilitant l'intervention des secours en place. Moyens de lutte contre l'incendie requis constatés. Aucune demande."
+ },
+ {
+  "slug": "dalkia-electrotechnics-ig1000156052023-02-0143005467600068f01",
+  "domains": [
+   "D12_ADMIN",
+   "D08_DECHETS"
+  ],
+  "mechanisms": [
+   "M17_CLASSIFICATION",
+   "M04_MISE_EN_DEMEURE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S05_ESCALADE",
+  "gravity": "G4",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitation irrégulière au titre des rubriques 2790/2791 (traitement déchets dangereux - régénération huiles) et 2718 (regroupement huiles usagées) sans classement ICPE. Projet d'APMD proposé au Préfet. Site susceptible d'être soumis au régime de l'Autorisation. M17 (positionnement vs rubriques) + M04 (APMD proposé). G4: exploitation illégale avec substances dangereuses sans encadrement ICPE. S05 escalade vers MED."
+ },
+ {
+  "slug": "darbonne-pepiniere-groupe-planasa-france52065892023-01-1943394590400012f01",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE",
+   "M17_CLASSIFICATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A02_INSPECTION",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Inspection n'a pas constaté d'installation relevant de la rubrique 4718. Erreur de reclassement dans les logiciels lors du changement de nomenclature (1412→4718). Constat de non-applicabilité = conformité en fait. Aucune demande."
+ },
+ {
+  "slug": "darbonne-pepiniere-groupe-planasa-france52065892023-01-1943394590400012f02",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE",
+   "M17_CLASSIFICATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A02_INSPECTION",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Station service privée non classée rubrique 1435 car volume annuel (73 000L) nettement inférieur au seuil de 100 m3. Ensemble de mesurage non certifié relevé mais pas NC ICPE. Aucune NC ICPE identifiée sur ce point."
+ },
+ {
+  "slug": "darbonne-pepiniere-groupe-planasa-france52065892023-01-1943394590400012f03",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M17_CLASSIFICATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Incertitude sur la nécessité de déclarer pour la rubrique 4734 (cuve 60m3 hydrocarbures). Inspection ne peut pas déterminer les proportions GNR/gazole. Demande à l'exploitant de calculer et se positionner. NC documentaire (absence de positionnement réglementaire). M17 (positionnement vis-à-vis d'une rubrique)."
+ },
+ {
+  "slug": "darbonne-pepiniere-groupe-planasa-france52065892023-01-1943394590400012f04",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE",
+   "M17_CLASSIFICATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A02_INSPECTION",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Inspection n'a pas constaté d'installation relevant de la rubrique 2921 et d'après les recherches le site n'est pas déclaré. Conformité sur ce point (absence d'installation concernée)."
+ },
+ {
+  "slug": "darbonne-pepiniere-groupe-planasa-france52065892023-01-1943394590400012f05",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE",
+   "M17_CLASSIFICATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A02_INSPECTION",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Engrais présents non classés au titre de la rubrique 4702 et quantités nettement inférieures à 250t. Aucune NC ICPE sur ce point."
+ },
+ {
+  "slug": "darbonne-pepiniere-groupe-planasa-france52065892023-01-1943394590400012f06",
+  "domains": [
+   "D12_ADMIN",
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE",
+   "M17_CLASSIFICATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A02_INSPECTION",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Fluide frigorigène R-1234 ze listé en annexe II du règlement EU (non visé par rubrique 1185 qui concerne annexe I). Société non classée au titre de la rubrique 1185. Conformité constatée."
+ },
+ {
+  "slug": "darbonne-pepiniere-groupe-planasa-france52065892023-01-1943394590400012f07",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitant n'a pas pu présenter les éléments attestant que les équipements sous pression ont été vérifiés conformément aux échéances prévues. NC sur inspection périodique réglementaire ESP non réalisée dans les délais."
+ },
+ {
+  "slug": "darbonne-pepiniere-groupe-planasa-france52065892023-01-1943394590400012f08",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitant n'a pas présenté de liste des équipements sous pression lors de la visite. NC purement documentaire (absence de liste réglementaire ESP)."
+ },
+ {
+  "slug": "dartess-saint-andre-de-cubzac1000605512024-11-1942418554400113f01",
+  "domains": [
+   "D12_ADMIN",
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M17_CLASSIFICATION",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Stockage 569t matières combustibles sans classement ICPE requis (rubrique 1510 DC). Exploitant exploite sans autorisation requise (DC). Activité irrégulière. Rappel que exploitation sans autorisation est passible de suites administratives et pénales. G4 car exploitation illégale d'entrepôt combustible. Déménagement annoncé."
+ },
+ {
+  "slug": "dartess-saint-andre-de-cubzac1000605512024-11-1942418554400113f02",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M17_CLASSIFICATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitant n'a pas pu fournir l'inventaire des quantités d'alcools de bouche (rubrique 4755). Sans déclaration, il doit limiter sous 50 m3. Exploitation potentiellement irrégulière sur ce point. NC documentaire avec risque de dépassement de seuil non vérifié."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f01",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Audit de conformité réalisé le 25 juin 2025 conformément à l'arrêté préfectoral. Non-conformités et actions traitées lors de l'inspection. Démarche proactive de l'exploitant (audit commandé conformément à la prescription). Aucune NC résiduelle mentionnée sur ce point précis."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f02",
+  "domains": [
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "État des stocks par sondage sans observation, mais exploitant n'a pas pu extraire la quantité de liquide stocké (manque de suivi volume liquide par cellule). NC documentaire/gestion de registre. Demande de mise en place du suivi volumique."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f03",
+  "domains": [
+   "D04_EAUX",
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Séparateur à hydrocarbures présent et fonctionnel. Curage pas encore réalisé car site en exploitation depuis mars 2025 (moins d'un an). Aucune demande formulée. Conformité constatée."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f04",
+  "domains": [
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Portail avec clé tricoise pour services de secours, ouverture à distance testée de manière concluante. Accès permanent garanti. Conformité constatée."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f05",
+  "domains": [
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Voie engins présente mais stock de palettes extérieurs réduisant la largeur. Absence de matérialisation de la zone de stockage, largeur potentiellement inférieure à 6m. NC physique sur voie d'accès secours (dimension non garantie). Demande de justification et matérialisation."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f06",
+  "domains": [
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Voies échelles présentes, matérialisées et accessibles depuis voie engins périphérique. Conformité constatée."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f07",
+  "domains": [
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Issues de secours accessibles depuis voie engins périphérique. Chemin stabilisé requis. Conformité constatée."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f08",
+  "domains": [
+   "D01_INCENDIE",
+   "D02_ATEX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Plans locaux avec description des dangers, étude ATEX présentée, local charge batterie non classé ATEX avec mesures préventives validées par l'exploitant. Inspection n'a pas remis en cause l'étude. Conformité constatée."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f09",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "PV de principe de montage des murs coupe-feu transmis mais pas d'attestation de conformité de réalisation. NC documentaire (absence de justificatif de bonne exécution). Demande d'attestation."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f10",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Note de calcul désenfumage présentée, attestation de pose des commandes fournie. Contrôle ouvrants par sondage sans remarque. Exploitant réalise contrôle trimestriel. Conformité constatée."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f11",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "PV montage transmis mais pas d'attestation de conformité de réalisation des murs et structure. NC documentaire similaire au f09. Demande d'attestation et nouvelle modélisation flux thermiques avec portes de quai."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f12",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Conditions de stockage différentes de celles prévues au dossier: largeur allées inférieure, racks supplémentaires, stockage en masse non prévu. Modification sans nouvelle modélisation thermique. NC technique physique constatée sur site. Risque de non-conformité sur flux thermiques calculés."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f13",
+  "domains": [
+   "D04_EAUX",
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Bassin de confinement étanche extérieur présent et en bon état apparent. Conformité constatée."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f14",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Bassin de confinement avec dispositif d'obturation automatique + manœuvre manuelle. Procédure d'entretien présentée. Non-conformité du récolement levée par l'exploitant. Conformité constatée."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f15",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Système d'extinction automatique vérifié le 08/12/2025 sans observation. Détection reliée à alarme + télésurveillance + société sécurité privée. Système en fonctionnement lors de l'inspection. Conformité constatée."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f16",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Besoins 180m3/h, réseau avec 4 poteaux privés + réserve 240m3 (vs 360m3 initial). Test simultané 4 poteaux non réalisé. Justificatif d'essai SDIS sur réserve en attente. NC documentaire sur justification des débits disponibles. Besoin théorique probablement couvert mais non formellement justifié."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f17",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "RIA contrôlés le 16/06/2025 sans observation. Vérification accessibilité par sondage sans remarque. Conformité constatée."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f18",
+  "domains": [
+   "D01_INCENDIE",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE",
+   "M07_CONTROLE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exercices d'évacuation réalisés les 24 avril et 10 décembre 2025. CR de décembre fourni sans point bloquant. Exercice avec RIA/extincteurs prévu en janvier 2026. Demande de transmission du CR futur. Conformité globale mais suivi demandé."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f19",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Analyse risque foudre préconise des mesures de protection sur l'armoire de gestion du sprinkler, mais ce point n'a pu être vérifié lors de la visite (constaté après l'inspection). Panneaux PV non installés mais prévus. NC technique sur protection foudre armoire sprinkler non vérifiable/non mis en place."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f20",
+  "domains": [
+   "D02_ATEX",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Charge batteries réalisée exclusivement dans le local prévu. Conformité constatée."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f21",
+  "domains": [
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Consignes affichées mentionnent toutes les informations requises. QR code pour accès aux informations. Conformité constatée."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f22",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Rapport de vérification semestrielle du système d'extinction automatique (décembre 2025) concluant à la conformité. Rapport conforme RIA (juin 2025). Conformité constatée."
+ },
+ {
+  "slug": "dartess-ex-nemo-invest-sas31050662025-12-1842418554400063f23",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Aucune mesure de bruit réalisée. Exploitant indique planification pour le 26/01/2026. Mesure requise dans les 3 mois suivant la mise en service (mars 2025). NC sur contrôle périodique non réalisé. Purement documentaire/contrôle absent."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102023-05-1071204245600228f01",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M09_PAC"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Modifications installations sans PAC préalable: puissance combustion 40→43,9 MW, ateliers charge 400→500 kW, GES 1235→2941 kg. NC sur obligation de PAC avant réalisation. Susceptible de conduire à des sanctions administratives. M09 (PAC non réalisé avant modification)."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102023-05-1071204245600228f02",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Liste ESP frigorifiques incomplète (type, régime surveillance, dates manquants). Doute sur présence de tuyauteries non listées. NC documentaire + incertitude sur complétude réelle de la liste. Susceptible de suites administratives."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102023-05-1071204245600228f03",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "IP de deux récipients air comprimé avec vérification documentaire non satisfaisante → 'résultats non satisfaisants'. Équipements maintenus en service malgré résultats non satisfaisants. NC technique ESP: équipements en service avec IP non satisfaisante. Susceptible de suites administratives."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102023-05-1071204245600228f04",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Erreur de saisie dans la liste ESP: prochaine IP ACAFR indiquée 2027 au lieu de 2025 (périodicité 2 ans). Exploitant reconnaît l'erreur. NC purement documentaire sur la liste ESP."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102023-05-1071204245600228f05",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Requalification périodique ACAFR réalisée le 20/05/2016 par l'APAVE, prononcée sans remarque. Conformité constatée sur requalification."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102023-05-1071204245600228f06",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Deux récipients d'air n'ont pas fait l'objet de déclaration ni de contrôle de mise en service. NC technique ESP sur mise en service réglementaire. Susceptible de suites administratives."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102023-05-1071204245600228f07",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Marquage suite à requalification ACAFR réalisé avec date et tête de cheval. Conformité constatée."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102024-04-1071204245600228f01",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Dispositif d'isolement réseau assainissement EP3 non actionnable par Dassault (vanne chez SABENA). Plans incomplets n'incluant pas ce système. NC technique sur isolement réseau (dispositif absent/non maîtrisable). Demande de convention SABENA et mise à jour des plans."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102024-04-1071204245600228f02",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M09_PAC",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Taxiway Dassault et rejet EP3 non mentionnés dans AP ICPE Dassault. PAC 2023 en cours d'instruction ne couvre pas tous les éléments manquants (débourbeurs, périmètre taxiway). NC sur situation administrative incomplète et nécessité de compléter le PAC."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102024-04-1071204245600228f03",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T2",
+  "confidence": "high",
+  "reasoning": "Suivi du point susceptible de suite de l'inspection 12/05/2022. Plan des réseaux transmis via PAC incomplet: bassin d'orage mal raccordé sur plans vs terrain, rejet EP4 potentiellement sans débourbeur, incohérences EP3. NC technique sur réseaux eaux pluviales avec incohérences plan/terrain. T2 car suivi explicite d'un constat antérieur."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102024-04-1071204245600228f04",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Débourbeur/déshuileur bassin d'orage non analysé. Exploitant réalise analyses EP3 mais pas sur bassin d'orage. NC sur surveillance des installations de traitement des eaux (M07) + incertitude sur conformité du séparateur sans analyses (M14)."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102025-09-2471204245600228f01",
+  "domains": [
+   "D05_AIR_BRUIT",
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M02_MESURE",
+   "M09_PAC"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T2",
+  "confidence": "high",
+  "reasoning": "Contrôles rejets atmosphériques réalisés triannuellement au lieu d'annuellement (article 9.2.1.1 AP). Nouvelle chaudière bâtiment T non encore portée à connaissance. AT4 mise en service sans PAC préalable finalisé. Plusieurs NC: fréquence de mesures insuffisante + PAC non réalisé avant modifications. T2 suivi d'inspections précédentes."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102025-09-2471204245600228f02",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Consommation eau 1245+66214 m3 > volume autorisé 20000 m3/an. Dépassement volume autorisé. Forage 4 supprimé sans justification de comblement dans les règles. Plan 'eau' incomplet. NC technique sur dépassement volume autorisé."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102025-09-2471204245600228f03",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M02_MESURE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Périodicité trimestrielle de mesures eaux pluviales non respectée depuis 2024 (exploitant se référait à périodicité annuelle convention Bordeaux Métropole). Cadre GIDAF à mettre à jour. NC sur fréquence de surveillance non respectée (M02). Purement documentaire/fréquence."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102025-09-2471204245600228f04",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R09_BLOCAGE_TIERS",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T2",
+  "confidence": "high",
+  "reasoning": "Convention SABENA toujours en cours de discussion depuis l'inspection précédente. Problème d'isolement réseau car fermeture vanne SABENA ferait monter réseau en charge chez Dassault. Tiers bloquants multiples (SABENA, Aéroport, Dassault Falcon Service, Airbus). R09 signal clair de tiers bloquant. T2 suivi explicite constat antérieur."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102025-09-2471204245600228f05",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE"
+  ],
+  "modifiers": [],
+  "dynamic": "R09_BLOCAGE_TIERS",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T2",
+  "confidence": "high",
+  "reasoning": "Séparateur n°9 situé sur périmètre aéroport. Accord à trouver avec l'aéroport pour son entretien. Plan transmis identifiant les séparateurs. NC: séparateur sans accord d'entretien formalisé. Tiers (aéroport) bloquant. T2 suivi."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102025-09-2471204245600228f06",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Plan global jusqu'au point de rejet dans le Magudas établi par SABENA, version projet présentée en séance. Demande antérieure satisfaite. T3 amélioration depuis inspection précédente."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102025-09-2471204245600228f07",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R09_BLOCAGE_TIERS",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "Séparateur 4 entretenu en 2023 (justificatif transmis). Séparateur 9 non entretenu car en attente de convention avec aéroport. Même NC persistante depuis inspection précédente sur séparateur 9. T4 stagnation sur séparateur 9. R09 tiers bloquant (aéroport)."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102025-09-2471204245600228f08",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Surveillance eaux souterraines hautes/basses eaux menée et renseignée sous GIDAF. Mesures consultées. Nécessité d'ajouter piézomètre bât. J dans GIDAF (point mineur). Conformité substantielle constatée."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102025-09-2471204245600228f09",
+  "domains": [
+   "D08_DECHETS"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Registre déchets présenté via TENNAXIA. Quantités globalement stables sur 4 ans. Aucune demande formulée. Conformité constatée."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102025-09-2471204245600228f10",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Aucune campagne de mesures acoustiques à l'échelle du site depuis les travaux d'extension. Exploitant prévoit en 2026. NC sur contrôle acoustique non réalisé post-modifications. NC purement documentaire/contrôle absent."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102025-09-2471204245600228f11",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Dernière version POI datée du 5 mars 2025. Demande de transmission version papier complète à l'inspection. POI à jour mais transmission formelle requise. Conformité sur le fond, demande documentaire mineure."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102025-09-2471204245600228f12",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitant ne peut pas indiquer le niveau minimal de carburant des motopompes pour sécurité du site. Bâtiments J et U récents: justificatifs vérifications systèmes incendie/désenfumage/coupe-feu non transmis. NC technique et documentaire sur moyens de défense incendie des nouvelles extensions."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102025-09-2471204245600228f13",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Vérification visuelle protection foudre de septembre 2025 n'intègre pas les nouveaux bâtiments U et J. Vérification complète à mener en 2026. NC sur contrôle foudre incomplet (nouveaux bâtiments exclus)."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102025-09-2471204245600228f14",
+  "domains": [
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Armoire vannes automatiques coupure gaz non clairement identifiée. Armoire poste nourrice gaz fermée à clé, accès impossible le jour de l'inspection (pas de clé disponible). NC technique: dispositif de coupure gaz non accessible en toutes circonstances comme requis par la réglementation."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102026-02-2471204245600228f01",
+  "domains": [
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "FDS centralisées dans base QUICK FDS, fiches simplifiées pour produits CMR, accessibles via intranet et sur le terrain. Conformité constatée."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102026-02-2471204245600228f02",
+  "domains": [
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "FDS examinées par sondage à jour (2024 et 2022). Fiches simplifiées disponibles. EPI propres à chaque agent et disponibles aux zones. Robinet et douche en atelier. Conformité constatée."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102026-02-2471204245600228f03",
+  "domains": [
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Stockage produits dangereux dans alvéoles fermées avec rétention (sol des alvéoles). Zones utilisation avec armoires jaunes à rétention. Sol propre sans fissure. Conformité constatée."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102026-02-2471204245600228f04",
+  "domains": [
+   "D07_RETENTION",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Produits acides et basiques corrosifs stockés sur racks adjacents dans même alvéole. Réaction acide/base potentiellement dangereuse (exothermique, dégagement gazeux). NC technique physique constatée sur site: incompatibilité dans stockage avec risque réel. Demande de réorganisation."
+ },
+ {
+  "slug": "dassault-aviation-sa52010102026-02-2471204245600228f05",
+  "domains": [
+   "D08_DECHETS"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "État des stocks via SAP avec traçabilité complète. Volumes SAP cohérents avec stock effectif. Conformité constatée."
+ },
+ {
+  "slug": "dassault-falcon-service52132562024-07-0367980188600038f01",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Liste ESP incomplète: régime surveillance, dates inspection/requalification manquants. Groupes froids absents de la liste alors que susceptibles d'être soumis ESP. Doute sur complétude non levé. NC documentaire + incertitude technique. Susceptible de suites administratives."
+ },
+ {
+  "slug": "dassault-falcon-service52132562024-07-0367980188600038f02",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M04_MISE_EN_DEMEURE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S05_ESCALADE",
+  "gravity": "G4",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Inspections périodiques ESP non réalisées depuis 2017 alors qu'elles auraient dû être faites en 2021 (4 ans). NC grave: équipements sous pression sans IP depuis +3 ans. APMD proposé. G4: MED active + NC technique ESP. S05 escalade vers APMD."
+ },
+ {
+  "slug": "dassault-falcon-service52132562024-07-0367980188600038f03",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A05_ORGANISME",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "IP réalisées par organisme habilité. Compte-rendu précise absence vérification intérieure mais précise que pas de danger grave et équipements maintenus en service. Résultat satisfaisant suite à l'IP."
+ },
+ {
+  "slug": "dassault-falcon-service52132562024-07-0367980188600038f04",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Requalification périodique pas encore requise avant 2026. Conformité constatée sur cet aspect."
+ },
+ {
+  "slug": "dassault-falcon-service52132562024-07-0367980188600038f05",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Aucun équipement soumis à déclaration ou contrôle de mise en service. Conformité constatée."
+ },
+ {
+  "slug": "dassault-falcon-service52132562024-07-0367980188600038f06",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Marquage CE constaté sur les 3 équipements. Conformité constatée."
+ },
+ {
+  "slug": "dassault-falcon-service52132562024-07-0367980188600038f07",
+  "domains": [
+   "D04_EAUX",
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Bassin apparemment suffisamment dimensionné selon plans et constats. Conformité constatée."
+ },
+ {
+  "slug": "dassault-falcon-service52132562024-07-0367980188600038f08",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "2 hydrants sur 5 requis non repérés ni sur site ni sur plans. Alimentation hydrant privé par réseau public non justifiée. NC technique sur défense incendie: nombre d'hydrants requis non confirmé. Susceptible de suites administratives."
+ },
+ {
+  "slug": "dassault-falcon-service52132562025-11-2567980188600038f01",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S06_CLOTURE",
+  "gravity": "G2",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "IP de tous les appareils réalisées le 23/10/2024, rapports sans observation. Lève la MED du 12/08/2024. Mais plaques signalétiques groupes froids non lisibles + incohérence pression sur rapport. Conformité principale avec MED levée (S06) mais reste une NC mineure sur plaque signalétique (G2). T3 amélioration depuis la MED."
+ },
+ {
+  "slug": "dassault-falcon-service52132562025-11-2567980188600038f02",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "Hydrant privé par réseau public toujours non justifié depuis inspection 2024. Alimentation uniquement depuis Dassault Aviation. Demande de justification débit 360 m3/h requis. NC persistante sur défense incendie. T4 stagnation depuis inspection précédente."
+ },
+ {
+  "slug": "dassault-falcon-service52132562025-11-2567980188600038f03",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Plan des réseaux eaux pluviales consulté dans dossier des ouvrages exécutés. Réseau identifié avec bassin tampon, vanne guillotine, collecteur Dassault. Conformité constatée."
+ },
+ {
+  "slug": "dassault-falcon-service52132562025-11-2567980188600038f04",
+  "domains": [
+   "D04_EAUX",
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Dépression topographique du bassin tampon réduisant sa capacité. Exploitant ne peut pas justifier le volume disponible au-dessus du niveau de sur-verse. NC technique physique observée: capacité de confinement incertaine/réduite. Demande de relevé topographique."
+ },
+ {
+  "slug": "dassault-falcon-service52132562025-11-2567980188600038f05",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M02_MESURE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "Dépassement DCO (101 mg/L vs VLE 100) en juillet 2025 sans justification. Même type de dépassement en juillet 2024 sans justification. T4 stagnation: même NC récurrente en juillet sans analyse. M02 (protocole de surveillance sans réponse aux dépassements) + M14 (dépassement VLE observé)."
+ },
+ {
+  "slug": "dassault-falcon-service52132562025-11-2567980188600038f06",
+  "domains": [
+   "D06_SOLS",
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "Anomalies récurrentes en solvants chlorés et métaux (PZ3) déjà relevées en 2023. Exploitant dit antérieures à l'activité mais sans rapport initial des sols transmis. NC persistante: pollution souterraine non expliquée. T4 stagnation: même NC depuis au moins 2023."
+ },
+ {
+  "slug": "dassault-falcon-service52132562025-11-2567980188600038f07",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M02_MESURE",
+   "M06_RECIDIVE",
+   "M04_MISE_EN_DEMEURE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S05_ESCALADE",
+  "gravity": "G4",
+  "trajectory": "T5",
+  "confidence": "high",
+  "reasoning": "Vitesse d'éjection NC (4,28 m/s vs 8 m/s requis) déjà relevée en 2023 sans action corrective. Paramètres COV spécifiques absents du rapport de contrôle (déjà relevé en 2023). Récidive explicite sur 2 NC après 2 inspections. APMD proposé. G4 MED active + NC technique récurrente. T5 aggravation: NC non traitées."
+ },
+ {
+  "slug": "dassault52009442024-04-3071204245600046f01",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Multiples NC documentaires sur bâtiment B06: composition matériaux sans justificatifs classe feu, stacbond potentiellement classe C au lieu de A2, rapport réception sprinklage manquant, parois séparatives box sans justificatifs A2 s1 d0. NC techniques et documentaires multiples sur résistance au feu. M14 (impossibilité de confirmer conformité) + M01 (documents manquants)."
+ },
+ {
+  "slug": "dassault52009442024-04-3071204245600046f02",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Signalétique 'mode incendie' des vannes au niveau du bassin d'infiltration jugée insuffisante et nécessitant interprétation. NC technique physique: signalisation des vannes de confinement incendie inadéquate, risque en cas d'urgence. Demande d'amélioration du marquage."
+ },
+ {
+  "slug": "dassault52009442024-04-3071204245600046f03",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Séparation aires d'aspiration demandée par SDIS (avis du 7/12/2023) entre bâche 120m3 et poteau réseau surpressé non effective. SDIS local a confirmé verbalement mais pas par écrit. NC technique: disposition SDIS non mise en œuvre formellement. Demande de validation écrite du SDIS."
+ },
+ {
+  "slug": "dassault52009442024-04-3071204245600046f04",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Test simultané de 2 poteaux du réseau surpressé non réalisé (requis par prescription). Tests individuels faits mais pas simultanés. NC sur vérification fonctionnelle de la défense incendie en conditions réelles."
+ },
+ {
+  "slug": "dassault52009442024-04-3071204245600046f05",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M09_PAC",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Plan indique 6 box au lieu de 7 dans l'arrêté (le 7e est la zone de préparation). Voie échelle façade sud B06 absente du plan de masse. NC documentaires sur conformité des plans avec l'arrêté préfectoral. PAC nécessaire pour mettre à jour l'AP."
+ },
+ {
+  "slug": "dassault52009442024-04-3071204245600046f06",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Selon plan, 2 poteaux au lieu de 3 à moins de 100m du B07 LT. Exploitant doit justifier si cela est suffisant ou si un PAC est requis. NC potentielle sur défense incendie. Incertitude sur le fait qu'il n'y ait vraiment que 2 poteaux (à vérifier). Préférence G2 car pas encore confirmé comme NC technique réelle."
+ },
+ {
+  "slug": "daxap-logistique1000229912025-02-1482939175400019f01",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M17_CLASSIFICATION",
+   "M04_MISE_EN_DEMEURE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S05_ESCALADE",
+  "gravity": "G4",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Puissance réelle des machines 323 kW > 200 kW déclaré. Site exploite au régime de la déclaration alors que l'enregistrement est requis. Situation irrégulière. APMD proposé. G4: exploitation sans autorisation requise + APMD. S05 escalade."
+ },
+ {
+  "slug": "daxap-logistique1000229912025-02-1482939175400019f02",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M17_CLASSIFICATION",
+   "M04_MISE_EN_DEMEURE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S05_ESCALADE",
+  "gravity": "G4",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Activité transit/regroupement produits minéraux sur ~9 500 m2 sans déclaration rubrique 2517. Seuil de déclaration 5 000 m2 dépassé. Exploitation irrégulière. APMD proposé. G4: exploitation sans autorisation + APMD."
+ },
+ {
+  "slug": "daxap-logistique1000229912025-02-1482939175400019f03",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE",
+   "M17_CLASSIFICATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Centrale à béton déclarée DC rubrique 2518-b (malaxeur 2m3 < 3m3). Récépissé présent. Aucune remarque de l'inspection sur ce point."
+ },
+ {
+  "slug": "daxap-logistique1000229912025-02-1482939175400019f04",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Dossier de déclaration non présenté à la demande de l'inspection. NC documentaire: dossier réglementaire non disponible lors de l'inspection."
+ },
+ {
+  "slug": "daxap-logistique1000229912025-02-1482939175400019f05",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S01_CONSTAT",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Gestion effluents centrale à béton correcte (dalle étanche, bassins décantation, réutilisation). Mais exploitant n'a pu expliquer la gestion des effluents sur le reste du site (activités 2515 et 2517 non encore régularisées). NC partielle: absence de justification pour le reste du site. G2 car NC documentaire/explicative uniquement."
+ },
+ {
+  "slug": "daxap-logistique1000229912025-02-1482939175400019f06",
+  "domains": [
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G4",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Stockages liquides dangereux (AdBlue, adjuvant, décapant béton, essence, huiles) sans capacité de rétention adaptée. Sol bétonné seul. NC physique directement constatée sur site. Risque de pollution sol/eau en cas de déversement."
+ },
+ {
+  "slug": "daxap-logistique1000229912025-02-1482939175400019f07",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitant ne peut justifier les dernières mesures des retombées de poussières. Centrale à béton non en fonctionnement (pas de centraliste). NC sur contrôle périodique non justifié. Applicable aussi pour activité broyage/concassage."
+ },
+ {
+  "slug": "daxap-logistique1000229912025-02-1482939175400019f08",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Aucune mesure bruit/émergence justifiée. Centrale non en fonctionnement. NC sur contrôle acoustique périodique non réalisé."
+ },
+ {
+  "slug": "daxap-logistique1000229912025-02-1482939175400019f09",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Forage non utilisé sur site, bon état non vérifié. Pas de justificatifs de déclaration loi sur l'eau (IOTA rubrique 1.1.1.0). NC documentaire sur déclaration réglementaire du forage."
+ },
+ {
+  "slug": "daxap-logistique1000229912025-02-1482939175400019f10",
+  "domains": [
+   "D08_DECHETS"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Enrobés bitumineux dans monticule déchets sans procédure d'acceptation préalable ni test attestant absence de goudron/amiante. NC technique: déchets potentiellement non inertes admis sans vérification réglementaire."
+ },
+ {
+  "slug": "dbp-aquitaine52080902023-11-2384498503600020f01",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "PPAM datant du 14/02/2014, aucune révision depuis. Révision quinquennale requise → au moins 1 révision manquée (2019). NC documentaire: document de prévention accidents majeurs obsolète (non mis à jour depuis 9 ans)."
+ },
+ {
+  "slug": "dbp-aquitaine52080902023-11-2384498503600020f02",
+  "domains": [
+   "D02_ATEX",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Plan des zones à risque transmis (juin 2019), localisant zones risque chimique, électrique et ATEX. Aucune demande formulée sur ce point."
+ },
+ {
+  "slug": "dbp-aquitaine52080902023-11-2384498503600020f03",
+  "domains": [
+   "D11_SECURITE",
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Inventaire produits chimiques présenté, suivi quotidien via logiciel. Extraction rapide possible sur demande. Conformité constatée."
+ },
+ {
+  "slug": "dbp-aquitaine52080902023-11-2384498503600020f04",
+  "domains": [
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Site clôturé sur toute la périphérie, vidéosurveillance et alarmes avec report. Société externe d'intervention en dehors des heures ouvrées. Conformité constatée."
+ },
+ {
+  "slug": "dbp-aquitaine52080902023-11-2384498503600020f05",
+  "domains": [
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Formation générique périodique sans périodicité formelle, dernière en 2018. Organisation EPI peu claire. NC sur formation et organisation d'intervention. Demande de clarification. NC principalement organisationnelle/documentaire."
+ },
+ {
+  "slug": "dbp-aquitaine52080902023-11-2384498503600020f06",
+  "domains": [
+   "D01_INCENDIE",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Aucun exercice réalisé en 2023 (novembre). Exercice incendie octobre 2022 sans CR. Exercices d'évacuation irréguliers. NC sur fréquence annuelle requise des exercices. Contrôle périodique non réalisé."
+ },
+ {
+  "slug": "dbp-aquitaine52080902023-11-2384498503600020f07",
+  "domains": [
+   "D01_INCENDIE",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Corps de constat parle d'exercice incendie sans CR et sans exercice 2023, mais la prescription cite contrôle annuel installations électriques. Le constat body est identique au f06. Ce point de contrôle concerne les vérifications électriques périodiques. NC documentaire sur vérifications électriques. Confidence medium car corps de constat peu clair sur ce point spécifique."
+ },
+ {
+  "slug": "dbp-aquitaine52080902023-11-2384498503600020f08",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Extincteurs contrôlés en 2023. Mais débits poteaux incendie publics non disponibles (exploitant a relancé la mairie). NC partielle: données débit poteaux publics manquantes. Purement documentaire."
+ },
+ {
+  "slug": "dbp-aquitaine52080902023-11-2384498503600020f09",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Vérification moyens d'intervention faite en mars 2023 par ACCORD INCENDIE sans observation. Conformité constatée."
+ },
+ {
+  "slug": "dbp-aquitaine52080902023-11-2384498503600020f10",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Rapports de contrôle système de détection incendie transmis. Système redondant avec détecteurs de température dans gaines de ventilation. Conformité constatée sur ce point."
+ },
+ {
+  "slug": "dbp-aquitaine52080902023-11-2384498503600020f11",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Rapport de vérification mars 2023 relève nécessité d'intervention sur désenfumage (vérins, câble, poulie). Devis validé mais intervention non programmée au jour de l'inspection (novembre 2023). NC technique physique: équipement de désenfumage avec pièces à remplacer non encore réparé. Suites administratives MED possibles."
+ },
+ {
+  "slug": "dbp-aquitaine52080902023-11-2384498503600020f12",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Justificatifs de tenue au feu des parois de l'atelier de traitement de surface (coupe-feu 2h requises) non présentés. NC documentaire mais avec dimension physique car les parois peuvent être non conformes au degré REI requis sans le justifier. G3 car NC sur résistance au feu non prouvée d'un bâtiment contenant des produits chimiques."
+ },
+ {
+  "slug": "dbp-aquitaine52080902023-11-2384498503600020f13",
+  "domains": [
+   "D01_INCENDIE",
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M06_RECIDIVE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G4",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "Magasin stockage produits chimiques avec murs extérieurs en bardage métallique (REI15 au mieux) au lieu de REI60 requis. Portes extérieures non coupe-feu au degré requis. NC déjà constatée lors d'une inspection précédente. T4 stagnation. G4: NC technique grave sur résistance au feu magasin produits chimiques (bardage non conforme) avec historique de récidive. MED possibles annoncées."
+ },
+ {
+  "slug": "dbp-aquitaine52080902023-11-2384498503600020f14",
+  "domains": [
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M06_RECIDIVE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "Substances/préparations liquides stockées sur rack > 5m de hauteur alors que la limite réglementaire est 5m. NC déjà constatée lors d'une inspection précédente. NC physique directe sur stockage dangereux. T4 stagnation."
+ },
+ {
+  "slug": "dbp-aquitaine52080902023-11-2384498503600020f15",
+  "domains": [
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Alarme rétention zone polissage électrolytique testée: volume sonore jugé insuffisant pour alerter le personnel. Report d'alarme sur téléphones avec délai de plusieurs minutes (problème réseau). NC technique sur fonctionnalité de l'alarme de rétention: signal insuffisant pour garantir alerte efficace."
+ },
+ {
+  "slug": "dbp-aquitaine52080902023-11-2384498503600020f16",
+  "domains": [
+   "D04_EAUX",
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Bassin de confinement en bon état global avec pompe de relevage manuelle. Mais le bassin contenait déjà plusieurs dizaines de centimètres d'eau le jour de l'inspection. Pas de matérialisation du volume minimal à laisser libre. NC sur garantie de disponibilité du volume requis."
+ },
+ {
+  "slug": "dbp-aquitaine52080902023-11-2384498503600020f17",
+  "domains": [
+   "D02_ATEX"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A02_INSPECTION",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Détecteurs gaz installés en 2023 sans justificatifs. Vérification périodique pas encore mise en œuvre. NC documentaire: installation récente sans attestation de réalisation ni plan de vérification périodique. Conformité de principe mais contrôle non encore établi."
+ }
 ]

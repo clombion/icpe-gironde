@@ -179,6 +179,7 @@ def build_report(
     for batch in batches:
         expected = slugs_by_batch[batch]
         loaded: dict[str, list[dict[str, Any]]] = {}
+        has_final = (TAGS_DIR / f"final-{batch}.json").exists()
         for kind in ("hunter", "final"):
             path = TAGS_DIR / f"{kind}-{batch}.json"
             if not path.exists():
@@ -190,6 +191,10 @@ def build_report(
                 report["validation_errors"][path.name] = [err]
                 continue
             loaded[kind] = entries
+            # Un hunter supplanté par un final n'est plus consommé par le
+            # merge — sa validité ne compte que tant que le final n'existe pas.
+            if kind == "hunter" and has_final:
+                continue
             errors = validate_entries(entries, expected, valid_codes)
             if errors:
                 report["validation_errors"][path.name] = errors

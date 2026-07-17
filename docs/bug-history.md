@@ -54,13 +54,13 @@ Prochain ID : **BUG-007**
 
 ## BUG-004 — Codes hors taxonomie dans ~30 fichiers de tags
 
-**Sévérité** : Moyenne | **Classe** : Vocabulaire contrôlé | **Statut** : Ouvert
+**Sévérité** : Moyenne | **Classe** : Vocabulaire contrôlé | **Statut** : Corrigé (finals) / auto-résolu par re-audit (hunters)
 
-**Résumé** : Les agents ont inventé des alias (`M04_MED` pour `M04_MISE_EN_DEMEURE`, `D09_PAC`, `M04_MECONNAISSANCE`), classé des modificateurs (`m_DELAI`, `m_MENACE`) dans l'axe `mechanisms`, et produit des valeurs jointes (`R13/R14`). ~30 fichiers hunter/final concernés.
+**Résumé** : Les agents ont inventé des alias (`M04_MED` pour `M04_MISE_EN_DEMEURE`), miroité des suffixes de mécanisme en domaines (`D09_PAC` ← `M09_PAC`, `D17_CLASSIFICATION` ← `M17_CLASSIFICATION`), classé des modificateurs (`m_DELAI`, `m_MENACE`) dans l'axe `mechanisms` (~270 occurrences), et produit des valeurs jointes (`R13/R14`). ~30 fichiers hunter/final concernés.
 
-**Cause racine** : Les codes n'étaient contraints que par le prompt (la taxonomie en contexte), jamais imposés par une validation enum à l'écriture. Un LLM sous contrainte purement textuelle dérive vers des abréviations plausibles.
+**Cause racine** : Les codes n'étaient contraints que par le prompt (la taxonomie en contexte), jamais imposés par une validation enum à l'écriture. Un LLM sous contrainte purement textuelle dérive vers des abréviations plausibles et duplique l'information d'un axe sur l'autre.
 
-**Correction** : Détection par `tag_status.py` (validation enum contre `codebook.json`, y compris formes courtes G1/T1). Normalisation au merge ou re-runs ciblés : décision en attente (voir decision-log § 0).
+**Correction** : Trois traitements selon la classe (voir decision-log § 4) : corrections mécaniques via `scripts/fix_tag_aliases.py` (47), ré-adjudication par relecture de fiche pour les 6 entrées ambiguës des finals, et prompt v1.1 (règles de validité stricte) pour que la passe Skeptic corrige les hunter des 48 batches restants. Passes tracées dans `_provenance.jsonl`.
 
 **Prévention** : Le principe existant « controlled vocabulary » de `ai-llm-harness` s'appliquait mais n'avait pas été appliqué à cette couche — la section « multi-round agent campaigns » de `data-thematic-analysis` rend désormais la validation enum explicite pour les campagnes hors harnais.
 

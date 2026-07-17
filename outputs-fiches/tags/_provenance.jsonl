@@ -1,0 +1,3 @@
+{"step": "fix_tag_aliases", "file": "final-14.json", "corrections": 44, "rules": "axis-move m_* mechanisms→modifiers; M04_MED→M04_MISE_EN_DEMEURE", "timestamp": "2026-07-17T17:20:20.691731+00:00"}
+{"step": "fix_tag_aliases", "file": "final-42.json", "corrections": 3, "rules": "axis-move m_* mechanisms→modifiers; M04_MED→M04_MISE_EN_DEMEURE", "timestamp": "2026-07-17T17:20:20.696551+00:00"}
+{"step": "readjudicate_aliases", "files": ["final-02", "final-04", "final-05", "final-08", "final-25"], "corrections": 6, "method": "Sonnet adjudicator re-read each fiche (agent a5ce4621123b6007d); final-25 f04 = deterministic drop of R09 duplicated from dynamic", "timestamp": "2026-07-17T17:24:01.907244+00:00"}

@@ -1,2333 +1,2332 @@
 [
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612022-11-1551903224700032f12",
-    "domains": [
-      "D03_SEVESO",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Corps décrit un bilan annuel de sous-traitance présenté et des comptes-rendus mensuels transmis — aucune NC, aucune demande formulée, fonctionnement conforme."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-03-2151903224700032f01",
-    "domains": [
-      "D03_SEVESO",
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exercice POI réalisé avec réaction globale satisfaisante mais 6 observations d'amélioration identifiées (accès aux fiches, connaissance du POI, numéro préfecture erroné, information erronée transmise au SDIS) — conformité partielle avec NC documentaires/procédurales."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-04-0651903224700032f01",
-    "domains": [
-      "D03_SEVESO",
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Tonnage de brûlage respecté; exploitant clarifie la notion de 'nature' dans la prescription et confirme la compatibilité des produits — aucun écart retenu."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-04-0651903224700032f02",
-    "domains": [
-      "D03_SEVESO",
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Corps se termine par 'Tout est conforme' pour les conditions météorologiques de brûlage — signal fort de conformité M08."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f01",
-    "domains": [
-      "D03_SEVESO",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Procédure de gestion des stocks fonctionnelle; différence de 270 kg temporaire explicitement considérée acceptable par l'IIC (\"la gestion du risque est de ce fait maximisante\"); aucune demande formelle émise — conformité fonctionnelle. Correction: suppression M14 (IIC a validé la situation), G2→G1, R14→R13."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f02",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Colonne 'bâtiment' ajoutée au fichier de référence; extraction consulte par l'IIC avec succès — suite d'inspection précédente résolue."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f03",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Bâtiment CX2 immédiatement intégré au fichier lors de l'inspection; IIC ne relève pas d'écart — suite résolue."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f04",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Fréquence hebdomadaire d'extraction définie dans procédure, extraction CN7 présentée à jour avec quantité confirmée sur terrain — suite d'inspection résolue."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f05",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "medium",
-    "reasoning": "L'IIC a vérifié par sondage la cohérence pour CS10 — vérification réalisée sans mention d'écart, présumé conforme."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f06",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Corps: 'Le fichier Excel décrivant l'état des stocks des CX 2 et CX 3 a été corrigé' — correction documentaire confirmée."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f07",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S06_CLOTURE",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "IIC conclut explicitement 'les dispositions de l'arrêté de mise en demeure du 30/03/2021 sont respectées' — levée de MED confirmée."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f08",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S04_VERIFICATION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitant déclare avoir évacué les produits mais l'IIC n'a pas pu vérifier sur terrain que le hangar CSR est vide — incertitude terrain constitue M14 (n'a pas pu confirmer)."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f09",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Consigne du bâtiment CN7 vérifiée par sondage avec quantités maximales présentes — aucun écart."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f10",
-    "domains": [
-      "D03_SEVESO",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Chef de CN7 interrogé connaît la procédure et les quantités à ne pas dépasser — NC de l'inspection précédente résolue."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f11",
-    "domains": [
-      "D03_SEVESO",
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Extraction informatique des stocks ne confirme pas l'état du GFU pour le nitrate d'ammonium (rubrique 4701) — incohérence terrain/document constitue NC technique sur les stocks dangereux."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f12",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "État synthétique pour substances hors SAP absent; IIC dit explicitement \"n'a pas vérifié\" les mentions de dangers — absence documentaire M01, pas de constat technique de terrain M14. Correction: suppression fausse M14."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-10-0551903224700032f01",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M02_MESURE"
-    ],
-    "modifiers": [],
-    "dynamic": "R08_CONTRAINTE_ECONOMIQUE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Revue des techniques d'analyse en continu du perchlorate; deux fournisseurs confirment absence d'analyseur continu — réponse technique sur les méthodes de mesure. Correction: suppression faux D02_ATEX (aucun contenu ATEX dans le corpus)."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-10-0551903224700032f02",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Inventaire des points de rejet fourni mais diagnostics des réseaux non réalisés — écart: absence de diagnostic physique sur l'état des réseaux constitue NC technique."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-10-0551903224700032f03",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Plusieurs écarts: plan d'action non basé sur diagnostic; bouchage sans vérification préalable de pollution; planning absent — NC technique sur la sécurisation des réseaux."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-10-0551903224700032f04",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M02_MESURE"
-    ],
-    "modifiers": [],
-    "dynamic": "R02_PROMESSE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Programme de surveillance trimestrielle mis en place; exploitant confirme que les prélèvements seront réalisés par temps de forte pluie; obs résiduelle sur la fréquence (mensuelle pour rive droite) — M02 dominant, R02 correct. Correction: suppression fausse M08 (il y a une obs résiduelle, pas de conformité établie)."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-10-0551903224700032f05",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M02_MESURE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R10_TENSION",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitant refuse de mettre en place les points de mesure complémentaires et les analyses plus fréquentes; IIC constate deux écarts sur le programme de surveillance du milieu naturel."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-10-0551903224700032f06",
-    "domains": [
-      "D04_EAUX",
-      "D06_SOLS"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Réponse de l'exploitant sur l'étude hydrogéologique 'n'appelle pas de remarque de la part de l'IIC' — aucun écart retenu."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-11-2451903224700032f01",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A05_ORGANISME",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Nouveau prestataire LPL agréé pour les prélèvements en remplacement d'ENGIE non agréé — suite d'inspection précédente résolue."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-11-2451903224700032f02",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Cahier des clauses techniques et note sur l'échantillonnage transmis — observation précédente satisfaite."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-11-2451903224700032f03",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M02_MESURE"
-    ],
-    "modifiers": [],
-    "dynamic": "R10_TENSION",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitant refuse d'instaurer une astreinte weekend pour mesure PA, invoquant des raisons organisationnelles et sanitaires; IIC demande des éléments complémentaires chiffrés."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-11-2451903224700032f04",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Corps se termine par 'RAS' — objectif de résultat d'indisponibilité <24h documenté dans CCTS, observation satisfaite."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-11-2451903224700032f05",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M02_MESURE"
-    ],
-    "modifiers": [],
-    "dynamic": "R02_PROMESSE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Exploitant précise vigilance accrue; IIC demande deux observations complémentaires sur la traçabilité et la pré-alerte — M02 sur la surveillance, R02 correct. Correction: suppression fausse M08 (deux obs. non satisfaites restent ouvertes)."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-11-2451903224700032f06",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Corps: 'L'IIC a consulté cette instruction. RAS' — instruction mise à jour et vérifiée conforme."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-11-2451903224700032f07",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M11_INCIDENT",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G4",
-    "trajectory": "T2",
-    "confidence": "high",
-    "reasoning": "Dépassement VLE perchlorate 8 µg/l vs 7 µg/l le 20/10/2023 avec rappel que la récurrence pourrait conduire à des suites administratives — incident déclaré avec VLE dépassée."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f01",
-    "domains": [
-      "D12_ADMIN",
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M17_CLASSIFICATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Vérification classement rubrique 1185: différence de 133 kg non déclarés (1633 vs 1500 kg); IIC l'accepte pour actualisation lors de prochaine modification — M17 correct. Correction: G1→G2 (écart documentaire/déclaratif mineur constaté)."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f02",
-    "domains": [
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Installation COPELEND constituée de deux circuits mais référencée comme un seul; obligation de mise à jour de l'inventaire sous 1 mois — NC documentaire sur l'exactitude de l'inventaire des équipements frigorigènes."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f03",
-    "domains": [
-      "D15_SECTEUR",
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Rappel réglementaire sur l'interdiction de recharge avec fluides GWP>2500 à partir de 2020 — observation sans NC constatée, information transmise à l'exploitant."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f04",
-    "domains": [
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A05_ORGANISME",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Société DALKIA dispose de l'attestation de capacité valide jusqu'en avril 2024 — conformité vérifiée."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f05",
-    "domains": [
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "7 équipements R22 restants, rappel de l'interdiction de recharge — observation informationnelle sans NC active."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f06",
-    "domains": [
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Quantité max installée 283 t éq CO2 < 500 t éq CO2 — installations n'ont pas à être équipées de détecteurs, constat conforme."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f07",
-    "domains": [
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Dates de contrôle d'étanchéité non saisies correctement dans GMAO (décalage d'une huitaine de jours); observation avec délai de 1 mois pour correction — NC procédurale sur la tenue du registre GMAO."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f08",
-    "domains": [
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R07_CONTRAINTE_TECHNIQUE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "9 équipements en défaut de contrôle d'étanchéité; 2 des 4 contrôlés par sondage en défaut; retards liés à l'amiante et à la co-activité pyrotechnique — NC technique sur les contrôles périodiques réglementaires."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f09",
-    "domains": [
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Vignettes de contrôle affichent la date de contrôle et non la date de validité (sauf ABIX) — NC documentaire sur l'étiquetage, pas d'état physique dégradé. Correction: M14→M01 (absence de l'information réglementaire sur les vignettes = documentation)."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-04-3051903224700032f01",
-    "domains": [
-      "D05_AIR_BRUIT",
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M09_PAC"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Trois dépassements ponctuels de la puissance maximale de 20 MW constatés; exploitant sans explication précise; procédure de gestion du mot de passe non formalisée — NC technique sur le respect du seuil de puissance SEQE."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f01",
-    "domains": [
-      "D07_RETENTION",
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R07_CONTRAINTE_TECHNIQUE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Liquides inflammables présents dans bâtiment BUL non prévu pour cela (bâtiment de réfection suite à grêle 2022); IIC ne propose pas de MED vu la quantité faible et la situation temporaire — NC physique mineure."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f02",
-    "domains": [
-      "D01_INCENDIE",
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_MENACE"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T5",
-    "confidence": "high",
-    "reasoning": "Absence de détection incendie au MG2 non installée malgré prescription depuis 30/06/2021; CSMP3 également non équipé; protection foudre non confirmée — NC physique sur l'absence d'équipement prescrit avec menace APMD."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f03",
-    "domains": [
-      "D08_DECHETS"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Centaine de fûts vides de l'abri anti-aérien évacuée le 12/10/2021 — suite résolue, demande résiduelle documentaire (transmission d'attestation)."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f04",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R02_PROMESSE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitant a établi une 3e mesure comme juge mais elle reste à intégrer dans une nouvelle procédure formalisée — NC documentaire sur l'absence de procédure écrite."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f05",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Attestation de vérification périodique présentée fait référence au site d'ISSAC et non au site concerné; désignation des équipements non claire — NC documentaire sur l'identification des équipements testés."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f06",
-    "domains": [
-      "D07_RETENTION",
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G3",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Arbustes supprimés et boue évacuée confirmés; mais traces de rouille sur virole du réservoir FOD n°1 en cours de diagnostic — corrosion sur réservoir de liquides inflammables = NC technique physique avec risque potentiel. Correction: G2→G3 (corrosion active sur équipement de rétention)."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f07",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Document présenté ne fait référence qu'au GV+surchauffeur mais pas à l'économiseur (équipement distinct); attestation pour GV indique que IP aurait dû être réalisé avant 19/11/2023 — NC sur l'identification et la périodicité des contrôles ESP."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f08",
-    "domains": [
-      "D03_SEVESO",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Outil informatique d'alerte en service avec test hebdomadaire; observation suggère un bilan des taux de réponse — conformité de base confirmée."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f09",
-    "domains": [
-      "D03_SEVESO",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Observation sur l'utilité de chasubles floquées en salle POI — suggestion d'amélioration sans NC constatée."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-09-0551903224700032f01",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G3",
-    "trajectory": "T2",
-    "confidence": "high",
-    "reasoning": "Diagnostics initiés sur base de plans non exhaustifs (deux embranchements non inscrits découverts); tableau de synthèse sans dates pour réseaux sur fond gris — NC technique sur l'exhaustivité des diagnostics de réseaux."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-09-0551903224700032f02",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "AMDEC réalisée, bouchage du point de rejet vérifié sur terrain, planning transmis par courriel — trois points de prescription résolus."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-09-0551903224700032f03",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M02_MESURE",
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Prélèvements réalisés par temps de forte pluie confirmés; concentrations mesurées (180 µg/l et 55 µg/l à source) n'induisent pas d'écart dans la Jalle — surveillance conforme avec plan de rénovation en cours."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-09-0551903224700032f04",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M02_MESURE"
-    ],
-    "modifiers": [],
-    "dynamic": "R10_TENSION",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T2",
-    "confidence": "high",
-    "reasoning": "Exploitant propose augmentation de fréquence de prélèvement qui ne répond pas à l'objectif de prévenance; IIC estime les coûts présentés surévalués et demande une solution plus conforme à la prescription de l'APMD."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-10-0151903224700032f01",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M02_MESURE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R10_TENSION",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "Coûts de l'astreinte weekend surévalués par l'exploitant; incident du 30/08/2024 prouve la nécessité d'analyses le dimanche — désaccord persistant sur la mise en place de l'astreinte."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-10-0151903224700032f02",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M02_MESURE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T2",
-    "confidence": "high",
-    "reasoning": "Réponse sur obs1 (traçabilité investigations) incomplète selon IIC; réponse sur obs2 (obtenir résultat avant 10h) n'appelle pas de remarques — NC partielle sur le dispositif de pré-alerte."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-10-0151903224700032f03",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R02_PROMESSE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G3",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "3 écarts corrigés; 4 restants dont 3 sur fréquence contrôles atmosphériques annuels non réalisés et 1 dépassement VLE PA sur machine; exploitant s'engage à réaliser mesures avant fin d'année."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-10-0151903224700032f04",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M11_INCIDENT",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G4",
-    "trajectory": "T5",
-    "confidence": "high",
-    "reasoning": "Dépassements VLE perchlorate 10 et 30 µg/l les 30/08 et 01/09/2024; regard bouché non nettoyé cause probable du débordement des eaux process vers pluviales — incident technique grave avec VLE dépassée."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-12-1051903224700032f01",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "ETE propose 6 bâches 120 m³ mais ne justifie pas le choix au regard des besoins en eau d'extinction — NC documentaire sur la justification du dimensionnement incendie. Correction: suppression faux D04_EAUX (eau d'extinction = D01, pas rejets/surveillance)."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-12-1051903224700032f02",
-    "domains": [
-      "D01_INCENDIE",
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "L'exploitant n'a pas pu justifier du dimensionnement du réseau de détecteurs CPE, ni de la localisation hors zones létales de la boite de coupure, ni du délai de 15 min d'intervention — NC technique sur la justification des dispositifs de sécurité."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-12-1051903224700032f03",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitant n'a pas pu justifier la distance entre les igloos, la taille de la maille du tamis, ni la présence du détecteur IR dans la cloche d'aspiration — NC technique sur des éléments de sécurité pyrotechnique."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-12-1051903224700032f04",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "ETE actualisée transmise avec échéancier des actions 2025 — mise à jour annuelle requise accomplie."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-12-1051903224700032f05",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "medium",
-    "reasoning": "Documents de consigne de sécurité transmis; informations réglementaires présentes mais dispersées dans différents documents — conformité fonctionnelle sans NC formelle."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-12-1051903224700032f06",
-    "domains": [
-      "D08_DECHETS",
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Absence de pont-bascule et registre des déchets non fourni lors de l'inspection — NC physique et documentaire sur la traçabilité des déchets brûlés."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-12-1051903224700032f07",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Consignes d'exploitation respectent le timbrage maximum; mais pas de production ce jour: IIC n'a pas pu vérifier le timbrage en conditions réelles — incertitude terrain constitue M14. Demande formulée pour vérification ultérieure. Correction: M08→M14 (n'a pas pu vérifier = incertitude terrain), R13→R14."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-12-1051903224700032f08",
-    "domains": [
-      "D01_INCENDIE",
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S04_VERIFICATION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Rapport de vérification périodique Siemens avec incohérences (nombre détecteurs, NC dans attestation Q7); version actualisée non reçue — NC documentaire sur la qualité du rapport de vérification."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-01-2851903224700032f01",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M11_INCIDENT",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G4",
-    "trajectory": "T5",
-    "confidence": "high",
-    "reasoning": "Dépassement VLE PA 19 µg/l le 06/12/2024 (3e événement en quelques mois); mauvaise étanchéité réseau process local 6 cause probable; hydrocurage et réparations en cours — incident récurrent avec NC technique sur l'intégrité des réseaux."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-09-0551903224700032f01",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M11_INCIDENT",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G4",
-    "trajectory": "T5",
-    "confidence": "high",
-    "reasoning": "Dépassement VLE PA 9,6 µg/l le 19/05/2025 lié à un dysfonctionnement de filtration des poussières PA et lessivage de toiture — incident récurrent sur la même problématique PA."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-09-0551903224700032f02",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "IIC conclut 'les dispositions de ce point sont satisfaites dans leur ensemble' pour les 4 demandes sur les diagnostics réseaux — suite d'inspection résolue."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-09-0551903224700032f03",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M02_MESURE",
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "medium",
-    "reasoning": "Surveillance trimestrielle en cours; impact negligeable sur la Jalle; demande résiduelle sur les paramètres à surveiller (DCO, MES, HC) — conformité de base avec ajustements à apporter."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-09-0551903224700032f04",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE",
-      "M04_MISE_EN_DEMEURE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S06_CLOTURE",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Astreinte samedi proposée; abrogation de l'APC du 08/08/2022 envisagée; APMD du 27/12/2023 déclaré caduc — levée effective de la mise en demeure, évolution positive."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-09-0551903224700032f05",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Toutes les actions précédentes sur l'UPT terminées; instructions d'exploitation/dysfonctionnement consultées; test de vidange réalisé — suites d'inspection résolues avec demandes résiduelles documentaires."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f01",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "État des stocks des bâtiments SCL fourni à la demande; corps très court référant à partie confidentielle — conformité présumée sans signal de NC."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f02",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Exploitant doit justifier que le volume de fioul de la cuve tampon est suffisant pour démarrer les 6 groupes électrogènes — NC technique sur la disponibilité des utilités pour les barrières de sécurité."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f03",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Stratégie en cas de perte d'utilité électrique présentée; corps référant à partie confidentielle — conformité présumée."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f04",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Contrôle des conditions de maintien/sécurité d'une MMR; corps référant à partie confidentielle — domaine de vérification MMR sans détail textuel, gravité conservative."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f05",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "low",
-    "reasoning": "Inspection par sondage du bâtiment SCL10; corps référant à partie confidentielle sans signal textuel de NC ou conformité explicite."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f06",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Toutes les MMR électriques secourues par centrale de secours et onduleurs/groupes locaux confirmés; sirène POI secourue par batterie et centrale — conformité vérifiée."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f07",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "low",
-    "reasoning": "Différents moyens de secours électriques présentés; corps référant à partie confidentielle."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f08",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Contrôle par sondage des groupes électrogènes; demandes de justification d'actions correctives (filtre GE4, verrouillage TR44, batteries GE Y, rapport TR30) — NC technique sur la maintenance des groupes électrogènes."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f09",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Maintenance des groupes électrogènes contrôlée; plusieurs actions correctives demandées et rapport annuel de TR30 à fournir — NC technique sur la maintenance et les tests MMR."
-  },
-  {
-    "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f10",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Phénomène dangereux 6 (détonation SCL10) contrôlé; demandes sur le rapport de test métrologie, travaux correctifs merlons, constitution MMR 2, programme de test sonde cook-off — NC technique sur les tests et la documentation des MMR."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802022-06-0951903224700032f01",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "L'exploitant s'est peu appuyé sur son POI pour déterminer les actions lors d'un sinistre — NC comportementale sur l'application du POI, constituant un constat technique sur la maîtrise du plan d'urgence."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802022-06-0951903224700032f02",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Fréquence annuelle d'exercice respectée (sauf 2021 COVID) — conformité avec justification légitime de l'exception."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802022-06-0951903224700032f03",
-    "domains": [
-      "D01_INCENDIE",
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Nouvelle bâche à eau testée pendant l'exercice incendie avec succès — conformité de l'équipement de lutte incendie."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-05-0551903224700032f01",
-    "domains": [
-      "D12_ADMIN",
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M09_PAC",
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Porter à connaissance pour modification containers 'n'appelle aucune remarque de la part de l'inspection'; modification non substantielle confirmée, site reste SEVESO seuil haut."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-05-0551903224700032f02",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Corps: 8 containers sur îlot 2 et 6 sur îlot 1 constatés — 'RAS'."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-05-0551903224700032f03",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Corps se termine par 'RAS'; extraction des stocks KM11 vérifiée et corroborée sur terrain — conformité du stockage."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-05-0551903224700032f04",
-    "domains": [
-      "D01_INCENDIE",
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Pick-up avec groupe moto pompe et bâche incendie 120 m³ constatés en place — conformité des moyens de lutte incendie."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f01",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M09_PAC",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R02_PROMESSE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Notice de réexamen transmise dans les délais (M09_PAC); mais mise à jour EDD prévue avant fin 2023 pas encore réalisée (M01); exploitant s'engage à la faire — R02 correct. Correction: M08→M09+M01 (fausse conformité: obligation EDD non satisfaite), G1→G2, R13→R02."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f02",
-    "domains": [
-      "D13_CESSATION",
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M19_CESSATION",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Bâtiments abandonnés dont KC01 sans consigne 'stockage interdit'; fondations de bâtiments démolis maintenues avec pollution historique à la mélinite/tolite — NC physique sur la gestion des bâtiments en cessation."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f03",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Quantités inférieures aux limites; mais plan général des stockages avec codes couleurs incorrects pour certains bâtiments — NC documentaire sur l'exactitude du plan de stockages."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f04",
-    "domains": [
-      "D01_INCENDIE",
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Deux bâches à eau de 120 m³ présentes; compte-rendu de contrôle extincteurs du 18/01/2023 consulté 'n'appelle pas de remarque' — conformité des moyens incendie."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f05",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Contrôle électrique annuel consulté (OT 1318724 du 19/11/2022), aucune NC; habilitation du technicien valide — conformité des contrôles électriques."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f06",
-    "domains": [
-      "D10_ELECTRIQUE_ESP",
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "ARF montre qu'aucun bâtiment ne requiert protection contre la foudre; observation sur les nouvelles aires KPA/KPA2/KPA3 — conformité réglementaire de base avec demande de mise à jour d'ARF."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f07",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "ARF confirme qu'aucun dispositif de protection contre la foudre n'est nécessaire; exigences de vérification 'sans objet' — conformité réglementaire explicite."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f08",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R02_PROMESSE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Bilan 2021 transmis sans remarque; bilan 2022 sera transmis après l'été — engagement de transmission du rapport annuel."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f09",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R01_PROACTIF",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Exploitant a valorisé les mesures de réduction des risques (arrêt bâtiments, optimisation stockages) permettant de diminuer l'intensité des effets de 14/15 phénomènes dangereux — démarche proactive validée."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f10",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "ETE intégrée au PàC des bâtiments KPS05-06; suppression du stockage PA dans ces bâtiments a supprimé le risque de détonation combinée — mesure de réduction de risque effective."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f11",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R04_MECONNAISSANCE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitant n'a pas établi le document descriptif de la MMR 'timbrage' requis depuis le 01/01/2023 — absence de documentation obligatoire pour la MMR."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f12",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Étude des produits de décomposition réalisée et jointe à la notice de réexamen — observation résiduelle sur la mise à jour quand le guide définitif sera publié."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f13",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R02_PROMESSE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "POI en cours de finalisation; contrats pour prélèvements environnementaux H24 et remise en état passés; protocoles à élaborer — POI non encore mis à jour avec les nouvelles exigences (prélèvements, remise en état)."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f14",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R02_PROMESSE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Plan A0 affiché en salle de crise sans localisation des deux bâches ni périmètre exact des zones A/B/C; rôle DOI vis-à-vis du PPI à clarifier — NC documentaire sur la complétude du POI."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f15",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R02_PROMESSE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exercice POI du 25/05/2023 réalisé avec SDIS; compte-rendu final non encore disponible en attente retour SDIS — exercice effectué, documentation en cours."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f16",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Fûts de PA très anciens et très corrodés (paroi absente en partie basse pour l'un), fûts PA modérément corrodés et poudre d'aluminium ancienne — NC physique grave sur l'état des emballages et le dépassement de la durée d'entreposage."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f17",
-    "domains": [
-      "D03_SEVESO",
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Contrôle trimestriel des fûts stockés >3 ans non réalisé; 2 fûts PA avec paroi partiellement absente, fûts PA modérément corrodés (non conformes ADR probable) — NC physique sur l'intégrité des emballages."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f18",
-    "domains": [
-      "D03_SEVESO",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Dépôt de perchlorate d'ammonium constaté sur le sol du local 1 du bâtiment KPB en fin de journée malgré procédure de nettoyage journalier — NC physique sur la prévention des accumulations de poussières explosives."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f19",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Consigne générale de sécurité KPB manque de clarté sur l'inclusion des 1000 kg de déchets dans les 18 t — NC documentaire sur l'ambiguïté du timbrage consigné."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f20",
-    "domains": [
-      "D08_DECHETS",
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R10_TENSION",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Fûts de déchets solides de PA entreposés sur aire non couverte; risque d'eaux pluviales souillées non exclu du fait de la corrosion potentielle des fûts — NC physique sur la couverture de l'aire à déchets solides."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f21",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Un espace de circulation inférieur à 1,5 m constaté entre deux lots dans KPS05 — NC physique sur la largeur minimale de circulation requise dans les zones de stockage."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-09-0651903224700032f01",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S06_CLOTURE",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Résultats DEKRA (0.52 mg/m³ et 3.7 g/h poussières) conformes aux VLE; IIC confirme que les dispositions de l'arrêté de mise en demeure du 05/03/2020 sont respectées — levée de MED."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-09-0651903224700032f02",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Procédures de maintenance GMAO mises à jour avec OT consultés; filtres à cassette repositionnés à 90° avec succès — amélioration ayant permis le respect des VLE."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-09-0651903224700032f03",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Corps se termine par 'RAS'; explication de la présence de TCP dans les poussières fournie et cohérente — observation précédente satisfaite."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-09-0651903224700032f04",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Corps se termine par 'RAS'; incertitudes de mesure fournies (9% en 2022, 12-13% en 2023) — observation précédente satisfaite."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-09-0651903224700032f05",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Corps se termine par 'RAS'; ERS mise à jour avec nouvelle VTR ANSES 1.5 µg/kg/j; QD 0.0002 très inférieur au seuil de 0.2 — conformité sanitaire confirmée."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-09-0651903224700032f06",
-    "domains": [
-      "D12_IED_MTD",
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M12_IED_MTD"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "MTDs 4-14 identifiées par l'exploitant ne correspondent pas à la réduction des émissions de poussières/PA — la MTD réelle est l'installation du deuxième étage de filtration, mais la justification reste incomplète."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802023-09-0651903224700032f07",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Réponse sur les conditions de mesure dans les eaux superficielles 'n'appelle pas de remarques de la part de l'IIC' — observation précédente satisfaite."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f01",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Corps se termine par 'RAS'; justification que le cadre de permanence peut assumer les deux fonctions logistique et observation — suite d'inspection résolue."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f02",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "low",
-    "reasoning": "Corps référant à partie confidentielle sur la justification de l'absence d'astreinte — conformité présumée."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f03",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S04_VERIFICATION",
-    "gravity": "G2",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "Plan A0 à jour en salle POI mais le document POI en tant que tel (daté décembre 2023) n'intègre pas encore le dernier plan — NC documentaire persistante sur la mise à jour du POI."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f04",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Schéma d'alerte mis à jour dans la version POI de décembre 2023 — 'RAS'; suite d'inspection résolue."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f05",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "medium",
-    "reasoning": "Renvoi au point n°19 du même rapport; déclenchement sirène PPI prévu dans POI fiche B3 et check-list F4 — conformité présumée."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f06",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Deux réserves d'eau présentes sur le plan A0 — suite d'inspection résolue."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f07",
-    "domains": [
-      "D03_SEVESO",
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S06_CLOTURE",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Point acté dans le nouvel APC clôturant le réexamen EDD — 'RAS'."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f08",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Corps se termine par 'RAS'; exercices POI réalisés principalement en zone exploitation — suite d'inspection résolue."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f09",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S04_VERIFICATION",
-    "gravity": "G2",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "Version du POI à jour non présente dans les véhicules d'intervention malgré consigne rappelée — absence de document obligatoire = M01. Correction: M14→M01 (absence de document, pas NC physique de terrain)."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f10",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Rôle du chef STC redéfini comme RdQ dans la fiche F2 — 'RAS'."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f11",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S04_VERIFICATION",
-    "gravity": "G2",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "Salle POI non clairement identifiée (absence d'affichage); classeur POI non clairement visible — absence de signalétique/affichage obligatoire = M01. Correction: M14→M01 (absence d'affichage = documentation, pas état physique dégradé)."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f12",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S04_VERIFICATION",
-    "gravity": "G2",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "Consigne 'stockage interdit' toujours pas apposée sur les bâtiments inexploités malgré observation 2023; exploitant envisage une réflexion pour supprimer la mention en zone B — NC documentaire persistante."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f13",
-    "domains": [
-      "D03_SEVESO",
-      "D13_CESSATION"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "medium",
-    "reasoning": "Exploitant précise qu'aucune manutention n'est faite sur les bâtiments DGA; suivi informatique maintenu — réponse acceptable avec demande de transmission du fichier de suivi."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f14",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Vérification par sondage KPS3: maximum autorisé 155 t cohérent entre BDD stocks et consignes affichées — 'RAS'."
-  },
-  {
-    "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f15",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Plan des stockages à jour constaté sur le plan A0 — 'RAS'."
-  }
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612022-11-1551903224700032f12",
+  "domains": [
+   "D03_SEVESO",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Corps décrit un bilan annuel de sous-traitance présenté et des comptes-rendus mensuels transmis — aucune NC, aucune demande formulée, fonctionnement conforme."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-03-2151903224700032f01",
+  "domains": [
+   "D03_SEVESO",
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exercice POI réalisé avec réaction globale satisfaisante mais 6 observations d'amélioration identifiées (accès aux fiches, connaissance du POI, numéro préfecture erroné, information erronée transmise au SDIS) — conformité partielle avec NC documentaires/procédurales."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-04-0651903224700032f01",
+  "domains": [
+   "D03_SEVESO",
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Tonnage de brûlage respecté; exploitant clarifie la notion de 'nature' dans la prescription et confirme la compatibilité des produits — aucun écart retenu."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-04-0651903224700032f02",
+  "domains": [
+   "D03_SEVESO",
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Corps se termine par 'Tout est conforme' pour les conditions météorologiques de brûlage — signal fort de conformité M08."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f01",
+  "domains": [
+   "D03_SEVESO",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Procédure de gestion des stocks fonctionnelle; différence de 270 kg temporaire explicitement considérée acceptable par l'IIC (\"la gestion du risque est de ce fait maximisante\"); aucune demande formelle émise — conformité fonctionnelle. Correction: suppression M14 (IIC a validé la situation), G2→G1, R14→R13."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f02",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Colonne 'bâtiment' ajoutée au fichier de référence; extraction consulte par l'IIC avec succès — suite d'inspection précédente résolue."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f03",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Bâtiment CX2 immédiatement intégré au fichier lors de l'inspection; IIC ne relève pas d'écart — suite résolue."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f04",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Fréquence hebdomadaire d'extraction définie dans procédure, extraction CN7 présentée à jour avec quantité confirmée sur terrain — suite d'inspection résolue."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f05",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "medium",
+  "reasoning": "L'IIC a vérifié par sondage la cohérence pour CS10 — vérification réalisée sans mention d'écart, présumé conforme."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f06",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Corps: 'Le fichier Excel décrivant l'état des stocks des CX 2 et CX 3 a été corrigé' — correction documentaire confirmée."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f07",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S06_CLOTURE",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "IIC conclut explicitement 'les dispositions de l'arrêté de mise en demeure du 30/03/2021 sont respectées' — levée de MED confirmée."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f08",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S04_VERIFICATION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitant déclare avoir évacué les produits mais l'IIC n'a pas pu vérifier sur terrain que le hangar CSR est vide — incertitude terrain constitue M14 (n'a pas pu confirmer)."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f09",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Consigne du bâtiment CN7 vérifiée par sondage avec quantités maximales présentes — aucun écart."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f10",
+  "domains": [
+   "D03_SEVESO",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Chef de CN7 interrogé connaît la procédure et les quantités à ne pas dépasser — NC de l'inspection précédente résolue."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f11",
+  "domains": [
+   "D03_SEVESO",
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Extraction informatique des stocks ne confirme pas l'état du GFU pour le nitrate d'ammonium (rubrique 4701) — incohérence terrain/document constitue NC technique sur les stocks dangereux."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f12",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "État synthétique pour substances hors SAP absent; IIC dit explicitement \"n'a pas vérifié\" les mentions de dangers — absence documentaire M01, pas de constat technique de terrain M14. Correction: suppression fausse M14."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-10-0551903224700032f01",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M02_MESURE"
+  ],
+  "modifiers": [],
+  "dynamic": "R08_CONTRAINTE_ECONOMIQUE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Revue des techniques d'analyse en continu du perchlorate; deux fournisseurs confirment absence d'analyseur continu — réponse technique sur les méthodes de mesure. Correction: suppression faux D02_ATEX (aucun contenu ATEX dans le corpus)."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-10-0551903224700032f02",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Inventaire des points de rejet fourni mais diagnostics des réseaux non réalisés — écart: absence de diagnostic physique sur l'état des réseaux constitue NC technique."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-10-0551903224700032f03",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Plusieurs écarts: plan d'action non basé sur diagnostic; bouchage sans vérification préalable de pollution; planning absent — NC technique sur la sécurisation des réseaux."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-10-0551903224700032f04",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M02_MESURE"
+  ],
+  "modifiers": [],
+  "dynamic": "R02_PROMESSE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Programme de surveillance trimestrielle mis en place; exploitant confirme que les prélèvements seront réalisés par temps de forte pluie; obs résiduelle sur la fréquence (mensuelle pour rive droite) — M02 dominant, R02 correct. Correction: suppression fausse M08 (il y a une obs résiduelle, pas de conformité établie)."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-10-0551903224700032f05",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M02_MESURE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R10_TENSION",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitant refuse de mettre en place les points de mesure complémentaires et les analyses plus fréquentes; IIC constate deux écarts sur le programme de surveillance du milieu naturel."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-10-0551903224700032f06",
+  "domains": [
+   "D04_EAUX",
+   "D06_SOLS"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Réponse de l'exploitant sur l'étude hydrogéologique 'n'appelle pas de remarque de la part de l'IIC' — aucun écart retenu."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-11-2451903224700032f01",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A05_ORGANISME",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Nouveau prestataire LPL agréé pour les prélèvements en remplacement d'ENGIE non agréé — suite d'inspection précédente résolue."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-11-2451903224700032f02",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Cahier des clauses techniques et note sur l'échantillonnage transmis — observation précédente satisfaite."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-11-2451903224700032f03",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M02_MESURE"
+  ],
+  "modifiers": [],
+  "dynamic": "R10_TENSION",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitant refuse d'instaurer une astreinte weekend pour mesure PA, invoquant des raisons organisationnelles et sanitaires; IIC demande des éléments complémentaires chiffrés."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-11-2451903224700032f04",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Corps se termine par 'RAS' — objectif de résultat d'indisponibilité <24h documenté dans CCTS, observation satisfaite."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-11-2451903224700032f05",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M02_MESURE"
+  ],
+  "modifiers": [],
+  "dynamic": "R02_PROMESSE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Exploitant précise vigilance accrue; IIC demande deux observations complémentaires sur la traçabilité et la pré-alerte — M02 sur la surveillance, R02 correct. Correction: suppression fausse M08 (deux obs. non satisfaites restent ouvertes)."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-11-2451903224700032f06",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Corps: 'L'IIC a consulté cette instruction. RAS' — instruction mise à jour et vérifiée conforme."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-11-2451903224700032f07",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M11_INCIDENT",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G4",
+  "trajectory": "T2",
+  "confidence": "high",
+  "reasoning": "Dépassement VLE perchlorate 8 µg/l vs 7 µg/l le 20/10/2023 avec rappel que la récurrence pourrait conduire à des suites administratives — incident déclaré avec VLE dépassée."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f01",
+  "domains": [
+   "D12_ADMIN",
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M17_CLASSIFICATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Vérification classement rubrique 1185: différence de 133 kg non déclarés (1633 vs 1500 kg); IIC l'accepte pour actualisation lors de prochaine modification — M17 correct. Correction: G1→G2 (écart documentaire/déclaratif mineur constaté)."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f02",
+  "domains": [
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Installation COPELEND constituée de deux circuits mais référencée comme un seul; obligation de mise à jour de l'inventaire sous 1 mois — NC documentaire sur l'exactitude de l'inventaire des équipements frigorigènes."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f03",
+  "domains": [
+   "D15_SECTEUR",
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Rappel réglementaire sur l'interdiction de recharge avec fluides GWP>2500 à partir de 2020 — observation sans NC constatée, information transmise à l'exploitant."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f04",
+  "domains": [
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A05_ORGANISME",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Société DALKIA dispose de l'attestation de capacité valide jusqu'en avril 2024 — conformité vérifiée."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f05",
+  "domains": [
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "7 équipements R22 restants, rappel de l'interdiction de recharge — observation informationnelle sans NC active."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f06",
+  "domains": [
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Quantité max installée 283 t éq CO2 < 500 t éq CO2 — installations n'ont pas à être équipées de détecteurs, constat conforme."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f07",
+  "domains": [
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Dates de contrôle d'étanchéité non saisies correctement dans GMAO (décalage d'une huitaine de jours); observation avec délai de 1 mois pour correction — NC procédurale sur la tenue du registre GMAO."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f08",
+  "domains": [
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R07_CONTRAINTE_TECHNIQUE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "9 équipements en défaut de contrôle d'étanchéité; 2 des 4 contrôlés par sondage en défaut; retards liés à l'amiante et à la co-activité pyrotechnique — NC technique sur les contrôles périodiques réglementaires."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612023-12-0751903224700032f09",
+  "domains": [
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Vignettes de contrôle affichent la date de contrôle et non la date de validité (sauf ABIX) — NC documentaire sur l'étiquetage, pas d'état physique dégradé. Correction: M14→M01 (absence de l'information réglementaire sur les vignettes = documentation)."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-04-3051903224700032f01",
+  "domains": [
+   "D05_AIR_BRUIT",
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M09_PAC"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Trois dépassements ponctuels de la puissance maximale de 20 MW constatés; exploitant sans explication précise; procédure de gestion du mot de passe non formalisée — NC technique sur le respect du seuil de puissance SEQE."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f01",
+  "domains": [
+   "D07_RETENTION",
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R07_CONTRAINTE_TECHNIQUE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Liquides inflammables présents dans bâtiment BUL non prévu pour cela (bâtiment de réfection suite à grêle 2022); IIC ne propose pas de MED vu la quantité faible et la situation temporaire — NC physique mineure."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f02",
+  "domains": [
+   "D01_INCENDIE",
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_MENACE"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T5",
+  "confidence": "high",
+  "reasoning": "Absence de détection incendie au MG2 non installée malgré prescription depuis 30/06/2021; CSMP3 également non équipé; protection foudre non confirmée — NC physique sur l'absence d'équipement prescrit avec menace APMD."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f03",
+  "domains": [
+   "D08_DECHETS"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Centaine de fûts vides de l'abri anti-aérien évacuée le 12/10/2021 — suite résolue, demande résiduelle documentaire (transmission d'attestation)."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f04",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R02_PROMESSE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitant a établi une 3e mesure comme juge mais elle reste à intégrer dans une nouvelle procédure formalisée — NC documentaire sur l'absence de procédure écrite."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f05",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Attestation de vérification périodique présentée fait référence au site d'ISSAC et non au site concerné; désignation des équipements non claire — NC documentaire sur l'identification des équipements testés."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f06",
+  "domains": [
+   "D07_RETENTION",
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G3",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Arbustes supprimés et boue évacuée confirmés; mais traces de rouille sur virole du réservoir FOD n°1 en cours de diagnostic — corrosion sur réservoir de liquides inflammables = NC technique physique avec risque potentiel. Correction: G2→G3 (corrosion active sur équipement de rétention)."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f07",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Document présenté ne fait référence qu'au GV+surchauffeur mais pas à l'économiseur (équipement distinct); attestation pour GV indique que IP aurait dû être réalisé avant 19/11/2023 — NC sur l'identification et la périodicité des contrôles ESP."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f08",
+  "domains": [
+   "D03_SEVESO",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Outil informatique d'alerte en service avec test hebdomadaire; observation suggère un bilan des taux de réponse — conformité de base confirmée."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-06-2051903224700032f09",
+  "domains": [
+   "D03_SEVESO",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Observation sur l'utilité de chasubles floquées en salle POI — suggestion d'amélioration sans NC constatée."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-09-0551903224700032f01",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G3",
+  "trajectory": "T2",
+  "confidence": "high",
+  "reasoning": "Diagnostics initiés sur base de plans non exhaustifs (deux embranchements non inscrits découverts); tableau de synthèse sans dates pour réseaux sur fond gris — NC technique sur l'exhaustivité des diagnostics de réseaux."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-09-0551903224700032f02",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "AMDEC réalisée, bouchage du point de rejet vérifié sur terrain, planning transmis par courriel — trois points de prescription résolus."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-09-0551903224700032f03",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M02_MESURE",
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Prélèvements réalisés par temps de forte pluie confirmés; concentrations mesurées (180 µg/l et 55 µg/l à source) n'induisent pas d'écart dans la Jalle — surveillance conforme avec plan de rénovation en cours."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-09-0551903224700032f04",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M02_MESURE"
+  ],
+  "modifiers": [],
+  "dynamic": "R10_TENSION",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T2",
+  "confidence": "high",
+  "reasoning": "Exploitant propose augmentation de fréquence de prélèvement qui ne répond pas à l'objectif de prévenance; IIC estime les coûts présentés surévalués et demande une solution plus conforme à la prescription de l'APMD."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-10-0151903224700032f01",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M02_MESURE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R10_TENSION",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "Coûts de l'astreinte weekend surévalués par l'exploitant; incident du 30/08/2024 prouve la nécessité d'analyses le dimanche — désaccord persistant sur la mise en place de l'astreinte."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-10-0151903224700032f02",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M02_MESURE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T2",
+  "confidence": "high",
+  "reasoning": "Réponse sur obs1 (traçabilité investigations) incomplète selon IIC; réponse sur obs2 (obtenir résultat avant 10h) n'appelle pas de remarques — NC partielle sur le dispositif de pré-alerte."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-10-0151903224700032f03",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R02_PROMESSE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G3",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "3 écarts corrigés; 4 restants dont 3 sur fréquence contrôles atmosphériques annuels non réalisés et 1 dépassement VLE PA sur machine; exploitant s'engage à réaliser mesures avant fin d'année."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-10-0151903224700032f04",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M11_INCIDENT",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G4",
+  "trajectory": "T5",
+  "confidence": "high",
+  "reasoning": "Dépassements VLE perchlorate 10 et 30 µg/l les 30/08 et 01/09/2024; regard bouché non nettoyé cause probable du débordement des eaux process vers pluviales — incident technique grave avec VLE dépassée."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-12-1051903224700032f01",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "ETE propose 6 bâches 120 m³ mais ne justifie pas le choix au regard des besoins en eau d'extinction — NC documentaire sur la justification du dimensionnement incendie. Correction: suppression faux D04_EAUX (eau d'extinction = D01, pas rejets/surveillance)."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-12-1051903224700032f02",
+  "domains": [
+   "D01_INCENDIE",
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "L'exploitant n'a pas pu justifier du dimensionnement du réseau de détecteurs CPE, ni de la localisation hors zones létales de la boite de coupure, ni du délai de 15 min d'intervention — NC technique sur la justification des dispositifs de sécurité."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-12-1051903224700032f03",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitant n'a pas pu justifier la distance entre les igloos, la taille de la maille du tamis, ni la présence du détecteur IR dans la cloche d'aspiration — NC technique sur des éléments de sécurité pyrotechnique."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-12-1051903224700032f04",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "ETE actualisée transmise avec échéancier des actions 2025 — mise à jour annuelle requise accomplie."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-12-1051903224700032f05",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "medium",
+  "reasoning": "Documents de consigne de sécurité transmis; informations réglementaires présentes mais dispersées dans différents documents — conformité fonctionnelle sans NC formelle."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-12-1051903224700032f06",
+  "domains": [
+   "D08_DECHETS",
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Absence de pont-bascule et registre des déchets non fourni lors de l'inspection — NC physique et documentaire sur la traçabilité des déchets brûlés."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-12-1051903224700032f07",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Consignes d'exploitation respectent le timbrage maximum; mais pas de production ce jour: IIC n'a pas pu vérifier le timbrage en conditions réelles — incertitude terrain constitue M14. Demande formulée pour vérification ultérieure. Correction: M08→M14 (n'a pas pu vérifier = incertitude terrain), R13→R14."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612024-12-1051903224700032f08",
+  "domains": [
+   "D01_INCENDIE",
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S04_VERIFICATION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Rapport de vérification périodique Siemens avec incohérences (nombre détecteurs, NC dans attestation Q7); version actualisée non reçue — NC documentaire sur la qualité du rapport de vérification."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-01-2851903224700032f01",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M11_INCIDENT",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G4",
+  "trajectory": "T5",
+  "confidence": "high",
+  "reasoning": "Dépassement VLE PA 19 µg/l le 06/12/2024 (3e événement en quelques mois); mauvaise étanchéité réseau process local 6 cause probable; hydrocurage et réparations en cours — incident récurrent avec NC technique sur l'intégrité des réseaux."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-09-0551903224700032f01",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M11_INCIDENT",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G4",
+  "trajectory": "T5",
+  "confidence": "high",
+  "reasoning": "Dépassement VLE PA 9,6 µg/l le 19/05/2025 lié à un dysfonctionnement de filtration des poussières PA et lessivage de toiture — incident récurrent sur la même problématique PA."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-09-0551903224700032f02",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "IIC conclut 'les dispositions de ce point sont satisfaites dans leur ensemble' pour les 4 demandes sur les diagnostics réseaux — suite d'inspection résolue."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-09-0551903224700032f03",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M02_MESURE",
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "medium",
+  "reasoning": "Surveillance trimestrielle en cours; impact negligeable sur la Jalle; demande résiduelle sur les paramètres à surveiller (DCO, MES, HC) — conformité de base avec ajustements à apporter."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-09-0551903224700032f04",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE",
+   "M04_MISE_EN_DEMEURE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S06_CLOTURE",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Astreinte samedi proposée; abrogation de l'APC du 08/08/2022 envisagée; APMD du 27/12/2023 déclaré caduc — levée effective de la mise en demeure, évolution positive."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-09-0551903224700032f05",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Toutes les actions précédentes sur l'UPT terminées; instructions d'exploitation/dysfonctionnement consultées; test de vidange réalisé — suites d'inspection résolues avec demandes résiduelles documentaires."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f01",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "État des stocks des bâtiments SCL fourni à la demande; corps très court référant à partie confidentielle — conformité présumée sans signal de NC."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f02",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Exploitant doit justifier que le volume de fioul de la cuve tampon est suffisant pour démarrer les 6 groupes électrogènes — NC technique sur la disponibilité des utilités pour les barrières de sécurité."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f03",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Stratégie en cas de perte d'utilité électrique présentée; corps référant à partie confidentielle — conformité présumée."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f04",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Contrôle des conditions de maintien/sécurité d'une MMR; corps référant à partie confidentielle — domaine de vérification MMR sans détail textuel, gravité conservative."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f05",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "low",
+  "reasoning": "Inspection par sondage du bâtiment SCL10; corps référant à partie confidentielle sans signal textuel de NC ou conformité explicite."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f06",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Toutes les MMR électriques secourues par centrale de secours et onduleurs/groupes locaux confirmés; sirène POI secourue par batterie et centrale — conformité vérifiée."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f07",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "low",
+  "reasoning": "Différents moyens de secours électriques présentés; corps référant à partie confidentielle."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f08",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Contrôle par sondage des groupes électrogènes; demandes de justification d'actions correctives (filtre GE4, verrouillage TR44, batteries GE Y, rapport TR30) — NC technique sur la maintenance des groupes électrogènes."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f09",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Maintenance des groupes électrogènes contrôlée; plusieurs actions correctives demandées et rapport annuel de TR30 à fournir — NC technique sur la maintenance et les tests MMR."
+ },
+ {
+  "slug": "arianegroup-sas-saint-medard-en-jalles52012612025-12-1051903224700032f10",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Phénomène dangereux 6 (détonation SCL10) contrôlé; demandes sur le rapport de test métrologie, travaux correctifs merlons, constitution MMR 2, programme de test sonde cook-off — NC technique sur les tests et la documentation des MMR."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802022-06-0951903224700032f01",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "L'exploitant s'est peu appuyé sur son POI pour déterminer les actions lors d'un sinistre — NC comportementale sur l'application du POI, constituant un constat technique sur la maîtrise du plan d'urgence."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802022-06-0951903224700032f02",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Fréquence annuelle d'exercice respectée (sauf 2021 COVID) — conformité avec justification légitime de l'exception."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802022-06-0951903224700032f03",
+  "domains": [
+   "D01_INCENDIE",
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Nouvelle bâche à eau testée pendant l'exercice incendie avec succès — conformité de l'équipement de lutte incendie."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-05-0551903224700032f01",
+  "domains": [
+   "D12_ADMIN",
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M09_PAC",
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Porter à connaissance pour modification containers 'n'appelle aucune remarque de la part de l'inspection'; modification non substantielle confirmée, site reste SEVESO seuil haut."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-05-0551903224700032f02",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Corps: 8 containers sur îlot 2 et 6 sur îlot 1 constatés — 'RAS'."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-05-0551903224700032f03",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Corps se termine par 'RAS'; extraction des stocks KM11 vérifiée et corroborée sur terrain — conformité du stockage."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-05-0551903224700032f04",
+  "domains": [
+   "D01_INCENDIE",
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Pick-up avec groupe moto pompe et bâche incendie 120 m³ constatés en place — conformité des moyens de lutte incendie."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f01",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M09_PAC",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R02_PROMESSE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Notice de réexamen transmise dans les délais (M09_PAC); mais mise à jour EDD prévue avant fin 2023 pas encore réalisée (M01); exploitant s'engage à la faire — R02 correct. Correction: M08→M09+M01 (fausse conformité: obligation EDD non satisfaite), G1→G2, R13→R02."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f02",
+  "domains": [
+   "D13_CESSATION",
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M19_CESSATION",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Bâtiments abandonnés dont KC01 sans consigne 'stockage interdit'; fondations de bâtiments démolis maintenues avec pollution historique à la mélinite/tolite — NC physique sur la gestion des bâtiments en cessation."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f03",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Quantités inférieures aux limites; mais plan général des stockages avec codes couleurs incorrects pour certains bâtiments — NC documentaire sur l'exactitude du plan de stockages."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f04",
+  "domains": [
+   "D01_INCENDIE",
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Deux bâches à eau de 120 m³ présentes; compte-rendu de contrôle extincteurs du 18/01/2023 consulté 'n'appelle pas de remarque' — conformité des moyens incendie."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f05",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Contrôle électrique annuel consulté (OT 1318724 du 19/11/2022), aucune NC; habilitation du technicien valide — conformité des contrôles électriques."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f06",
+  "domains": [
+   "D10_ELECTRIQUE_ESP",
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "ARF montre qu'aucun bâtiment ne requiert protection contre la foudre; observation sur les nouvelles aires KPA/KPA2/KPA3 — conformité réglementaire de base avec demande de mise à jour d'ARF."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f07",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "ARF confirme qu'aucun dispositif de protection contre la foudre n'est nécessaire; exigences de vérification 'sans objet' — conformité réglementaire explicite."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f08",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R02_PROMESSE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Bilan 2021 transmis sans remarque; bilan 2022 sera transmis après l'été — engagement de transmission du rapport annuel."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f09",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R01_PROACTIF",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Exploitant a valorisé les mesures de réduction des risques (arrêt bâtiments, optimisation stockages) permettant de diminuer l'intensité des effets de 14/15 phénomènes dangereux — démarche proactive validée."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f10",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "ETE intégrée au PàC des bâtiments KPS05-06; suppression du stockage PA dans ces bâtiments a supprimé le risque de détonation combinée — mesure de réduction de risque effective."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f11",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R04_MECONNAISSANCE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitant n'a pas établi le document descriptif de la MMR 'timbrage' requis depuis le 01/01/2023 — absence de documentation obligatoire pour la MMR."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f12",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Étude des produits de décomposition réalisée et jointe à la notice de réexamen — observation résiduelle sur la mise à jour quand le guide définitif sera publié."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f13",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R02_PROMESSE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "POI en cours de finalisation; contrats pour prélèvements environnementaux H24 et remise en état passés; protocoles à élaborer — POI non encore mis à jour avec les nouvelles exigences (prélèvements, remise en état)."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f14",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R02_PROMESSE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Plan A0 affiché en salle de crise sans localisation des deux bâches ni périmètre exact des zones A/B/C; rôle DOI vis-à-vis du PPI à clarifier — NC documentaire sur la complétude du POI."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f15",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R02_PROMESSE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exercice POI du 25/05/2023 réalisé avec SDIS; compte-rendu final non encore disponible en attente retour SDIS — exercice effectué, documentation en cours."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f16",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Fûts de PA très anciens et très corrodés (paroi absente en partie basse pour l'un), fûts PA modérément corrodés et poudre d'aluminium ancienne — NC physique grave sur l'état des emballages et le dépassement de la durée d'entreposage."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f17",
+  "domains": [
+   "D03_SEVESO",
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Contrôle trimestriel des fûts stockés >3 ans non réalisé; 2 fûts PA avec paroi partiellement absente, fûts PA modérément corrodés (non conformes ADR probable) — NC physique sur l'intégrité des emballages."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f18",
+  "domains": [
+   "D03_SEVESO",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Dépôt de perchlorate d'ammonium constaté sur le sol du local 1 du bâtiment KPB en fin de journée malgré procédure de nettoyage journalier — NC physique sur la prévention des accumulations de poussières explosives."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f19",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Consigne générale de sécurité KPB manque de clarté sur l'inclusion des 1000 kg de déchets dans les 18 t — NC documentaire sur l'ambiguïté du timbrage consigné."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f20",
+  "domains": [
+   "D08_DECHETS",
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R10_TENSION",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Fûts de déchets solides de PA entreposés sur aire non couverte; risque d'eaux pluviales souillées non exclu du fait de la corrosion potentielle des fûts — NC physique sur la couverture de l'aire à déchets solides."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-06-1251903224700032f21",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Un espace de circulation inférieur à 1,5 m constaté entre deux lots dans KPS05 — NC physique sur la largeur minimale de circulation requise dans les zones de stockage."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-09-0651903224700032f01",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S06_CLOTURE",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Résultats DEKRA (0.52 mg/m³ et 3.7 g/h poussières) conformes aux VLE; IIC confirme que les dispositions de l'arrêté de mise en demeure du 05/03/2020 sont respectées — levée de MED."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-09-0651903224700032f02",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Procédures de maintenance GMAO mises à jour avec OT consultés; filtres à cassette repositionnés à 90° avec succès — amélioration ayant permis le respect des VLE."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-09-0651903224700032f03",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Corps se termine par 'RAS'; explication de la présence de TCP dans les poussières fournie et cohérente — observation précédente satisfaite."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-09-0651903224700032f04",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Corps se termine par 'RAS'; incertitudes de mesure fournies (9% en 2022, 12-13% en 2023) — observation précédente satisfaite."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-09-0651903224700032f05",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Corps se termine par 'RAS'; ERS mise à jour avec nouvelle VTR ANSES 1.5 µg/kg/j; QD 0.0002 très inférieur au seuil de 0.2 — conformité sanitaire confirmée."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-09-0651903224700032f06",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M12_IED_MTD"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "MTDs 4-14 identifiées par l'exploitant ne correspondent pas à la réduction des émissions de poussières/PA — la MTD réelle est l'installation du deuxième étage de filtration, mais la justification reste incomplète."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802023-09-0651903224700032f07",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Réponse sur les conditions de mesure dans les eaux superficielles 'n'appelle pas de remarques de la part de l'IIC' — observation précédente satisfaite."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f01",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Corps se termine par 'RAS'; justification que le cadre de permanence peut assumer les deux fonctions logistique et observation — suite d'inspection résolue."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f02",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "low",
+  "reasoning": "Corps référant à partie confidentielle sur la justification de l'absence d'astreinte — conformité présumée."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f03",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S04_VERIFICATION",
+  "gravity": "G2",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "Plan A0 à jour en salle POI mais le document POI en tant que tel (daté décembre 2023) n'intègre pas encore le dernier plan — NC documentaire persistante sur la mise à jour du POI."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f04",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Schéma d'alerte mis à jour dans la version POI de décembre 2023 — 'RAS'; suite d'inspection résolue."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f05",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "medium",
+  "reasoning": "Renvoi au point n°19 du même rapport; déclenchement sirène PPI prévu dans POI fiche B3 et check-list F4 — conformité présumée."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f06",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Deux réserves d'eau présentes sur le plan A0 — suite d'inspection résolue."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f07",
+  "domains": [
+   "D03_SEVESO",
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S06_CLOTURE",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Point acté dans le nouvel APC clôturant le réexamen EDD — 'RAS'."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f08",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Corps se termine par 'RAS'; exercices POI réalisés principalement en zone exploitation — suite d'inspection résolue."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f09",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S04_VERIFICATION",
+  "gravity": "G2",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "Version du POI à jour non présente dans les véhicules d'intervention malgré consigne rappelée — absence de document obligatoire = M01. Correction: M14→M01 (absence de document, pas NC physique de terrain)."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f10",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Rôle du chef STC redéfini comme RdQ dans la fiche F2 — 'RAS'."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f11",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S04_VERIFICATION",
+  "gravity": "G2",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "Salle POI non clairement identifiée (absence d'affichage); classeur POI non clairement visible — absence de signalétique/affichage obligatoire = M01. Correction: M14→M01 (absence d'affichage = documentation, pas état physique dégradé)."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f12",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S04_VERIFICATION",
+  "gravity": "G2",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "Consigne 'stockage interdit' toujours pas apposée sur les bâtiments inexploités malgré observation 2023; exploitant envisage une réflexion pour supprimer la mention en zone B — NC documentaire persistante."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f13",
+  "domains": [
+   "D03_SEVESO",
+   "D13_CESSATION"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "medium",
+  "reasoning": "Exploitant précise qu'aucune manutention n'est faite sur les bâtiments DGA; suivi informatique maintenu — réponse acceptable avec demande de transmission du fichier de suivi."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f14",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Vérification par sondage KPS3: maximum autorisé 155 t cohérent entre BDD stocks et consignes affichées — 'RAS'."
+ },
+ {
+  "slug": "arianegroup-sas-sainte-helene52011802024-07-2951903224700032f15",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Plan des stockages à jour constaté sur le plan A0 — 'RAS'."
+ }
 ]

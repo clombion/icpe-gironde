@@ -1,7 +1,27 @@
 # Prompts Hunter/Skeptic — ICPE Gironde
 
+**Version : 1.1** — modèle épinglé : Sonnet (voir docs/decision-log.md § 4).
+
 Prompts calibrés pour le tagging des fiches d'inspection ICPE avec la taxonomie v5.
 Utilisés pour TASK-10 (LLM tagging en production) et pour l'encodage automatique des nouveaux rapports.
+
+## Validité des codes — STRICT (s'applique aux deux prompts)
+
+```
+## Code validity — STRICT
+- Every code MUST be an EXACT id copied verbatim from the taxonomy. Never invent,
+  abbreviate, or re-suffix a code: M04_MISE_EN_DEMEURE, never "M04_MED";
+  D12_ADMIN, never "D12_IED_MTD". If no code fits, the taxonomy's residual
+  codes exist for that purpose.
+- Modifiers (m_DELAI, m_MENACE) go ONLY in the `modifiers` array — never in
+  `mechanisms`. Mechanisms (M##) never go in `modifiers`.
+- Single-valued fields (dynamic, actor, stage, gravity, trajectory) take exactly
+  ONE code — never a joined value like "R13/R14". If torn between two, pick the
+  dominant one and set confidence to "medium" or "low".
+- EVERY field is required in EVERY record, including `confidence` and
+  `reasoning`. A record with a missing field is invalid and the batch will be
+  rejected by validation (scripts/tag_status.py).
+```
 
 ## Prompt Hunter
 
@@ -67,7 +87,11 @@ Read taxonomy from `outputs-fiches/taxonomy-v5.md`.
 ## Audit scope
 - ALL medium/low confidence records: re-read the corpus file and verify the classification
 - SAMPLE 20 high confidence records: spot-check
-- For each audited record, re-read the corpus file at `corpus/{slug}.txt`
+- For each audited record, re-read the corpus file at `local/corpus-all/{slug}.txt`
+- Apply the Code validity — STRICT rules (top of this file) to EVERY record you
+  re-emit, audited or not: exact ids, right axis, one value per single field,
+  all fields present including confidence and reasoning. Hunter output may
+  contain invalid codes — correcting them is part of your audit.
 
 ## Error types to hunt
 1. **False M08**: Hunter assigned conformité but text actually describes a NC
@@ -101,6 +125,9 @@ Fichier audit:
 ```
 
 Fichier final corrigé: prendre le Hunter output et appliquer les corrections.
+Format: liste JSON de N enregistrements COMPLETS — tous les champs de chaque
+enregistrement, y compris ceux non corrigés et y compris `confidence` et
+`reasoning`. Jamais un objet enveloppe, jamais de champs omis.
 ```
 
 ## Paramètres de dispatch

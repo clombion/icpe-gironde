@@ -1,2411 +1,2411 @@
 [
-  {
-    "slug": "bagneres-bois52006962022-08-0438411878200018f05",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION",
-      "M07_CONTROLE"
-    ],
-    "modifiers": [
-      "m_DELAI",
-      "m_MENACE"
-    ],
-    "dynamic": "R13/R14",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitant ne peut fournir rapport d'essai ni garantir la maintenance du poteau incendie privé — NC documentaire ET contrôle périodique absent, avec signalement de sanctions administratives possibles."
-  },
-  {
-    "slug": "bagneres-bois52006962022-08-0438411878200018f06",
-    "domains": [
-      "D01_INCENDIE",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Programme et feuille d'émargement de la formation d'exercice incendie inspectés sans remarque particulière."
-  },
-  {
-    "slug": "bagneres-bois52006962022-08-0438411878200018f07",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M06_RECIDIVE"
-    ],
-    "modifiers": [
-      "m_DELAI",
-      "m_MENACE"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T7",
-    "confidence": "high",
-    "reasoning": "Deux NC récurrentes d'année en année sur alimentation haute-tension révélées par rapport de vérification annuelle — récidive documentée sur équipement électrique avec risque incendie/explosion."
-  },
-  {
-    "slug": "bagneres-bois52006962024-09-0538411878200018f01",
-    "domains": [
-      "D06_SOLS"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R01_PROACTIF",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G2",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Les deux zones de pollution ont été excavées conformément au plan de gestion validé — MED considérée comme respectée sous réserve de transmission du rapport de fin de travaux."
-  },
-  {
-    "slug": "bagneres-bois52006962024-09-0538411878200018f02",
-    "domains": [
-      "D01_INCENDIE",
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M09_PAC"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R02_PROMESSE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T2",
-    "confidence": "high",
-    "reasoning": "Aménagement intérieur du barnum et certains stocks non conformes au porter-à-connaissance validé — NC technique constructive avec PAC insuffisant, exploitant promet nouveau PAC."
-  },
-  {
-    "slug": "balhadere-et-fils52013762023-02-2346120003200013f01",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M02_MESURE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "Vitesses d'éjection des cyclones 3 et 4 inférieures à 8 m/s — NC technique sur performance des rejets atmosphériques persistant depuis 2018 malgré remplacement du cyclone 4."
-  },
-  {
-    "slug": "balhadere-et-fils52013762023-02-2346120003200013f02",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Un seul des trois disconnecteurs constaté visuellement — NC physique partielle (deux dispositifs non vérifiables), incertitude technique sur présence des équipements requis."
-  },
-  {
-    "slug": "balhadere-et-fils52013762023-02-2346120003200013f03",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S04_VERIFICATION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Nouvelle campagne de mesures acoustiques montre des niveaux d'émergence conformes aux prescriptions — NC antérieure levée."
-  },
-  {
-    "slug": "balhadere-et-fils52013762023-02-2346120003200013f04",
-    "domains": [
-      "D01_INCENDIE",
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T2",
-    "confidence": "high",
-    "reasoning": "Essai de mise en aspiration révèle une prise manquante (débit insuffisant), stocks de palettes à proximité immédiate des réserves, et exploitant incapable de confirmer la validité de ses hypothèses de calcul — NC technique multiple sur défense incendie."
-  },
-  {
-    "slug": "balhadere-et-fils52013762023-02-2346120003200013f05",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M06_RECIDIVE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G2",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "Rapport de vérification électrique annuelle consulté avec deux remarques récurrentes levées en cours d'année — contrôle réalisé mais NC récidivantes signalées."
-  },
-  {
-    "slug": "balhadere-et-fils52013762023-02-2346120003200013f06",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R02_PROMESSE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "ARF réalisée identifie besoin de protection niveau 1 mais aucune étude technique réalisée — absence de document requis (étude technique foudre), NC déjà signalée en 2018."
-  },
-  {
-    "slug": "balhadere-et-fils52013762023-02-2346120003200013f07",
-    "domains": [
-      "D01_INCENDIE",
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T2",
-    "confidence": "high",
-    "reasoning": "Partie mobile de la vanne guillotine absente de la troisième buse bétonnée — NC physique sur dispositif de confinement des eaux d'extinction."
-  },
-  {
-    "slug": "balhadere-et-fils52013762023-02-2346120003200013f08",
-    "domains": [
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S04_VERIFICATION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Cuve enterrée condamnée et remplacée, séparateur à hydrocarbures refait — installation et compte-rendu d'inertage n'appellent pas de remarque particulière."
-  },
-  {
-    "slug": "balhadere-et-fils52013762023-02-2346120003200013f09",
-    "domains": [
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R04_MECONNAISSANCE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Sonde de niveau bas hors tension le jour de l'inspection, exploitant incapable de déclencher la sonde de niveau haut faute de connaître son fonctionnement — NC physique sur équipements de sécurité."
-  },
-  {
-    "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562023-09-2830171146100071f01",
-    "domains": [
-      "D09_BIODIVERSITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Compensation zone humide réalisée sur deux zones in-situ et ex-situ conformément au plan de gestion — constat descriptif sans NC."
-  },
-  {
-    "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562023-09-2830171146100071f02",
-    "domains": [
-      "D09_BIODIVERSITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S04_VERIFICATION",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Travaux d'étrépage et décapage sur parcelle AS24 justifiés et conformes au plan de gestion de la zone humide compensatoire selon CERAG."
-  },
-  {
-    "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562023-09-2830171146100071f03",
-    "domains": [
-      "D09_BIODIVERSITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S04_VERIFICATION",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Zone compensatoire in-situ clôturée, étrépée et décapée — travaux conformes au plan de gestion."
-  },
-  {
-    "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f01",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Modélisations FLUMILOG démontrent que flux thermiques 8/5/3 kW/m2 restent confinés ou n'impactent pas tiers — conformité aux distances prescrites."
-  },
-  {
-    "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f02",
-    "domains": [
-      "D01_INCENDIE",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Prescriptions d'accès et voie engins constatées respectées, surface cellules ≤6000 m2."
-  },
-  {
-    "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f03",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Dispositions constructives (REI 240, ruine en chaîne, ateliers isolés, bureaux séparés) constatées respectées avec étude fournie."
-  },
-  {
-    "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f04",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Deux exutoires de désenfumage implantés à moins de 7 m du mur coupe-feu sur la cellule en étage — NC constructive physique sur désenfumage."
-  },
-  {
-    "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f05",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Compartimentage (REI 240, portes EI120, protection toiture A2s1d0) constaté conforme aux prescriptions."
-  },
-  {
-    "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f06",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Cellules principales >3000 m2 et étage sprinklées, hauteur de stockage <23 m — conformité constatée."
-  },
-  {
-    "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f07",
-    "domains": [
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Bouches d'évacuation au sol vers siphon coupe-feu et bassins de confinement déportés constatées conformes."
-  },
-  {
-    "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f08",
-    "domains": [
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Eaux d'extinction dirigées vers 3 bassins de confinement externes selon l'exploitant — constat descriptif sans NC relevée."
-  },
-  {
-    "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f09",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Détection incendie assurée par sprinklage selon l'exploitant — constat descriptif sans NC."
-  },
-  {
-    "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f10",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Réserves incendie (742+120 m3), poteaux, RIA et extincteurs constatés présents et dimensionnés conformément au D9."
-  },
-  {
-    "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f11",
-    "domains": [
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Issues de secours (portes anti-panique) fermées à clef dans cellules de stockage — NC physique sur évacuation du personnel."
-  },
-  {
-    "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f12",
-    "domains": [
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Surveillance par caméras 24h/24 avec alarme et gardien présent sur site principal — conforme."
-  },
-  {
-    "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122023-01-0330171146100071f01",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M17_CLASSIFICATION",
-      "M09_PAC"
-    ],
-    "modifiers": [
-      "m_DELAI",
-      "m_MENACE"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T2",
-    "confidence": "high",
-    "reasoning": "Site soumis à enregistrement rubrique 1510 (groupe IPD ~91300 m3) sans avoir finalisé sa demande — NC administrative sur classement et régime, aucune réponse malgré relances."
-  },
-  {
-    "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122023-01-0330171146100071f02",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M17_CLASSIFICATION"
-    ],
-    "modifiers": [
-      "m_DELAI",
-      "m_MENACE"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Volume de spiritueux >40° non précisé — classement rubrique 4755 (autorisation si >500 m3) incertain, seule déclaration orale sans preuve factuelle."
-  },
-  {
-    "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122023-01-0330171146100071f03",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Présence d'équipements constatée par sondage mais degrés coupe-feu non vérifiés et justificatifs documentaires non fournis — NC sur preuves de conformité des travaux de mise en conformité."
-  },
-  {
-    "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122025-11-1930171146100071f01",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M17_CLASSIFICATION",
-      "M09_PAC"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T2",
-    "confidence": "high",
-    "reasoning": "Nouveau classement enregistrement rubrique 1510 (annexes VI/VII/VIII) établi mais récolement annexe VI manquant et informations de volumes/capacités non fournies."
-  },
-  {
-    "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122025-11-1930171146100071f02",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Dossiers de déclaration et récépissés pour rubriques 1530, 1510 et 4755 présentés à l'inspection — dossier administratif complet."
-  },
-  {
-    "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122025-11-1930171146100071f03",
-    "domains": [
-      "D01_INCENDIE",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Prescription respectée — état des matières stockées tenu à jour, site sans POI non opposable."
-  },
-  {
-    "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122025-11-1930171146100071f04",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Matières dangereuses (alcools de bouche, <5%) stockées dans deux cellules — constat descriptif sans NC relevée."
-  },
-  {
-    "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122025-11-1930171146100071f05",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Aucun stockage de liquides inflammables H224 constaté sur site — prescription respectée."
-  },
-  {
-    "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122025-11-1930171146100071f06",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Réserves incendie présentes mais réception par SDIS et calcul D9 non réalisés — NC sur validation de la défense incendie."
-  },
-  {
-    "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122025-11-1930171146100071f07",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI",
-      "m_MENACE"
-    ],
-    "dynamic": "R02_PROMESSE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Plan de défense incendie non réalisé — absence de document obligatoire, exploitant a exprimé sa volonté de remédier."
-  },
-  {
-    "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122025-11-1930171146100071f08",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S04_VERIFICATION",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Etude de flux thermiques du 26/09/2023 démontre l'absence d'effets à 8 kW/m2 hors site."
-  },
-  {
-    "slug": "bardinet-sas52004472022-09-2730171146100071f01",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_MENACE"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A03_PREFET",
-    "stage": "S05_ESCALADE",
-    "gravity": "G4",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Dépassements importants et répétés de VLE (température, pH, DCO, MES, DBO5, volume) de mai à septembre 2022 — inspection propose MED, NC technique grave sur rejets aqueux."
-  },
-  {
-    "slug": "bardinet-sas52004472022-09-2730171146100071f02",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Procédure de limitation/arrêt production en cas de rejets NC non mise en place malgré dysfonctionnement de la STEP connu depuis mai 2022."
-  },
-  {
-    "slug": "bardinet-sas52004472022-09-2730171146100071f03",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M11_INCIDENT"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Dysfonctionnement STEP débuté mai 2022 mais inspection non informée qu'au 14 septembre — déclaration tardive d'incident, rapport d'incident demandé."
-  },
-  {
-    "slug": "bardinet-sas52004472023-04-0430171146100071f01",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R01_PROACTIF",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S06_CLOTURE",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "MED du 6/12/2021 et astreinte du 11/08/2022 levées — APAVE confirme que toutes observations Q18 antérieures à 2022 ont été levées."
-  },
-  {
-    "slug": "bardinet-sas52004472023-04-0430171146100071f02",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S06_CLOTURE",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Exploitant fournit facture d'achat nouvel émulseur FILMPOL6 (mars 2023, garantie 10 ans) — conformité émulseur sprinklage justifiée."
-  },
-  {
-    "slug": "bardinet-sas52004472023-04-0430171146100071f03",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_MENACE"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S04_VERIFICATION",
-    "gravity": "G4",
-    "trajectory": "T5",
-    "confidence": "high",
-    "reasoning": "MED du 03/11/2022 non levée — nouveaux dépassements phosphore/azote en février 2023 après correction du dysfonctionnement estival, situation s'aggrave."
-  },
-  {
-    "slug": "bardinet-sas52004472023-04-0430171146100071f04",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S06_CLOTURE",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Station STEP fonctionnelle à nouveau, mesures compensatoires mises en place — MED du 03/11/2022 levée."
-  },
-  {
-    "slug": "bardinet-sas52004472023-04-0430171146100071f05",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M11_INCIDENT",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI",
-      "m_MENACE"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "Rapport d'incident prévu pour fin 2022 toujours non transmis en avril 2023 — absence persistante de document de REX sur incident STEP."
-  },
-  {
-    "slug": "bardinet-sas52004472024-02-2030171146100071f01",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S04_VERIFICATION",
-    "gravity": "G3",
-    "trajectory": "T2",
-    "confidence": "high",
-    "reasoning": "Rapport Q18 septembre 2023 liste 12 observations avec risque incendie/explosion confirmé par APAVE — MED de 2021 formellement levée mais nouvelles observations résiduelles à traiter."
-  },
-  {
-    "slug": "bardinet-sas52004472024-02-2030171146100071f02",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S04_VERIFICATION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Analyse d'émulseur par courriel août 2023 conclut bonne efficacité des émulseurs testés."
-  },
-  {
-    "slug": "bardinet-sas52004472024-02-2030171146100071f03",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M11_INCIDENT",
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S06_CLOTURE",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Rapport d'incident transmis à l'inspection en août 2023 — obligation de déclaration et REX finalement remplie."
-  },
-  {
-    "slug": "bardinet-sas52004472024-02-2030171146100071f04",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S06_CLOTURE",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Dernières déclarations GIDAF conformes, MED du 03/11/2022 levée — retour à conformité confirmé en 2024."
-  },
-  {
-    "slug": "bardinet-sas52004472024-02-2030171146100071f05",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION",
-      "M04_MISE_EN_DEMEURE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S05_ESCALADE",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Liste ESP incomplète (manque type, régime, dates inspection/requalification) — MED proposée pour régulariser la liste réglementaire des équipements sous pression."
-  },
-  {
-    "slug": "bardinet-sas52004472024-02-2030171146100071f06",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "4 ESP contrôlés par sondage identifiés sur site — constat de présence sans anomalie physique signalée sur les équipements eux-mêmes."
-  },
-  {
-    "slug": "bardinet-sas52004472024-02-2030171146100071f07",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M04_MISE_EN_DEMEURE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S05_ESCALADE",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Nombreux ESP en retard d'inspection périodique (esp 13 et 20 notamment) — MED proposée pour réaliser inspections périodiques en retard."
-  },
-  {
-    "slug": "bardinet-sas52004472024-02-2030171146100071f08",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A05_ORGANISME",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Comptes-rendus d'inspection périodique des ESP 13 (2011) et 20 (2013) examinés — aptitude au maintien en service confirmée."
-  },
-  {
-    "slug": "bardinet-sas52004472024-02-2030171146100071f09",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M04_MISE_EN_DEMEURE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S05_ESCALADE",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Nombreux ESP (6, 16, 20) en retard de requalification périodique — MED proposée pour régulariser situation."
-  },
-  {
-    "slug": "bardinet-sas52004472024-02-2030171146100071f10",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R01_PROACTIF",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S03_CORRECTION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "ESP 13 requalifié le 19/02/2024 avec poinçon tête de cheval constaté — requalification réalisée, attestation en attente."
-  },
-  {
-    "slug": "bardinet-sas52004472024-02-2030171146100071f11",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Informations des plaques des 4 ESP cohérentes avec la liste des équipements — conformité documentaire des marquages."
-  },
-  {
-    "slug": "bardinet-sas52004472024-02-2030171146100071f12",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "ESP 6 en bon état apparent mais vannes fermées pour retard de requalification — équipement neutralisé mais statut réglementaire (hors service/chômage) non conforme."
-  },
-  {
-    "slug": "bardinet-sas52004472024-02-2030171146100071f13",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Soupapes de sécurité des 4 ESP tarées à des pressions ≤ PS — conformité des accessoires de sécurité."
-  },
-  {
-    "slug": "bardinet-sas52004472024-02-2030171146100071f14",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "ESP 16 et 20 sans marquage tête de cheval (jamais requalifiés), cohérence dates ESP 6 à expliquer — NC documentaire sur marquages réglementaires."
-  },
-  {
-    "slug": "bardinet-sas52004472025-02-1130171146100071f01",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI",
-      "m_MENACE"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "POI ne couvre pas tous les scénarios de l'étude de dangers (stockage palettes, auvent, silo sucre) et n'intègre pas les modifications récentes du site — document obsolète."
-  },
-  {
-    "slug": "bardinet-sas52004472025-02-1130171146100071f02",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Deux exercices POI réalisés (septembre 2024 avec SDIS, avril 2024 interne) avec compte-rendus présentés."
-  },
-  {
-    "slug": "bardinet-sas52004472025-02-1130171146100071f03",
-    "domains": [
-      "D03_SEVESO",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Gardienne formée en janvier 2023 seulement — fréquence annuelle de formation non respectée pour le personnel POI."
-  },
-  {
-    "slug": "bardinet-sas52004472025-02-1130171146100071f04",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Aucune astreinte permettant disponibilité du personnel POI hors heures ouvrées — NC organisationnelle sur activation du plan d'urgence."
-  },
-  {
-    "slug": "bardinet-sas52004472025-02-1130171146100071f05",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Nombre de personnes mobilisables (6) insuffisant pour 7 fonctions POI identifiées — NC structurelle sur capacité de réponse à un incident majeur."
-  },
-  {
-    "slug": "bardinet-sas52004472025-02-1130171146100071f06",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "État des vannes eaux pluviales non identifiable facilement, boutons de coupure sans indication de zone — NC opérationnelle sur ergonomie des moyens de secours."
-  },
-  {
-    "slug": "bardinet-sas52004472025-02-1130171146100071f07",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Gardienne n'a pas respecté la chaîne d'alerte POI lors de l'exercice — NC de mise en oeuvre du plan d'urgence, information DREAL obsolète."
-  },
-  {
-    "slug": "bardinet-sas52004472025-02-1130171146100071f08",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Plan de masse sécurité et fiches scénarios contiennent dispositions pour guider les secours — conforme."
-  },
-  {
-    "slug": "bardinet-sas52004472025-02-1130171146100071f09",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI",
-      "m_MENACE"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "POI mis à jour en juin 2024 ne comprend pas les dispositifs de premiers prélèvements environnementaux — absence d'élément obligatoire depuis janvier 2023."
-  },
-  {
-    "slug": "bardinet-sas52004472025-02-1130171146100071f10",
-    "domains": [
-      "D03_SEVESO"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI",
-      "m_MENACE"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "POI ne comprend pas les moyens et méthodes de remise en état de l'environnement après accident majeur — lacune documentaire obligatoire."
-  },
-  {
-    "slug": "bardinet-sas52004472025-02-1130171146100071f11",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Micro-fuite sur groupe moto-pompe incendie principal constatée, remplacement à prévoir en urgence selon fiche ENGIE — NC physique sur équipement critique de lutte contre l'incendie."
-  },
-  {
-    "slug": "bardinet-sas52004472025-11-1930171146100071f01",
-    "domains": [
-      "D04_EAUX",
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_MENACE"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S05_ESCALADE",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Cuves de stockage d'émulseurs PFAS sans rétention vérifiée — NC physique sur confinement de substances dangereuses, MED proposée."
-  },
-  {
-    "slug": "barriere-freres533007932026-01-0845620404900054f01",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Registre d'inventaire quotidien des matières stockées présenté — seule quantité de palettes non déterminée, reste globalement conforme."
-  },
-  {
-    "slug": "barriere-freres533007932026-01-0845620404900054f02",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R01_PROACTIF",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S04_VERIFICATION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Nouvelle version du registre complétée à l'issue de l'inspection avec toutes les synthèses — spiritueux stockés conformément au PAC (2 m3 pour 8 m3 autorisés)."
-  },
-  {
-    "slug": "barriere-freres533007932026-01-0845620404900054f03",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "État des stocks mis à jour quotidiennement, inventaires physiques périodiques, localisation sur deux cellules — conforme."
-  },
-  {
-    "slug": "barriere-freres533007932026-01-0845620404900054f04",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S04_VERIFICATION",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Attestations DOE contrôlées (REI 120, structure béton, anti-ruine en chaîne, BROOF, portes CF) — essai porte coupe-feu réussi, cohérence mise en oeuvre constatée."
-  },
-  {
-    "slug": "barriere-freres533007932026-01-0845620404900054f05",
-    "domains": [
-      "D01_INCENDIE",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Accès unique avec portail ouvert heures ouvrées, télésurveillance et gardien habitant sur site — dispositif d'accès conforme."
-  },
-  {
-    "slug": "barriere-freres533007932026-01-0845620404900054f06",
-    "domains": [
-      "D01_INCENDIE",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R02_PROMESSE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Benne de déchets positionnée sur la voie engin côté Est — NC physique sur obstruction voie de secours, exploitant s'engage à évacuer."
-  },
-  {
-    "slug": "barriere-freres533007932026-01-0845620404900054f07",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Aire de stationnement des engins associée au poteau incendie Nord non matérialisée au sol — NC documentaire/physique mineure sur signalisation."
-  },
-  {
-    "slug": "barriere-freres533007932026-01-0845620404900054f08",
-    "domains": [
-      "D01_INCENDIE",
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Accès identifiés dans le dossier contrôlés sur site — cohérence avec le dossier d'enregistrement constatée."
-  },
-  {
-    "slug": "barriere-freres533007932026-01-0845620404900054f09",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Notes de dimensionnement du désenfumage présentées, lanterneaux >7m du mur coupe-feu, commandes en deux points opposés — désenfumage conforme."
-  },
-  {
-    "slug": "barriere-freres533007932026-01-0845620404900054f10",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Protection toiture en feuille métallique mise en oeuvre sans justification du caractère A2 S2 d1 — NC documentaire sur matériaux de toiture."
-  },
-  {
-    "slug": "barriere-freres533007932026-01-0845620404900054f11",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Stockage en masse cellule 2 ne respecte pas la distance de 1 m de la paroi nord, stockage résiduel dans ancienne zone non conforme — NC physique sur conditions de stockage."
-  },
-  {
-    "slug": "barriere-freres533007932026-01-0845620404900054f12",
-    "domains": [
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitant incapable d'expliquer principe d'arrêt pompe de relevage le jour de l'inspection — incertitude sur fonctionnement automatique du confinement, tests et commande manuelle à justifier."
-  },
-  {
-    "slug": "barriere-freres533007932026-01-0845620404900054f13",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Réserves souples 120 m3 dotées d'une seule prise d'aspiration au lieu de deux colonnes prescrites, formation personnel et exercice non réalisés — NC physique et organisationnelle sur défense incendie."
-  },
-  {
-    "slug": "barriere-freres533007932026-01-0845620404900054f14",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Attestation SSI, PV d'essais détection fumée et rapport mise en service présentés — détection incendie conforme."
-  },
-  {
-    "slug": "barriere-freres533007932026-01-0845620404900054f15",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Mesures eaux pluviales conformes sur 3 points de rejet en 2025, relevés manquants au puisard Nord faute d'eau."
-  },
-  {
-    "slug": "barriere-freres533007932026-01-0845620404900054f16",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI",
-      "m_MENACE"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "PDI à l'état de projet, manque plan commandes désenfumage et dispositions formation personnel — absence de document opérationnel obligatoire pour site en fonctionnement."
-  },
-  {
-    "slug": "barriere-freres533007932026-01-0845620404900054f17",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Rapport de vérification initiale cellule 1 non présenté, protection contre effets indirects foudre non justifiée — NC documentaire sur conformité électrique et protection foudre partielle."
-  },
-  {
-    "slug": "bce-beton-controle-estuaire-ex-landes-de-crimee52054292024-07-0939502621400027f01",
-    "domains": [
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Tonnage prescrit respecté (30 000 t en 2022, 0 en 2023) mais registre de pesées absent — prescription fondamentale respectée, document de traçabilité manquant."
-  },
-  {
-    "slug": "bce-beton-controle-estuaire-ex-landes-de-crimee52054292024-07-0939502621400027f02",
-    "domains": [
-      "D11_SECURITE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S04_VERIFICATION",
-    "gravity": "G1",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Aucune ouverture constatée dans la clôture du périmètre — NC antérieure (2019) levée."
-  },
-  {
-    "slug": "bce-beton-controle-estuaire-ex-landes-de-crimee52054292024-07-0939502621400027f03",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI",
-      "m_MENACE"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Aucun rapport d'analyse des eaux avant rejet et GIDAF non renseigné — absence de surveillance réglementaire des rejets aqueux."
-  },
-  {
-    "slug": "bce-beton-controle-estuaire-ex-landes-de-crimee52054292024-07-0939502621400027f04",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M02_MESURE"
-    ],
-    "modifiers": [
-      "m_DELAI",
-      "m_MENACE"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Rapport DEKRA ne caractérise pas l'émergence sonore — impossible de se positionner sur conformité, méthodologie inadéquate."
-  },
-  {
-    "slug": "bce-beton-controle-estuaire-ex-landes-de-crimee52054292024-07-0939502621400027f05",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI",
-      "m_MENACE"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Attestation APSAD présentée mais aucun rapport de vérification annuelle des moyens de secours — absence du document de contrôle réglementaire."
-  },
-  {
-    "slug": "bce-beton-controle-estuaire-ex-landes-de-crimee52054292024-07-0939502621400027f06",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A05_ORGANISME",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Rapport DEKRA de mesures retombées de poussières dans conditions représentatives n'appelle pas d'observations."
-  },
-  {
-    "slug": "beautour31045822022-10-2550264597100024f01",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A02_INSPECTION",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Aucun signe d'installation classée à l'adresse signalée — jardins propres, pas de VHU, pas de déchet visible."
-  },
-  {
-    "slug": "bel-francis31064882023-05-0541275428500010f01",
-    "domains": [
-      "D08_DECHETS",
-      "D13_CESSATION"
-    ],
-    "mechanisms": [
-      "M04_MISE_EN_DEMEURE",
-      "M19_CESSATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R05_VIDE_FACTUEL",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S05_ESCALADE",
-    "gravity": "G4",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "MED non respectée — VHU et déchets non évacués, dossier de cessation non transmis malgré consignation de 15 000€ — MED persistante sans évolution."
-  },
-  {
-    "slug": "bel-francis31064882023-05-0541275428500010f02",
-    "domains": [
-      "D08_DECHETS"
-    ],
-    "mechanisms": [
-      "M04_MISE_EN_DEMEURE"
-    ],
-    "modifiers": [],
-    "dynamic": "R05_VIDE_FACTUEL",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S05_ESCALADE",
-    "gravity": "G4",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "Résidus de déchets toujours présents nonobstant évacuation partielle — mesures conservatoires de l'AP du 4 mai 2021 non respectées."
-  },
-  {
-    "slug": "berganton-biogaz1000145342025-12-1085044470400017f01",
-    "domains": [
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Vanne d'obturation pour confinement des eaux d'extinction non commandable à distance — NC physique/technique sur dispositif de confinement des eaux de sinistre."
-  },
-  {
-    "slug": "berganton-biogaz1000145342025-12-1085044470400017f02",
-    "domains": [
-      "D04_EAUX",
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Gestion des effluents diffère du dossier d'enregistrement (rejet vers fossé/Garonne vs bassins de décantation), entretien pompes non contrôlé, dimensionnement trieur non justifié — NC technique et documentaire sur réseau eaux."
-  },
-  {
-    "slug": "berganton-biogaz1000145342025-12-1085044470400017f03",
-    "domains": [
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M02_MESURE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "pH et température non mesurés dans analyses annuelles, flux non calculés — protocole de mesure inadéquat sur rejets aqueux."
-  },
-  {
-    "slug": "berganton-biogaz1000145342025-12-1085044470400017f04",
-    "domains": [
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Système d'ancrage biogaz (boudin air + sangles redondantes) constaté conforme aux données de la demande d'enregistrement."
-  },
-  {
-    "slug": "berganton-biogaz1000145342025-12-1085044470400017f05",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Voie bitumée centrale d'une vingtaine de mètres avec aire de retournement >10m de diamètre — conforme à la prescription voie engins."
-  },
-  {
-    "slug": "berganton-biogaz1000145342025-12-1085044470400017f06",
-    "domains": [
-      "D10_ELECTRIQUE_ESP"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A05_ORGANISME",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Rapport thermographie Q19 détecte anomalie de connexion dans local technique nécessitant réparation — NC physique sur installation électrique signalée par organisme de contrôle."
-  },
-  {
-    "slug": "berganton-biogaz1000145342025-12-1085044470400017f07",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE",
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Contrôle annuel réserve incendie révèle NC sur accessibilité (passage trop étroit) non encore levée — NC physique sur accès aux moyens de défense incendie."
-  },
-  {
-    "slug": "berganton-biogaz1000145342025-12-1085044470400017f08",
-    "domains": [
-      "D05_AIR_BRUIT",
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Plus de 3 événements de torchage >6h en 2025 (pannes compresseur épuration) sans bilan transmis — NC réglementaire sur déclaration d'événements de dépassement de capacité."
-  },
-  {
-    "slug": "berganton-biogaz1000145342025-12-1085044470400017f09",
-    "domains": [
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Programme de maintenance préventive incomplet — plusieurs vérifications réalisées mais non formalisées dans le programme (détecteurs gaz, ESP, groupe électrogène, etc.)."
-  },
-  {
-    "slug": "berganton-biogaz1000145342025-12-1085044470400017f10",
-    "domains": [
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Aucune consigne spécifique de démarrage/arrêt rédigée par l'exploitant malgré consignes constructeur disponibles — absence de procédure opérationnelle de sécurité."
-  },
-  {
-    "slug": "berganton-biogaz1000145342025-12-1085044470400017f11",
-    "domains": [
-      "D07_RETENTION",
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Rétention digesteurs (4290 m3 = 50% capacité totale) avec test perméabilité <10-7 m/s, vanne isolement fermée par défaut, regards de contrôle présents."
-  },
-  {
-    "slug": "berganton-biogaz1000145342025-12-1085044470400017f12",
-    "domains": [
-      "D15_SECTEUR",
-      "D04_EAUX"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Lagune déportée 5000 m3 non construite, adéquation capacité de stockage 4 mois non justifiée, lagune existante sans double géomembrane ni clôture — NC technique sur stockage digestats."
-  },
-  {
-    "slug": "berganton-biogaz1000145342025-12-1085044470400017f13",
-    "domains": [
-      "D05_AIR_BRUIT",
-      "D15_SECTEUR"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Émissions méthane offgaz à 0,86% en 2024 conformes ancienne norme 1%, mais nouveau seuil 0,5% (2025) non respecté — exploitant reconnaît NC pour 2025 avec réglage prévu."
-  },
-  {
-    "slug": "berganton-biogaz1000145342025-12-1085044470400017f14",
-    "domains": [
-      "D15_SECTEUR",
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Teneur H2S mesurée à 36 ppm en continu (seuil 300 ppm) — conforme, n'appelle pas de commentaire."
-  },
-  {
-    "slug": "bernard-raymond52067042022-09-14nosiretf01",
-    "domains": [
-      "D08_DECHETS",
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M04_MISE_EN_DEMEURE",
-      "M05_SANCTION"
-    ],
-    "modifiers": [],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S05_ESCALADE",
-    "gravity": "G4",
-    "trajectory": "T7",
-    "confidence": "high",
-    "reasoning": "Exploitation illégale persistante (MED 2004 non respectée) avec 11 VHU et nombreux déchets dangereux — travaux d'office proposés pour situation illégale de longue date."
-  },
-  {
-    "slug": "bernard-raymond52067042023-04-12nosiretf01",
-    "domains": [
-      "D08_DECHETS"
-    ],
-    "mechanisms": [
-      "M05_SANCTION"
-    ],
-    "modifiers": [],
-    "dynamic": "R05_VIDE_FACTUEL",
-    "actor": "A10_JUSTICE",
-    "stage": "S05_ESCALADE",
-    "gravity": "G4",
-    "trajectory": "T4",
-    "confidence": "high",
-    "reasoning": "Situation n'ayant pas évolué — travaux d'office déclenchés avec ordonnance JLD, propriétaire absent, état des lieux dressé avant évacuation forcée."
-  },
-  {
-    "slug": "bernard-raymond52067042023-04-18nosiretf01",
-    "domains": [
-      "D08_DECHETS",
-      "D06_SOLS"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE",
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [],
-    "dynamic": "R05_VIDE_FACTUEL",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S06_CLOTURE",
-    "gravity": "G2",
-    "trajectory": "T3",
-    "confidence": "high",
-    "reasoning": "Prescription de retrait des VHU et déchets respectée après travaux d'office — mais diagnostic de sols prévu depuis 2004 toujours non fourni."
-  },
-  {
-    "slug": "beynel-manustock52012952024-09-1738058196700037f01",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Porter-à-connaissance comporte des erreurs et approximations reconnues par l'exploitant — lien impossible entre caractéristiques déclarées et situation terrain."
-  },
-  {
-    "slug": "beynel-manustock52012952024-09-1738058196700037f02",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Fuite sur canalisation en cours de réparation rendant 5 poteaux incendie privés indisponibles le jour de l'inspection — NC physique sur défense incendie principale."
-  },
-  {
-    "slug": "beynel-manustock52012952024-09-1738058196700037f03",
-    "domains": [
-      "D02_ATEX"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Local de charge accumulateurs sans ouvertures dédiées pour amenée d'air frais — NC technique sur ventilation ATEX, zonage à mettre à jour."
-  },
-  {
-    "slug": "beynel-manustock52012952024-09-1738058196700037f04",
-    "domains": [
-      "D07_RETENTION"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "GRV d'huile de coupe hors rétention en extérieur, pente naturelle vers regard eaux pluviales — NC physique sur rétention produit dangereux liquide."
-  },
-  {
-    "slug": "beynel-manustock52012952024-09-1738058196700037f05",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Autosurveillance des rejets atmosphériques inspectée sans remarque particulière."
-  },
-  {
-    "slug": "beynel-manustock52012952024-09-1738058196700037f06",
-    "domains": [
-      "D05_AIR_BRUIT"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Exploitant en retard sur la mesure acoustique triennale, propose de la reporter — NC sur calendrier de contrôle périodique obligatoire."
-  },
-  {
-    "slug": "beynel-palox1000588332024-09-1788328964700017f01",
-    "domains": [
-      "D12_ADMIN"
-    ],
-    "mechanisms": [
-      "M17_CLASSIFICATION",
-      "M04_MISE_EN_DEMEURE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S05_ESCALADE",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Stock >1000 m3 rubrique 1532 sans déclaration déposée — MED proposée pour régularisation administrative du classement."
-  },
-  {
-    "slug": "beynel-palox1000588332024-09-1788328964700017f02",
-    "domains": [
-      "D01_INCENDIE"
-    ],
-    "mechanisms": [
-      "M14_CONSTAT_TECHNIQUE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Piles de bois à ~20 cm de la clôture au lieu de 6 m minimum requis — NC physique sur distance de séparation des stocks de bois."
-  },
-  {
-    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f01",
-    "domains": [
-      "D14_RISQUE_BIO"
-    ],
-    "mechanisms": [
-      "M07_CONTROLE"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G3",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Rapport de contrôle périodique TAR absent — periodicité réglementaire non respectée, APAVE mandaté en urgence."
-  },
-  {
-    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f02",
-    "domains": [
-      "D14_RISQUE_BIO"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R14_NEUTRE_NC",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Désignation formelle des personnes en charge de la surveillance TAR non effectuée (voir partie confidentielle) — absence de document de désignation."
-  },
-  {
-    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f03",
-    "domains": [
-      "D14_RISQUE_BIO"
-    ],
-    "mechanisms": [
-      "M01_DOCUMENTATION"
-    ],
-    "modifiers": [
-      "m_DELAI"
-    ],
-    "dynamic": "R02_PROMESSE",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S02_INJONCTION",
-    "gravity": "G2",
-    "trajectory": "T1",
-    "confidence": "medium",
-    "reasoning": "Liste des intervenants TAR et attestations de formation non présentées (voir confidentiel) — absence de justificatifs de formation réglementaire."
-  },
-  {
-    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f04",
-    "domains": [
-      "D14_RISQUE_BIO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Programmes de formation TAR consultés répondent aux dispositions réglementaires requises."
-  },
-  {
-    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f05",
-    "domains": [
-      "D14_RISQUE_BIO"
-    ],
-    "mechanisms": [
-      "M08_CONFORMITE"
-    ],
-    "modifiers": [],
-    "dynamic": "R13_NEUTRE_CONFORME",
-    "actor": "A01_EXPLOITANT",
-    "stage": "S01_CONSTAT",
-    "gravity": "G1",
-    "trajectory": "T1",
-    "confidence": "high",
-    "reasoning": "Fonctionnement saisonnier des TAR avec procédure adaptée incluant conditions de redémarrage — conforme."
-  }
+ {
+  "slug": "bagneres-bois52006962022-08-0438411878200018f05",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION",
+   "M07_CONTROLE"
+  ],
+  "modifiers": [
+   "m_DELAI",
+   "m_MENACE"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitant ne peut fournir rapport d'essai ni garantir la maintenance du poteau incendie privé — NC documentaire ET contrôle périodique absent, avec signalement de sanctions administratives possibles."
+ },
+ {
+  "slug": "bagneres-bois52006962022-08-0438411878200018f06",
+  "domains": [
+   "D01_INCENDIE",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Programme et feuille d'émargement de la formation d'exercice incendie inspectés sans remarque particulière."
+ },
+ {
+  "slug": "bagneres-bois52006962022-08-0438411878200018f07",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M06_RECIDIVE"
+  ],
+  "modifiers": [
+   "m_DELAI",
+   "m_MENACE"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T7",
+  "confidence": "high",
+  "reasoning": "Deux NC récurrentes d'année en année sur alimentation haute-tension révélées par rapport de vérification annuelle — récidive documentée sur équipement électrique avec risque incendie/explosion."
+ },
+ {
+  "slug": "bagneres-bois52006962024-09-0538411878200018f01",
+  "domains": [
+   "D06_SOLS"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R01_PROACTIF",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G2",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Les deux zones de pollution ont été excavées conformément au plan de gestion validé — MED considérée comme respectée sous réserve de transmission du rapport de fin de travaux."
+ },
+ {
+  "slug": "bagneres-bois52006962024-09-0538411878200018f02",
+  "domains": [
+   "D01_INCENDIE",
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M09_PAC"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R02_PROMESSE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T2",
+  "confidence": "high",
+  "reasoning": "Aménagement intérieur du barnum et certains stocks non conformes au porter-à-connaissance validé — NC technique constructive avec PAC insuffisant, exploitant promet nouveau PAC."
+ },
+ {
+  "slug": "balhadere-et-fils52013762023-02-2346120003200013f01",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M02_MESURE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "Vitesses d'éjection des cyclones 3 et 4 inférieures à 8 m/s — NC technique sur performance des rejets atmosphériques persistant depuis 2018 malgré remplacement du cyclone 4."
+ },
+ {
+  "slug": "balhadere-et-fils52013762023-02-2346120003200013f02",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Un seul des trois disconnecteurs constaté visuellement — NC physique partielle (deux dispositifs non vérifiables), incertitude technique sur présence des équipements requis."
+ },
+ {
+  "slug": "balhadere-et-fils52013762023-02-2346120003200013f03",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S04_VERIFICATION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Nouvelle campagne de mesures acoustiques montre des niveaux d'émergence conformes aux prescriptions — NC antérieure levée."
+ },
+ {
+  "slug": "balhadere-et-fils52013762023-02-2346120003200013f04",
+  "domains": [
+   "D01_INCENDIE",
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T2",
+  "confidence": "high",
+  "reasoning": "Essai de mise en aspiration révèle une prise manquante (débit insuffisant), stocks de palettes à proximité immédiate des réserves, et exploitant incapable de confirmer la validité de ses hypothèses de calcul — NC technique multiple sur défense incendie."
+ },
+ {
+  "slug": "balhadere-et-fils52013762023-02-2346120003200013f05",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M06_RECIDIVE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G2",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "Rapport de vérification électrique annuelle consulté avec deux remarques récurrentes levées en cours d'année — contrôle réalisé mais NC récidivantes signalées."
+ },
+ {
+  "slug": "balhadere-et-fils52013762023-02-2346120003200013f06",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R02_PROMESSE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "ARF réalisée identifie besoin de protection niveau 1 mais aucune étude technique réalisée — absence de document requis (étude technique foudre), NC déjà signalée en 2018."
+ },
+ {
+  "slug": "balhadere-et-fils52013762023-02-2346120003200013f07",
+  "domains": [
+   "D01_INCENDIE",
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T2",
+  "confidence": "high",
+  "reasoning": "Partie mobile de la vanne guillotine absente de la troisième buse bétonnée — NC physique sur dispositif de confinement des eaux d'extinction."
+ },
+ {
+  "slug": "balhadere-et-fils52013762023-02-2346120003200013f08",
+  "domains": [
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S04_VERIFICATION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Cuve enterrée condamnée et remplacée, séparateur à hydrocarbures refait — installation et compte-rendu d'inertage n'appellent pas de remarque particulière."
+ },
+ {
+  "slug": "balhadere-et-fils52013762023-02-2346120003200013f09",
+  "domains": [
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R04_MECONNAISSANCE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Sonde de niveau bas hors tension le jour de l'inspection, exploitant incapable de déclencher la sonde de niveau haut faute de connaître son fonctionnement — NC physique sur équipements de sécurité."
+ },
+ {
+  "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562023-09-2830171146100071f01",
+  "domains": [
+   "D09_BIODIVERSITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Compensation zone humide réalisée sur deux zones in-situ et ex-situ conformément au plan de gestion — constat descriptif sans NC."
+ },
+ {
+  "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562023-09-2830171146100071f02",
+  "domains": [
+   "D09_BIODIVERSITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S04_VERIFICATION",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Travaux d'étrépage et décapage sur parcelle AS24 justifiés et conformes au plan de gestion de la zone humide compensatoire selon CERAG."
+ },
+ {
+  "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562023-09-2830171146100071f03",
+  "domains": [
+   "D09_BIODIVERSITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S04_VERIFICATION",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Zone compensatoire in-situ clôturée, étrépée et décapée — travaux conformes au plan de gestion."
+ },
+ {
+  "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f01",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Modélisations FLUMILOG démontrent que flux thermiques 8/5/3 kW/m2 restent confinés ou n'impactent pas tiers — conformité aux distances prescrites."
+ },
+ {
+  "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f02",
+  "domains": [
+   "D01_INCENDIE",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Prescriptions d'accès et voie engins constatées respectées, surface cellules ≤6000 m2."
+ },
+ {
+  "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f03",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Dispositions constructives (REI 240, ruine en chaîne, ateliers isolés, bureaux séparés) constatées respectées avec étude fournie."
+ },
+ {
+  "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f04",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Deux exutoires de désenfumage implantés à moins de 7 m du mur coupe-feu sur la cellule en étage — NC constructive physique sur désenfumage."
+ },
+ {
+  "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f05",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Compartimentage (REI 240, portes EI120, protection toiture A2s1d0) constaté conforme aux prescriptions."
+ },
+ {
+  "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f06",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Cellules principales >3000 m2 et étage sprinklées, hauteur de stockage <23 m — conformité constatée."
+ },
+ {
+  "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f07",
+  "domains": [
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Bouches d'évacuation au sol vers siphon coupe-feu et bassins de confinement déportés constatées conformes."
+ },
+ {
+  "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f08",
+  "domains": [
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Eaux d'extinction dirigées vers 3 bassins de confinement externes selon l'exploitant — constat descriptif sans NC relevée."
+ },
+ {
+  "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f09",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Détection incendie assurée par sprinklage selon l'exploitant — constat descriptif sans NC."
+ },
+ {
+  "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f10",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Réserves incendie (742+120 m3), poteaux, RIA et extincteurs constatés présents et dimensionnés conformément au D9."
+ },
+ {
+  "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f11",
+  "domains": [
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Issues de secours (portes anti-panique) fermées à clef dans cellules de stockage — NC physique sur évacuation du personnel."
+ },
+ {
+  "slug": "bardinet-blanquefort-297-avenue-du-11-novembre1000028562025-08-2730171146100071f12",
+  "domains": [
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Surveillance par caméras 24h/24 avec alarme et gardien présent sur site principal — conforme."
+ },
+ {
+  "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122023-01-0330171146100071f01",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M17_CLASSIFICATION",
+   "M09_PAC"
+  ],
+  "modifiers": [
+   "m_DELAI",
+   "m_MENACE"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T2",
+  "confidence": "high",
+  "reasoning": "Site soumis à enregistrement rubrique 1510 (groupe IPD ~91300 m3) sans avoir finalisé sa demande — NC administrative sur classement et régime, aucune réponse malgré relances."
+ },
+ {
+  "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122023-01-0330171146100071f02",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M17_CLASSIFICATION"
+  ],
+  "modifiers": [
+   "m_DELAI",
+   "m_MENACE"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Volume de spiritueux >40° non précisé — classement rubrique 4755 (autorisation si >500 m3) incertain, seule déclaration orale sans preuve factuelle."
+ },
+ {
+  "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122023-01-0330171146100071f03",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Présence d'équipements constatée par sondage mais degrés coupe-feu non vérifiés et justificatifs documentaires non fournis — NC sur preuves de conformité des travaux de mise en conformité."
+ },
+ {
+  "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122025-11-1930171146100071f01",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M17_CLASSIFICATION",
+   "M09_PAC"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T2",
+  "confidence": "high",
+  "reasoning": "Nouveau classement enregistrement rubrique 1510 (annexes VI/VII/VIII) établi mais récolement annexe VI manquant et informations de volumes/capacités non fournies."
+ },
+ {
+  "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122025-11-1930171146100071f02",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Dossiers de déclaration et récépissés pour rubriques 1530, 1510 et 4755 présentés à l'inspection — dossier administratif complet."
+ },
+ {
+  "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122025-11-1930171146100071f03",
+  "domains": [
+   "D01_INCENDIE",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Prescription respectée — état des matières stockées tenu à jour, site sans POI non opposable."
+ },
+ {
+  "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122025-11-1930171146100071f04",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Matières dangereuses (alcools de bouche, <5%) stockées dans deux cellules — constat descriptif sans NC relevée."
+ },
+ {
+  "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122025-11-1930171146100071f05",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Aucun stockage de liquides inflammables H224 constaté sur site — prescription respectée."
+ },
+ {
+  "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122025-11-1930171146100071f06",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Réserves incendie présentes mais réception par SDIS et calcul D9 non réalisés — NC sur validation de la défense incendie."
+ },
+ {
+  "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122025-11-1930171146100071f07",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI",
+   "m_MENACE"
+  ],
+  "dynamic": "R02_PROMESSE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Plan de défense incendie non réalisé — absence de document obligatoire, exploitant a exprimé sa volonté de remédier."
+ },
+ {
+  "slug": "bardinet-blanquefort-7-rue-du-commandant-charcot52115122025-11-1930171146100071f08",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S04_VERIFICATION",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Etude de flux thermiques du 26/09/2023 démontre l'absence d'effets à 8 kW/m2 hors site."
+ },
+ {
+  "slug": "bardinet-sas52004472022-09-2730171146100071f01",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_MENACE"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A03_PREFET",
+  "stage": "S05_ESCALADE",
+  "gravity": "G4",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Dépassements importants et répétés de VLE (température, pH, DCO, MES, DBO5, volume) de mai à septembre 2022 — inspection propose MED, NC technique grave sur rejets aqueux."
+ },
+ {
+  "slug": "bardinet-sas52004472022-09-2730171146100071f02",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Procédure de limitation/arrêt production en cas de rejets NC non mise en place malgré dysfonctionnement de la STEP connu depuis mai 2022."
+ },
+ {
+  "slug": "bardinet-sas52004472022-09-2730171146100071f03",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M11_INCIDENT"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Dysfonctionnement STEP débuté mai 2022 mais inspection non informée qu'au 14 septembre — déclaration tardive d'incident, rapport d'incident demandé."
+ },
+ {
+  "slug": "bardinet-sas52004472023-04-0430171146100071f01",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R01_PROACTIF",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S06_CLOTURE",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "MED du 6/12/2021 et astreinte du 11/08/2022 levées — APAVE confirme que toutes observations Q18 antérieures à 2022 ont été levées."
+ },
+ {
+  "slug": "bardinet-sas52004472023-04-0430171146100071f02",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S06_CLOTURE",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Exploitant fournit facture d'achat nouvel émulseur FILMPOL6 (mars 2023, garantie 10 ans) — conformité émulseur sprinklage justifiée."
+ },
+ {
+  "slug": "bardinet-sas52004472023-04-0430171146100071f03",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_MENACE"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S04_VERIFICATION",
+  "gravity": "G4",
+  "trajectory": "T5",
+  "confidence": "high",
+  "reasoning": "MED du 03/11/2022 non levée — nouveaux dépassements phosphore/azote en février 2023 après correction du dysfonctionnement estival, situation s'aggrave."
+ },
+ {
+  "slug": "bardinet-sas52004472023-04-0430171146100071f04",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S06_CLOTURE",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Station STEP fonctionnelle à nouveau, mesures compensatoires mises en place — MED du 03/11/2022 levée."
+ },
+ {
+  "slug": "bardinet-sas52004472023-04-0430171146100071f05",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M11_INCIDENT",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI",
+   "m_MENACE"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "Rapport d'incident prévu pour fin 2022 toujours non transmis en avril 2023 — absence persistante de document de REX sur incident STEP."
+ },
+ {
+  "slug": "bardinet-sas52004472024-02-2030171146100071f01",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S04_VERIFICATION",
+  "gravity": "G3",
+  "trajectory": "T2",
+  "confidence": "high",
+  "reasoning": "Rapport Q18 septembre 2023 liste 12 observations avec risque incendie/explosion confirmé par APAVE — MED de 2021 formellement levée mais nouvelles observations résiduelles à traiter."
+ },
+ {
+  "slug": "bardinet-sas52004472024-02-2030171146100071f02",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S04_VERIFICATION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Analyse d'émulseur par courriel août 2023 conclut bonne efficacité des émulseurs testés."
+ },
+ {
+  "slug": "bardinet-sas52004472024-02-2030171146100071f03",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M11_INCIDENT",
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S06_CLOTURE",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Rapport d'incident transmis à l'inspection en août 2023 — obligation de déclaration et REX finalement remplie."
+ },
+ {
+  "slug": "bardinet-sas52004472024-02-2030171146100071f04",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S06_CLOTURE",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Dernières déclarations GIDAF conformes, MED du 03/11/2022 levée — retour à conformité confirmé en 2024."
+ },
+ {
+  "slug": "bardinet-sas52004472024-02-2030171146100071f05",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION",
+   "M04_MISE_EN_DEMEURE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S05_ESCALADE",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Liste ESP incomplète (manque type, régime, dates inspection/requalification) — MED proposée pour régulariser la liste réglementaire des équipements sous pression."
+ },
+ {
+  "slug": "bardinet-sas52004472024-02-2030171146100071f06",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "4 ESP contrôlés par sondage identifiés sur site — constat de présence sans anomalie physique signalée sur les équipements eux-mêmes."
+ },
+ {
+  "slug": "bardinet-sas52004472024-02-2030171146100071f07",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M04_MISE_EN_DEMEURE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S05_ESCALADE",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Nombreux ESP en retard d'inspection périodique (esp 13 et 20 notamment) — MED proposée pour réaliser inspections périodiques en retard."
+ },
+ {
+  "slug": "bardinet-sas52004472024-02-2030171146100071f08",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A05_ORGANISME",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Comptes-rendus d'inspection périodique des ESP 13 (2011) et 20 (2013) examinés — aptitude au maintien en service confirmée."
+ },
+ {
+  "slug": "bardinet-sas52004472024-02-2030171146100071f09",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M04_MISE_EN_DEMEURE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S05_ESCALADE",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Nombreux ESP (6, 16, 20) en retard de requalification périodique — MED proposée pour régulariser situation."
+ },
+ {
+  "slug": "bardinet-sas52004472024-02-2030171146100071f10",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R01_PROACTIF",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S03_CORRECTION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "ESP 13 requalifié le 19/02/2024 avec poinçon tête de cheval constaté — requalification réalisée, attestation en attente."
+ },
+ {
+  "slug": "bardinet-sas52004472024-02-2030171146100071f11",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Informations des plaques des 4 ESP cohérentes avec la liste des équipements — conformité documentaire des marquages."
+ },
+ {
+  "slug": "bardinet-sas52004472024-02-2030171146100071f12",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "ESP 6 en bon état apparent mais vannes fermées pour retard de requalification — équipement neutralisé mais statut réglementaire (hors service/chômage) non conforme."
+ },
+ {
+  "slug": "bardinet-sas52004472024-02-2030171146100071f13",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Soupapes de sécurité des 4 ESP tarées à des pressions ≤ PS — conformité des accessoires de sécurité."
+ },
+ {
+  "slug": "bardinet-sas52004472024-02-2030171146100071f14",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "ESP 16 et 20 sans marquage tête de cheval (jamais requalifiés), cohérence dates ESP 6 à expliquer — NC documentaire sur marquages réglementaires."
+ },
+ {
+  "slug": "bardinet-sas52004472025-02-1130171146100071f01",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI",
+   "m_MENACE"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "POI ne couvre pas tous les scénarios de l'étude de dangers (stockage palettes, auvent, silo sucre) et n'intègre pas les modifications récentes du site — document obsolète."
+ },
+ {
+  "slug": "bardinet-sas52004472025-02-1130171146100071f02",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Deux exercices POI réalisés (septembre 2024 avec SDIS, avril 2024 interne) avec compte-rendus présentés."
+ },
+ {
+  "slug": "bardinet-sas52004472025-02-1130171146100071f03",
+  "domains": [
+   "D03_SEVESO",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Gardienne formée en janvier 2023 seulement — fréquence annuelle de formation non respectée pour le personnel POI."
+ },
+ {
+  "slug": "bardinet-sas52004472025-02-1130171146100071f04",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Aucune astreinte permettant disponibilité du personnel POI hors heures ouvrées — NC organisationnelle sur activation du plan d'urgence."
+ },
+ {
+  "slug": "bardinet-sas52004472025-02-1130171146100071f05",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Nombre de personnes mobilisables (6) insuffisant pour 7 fonctions POI identifiées — NC structurelle sur capacité de réponse à un incident majeur."
+ },
+ {
+  "slug": "bardinet-sas52004472025-02-1130171146100071f06",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "État des vannes eaux pluviales non identifiable facilement, boutons de coupure sans indication de zone — NC opérationnelle sur ergonomie des moyens de secours."
+ },
+ {
+  "slug": "bardinet-sas52004472025-02-1130171146100071f07",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Gardienne n'a pas respecté la chaîne d'alerte POI lors de l'exercice — NC de mise en oeuvre du plan d'urgence, information DREAL obsolète."
+ },
+ {
+  "slug": "bardinet-sas52004472025-02-1130171146100071f08",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Plan de masse sécurité et fiches scénarios contiennent dispositions pour guider les secours — conforme."
+ },
+ {
+  "slug": "bardinet-sas52004472025-02-1130171146100071f09",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI",
+   "m_MENACE"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "POI mis à jour en juin 2024 ne comprend pas les dispositifs de premiers prélèvements environnementaux — absence d'élément obligatoire depuis janvier 2023."
+ },
+ {
+  "slug": "bardinet-sas52004472025-02-1130171146100071f10",
+  "domains": [
+   "D03_SEVESO"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI",
+   "m_MENACE"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "POI ne comprend pas les moyens et méthodes de remise en état de l'environnement après accident majeur — lacune documentaire obligatoire."
+ },
+ {
+  "slug": "bardinet-sas52004472025-02-1130171146100071f11",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Micro-fuite sur groupe moto-pompe incendie principal constatée, remplacement à prévoir en urgence selon fiche ENGIE — NC physique sur équipement critique de lutte contre l'incendie."
+ },
+ {
+  "slug": "bardinet-sas52004472025-11-1930171146100071f01",
+  "domains": [
+   "D04_EAUX",
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_MENACE"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S05_ESCALADE",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Cuves de stockage d'émulseurs PFAS sans rétention vérifiée — NC physique sur confinement de substances dangereuses, MED proposée."
+ },
+ {
+  "slug": "barriere-freres533007932026-01-0845620404900054f01",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Registre d'inventaire quotidien des matières stockées présenté — seule quantité de palettes non déterminée, reste globalement conforme."
+ },
+ {
+  "slug": "barriere-freres533007932026-01-0845620404900054f02",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R01_PROACTIF",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S04_VERIFICATION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Nouvelle version du registre complétée à l'issue de l'inspection avec toutes les synthèses — spiritueux stockés conformément au PAC (2 m3 pour 8 m3 autorisés)."
+ },
+ {
+  "slug": "barriere-freres533007932026-01-0845620404900054f03",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "État des stocks mis à jour quotidiennement, inventaires physiques périodiques, localisation sur deux cellules — conforme."
+ },
+ {
+  "slug": "barriere-freres533007932026-01-0845620404900054f04",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S04_VERIFICATION",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Attestations DOE contrôlées (REI 120, structure béton, anti-ruine en chaîne, BROOF, portes CF) — essai porte coupe-feu réussi, cohérence mise en oeuvre constatée."
+ },
+ {
+  "slug": "barriere-freres533007932026-01-0845620404900054f05",
+  "domains": [
+   "D01_INCENDIE",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Accès unique avec portail ouvert heures ouvrées, télésurveillance et gardien habitant sur site — dispositif d'accès conforme."
+ },
+ {
+  "slug": "barriere-freres533007932026-01-0845620404900054f06",
+  "domains": [
+   "D01_INCENDIE",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R02_PROMESSE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Benne de déchets positionnée sur la voie engin côté Est — NC physique sur obstruction voie de secours, exploitant s'engage à évacuer."
+ },
+ {
+  "slug": "barriere-freres533007932026-01-0845620404900054f07",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Aire de stationnement des engins associée au poteau incendie Nord non matérialisée au sol — NC documentaire/physique mineure sur signalisation."
+ },
+ {
+  "slug": "barriere-freres533007932026-01-0845620404900054f08",
+  "domains": [
+   "D01_INCENDIE",
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Accès identifiés dans le dossier contrôlés sur site — cohérence avec le dossier d'enregistrement constatée."
+ },
+ {
+  "slug": "barriere-freres533007932026-01-0845620404900054f09",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Notes de dimensionnement du désenfumage présentées, lanterneaux >7m du mur coupe-feu, commandes en deux points opposés — désenfumage conforme."
+ },
+ {
+  "slug": "barriere-freres533007932026-01-0845620404900054f10",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Protection toiture en feuille métallique mise en oeuvre sans justification du caractère A2 S2 d1 — NC documentaire sur matériaux de toiture."
+ },
+ {
+  "slug": "barriere-freres533007932026-01-0845620404900054f11",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Stockage en masse cellule 2 ne respecte pas la distance de 1 m de la paroi nord, stockage résiduel dans ancienne zone non conforme — NC physique sur conditions de stockage."
+ },
+ {
+  "slug": "barriere-freres533007932026-01-0845620404900054f12",
+  "domains": [
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitant incapable d'expliquer principe d'arrêt pompe de relevage le jour de l'inspection — incertitude sur fonctionnement automatique du confinement, tests et commande manuelle à justifier."
+ },
+ {
+  "slug": "barriere-freres533007932026-01-0845620404900054f13",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Réserves souples 120 m3 dotées d'une seule prise d'aspiration au lieu de deux colonnes prescrites, formation personnel et exercice non réalisés — NC physique et organisationnelle sur défense incendie."
+ },
+ {
+  "slug": "barriere-freres533007932026-01-0845620404900054f14",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Attestation SSI, PV d'essais détection fumée et rapport mise en service présentés — détection incendie conforme."
+ },
+ {
+  "slug": "barriere-freres533007932026-01-0845620404900054f15",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Mesures eaux pluviales conformes sur 3 points de rejet en 2025, relevés manquants au puisard Nord faute d'eau."
+ },
+ {
+  "slug": "barriere-freres533007932026-01-0845620404900054f16",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI",
+   "m_MENACE"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "PDI à l'état de projet, manque plan commandes désenfumage et dispositions formation personnel — absence de document opérationnel obligatoire pour site en fonctionnement."
+ },
+ {
+  "slug": "barriere-freres533007932026-01-0845620404900054f17",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Rapport de vérification initiale cellule 1 non présenté, protection contre effets indirects foudre non justifiée — NC documentaire sur conformité électrique et protection foudre partielle."
+ },
+ {
+  "slug": "bce-beton-controle-estuaire-ex-landes-de-crimee52054292024-07-0939502621400027f01",
+  "domains": [
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Tonnage prescrit respecté (30 000 t en 2022, 0 en 2023) mais registre de pesées absent — prescription fondamentale respectée, document de traçabilité manquant."
+ },
+ {
+  "slug": "bce-beton-controle-estuaire-ex-landes-de-crimee52054292024-07-0939502621400027f02",
+  "domains": [
+   "D11_SECURITE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S04_VERIFICATION",
+  "gravity": "G1",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Aucune ouverture constatée dans la clôture du périmètre — NC antérieure (2019) levée."
+ },
+ {
+  "slug": "bce-beton-controle-estuaire-ex-landes-de-crimee52054292024-07-0939502621400027f03",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI",
+   "m_MENACE"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Aucun rapport d'analyse des eaux avant rejet et GIDAF non renseigné — absence de surveillance réglementaire des rejets aqueux."
+ },
+ {
+  "slug": "bce-beton-controle-estuaire-ex-landes-de-crimee52054292024-07-0939502621400027f04",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M02_MESURE"
+  ],
+  "modifiers": [
+   "m_DELAI",
+   "m_MENACE"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Rapport DEKRA ne caractérise pas l'émergence sonore — impossible de se positionner sur conformité, méthodologie inadéquate."
+ },
+ {
+  "slug": "bce-beton-controle-estuaire-ex-landes-de-crimee52054292024-07-0939502621400027f05",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI",
+   "m_MENACE"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Attestation APSAD présentée mais aucun rapport de vérification annuelle des moyens de secours — absence du document de contrôle réglementaire."
+ },
+ {
+  "slug": "bce-beton-controle-estuaire-ex-landes-de-crimee52054292024-07-0939502621400027f06",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A05_ORGANISME",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Rapport DEKRA de mesures retombées de poussières dans conditions représentatives n'appelle pas d'observations."
+ },
+ {
+  "slug": "beautour31045822022-10-2550264597100024f01",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A02_INSPECTION",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Aucun signe d'installation classée à l'adresse signalée — jardins propres, pas de VHU, pas de déchet visible."
+ },
+ {
+  "slug": "bel-francis31064882023-05-0541275428500010f01",
+  "domains": [
+   "D08_DECHETS",
+   "D13_CESSATION"
+  ],
+  "mechanisms": [
+   "M04_MISE_EN_DEMEURE",
+   "M19_CESSATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R05_VIDE_FACTUEL",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S05_ESCALADE",
+  "gravity": "G4",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "MED non respectée — VHU et déchets non évacués, dossier de cessation non transmis malgré consignation de 15 000€ — MED persistante sans évolution."
+ },
+ {
+  "slug": "bel-francis31064882023-05-0541275428500010f02",
+  "domains": [
+   "D08_DECHETS"
+  ],
+  "mechanisms": [
+   "M04_MISE_EN_DEMEURE"
+  ],
+  "modifiers": [],
+  "dynamic": "R05_VIDE_FACTUEL",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S05_ESCALADE",
+  "gravity": "G4",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "Résidus de déchets toujours présents nonobstant évacuation partielle — mesures conservatoires de l'AP du 4 mai 2021 non respectées."
+ },
+ {
+  "slug": "berganton-biogaz1000145342025-12-1085044470400017f01",
+  "domains": [
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Vanne d'obturation pour confinement des eaux d'extinction non commandable à distance — NC physique/technique sur dispositif de confinement des eaux de sinistre."
+ },
+ {
+  "slug": "berganton-biogaz1000145342025-12-1085044470400017f02",
+  "domains": [
+   "D04_EAUX",
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Gestion des effluents diffère du dossier d'enregistrement (rejet vers fossé/Garonne vs bassins de décantation), entretien pompes non contrôlé, dimensionnement trieur non justifié — NC technique et documentaire sur réseau eaux."
+ },
+ {
+  "slug": "berganton-biogaz1000145342025-12-1085044470400017f03",
+  "domains": [
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M02_MESURE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "pH et température non mesurés dans analyses annuelles, flux non calculés — protocole de mesure inadéquat sur rejets aqueux."
+ },
+ {
+  "slug": "berganton-biogaz1000145342025-12-1085044470400017f04",
+  "domains": [
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Système d'ancrage biogaz (boudin air + sangles redondantes) constaté conforme aux données de la demande d'enregistrement."
+ },
+ {
+  "slug": "berganton-biogaz1000145342025-12-1085044470400017f05",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Voie bitumée centrale d'une vingtaine de mètres avec aire de retournement >10m de diamètre — conforme à la prescription voie engins."
+ },
+ {
+  "slug": "berganton-biogaz1000145342025-12-1085044470400017f06",
+  "domains": [
+   "D10_ELECTRIQUE_ESP"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A05_ORGANISME",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Rapport thermographie Q19 détecte anomalie de connexion dans local technique nécessitant réparation — NC physique sur installation électrique signalée par organisme de contrôle."
+ },
+ {
+  "slug": "berganton-biogaz1000145342025-12-1085044470400017f07",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE",
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Contrôle annuel réserve incendie révèle NC sur accessibilité (passage trop étroit) non encore levée — NC physique sur accès aux moyens de défense incendie."
+ },
+ {
+  "slug": "berganton-biogaz1000145342025-12-1085044470400017f08",
+  "domains": [
+   "D05_AIR_BRUIT",
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Plus de 3 événements de torchage >6h en 2025 (pannes compresseur épuration) sans bilan transmis — NC réglementaire sur déclaration d'événements de dépassement de capacité."
+ },
+ {
+  "slug": "berganton-biogaz1000145342025-12-1085044470400017f09",
+  "domains": [
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Programme de maintenance préventive incomplet — plusieurs vérifications réalisées mais non formalisées dans le programme (détecteurs gaz, ESP, groupe électrogène, etc.)."
+ },
+ {
+  "slug": "berganton-biogaz1000145342025-12-1085044470400017f10",
+  "domains": [
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Aucune consigne spécifique de démarrage/arrêt rédigée par l'exploitant malgré consignes constructeur disponibles — absence de procédure opérationnelle de sécurité."
+ },
+ {
+  "slug": "berganton-biogaz1000145342025-12-1085044470400017f11",
+  "domains": [
+   "D07_RETENTION",
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Rétention digesteurs (4290 m3 = 50% capacité totale) avec test perméabilité <10-7 m/s, vanne isolement fermée par défaut, regards de contrôle présents."
+ },
+ {
+  "slug": "berganton-biogaz1000145342025-12-1085044470400017f12",
+  "domains": [
+   "D15_SECTEUR",
+   "D04_EAUX"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Lagune déportée 5000 m3 non construite, adéquation capacité de stockage 4 mois non justifiée, lagune existante sans double géomembrane ni clôture — NC technique sur stockage digestats."
+ },
+ {
+  "slug": "berganton-biogaz1000145342025-12-1085044470400017f13",
+  "domains": [
+   "D05_AIR_BRUIT",
+   "D15_SECTEUR"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Émissions méthane offgaz à 0,86% en 2024 conformes ancienne norme 1%, mais nouveau seuil 0,5% (2025) non respecté — exploitant reconnaît NC pour 2025 avec réglage prévu."
+ },
+ {
+  "slug": "berganton-biogaz1000145342025-12-1085044470400017f14",
+  "domains": [
+   "D15_SECTEUR",
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Teneur H2S mesurée à 36 ppm en continu (seuil 300 ppm) — conforme, n'appelle pas de commentaire."
+ },
+ {
+  "slug": "bernard-raymond52067042022-09-14nosiretf01",
+  "domains": [
+   "D08_DECHETS",
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M04_MISE_EN_DEMEURE",
+   "M05_SANCTION"
+  ],
+  "modifiers": [],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S05_ESCALADE",
+  "gravity": "G4",
+  "trajectory": "T7",
+  "confidence": "high",
+  "reasoning": "Exploitation illégale persistante (MED 2004 non respectée) avec 11 VHU et nombreux déchets dangereux — travaux d'office proposés pour situation illégale de longue date."
+ },
+ {
+  "slug": "bernard-raymond52067042023-04-12nosiretf01",
+  "domains": [
+   "D08_DECHETS"
+  ],
+  "mechanisms": [
+   "M05_SANCTION"
+  ],
+  "modifiers": [],
+  "dynamic": "R05_VIDE_FACTUEL",
+  "actor": "A10_JUSTICE",
+  "stage": "S05_ESCALADE",
+  "gravity": "G4",
+  "trajectory": "T4",
+  "confidence": "high",
+  "reasoning": "Situation n'ayant pas évolué — travaux d'office déclenchés avec ordonnance JLD, propriétaire absent, état des lieux dressé avant évacuation forcée."
+ },
+ {
+  "slug": "bernard-raymond52067042023-04-18nosiretf01",
+  "domains": [
+   "D08_DECHETS",
+   "D06_SOLS"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE",
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [],
+  "dynamic": "R05_VIDE_FACTUEL",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S06_CLOTURE",
+  "gravity": "G2",
+  "trajectory": "T3",
+  "confidence": "high",
+  "reasoning": "Prescription de retrait des VHU et déchets respectée après travaux d'office — mais diagnostic de sols prévu depuis 2004 toujours non fourni."
+ },
+ {
+  "slug": "beynel-manustock52012952024-09-1738058196700037f01",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Porter-à-connaissance comporte des erreurs et approximations reconnues par l'exploitant — lien impossible entre caractéristiques déclarées et situation terrain."
+ },
+ {
+  "slug": "beynel-manustock52012952024-09-1738058196700037f02",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Fuite sur canalisation en cours de réparation rendant 5 poteaux incendie privés indisponibles le jour de l'inspection — NC physique sur défense incendie principale."
+ },
+ {
+  "slug": "beynel-manustock52012952024-09-1738058196700037f03",
+  "domains": [
+   "D02_ATEX"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Local de charge accumulateurs sans ouvertures dédiées pour amenée d'air frais — NC technique sur ventilation ATEX, zonage à mettre à jour."
+ },
+ {
+  "slug": "beynel-manustock52012952024-09-1738058196700037f04",
+  "domains": [
+   "D07_RETENTION"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "GRV d'huile de coupe hors rétention en extérieur, pente naturelle vers regard eaux pluviales — NC physique sur rétention produit dangereux liquide."
+ },
+ {
+  "slug": "beynel-manustock52012952024-09-1738058196700037f05",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Autosurveillance des rejets atmosphériques inspectée sans remarque particulière."
+ },
+ {
+  "slug": "beynel-manustock52012952024-09-1738058196700037f06",
+  "domains": [
+   "D05_AIR_BRUIT"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Exploitant en retard sur la mesure acoustique triennale, propose de la reporter — NC sur calendrier de contrôle périodique obligatoire."
+ },
+ {
+  "slug": "beynel-palox1000588332024-09-1788328964700017f01",
+  "domains": [
+   "D12_ADMIN"
+  ],
+  "mechanisms": [
+   "M17_CLASSIFICATION",
+   "M04_MISE_EN_DEMEURE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S05_ESCALADE",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Stock >1000 m3 rubrique 1532 sans déclaration déposée — MED proposée pour régularisation administrative du classement."
+ },
+ {
+  "slug": "beynel-palox1000588332024-09-1788328964700017f02",
+  "domains": [
+   "D01_INCENDIE"
+  ],
+  "mechanisms": [
+   "M14_CONSTAT_TECHNIQUE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Piles de bois à ~20 cm de la clôture au lieu de 6 m minimum requis — NC physique sur distance de séparation des stocks de bois."
+ },
+ {
+  "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f01",
+  "domains": [
+   "D14_RISQUE_BIO"
+  ],
+  "mechanisms": [
+   "M07_CONTROLE"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G3",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Rapport de contrôle périodique TAR absent — periodicité réglementaire non respectée, APAVE mandaté en urgence."
+ },
+ {
+  "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f02",
+  "domains": [
+   "D14_RISQUE_BIO"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R14_NEUTRE_NC",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Désignation formelle des personnes en charge de la surveillance TAR non effectuée (voir partie confidentielle) — absence de document de désignation."
+ },
+ {
+  "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f03",
+  "domains": [
+   "D14_RISQUE_BIO"
+  ],
+  "mechanisms": [
+   "M01_DOCUMENTATION"
+  ],
+  "modifiers": [
+   "m_DELAI"
+  ],
+  "dynamic": "R02_PROMESSE",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S02_INJONCTION",
+  "gravity": "G2",
+  "trajectory": "T1",
+  "confidence": "medium",
+  "reasoning": "Liste des intervenants TAR et attestations de formation non présentées (voir confidentiel) — absence de justificatifs de formation réglementaire."
+ },
+ {
+  "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f04",
+  "domains": [
+   "D14_RISQUE_BIO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Programmes de formation TAR consultés répondent aux dispositions réglementaires requises."
+ },
+ {
+  "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f05",
+  "domains": [
+   "D14_RISQUE_BIO"
+  ],
+  "mechanisms": [
+   "M08_CONFORMITE"
+  ],
+  "modifiers": [],
+  "dynamic": "R13_NEUTRE_CONFORME",
+  "actor": "A01_EXPLOITANT",
+  "stage": "S01_CONSTAT",
+  "gravity": "G1",
+  "trajectory": "T1",
+  "confidence": "high",
+  "reasoning": "Fonctionnement saisonnier des TAR avec procédure adaptée incluant conditions de redémarrage — conforme."
+ }
 ]
