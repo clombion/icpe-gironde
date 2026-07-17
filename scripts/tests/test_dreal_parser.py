@@ -82,8 +82,8 @@ def _build_front_matter(m, **overrides):
             "installations/inspection/abcDEF123"
         ),
         "url_pages": (
-            "https://bononlouis-del.github.io/"
-            "Les-ICPE-en-r-serve-naturelle-nationale/"
+            "https://clombion.github.io/"
+            "icpe-gironde/"
             "rapports-inspection/ACME_123456_2024-03-15_12345678901234.pdf"
         ),
         "extraction_method": "dreal_parser",

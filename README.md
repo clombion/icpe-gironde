@@ -10,12 +10,12 @@ utilisables directement dans le navigateur, sans installation :
 
 | Outil | URL | Description |
 |---|---|---|
-| **Accueil** | [bononlouis-del.github.io/…/](https://bononlouis-del.github.io/Les-ICPE-en-r-serve-naturelle-nationale/) | Page d'entrée avec les 4 cartes |
-| **Carte interactive** | [/carte/](https://bononlouis-del.github.io/Les-ICPE-en-r-serve-naturelle-nationale/carte/) | 2 890 ICPE filtrables, réserves naturelles, ortho-photo IGN |
-| **Audit des coordonnées** | [/audit/](https://bononlouis-del.github.io/Les-ICPE-en-r-serve-naturelle-nationale/audit/) | Revue collaborative par bucket — mini-carte, verdicts, export JSON |
-| **Tableau des décisions** | [/audit/table.html](https://bononlouis-del.github.io/Les-ICPE-en-r-serve-naturelle-nationale/audit/table.html) | Vue tabulaire de toutes les décisions — filtres, tri, export CSV |
-| **Catalogue des données** | [/donnees/](https://bononlouis-del.github.io/Les-ICPE-en-r-serve-naturelle-nationale/donnees/) | Dictionnaire des colonnes avec échantillons cliquables |
-| **Rapports d'inspection** | [/rapports/](https://bononlouis-del.github.io/Les-ICPE-en-r-serve-naturelle-nationale/rapports/) | 10 599 fiches de constat — recherche plein texte, analyse par angle |
+| **Accueil** | [clombion.github.io/…/](https://clombion.github.io/icpe-gironde/) | Page d'entrée avec les 4 cartes |
+| **Carte interactive** | [/carte/](https://clombion.github.io/icpe-gironde/carte/) | 2 890 ICPE filtrables, réserves naturelles, ortho-photo IGN |
+| **Audit des coordonnées** | [/audit/](https://clombion.github.io/icpe-gironde/audit/) | Revue collaborative par bucket — mini-carte, verdicts, export JSON |
+| **Tableau des décisions** | [/audit/table.html](https://clombion.github.io/icpe-gironde/audit/table.html) | Vue tabulaire de toutes les décisions — filtres, tri, export CSV |
+| **Catalogue des données** | [/donnees/](https://clombion.github.io/icpe-gironde/donnees/) | Dictionnaire des colonnes avec échantillons cliquables |
+| **Rapports d'inspection** | [/rapports/](https://clombion.github.io/icpe-gironde/rapports/) | 10 599 fiches de constat — recherche plein texte, analyse par angle |
 
 ## Ce que la carte permet
 

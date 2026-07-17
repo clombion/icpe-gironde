@@ -136,8 +136,8 @@ METADATA_CSV = CARTE_METADATA_CSV
 # les PDFs ; GitHub Pages sert les .md comme texte brut ou les rend en
 # HTML selon la config.
 PAGES_URL_TEMPLATE = (
-    "https://bononlouis-del.github.io/"
-    "Les-ICPE-en-r-serve-naturelle-nationale/"
+    "https://clombion.github.io/"
+    "icpe-gironde/"
     "rapports-inspection-markdown/{filename}"
 )
 

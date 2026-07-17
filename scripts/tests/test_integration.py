@@ -65,8 +65,8 @@ def _csv_row_for(pdf_filename: str, id_icpe: str, siret: str) -> dict[str, str]:
             "installations/inspection/fakeIdentifier123"
         ),
         "url_pages": (
-            "https://bononlouis-del.github.io/"
-            "Les-ICPE-en-r-serve-naturelle-nationale/"
+            "https://clombion.github.io/"
+            "icpe-gironde/"
             f"rapports-inspection/{pdf_filename}"
         ),
         "statut_telechargement": "skip",

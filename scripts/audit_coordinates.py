@@ -132,7 +132,7 @@ OPENCAGE_CACHE = DONNEES_AUDIT_CACHE_DIR / "opencage-fallback.json"
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 NOMINATIM_USER_AGENT = (
     "projet-icpe-ijba-audit/1.0 "
-    "(https://github.com/bononlouis-del/Les-ICPE-en-r-serve-naturelle-nationale)"
+    "(https://github.com/clombion/icpe-gironde)"
 )
 NOMINATIM_RATE_LIMIT_SEC = 1.05  # generous safety margin over 1 req/s
 NOMINATIM_CACHE = DONNEES_AUDIT_CACHE_DIR / "nominatim-fallback.json"

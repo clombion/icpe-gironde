@@ -17,7 +17,7 @@
   // ---- Constants ------------------------------------------------------
 
   // GitHub repo for the Contents API (DD #5: hardcoded constant)
-  const GH_REPO = 'bononlouis-del/Les-ICPE-en-r-serve-naturelle-nationale';
+  const GH_REPO = 'clombion/icpe-gironde';
   // Path to the reviews directory inside the repo (URL-encoded by encodeURI)
   const REVIEWS_PATH = 'données-georisques/audit/coordonnees-audit-reviews';
   const FLAGGED_JSON_URL = '../données-georisques/audit/coordonnees-audit-flagged.json';

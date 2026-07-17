@@ -24,7 +24,7 @@
 
   // ---- Constants --------------------------------------------------------
 
-  var GH_REPO = 'bononlouis-del/Les-ICPE-en-r-serve-naturelle-nationale';
+  var GH_REPO = 'clombion/icpe-gironde';
   var REVIEWS_PATH = 'données-georisques/audit/coordonnees-audit-reviews';
   var FLAGGED_JSON_URL = '../données-georisques/audit/coordonnees-audit-flagged.json';
 

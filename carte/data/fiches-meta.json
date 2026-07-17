@@ -5,6 +5,6 @@
   "total_failed": 2,
   "construire_version": "0.1.0",
   "extraction_version": "0.2.0",
-  "extracted_at": "2026-04-09T11:08:03",
-  "parquet_sha256": "8760c46fb3309617c8414f43ce2b0425e9ffeee3380e25695ca01b3724879a46"
+  "extracted_at": "2026-07-17T16:17:58",
+  "parquet_sha256": "2face60d9c04595b0ed467863d3f9c0c413b9df350c3cf36809df487cb962159"
 }

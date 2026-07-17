@@ -112,8 +112,8 @@ SOURCE_URL_TEMPLATE = (
     "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/{id}"
 )
 PAGES_URL_TEMPLATE = (
-    "https://bononlouis-del.github.io/"
-    "Les-ICPE-en-r-serve-naturelle-nationale/"
+    "https://clombion.github.io/"
+    "icpe-gironde/"
     "rapports-inspection/{filename}"
 )
 
