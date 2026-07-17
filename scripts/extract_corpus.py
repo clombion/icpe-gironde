@@ -6,10 +6,10 @@
 # ]
 # ///
 """
-extract_corpus.py — Extrait les fiches ICPE vers corpus-all/ pour le tagging LLM.
+extract_corpus.py — Extrait les fiches ICPE vers local/corpus-all/ pour le tagging LLM.
 
 Lit fiches.parquet, exclut les fiches vides (constats_body NULL ou ≤10 chars),
-et écrit un fichier .txt par fiche dans corpus-all/ + un manifest CSV.
+et écrit un fichier .txt par fiche dans local/corpus-all/ + un manifest CSV.
 
 Le slug est dérivé du fiche_id : lowercase, accents strippés, non-alnum supprimés
 (sauf tirets). Le manifest préserve le mapping fiche_id↔slug pour le join.
@@ -26,9 +26,9 @@ import unicodedata
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _paths import CARTE_FICHES_PARQUET, PROJECT_ROOT  # noqa: E402
+from _paths import CARTE_FICHES_PARQUET, CORPUS_ALL_DIR, PROJECT_ROOT  # noqa: E402
 
-CORPUS_DIR = PROJECT_ROOT / "corpus-all"
+CORPUS_DIR = CORPUS_ALL_DIR
 MANIFEST_PATH = PROJECT_ROOT / "outputs-fiches" / "manifest-all.csv"
 
 MANIFEST_COLUMNS = [

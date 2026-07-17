@@ -54,3 +54,7 @@ CARTE_FICHES_PARQUET = CARTE_DATA_DIR / "fiches.parquet"
 CARTE_FICHES_META_JSON = CARTE_DATA_DIR / "fiches-meta.json"
 CARTE_FICHES_MANIFEST = CARTE_DATA_DIR / "fiches-manifest.jsonl"
 CARTE_FICHES_SQLITE = CARTE_DATA_DIR / "fiches.sqlite"
+
+# --- Artefacts locaux non versionnés (régénérables, gitignorés) ---------
+LOCAL_DIR = PROJECT_ROOT / "local"
+CORPUS_ALL_DIR = LOCAL_DIR / "corpus-all"

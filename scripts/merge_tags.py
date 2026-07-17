@@ -11,7 +11,8 @@ merge_tags.py — Fusionne les tags Hunter/Skeptic en fiches-tags.parquet.
 Lit tous les fichiers outputs-fiches/tags/final-*.json (sortie Skeptic corrigée),
 joint au manifest pour récupérer le fiche_id, et écrit carte/data/fiches-tags.parquet.
 
-Si final-*.json n'existent pas encore (avant Skeptic), tombe sur hunter-*.json.
+Par défaut, un batch sans final-*.json (audit Skeptic absent) fait échouer
+le merge ; --allow-hunter-fallback accepte la sortie Hunter brute à la place.
 
 Colonnes produites :
   fiche_id, domains, mechanisms, modifiers, dynamic, actor, stage,
@@ -27,6 +28,7 @@ Usage :
 
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 import sys
@@ -49,8 +51,13 @@ def load_manifest() -> dict[str, str]:
     return mapping
 
 
-def load_tags() -> list[dict]:
-    """Load all tag files, preferring final-*.json over hunter-*.json."""
+def load_tags(allow_hunter_fallback: bool) -> list[dict]:
+    """Load all tag files, preferring final-*.json over hunter-*.json.
+
+    Sans --allow-hunter-fallback, tout batch dont le final (audit Skeptic)
+    manque fait échouer le merge : le pivot publié ne doit pas mélanger
+    silencieusement des tags audités et non audités.
+    """
     if not TAGS_DIR.exists():
         print(f"[error] {TAGS_DIR} absent", file=sys.stderr)
         sys.exit(1)
@@ -65,6 +72,24 @@ def load_tags() -> list[dict]:
 
     # Determine which batches have final vs only hunter
     final_batches = {f.stem.replace("final-", "") for f in final_files}
+    unaudited = sorted(
+        hf.stem.replace("hunter-", "")
+        for hf in hunter_files
+        if hf.stem.replace("hunter-", "") not in final_batches
+    )
+    if unaudited and not allow_hunter_fallback:
+        print(
+            f"[error] {len(unaudited)} batch(es) sans final Skeptic : "
+            f"{', '.join(unaudited)}",
+            file=sys.stderr,
+        )
+        print(
+            "[error] Terminer l'audit Skeptic (voir scripts/tag_status.py) ou "
+            "relancer avec --allow-hunter-fallback pour merger quand même.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
     files_to_load: list[Path] = list(final_files)
     for hf in hunter_files:
         batch = hf.stem.replace("hunter-", "")
@@ -85,10 +110,23 @@ def load_tags() -> list[dict]:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(
+        description="Fusionne les tags Hunter/Skeptic en fiches-tags.parquet."
+    )
+    parser.add_argument(
+        "--allow-hunter-fallback",
+        action="store_true",
+        help=(
+            "accepte les batches sans audit Skeptic (final-*.json manquant) "
+            "en utilisant la sortie Hunter brute — par défaut le merge refuse"
+        ),
+    )
+    args = parser.parse_args()
+
     slug_to_fiche = load_manifest()
     print(f"[manifest] {len(slug_to_fiche)} slugs chargés")
 
-    all_tags = load_tags()
+    all_tags = load_tags(allow_hunter_fallback=args.allow_hunter_fallback)
     print(f"[tags] {len(all_tags)} fiches taggées au total")
 
     # Build rows for parquet
