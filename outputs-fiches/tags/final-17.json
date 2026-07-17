@@ -1,0 +1,2349 @@
+[
+  {
+    "slug": "ceva-sante-animale52008942023-12-0130176340500067f05",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas d'utilisation de fluide réglementé sur site — conformité factuelle, aucune demande formulée."
+  },
+  {
+    "slug": "ceva-sante-animale52008942023-12-0130176340500067f06",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08",
+      "M17"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Quantités inférieures au seuil de 500 t éq CO2 — installation non soumise à détecteurs de fuite, conformité réglementaire."
+  },
+  {
+    "slug": "ceva-sante-animale52008942023-12-0130176340500067f07",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant ne dispose pas de registre individuel par équipement — absence documentaire pure, demande sous 2 mois."
+  },
+  {
+    "slug": "ceva-sante-animale52008942023-12-0130176340500067f08",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fréquence semestrielle non respectée pour CARRIER 30RA200 — contrôle périodique d'étanchéité manquant, demande sous 1 mois."
+  },
+  {
+    "slug": "ceva-sante-animale52008942023-12-0130176340500067f09",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vignettes de contrôle manquent de date de validité sur 3 équipements — NC technique mineure sur marquage, demande sous 2 mois."
+  },
+  {
+    "slug": "ceva-sante-animale52008942025-10-1030176340500067f01",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Liste ESP incomplète — absence de régime de surveillance et périodicités erronées, NC documentaire."
+  },
+  {
+    "slug": "ceva-sante-animale52008942025-10-1030176340500067f02",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Personnel habilité à la conduite des chaudières et autoclaves avec documents conformes présentés."
+  },
+  {
+    "slug": "ceva-sante-animale52008942025-10-1030176340500067f03",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M04"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "28 ESP en retard d'inspection périodique exploités — MED proposée au Préfet, exploitant s'engage pour arrêt prévu en janvier 2026."
+  },
+  {
+    "slug": "ceva-sante-animale52008942025-10-1030176340500067f04",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M04"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "8 ESP en défaut de requalification dont 1 avec refus — récipient interdit d'exploitation exploité quand même, MED proposée."
+  },
+  {
+    "slug": "ceva-sante-animale52008942025-10-1030176340500067f05",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dossiers de fabrication examinés pour 2 ESP — présence des documents conformité CE et notices d'instruction."
+  },
+  {
+    "slug": "ceva-sante-animale52008942025-10-1030176340500067f06",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre d'exploitation absent pour les 3 ESP examinés — NC documentaire pure."
+  },
+  {
+    "slug": "ceva-sante-animale52008942025-10-1030176340500067f07",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Récipient avec refus de requalification périodique toujours exploité — dépassement du nombre de cycles admissibles, exploitant a mandaté le fabricant."
+  },
+  {
+    "slug": "ceva-sante-animale52008942025-10-1030176340500067f08",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Système frigorifique suivi selon CTP — demande de vérification du bon suivi de tous les systèmes, NC documentaire."
+  },
+  {
+    "slug": "ceva-sante-animale52008942025-10-1030176340500067f09",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M01",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Liste des systèmes frigorifiques incomplète — données CTP manquantes, MED proposée au Préfet."
+  },
+  {
+    "slug": "ceva-sante-animale52008942025-10-1030176340500067f10",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan d'inspection du système frigorifique EKV2442 non présenté — absence documentaire."
+  },
+  {
+    "slug": "ceva-sante-animale52008942025-10-1030176340500067f11",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Système frigorifique en retard d'inspection périodique depuis 2017 — contrôle dû avant 2019 jamais réalisé, MED proposée."
+  },
+  {
+    "slug": "ceva-sante-animale52008942025-10-1030176340500067f12",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Première requalification périodique du système frigorifique TRANE EKV2442 à échéance fin 2025 — demande de vérification des échéances."
+  },
+  {
+    "slug": "ceva-sante-animale52008942025-10-1030176340500067f13",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dossier TRANE EKV2442 incomplet — notice d'instruction et schémas absents du dossier fourni."
+  },
+  {
+    "slug": "ceva-sante-animale52008942025-10-1030176340500067f14",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Titre d'habilitation de l'agent TRANE transmis — vérification documentaire sans remarque, conformité."
+  },
+  {
+    "slug": "ceva-sante-animale52008942025-10-1030176340500067f15",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dégradations physiques observées sur système TRANE — corrosion, calorifuges secs/déchirés, plaque effacée."
+  },
+  {
+    "slug": "chambaud-nathalie-vincent-pressing1000597992024-11-2187938960900014f01",
+    "domains": [
+      "D13",
+      "D12"
+    ],
+    "mechanisms": [
+      "M19"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Activité pressing cessée sans notification de cessation R512-66-1 — ATTES SECUR requise, NC administrative post-fermeture."
+  },
+  {
+    "slug": "chambon52052152024-04-17nosiretf01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M17"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Activité ne relevant plus de la déclaration rubrique 2930 — observation classificatoire sans demande formulée (tiret), NC administrative gérée en f02-f03."
+  },
+  {
+    "slug": "chambon52052152024-04-17nosiretf02",
+    "domains": [
+      "D13",
+      "D12"
+    ],
+    "mechanisms": [
+      "M19"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Notification de cessation d'activité ICPE non réalisée — demande procédure en ligne."
+  },
+  {
+    "slug": "chambon52052152024-04-17nosiretf03",
+    "domains": [
+      "D13"
+    ],
+    "mechanisms": [
+      "M19"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Attestation ATTES SECUR requise pour rubrique 2930 non transmise — obligation post-cessation non satisfaite."
+  },
+  {
+    "slug": "chambon52052152024-04-17nosiretf04",
+    "domains": [
+      "D04",
+      "D07"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Signalement rejet hydrocarbures — plan réseaux incomplet, destination d'un regard inconnue, historique analyses 2021 sans remarque mais plan partiel insuffisant."
+  },
+  {
+    "slug": "chantier-naval-couach-cnc52058772023-05-2651179141000026f01",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M06"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "MED levée — PGS transmis annuellement depuis 2017, conformité constatée, demande PGS 2022 sous 15 jours."
+  },
+  {
+    "slug": "chantier-naval-couach-cnc52058772023-05-2651179141000026f02",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M06"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "MED levée — schéma de maîtrise émissions COV conforme, émissions 2021 sous la cible."
+  },
+  {
+    "slug": "chantier-naval-couach-cnc52058772023-05-2651179141000026f03",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle 6 chaudières — vannes conformes, ronde nocturne sans dérangement, aucune remarque."
+  },
+  {
+    "slug": "chantier-naval-couach-cnc52058772023-05-2651179141000026f04",
+    "domains": [
+      "D02"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de document justifiant la non-formation d'ATEX au niveau des chaudières — justification non transmise = M01 (absence documentaire)."
+  },
+  {
+    "slug": "chantier-naval-couach-cnc52058772023-05-2651179141000026f05",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant ne souhaite pas s'engager sur < 500h/an — donc dispensé du relevé d'heures, pas de NC."
+  },
+  {
+    "slug": "chantier-naval-couach-cnc52058772023-05-2651179141000026f06",
+    "domains": [
+      "D04",
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure nettoyage séparateur et vérifications annuelles consultées sans remarque particulière."
+  },
+  {
+    "slug": "chantier-naval-couach-cnc52058772023-05-2651179141000026f07",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Deux GRV d'acétone non placés sur rétention — NC physique observée sur site, remédiation sans délai demandée."
+  },
+  {
+    "slug": "chantier-naval-couach-cnc52058772024-04-3051179141000026f01",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Absence de moyen de défense incendie suffisant — maline non opérationnelle, seulement 120m³ sur 1080m³ requis, MED proposée."
+  },
+  {
+    "slug": "chantier-naval-couach-cnc52058772024-04-3051179141000026f02",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan de défense incendie non consulté lors inspection — nécessitera mise à jour, NC documentaire."
+  },
+  {
+    "slug": "chantier-naval-couach-cnc52058772024-04-3051179141000026f03",
+    "domains": [
+      "D04",
+      "D07"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Capacités de rétention eaux d'extinction insuffisantes — NC physique, MED proposée, calcul D9A demandé."
+  },
+  {
+    "slug": "chantier-naval-couach-cnc52058772025-04-2451179141000026f01",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M05",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "MED non respectée — site toujours sans prises d'eau incendie, arrêté d'astreinte proposé avec sursis 4 mois, exploitant s'engage sur solution."
+  },
+  {
+    "slug": "chantier-naval-couach-cnc52058772025-04-2451179141000026f02",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Plan de défense incendie indisponible lors de l'inspection — exploitant affirme en disposer sans pouvoir le présenter, NC documentaire factuelle."
+  },
+  {
+    "slug": "chantier-naval-couach-cnc52058772025-04-2451179141000026f03",
+    "domains": [
+      "D04",
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R12",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Point MED levé pour confinement eaux d'extinction — dispositions annexe II applicables, rétentions mobiles conformes, demande justification opérationnelle obturateurs."
+  },
+  {
+    "slug": "chapelle-alexandre1002896492025-04-11nosiretf01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M17"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "14 chiens+ 1 domicile = 15 > seuil rubrique 2120 — installation ICPE relevée, déclaration manquante."
+  },
+  {
+    "slug": "chapelle-alexandre1002896492025-04-11nosiretf02",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Activité non déclarée malgré 15 chiens — absence de déclaration ICPE et absence de registre d'identification."
+  },
+  {
+    "slug": "chapelle-alexandre1002896492025-04-11nosiretf03",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Implantation non conforme — à moins de 100m d'habitations et moins de 35m des berges d'un cours d'eau."
+  },
+  {
+    "slug": "chasse-extreme31069172023-10-1079836083000037f01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08",
+      "M06"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "MED respectée — quantité équivalente inférieure au seuil rubrique 4220, état stocks vérifié, conformité constatée."
+  },
+  {
+    "slug": "chasse-extreme31069172023-10-1079836083000037f02",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "FDS cartouches examinées, tables de rechargement cohérentes, registre via logiciel MCP — conformité."
+  },
+  {
+    "slug": "chasse-extreme31069172023-10-1079836083000037f03",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Local sans cartons vides ni appareils électriques — conformité constatée sur site."
+  },
+  {
+    "slug": "chasse-extreme31069172023-10-1079836083000037f04",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas plus de 2 kg de poudre de chasse, constaté absent en réserve et espace vente — conformité."
+  },
+  {
+    "slug": "chasse-extreme31069172023-10-1079836083000037f05",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucune poudre noire constatée — conformité factuelle."
+  },
+  {
+    "slug": "chateau-fombrauge-sas52119552022-09-2659725040600019f01",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "CONFORME vis-à-vis des points abordés lors de l'inspection — conformité globale déclarée."
+  },
+  {
+    "slug": "chateau-fombrauge-sas52119552022-09-2659725040600019f04",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "CONFORME — raccordement STEP séparation eaux usées/pluviales en ordre."
+  },
+  {
+    "slug": "chateau-fombrauge-sas52119552022-09-2659725040600019f05",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "CONFORME — absence de rejet d'effluents non traités dans le milieu naturel."
+  },
+  {
+    "slug": "chateau-vincent1000428892024-03-2189155340601745f01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M17"
+    ],
+    "modifiers": [],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Chenil de 21 chiens non déclaré sous rubrique 2120 — ICPE non déclarée, situation irrégulière."
+  },
+  {
+    "slug": "chateau-vincent1000428892024-03-2189155340601745f02",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de registre et documents identification pour 21 chiens — NC documentaire (absence d'attestation/registre), non NC physique."
+  },
+  {
+    "slug": "chateau-vincent1000428892024-03-2189155340601745f03",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Implantation non conforme — à moins de 100m d'habitations et moins de 35m berges cours d'eau."
+  },
+  {
+    "slug": "chateau-vincent1000428892024-03-2189155340601745f04",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Excréments et urines au sol des logements, odeur désagréable — insuffisance de nettoyage constatée physiquement."
+  },
+  {
+    "slug": "chateau-vincent1000428892024-03-2189155340601745f05",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence d'imperméabilité sur le bas des murs — état physique non conforme observé sur site."
+  },
+  {
+    "slug": "chateau-vincent1000428892024-03-2189155340601745f06",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Eaux de nettoyage collectées par réseau étanche vers assainissement — conformité constatée."
+  },
+  {
+    "slug": "chateau-vincent1000428892024-03-2189155340601745f07",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de gouttière — eaux de toitures mélangées aux effluents d'élevage, NC physique observée."
+  },
+  {
+    "slug": "chausson-st-andre-de-cubzac1002928012025-05-1552864889200396f01",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Reprise déchets matériaux construction sans frais ni obligation d'achat, bennes dédiées par flux — conformité constatée."
+  },
+  {
+    "slug": "chausson-st-andre-de-cubzac1002928012025-05-1552864889200396f02",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Panneau d'information visible à l'entrée avec modalités de dépôt et gratuité — conformité constatée."
+  },
+  {
+    "slug": "chausson-st-andre-de-cubzac1002928012025-05-1552864889200396f03",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Panneaux d'identification des bennes mal positionnés — panneau bois couché au sol, panneau plastique absent, amélioration organisation affichage."
+  },
+  {
+    "slug": "chemet-gli52013612024-07-1188107401700131f01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M17"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "2 à 20 transferts/jour confirmés — classement rubrique 1414-2.d vérifié et conforme."
+  },
+  {
+    "slug": "chemet-gli52013612024-07-1188107401700131f02",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M17"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Puissance 20,8 kW > seuil 20kW rubrique 2575 — classement conforme à la déclaration."
+  },
+  {
+    "slug": "chemet-gli52013612024-07-1188107401700131f03",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M17"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Application peinture par pulvérisation à 51 kg/j — classement rubrique 2940-2.b conforme."
+  },
+  {
+    "slug": "chemet-gli52013612024-07-1188107401700131f04",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M17"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Stockage propane < 50t en réservoirs fixes — classement rubrique 4718-2.b conforme à la déclaration."
+  },
+  {
+    "slug": "chemet-gli52013612024-07-1188107401700131f05",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôles périodiques réalisés par DEKRA — rapports sans NC majeure présentés, conformité."
+  },
+  {
+    "slug": "chemet-gli52013612024-07-1188107401700131f06",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Périodicité de 5 ans respectée pour rubriques 2940 et 4718 — conformité documentaire."
+  },
+  {
+    "slug": "chemet-gli52013612024-07-1188107401700131f07",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "NC du contrôle périodique sur séparation installation peinture — exploitant n'a mis en place aucune action correctrice, programme travaux demandé. NC factuelle sans façade."
+  },
+  {
+    "slug": "chemet-gli52013612024-07-1188107401700131f08",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "État des stocks à jour (12,4t) et plan zones à risques disponible — conformité constatée."
+  },
+  {
+    "slug": "chemet-gli52013612024-07-1188107401700131f09",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Poteau incendie à 210m > 200m des réservoirs tampons — distance non conforme, demande vérification débit."
+  },
+  {
+    "slug": "chemet-gli52013612024-07-1188107401700131f10",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Ventilation cabine peinture avec filtration, débouché atmosphère > 75m habitations — conformité."
+  },
+  {
+    "slug": "chemet-gli52013612024-07-1188107401700131f11",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Produits chimiques peinture sur rétentions étanches — conformité physique constatée."
+  },
+  {
+    "slug": "chemet-gli52013612024-07-1188107401700131f12",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "9 NC électriques — devis en attente d'accord direction, aucune action engagée, échéancier travaux demandé."
+  },
+  {
+    "slug": "chemet-gli52013612024-07-1188107401700131f13",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun contrôle poussières réalisé alors que paramètre réglementé — protocole de mesure incomplet."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f01",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08",
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Effectif conforme aux 120 autorisés — dossier PAC examiné, projet n'augmente pas l'effectif."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f02",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Distances réglementaires respectées (142m tiers, >35m cours d'eau) — conformité constatée."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f03",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "5 parcs d'ébat en très bon état avec enherbement satisfaisant — conformité constatée."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f04",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Tous les boxes et parcs clôturés empêchant intrusions et fuites — conformité constatée."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f05",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Produits nettoyage sur bac rétention, FDS affichées, absence de stockage combustible — conformité PAC."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f06",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Site propre, plan nettoyage-désinfection, rapport dératisation juillet 2024 conforme — tout en ordre."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f07",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Accès SDIS organisé, stationnement sans gêne, public limité au bureau — conformité accès."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f08",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence d'affichage plans et numéros de secours dans le bureau et local pension — NC documentaire."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f09",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas d'appareils d'incendie dans les 200m du site — étang non équipé pour usage pompiers, NC physique."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f10",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "7 anomalies électriques dont différentiels défaillants et risque incendie/explosion confirmé — aucune correction justifiée."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f11",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Stockage produits nettoyage sur bac de rétention — conformité constatée via PAC."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f12",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Surfaces bétonnées recueillent les effluents vers assainissement adapté — conformité constatée."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f13",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consommation eau 3,8-5,3 m3/jour bien inférieure à 300m3/j maximum, en baisse — conformité."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f14",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de registre de suivi semestriel de consommation eau — NC documentaire, périodicité non précisée."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f15",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de plan des réseaux de collecte — NC documentaire unique malgré conformité physique des installations."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f16",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déjections récupérées par prestataire vers STEP St Magne, bon d'intervention transmis — conformité."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f17",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de rejet direct d'effluents dans le milieu naturel — effluents traités sur site ou par prestataire."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f18",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence d'eaux pluviales polluées se déversant dans le milieu naturel — conformité."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f19",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Effluents solides acheminés vers STEP (bordereau 5m3), urines vers fosse septique filtrante — conformité."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f20",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bâtiments correctement ventilés, absence d'odeur/poussière, absence de plainte — conformité."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f21",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dossier odeurs complet via PAC — plan zones habitation, sources principales, mesures techniques décrites."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f22",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence d'étude mais zone peu urbanisée, aucune plainte, aucune mauvaise odeur constatée — conformité de fait."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f23",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de registre des plaintes odeurs — NC documentaire formelle, aucune plainte reçue par inspection."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f24",
+    "domains": [
+      "D06"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de rejet direct dans le sol, station traitement et fosse stockage fermée — conformité."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f25",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Mur anti-bruit construit 2020, étude acoustique conforme, aucune nouvelle plainte depuis — conformité post-correction."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f26",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Étude acoustique juillet 2020 conforme aux prescriptions AM 22/10/2018 — conformité documentée."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f27",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Étude bruit 2020 conforme prescriptions niveau limite en limite propriété — conformité."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f28",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchets évacués par SMICVAL, soins vétérinaires remis propriétaires, absence de brûlage — conformité."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f29",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas de bac de conservation temporaire pour cadavre animal en attente d'enlèvement — dispositif manquant."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f30",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucune émission dans l'eau dans le fonctionnement actuel — article non applicable au site."
+  },
+  {
+    "slug": "chenil-de-la-conque533250082024-09-2035160607400018f31",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08",
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Régime enregistrement confirmé AM 22/10/2018, PAC projet photovoltaïque informé — situation administrative clarifiée."
+  },
+  {
+    "slug": "chiche-dominique-et-florence52093252023-05-09nosiretf01",
+    "domains": [
+      "D08",
+      "D06",
+      "D07"
+    ],
+    "mechanisms": [
+      "M05"
+    ],
+    "modifiers": [],
+    "dynamic": "R10",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G5",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Travaux d'office exécutés — vingtaine de VHU et déchets divers sans rétention, terrain pollué potentiel, exploitant résistant et négociant constamment."
+  },
+  {
+    "slug": "chiche-dominique-et-florence52093252023-05-26nosiretf01",
+    "domains": [
+      "D08",
+      "D06"
+    ],
+    "mechanisms": [
+      "M05",
+      "M19"
+    ],
+    "modifiers": [],
+    "dynamic": "R10",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G5",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Travaux d'office partiellement exécutés — 80t VHU + 270t DND évacués mais site non nettoyé complet, pas de cessation ni diagnostic sol, SUP envisagées."
+  },
+  {
+    "slug": "chiche-dominique-et-florence52093252023-05-26nosiretf02",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M05"
+    ],
+    "modifiers": [],
+    "dynamic": "R10",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G5",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "M. CHICHE a volontairement perturbé les travaux d'office — sorties de déchets sans accord, blocage accès, coactivité dangereuse avec engins."
+  },
+  {
+    "slug": "chrifi-karim-et-siham-route-chapelles31066092022-11-2452389498800022f01",
+    "domains": [
+      "D08",
+      "D12"
+    ],
+    "mechanisms": [
+      "M08",
+      "M17"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "5-6 voitures maximum présentes — site ne répond plus à la définition ICPE VHU, MED levée de fait."
+  },
+  {
+    "slug": "chrifi-karim-et-siham-route-chapelles31066092022-11-2452389498800022f02",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun nouvel apport de déchets constaté — conformité prescriptive."
+  },
+  {
+    "slug": "chrifi-karim-et-siham-pas-de-l-ane31066102022-11-2444025955400010f01",
+    "domains": [
+      "D08",
+      "D12"
+    ],
+    "mechanisms": [
+      "M08",
+      "M17"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "5-6 voitures maximum présentes — site ne répond plus à la définition ICPE VHU, MED levée de fait."
+  },
+  {
+    "slug": "chrifi-karim-et-siham-pas-de-l-ane31066102022-11-2444025955400010f02",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun nouvel apport de déchets constaté — conformité prescriptive."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-bordeaux52005792025-11-2137900597800018f01",
+    "domains": [
+      "D05",
+      "D12"
+    ],
+    "mechanisms": [
+      "M03"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installations non renseignées dans le recueil national ICM — déclaration obligatoire non effectuée."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-bordeaux52005792025-11-2137900597800018f02",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M17",
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Classement rubrique 2910-A correct mais caractéristiques installation actuelles non conformes à l'arrêté — PAC à déposer."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-bordeaux52005792025-11-2137900597800018f03",
+    "domains": [
+      "D07",
+      "D04"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Présence d'un séparateur hydrocarbures zone dépotage non vérifiable lors inspection — conformité non démontrée."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-bordeaux52005792025-11-2137900597800018f04",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Relevé heures fonctionnement groupes électrogènes ne permet pas lecture directe annuelle — mise en place suivi annuel demandée."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-bordeaux52005792025-11-2137900597800018f05",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Périodicité mesures rejets groupes électrogènes bien respectée — conformité documentée."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-bordeaux52005792025-11-2137900597800018f06",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dépassement VLE NOx pour chaudières 3 et 4 non identifié par le laboratoire — erreur VLE de référence, non signalé dans rapport de mesures."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-bordeaux52005792025-11-2137900597800018f07",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mesures périodiques 2025 non réalisées sur chaudières — périodicité trimestrielle non respectée, changement de prestataire responsable."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-bordeaux52005792025-11-2137900597800018f08",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédures démarrage/arrêt explicitées sans remarque de l'inspection — conformité."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-bordeaux52005792025-11-2137900597800018f09",
+    "domains": [
+      "D12",
+      "D13"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "PAC modifications non finalisé malgré demande inspection 2022 — document remis incomplet, marché prestataire engagé pour 2026."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682023-11-1726330582300019f01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Modifications importantes depuis 2003 non portées à connaissance — PAC 2016 caduc, bilan 2019 non transmis, demande PAC complet sous 6 mois."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682023-11-1726330582300019f02",
+    "domains": [
+      "D05",
+      "D12"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Modification parc chaudières — 4 restantes, 5ème démantelée, caractéristiques à préciser dans PAC."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682023-11-1726330582300019f03",
+    "domains": [
+      "D05",
+      "D12"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "7 GE initiaux réduits à 5 en service — modifications à préciser dans PAC, dont fonctionnement simultané."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682023-11-1726330582300019f04",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T7",
+    "confidence": "high",
+    "reasoning": "Dépassement VLE NOx chaudières 2 et 3 en fioul, SO2 et poussières non mesurés, fréquence annuelle non respectée — MED 2013 incluait ces points, persistance >10 ans = T7_CHRONIQUE."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682023-11-1726330582300019f05",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Mesures GE incomplètes (poussières et SO2 manquants) et dépassement NOx à 2544 mg/Nm3 pour VLE 2500 — NC issue MED 2013."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682023-11-1726330582300019f06",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M03"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mesures 2022 datant de > 1 an et non transmises à l'inspection — fréquence annuelle non respectée, transmission annuelle non assurée."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682023-11-1726330582300019f07",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fluides frigorigènes non HCFC vérifiés par sondage — pas de substance interdite, conformité."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682023-11-1726330582300019f08",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre avec équipements mais informations incomplètes — consolidation documentaire demandée."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682023-11-1726330582300019f09",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôles étanchéité réalisés selon périodicité requise — vérification sondage août/septembre 2023 conforme."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682023-11-1726330582300019f10",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Sur certaines vignettes de contrôle étanchéité date de validité illisible — NC physique mineure, exploitant s'engage à vérifier."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682023-11-1726330582300019f11",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucune vignette rouge de défaut d'étanchéité présente — aucun équipement en situation de fuite connue, conformité."
+  }
+]

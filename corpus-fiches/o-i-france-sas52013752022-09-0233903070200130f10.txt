@@ -1,0 +1,64 @@
+Constats body:
+Suite  au  prélèvement  du  01  août  2022,  l’exploitant  a  informé  l’inspection  des
+installations classées par courriel du 11/08/2022. Il a indiqué qu’il n’avait eu connaissance des
+résultats de prélèvement que le 11/08.
+Suite à la réception des résultats, la dispersion a été stoppée et l’exploitant a procédé à la vidange,
+désinfection et nettoyage de la tour le 12/08. Par ailleurs, le moteur ventilateur de refroidissement
+de la tour qui était en panne a été réparé le 11/08.
+Suite à ces actions correctives et à une revue des procédures afin de confirmer que l’ensemble des
+actions permettant de s’assurer de l’absence de risque de prolifération de légionelles, la TAR a été
+redémarrée le 15/08.
+Un prélèvement réalisé le 16/08 a permis de le confirmer, faisant apparaître une concentration en
+Legionella pneumophila inférieure à 1000 UFC/L.
+Ces actions sont donc conformes aux attendus de l’arrêté susmentionné.
+Observations : Il est demandé à l’exploitant de transmettre le rapport global d’incident mentionné
+ci dessus accompagné des documents mis à jour pour prendre en comte cet incident à l’inspection
+dès leur réalisation. Ce rapport devra notamment détailler l’ensemble des actions curatives et
+correctives  mises  en  œuvre  et  programmées  suite  à  cet  incident  ainsi  que  leur  calendrier
+d’application. Il est rappelé le délais de 2 mois prévu par le texte au delà duquel l'exploitant se
+mettra en situation d'irrégularité. Il  est également rappelé le délai  de 6 mois  prévu pour  la
+réalisation une vérification de l’installation par un organisme indépendant et compétent.
+
+Prescription:
+1. Actions à mener si les résultats provisoires confirmés ou définitifs de l’analyse selon la norme «
+NF T90-431 (version 2020) » mettent en évidence une concentration en Legionella pneumophila
+supérieure ou égale à 100 000 UFC/L
+a)  Dès  réception  de  ces  résultats,  l’exploitant  en  informe  immédiatement  l’inspection  des
+installations classées par télécopie et par courriel avec la mention : " Urgent & important, tour
+aérorefrigérante, dépassement du seuil de 100 000 unités formant colonies par litre d’eau ".
+En application de la procédure correspondante, il arrête immédiatement la dispersion dans des
+conditions compatibles avec la sécurité du site et de l’outil de production, et met en œuvre des
+actions  curatives  permettant  un  abattement  rapide  de  la  concentration  en  Legionella
+pneumophila  dans  l’eau,  en  vue  de  rétablir  une  concentration  en  Legionella  pneumophila
+inférieure à 1 000 UFC/L. Il procède également à la recherche de la ou des causes de dérive et à la
+mise  en  place  d’actions  correctives  correspondantes,  avant  toute  remise  en  service  de  la
+dispersion. Les conclusions de cette recherche et la description de ces actions sont tenues à la
+disposition de l’inspection des installations classées.
+En tout état de cause, l’exploitant s’assure de l’absence de risque de prolifération et de dispersion
+de légionelles avant toute remise en service de la dispersion.
+Si la cause de dérive n’est pas identifiée, l’exploitant procède à la révision complète de l’AMR, dans
+un délai de quinze jours ;
+b) A l’issue de la mise en place de ces actions curatives et correctives, l’exploitant en vérifie
+l’efficacité, en réalisant un nouveau prélèvement pour analyse de la concentration en Legionella
+pneumophila selon la norme NF T90-431 (avril 2006). Un délai d’au moins quarante-huit heures et
+d’au plus une semaine par rapport à la mise en œuvre de ces actions est respecté ;
+c)  Dès  réception  des  résultats  de  ce  nouveau  prélèvement,  ceux-ci  sont  communiqués  à
+l’inspection des installations classées.
+Des prélèvements et analyses en Legionella pneumophila selon la norme « NF T90-431 (version
+2020) » sont ensuite effectués tous les quinze jours pendant trois mois ;
+d) L’AMR, les plans d’entretien et de surveillance sont remis à jour, en prenant en compte le facteur
+de risque à l’origine de la dérive et en mettant en œuvre les mesures nécessaires à sa gestion ;
+e) Un rapport global sur l’incident est transmis à l’inspection des installations classées dans les
+meilleurs délais et en tout état de cause ne dépassant pas deux mois à compter de la date de
+l’incident,(…)
+Les plans d’entretien, de surveillance et l’analyse méthodique des risques actualisés sont joints au
+rapport d’incident ainsi que la fiche de la stratégie de traitement définie au point I. Le rapport
+précise et justifie l’ensemble des actions curatives et correctives mises en œuvre et programmées
+suite à cet incident ainsi que leur calendrier d’application.
+Un exemplaire de ce rapport est annexé au carnet de suivi, tel que défini au point IV des présentes
+consignes d’exploitation. Le dépassement est également consigné dans un tableau de suivi des
+dérives, joint au carnet de suivi ;
+f) Dans les six mois suivant l’incident, l’exploitant fait réaliser une vérification de l’installation par
+19
+
+un organisme indépendant et compétent, telle que définie au point IV.1 du présent article ;

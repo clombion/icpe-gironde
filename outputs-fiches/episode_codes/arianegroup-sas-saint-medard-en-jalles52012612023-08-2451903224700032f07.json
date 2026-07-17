@@ -1,0 +1,51 @@
+{
+  "document_date": "2023-08-24",
+  "document_title": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f07",
+  "codes": [
+    {
+      "description": "L'exploitant a mis en place un suivi des stocks de matières dangereuses par bâtiment, via ERP SAP ou fichiers Excel, avec contrôles aléatoires du service SSE.",
+      "excerpts": [
+        "chaque Responsable de Ligne de Production a identifié les bâtiments (atelier, laboratoire, dépôt) dont la durée de stockage de matières dangereuses est supérieure à la journée et mis en oeuvre un suivi des stocks adapté à la nature, la quantité et la fréquence des mouvements de matières dangereuses."
+      ],
+      "valence": "positive",
+      "code": "Suivi stocks matières dangereuses"
+    },
+    {
+      "description": "Les responsables de secteur ne donnent pas suite à certaines remarques du service SSE, notamment concernant l'enrichissement des fichiers de suivi.",
+      "excerpts": [
+        "l'IIC note que certaines remarques d'amélioration réalisées par le service SSE ne sont pas prises en compte par les responsables de secteur. Par exemple, le fait d'ajouter 2 colonnes dans certains fichiers Excel pour indiquer non seulement la masse en équivalent TNT mais également la masse nette."
+      ],
+      "valence": "negative",
+      "code": "Recommandations SSE non appliquées"
+    },
+    {
+      "description": "Les dispositions de l'arrêté de mise en demeure de 2021 sont considérées respectées après la création d'un fichier exhaustif de bâtiments susceptibles de recevoir des matières dangereuses.",
+      "excerpts": [
+        "L'inspection des installations classées considère que les dispositions de l'arrêté de mise en demeure du 30/03/2021 sont respectées."
+      ],
+      "valence": "positive",
+      "code": "Mise en demeure levée"
+    },
+    {
+      "description": "L'exploitant a produit un fichier listant l'ensemble des bâtiments pouvant contenir des matières dangereuses, y compris les en-cours de production.",
+      "excerpts": [
+        "l'exploitant a listé l'ensemble de ses bâtiments susceptibles de recevoir des matières dangereuses à l'échelle de la journée, que ces matières soient considérées comme des stocks ou des en-cours de production, à travers le fichier \"ESM_StocksMD - Recherche de bâtiments\""
+      ],
+      "valence": "positive",
+      "code": "Inventaire bâtiments exhaustif"
+    },
+    {
+      "description": "La multiplicité des bâtiments, secteurs et outils de suivi révèle la complexité organisationnelle d'un site industriel de grande taille fabricant des matières explosives.",
+      "excerpts": [
+        "sur le CX 2 (1 remarque sur un défaut de renseignement des locaux)",
+        "sur le CEPS 2 (quelques remarques pour mise à jour)",
+        "sur le SSB et le SCL7 (quelques remarques sur mise à jour des stocks)"
+      ],
+      "valence": "neutral",
+      "code": "Site industriel complexe multi-secteurs"
+    }
+  ],
+  "document_summary": "L'inspection d'ArianeGroup Saint-Médard-en-Jalles porte sur le suivi des stocks de matières dangereuses suite à une mise en demeure de 2021 ; l'exploitant a globalement remédié à la lacune avec un fichier exhaustif, mais des recommandations internes du service SSE restent sans suite.",
+  "surprises": "Le site manipule des matières exprimées en équivalent TNT, révélant un contexte de fabrication pyrotechnique ou aérospatiale sensible.",
+  "tensions": "La mise en demeure est levée alors que des recommandations SSE internes restent ignorées — la conformité réglementaire est atteinte mais la culture de sécurité interne reste perfectible."
+}

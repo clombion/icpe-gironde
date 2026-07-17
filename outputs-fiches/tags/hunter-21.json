@@ -1,0 +1,2259 @@
+[
+  {
+    "slug": "cobas-le-teich52013402024-01-1724330056300117f10",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mesure de retombées de poussières réalisée mais points de prélèvement non représentatifs au regard de la distribution des vents. NC méthodologique (M02). Valeurs conformes aux seuils. Demande de justification sous 1 mois. Purement documentaire/méthodologique, pas de dimension physique dégradée = G2."
+  },
+  {
+    "slug": "cobas-le-teich52013402024-01-1724330056300117f11",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M03"
+    ],
+    "modifiers": [],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "L'exploitant n'a jamais effectué de déclaration GEREP alors que les seuils sont dépassés. Mécanisme M03 (GEREP). Exploitant invoque méconnaissance ('à ma connaissance jamais effectué') = R04. NC purement déclarative = G2."
+  },
+  {
+    "slug": "cobas-le-teich52013402024-01-1724330056300117f12",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant n'a pas pu justifier le maintien d'une surface libre pour l'extinction incendie. NC technique (impossibilité de démontrer la conformité physique) = M14 + absence de justification documentaire = M01. Enjeu physique de sécurité incendie = G3."
+  },
+  {
+    "slug": "cobas-le-teich52013402024-01-1724330056300117f13",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PAC transmis, ARF réalisée, conclusion: pas nécessaire de protéger. 'Ces éléments n'appellent pas de commentaires'. Conformité totale = M08, G1."
+  },
+  {
+    "slug": "cobas-le-teich52013402024-01-1724330056300117f14",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réserve incendie 500m³ conforme, arrosage présent, détection automatique reportée, engins disponibles, RIA conformes. Tout conforme, aucune demande = M08, G1."
+  },
+  {
+    "slug": "cobas-le-teich52013402024-01-1724330056300117f15",
+    "domains": [
+      "D07",
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fond du bassin de confinement fortement végétalisé, intégrité géomembrane non vérifiable. Aucun affichage pour vanne d'isolement. NC technique physique observée sur site (végétation couvrant géomembrane, absence d'affichage vanne) = M14. Équipement de confinement potentiellement compromis = G3."
+  },
+  {
+    "slug": "cobas-le-teich52013402024-01-1724330056300117f16",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bilan d'exploitation transmis en retard, manque l'origine géographique des déchets et les codes déchets. NC documentaire (bilan incomplet, transmission hors délai) = M01. Purement documentaire = G2."
+  },
+  {
+    "slug": "cobas-le-teich52013402024-01-1724330056300117f17",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Trackdéchets utilisé depuis 2022, BSD émis correctement, codes déchets vérifiés conformes par sondage. Conformité constatée = M08, G1."
+  },
+  {
+    "slug": "cobas-le-teich52013402024-01-1724330056300117f18",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "RNDTS alimenté automatiquement via Trackdéchets correctement renseigné. Conformité constatée = M08, G1."
+  },
+  {
+    "slug": "cobas-le-teich52013402024-01-1724330056300117f19",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôles périodiques présentés. DAI partielle (non généralisée), désenfumage non testé complètement (cartouches absentes lors contrôle). Extincteurs NC soldés. Exploitant s'engage à compléter la DAI et refaire contrôle désenfumage (R02 = engagement future). NC technique (DAI incomplète, désenfumage pas entièrement vérifié) = G3."
+  },
+  {
+    "slug": "cobas-le-teich52013402024-01-1724330056300117f20",
+    "domains": [
+      "D10",
+      "D02"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Écart électrique (protection surintensité 16A) déjà notifié en 2022 sans correction. Contrôle partiel BT (locaux inaccessibles). Zones ATEX non prises en compte dans contrôle. NC technique physique (dispositif non calibré, zones ATEX sans étude d'adéquation) = M14 + M07 (contrôle partiel). Récurrence de l'écart depuis 2022 = T2. G3."
+  },
+  {
+    "slug": "cobas-le-teich52013402024-01-1724330056300117f21",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Un piézomètre vu conforme (capot cadenassé). Aux dires de l'exploitant les trois autres seraient conformes. Pas de demande formulée. Conformité observée partiellement mais sans constat d'écart = M08. G1. Confiance medium car 3 piézomètres non vérifiés physiquement."
+  },
+  {
+    "slug": "cobas-dechetterie-arcachon52119582023-02-1024330056300026f01",
+    "domains": [
+      "D08",
+      "D12"
+    ],
+    "mechanisms": [
+      "M14",
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Containers PAM/D3E présents pouvant dépasser le seuil 1t déchets dangereux. Pas de PAC pour l'implantation des containers. NC technique observée (stockage potentiellement supérieur aux seuils déclarés) = M14. PAC manquant = M09. Risque de classement dans régime supérieur = G3."
+  },
+  {
+    "slug": "cobas-dechetterie-arcachon52119582023-02-1024330056300026f02",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation propre. Conformité constatée = M08, G1."
+  },
+  {
+    "slug": "cobas-dechetterie-arcachon52119582023-02-1024330056300026f03",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "3 écarts sur installations électriques dont un datant de 2020 et un de 2021 non corrigés. NC physiques sur installations électriques (disjoncteur à remplacer, raccordement incorrect) = M14 + M07 (contrôle périodique révélant des NC). Récurrence des écarts depuis 2020/2021 = T2. G3."
+  },
+  {
+    "slug": "cobas-dechetterie-arcachon52119582023-02-1024330056300026f04",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Téléphone cassé (réparé pendant visite), plan des locaux non cohérent avec exploitation (containers PAM/D3E absents, RIA absent), manomètre RIA défectueux. NC technique physique observée (manomètre défectueux, plan non à jour) = M14 + M01 (plan non actualisé). Manomètre défectueux = G3."
+  },
+  {
+    "slug": "cobas-dechetterie-arcachon52119582023-02-1024330056300026f05",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Panneaux bien en place. Conformité constatée = M08, G1."
+  },
+  {
+    "slug": "cobas-dechetterie-arcachon52119582023-02-1024330056300026f06",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bac de produits dangereux 'non identifiés' sans rétention. Incertitude sur bac huiles de vidange (double peau à confirmer). NC physique observée (absence de rétention) = M14. Stockage dangereux sans rétention = G3."
+  },
+  {
+    "slug": "cobas-dechetterie-arcachon52119582023-02-1024330056300026f07",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rétentions adaptées aux produits stockés. Conformité constatée = M08, G1."
+  },
+  {
+    "slug": "cobas-dechetterie-arcachon52119582023-02-1024330056300026f08",
+    "domains": [
+      "D04",
+      "D07"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Eaux de lavage et eaux d'extinction incendie dirigées vers réseau municipal sans vanne d'isolement. NC technique physique observée (impossibilité de confiner les eaux en cas de sinistre) = M14. Risque de pollution aquatique = G3."
+  },
+  {
+    "slug": "cobas-dechetterie-arcachon52119582023-02-1024330056300026f09",
+    "domains": [
+      "D04",
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Débourbeur/déshuileur curés le 4/10/2022. Conformité constatée = M08, G1."
+  },
+  {
+    "slug": "cobas-dechetterie-arcachon52119582023-02-1024330056300026f10",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Prélèvement 16/11/22, résultats tous conformes. Conformité constatée = M08, G1."
+  },
+  {
+    "slug": "cobas-dechetterie-arcachon52119582023-02-1024330056300026f11",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Analyses mai 2022 conformes. Dépassement 70dB constaté mais aussi sans installation. Émergences conformes. Pas de NC retenue = M08, G1."
+  },
+  {
+    "slug": "cobas-dechetterie-arcachon52119582023-02-1024330056300026f12",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Affectation des casiers/conteneurs indiquée par marquages appropriés. Conformité constatée = M08, G1."
+  },
+  {
+    "slug": "cobas-dechetterie-arcachon52119582023-02-1024330056300026f13",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre des déchets sortants non conforme (centralisé au Teich, pas présenté). NC documentaire = M01. Purement documentaire = G2."
+  },
+  {
+    "slug": "cobas-dechetterie-gujan-mestras52119592023-02-10nosiretf01",
+    "domains": [
+      "D08",
+      "D12"
+    ],
+    "mechanisms": [
+      "M14",
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Même situation qu'Arcachon: containers PAM/D3E dépassant possiblement seuil 1t DD, pas de PAC. NC technique (stockage > seuil déclaré possible) = M14 + M09 (PAC absent). G3."
+  },
+  {
+    "slug": "cobas-dechetterie-gujan-mestras52119592023-02-10nosiretf02",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation propre mais des souches entreposées en dehors des zones imperméabilisées. NC physique mineure observée = M14. Écart technique mineur sans risque majeur = G2."
+  },
+  {
+    "slug": "cobas-dechetterie-gujan-mestras52119592023-02-10nosiretf03",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Clôture non intègre, permet de pénétrer à l'intérieur du site. NC physique observée (clôture dégradée) = M14. Sécurité physique du site compromise = G3."
+  },
+  {
+    "slug": "cobas-dechetterie-gujan-mestras52119592023-02-10nosiretf04",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "2 écarts sur installations électriques dont un déjà constaté en mai 2021 (continuité liaison conducteur protection). NC physique observée = M14 + M07. Récurrence depuis 2021 = T2. G3."
+  },
+  {
+    "slug": "cobas-dechetterie-gujan-mestras52119592023-02-10nosiretf05",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Téléphone ne permettait pas de joindre les numéros d'astreinte. Plan locaux non cohérent. Manomètre RIA défectueux - NC déjà constatée en 2016! M14 (manomètre défectueux, téléphone non conforme) + M01 (plan non à jour). Même NC manomètre depuis 2016 = T4 (stagnation). G3."
+  },
+  {
+    "slug": "cobas-dechetterie-gujan-mestras52119592023-02-10nosiretf06",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Plusieurs panneaux présents mais certains nécessitent remplacement. NC physique mineure (panneaux dégradés) = M14. Gravité mineure = G2."
+  },
+  {
+    "slug": "cobas-dechetterie-gujan-mestras52119592023-02-10nosiretf07",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Rétentions adaptées sauf incertitude sur bac huiles de vidange (double peau à confirmer). Incertitude = M14 (n'a pas pu préciser). G2 car potentiellement inadaptée mais non confirmé."
+  },
+  {
+    "slug": "cobas-dechetterie-gujan-mestras52119592023-02-10nosiretf08",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bac produits acides et bac produits basiques doivent avoir rétentions distinctes (non conforme actuellement). NC physique observée (rétentions non distinctes pour produits incompatibles) = M14. Risque réaction chimique = G3."
+  },
+  {
+    "slug": "cobas-dechetterie-gujan-mestras52119592023-02-10nosiretf09",
+    "domains": [
+      "D04",
+      "D07"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Eaux de lavage et eaux extinction dirigées vers fossé sans vanne d'isolement. NC technique physique = M14. Risque pollution = G3."
+  },
+  {
+    "slug": "cobas-dechetterie-gujan-mestras52119592023-02-10nosiretf10",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Eaux pluviales collectées, passent par débourbeur/déshuileur, filet anti-déchets installé. Conformité constatée = M08, G1."
+  },
+  {
+    "slug": "cobas-dechetterie-gujan-mestras52119592023-02-10nosiretf11",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Débourbeurs/déshuileurs curés le 3/10/2022. Conformité constatée = M08, G1."
+  },
+  {
+    "slug": "cobas-dechetterie-gujan-mestras52119592023-02-10nosiretf12",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Prélèvement 16/11/22, résultats tous conformes = M08, G1."
+  },
+  {
+    "slug": "cobas-dechetterie-gujan-mestras52119592023-02-10nosiretf13",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Analyses mai 2022, résultats conformes = M08, G1."
+  },
+  {
+    "slug": "cobas-dechetterie-gujan-mestras52119592023-02-10nosiretf14",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Affectation des casiers/conteneurs indiquée par marquages appropriés = M08, G1."
+  },
+  {
+    "slug": "cobas-dechetterie-gujan-mestras52119592023-02-10nosiretf15",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre des déchets sortants non conforme (centralisé au Teich). NC documentaire = M01. G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632022-10-2145620101100016f01",
+    "domains": [
+      "D03",
+      "D11"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Liste des sous-traitants incomplète (société X absente). Exploitant ne dispose pas d'une liste exhaustive. NC documentaire (liste incomplète) = M01. NC SMS site Seveso = M14 indirect. Purement documentaire = G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632022-10-2145620101100016f02",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure SGS de gestion des intervenants extérieurs ne prévoit pas la rédaction de cahiers des charges. NC procédurale/documentaire = M01. G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632022-10-2145620101100016f03",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Système de sélection des entreprises extérieures en cours de rédaction, critères pas encore formalisés dans procédure d'achat. NC organisationnelle observée = M14. G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632022-10-2145620101100016f04",
+    "domains": [
+      "D03",
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Formations accueil sécurité à jour vérifiées par sondage. Questionnaires corrigés. Conformité constatée sur le fond = M08. Observations sur améliorations possibles mais pas de NC formelle = G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632022-10-2145620101100016f05",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Formation accueil sécurité ne décrit pas la conduite en cas d'alarme explosimètre / déclenchement POI/PPI. Plan de prévention ne précise pas les consignes d'évacuation. NC documentaire/procédurale observée = M14. G2 (purement documentaire/organisationnel)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632022-10-2145620101100016f06",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Participation des EE aux exercices POI non tracée. Portée de l'alarme sur toutes zones non vérifiée. NC organisationnelle observée (traçabilité absente, alarme potentiellement non entendue lors exercice) = M14. G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632022-10-2145620101100016f07",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plans de prévention ne précisent pas la visite préalable ni les risques spécifiques. Mesures compensatoires pour MMR non tracées. Plan de prévention pour intervention sur MMR sans mesures spécifiques. Lien entre permis de travail et autres autorisations absent. NC documentaire touchant à la maîtrise des MMR = G3 (impact sur sécurité des MMR)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632022-10-2145620101100016f08",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Permis feu examiné, contient nettoyage zone, moyens incendie, surveillance chantier. Conformité constatée = M08, G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632022-10-2145620101100016f09",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Supervision des chantiers non formalisée/non tracée. Formulaire FO57 V1 prévu mais non utilisé. NC documentaire (absence de traçabilité) = M01. G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632022-10-2145620101100016f10",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure clôture travaux incomplète. PV fin travaux ne précise pas toutes les vérifications avant retour en exploitation. NC documentaire/procédurale = M01. G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632022-10-2145620101100016f11",
+    "domains": [
+      "D04",
+      "D06"
+    ],
+    "mechanisms": [
+      "M14",
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fuite active au niveau de l'appareil de distribution de carburant avec écoulement d'hydrocarbures au sol. Exploitant indique travaux programmés semaine 43/44 (engagement futur) = R02. Fuite active constatée + pollution sol potentielle = G4 (danger identifié, action rapide nécessaire). PAC requis pour déplacement appareil = M09."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-01-2445620101100016f01",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi de l'inspection 2022. Travaux de maintenance voies ferrées réalisés conformément aux préconisations COLAS Rail. PV de réception confirmant levée des réserves. Procédure de surveillance formalisée. MED du 27/05/2021 respectée. Correction constatée = M08 + M07. T3 (amélioration). G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-01-2445620101100016f02",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Rapport ANTEA sur COV diffus transmis. MED du 8/04/2022 respectée. Demande résiduelle sur suites envisagées (mineure). Conformité à la MED = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-01-2445620101100016f03",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Rapport IRH ne répond pas aux exigences (absence d'inventaire des ouvrages profonds, pas de proposition de surveillance). 2 forages profonds dont intégrité inconnue, risque de mise en communication de nappes. NC documentaire + technique (forages profonds sans suivi intégrité) = M01 + M14. Suivi constat antérieur (2020) = T2. G3 (risque eaux souterraines)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-01-2445620101100016f04",
+    "domains": [
+      "D10",
+      "D02"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Rapport DEKRA 2022 relève 98 observations dont 8 antérieurement signalées. Même problème de non accessibilité et documents manquants qu'en 2020 et 2021. Certificat Q18 conclut toujours sur risque incendie/explosion. Stagnation malgré demandes répétées = T4. NC physique technique (installations électriques non conformes avec risque explosion) = M14 + M07. G3."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-01-2445620101100016f05",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Curage des rétentions déportées réalisé en oct 2022 (correction de la NC végétation constatée en 2022). Conformité constatée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-01-2445620101100016f06",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "medium",
+    "reasoning": "Éléments temporels intégrés dans fiches POI. Conformité partielle constatée. Demande résiduelle sur indexation POI. T3. M08 + demande mineure résiduelle. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-01-2445620101100016f07",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "2 feux rouges à éclats installés et testés conformément à l'arrêté. Levée de la NC = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-01-2445620101100016f08",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Note de calcul COBOGAL transmise répondant à la prescription sur zones de perception olfactive. MED respectée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-01-2445620101100016f09",
+    "domains": [
+      "D04",
+      "D06"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "PAC transmis, travaux de remplacement pompe GNR réalisés. Ancien équipement démantelé et nettoyé. Conformité constatée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-01-2445620101100016f10",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M11"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Incident déclaré (accrochage bras de chargement GPL, fuite 15kg). Rapport circonstancié transmis. Plan d'action proposé (protections îlots chargement). Exploitant a déclaré spontanément et transmis REX = R01 (proactif). Incident survenu avec fuite GPL = G3. M11 (déclaration incident)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-09-1245620101100016f01",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Liste des tuyauteries ESP incomplète (17 bras et 22 manchettes absents). Exploitant les avait mal classés. NC documentaire (liste incomplète) = M01 + NC technique observée (classification erronée des équipements sous pression) = M14. Site Seveso GPL, équipements sous pression non suivis = G3."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-09-1245620101100016f02",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Inscriptions sur plaques de 2 bras non visibles (effacées par usure). Contrôle annuel SOGIMAPE n'a pas relevé ce point malgré que c'est le premier point de contrôle. NC physique observée (marquage illisible sur ESP) = M14. G3 (ESP GPL non identifiables)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-09-1245620101100016f03",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Manchette n°300909.13: identification fabricant non lisible. Tableau de suivi contient erreurs d'affectation. NC physique (marquage illisible) + documentaire (tableau erroné) = M14 + M01. G3."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-09-1245620101100016f04",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "17 bras de 1991: absence d'état descriptif initial ou reconstitué dans le dossier d'exploitation. NC documentaire (dossier d'exploitation incomplet pour ESP sous pression GPL) = M01. G3 (ESP sans dossier = impossibilité de vérifier conformité maintenance)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-09-1245620101100016f05",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "11 manchettes sans dossier d'exploitation. NC documentaire (dossier incomplet) = M01. G3."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-09-1245620101100016f06",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Programme de contrôle (COB MO 14) n'identifie pas les bras et manchettes comme tuyauteries, ne prévoit donc pas d'inspection périodique. Vannes manuelles non référencées. NC procédurale (absence programme d'inspection périodique conforme) = M07 + M01. G3 (ESP GPL sans programme d'inspection adapté)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-09-1245620101100016f07",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucune inspection périodique réalisée depuis mise en service car exploitant ne les classait pas comme tuyauteries. Exploitant invoque méconnaissance de la classification = R04. NC vérification périodique non réalisée = M07. G3."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-09-1245620101100016f08",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bras du poste wagon n°4 (déchargement gazeux) sans accessoire de sécurité clairement identifié. Documentation incomplète sur accessoires de sécurité pour tous les bras. NC observée (protection contre dépassement pression non clairement documentée) = M14 + M01. G3."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-09-1245620101100016f09",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dispositifs anti-arrachement (flip-flap) sans dossier d'exploitation. Notice PEROLO présente une pression max 21 bars alors que les bras ont une PS de 30-36,6 bars: si cette notice s'applique, les dispositifs ne sont PAS adaptés aux bras et doivent être mis hors exploitation. NC technique critique (possible inadéquation pression dispositifs sécurité) = M14 + M01. G4 (risque avéré de défaillance dispositif de sécurité sur GPL)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-09-1245620101100016f10",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de dossier d'exploitation et données techniques pour les vannes manuelles des 17 bras. NC documentaire = M01. G3."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-09-1245620101100016f11",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Brides de bras des postes wagon n°1 et n°4 présentent corrosion avancée: feuilletage métallique friable, cratères de corrosion. 'L'état d'endommagement ne permet pas d'assurer le niveau de sécurité du bras'. NC technique physique critique = M14. G4 (sécurité des ESP GPL compromise, exploitant conscient du problème)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-10-1145620101100016f01",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "ARF de 2019 conclut à nécessité de travaux de protection foudre (méthanol insuffisamment protégé, MMR/EIPS non suffisamment protégées). ARF existante mais MMR/EIPS pas intégrées dans leur intégralité = M14 (constat incertitude sur couverture complète). G3."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-10-1145620101100016f02",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Étude technique foudre de 2021 conclut à 45 actions requises. NC technique constatée (travaux non réalisés conformément à étude technique) = M14. G3 (installations Seveso sans protection foudre conforme)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-10-1145620101100016f03",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "45 actions de protection foudre non réalisées, auraient dû l'être avant le 23/04/2021 (2 ans après ARF). NC technique avec dépassement du délai réglementaire = M14. Site Seveso GPL sans protection foudre conforme depuis 2021 = G4 (MED requise)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-10-1145620101100016f04",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Notice de vérification et maintenance jointe à l'étude technique. Conformité constatée, à compléter après travaux. M08, G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-10-1145620101100016f05",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant n'a pas pu fournir de vérification annuelle des installations de protection foudre. NC vérification périodique = M07. G3 (protection foudre sans vérification sur site Seveso)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-10-1145620101100016f06",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas de système d'enregistrement des agressions foudre (pas de compteur ni abonnement Météorage). NC documentaire/procédurale = M01. G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-10-1145620101100016f07",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas de carnet de bord pour les installations de protection foudre. NC documentaire = M01. G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-03-1145620101100016f01",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Liste des ESP (17 bras + 22 manchettes) transmise et conforme. MED du 10/11/2023 levée sur ce point. Conformité constatée = M08. S06 (clôture partielle). T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-03-1145620101100016f02",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plaques des 17 bras remplacées à neuf en février 2024. MED levée. Conformité constatée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-03-1145620101100016f03",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Dossiers d'exploitation des 17 bras reconstitués (4 classeurs). MED levée. Conformité constatée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-03-1145620101100016f04",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Programme de contrôle COB MO 14 V2 transmis, intègre bras et manchettes avec inspection périodique 60 mois. MED levée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-03-1145620101100016f05",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Inspection périodique planifiée pour juin 2024. MED non encore levée mais actions planifiées = R02. Stade correction en cours = S03. T3 (amélioration). G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-03-1145620101100016f06",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Accessoires de sécurité (soupapes) documentés pour tous les 17 bras, paramètres de réglage renseignés. MED levée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-03-1145620101100016f07",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Dossiers anti-arrachement reconstitués, intégrés dans programme de contrôle, inspection périodique planifiée. MED levée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-03-1145620101100016f08",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Dossiers d'exploitation des vannes manuelles reconstitués. MED levée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-03-1145620101100016f09",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Brides du poste wagon n°4 inspectées et traitées (sablage, boulonnerie neuve). Conclusion: corrosion ne remet pas en cause l'étanchéité. Brides horizontales traitées sur l'ensemble. Demande résiduelle: intégrer brides horizontales comme points singuliers dans programme. Correction réalisée = M08 + demande résiduelle documentaire = M14. T3. G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-03-1145620101100016f10",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "22 manchettes remplacées à neuf en 2023-2024 avec documentation complète. MED levée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-03-1145620101100016f11",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Dossiers d'exploitation des manchettes reconstitués. Conditions d'utilisation vérifiées conformes. MED levée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-05-2945620101100016f01",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Notice de réexamen EDD transmise en mai 2023. Instruction en cours de finalisation. Réexamen transmis mais avec demande de compléments à venir. T2 (suivi). M01 (document transmis mais instruction incomplète). G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-05-2945620101100016f02",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Incident de 2023 non enregistré correctement dans le fichier incidents. Analyse REX insuffisante. Tests des chaînes MMR: enregistrement GMAO imprécis (impossible de déterminer la sphère concernée). Pas de procédure sur vieillissement des chaînes MMR. NC procédurale sur MMR = M07 + M01. G3 (défaillances potentielles de MMR sur site Seveso)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-05-2945620101100016f03",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Analyse MMR 401 (fusible thermique) reprise dans notice réexamen. Analyse papillon confirmée par inspection. Conformité constatée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-05-2945620101100016f04",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "EDD mise à jour manque la liste des produits de décomposition en cas d'incendie. NC documentaire = M01. G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-05-2945620101100016f05",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "POI non mis à jour depuis avril 2022 (décorrélé de l'EDD de 2023). Mise à jour nécessaire pour produits décomposition et stratégie prélèvements post-accident. NC documentaire = M01. G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-05-2945620101100016f06",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Diagnostic de vulnérabilité inondation prescrit par PPRi 2022 (exigible au 23/02/2024) non formellement mis à jour. Annexe de conformité fait référence à un diagnostic de 2006. NC documentaire = M01. G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-05-2945620101100016f07",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Carrousel emplissage bouteilles petite capacité implanté en 2021 sans PAC. Procédure SGS gestion modifications non déployée. NC administrative (modification sans PAC) = M09. G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-05-2945620101100016f08",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Activité peinture bouteilles arrêtée depuis plusieurs années sans déclaration ni acte administratif. NC administrative (arrêt activité non acté) = M09 (assimilé PAC pour modification). G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-05-2945620101100016f09",
+    "domains": [
+      "D12",
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PAC relatif au nouveau poste déchargement camion reçu (donner acte DREAL janv 2023). Travaux en cours (bras achetés). Description installations à actualiser au prochain AP. Conformité constatée sur procédure PAC = M08. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-05-2945620101100016f10",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Protocole de sécurité (COB FO 11 V2) non actualisé pour les véhicules à motorisation GNV/GNC. Exploitant travaille à un PAC mais procédures SGS/POI à mettre à jour. NC documentaire = M01. G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-10-0845620101100016f01",
+    "domains": [
+      "D10",
+      "D02"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "MED du 7 mars 2023 respectée. Rapport DEKRA 2023/2024: 57 observations (aucune antérieure). Q18 conclut: plus de risque incendie/explosion. DRPCE en cours de remise à plat. Amélioration significative = M08. Demande résiduelle DRPCE = M07. T3. G2 (observations restantes mais risque global levé)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-10-0845620101100016f02",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Demande faite en oct 2023: vérifier que MMR/EIPS sont bien couvertes dans ARF. Exploitant n'a apporté aucun élément. Stagnation sur ce point = T4. NC documentaire/technique (ARF potentiellement incomplète sur MMR) = M14. G3."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-10-0845620101100016f03",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M04",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "MED du 27/11/2023 non respectée (travaux protection foudre non finalisés). DOE provisoire seulement. Exploitant s'engage sur finalisation fin 2024 = R02. MED active + NC technique = G4. T4 (toujours en cours malgré délais dépassés)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-10-0845620101100016f04",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Vérification complète foudre réalisée par DEKRA le 24/11/2023. Disposition MED respectée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-10-0845620101100016f05",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Abonnement Météorage mis en place + procédure agression foudre créée. Disposition MED respectée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-10-0845620101100016f06",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Carnet de bord existait déjà (exploitant ne pouvait pas le justifier en 2023). Mise à jour prévue après DOE. Disposition MED respectée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-10-0845620101100016f07",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contrôle annuel bras/manchettes réalisé par SOGIMAPE + inspection périodique DEKRA juin 2024. MED levée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-10-0845620101100016f08",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Contrôles ont révélé des défauts sur bras camion, wagon, DCMT, CISC nécessitant actions correctives. Travaux planifiés semaine 44 = R02. NC physique technique sur ESP GPL = M14 + M07. G3."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632024-10-0845620101100016f09",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Travaux physiques réalisés (sablage, peinture brides horizontales). Mais mise à jour procédure COB MO 14 non faite (brides horizontales non intégrées comme points singuliers). NC documentaire résiduelle = M01. T4 (demande de l'inspection 11/03/2024 non réalisée). G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632025-06-1145620101100016f01",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Présentation de l'alimentation électrique du site. Contenu confidentiel. Pas de demande formulée visible. M08, G1. Confiance medium (données partiellement confidentielles)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632025-06-1145620101100016f02",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Dispositions en cas de perte d'utilité décrites. Contenu confidentiel. Pas de demande formulée. M08, G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632025-06-1145620101100016f03",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Équipements secourus présentés. Contenu confidentiel. Pas de demande formulée. M08, G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632025-06-1145620101100016f04",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consigne perte alimentation électrique incomplète (numéros téléphone utiles absents). NC procédurale observée = M14. G2 (purement documentaire/organisationnel)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632025-06-1145620101100016f05",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure ne prévoit pas le cas de panne du groupe électrogène. NC documentaire (procédure incomplète) = M01. G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632025-06-1145620101100016f06",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas de liste formalisée des équipements secourus (GE, onduleurs, batterie). NC documentaire = M01. G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632025-06-1145620101100016f07",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Autonomie du groupe électrogène non correctement calculée au regard de la réalité du stockage de gazole. NC technique (autonomie sous-estimée potentiellement) = M14. G3 (autonomie des MMR en cas de coupure potentiellement compromise sur site Seveso)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632025-06-1145620101100016f08",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Groupe électrogène sans maintenance préventive régulière ni traçabilité de vérification. Pas de plan de dératisation. NC technique (maintenance GE non formalisée) = M14 + M07. G3 (fiabilité du secours électrique non garantie sur site Seveso)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632025-06-1145620101100016f09",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "POI mis à jour transmis le 25 juin 2025 incluant fiches réflexes (fuite GNV, soupapes, inondation, produits décomposition). Répond à la demande de l'APC du 12 février 2025 = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632025-06-1145620101100016f10",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Procédure à destination du poste de garde mise à jour, consignes POI intégrées, fiche émargement transmise. Demande précédente satisfaite = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632025-06-1145620101100016f11",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Vérification téléphones d'astreinte faite. POI mis à jour précise que numéro télésurveillance est sur portail. Demande précédente satisfaite = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632025-06-1145620101100016f12",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "POI mis à jour intègre matrices de sécurité précisant organes déclenchant automatiquement selon détection. Demande précédente satisfaite = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632025-06-1145620101100016f13",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plan ETARE intégré au POI. Formations POI prévues pour septembre 2025 (pas encore réalisées). Amélioration constatée = M08. T3. G2 (formations non encore réalisées)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632025-06-1145620101100016f14",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Fiche nettoyage/remise en état ajoutée au POI mais reste à compléter (liste moyens nettoyage environnement absente). NC résiduelle documentaire = M14. T3 (amélioration). G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632025-06-1145620101100016f15",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Bureau PC astreinte mis à jour avec dossier 'Accès quantités site', consigne explicative, accès stocks vrac et conditionnement. Fiche d'aide aux abaques intégrée. Formations prévues sept 2025. Demande précédente satisfaite = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632026-02-2545620101100016f01",
+    "domains": [
+      "D02"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "DRPCE remis à jour en septembre 2025. Zonage ATEX totalement revu. Adéquation appareils vérifiée exhaustivement. Mise à jour annuelle prévue. Conformité constatée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632026-02-2545620101100016f02",
+    "domains": [
+      "D02"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plans zonages ATEX remis à jour septembre 2025, affichés, zones 0/1/2 représentées avec vues en coupe. Conformité constatée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632026-02-2545620101100016f03",
+    "domains": [
+      "D02"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Signalétique ATEX présente mais cuve fioul non signalée + symbolisation terrain ne distingue pas zones 0/1/2. Exploitant a spontanément procédé au renforcement de la signalisation le jour même et en a attesté par mail = R01. NC physique mineure = M14. T3. G2."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632026-02-2545620101100016f04",
+    "domains": [
+      "D02"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Attestations formation ATEX opérateurs transmises (oct 2025, validité 3 ans). Procédure accueil prestataires vérifiée. Hall conditionnement: ventilation naturelle suffisante considérée. Conformité constatée = M08. T3. G1."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632026-02-2545620101100016f05",
+    "domains": [
+      "D02"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Par sondage: boîtier 'point 19' avec vis manquante et marquage illisible, 1/3 boîtiers SIRIGA illisibles, boîtier de jonction sans étiquette. NC physique technique observée (équipements ATEX avec marquage illisible ou absent) = M14. G3 (intégrité des équipements ATEX en zone explosible non garantie)."
+  },
+  {
+    "slug": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632026-02-2545620101100016f06",
+    "domains": [
+      "D02",
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vérification périodique DEKRA déc 2025: 26 observations. Q18 sans danger mais 26 NC à corriger. Travaux de maintenance pas encore réalisés. NC physique technique (26 NC non corrigées) = M14 + M07 (contrôle révélant NC). G3."
+  }
+]

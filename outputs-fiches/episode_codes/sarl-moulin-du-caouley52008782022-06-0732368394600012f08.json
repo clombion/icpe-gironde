@@ -1,0 +1,26 @@
+{
+  "document_date": "2022-06-07",
+  "document_title": "sarl-moulin-du-caouley52008782022-06-0732368394600012f08",
+  "document_summary": "La fiche contrôle la conformité de l'implantation de la pisciculture Moulin du Caouley par rapport aux distances réglementaires vis-à-vis des habitations et des autres piscicultures. Le constat est de conformité sans suite.",
+  "surprises": "",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "L'implantation de la pisciculture respecte les distances minimales réglementaires vis-à-vis des habitations et des autres piscicultures situées sur le même cours d'eau.",
+      "excerpts": [
+        "Conforme",
+        "Type de suites proposées : Sans suite"
+      ],
+      "valence": "positive",
+      "code": "Conformité distances d'implantation"
+    },
+    {
+      "description": "La réglementation impose des distances d'exclusion en amont et en aval d'autres piscicultures sur le même cours d'eau, ainsi qu'un rayon d'exclusion sur le bassin versant.",
+      "excerpts": [
+        "à au moins 3 kilomètres en amont ou en aval d'une pisciculture existante implantée sur le même cours d'eau [...] dans un rayon d'au moins 1 kilomètre d'une pisciculture située sur le même bassin versant."
+      ],
+      "valence": "neutral",
+      "code": "Zones d'exclusion pisciculture"
+    }
+  ]
+}

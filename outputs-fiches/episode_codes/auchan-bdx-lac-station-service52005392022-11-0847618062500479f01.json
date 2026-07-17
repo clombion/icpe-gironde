@@ -1,0 +1,25 @@
+{
+  "document_date": "2022-11-08",
+  "document_title": "auchan-bdx-lac-station-service52005392022-11-0847618062500479f01",
+  "codes": [
+    {
+      "description": "L'exploitant a informé la préfète de la cessation d'activité de la station-service dans les formes requises, par courrier préalable.",
+      "excerpts": [
+        "Madame La Préfète a été informée par courrier, en date du 16 décembre 2019, de la cessation d'activité à partir du 5 décembre 2019 concernant la station service d'Auchan Carburant à Bordeaux Lac."
+      ],
+      "valence": "positive",
+      "code": "Notification de cessation d'activité"
+    },
+    {
+      "description": "Le constat porte uniquement sur la vérification de la procédure d'arrêt déclaratif, sans autre non-conformité relevée.",
+      "excerpts": [
+        "I – Lorsqu'une installation classée soumise à déclaration est mise à l'arrêt définitif, l'exploitant notifie au préfet la date de cet arrêt un mois avant celui-ci."
+      ],
+      "valence": "neutral",
+      "code": "Conformité procédurale à l'arrêt"
+    }
+  ],
+  "document_summary": "Fiche très courte vérifiant que la notification de cessation d'activité de la station-service Auchan Bordeaux Lac a été effectuée conformément à la réglementation ; le courrier à la préfète a été transmis en décembre 2019.",
+  "surprises": "L'inspection a lieu en novembre 2022, soit trois ans après la cessation d'activité déclarée en 2019 — délai inhabituel entre l'arrêt et la vérification.",
+  "tensions": ""
+}

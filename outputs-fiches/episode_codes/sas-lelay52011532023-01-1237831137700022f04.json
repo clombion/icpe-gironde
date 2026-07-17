@@ -1,0 +1,25 @@
+{
+  "document_date": "2023-01-12",
+  "document_title": "sas-lelay52011532023-01-1237831137700022f04",
+  "document_summary": "La fiche contrôle la ventilation des bâtiments de l'élevage porcin SAS Lelay. L'exploitant a un système de cooling en cours de construction, ce qui indique que la prescription de ventilation correcte des bâtiments est en voie d'être satisfaite.",
+  "surprises": "Le constat mentionne un système de cooling 'en cours de construction' sans préciser si l'état actuel (avant achèvement) est conforme ou non — l'inspection ne statue pas clairement sur la situation présente.",
+  "tensions": "La prescription exige des bâtiments 'correctement ventilés', mais le constat se borne à signaler la mise en chantier d'un équipement de refroidissement, sans évaluer si la ventilation actuelle est déjà satisfaisante.",
+  "codes": [
+    {
+      "description": "Un système de cooling est en construction, suggérant une mise en conformité progressive de la ventilation des bâtiments d'élevage.",
+      "excerpts": [
+        "Un système de cooling est en cours de construction."
+      ],
+      "valence": "mixed",
+      "code": "Installation en cours — ventilation"
+    },
+    {
+      "description": "La réglementation impose que les bâtiments d'élevage soient correctement ventilés pour assurer des conditions sanitaires et de sécurité adéquates.",
+      "excerpts": [
+        "Les bâtiments sont correctement ventilés"
+      ],
+      "valence": "neutral",
+      "code": "Prescription de ventilation des bâtiments"
+    }
+  ]
+}

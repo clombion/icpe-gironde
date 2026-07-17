@@ -1,0 +1,41 @@
+{
+  "document_date": "2023-07-20",
+  "document_title": "aquitaine-nettoyage-service1000121382023-07-2033456812800071f05",
+  "codes": [
+    {
+      "description": "L'exploitant a mis fin au rejet direct d'effluents de traitement de surface dans le milieu naturel, remplaçant par une filière agréée d'élimination.",
+      "excerpts": [
+        "L'inspection a montré que l'exploitant ne rejette plus d'effluent au milieu : les déchets liquides du bac de décantation sont éliminés en grand récipient pour vrac (GRV) dans une filière agréée."
+      ],
+      "valence": "positive",
+      "code": "Correction rejet milieu naturel"
+    },
+    {
+      "description": "L'exploitant produit un bordereau de suivi de déchets avec le bon code déchet, attestant d'une filière d'élimination conforme.",
+      "excerpts": [
+        "L'exploitant a par la suite fourni le dernier bordereau d'élimination de déchets, portant les bonnes indications de nature de déchet (BSD du 10 août 2023, code déchet 11 01 11*, 2 GRV de déchets liquides)."
+      ],
+      "valence": "positive",
+      "code": "Traçabilité des déchets liquides"
+    },
+    {
+      "description": "L'inspecteur demande une copie du bordereau contresigné par le destinataire, pour compléter la chaîne de traçabilité.",
+      "excerpts": [
+        "L'exploitant transmettra, sous un mois, la copie de ce bordereau contresigné par son destinataire."
+      ],
+      "valence": "neutral",
+      "code": "Attestation de réception demandée"
+    },
+    {
+      "description": "La fiche fait suite à une inspection 2023 qui avait relevé un rejet illicite ; la situation a été régularisée entre les deux inspections.",
+      "excerpts": [
+        "L'inspection du 9 janvier 2023 avait relevé que le rejet du traitement de surface se faisait directement dans le milieu naturel après passage par un décanteur, sans autre traitement des eaux résiduaires."
+      ],
+      "valence": "mixed",
+      "code": "Non-conformité antérieure corrigée"
+    }
+  ],
+  "document_summary": "Suite à une non-conformité constatée en janvier 2023 (rejet d'effluents de traitement de surface sans traitement dans le milieu naturel), l'exploitant d'Aquitaine Nettoyage Service a corrigé la situation en substituant une filière GRV agréée. Il reste une observation sur la transmission du bordereau signé par le destinataire.",
+  "surprises": "La correction entre deux inspections a été rapide et substantielle : passage d'un rejet illicite à une filière agréée avec BSD correct.",
+  "tensions": ""
+}

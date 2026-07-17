@@ -1,0 +1,41 @@
+{
+  "document_date": "2025-03-20",
+  "document_title": "smicval-vayres52125012025-03-2025330661700015f03",
+  "codes": [
+    {
+      "description": "L'exploitant ne sépare pas les déchets d'équipements électriques et électroniques susceptibles de contenir des batteries lithium des autres DEEE, contrairement à l'obligation réglementaire.",
+      "excerpts": [
+        "l'inspection a constaté que l'exploitant ne sépare pas les DEEE susceptibles de contenir des batteries lithium des autres DEEE."
+      ],
+      "valence": "negative",
+      "code": "Non-séparation DEEE batteries lithium"
+    },
+    {
+      "description": "La réglementation impose des conditions de stockage garantissant l'absence d'endommagement lors des opérations de manutention, risque spécifique lié aux batteries lithium (incendie thermique).",
+      "excerpts": [
+        "Il est également attendu que l'exploitant justifie que l'entreposage des DEEE susceptibles de contenir des batteries au lithium garantisse l'absence d'endommagement lors des opérations de manutention."
+      ],
+      "valence": "negative",
+      "code": "Risque manutention batteries lithium"
+    },
+    {
+      "description": "Les conteneurs grillagés fournis par l'éco-organisme ne permettent pas la séparation réglementaire des DEEE lithium, soulevant la question de l'adéquation des équipements fournis par le circuit officiel.",
+      "excerpts": [
+        "L'ensemble des DEEE est stocké dans des conteneurs grillagés en métal fournis par l'éco-organisme dans le local DEEE qui est fermé par une porte."
+      ],
+      "valence": "mixed",
+      "code": "Conteneurs éco-organisme non adaptés"
+    },
+    {
+      "description": "La prescription permet de satisfaire l'obligation de stockage sécurisé des batteries lithium en respectant la disposition spéciale 670 de l'accord ADR, montrant un recours au droit du transport pour encadrer le stockage.",
+      "excerpts": [
+        "Le respect de la disposition spéciale 670 de l'accord européen relatif au transport international des marchandises dangereuses par route (ADR) est réputé satisfaire à l'obligation mentionnée au deuxième alinéa de cet article."
+      ],
+      "valence": "neutral",
+      "code": "Référence ADR transport déchets"
+    }
+  ],
+  "document_summary": "Inspection d'un centre de collecte de déchets SMICVAL (Vayres) portant sur le tri des DEEE : les batteries lithium ne sont pas séparées des autres DEEE et leur mode de stockage ne garantit pas l'absence d'endommagement. Les conteneurs fournis par l'éco-organisme ne permettent pas de répondre à l'exigence réglementaire.",
+  "surprises": "Les conteneurs sont fournis par l'éco-organisme officiel (dans le cadre du système de filière REP) mais ne permettent pas de satisfaire l'exigence de séparation réglementaire — tension entre les équipements du système collectif et les obligations ICPE du site de collecte.",
+  "tensions": "L'exploitant utilise des conteneurs fournis par l'éco-organisme dans le cadre de la filière REP mais ceux-ci ne sont pas conformes aux exigences ICPE de séparation des batteries lithium — responsabilité partagée mal définie entre le collecteur et l'éco-organisme."
+}

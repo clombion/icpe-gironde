@@ -1,0 +1,42 @@
+{
+  "document_date": "2022-08-17",
+  "document_title": "vermilion-rep-s-a-s-la-teste-de-buch52013492022-08-1741096483700083f04",
+  "codes": [
+    {
+      "description": "L'inspection visuelle des équipements sous pression réalisée par le service intégrité de l'exploitant n'a relevé aucun signe de contact avec une flamme ni dégradation liée aux flux thermiques de l'incendie.",
+      "excerpts": [
+        "la visite n'a pas relevé de signe de contact avec une flamme ou de dégradations particulière liées aux éventuels flux thermiques de l'incendie",
+        "la visite ne remet pas en cause l'aptitude au service de ces installations."
+      ],
+      "valence": "positive",
+      "code": "Inspection visuelle post-incendie conforme"
+    },
+    {
+      "description": "L'inspection interne utilise la norme internationale API 579 pour identifier les dégradations liées à une exposition à une flamme, montrant le recours à un référentiel technique spécialisé pour les équipements pétroliers.",
+      "excerpts": [
+        "Les visites ont été réalisées en se basant sur l'identification de dégradations liés à un contact ou une proximité avec une flamme selon la norme API 579."
+      ],
+      "valence": "neutral",
+      "code": "Norme API 579 appliquée"
+    },
+    {
+      "description": "L'inspection visuelle ne nécessite pas d'investigations complémentaires ni de contrôle non-destructif, permettant une reprise d'activité sans délais supplémentaires.",
+      "excerpts": [
+        "les équipements ne nécessitent pas de contrôle non destructif ou d'investigations complémentaires (étape suivante de la démarche API 579)"
+      ],
+      "valence": "positive",
+      "code": "Pas de contrôle non-destructif requis"
+    },
+    {
+      "description": "La prescription conditionne la reprise d'activité du dépôt à la réalisation d'une inspection visuelle des équipements sous pression — exigence préventive liée à un événement accidentel précédent.",
+      "excerpts": [
+        "Avant la reprise d'activité du dépôt, l'exploitant réalise une inspection visuelle des équipements sous pression"
+      ],
+      "valence": "neutral",
+      "code": "Inspection visuelle préalable reprise activité"
+    }
+  ],
+  "document_summary": "Inspection post-accident du dépôt d'hydrocarbures Vermilion REP à Cazaux (La Teste-de-Buch) : suite à un incendie, le service intégrité de l'exploitant a inspecté visuellement tous les équipements sous pression selon la norme API 579 et n'a relevé aucune dégradation liée au flux thermique, validant l'aptitude au service des installations et permettant la reprise d'activité.",
+  "surprises": "Le rapport de visite interne est réalisé par le service intégrité de l'exploitant lui-même (non par un tiers), ce qui est accepté comme preuve suffisante par l'inspection — cette auto-évaluation est notable dans un contexte post-accident.",
+  "tensions": "L'inspection visuelle est réalisée par l'exploitant sur ses propres équipements après un incendie — la question de l'indépendance du contrôleur se pose, même si le recours à une norme reconnue (API 579) apporte une garantie méthodologique."
+}

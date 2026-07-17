@@ -1,0 +1,34 @@
+{
+  "document_date": "2023-04-24",
+  "document_title": "bordeaux-metropole-eysines52117992023-04-2448743234600038f14",
+  "codes": [
+    {
+      "description": "Les déchets sont réceptionnés sous contrôle de deux agents titulaires pendant les heures d'ouverture, avec affichage par catégorie sur chaque benne.",
+      "excerpts": [
+        "Les déchets sont réceptionnés, selon le constat de l'inspection, sous le contrôle de deux agents titulaires au centre et sont déposés directement dans les bennes disposées au niveau des quais.",
+        "Un affichage sur le type de déchets à déposer est présent au niveau de chaque benne de la déchèterie"
+      ],
+      "valence": "positive",
+      "code": "Réception déchets contrôlée"
+    },
+    {
+      "description": "Les bennes non identifiées en réserve à quai sont matériellement interdites d'accès aux déposants, conformément à la prescription.",
+      "excerpts": [
+        "les bennes non identifiées, en réserve à quai, sont matériellement interdites d'accès aux déposants."
+      ],
+      "valence": "positive",
+      "code": "Bennes réserve inaccessibles"
+    },
+    {
+      "description": "Le site est équipé d'un portail fermé en dehors des heures d'ouverture, respectant l'interdiction de réception hors heures.",
+      "excerpts": [
+        "Le site est équipé d'un portail qui est fermé en dehors des heures d'ouverture."
+      ],
+      "valence": "positive",
+      "code": "Contrôle horaires fermeture portail"
+    }
+  ],
+  "document_summary": "L'inspection de la déchetterie Bordeaux Métropole Eysines constate la conformité en matière de réception des déchets : portail fermé hors heures, contrôle par agents, affichage par catégorie, et accès interdit aux bennes en réserve.",
+  "surprises": "",
+  "tensions": ""
+}

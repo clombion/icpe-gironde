@@ -1,0 +1,49 @@
+{
+  "document_date": "2025-06-10",
+  "document_title": "grand-parc-energies-exengie-cofely52005642025-06-1091076742500010f01",
+  "document_summary": "L'inspection vérifie le classement ICPE de la chaufferie Grand Parc 2 à Bordeaux (5 chaudières, 31,34 MW). Elle confirme le bon classement en rubrique 2910-A1 et note les projets de réduction de puissance liés à une future chaufferie biomasse et géothermie, avec rappel d'obligation de notification préalable.",
+  "surprises": "L'exploitant prévoit de passer d'un régime d'autorisation (≥20 MW) à un régime déclaratif (<20 MW) par réduction volontaire de la puissance installée — déclassement proactif rare dans le corpus.",
+  "tensions": "Les chaudières 2 et 4 sont alimentées au fioul domestique en secours bien que la consommation soit exclusivement gaz depuis des années et que la pompe fioul ait été retirée — décalage entre la réalité opérationnelle et la configuration autorisée formellement.",
+  "codes": [
+    {
+      "description": "L'inspection confirme le bon classement de la chaufferie en rubrique 2910-A1 (combustion ≥20 MW et <50 MW, gaz naturel et fioul domestique exclusifs).",
+      "excerpts": [
+        "L'inspection constate que l'installation est correctement classée en 2910-A1 en raison d'une puissance totale supérieure ou égale à 20 MW et inférieure à 50 MW de la chaufferie et de la consommation exclusive de gaz naturel et de fioul domestique."
+      ],
+      "valence": "positive",
+      "code": "Classement confirmé 2910-A1"
+    },
+    {
+      "description": "L'exploitant a des projets de construction d'une chaufferie biomasse et de remise en service d'une géothermie, qui réduiront à terme la puissance de la chaufferie gaz.",
+      "excerpts": [
+        "L'exploitant indique que la puissance maximale de la chaufferie va être réduite dans les prochaines années, en lien avec les projets en cours de construction d'une chaufferie biomasse et de remise en service d'une chaufferie par géothermie."
+      ],
+      "valence": "positive",
+      "code": "Transition énergétique chaufferie biomasse géothermie"
+    },
+    {
+      "description": "La réduction de puissance projetée pourrait faire passer la chaufferie sous le seuil de 20 MW et ainsi la faire basculer du régime d'autorisation au régime déclaratif.",
+      "excerpts": [
+        "L'exploitant précise que la chaufferie GP2 pourrait avoir une puissance totale inférieure à 20 MW et ainsi relever du régime déclaratif."
+      ],
+      "valence": "neutral",
+      "code": "Passage prévu régime déclaratif"
+    },
+    {
+      "description": "Deux chaudières sont formellement compatibles fioul/gaz, mais le fioul n'est plus consommé depuis des années ; la pompe a été retirée et la cuve sera supprimée.",
+      "excerpts": [
+        "L'exploitant indique que le fioul domestique était disponible en cas de secours mais que les brûleurs consomment exclusivement du gaz naturel depuis de nombreuses années. Il précise que la pompe d'alimentation en fioul domestique a été retirée et que la cuve de fioul domestique sera retirée à terme."
+      ],
+      "valence": "mixed",
+      "code": "Combustible fioul résiduel non utilisé"
+    },
+    {
+      "description": "L'exploitant est rappelé à l'obligation de notifier le préfet préalablement à toute évolution significative de la chaufferie (arrêt de chaudières, retrait de la cuve fioul).",
+      "excerpts": [
+        "L'inspection rappelle à l'exploitant que les évolutions à venir de la chaufferie (mise à l'arrêt définitif d'une ou plusieurs chaudière(s), retrait de la cuve de fioul, etc...) devront être portées à la connaissance du préfet préalablement à leur mise en œuvre."
+      ],
+      "valence": "neutral",
+      "code": "Obligation notification préalable évolutions"
+    }
+  ]
+}

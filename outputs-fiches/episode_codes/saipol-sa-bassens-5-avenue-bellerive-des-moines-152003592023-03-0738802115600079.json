@@ -1,0 +1,66 @@
+{
+  "document_date": "2023-03-07",
+  "document_title": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-03-0738802115600079",
+  "document_summary": "L'inspection de l'usine SAIPOL (trituration d'oléagineux, site Seveso) révèle des lacunes dans les contrôles électriques périodiques : des équipements n'ont pas pu être testés pendant les contrôles Q18 et Q19 en raison de l'exploitation ou d'une inaccessibilité, et aucun suivi individuel des équipements n'est en place pour garantir l'exhaustivité des vérifications. Plusieurs actions correctives sont requises sous des délais stricts.",
+  "surprises": "Certains équipements signalés 'à l'arrêt' dans les rapports de contrôle thermographique fonctionnent en réalité régulièrement, ce qui révèle un problème de traçabilité du statut opérationnel des équipements.",
+  "tensions": "L'exploitant réalise des contrôles semestriels proactifs (Q19 thermographique), ce qui témoigne d'une culture de la maintenance, mais la gestion des équipements en cours d'exploitation lors des contrôles crée des angles morts systématiques dans la couverture réglementaire.",
+  "codes": [
+    {
+      "description": "Plusieurs équipements n'ont pas pu faire l'objet de vérifications (Q18 et Q19) parce qu'ils étaient en fonctionnement au moment des contrôles, créant des lacunes systématiques.",
+      "excerpts": [
+        "Plusieurs équipements (Aspirateur, ...) n'ont pas été testés car en exploitation. L'exploitant ne dispose pas d'un suivi des équipements pour justifier qu'ils sont bien tous vérifiés."
+      ],
+      "valence": "negative",
+      "code": "Équipements non contrôlés en exploitation"
+    },
+    {
+      "description": "Des équipements déclarés 'à l'arrêt' dans les rapports de contrôle thermographique sont en réalité en service, révélant une inexactitude documentaire.",
+      "excerpts": [
+        "L'exploitant a indiqué que parmi les équipements indiqués comme à l'arrêt, certains sont à l'arrêt définitivement alors que d'autres étaient à l'arrêt les jours des contrôles thermographiques mais fonctionnent régulièrement."
+      ],
+      "valence": "negative",
+      "code": "Statut équipement mal renseigné"
+    },
+    {
+      "description": "L'inspection impose la création d'une liste formalisée des équipements en phase d'arrêt avec leur statut précis (temporaire, définitif, mis en sécurité).",
+      "excerpts": [
+        "l'exploitant met en place une liste des équipements en phase d'arrêt au sein des installations, ainsi que leur statut (arrêt temporaire, arrêt définitif, mis en sécurité)"
+      ],
+      "valence": "neutral",
+      "code": "Liste de suivi d'équipements exigée"
+    },
+    {
+      "description": "Des contrôles de continuité n'ont pas pu être réalisés dans les zones ATEX par inaccessibilité, laissant un angle mort sur les risques liés à l'électricité statique dans des zones explosives.",
+      "excerpts": [
+        "Contrôle de continuité non effectué (Zone ATEX).",
+        "l'exploitant transmet l'avis d'un organisme compétent sur les mesures prises pour prévenir les risques liés aux effets de l'électricité statique et des courants vagabonds"
+      ],
+      "valence": "negative",
+      "code": "Risques électriques en zone ATEX"
+    },
+    {
+      "description": "L'exploitant fait réaliser des contrôles thermographiques Q19 deux fois par an, témoignant d'une pratique de maintenance préventive supérieure aux exigences minimales.",
+      "excerpts": [
+        "L'exploitant fait également réaliser des contrôles thermographiques (Q19) tous les six mois."
+      ],
+      "valence": "positive",
+      "code": "Contrôles thermographiques semestriels"
+    },
+    {
+      "description": "L'inspection avertit formellement que le défaut de transmission des éléments demandés exposera l'exploitant à des suites administratives de type mise en demeure.",
+      "excerpts": [
+        "L'absence de transmission des éléments supra expose l'exploitant à des suites administratives de type mise en demeure."
+      ],
+      "valence": "negative",
+      "code": "Menace de mise en demeure explicite"
+    },
+    {
+      "description": "Au jour de l'inspection, 67 % des observations du Q18 avaient été soldées, montrant une progression réelle mais une mise en conformité encore incomplète.",
+      "excerpts": [
+        "Le jour de l'inspection, 67 % des actions avaient été soldées sur 23 observations."
+      ],
+      "valence": "mixed",
+      "code": "Plan d'action partiel en cours"
+    }
+  ]
+}

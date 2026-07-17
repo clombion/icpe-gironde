@@ -1,0 +1,32 @@
+Constats body:
+Constat du 21 décembre 2021 :
+
+Concernant le système de sécurité incendie, il a été vérifié, d'après le registre de sécurité, le 18
+mars 2021. Cependant, une intervention a également été réalisée, le 27 janvier 2021, d'après ce
+même registre.
+La vérification de système de sécurité n'est pas à jour. L'exploitant précise la date de la dernière
+vérification du système de sécurité incendie et transmet le rapport à l'inspection des installations
+classées.
+Certains des locaux techniques ou armoires techniques (tableaux électriques, chaudières...) ne
+sont pas équipés de détection.
+L'exploitant  équipe  l'ensemble  des  locaux  techniques  et  armoires  techniques  de  détection
+incendie. En outre, il procède à l'identification de l'ensemble de ces équipements et les faits
+vérifier.
+Constat du 3 janvier 2023 :
+La vérification du système de sécurité incendie a été réalisée, le 5 juillet 2022, par l'entreprise
+SEMAS. En ce qui concerne les locaux (chaufferie) l'exploitant a indiqué ne pas avoir mis en place
+de détection incendie, car le système de chauffage va être remplacé prochainement.
+L"exploitant installe une détection incendie dans la chaufferie sauf si la mise en place de son
+nouveau système de chauffage intervient dans les 6 mois.
+
+Prescription:
+Chaque  local  technique,  armoire  technique  ou  partie  de  l’installation  recensée  selon  tes
+dispositions de l’article 8.1.1 en raison des conséquences d’un sinistre susceptible de se produire
+dispose d’un dispositif de détection de substance particulière/fumée. L'exploitant dresse la liste de
+ces  détecteurs  avec  leur  fonctionnalité  et  détermine  lesopérations  d’entretien  destinées  à
+maintenir leur efficacité dans le temps.L'exploitant est en mesure de démontrer la pertinence du
+dimensionnement retenu pour les dispositifs de détectionet le cas échéant d’extinction. Il organise
+à fréquence semestrielle au  minimum des vérifications de maintenance etdes  tests  dont  les
+comptes-rendus  sont  tenus  à  disposition  de  l’inspection  des  installations  classées.En  cas
+d’installation de systèmes d’extinction automatique d’incendie, ceux-ci sont conçus, installés et
+entretenusrégulièrement conformément aux référentiels reconnus.

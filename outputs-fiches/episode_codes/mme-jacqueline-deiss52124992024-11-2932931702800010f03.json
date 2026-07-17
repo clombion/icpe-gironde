@@ -1,0 +1,58 @@
+{
+  "document_date": "2024-11-29",
+  "document_title": "mme-jacqueline-deiss52124992024-11-2932931702800010f03",
+  "codes": [
+    {
+      "description": "Aucune trace de notification de cessation d'activité de l'ancienne station service n'a été retrouvée, soulevant la question de la remise en état réglementaire de 1991.",
+      "excerpts": [
+        "Aucune trace de notification de cessation d'activité ou de récépissé n'a été retrouvée par l'Inspection."
+      ],
+      "valence": "negative",
+      "code": "Cessation sans notification archive perdue"
+    },
+    {
+      "description": "Une contamination de l'eau du robinet dans des commerces proches a été détectée en 2013, résolue provisoirement puis définitivement par remplacement de canalisations, mais son origine sol n'a jamais été établie.",
+      "excerpts": [
+        "La problématique de contamination de l'eau du robinet à certains robinets de commerces installés à l'adresse de l'ancienne station service, détectée en 2013, a été résolue en 2014"
+      ],
+      "valence": "negative",
+      "code": "Contamination eau potable passée"
+    },
+    {
+      "description": "La présence d'anciens évents visibles et de tubes sectionnés cohérents avec les plans de 1982 renforce l'hypothèse que des cuves d'hydrocarbures sont toujours enfouies sous la parcelle.",
+      "excerpts": [
+        "La visite sur site a également permis de constater la présence sur le site d'anciens évents qui seraient ceux déjà annotés sur le plan de 1982",
+        "la présence d'une pente (voir photo 5) et sur la partie la plus élevée, la présence de deux traces métallique s'apparentant à des tubes sectionnés"
+      ],
+      "valence": "negative",
+      "code": "Indices cuves enterrées identifiés"
+    },
+    {
+      "description": "Des travaux de raccordement gaz en 2016 ont été abandonnés suite à la découverte de traces noires dans le sol, constituant un indice indirect de pollution aux hydrocarbures.",
+      "excerpts": [
+        "des travaux de raccordement du gaz pour le restaurant avaient débuté vers 2016 mais qu'ils avaient été abandonnés suite à la découverte de traces noires (possibilité d'hydrocarbures) dans le sol."
+      ],
+      "valence": "negative",
+      "code": "Traces noires sol lors travaux gaz"
+    },
+    {
+      "description": "Face à un faisceau d'indices convergents vers une pollution, l'inspection décide de solliciter l'ADEME pour réaliser un pré-diagnostic, en l'absence d'exploitant clairement identifiable.",
+      "excerpts": [
+        "l'inspection va solliciter l'ADEME en vue d'un pré-diagnostic sur cette parcelle."
+      ],
+      "valence": "neutral",
+      "code": "Pré-diagnostic ADEME sollicité"
+    },
+    {
+      "description": "La parcelle a été reconvertie en zone commerciale avec 4 commerces et habitation, sans que la remise en état réglementaire de l'ancienne station service ait été effectuée.",
+      "excerpts": [
+        "La visite du site a permis de constater les constructions effectives de 4 commerces sur la parcelle"
+      ],
+      "valence": "negative",
+      "code": "Reconversion commerciale sans dépollution"
+    }
+  ],
+  "document_summary": "Inspection d'une ancienne station service fermée vers 1991 dont la remise en état n'est pas documentée. Un faisceau d'indices (évents visibles, contamination eau 2013, traces noires lors de travaux 2016) converge vers une pollution aux hydrocarbures sous une parcelle aujourd'hui occupée par des commerces et une maison d'habitation.",
+  "surprises": "L'existence de plans manuscrits datant de 1982 dans les archives de l'inspection permet de localiser précisément les cuves et de croiser avec les observations de terrain — un travail d'archéologie industrielle inhabituel dans une inspection ICPE.",
+  "tensions": "Tension entre l'urgence sanitaire potentielle (pollution sous des commerces et une habitation occupée) et l'impossibilité d'agir sans diagnostic, l'exploitant d'origine étant introuvable et la responsabilité restant à établir plus de 30 ans après la fermeture."
+}

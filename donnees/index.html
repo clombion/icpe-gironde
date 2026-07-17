@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Documentation — ICPE en Gironde</title>
+<meta name="description" content="Méthodologie et catalogue des données du cahier d'enquête ICPE en Gironde.">
+
+<!-- CSP — local + jsdelivr for marked.js (methodology rendering). -->
+<meta http-equiv="Content-Security-Policy"
+      content="default-src 'none';
+               script-src 'self' https://cdn.jsdelivr.net;
+               style-src 'self' 'unsafe-inline';
+               img-src 'self' data:;
+               connect-src 'self';
+               font-src 'self' data:;">
+
+<link rel="stylesheet" href="../shared/tokens.css?v=11">
+<link rel="stylesheet" href="style.css?v=11">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead__label">Cahier d'enquête</div>
+  <h1 class="masthead__title">Documentation</h1>
+  <p class="masthead__meta">
+    <span><a href="../">← retour à l'accueil</a></span>
+    <span class="meta-sep">·</span>
+    <span id="header-stats">…</span>
+  </p>
+  <nav class="tab-nav" id="tab-nav">
+    <button class="tab-nav__btn active" data-tab="methodo" type="button">Méthodologie</button>
+    <button class="tab-nav__btn" data-tab="catalogue" type="button">Catalogue des colonnes</button>
+  </nav>
+</header>
+
+<!-- Tab: Méthodologie -->
+<div class="tab-panel" id="panel-methodo">
+  <div class="md-content" id="methodo-content">
+    <div class="loading"><div class="loading__spinner"></div><span>Chargement…</span></div>
+  </div>
+  <button class="back-to-top" id="back-to-top" hidden aria-label="Retour en haut">↑</button>
+</div>
+
+<!-- Tab: Catalogue des colonnes -->
+<div class="tab-panel" id="panel-catalogue" hidden>
+  <div class="page">
+    <aside class="sidebar" aria-label="Navigation des fichiers">
+      <h2 class="sidebar__title">Fichiers</h2>
+      <nav id="sidebar-nav"></nav>
+    </aside>
+
+    <main class="content" id="content">
+      <p class="loading">Chargement du catalogue…</p>
+    </main>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>
+    Documentation des colonnes maintenue collectivement via le helper
+    <code>scripts/_metadonnees_util.py</code> et écrite dans
+    <code>carte/data/metadonnees_colonnes.csv</code>. Les échantillons
+    sont calculés par <code>scripts/build_metadata_samples.py</code>.
+  </p>
+</footer>
+
+<script src="../shared/util.js?v=11"></script>
+<script src="app.js?v=12"></script>
+<script type="module" src="methodo.js?v=12"></script>
+</body>
+</html>

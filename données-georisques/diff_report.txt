@@ -1,0 +1,23 @@
+# Comparaison bulk Géorisques vs CSV manuel
+
+date            : 2026-04-08T18:41:02
+bulk            : données-georisques/InstallationClassee.csv
+manuel          : carte/liste-icpe-gironde.csv
+
+bulk            :  2890 installations
+manuel          :  2888 installations
+en commun       :  2886
+uniquement bulk :     4
+uniquement manuel :   2
+
+## Présent dans le bulk, absent du CSV manuel
+
+- 0003107089 | GARDIER Micheline (station-service) | Bègles | Non ICPE | 
+- 0100303610 | EUROVIA GRANDS PROJETS FRANCE | St Christoly de Blaye | Enregistrement | En exploitation avec titre
+- 0100310802 | VILELA | Cubzac les Ponts | Non ICPE | 
+- 0100311490 | KAN'MOOV | Macau | Non ICPE | 
+
+## Présent dans le CSV manuel, absent du bulk
+
+- 5207675 | SEMOCTOM | INSEE 33433 | AUTRE
+- 53326672 | PESA | INSEE 33409 | AUTRE

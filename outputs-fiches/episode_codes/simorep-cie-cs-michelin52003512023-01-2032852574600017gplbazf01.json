@@ -1,0 +1,34 @@
+{
+  "document_date": "2023-01-20",
+  "document_title": "simorep-cie-cs-michelin52003512023-01-2032852574600017gplbazf01",
+  "codes": [
+    {
+      "description": "Les constats et la réglementation applicable renvoient à une « partie confidentielle » non accessible dans ce corpus, indiquant un niveau de sensibilité particulier pour ce site industriel.",
+      "excerpts": [
+        "Voir partie confidentielle",
+        "Article 1 : Réglementation applicable\nVoir partie confidentielle"
+      ],
+      "valence": "neutral",
+      "code": "Données confidentielles masquées"
+    },
+    {
+      "description": "La méthode de suivi des écarts repose sur plusieurs outils hétérogènes (Operguid, papier, mails, GMAO) sans intégration unifiée, ce qui interroge sur la capacité à garantir le traitement exhaustif des actions.",
+      "excerpts": [
+        "la méthode de suivi des constats de non conformité, tracés dans les procédures Operguid et sur des feuilles papiers, et de leur traitement, gérés par mails avant une saisie GMAO, interrogent sur la qualité de ce suivi et la capacité à bien suivre les travaux à effectuer."
+      ],
+      "valence": "negative",
+      "code": "Suivi non-conformités fragmenté"
+    },
+    {
+      "description": "La multiplicité des supports de suivi crée un risque de perte ou de désynchronisation d'information entre la détection d'un écart et son traitement formalisé en GMAO.",
+      "excerpts": [
+        "la méthode de suivi des constats de non conformité, tracés dans les procédures Operguid et sur des feuilles papiers, et de leur traitement, gérés par mails avant une saisie GMAO"
+      ],
+      "valence": "negative",
+      "code": "Risque de perte information suivi"
+    }
+  ],
+  "document_summary": "Fiche d'inspection du site SIMOREP (Michelin) dont les constats principaux et la réglementation applicable sont confidentiels ; seule une observation générale est visible, portant sur la fragilité du système de suivi des non-conformités qui combine des outils papier, des mails et une GMAO de façon non intégrée.",
+  "surprises": "La partie confidentielle masque l'essentiel du contenu technique, rendant le corpus quasi-opaque — ce qui est en soi un indicateur du niveau de sensibilité du site (SEVESO).",
+  "tensions": "Un site industriel à haut risque (SEVESO, d'après le contexte) présente un système de suivi des écarts fondé sur des mails et du papier avant saisie GMAO — décalage entre le niveau de risque et la robustesse des outils de gestion."
+}

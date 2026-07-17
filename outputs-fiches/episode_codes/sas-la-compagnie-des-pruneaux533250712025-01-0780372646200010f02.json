@@ -1,0 +1,25 @@
+{
+  "document_date": "2025-01-07",
+  "document_title": "sas-la-compagnie-des-pruneaux533250712025-01-0780372646200010f02",
+  "document_summary": "L'inspection de la Compagnie des Pruneaux constate la conformité des voies de circulation et aires de stationnement : elles sont aménagées, propres et sans envols de poussières ni matières diverses.",
+  "surprises": "",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "Les voies de circulation et aires de stationnement sont correctement aménagées et propres, sans envols de poussières ou de matières diverses.",
+      "excerpts": [
+        "Les voies de circulation et aires de stationnement des véhicules sont aménagées et propres. Absence d'envols de poussières et matières diverses."
+      ],
+      "valence": "positive",
+      "code": "Conformité voies de circulation"
+    },
+    {
+      "description": "La prescription impose un ensemble de mesures pour prévenir les envols de poussières : aménagement des voies, nettoyage, lavage des roues, végétalisation.",
+      "excerpts": [
+        "les voies de circulation et aires de stationnement des véhicules sont aménagées (formes de pente, revêtement, etc.) et convenablement nettoyées ; les véhicules sortant de l'installation n'entraînent pas de dépôt de poussière ou de boue sur les voies de circulation."
+      ],
+      "valence": "neutral",
+      "code": "Prévention des envols de poussières"
+    }
+  ]
+}

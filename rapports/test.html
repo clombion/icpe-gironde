@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>rapports/lib.js tests</title>
+</head>
+<body>
+<h1>rapports/lib.js — tests</h1>
+<pre id="output"></pre>
+<script type="module">
+import {
+  parseFicheIdFromHash,
+  buildPdfUrl,
+  buildSqlLikePattern,
+  canvasCoordinatesFromBbox,
+  formatSearchResult,
+} from './lib.js';
+
+const output = document.getElementById('output');
+let passed = 0;
+let failed = 0;
+
+function assert(condition, message) {
+  if (condition) {
+    passed++;
+    output.textContent += '  ✓ ' + message + '\n';
+  } else {
+    failed++;
+    output.textContent += '  ✗ FAIL: ' + message + '\n';
+  }
+}
+
+function assertEqual(actual, expected, message) {
+  const match = JSON.stringify(actual) === JSON.stringify(expected);
+  assert(match, message + (match ? '' : ` (got ${JSON.stringify(actual)}, expected ${JSON.stringify(expected)})`));
+}
+
+// --- parseFicheIdFromHash ---
+
+assertEqual(parseFicheIdFromHash('#ACME_123_f01'), 'ACME_123_f01', 'parseFicheId: standard fiche');
+assertEqual(parseFicheIdFromHash('#ACME_123_prose'), 'ACME_123_prose', 'parseFicheId: prose');
+assertEqual(parseFicheIdFromHash('#'), null, 'parseFicheId: empty hash');
+assertEqual(parseFicheIdFromHash(''), null, 'parseFicheId: no hash');
+assertEqual(parseFicheIdFromHash('#random'), null, 'parseFicheId: invalid format');
+
+// --- buildPdfUrl ---
+
+assertEqual(
+  buildPdfUrl('https://example.com/report.pdf', 3),
+  'https://example.com/report.pdf#page=3',
+  'buildPdfUrl: page 3',
+);
+assertEqual(
+  buildPdfUrl('https://example.com/report.pdf', 0),
+  'https://example.com/report.pdf#page=1',
+  'buildPdfUrl: page 0 clamped to 1',
+);
+assertEqual(buildPdfUrl('', 1), '', 'buildPdfUrl: empty URL');
+
+// --- buildSqlLikePattern ---
+
+assertEqual(buildSqlLikePattern('amiante'), '%amiante%', 'SQL LIKE: simple');
+assertEqual(buildSqlLikePattern('100%'), '%100\\%%', 'SQL LIKE: escapes %');
+assertEqual(buildSqlLikePattern('a_b'), '%a\\_b%', 'SQL LIKE: escapes _');
+assertEqual(buildSqlLikePattern(''), '%%', 'SQL LIKE: empty');
+
+// --- canvasCoordinatesFromBbox ---
+
+const coords = canvasCoordinatesFromBbox(
+  [100, 200, 400, 600],
+  { width: 595, height: 842 },
+  { width: 500, height: 380 },
+  0.15,
+);
+assert(coords !== null, 'canvasCoords: returns object');
+assert(coords.sx >= 0, 'canvasCoords: sx >= 0');
+assert(coords.sy >= 0, 'canvasCoords: sy >= 0');
+assert(coords.sw > 0, 'canvasCoords: sw > 0');
+assert(coords.sh > 0, 'canvasCoords: sh > 0');
+assert(coords.dw <= 500, 'canvasCoords: dw fits canvas');
+assert(coords.dh <= 380, 'canvasCoords: dh fits canvas');
+
+assertEqual(canvasCoordinatesFromBbox(null, {}, {}, 0), null, 'canvasCoords: null bbox');
+assertEqual(canvasCoordinatesFromBbox([], {}, {}, 0), null, 'canvasCoords: empty bbox');
+
+// --- formatSearchResult ---
+
+const fmt = formatSearchResult({
+  titre: 'Stockage des déchets',
+  nom_commune: 'Bordeaux',
+  date_inspection: '2024-03-15',
+  type_suite: 'Mise en demeure',
+});
+assertEqual(fmt.title, 'Stockage des déchets', 'format: title');
+assert(fmt.subtitle.includes('Bordeaux'), 'format: subtitle has commune');
+assert(fmt.subtitle.includes('2024-03-15'), 'format: subtitle has date');
+assertEqual(fmt.badge, 'Mise en demeure', 'format: badge');
+
+const fmtProse = formatSearchResult({ titre: null, nom_commune: null, date_inspection: '', type_suite: null });
+assertEqual(fmtProse.title, '(rapport complet)', 'format prose: fallback title');
+
+// --- Summary ---
+
+output.textContent += '\n' + passed + ' passed, ' + failed + ' failed\n';
+document.title = failed === 0
+  ? '✓ rapports/lib.js — all passed'
+  : '✗ rapports/lib.js — ' + failed + ' FAILED';
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+{
+  "document_date": "2022-12-05",
+  "document_title": "lafarge-granulats-lg-abzac31048412022-12-0556211088201575f04",
+  "codes": [
+    {
+      "description": "Le caractère inopiné de l'inspection a empêché la fourniture de documentation sur les protocoles, révélant une tension entre surprise inspectrale et préparation administrative.",
+      "excerpts": [
+        "Compte-tenu du caractère inopinée de l'inspection, la documentation relative aux protocoles de suivi et d'abattage n'a pu être fournie."
+      ],
+      "valence": "negative",
+      "code": "Inspection inopinée limite documentaire"
+    },
+    {
+      "description": "L'exploitant déclare avoir respecté les préconisations de l'écologue pour le défrichement, sans pouvoir en apporter la preuve documentaire sur le moment.",
+      "excerpts": [
+        "l'exploitant déclare avoir procédé au défrichement selon les principes définis par l'écologue."
+      ],
+      "valence": "mixed",
+      "code": "Défrichement selon principes écologue"
+    },
+    {
+      "description": "L'inspection constate in situ des mesures de protection pour les chiroptères et le Grand Capricorne, avec marquage d'arbres et installation de troncs favorables aux insectes.",
+      "excerpts": [
+        "le marquage des arbres concernés par le contrôle de la présence de chiroptères a été observé, ainsi que les troncs d'arbre à grand Capricorne, installés de manière à laisser l'accès aux galeries pour les insectes."
+      ],
+      "valence": "positive",
+      "code": "Protection espèces protégées observée"
+    },
+    {
+      "description": "L'inspection demande des justificatifs et un plan d'avancement du défrichement, soulignant l'importance de la traçabilité des opérations écologiques dans le temps.",
+      "excerpts": [
+        "Il est demandé à l'exploitant de fournir les justificatifs relatif au suivi du défrichement par l'écologue et aux dates de coupe. Un plan permettant de repérer l'avancée du défrichement est également à transmettre"
+      ],
+      "valence": "neutral",
+      "code": "Journal de bord à documenter"
+    },
+    {
+      "description": "Le défrichement est encadré par un calendrier écologique strict (septembre-février) pour minimiser l'impact sur la faune, illustrant l'intégration des enjeux naturalistes dans la planification extractive.",
+      "excerpts": [
+        "Le défrichement est réalisé de manière progressive selon le phasage d'exploitation et entre les mois de septembre et février."
+      ],
+      "valence": "positive",
+      "code": "Phasage saisonnier défrichement"
+    },
+    {
+      "description": "Un protocole spécifique encadre l'abattage des arbres gîtes à chiroptères, témoignant d'une approche différenciée selon les espèces présentes.",
+      "excerpts": [
+        "Un protocole d'abattage des arbres favorables aux gîtes à chiroptères est décliné."
+      ],
+      "valence": "positive",
+      "code": "Protocole abattage arbres à chiroptères"
+    }
+  ],
+  "document_summary": "Inspection inopinée d'une carrière Lafarge à Abzac contrôlant le suivi écologique du défrichement. Des mesures de protection pour les chiroptères et le Grand Capricorne sont constatées sur le terrain, mais la documentation de suivi n'est pas disponible lors de la visite en raison de son caractère inopiné.",
+  "surprises": "La présence d'une fiche dédiée au Grand Capricorne (coléoptère protégé) et aux chiroptères avec protocoles spécifiques d'abattage témoigne d'un niveau d'intégration de la biodiversité inhabituel pour une carrière de granulats.",
+  "tensions": "Tension entre l'utilité opérationnelle de l'inspection inopinée (surprise garantissant l'authenticité) et l'impossibilité structurelle de produire de la documentation sur le moment, ce qui fragilise le constat de conformité."
+}

@@ -1,0 +1,41 @@
+{
+  "document_date": "2022-06-03",
+  "document_title": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f06",
+  "codes": [
+    {
+      "description": "Le prélèvement pour analyse en Légionella après le redémarrage d'une tour aéroréfrigérante a été réalisé hors délai réglementaire (8 jours au lieu de 48h-1 semaine).",
+      "excerpts": [
+        "Le rapport d'analyses établi par le laboratoire des Pyrénées et des Landes indique une date de prélèvement du 24 mai 2022 soit 8 jours après le redémarrage de l'installation. Le délai réglementaire n'est donc pas respecté."
+      ],
+      "valence": "negative",
+      "code": "Délai analyse Legionella non respecté"
+    },
+    {
+      "description": "L'exploitant n'effectuant pas lui-même les prélèvements, il est tributaire des disponibilités de son prestataire (Aqua+), ce qui peut entraîner des délais non conformes.",
+      "excerpts": [
+        "L'exploitant qui ne réalise pas directement ses prélèvements, est tributaire des disponibilités des techniciens d'Aqua+ qui sont les préleveurs, ce qui peut conduire à des délais non respectés."
+      ],
+      "valence": "negative",
+      "code": "Dépendance prestataire pour prélèvements"
+    },
+    {
+      "description": "L'inspecteur demande à l'exploitant de s'organiser en amont pour garantir des prélèvements dans les délais lors des prochains redémarrages.",
+      "excerpts": [
+        "l'exploitant s'organise pour que les prélèvements pour les analyses en Légionella, suite à un redémarrage tel que décrit ci-dessus soient réalisés pendant la période adéquate."
+      ],
+      "valence": "neutral",
+      "code": "Organisation interne à améliorer"
+    },
+    {
+      "description": "Le contexte est celui d'un redémarrage saisonnier d'une tour aéroréfrigérante, moment critique pour le risque légionelle.",
+      "excerpts": [
+        "Dans un délai d'au moins quarante-huit heures et d'au plus une semaine après tout redémarrage intervenant après un arrêt prolongé ou redémarrage saisonnier, une analyse en Legionella pneumophila est réalisée."
+      ],
+      "valence": "neutral",
+      "code": "Tour aéroréfrigérante redémarrage saisonnier"
+    }
+  ],
+  "document_summary": "L'inspection de la bibliothèque Mériadeck (Bordeaux) porte sur une tour aéroréfrigérante : l'analyse Legionella post-redémarrage a été réalisée hors délai réglementaire (8 jours) en raison de l'indisponibilité du prestataire de prélèvement.",
+  "surprises": "Une bibliothèque publique comme opérateur d'installation ICPE (tour aéroréfrigérante) illustre la diversité des sites soumis à la réglementation des installations classées.",
+  "tensions": "La non-conformité est causée par une dépendance à un prestataire externe — l'exploitant reconnaît la contrainte mais n'a pas anticipé l'organisation nécessaire."
+}

@@ -1,0 +1,33 @@
+{
+  "document_date": "2022-11-08",
+  "document_title": "auchan-bdx-lac-station-service52005392022-11-0847618062500479f04",
+  "codes": [
+    {
+      "description": "L'exploitant doit démontrer que les risques d'incendie et d'explosion liés aux cuves de l'ancienne station-service ont été supprimés.",
+      "excerpts": [
+        "L'exploitant n'a pas démontré que les risques d'incendie et d'explosion liés à l'ancienne station service ont bien tous été retirées (3 cuves hydrocarbures et 1 cuve GPL)."
+      ],
+      "valence": "negative",
+      "code": "Retrait cuves preuve exigée"
+    },
+    {
+      "description": "L'exploitant fournit les éléments attestant que les quatre cuves ont été retirées, levant le risque incendie/explosion.",
+      "excerpts": [
+        "L'exploitant fournit les éléments attestant que les 3 cuves d'hydrocarbures et celle de GPL ont bien été retirées du site et ne constituent donc plus un risque."
+      ],
+      "valence": "positive",
+      "code": "Preuve fournie de mise en sécurité"
+    },
+    {
+      "description": "La mise en sécurité après arrêt d'activité comprend obligatoirement la suppression des risques d'incendie et d'explosion.",
+      "excerpts": [
+        "3° La suppression des risques d'incendie et d'explosion."
+      ],
+      "valence": "neutral",
+      "code": "Suppression risques post-cessation"
+    }
+  ],
+  "document_summary": "Lors de l'inspection post-cessation d'activité de la station Auchan Bordeaux Lac, l'exploitant ne pouvait initialement pas prouver le retrait des cuves ; il a finalement fourni les attestations confirmant la suppression de toutes les cuves hydrocarbures et GPL.",
+  "surprises": "",
+  "tensions": "La fiche présente une première situation de non-conformité (preuve manquante) immédiatement résolue par la transmission de documents — la non-conformité est procédurale plutôt que physique."
+}

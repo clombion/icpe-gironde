@@ -1,0 +1,33 @@
+{
+  "document_date": "2024-09-27",
+  "document_title": "domofrance-pessac-rue-de-la-ramee1000562782024-09-2792819232700015f08",
+  "document_summary": "Le rapport de contrôle périodique d'une installation de combustion (Domofrance Pessac) signale une non-conformité sur l'absence de surveillance humaine permanente, mais un dispositif d'astreinte en tient lieu et la levée est intégrée au suivi du contrôle périodique.",
+  "surprises": "",
+  "tensions": "La réglementation exige une surveillance permanente, mais admet une dérogation par astreinte si certaines conditions sont remplies — la non-conformité formelle est donc discutable puisque l'installation pourrait entrer dans le cadre dérogatoire.",
+  "codes": [
+    {
+      "description": "Le contrôle périodique identifie l'absence de surveillance humaine permanente comme non-conformité, bien que l'installation dispose d'un dispositif d'astreinte.",
+      "excerpts": [
+        "Le rapport de contrôle périodique indique une non conformité. En effet, l'exploitation de l'installation ne dispose pas d'une surveillance humaine permanente"
+      ],
+      "valence": "negative",
+      "code": "Non-conformité surveillance permanente"
+    },
+    {
+      "description": "Un dispositif d'astreinte permet au personnel d'être informé en permanence des anomalies, constituant potentiellement la dérogation réglementaire admise à la surveillance continue.",
+      "excerpts": [
+        "Un dispositif d'astreinte permet au personnel opérationnel d'être informé de manière permanente en cas d'anomalies ou de défauts de l'installation"
+      ],
+      "valence": "neutral",
+      "code": "Dispositif astreinte comme substitut surveillance"
+    },
+    {
+      "description": "La non-conformité identifiée est traitée dans le cadre du processus de suivi du contrôle périodique, sans procédure administrative distincte.",
+      "excerpts": [
+        "La levée de cette non conformité est traitée dans le cadre du suivi du contrôle périodique (cf. point de contrôle n°3)"
+      ],
+      "valence": "neutral",
+      "code": "Levée intégrée au suivi contrôle périodique"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "document_date": "2025-02-18",
+  "document_title": "green-pressing-dlt1002859702025-02-1880006309100030f02",
+  "document_summary": "L'inspection constate une chaîne de changements d'exploitants non déclarés pour un pressing à Léognan. La société actuelle (GREEN PRESSING DLT) n'a pas repris l'activité de nettoyage à sec, mais un intermédiaire (M. et Mme MECIF) n'a jamais déclaré son passage. La cessation d'activité sous la rubrique 2345-2 doit être régularisée.",
+  "surprises": "Un pressing qui a changé d'exploitant au moins deux fois sans déclaration pour un des passages (MECIF), créant une chaîne de traçabilité administrative rompue.",
+  "tensions": "La société GREEN PRESSING DLT est présente dans les locaux mais déclare ne pas avoir repris l'activité classée de son prédécesseur immédiat non déclaré — situation où le titulaire apparent n'est pas le responsable légal de la cessation.",
+  "codes": [
+    {
+      "description": "Un changement d'exploitant intermédiaire (M. et Mme MECIF) n'a jamais été déclaré au préfet, créant une rupture dans la traçabilité administrative des exploitants successifs.",
+      "excerpts": [
+        "Aucune déclaration de changement d'exploitant n'est enregistrée au bénéfice de Monsieur et Madame MECIF pour l'exploitation du Pressing avant la reprise par GREEN PRESSING DLT."
+      ],
+      "valence": "negative",
+      "code": "Changement exploitant non déclaré"
+    },
+    {
+      "description": "La réglementation impose au nouvel exploitant de déclarer le changement d'exploitant au préfet dans le mois suivant la prise en charge.",
+      "excerpts": [
+        "Lorsque l'installation change d'exploitant, le nouvel exploitant ou son représentant en fait la déclaration au préfet dans le mois qui suit la prise en charge de l'exploitation."
+      ],
+      "valence": "neutral",
+      "code": "Obligation déclaration dans le mois"
+    },
+    {
+      "description": "La cessation de l'activité classée sous rubrique 2345-2 (nettoyage à sec) n'est pas formalisée car le dernier exploitant légal n'a pas procédé aux déclarations requises.",
+      "excerpts": [
+        "Pour finaliser la cessation d'activité, il appartient au dernier exploitant de l'activité classée sous la rubrique 2345-2 de déclarer le changement d'exploitant et la cessation d'activité."
+      ],
+      "valence": "negative",
+      "code": "Cessation activité non finalisée"
+    },
+    {
+      "description": "L'activité classée sous rubrique 2345-2 a été transférée lors du premier changement (2009), donnant lieu à un récépissé, mais les transferts ultérieurs n'ont pas suivi la même procédure.",
+      "excerpts": [
+        "Ce changement a été déclaré et donné lieu à un récépissé du 1er octobre 2009. L'activité classée au titre de la rubrique 2345-2 a été transférée."
+      ],
+      "valence": "mixed",
+      "code": "Transfert activité classée"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "document_date": "2022-11-16",
+  "document_title": "suez-rv-sud-ouest-btp-ex-adp52089112022-11-1649470681500011f02",
+  "codes": [
+    {
+      "description": "L'exploitant invoque une exemption réglementaire pour les installations temporaires (< 6 mois) alors que ses installations sont pérennes, relevant d'une rubrique différente pour laquelle l'exemption ne s'applique pas.",
+      "excerpts": [
+        "l'exemption de contrôle des retombées de poussières prévue par l'arrêté du 26/11/2012 s'applique pour les installations fonctionnant sur une période unique d'une durée inférieures à 6 mois c'est à dire pour des installations temporaires soumises à enregistrement au titre de la rubrique 2515 b)"
+      ],
+      "valence": "negative",
+      "code": "Exemption mal interprétée"
+    },
+    {
+      "description": "La distinction entre la rubrique 2515 a) (installations pérennes, soumises à la surveillance des poussières) et 2515 b) (temporaires, exemptées) est centrale dans la résolution de l'écart.",
+      "excerpts": [
+        "Or les installations exploitées par Suez sont des installations pérennes soumises à enregistrement sous la rubrique 2515 a) et donc, le contrôle des retombées de poussières est bel et bien applicable."
+      ],
+      "valence": "neutral",
+      "code": "Distinction rubrique 2515 a/b"
+    },
+    {
+      "description": "L'exploitant ne surveille pas les retombées atmosphériques autour du site, en violation de l'obligation de mise en place d'un réseau de mesure depuis au moins 6 mois.",
+      "excerpts": [
+        "L'exploitant ne surveille pas les retombées de poussières autour du site"
+      ],
+      "valence": "negative",
+      "code": "Surveillance retombées poussières absente"
+    },
+    {
+      "description": "La prescription impose un réseau de mesure des retombées par jauges ou plaquettes, avec un point de bruit de fond, dont les caractéristiques sont définies dans le dossier d'enregistrement.",
+      "excerpts": [
+        "Il met en place un réseau permettant de mesurer le suivi de ces retombées de poussières dans l'environnement. Ce suivi est réalisé par la méthode des jauges de retombées ou à défaut, pour les installations existantes, par la méthode des plaquettes de dépôt."
+      ],
+      "valence": "neutral",
+      "code": "Réseau surveillance atmosphérique"
+    },
+    {
+      "description": "L'exploitant propose lui-même de réaliser une première mesure de retombées, ce qui témoigne d'une certaine bonne foi mais ne résout pas le problème réglementaire de fond.",
+      "excerpts": [
+        "L'exploitant a toutefois proposé d'effectuer une première mesure de retombées."
+      ],
+      "valence": "mixed",
+      "code": "Proposition spontanée mesure exploitant"
+    }
+  ],
+  "document_summary": "Inspection d'un site de traitement de matériaux BTP (Suez RV Sud-Ouest, ex ADP) portant sur la surveillance des retombées de poussières : l'exploitant avait contesté l'obligation en invoquant une exemption pour installations temporaires, mais cette exemption ne s'applique pas à ses installations pérennes. La mise en place d'un réseau de mesure est requise.",
+  "surprises": "L'exploitant a tenté de s'exonérer d'une obligation de surveillance environnementale en argumentant sur une subtilité de rubrique réglementaire — stratégie d'évitement juridique rare dans ce corpus.",
+  "tensions": "L'exploitant fonctionne de manière discontinue et pour des durées inférieures à 6 mois par an, ce qui l'amène logiquement à se croire visé par l'exemption, mais la permanence de l'installation (classée 2515 a) prime sur le mode de fonctionnement discontinu."
+}

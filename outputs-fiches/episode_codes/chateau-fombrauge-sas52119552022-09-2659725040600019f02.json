@@ -1,0 +1,25 @@
+{
+  "document_date": "2022-09-26",
+  "document_title": "chateau-fombrauge-sas52119552022-09-2659725040600019f02",
+  "document_summary": "L'inspection constate la conformité du château viticole en matière d'esthétique et d'entretien du site, sans aucune observation.",
+  "surprises": "La prescription porte uniquement sur l'esthétique et la propreté du site — un critère inhabituel dans les inspections ICPE qui portent généralement sur des risques environnementaux ou industriels.",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "L'installation est reconnue conforme aux exigences d'entretien et d'esthétique sans qu'aucune observation ne soit formulée.",
+      "excerpts": [
+        "CONFORME"
+      ],
+      "valence": "positive",
+      "code": "Conformité propreté et esthétique site"
+    },
+    {
+      "description": "La prescription applicable porte sur le maintien en bon état de propreté et l'esthétique du site, critère inhabituel dans le cadre d'une inspection ICPE.",
+      "excerpts": [
+        "L'exploitant prend les dispositions nécessaires pour satisfaire à l'esthétique du site. L'ensemble du site doit être maintenu en bon état de propreté"
+      ],
+      "valence": "neutral",
+      "code": "Prescription esthétique site"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "document_date": "2025-05-27",
+  "document_title": "total-marketing-france-merignac-aeroport-de-bordeaux52071012025-05-2753168044500",
+  "codes": [
+    {
+      "description": "Un constat de 2023 révélait l'absence de formation au risque d'explosion malgré une préconisation dans le dossier ATEX de 2004 ; lors de l'inspection de 2025, l'exploitant justifie avoir formé son personnel en 2023 et 2024.",
+      "excerpts": [
+        "aucune formation relative aux risques d'explosions n'a été réalisée.",
+        "L'exploitant a présenté à l'inspection un tableur indiquant que son personnel a bien été formé au risque d'explosion au cours des années 2023 et 2024."
+      ],
+      "valence": "positive",
+      "code": "Formation ATEX absente puis réalisée"
+    },
+    {
+      "description": "Le dossier ATEX datant de 2004 préconisait une formation au risque d'explosion, mais celle-ci n'avait pas été mise en œuvre jusqu'à ce qu'une inspection le signale en 2023, révélant un délai de 19 ans sans suivi.",
+      "excerpts": [
+        "le dossier ATEX - évaluation des risques en date d'août 2004, en pièce annexe de l'étude de dangers, au point 9.2 \"mesures organisationnelles\" préconise une formation des travailleurs vis-à-vis du risque d'explosion"
+      ],
+      "valence": "negative",
+      "code": "Recommandation ATEX non suivie pendant 20 ans"
+    },
+    {
+      "description": "L'exploitant produit un tableur comme preuve documentaire de la réalisation des formations, ce qui est accepté par l'inspection comme justificatif suffisant.",
+      "excerpts": [
+        "L'exploitant a présenté à l'inspection un tableur indiquant que son personnel a bien été formé au risque d'explosion au cours des années 2023 et 2024."
+      ],
+      "valence": "positive",
+      "code": "Tableur comme preuve de formation"
+    },
+    {
+      "description": "La prescription décrit une formation polyvalente permettant la sensibilisation aux risques, la vérification régulière des équipements et la capacité à prendre des mesures préventives.",
+      "excerpts": [
+        "Une formation du personnel lui permet : - d'être sensibilisé aux risques inhérents à ce type d'installation ; - de vérifier régulièrement le bon fonctionnement des divers équipements pour la prévention des risques ; - de prendre les dispositions nécessaires sur le plan préventif"
+      ],
+      "valence": "neutral",
+      "code": "Formation sensibilisation risques installation"
+    }
+  ],
+  "document_summary": "Suivi d'inspection du dépôt carburant de l'aéroport de Bordeaux-Mérignac (Total) : un écart de 2023 sur l'absence de formation ATEX (préconisée dès 2004 mais jamais réalisée) est levé en 2025 après production d'un tableur attestant des formations réalisées en 2023 et 2024.",
+  "surprises": "Une recommandation de l'étude de dangers interne de 2004 est restée sans suite pendant près de 20 ans sur un site aéroportuaire stockant des carburants d'aviation — lacune dans le système de suivi des engagements de l'étude de dangers.",
+  "tensions": "L'étude de dangers fixait une obligation de formation en 2004, mais le suivi de cette obligation était resté dans le dossier annexe sans être intégré au système de gestion de la sécurité — le gap entre la production documentaire et la mise en œuvre opérationnelle."
+}

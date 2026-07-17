@@ -1,0 +1,14 @@
+# Erreurs de téléchargement — run du 2026-04-08T18:41:22
+
+Durables (404 / page d'erreur)      : 1
+Transitoires (timeout, 5xx, réseau) : 0
+
+## Échecs durables
+
+- COREP_5211411_2022-03-17_47120040200041.pdf  (fail_404 : connu dans _404.txt)
+    id_icpe=5211411  identifiant=TMnedBc53Ms35NwiwTPVajRx4R7gdOh1
+    url=https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/TMnedBc53Ms35NwiwTPVajRx4R7gdOh1
+
+## Échecs transitoires (à retenter au prochain run)
+
+_(aucun)_

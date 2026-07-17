@@ -1,0 +1,50 @@
+{
+  "document_date": "2023-09-12",
+  "document_title": "cobogal-compagnie-bordelaise-des-gaz-liquefies52002632023-09-1245620101100016f11",
+  "document_summary": "L'inspection d'un dépôt de gaz liquéfiés révèle un état de corrosion avancé sur les brides horizontales des bras de déchargement wagon des postes 1 et 4, compromettant le niveau de sécurité de ces équipements sous pression.",
+  "surprises": "L'exploitant reconnaît connaître ce problème spécifique aux brides horizontales avant même l'inspection — une vulnérabilité connue mais non encore traitée.",
+  "tensions": "L'exploitant a conscience du problème de corrosion sur les brides horizontales mais n'a pas encore réalisé les inspections et réparations nécessaires — un écart entre la connaissance du risque et l'action corrective.",
+  "codes": [
+    {
+      "description": "Des brides de bras de déchargement présentent un endommagement sévère (feuilletage, cratères de corrosion) compromettant leur intégrité structurelle et le niveau de sécurité.",
+      "excerpts": [
+        "L'endommagement se traduit par le départ de la peinture, un feuilletage métallique friable et des cratères de corrosion sur la surface des brides",
+        "L'état d'endommagement de ces brides ne permet pas d'assurer le niveau de sécurité du bras"
+      ],
+      "valence": "negative",
+      "code": "Corrosion avancée brides bras"
+    },
+    {
+      "description": "La corrosion s'observe spécifiquement sur les brides en position horizontale, une fragilité géométrique reconnue par l'exploitant et non encore intégrée dans le programme de contrôle.",
+      "excerpts": [
+        "ce type d'endommagement ne s'observe que sur les brides horizontales et qu'il a conscience de cette problématique"
+      ],
+      "valence": "negative",
+      "code": "Vulnérabilité orientation horizontale"
+    },
+    {
+      "description": "L'inspection exige que les investigations ne se limitent pas aux quatre brides identifiées mais s'étendent à l'ensemble des bras wagon et camion du site.",
+      "excerpts": [
+        "procède à des investigations sur l'ensemble des bras des autres postes wagon et camion et, dans le cas de découverte d'état de dégradation similaire, réalise les actions correctives en conséquence"
+      ],
+      "valence": "neutral",
+      "code": "Extension inspection à l'ensemble du parc"
+    },
+    {
+      "description": "L'inspection exige l'intégration d'un point de contrôle spécifique des brides horizontales dans le programme de contrôle des tuyauteries.",
+      "excerpts": [
+        "s'assure que la mise à jour du programme de contrôle des tuyauteries couvrant les bras prévoit bien un point de contrôle des brides horizontales"
+      ],
+      "valence": "neutral",
+      "code": "Mise à jour programme contrôle tuyauteries"
+    },
+    {
+      "description": "La prescription rappelle la responsabilité légale de l'exploitant pour l'entretien, la surveillance et les réparations des équipements sous pression, avec obligation de retrait du service si le niveau de sécurité est altéré.",
+      "excerpts": [
+        "L'exploitant est responsable de l'entretien, de la surveillance et des réparations nécessaires au maintien du niveau de sécurité du produit ou de l'équipement. Il retire le produit ou l'équipement du service si son niveau de sécurité est altéré"
+      ],
+      "valence": "neutral",
+      "code": "Responsabilité entretien équipements pression"
+    }
+  ]
+}

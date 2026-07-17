@@ -1,0 +1,38 @@
+Constats body:
+L’exploitant a transmis les surveillances trimestrielles 2022  de la qualité des eaux souterraines réalisés sur  le réseau
+piézométrique du site.
+L’exploitant respecte la fréquence et les paramètres de la surveillance imposée dans l’arrêté préfectoral du 30/03/2018 à
+l'exception de la surveillance sur le piézomètre 22 non réalisée pour le 2ème  et 3ème trimestres 2022. Le rapport précise que
+l'ouvrage Pz22 est bouché à 1,37 m et de ce fait, aucun prélèvement des eaux souterraines pertinents ne peut être effectué.
+Les résultats ne mettent en évidence aucun dépassement des valeurs de référence (AM du 11 janvier 2007 – qualité des eaux
+destinées à la consommation humaine) pour l’indice phénol, les composés métalliques (cadmium, chrome, cuivre, nickel,
+plomb, zinc, mercure), la somme des 6 HAP, la somme des 4 HAP, et le benzène.
+Les dépassements des valeurs de référence sont détectés :
+- sur Pz21 et Pz23bis des dépassements pour le pH,
+- sur PzT5, PzT8, PzD4, PzD13, Pz20 et Pz30, des dépassements pour la conductivité (seuil haut),
+- sur Pz30 un dépassement pour l’arsenic.
+Des traces de chlorures de vinyle sont quantifiées sur les PzT5 et Pz29.
+Pas d'évolution notable de la pollution des eaux souterraines au droit du site.
+Observations:
+L'exploitant veille à remettre en état l'ouvrage Pz22 pour la prochaine campagne de surveillance des eaux souterraines.
+L’inspection des installations classées propose de compléter les prescriptions de l’arrêté de réhabilitation pour y intégrer des
+dispositions sur l’état des ouvrages et sur leur mise en sécurité au terme des travaux de dépollution.
+Un projet d’arrêté préfectoral complémentaire rédigé en ce sens est proposé en annexe de ce rapport.
+
+Prescription:
+La surveillance des effets sur les eaux souterraines est réalisée comme suit :
+Piézomètres surveillés : PZT8, PZ20, PZ21, PZ22, PZ23, PZ28, PZ29, PZ30, PZD4, PZD13, PZT5.
+Un plan intégrant l’ensemble de ces piézomètres est annexé au présent arrêté.
+Type et fréquence de mesure : échantillon ponctuel, mesure trimestrielle.
+Paramètres
+pH
+Oxygène dissous in situ
+Potentiel redox in situ
+conductivité
+COHV (20 composés)
+Métaux (11 composés)
+Indice phénol
+Hydrocarbures totaux
+Hydrocarbures aromatiques polycycliques (16 paramètres)
+BTEX (4 paramètres)
+PCB (7 paramètres)

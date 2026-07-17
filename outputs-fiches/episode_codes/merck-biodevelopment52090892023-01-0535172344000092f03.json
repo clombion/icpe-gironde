@@ -1,0 +1,49 @@
+{
+  "document_date": "2023-01-05",
+  "document_title": "merck-biodevelopment52090892023-01-0535172344000092f03",
+  "codes": [
+    {
+      "description": "L'exploitant transmet les analyses d'effluents mais omet d'envoyer les rapports d'interventions et d'entretiens des équipements de traitement au gestionnaire du réseau, contrairement à la convention.",
+      "excerpts": [
+        "Les rapports d'interventions et d'entretiens des équipements de traitement des effluents ne sont pas communiqués au gestionnaire. L'exploitant a indiqué qu'il allait y remédier rapidement."
+      ],
+      "valence": "negative",
+      "code": "Rapports maintenance non transmis gestionnaire"
+    },
+    {
+      "description": "L'installation dispose d'un système de traitement des effluents sophistiqué avec plusieurs stations différenciées selon la nature des rejets (pH, toxiques), témoignant d'une approche industrielle avancée.",
+      "excerpts": [
+        "Les rejets aqueux seront envoyés dans le réseau existant, et traités selon la procédure existante (séparation des effluents « pH » et « Toxiques »)."
+      ],
+      "valence": "positive",
+      "code": "Équipement traitement complexe multi-filières"
+    },
+    {
+      "description": "Un nouvel équipement d'évapoconcentration, installé en 2022 pour réduire de 70% les camions d'évacuation des effluents chargés, n'est pas encore en service au moment de l'inspection.",
+      "excerpts": [
+        "L'inspection n'a pas reçu d'éléments de la maintenance liée à l'évapo-concentrateur du bâtiment MB installé en 2022. Cela s'explique par le fait que cet équipement n'a pas encore été mis en service"
+      ],
+      "valence": "neutral",
+      "code": "Évapoconcentrateur en attente mise en service"
+    },
+    {
+      "description": "Un bassin de lissage des effluents issus de plusieurs bâtiments a été créé pour homogénéiser et réduire les pics de charges polluantes avant lagunage.",
+      "excerpts": [
+        "La création d'un bassin regroupant les effluents des bâtiments MA, A7 et MB sur plusieurs jours, permet la suppression des points critiques du pré-traitement pour le lagunage par un lissage des rejets tant en volume qu'en qualité"
+      ],
+      "valence": "positive",
+      "code": "Bassin lissage réduction pics pollution"
+    },
+    {
+      "description": "La convention de rejet mise à jour en 2022 avec le gestionnaire du réseau fixe les exigences de traitement préalable et répartit les responsabilités entre l'exploitant et la collectivité.",
+      "excerpts": [
+        "La convention de rejet mise à jour en 2022 rappelle en son article 5.2, les dispositions de traitement préalable aux déversements des effluents."
+      ],
+      "valence": "positive",
+      "code": "Convention rejet outil de régulation"
+    }
+  ],
+  "document_summary": "Inspection de Merck Biodevelopment portant sur la gestion et la surveillance des effluents liquides d'un site pharmaceutique. L'installation dispose d'un système de traitement multi-filières sophistiqué, mais l'exploitant ne respecte pas son obligation de transmettre les rapports d'entretien au gestionnaire du réseau.",
+  "surprises": "L'évapoconcentrateur promis comme solution pour réduire de 70% les transports d'effluents toxiques n'est toujours pas en service plus d'un an après son installation — ce décalage entre investissement réalisé et bénéfice opérationnel est notable.",
+  "tensions": "Tension entre la sophistication réelle du système de traitement (plusieurs stations, nouveaux équipements) et le non-respect d'une obligation basique de communication avec le gestionnaire, révélant un écart entre performance technique et conformité administrative."
+}

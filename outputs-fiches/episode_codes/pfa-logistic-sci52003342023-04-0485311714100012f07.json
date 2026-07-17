@@ -1,0 +1,33 @@
+{
+  "document_date": "2023-04-04",
+  "document_title": "pfa-logistic-sci52003342023-04-0485311714100012f07",
+  "codes": [
+    {
+      "description": "Cinq fûts de 200 litres d'huiles et produits hydrocarburés sont stockés sur palettes bois dans une cellule d'entrepôt logistique, sans aucune capacité de rétention associée.",
+      "excerpts": [
+        "il a été constaté la présence d'un stockage de produits hydrocarburés (huiles...) (5 fûts de 200 litres), susceptibles de créer une pollution de l'eau ou du sol, placé sur des palettes bois dans la cellule 4 sans rétention associée."
+      ],
+      "valence": "negative",
+      "code": "Stockage hydrocarbures sans rétention"
+    },
+    {
+      "description": "L'inspection fixe un délai très court de 15 jours pour justifier de l'action corrective, signalant le caractère urgent de cette non-conformité à risque de pollution.",
+      "excerpts": [
+        "Il justifie à l'inspection des actions prises dans un délai maximal de 15 jours."
+      ],
+      "valence": "neutral",
+      "code": "Délai correctif court 15 jours"
+    },
+    {
+      "description": "L'inspection prévient explicitement l'exploitant qu'une absence de justification des actions correctives pourrait conduire à une mise en demeure, escaladant la pression administrative.",
+      "excerpts": [
+        "La non-justification des actions prises pourrait être considéré comme une non-conformité à l'obligation d'installer des capacités de rétention pour l'ensemble des stockages de produits dangereux le requérant et peut conduire à des sanctions administratives de type mise en demeure."
+      ],
+      "valence": "negative",
+      "code": "Risque sanctions administratives signalé"
+    }
+  ],
+  "document_summary": "Inspection d'un entrepôt logistique révélant un stockage de fûts d'huiles sans rétention dans une cellule. La non-conformité est simple mais nette, avec un risque de pollution sol/eau identifié. L'inspection fixe un délai de 15 jours et prévient d'une possible mise en demeure.",
+  "surprises": "",
+  "tensions": ""
+}

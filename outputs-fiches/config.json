@@ -1,0 +1,9 @@
+{
+  "batch_size": 5,
+  "boilerplate_jaccard_threshold": 0.8,
+  "boilerplate_pair_threshold": 0.5,
+  "boilerplate_chunk_words": 50,
+  "target_chunk_words": 500,
+  "embedding_model": "all-mpnet-base-v2",
+  "ner_model": "dslim/bert-base-NER"
+}

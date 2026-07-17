@@ -1,0 +1,25 @@
+{
+  "document_date": "2022-09-26",
+  "document_title": "sarl-chateau-cap-de-faugeres533211362022-09-2651898537900016f03",
+  "document_summary": "La fiche contrôle la propreté et le nettoyage des locaux du site viticole Château Cap de Faugères. Le constat est de conformité : les locaux sont propres et le matériel de nettoyage est adapté aux risques.",
+  "surprises": "",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "Les locaux sont maintenus propres et régulièrement nettoyés conformément à la prescription, avec un matériel adapté aux risques présentés par les produits et poussières.",
+      "excerpts": [
+        "CONFORME"
+      ],
+      "valence": "positive",
+      "code": "Conformité entretien des locaux"
+    },
+    {
+      "description": "La prescription rappelle que le matériel de nettoyage doit être adapté aux risques spécifiques des produits manipulés et des poussières présentes.",
+      "excerpts": [
+        "Les locaux doivent être maintenus propres et régulièrement nettoyés. Le matériel de nettoyage doit être adapté aux risques présentés par les produits et poussières."
+      ],
+      "valence": "neutral",
+      "code": "Propreté et adaptation du matériel"
+    }
+  ]
+}

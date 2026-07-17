@@ -1,0 +1,25 @@
+{
+  "document_date": "2022-09-26",
+  "document_title": "chateau-fombrauge-sas52119552022-09-2659725040600019f01",
+  "document_summary": "L'inspection d'un château viticole vérifie la conformité de son installation de vinification déclarée sous la rubrique 1412 et constate une conformité totale, l'installation fonctionnant selon les plans joints à la déclaration.",
+  "surprises": "",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "L'installation est jugée conforme à l'ensemble des points inspectés au regard du récépissé de déclaration, sans aucune observation.",
+      "excerpts": [
+        "CONFORME vis à vis des points abordés lors de l'inspection"
+      ],
+      "valence": "positive",
+      "code": "Conformité déclaration installation"
+    },
+    {
+      "description": "L'inspection s'appuie sur un récépissé de déclaration datant de 2013 pour vérifier la capacité autorisée de l'installation.",
+      "excerpts": [
+        "Récépissé de déclaration LI 617 du 12 AVRIL 2013 pour 3000 hl/an"
+      ],
+      "valence": "neutral",
+      "code": "Référence au récépissé de déclaration"
+    }
+  ]
+}

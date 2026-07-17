@@ -1,0 +1,12 @@
+Constats body:
+L'inventaire des produits chimiques présents sur site a été présenté durant l'inspection.
+Le suivi est réalisé quotidiennement via le logiciel informatique de gestion de production de la
+société. Les produits sont regroupés en 4 sous-familles via un code à 4 lettres : SSPN (acides), TA2L
+(toxiques liquides), TA2S  (toxiques solides) et SLSP (lessive de soude).  Ces sous-familles  sont
+assimilables aux rubriques ICPE.
+Sur demande des inspecteurs, une extraction a rapidement pu être transmise.
+
+Prescription:
+L'exploitant tient à jour un état des matières stockées, y compris les matières combustibles non
+dangereuses ou ne relevant pas d'un classement au titre de la nomenclature des installations
+classées.

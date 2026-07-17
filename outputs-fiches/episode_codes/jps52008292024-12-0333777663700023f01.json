@@ -1,0 +1,51 @@
+{
+  "document_date": "2024-12-03",
+  "document_title": "jps52008292024-12-0333777663700023f01",
+  "document_summary": "L'inspection d'un entrepôt logistique (cellule 1 stockant des bobines de papier pour SMURFIT KAPPA) constate des dépassements des distances minimales de stockage et des stockages hors des zones matérialisées. Les conditions géométriques précises sont prescrites dans un Porté à Connaissance.",
+  "surprises": "Le stockage est géré par un prestataire logistique (Montané) pour le compte du propriétaire des bobines (SMURFIT KAPPA) — configuration de responsabilité partagée rarement explicite dans les fiches d'inspection.",
+  "tensions": "Les emplacements sont matérialisés au sol (conformité partielle) mais non respectés en pratique, révélant un écart entre les dispositifs physiques de conformité et le comportement opérationnel quotidien.",
+  "codes": [
+    {
+      "description": "Les distances minimales aux parois et entre îlots de stockage ne sont pas respectées, notamment dans la zone de préparation côté Sud et dans une allée séparative.",
+      "excerpts": [
+        "Les distances minimales aux parois et entre îlots n'étaient pas complètement respectées, notamment dans la zone de préparation côté Sud, à côté de la paroi Ouest et dans une allée séparative."
+      ],
+      "valence": "negative",
+      "code": "Non-respect distances stockage incendie"
+    },
+    {
+      "description": "Des stockages de bobines de papier ont été constatés en dehors des emplacements matérialisés au sol, malgré leur présence physique.",
+      "excerpts": [
+        "Des stockages en dehors de ces zones ont ponctuellement été relevés."
+      ],
+      "valence": "negative",
+      "code": "Stockage hors zones matérialisées"
+    },
+    {
+      "description": "Le Porté à Connaissance définit une géométrie très précise pour le stockage : dimensions des îlots, hauteur maximale, largeur des allées, distances aux parois.",
+      "excerpts": [
+        "Largeur maximale des îlots : 13,9 m",
+        "Hauteur maximale des îlots : 7,5 m",
+        "Largeur minimale des allées entre îlots : 5 m"
+      ],
+      "valence": "neutral",
+      "code": "Géométrie stockage précisément prescrite"
+    },
+    {
+      "description": "La cellule est exploitée par un prestataire logistique (Montané) stockant des marchandises pour le compte d'un tiers (SMURFIT KAPPA), créant une configuration de responsabilité partagée.",
+      "excerpts": [
+        "La cellule 1 est exploitée par la société Montané, prestataire logistique, stockant des bobines de papier pour le compte de la société SMURFIT KAPPA."
+      ],
+      "valence": "neutral",
+      "code": "Responsabilité partagée prestataire propriétaire"
+    },
+    {
+      "description": "Tout changement de la nature des matières stockées dans la cellule doit faire l'objet d'un Porté à Connaissance préalable à l'administration, avec éléments sur la propagation incendie.",
+      "excerpts": [
+        "Tout changement d'affectation de la cellule fera l'objet d'un porter à connaissance de l'administration accompagné des éléments d'appréciation requis, en particulier ceux portant sur la propagation et les effets thermiques d'un incendie."
+      ],
+      "valence": "neutral",
+      "code": "Changement affectation cellule encadré"
+    }
+  ]
+}

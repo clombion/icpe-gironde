@@ -1,0 +1,41 @@
+{
+  "document_date": "2023-09-29",
+  "document_title": "soba-bennes-du-sud-ouest31065852023-09-2982122883000013f03",
+  "codes": [
+    {
+      "description": "L'exploitant a bien contacté un organisme compétent pour vérifier les systèmes incendie, mais celui-ci n'a pas été en mesure de délivrer les justificatifs de conformité, bloquant la levée de l'écart.",
+      "excerpts": [
+        "Selon l'exploitant, l'organisme qu'il a missionné pour réaliser la vérification n'a pas été en mesure de lui fournir les éléments justifiants de la conformité, ou non, du fonctionnement desdits matériels."
+      ],
+      "valence": "negative",
+      "code": "Vérification impossible par organisme"
+    },
+    {
+      "description": "Face à l'impossibilité de certifier la conformité des équipements existants, l'exploitant choisit de remplacer entièrement les systèmes d'alerte et de détection par un organisme compétent.",
+      "excerpts": [
+        "L'exploitant a fait part de sa volonté d'installer dans les plus brefs délais un nouveau système interne d'alerte incendie, ainsi qu'un nouveau système de détection automatique de fumées, par un organisme compétant et pouvant justifier de la conformité des dispositifs."
+      ],
+      "valence": "mixed",
+      "code": "Remplacement système plutôt que vérification"
+    },
+    {
+      "description": "L'absence de vérification des systèmes incendie est qualifiée de non-conformité pouvant conduire à des sanctions administratives de type astreinte, signalant une gradation dans la réponse coercitive.",
+      "excerpts": [
+        "La non-réalisation des vérifications des systèmes d'alerte incendie et de détection de fumée constitue une non-conformité susceptible de conduire à des sanctions administratives de type astreinte."
+      ],
+      "valence": "negative",
+      "code": "Non-conformité menace astreinte"
+    },
+    {
+      "description": "L'inspection accepte de conditionner la levée de l'écart à la production d'un devis signé sous 15 jours puis des éléments de conformité sous 2 mois, modulant le délai selon les étapes de la démarche.",
+      "excerpts": [
+        "il est demandé à l'exploitant de fournir à l'inspection, dans un délai maximal de 15 jours, le devis signé pour ladite prestation. En outre, il est demandé à l'exploitant de fournir, dans un délai maximal de 2 mois, les éléments justifiants de la conformité du fonctionnement de ces nouveaux matériels"
+      ],
+      "valence": "neutral",
+      "code": "Délai conditionnel devis signé"
+    }
+  ],
+  "document_summary": "Inspection SOBA Bennes (Coutras) sur les systèmes incendie : l'exploitant a tenté de faire vérifier ses équipements mais l'organisme contacté n'a pu certifier leur conformité. L'exploitant propose donc de remplacer intégralement les systèmes ; l'inspection accepte cette approche sous condition de production d'un devis signé en 15 jours et des justificatifs de conformité en 2 mois.",
+  "surprises": "L'organisme de vérification est lui-même incapable de certifier la conformité ou non des équipements — ce dysfonctionnement du marché de la certification place l'exploitant dans une impasse administrative qu'il résout en renouvelant ses équipements.",
+  "tensions": "L'exploitant a fait preuve de diligence (démarches auprès d'un organisme) mais n'a pas obtenu les documents requis du fait d'une défaillance externe — la non-conformité persiste malgré une bonne foi apparente."
+}

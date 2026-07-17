@@ -1,0 +1,41 @@
+{
+  "document_date": "2022-09-26",
+  "document_title": "sarl-chateau-cap-de-faugeres533211362022-09-2651898537900016f01",
+  "document_summary": "L'inspection révèle une complexité administrative liée à l'historique des dénominations sociales et récépissés de déclaration ICPE pour les exploitations viticoles du groupe Silvio Denz. L'inspection ne peut pas déterminer avec certitude si les deux sites concernés par des déclarations ICPE sont régulièrement à jour.",
+  "surprises": "L'inspection conclut par une impossibilité de vérification ('Aucune possibilité de savoir si les 2 sites soumis à déclaration au titre des ICPE sont régulièrement déclarés'), ce qui est un aveu d'impuissance administrative rare dans un rapport d'inspection.",
+  "tensions": "La multiplication des dénominations sociales et des récépissés croisés (création, suppression de rubriques, changement de nom) crée une opacité réglementaire qui empêche l'inspection de vérifier la conformité, alors même que l'objectif des ICPE est précisément d'assurer un suivi clair.",
+  "codes": [
+    {
+      "description": "Les multiples changements de dénomination sociale et de périmètre d'exploitation rendent difficile la reconstitution de la situation réglementaire actuelle.",
+      "excerpts": [
+        "Le récépissé de déclaration LI657 du 1er Juillet 2013 a acté le changement de dénomination sociale du site du lieu-dit 'Faugères' à St Etienne de Lisse au profit de la SARL Château Cap de Faugères."
+      ],
+      "valence": "neutral",
+      "code": "Complexité historique des dénominations sociales"
+    },
+    {
+      "description": "L'inspection ne peut pas établir si les sites sont régulièrement déclarés, révélant une lacune dans la traçabilité administrative des ICPE du groupe.",
+      "excerpts": [
+        "Aucune possibilité de savoir si les 2 sites soumis à déclaration au titre des ICPE (Château Cap de Faugères et Château Faugères) sont régulièrement déclarés."
+      ],
+      "valence": "negative",
+      "code": "Opacité du statut déclaratif"
+    },
+    {
+      "description": "Un récépissé a acté la suppression de la rubrique 1510 d'un site, illustrant les évolutions de la nomenclature ICPE affectant la situation déclarative des exploitants.",
+      "excerpts": [
+        "Le récépissé de déclaration LI656 du 27 juin 2013 a acté la suppression de la rubrique 1510 de la nomenclature des ICPE du site du lieu-dit 'Faugères'"
+      ],
+      "valence": "neutral",
+      "code": "Suppression et création de rubriques"
+    },
+    {
+      "description": "La structure du groupe (trois exploitations viticoles sous une même holding) complexifie le contrôle des ICPE qui doit être mené site par site.",
+      "excerpts": [
+        "Les Vignobles Silvio DENZ possèdent 3 exploitations: - SARL Château Cap de Faugères à Sainte Colombe (20 ha) - SARL Château Peby Faugères à St Etienne de Lisse, lieu dit Bardoulet (75h) - SARL Faugères, Château Faugères à St Etienne de Lisse (42 ha)"
+      ],
+      "valence": "neutral",
+      "code": "Groupe multi-sites viticole"
+    }
+  ]
+}

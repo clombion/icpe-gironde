@@ -1,0 +1,41 @@
+{
+  "document_date": "2023-11-09",
+  "document_title": "green-recup-33-ex-larroude52073152023-11-0930812809900022f18",
+  "document_summary": "L'inspection constate que le plan des réseaux aqueux du site Green Recup 33 n'est pas conforme aux exigences réglementaires : notamment, la vanne de confinement manuelle proche du séparateur à hydrocarbures n'y figure pas. L'exploitant doit mettre à jour ce plan sous trois mois.",
+  "surprises": "",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "Le plan des réseaux aqueux du site ne respecte pas les prescriptions réglementaires, avec une omission notable de la vanne de confinement manuelle.",
+      "excerpts": [
+        "Le plan des réseaux aqueux du site n'est pas conforme aux dispositions suscitées. Par exemple, celui-ci ne fait pas état de la vanne de confinement située à proximité du séparateur à hydrocarbures dont la fermeture est manuelle."
+      ],
+      "valence": "negative",
+      "code": "Plan réseaux aqueux non conforme"
+    },
+    {
+      "description": "La vanne de confinement manuelle au niveau du séparateur à hydrocarbures est absente du plan des réseaux, ce qui compromet la lisibilité du dispositif de sécurité en cas de pollution.",
+      "excerpts": [
+        "celui-ci ne fait pas état de la vanne de confinement située à proximité du séparateur à hydrocarbures dont la fermeture est manuelle."
+      ],
+      "valence": "negative",
+      "code": "Vanne confinement hydrocarbures omise"
+    },
+    {
+      "description": "Le plan réglementaire des réseaux aqueux doit faire apparaître les secteurs collectés, points de branchement, regards, avaloirs, postes de relevage, postes de mesure, et toutes les vannes.",
+      "excerpts": [
+        "Le plan des réseaux de collecte des effluents fait apparaître les secteurs collectés, les points de branchement, regards, avaloirs, postes de relevage, postes de mesure, vannes manuelles et automatiques."
+      ],
+      "valence": "neutral",
+      "code": "Obligation cartographie complète réseaux"
+    },
+    {
+      "description": "L'inspection accorde trois mois à l'exploitant pour mettre à jour le plan des réseaux aqueux en intégrant tous les éléments réglementaires requis.",
+      "excerpts": [
+        "Il est demandé à l'exploitant, sous trois mois, de mettre à jour le plan de ses réseaux aqueux en y faisant figurer l'ensemble des items réglementaires détaillés à l'article 14 de l'arrêté ministériel du 06/06/2018."
+      ],
+      "valence": "neutral",
+      "code": "Délai correctif trois mois"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+/* ============================================================================
+   Cahier d'enquête — Page d'accueil (landing)
+   Importe les tokens partagés et ajoute la mise en page de la grille de cartes.
+============================================================================ */
+
+@import url('shared/tokens.css');
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+html { color-scheme: light; }
+body {
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ---------- masthead ---------- */
+.masthead {
+  padding: 36px 48px 24px;
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper);
+}
+.masthead__label {
+  font-family: var(--font-data);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 8px;
+}
+.masthead__title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(28px, 4vw, 44px);
+  margin: 0 0 12px;
+  color: var(--ink);
+}
+.masthead__meta {
+  font-family: var(--font-data);
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin: 0;
+}
+.masthead__meta .meta-sep { margin: 0 8px; opacity: 0.45; }
+
+/* ---------- card grid ---------- */
+.hub {
+  padding: 56px 48px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  align-content: start;
+}
+
+.card {
+  display: block;
+  padding: 32px 28px;
+  background: var(--paper-2);
+  border: 1px solid var(--rule);
+  border-left: 6px solid var(--lead);
+  text-decoration: none;
+  transition: background 0.15s ease, transform 0.15s ease;
+  min-height: 200px;
+}
+.card:hover {
+  background: var(--paper-3);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.card--rust { border-left-color: var(--rust); }
+.card--ochre { border-left-color: var(--ochre); }
+.card--lead { border-left-color: var(--lead); }
+.card--moss { border-left-color: var(--moss); }
+
+.card__title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 22px;
+  margin: 0 0 12px;
+  color: var(--ink);
+}
+
+.card__line {
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin: 0 0 18px;
+  line-height: 1.5;
+}
+
+.card__count {
+  font-family: var(--font-data);
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--rule-soft);
+}
+
+/* ---------- footer ---------- */
+.footer {
+  padding: 24px 48px 32px;
+  border-top: 1px solid var(--rule-soft);
+  font-family: var(--font-data);
+  font-size: 11px;
+  color: var(--ink-soft);
+  text-align: center;
+}
+.footer a { text-decoration: underline; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 720px) {
+  .masthead { padding: 24px 20px 16px; }
+  .hub {
+    padding: 32px 20px;
+    gap: 20px;
+    /* Force single-column on mobile. The auto-fit minmax(280px, 1fr)
+       tries to squeeze two 280px columns into 335px and overflows. */
+    grid-template-columns: 1fr;
+  }
+  .card { padding: 24px 20px; min-height: 180px; }
+  .footer { padding: 20px 20px 28px; }
+}
+
+/* ---------- prefers-reduced-motion (WCAG 2.3.3) ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+  .card:hover {
+    transform: none;
+  }
+}

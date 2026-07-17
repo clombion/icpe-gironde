@@ -1,0 +1,28 @@
+Constats body:
+L’inspection a permis de constater que l’établissement François contient les machines
+de travail du bois en état de marche suivantes : une fendeuse (Posch HydroCombi, puissance 7,5
+kW), une scie circulaire basculante (Posch AutoCut, puissance 20,5 kW), et une scie circulaire
+équivalente  d’un  modèle  ancien  conservée  en  secours  (remisée  hors  service  au  jour  de
+l’inspection). Les machines sont branchées sur le secteur et fonctionnent à l’aide de leur propre
+motorisation : c’est leur puissance électrique qui est retenue pour le calcul, et non la puissance de
+la prise de force « tracteur », non utilisée dans les deux cas. La puissance maximum de l'ensemble
+des machines fixes pouvant concourir simultanément au fonctionnement de l'installation (telle
+que visée par la rubrique 2410 de la nomenclature des installations classées) est de 28 kW, en
+dessous du seuil de 50 kW de cette rubrique.
+L’établissement ne relève donc pas de la rubrique 2410 au titre des puissances installées.
+Les autres activités de l’établissement (stockage de bois de chauffe, stockage de boissons en
+particulier) sont soit non visées par la nomenclature, soit manifestement très en dessous des seuils
+(le stock de bois est évalué à 200 stères à pleine capacité).
+
+Prescription:
+Depuis la publication du décret n°2007-1467 du 12 octobre 2007 (JO du 16 octobre 2007) créant le
+livre V de la partie réglementaire du code de l’environnement, la nomenclature des installations
+classées est constituée par la colonne A de l’annexe à l’article R. 511-9 du code de l’environnement.
+Positionnement vis à vis de la rubrique 2410 : (rubrique modifiée par le Décret n° 2014-996 du 2
+septembre 2014 et le Décret n°2017-1595 du 21 novembre 2017) Ateliers ou l'on travaille le bois ou
+matériaux combustibles analogues à l'exclusion des installations dont les activités sont classées au
+titre de la rubrique 3610.
+La puissance maximum de l'ensemble des machines fixes pouvant concourir simultanément au
+fonctionnement de l'installation étant :
+1. Supérieure à 250 kW (E)
+2. Supérieure à 50 kW, mais inférieure ou égale à 250 kW (D)

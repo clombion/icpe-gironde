@@ -1,0 +1,51 @@
+{
+  "document_date": "2023-05-09",
+  "document_title": "bordeaux-metropole-merignac52049332023-05-0933783298400013f01",
+  "codes": [
+    {
+      "description": "L'inspection a constaté l'absence de RIA sur site depuis au moins 2015 ; une mise en demeure a été émise en 2022 mais n'a pas encore été respectée.",
+      "excerpts": [
+        "Le même constat avait été effectué lors de la précédente inspection en 2015.",
+        "Mise en demeure du 11/05/2022: Installer un RIA (échéance: 11/08/2022)"
+      ],
+      "valence": "negative",
+      "code": "RIA absent non remplacé depuis 2015"
+    },
+    {
+      "description": "L'exploitant a engagé un bon de commande et réalisé des travaux préparatoires (voirie, compteur eau, électricité triphasée) pour l'installation du RIA.",
+      "excerpts": [
+        "l'exploitant a transmis plusieurs documents (dont bon de commande datant de fin 2022…) pour la mise en conformité des installations",
+        "les travaux de voiries, le double compteur d'eau et l'installation électrique triphasée ont été réalisés pour permettre l'adjonction du RIA et des équipements connexes."
+      ],
+      "valence": "mixed",
+      "code": "Travaux conformité en cours"
+    },
+    {
+      "description": "Un extincteur mobile de 50 kg sur roue est présent comme mesure compensatoire en l'absence de RIA, rendant le risque incendie acceptable à court terme.",
+      "excerpts": [
+        "l'inspecteur a constaté la présence d'une extincteur mobile sur roue d'une capacité de 50 kg ; ce type de moyen de lutte incendie est souvent un moyen compensatoire en l'absence de RIA. La maîtrise du risque incendie au jour de l'inspection, était acceptable."
+      ],
+      "valence": "mixed",
+      "code": "Mesure compensatoire provisoire"
+    },
+    {
+      "description": "Le bon de commande avec DESAUTEL exclut la protection hors-gel, ce qui pourrait rendre le RIA inopérant en hiver — contrainte non prévue dans le contrat initial.",
+      "excerpts": [
+        "Le bon de commande passé avec DESAUTEL indique que les prestations suivantes ne sont pas comprises dans le contrat: « Toute mise hors gel non prévue au présent descriptif / création local surpresseur hors gel. »"
+      ],
+      "valence": "negative",
+      "code": "Contrainte gel non anticipée"
+    },
+    {
+      "description": "Malgré le dépassement de l'échéance de mise en demeure, l'inspection suspend les suites administratives compte tenu de la volonté de l'exploitant et de l'avancement des travaux.",
+      "excerpts": [
+        "Étant donné la volonté de l'exploitant de se mettre en conformité et les justifications avancées pour le retard pris dû à la mise en œuvre des travaux, aucune suite administrative n'est proposé à ce stade."
+      ],
+      "valence": "neutral",
+      "code": "Suites administratives suspendues"
+    }
+  ],
+  "document_summary": "La déchetterie Bordeaux Métropole Mérignac est sans RIA depuis au moins 2015 ; une mise en demeure de mai 2022 n'a pas été respectée dans les délais mais des travaux préparatoires sont en cours (voirie, eau, électricité). L'inspection suspend les suites administratives en accordant un délai supplémentaire.",
+  "surprises": "La non-conformité remonte à 2015 (8 ans avant cette inspection) et a nécessité une mise en demeure formelle pour déclencher des travaux — illustrant la résistance à la mise en conformité sur le long terme.",
+  "tensions": "L'inspection admet la légitimité des retards (complexité des travaux) tout en maintenant la pression par la menace de suites administratives — posture de tolérance conditionnelle à l'avancement des travaux."
+}

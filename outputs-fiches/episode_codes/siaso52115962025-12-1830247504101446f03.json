@@ -1,0 +1,49 @@
+{
+  "document_date": "2025-12-18",
+  "document_title": "siaso52115962025-12-1830247504101446f03",
+  "codes": [
+    {
+      "description": "L'absence de dossier de mise en sécurité suite à la cessation d'activité en 2010 empêche l'inspection de connaître les mesures prises et génère une incertitude sur les sources potentielles de pollution.",
+      "excerpts": [
+        "Etant donné l'absence d'information sur les modalités de mise en sécurité suite à la déclaration de cessation d'activités, les mesures de mise en sécurité du site mises en œuvre ne sont pas connues par l'Inspection."
+      ],
+      "valence": "negative",
+      "code": "Cessation activité non documentée"
+    },
+    {
+      "description": "L'inspection ne peut exclure la présence de sources de pollution sur ou hors du site du fait de l'absence de traçabilité des travaux de dépollution lors de la fermeture.",
+      "excerpts": [
+        "Il n'est donc pas exclu que des sources potentielles de pollution soient présentes sur le site, et éventuellement en dehors du site."
+      ],
+      "valence": "negative",
+      "code": "Pollution résiduelle potentielle"
+    },
+    {
+      "description": "Le site a été entièrement réaménagé entre la fermeture (2010) et l'inspection (2025), impliquant un changement d'usage et soulevant la question de la gestion du passif environnemental.",
+      "excerpts": [
+        "Le site a été entièrement réaménagé depuis sa fermeture en 2010. Selon les photos Street View disponibles, le site aurait fait l'objet de travaux entre 2013 et 2025."
+      ],
+      "valence": "neutral",
+      "code": "Réaménagement post-industriel"
+    },
+    {
+      "description": "L'inspection transmet le rapport à Bordeaux Métropole et à Aquitanis (bailleur social) pour les informer d'un passif environnemental potentiel sur un foncier destiné à la construction de logements.",
+      "excerpts": [
+        "Aquitanis, l'office public de l'habitat de Bordeaux Métropole, étant identifié comme l'apporteur du foncier sur cette construction, une copie de ce rapport est donc transmise à Bordeaux Métropole pour information."
+      ],
+      "valence": "neutral",
+      "code": "Information acteurs urbanisme"
+    },
+    {
+      "description": "La prescription rappelle l'obligation légale de remettre le site dans un état permettant un usage comparable à la dernière période d'exploitation, et d'informer le propriétaire et la mairie.",
+      "excerpts": [
+        "l'exploitant doit placer le site de l'installation dans un état tel qu'il ne puisse porter atteinte aux intérêts mentionnés à l'article L. 511-1 et qu'il permette un usage futur du site comparable a celui de la dernière période d'exploitation de l'installation."
+      ],
+      "valence": "neutral",
+      "code": "Obligation usage comparable"
+    }
+  ],
+  "document_summary": "Inspection post-cessation d'activité du site SIASO (fermé en 2010, réaménagé depuis) : en l'absence de dossier de mise en sécurité, l'inspection ne peut exclure des pollutions résiduelles sur ou hors site. Le rapport est transmis à Bordeaux Métropole et Aquitanis compte tenu du projet de construction sur le foncier.",
+  "surprises": "L'usage des photos Street View comme outil de reconstitution chronologique des travaux sur le site est une démarche d'investigation inhabituelle pour une inspection réglementaire.",
+  "tensions": "Le site a été réaménagé et reconverti sans que l'inspection ait eu connaissance des mesures de dépollution — tension entre le droit à l'information réglementaire de l'inspection et la réalité d'un historique documentaire lacunaire sur un site dont l'exploitant n'est peut-être plus identifiable."
+}

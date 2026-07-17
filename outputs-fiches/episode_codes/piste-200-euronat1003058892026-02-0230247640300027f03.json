@@ -1,0 +1,33 @@
+{
+  "document_date": "2026-02-02",
+  "document_title": "piste-200-euronat1003058892026-02-0230247640300027f03",
+  "codes": [
+    {
+      "description": "L'inspecteur n'a rencontré aucun personnel sur le site, l'empêchant d'obtenir les informations nécessaires sur les quantités de gaz inflammables présentes.",
+      "excerpts": [
+        "L'inspecteur n'a pas rencontré de personnel sur le site pour lui justifier, le cas échéant, la quantité totale de gaz inflammables liquéfiés susceptible d'y être présente."
+      ],
+      "valence": "negative",
+      "code": "Personnel absent lors inspection"
+    },
+    {
+      "description": "L'inspection demande à l'exploitant de se positionner sur l'applicabilité de la rubrique 4718 (gaz inflammables liquéfiés), la quantité présente sur site étant inconnue.",
+      "excerpts": [
+        "Il est demandé à l'exploitant de se positionner sur l'applicabilité de la rubrique 4718 relative aux gaz inflammables liquéfiés."
+      ],
+      "valence": "neutral",
+      "code": "Classement rubrique 4718 à déterminer"
+    },
+    {
+      "description": "L'exploitant n'est pas en mesure de confirmer si son installation relève du régime de déclaration contrôlée ou d'autorisation selon les seuils de la rubrique 4718, laissant le statut administratif indéterminé.",
+      "excerpts": [
+        "La quantité totale susceptible d'être présente dans les installations [...] étant : 1. Pour le stockage en récipients à pression transportables a. Supérieure ou égale à 35 t (A-1) b. Supérieure ou égale à 6 t mais inférieure à 35 t (DC)"
+      ],
+      "valence": "neutral",
+      "code": "Incertitude régime applicable"
+    }
+  ],
+  "document_summary": "Inspection très courte d'une piste de loisirs Euronat concernant un possible classement ICPE au titre des gaz inflammables liquéfiés. En l'absence de personnel sur site, l'inspection ne peut évaluer les quantités présentes et demande à l'exploitant de se positionner sur l'applicabilité de la rubrique 4718.",
+  "surprises": "Une piste de loisirs (probablement piste de karting ou de motocross au vu du nom Euronat/piste 200) se retrouve dans le champ d'une inspection pour gaz inflammables liquéfiés — un croisement inattendu entre activité récréative et réglementation ICPE.",
+  "tensions": "Tension entre l'impossibilité technique de réaliser l'inspection (absence de personnel et d'information) et la nécessité de statuer sur le classement administratif de l'installation."
+}

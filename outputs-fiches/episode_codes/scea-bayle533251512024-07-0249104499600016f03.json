@@ -1,0 +1,33 @@
+{
+  "document_date": "2024-07-02",
+  "document_title": "scea-bayle533251512024-07-0249104499600016f03",
+  "document_summary": "L'inspection contrôle la sécurisation des fosses de stockage de lisier de l'élevage SCEA Bayle. La fosse principale de 500 m³ est entourée d'un grillage de sécurité ; la fosse de secours gonflable n'est pas clôturée, ce qui est jugé acceptable par l'inspection.",
+  "surprises": "L'inspection accepte explicitement l'absence de clôture sur la fosse gonflable inactive, au motif que 'cela n'est pas nécessaire' — un jugement de proportionnalité qui s'appuie sur l'état d'inactivité de la fosse.",
+  "tensions": "La prescription impose une clôture pour les stockages à l'air libre des effluents liquides, mais l'inspection applique une appréciation modulée selon l'état opérationnel de la fosse — tension entre la lettre du texte réglementaire et l'interprétation pragmatique de l'inspecteur.",
+  "codes": [
+    {
+      "description": "La fosse principale de 500 m³ est sécurisée par un grillage sur l'ensemble de son pourtour, conformément à la prescription pour les stockages à l'air libre.",
+      "excerpts": [
+        "La fosse de stockage de 500 m³ enterrée, qui est toujours gonflée, est sécurisée par un grillage sur l'ensemble de son pourtour."
+      ],
+      "valence": "positive",
+      "code": "Clôture de sécurité fosse principale"
+    },
+    {
+      "description": "La fosse de secours inactive n'est pas clôturée, mais l'inspection considère cette absence acceptable compte tenu du caractère non actif de cette fosse.",
+      "excerpts": [
+        "La fosse de stockage qui n'est pas active et qui se gonfle lorsqu'elle se charge en lisier, n'est pas sécurisée mais cela n'est pas nécessaire."
+      ],
+      "valence": "neutral",
+      "code": "Absence de clôture jugée acceptable"
+    },
+    {
+      "description": "La réglementation impose que les équipements de stockage à l'air libre d'effluents liquides soient entourés d'une clôture de sécurité et dotés de dispositifs de surveillance de l'étanchéité.",
+      "excerpts": [
+        "Les équipements de stockage à l'air libre des effluents liquides sont signalés et entourés d'une clôture de sécurité et dotés, pour les nouveaux équipements, de dispositifs de surveillance de l'étanchéité."
+      ],
+      "valence": "neutral",
+      "code": "Prescription clôture stockages effluents"
+    }
+  ]
+}

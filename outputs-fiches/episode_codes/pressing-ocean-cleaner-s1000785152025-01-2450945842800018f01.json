@@ -1,0 +1,49 @@
+{
+  "document_date": "2025-01-24",
+  "document_title": "pressing-ocean-cleaner-s1000785152025-01-2450945842800018f01",
+  "codes": [
+    {
+      "description": "L'exploitant a déclaré son activité en 2017 mais a dû corriger une erreur dans la déclaration par courrier en 2018, confirmant finalement sa soumission au régime déclaratif.",
+      "excerpts": [
+        "La société « Pressing Ocean Cleaner's » a déclaré son activité de nettoyage à sec le 17 octobre 2017 sous la rubrique 2345, en précisant dans le courrier du 27 février 2018 avoir fait une erreur dans la déclaration et être bien soumis au régime de la déclaration"
+      ],
+      "valence": "positive",
+      "code": "Déclaration avec correction erreur initiale"
+    },
+    {
+      "description": "La machine multisolvants est utilisée avec des produits détachants contenant des substances dangereuses (2-butoxyéthanol toxique par inhalation, produit dangereux pour le milieu aquatique).",
+      "excerpts": [
+        "L'exploitant utilise par ailleurs plusieurs produits servant de détachants ou prédétachants composés en tout ou partie de solvants organiques, dont les plus notables sont : 2-butoxyéthanol dans le « détachant P1 » (toxique par inhalation)"
+      ],
+      "valence": "negative",
+      "code": "Machine multisolvants usage produits dangereux"
+    },
+    {
+      "description": "L'installation est localisée au rez-de-chaussée d'un immeuble d'habitation comportant deux niveaux supérieurs, ce qui amplifie les enjeux sanitaires liés aux solvants.",
+      "excerpts": [
+        "Le pressing est situé au rez-de-chaussée d'un immeuble à usage d'habitation comportant 2 niveaux supérieurs."
+      ],
+      "valence": "negative",
+      "code": "Pressing en rez-de-chaussée immeuble habité"
+    },
+    {
+      "description": "La personne rencontrée lors de l'inspection ne peut préciser quel solvant est exactement utilisé dans la machine, révélant une méconnaissance des produits manipulés.",
+      "excerpts": [
+        "Cette machine utilise des solvants organiques non halogénés pour le nettoyage à sec (typiquement hydrocarbures ou Kreussler Solvon ou SolvonK4, bien que la personne rencontrée n'ait pas pu préciser duquel il s'agissait)."
+      ],
+      "valence": "negative",
+      "code": "Solvant utilisé non précisé exploitant"
+    },
+    {
+      "description": "Malgré les observations sur les produits dangereux, l'inspection conclut à la régularité administrative de l'établissement au titre de la rubrique 2345.",
+      "excerpts": [
+        "La situation administrative de l'établissement est régulière."
+      ],
+      "valence": "positive",
+      "code": "Situation administrative régulière confirmée"
+    }
+  ],
+  "document_summary": "Inspection d'un pressing situé au rez-de-chaussée d'un immeuble d'habitation, utilisant une machine multisolvants et plusieurs détachants contenant des substances dangereuses. La situation administrative est régulière mais des interrogations demeurent sur la connaissance des produits par l'exploitant.",
+  "surprises": "La combinaison d'un pressing en immeuble habité avec des produits toxiques par inhalation et dangereux pour le milieu aquatique, et d'un exploitant qui ne connaît pas exactement le solvant utilisé, constitue un profil de risque sous-évalué malgré la conformité administrative.",
+  "tensions": "Tension entre la conformité administrative formelle (déclaration régulière) et les risques réels posés par des produits dangereux dans un immeuble d'habitation, que la réglementation ne traite pas spécifiquement à ce niveau de détail."
+}

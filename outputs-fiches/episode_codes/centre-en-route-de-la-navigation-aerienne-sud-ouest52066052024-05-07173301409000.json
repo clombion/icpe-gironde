@@ -1,0 +1,33 @@
+{
+  "document_date": "2024-05-07",
+  "document_title": "centre-en-route-de-la-navigation-aerienne-sud-ouest52066052024-05-07173301409000",
+  "document_summary": "L'inspection constate que les tours aéro-réfrigérantes (TAR) ont été démantelées, éliminant les risques d'incendie et d'explosion associés. Il reste à l'exploitant à évacuer les produits résiduels et à notifier officiellement la cessation d'activité.",
+  "surprises": "",
+  "tensions": "La suppression des risques est effective (TAR démontées) mais la procédure administrative de cessation d'activité n'est pas encore finalisée — un décalage entre la réalité physique et le statut juridique de l'installation.",
+  "codes": [
+    {
+      "description": "Les tours aéro-réfrigérantes ont été physiquement démontées, supprimant les risques d'incendie et d'explosion liés à cette installation.",
+      "excerpts": [
+        "Les TAR ayant été démantelées, il ne reste plus aucun risque d'explosion, ou d'incendie"
+      ],
+      "valence": "positive",
+      "code": "Démantèlement TAR effectif"
+    },
+    {
+      "description": "Malgré le démantèlement physique, la notification officielle de cessation d'activité n'a pas encore été réalisée, laissant une situation administrative incomplète.",
+      "excerpts": [
+        "Il reste à l'exploitant à évacuer les produits avant de réaliser la notification officielle de cessation d'activité"
+      ],
+      "valence": "neutral",
+      "code": "Procédure cessation activité pending"
+    },
+    {
+      "description": "L'évacuation des produits restants est identifiée comme condition préalable à la notification de cessation, établissant un séquencement des obligations de fin d'exploitation.",
+      "excerpts": [
+        "Il reste à l'exploitant à évacuer les produits avant de réaliser la notification officielle de cessation d'activité"
+      ],
+      "valence": "neutral",
+      "code": "Évacuation produits préalable à notification"
+    }
+  ]
+}

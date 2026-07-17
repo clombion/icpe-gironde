@@ -1,0 +1,41 @@
+{
+  "document_date": "2023-11-09",
+  "document_title": "green-recup-33-ex-larroude52073152023-11-0930812809900022f09",
+  "document_summary": "L'inspection d'un centre de tri/déchetterie professionnelle constate que la séparation des flux entre la déchetterie professionnelle et les autres activités n'est pas encore effective, contrairement aux engagements pris dans le Porté à Connaissance (PAC). L'affichage d'identification est également absent.",
+  "surprises": "Le PAC prévoyait une séparation physique par mur de cloisons mégabloc et des sens de circulation définis — des mesures structurelles non encore mises en œuvre malgré leur formalisation documentaire.",
+  "tensions": "L'exploitant reconnaît que les actions sont « en cours » et seront soldées rapidement, mais l'inspection menace de suites administratives, révélant une tension entre la bonne foi déclarée de l'exploitant et la rigueur procédurale de l'inspection.",
+  "codes": [
+    {
+      "description": "La séparation des flux entre la déchetterie professionnelle et le reste des activités de tri n'est pas encore opérationnelle malgré les engagements du PAC.",
+      "excerpts": [
+        "Lors de la présente inspection, la séparation des flux des activités n'est pas encore effective ; les affichages doivent également être installés."
+      ],
+      "valence": "negative",
+      "code": "Séparation flux activités non effective"
+    },
+    {
+      "description": "Le Porté à Connaissance prévoie des mesures précises (mur mégabloc, affichage, sens de circulation) qui ne sont pas encore réalisées au moment de l'inspection.",
+      "excerpts": [
+        "la zone de déchetterie professionnelle est distante des autres activités du centre de tri. Les 2 activités sont séparées par un mur en cloisons mégabloc."
+      ],
+      "valence": "negative",
+      "code": "Conformité PAC non atteinte"
+    },
+    {
+      "description": "L'inspection avertit que l'absence de réalisation des actions exposera l'exploitant à des suites administratives de type mise en demeure.",
+      "excerpts": [
+        "L'absence de réalisation des actions supra expose l'exploitant à des suites administratives de type mise en demeure."
+      ],
+      "valence": "negative",
+      "code": "Menace suites administratives"
+    },
+    {
+      "description": "L'inspection impose un délai d'un mois pour réaliser la séparation des flux entre déchetterie professionnelle et reste des activités.",
+      "excerpts": [
+        "Il est demandé à l'exploitant, sous un mois, de faire en sorte que les flux entre la déchetterie professionnelle et le reste de l'activité soient séparés selon les modalités prévues dans le PAC"
+      ],
+      "valence": "neutral",
+      "code": "Délai correctif un mois"
+    }
+  ]
+}

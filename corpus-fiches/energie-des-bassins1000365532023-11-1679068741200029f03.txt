@@ -1,0 +1,24 @@
+Constats body:
+Le rapport des dernière mesures des émissions des chaudières gaz (28 septembre 2023) a été
+inspecté, et montre des valeurs conformes aux limites prescrites.
+La dernière vérification des rejets atmosphériques de la chaudière biomasse date du 3 mars 2021,
+et est en retard par rapport à la fréquence de 2 ans prescrite. La vérification de 2021 montrait un
+respect des valeurs limites d’émission.
+Observations :
+L’exploitant transmet sous trois mois le rapport de contrôle des rejets atmosphériques de la
+chaudière biomasse.
+
+Prescription:
+I. L'exploitant fait effectuer au moins tous les trois ans pour les installations de combustion de
+puissance thermique nominale totale inférieure à 5 MW, et une fois tous les deux ans pour les
+installations de combustion de puissance thermique nominale totale supérieure ou égale à 5 MW,
+[…] une mesure du débit rejeté et des teneurs en O2, SO2, poussières, NOx et CO dans les gaz
+rejetés à l'atmosphère. Pour les chaudières utilisant un combustible solide, l'exploitant fait
+également effectuer une mesure des teneurs en dioxines et furanes.
+[…]
+IV. Le premier contrôle est effectué quatre mois au plus tard après la mise en service de
+l'installation. A cette occasion, les teneurs en composés organiques volatils (hors méthane) et en
+formaldéhyde sont déterminées lorsque ces polluants sont réglementés.
+[…]
+VI. Les valeurs limites d'émission sont considérées comme respectées si les résultats de chacune
+des séries de mesures ne dépassent pas les valeurs limites d'émission.

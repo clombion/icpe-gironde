@@ -1,0 +1,49 @@
+{
+  "document_date": "2022-08-30",
+  "document_title": "bonnieu52006022022-08-3038174994400017f07",
+  "codes": [
+    {
+      "description": "Une nouvelle vanne de blocage des déversements a été installée mais son accès est entravé par des objets et de la végétation.",
+      "excerpts": [
+        "une nouvelle vanne est accessible directement depuis le site, en bordure nord-est. Le jour de l'inspection, celle-ci était accessible, mais plusieurs objets et de la végétation rendaient cet accès périlleux."
+      ],
+      "valence": "mixed",
+      "code": "Vanne rétention nouvelle mais inaccessible"
+    },
+    {
+      "description": "Aucun panneau n'indique le fonctionnement de la vanne (sens d'ouverture/fermeture), rendant son utilisation en urgence problématique.",
+      "excerpts": [
+        "Par ailleurs, aucun marquage n'indiquait le fonctionnement de la vanne."
+      ],
+      "valence": "negative",
+      "code": "Marquage et signalétique absents"
+    },
+    {
+      "description": "Le défaut de dispositif de rétention eaux incendie est déjà sous astreinte administrative depuis janvier 2022, ayant été constaté lors de l'inspection précédente.",
+      "excerpts": [
+        "Cette prescription a fait l'objet d'un constat de non-conformité lors de l'inspection du 7 octobre 2021 (FNC 8), et en conséquence, d'une astreinte administrative actée par arrêté préfectoral daté du 10 janvier 2022."
+      ],
+      "valence": "negative",
+      "code": "Non-conformité sous astreinte administrative"
+    },
+    {
+      "description": "L'inspection demande que la localisation de la vanne soit précisée sur le plan du site.",
+      "excerpts": [
+        "de préciser sur le plan du site la localisation précise de la vanne."
+      ],
+      "valence": "neutral",
+      "code": "Mise à jour plan de site demandée"
+    },
+    {
+      "description": "La prescription porte sur la collecte des eaux et écoulements susceptibles d'être pollués en cas d'incendie sur un centre de traitement de véhicules hors d'usage.",
+      "excerpts": [
+        "en s'équipant d'un système afin de recueillir les eaux et écoulements susceptibles d'être pollués en cas d'incendie, […] sous un délai de 3 mois."
+      ],
+      "valence": "neutral",
+      "code": "Rétention eaux incendie VHU"
+    }
+  ],
+  "document_summary": "L'inspection de Bonnieu (centre VHU à Bouliac) constate une mise en conformité partielle concernant la vanne de rétention des eaux d'incendie : la vanne a été installée mais son accès est obstrué, aucun marquage n'est présent, et la non-conformité initiale est déjà sous astreinte administrative depuis janvier 2022.",
+  "surprises": "L'astreinte administrative en cours souligne la persistance du problème sur au moins un an ; la vanne installée répond partiellement à la mise en demeure mais reste non opérationnelle dans les faits.",
+  "tensions": "L'exploitant a fait l'effort d'installer la vanne (conformité physique partielle) mais l'entretien de son accès et sa signalétique sont négligés — la mise en conformité est incomplète et la conformité réelle dépend de l'accessibilité en urgence."
+}

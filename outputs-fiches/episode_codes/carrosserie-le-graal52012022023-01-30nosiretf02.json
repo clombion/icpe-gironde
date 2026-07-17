@@ -1,0 +1,50 @@
+{
+  "document_date": "2023-01-30",
+  "document_title": "carrosserie-le-graal52012022023-01-30nosiretf02",
+  "document_summary": "L'inspection fait suite à un contrôle périodique SOCOTEC (mai 2022) ayant relevé des non-conformités majeures sur la surveillance des émissions de COV — l'exploitant n'avait pas pu justifier sa consommation de solvants ni calculer le flux horaire. Le jour de l'inspection, l'exploitant indique avoir remédié aux NCM et prévoit une contre-visite fin mai 2023.",
+  "surprises": "L'exploitant affirme avoir corrigé les non-conformités majeures mais aucun justificatif n'est présenté lors de l'inspection elle-même — la levée reste entièrement à prouver.",
+  "tensions": "La prescription impose le respect de l'AM dans un délai de 5 mois, mais l'inspection tolère de facto un délai plus long en attendant la contre-visite prévue fin mai 2023, créant un écart entre l'exigence réglementaire et le calendrier pratique accordé.",
+  "codes": [
+    {
+      "description": "Le contrôle périodique réalisé par un organisme agréé a révélé des non-conformités majeures que l'exploitant n'a pas pu lever sur le moment, générant un processus de suivi post-contrôle.",
+      "excerpts": [
+        "Le rapport de contrôle établi par SOCOTEC, suite à la vérification du 13/05/2022, indique des non-conformités majeures au point 6.3, « surveillance par l'exploitant de la pollution rejetée »",
+        "l'exploitant n'avait pas pu justifier, lors du contrôle SOCOTEC, de la quantité de solvant consommée et du calcul du flux horaire en COV"
+      ],
+      "valence": "negative",
+      "code": "Non-conformité lors du contrôle périodique"
+    },
+    {
+      "description": "L'exploitant est incapable de produire les données nécessaires au calcul du flux horaire en composés organiques volatils, rendant impossible la vérification de la conformité réglementaire.",
+      "excerpts": [
+        "l'exploitant n'avait pas pu justifier, lors du contrôle SOCOTEC, de la quantité de solvant consommée et du calcul du flux horaire en COV"
+      ],
+      "valence": "negative",
+      "code": "Incapacité à justifier flux COV"
+    },
+    {
+      "description": "L'exploitant déclare oralement avoir pris des mesures correctives sans fournir de preuves tangibles lors de l'inspection, la vérification étant renvoyée à une contre-visite future.",
+      "excerpts": [
+        "Le jour de l'inspection du 30/01/2023, l'exploitant a indiqué avoir pris les dispositions pour remédier à date, aux non-conformités majeures (NCM)"
+      ],
+      "valence": "neutral",
+      "code": "Engagement verbal de régularisation"
+    },
+    {
+      "description": "L'inspection prévoit un contrôle complémentaire par l'organisme agréé pour confirmer la levée des non-conformités, instituant un cycle de vérification itératif.",
+      "excerpts": [
+        "avoir prévu pour fin mai 2023 la réalisation d'un contrôle complémentaire portant sur les dispositions ayant donné lieu à des non conformités (ie. La contre visite au CP initial pour lever les NCM)"
+      ],
+      "valence": "neutral",
+      "code": "Contre-visite comme mécanisme de levée"
+    },
+    {
+      "description": "L'inspection avertit explicitement que des non-conformités persistantes après contre-visite pourront entraîner une astreinte journalière, graduant la pression administrative.",
+      "excerpts": [
+        "en cas de non-conformités révélées par le contrôle complémentaire suscité le cas échéant l'inspection pourra proposer des suites administratives de type astreinte journalière"
+      ],
+      "valence": "negative",
+      "code": "Menace de suite administrative"
+    }
+  ]
+}

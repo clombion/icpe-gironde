@@ -1,0 +1,31 @@
+Constats body:
+Le rapport de contrôle périodique indique une non conformité. En effet, l'exploitation de
+l'installation ne dispose pas d'une surveillance humaine permanente. Un dispositif d'astreinte
+permet au personnel opérationnel d'être informé de manière permanente en cas d'anomalies ou
+de défauts de l'installation.
+Demande à formuler à l’exploitant à la suite du constat :
+La levée de cette non conformité est traitée dans le cadre du suivi du contrôle périodique (cf.
+point de contrôle n°3).
+
+Prescription:
+Les installations sont exploitées sous la surveillance permanente d'un personnel qualifié. Il vérifie
+périodiquement le bon fonctionnement des dispositifs de sécurité et s'assure de la bonne
+alimentation en combustible des appareils de combustion.
+Par dérogation aux dispositions ci-dessus, l'exploitation sans surveillance humaine permanente est
+admise :
+- pour les générateurs de vapeur ou d'eau surchauffée, lorsqu'ils répondent aux dispositions de
+l'arrêté ministériel « du 20 novembre 2017 relatif au suivi des équipements sous pression et des
+récipients à pression simples » ;
+- pour les autres appareils de combustion, si le mode d'exploitation assure une surveillance
+permanente de l'installation permettant au personnel soit d'agir à distance sur les paramètres de
+fonctionnement des appareils et de les mettre en sécurité en cas d'anomalies ou de défauts, soit
+de l'informer de ces derniers afin qu'il intervienne directement sur le site.
+L'exploitant consigne par écrit les procédures de reconnaissance et de gestion des anomalies de
+fonctionnement ainsi que celles relatives aux interventions du personnel et aux vérifications
+périodiques du bon fonctionnement de l'installation et des dispositifs assurant sa mise en
+sécurité. Ces procédures précisent la fréquence et la nature des vérifications à effectuer pendant
+et en dehors de la période de fonctionnement de l'installation.
+En cas d'anomalie(s) provoquant l'arrêt de l'installation, celle-ci est protégée contre tout
+déverrouillage intempestif. Toute remise en route automatique est alors interdite. Le réarmement
+ne peut se faire qu'après élimination du (des) défaut(s) par le personnel d'exploitation, au besoin
+après intervention sur le site.

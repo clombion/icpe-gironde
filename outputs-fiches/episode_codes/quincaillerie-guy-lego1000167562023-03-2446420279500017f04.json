@@ -1,0 +1,33 @@
+{
+  "document_date": "2023-03-24",
+  "document_title": "quincaillerie-guy-lego1000167562023-03-2446420279500017f04",
+  "document_summary": "L'inspection constate que les réservoirs de carburant d'une quincaillerie ne portent pas les symboles de dangers réglementaires, et que le récipient de récupération des égouttures n'est ni identifié ni étiqueté. L'exploitant est invité à remédier à ces manquements d'étiquetage.",
+  "surprises": "",
+  "tensions": "Les réservoirs sont identifiés (leur existence est connue), mais l'absence des symboles de dangers sur des contenants de carburant constitue un risque d'information minimal — la tension est entre la réalité du risque physique présent et l'absence de sa signalisation.",
+  "codes": [
+    {
+      "description": "Les réservoirs de carburant ne sont pas équipés des pictogrammes de danger exigés par la réglementation relative à l'étiquetage des produits chimiques dangereux.",
+      "excerpts": [
+        "ils ne sont pas équipés des symboles de dangers conformément à la réglementation."
+      ],
+      "valence": "negative",
+      "code": "Absence de symboles de dangers"
+    },
+    {
+      "description": "Le récipient de récupération des égouttures de carburant n'est ni identifié ni étiqueté, constituant un double manquement à la signalisation.",
+      "excerpts": [
+        "le récipient de récupération des égouttures n'est pas identifié et ne possède pas non plus les symboles de dangers requis."
+      ],
+      "valence": "negative",
+      "code": "Récipient d'égouttures non identifié"
+    },
+    {
+      "description": "La prescription rappelle que tout emballage contenant un produit dangereux doit porter le nom du produit et les symboles de danger en caractères très lisibles.",
+      "excerpts": [
+        "Les fûts, réservoirs et autres emballages doivent porter en caractères très lisibles le nom des produits et, s'il y a lieu, les symboles de danger conformément à la réglementation relative à l'étiquetage des substances et préparations chimiques dangereuses."
+      ],
+      "valence": "neutral",
+      "code": "Signalisation des produits dangereux"
+    }
+  ]
+}

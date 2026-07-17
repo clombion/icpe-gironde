@@ -1,0 +1,132 @@
+Constats body:
+a
+Résultats des concentrations des paramètres en moyenne sur 24h.
+Pour les MES:
+Dépassement les 11/07/15, 07/05/20, 17/09/20 et 30/03/21. Valeurs de 4-9 - 11 et 5,5 au lieu
+de 3
+8
+
+mg/l max.
+|
+Pour la DBOS:
+Dépassement les 2/07/20 et 30/03/21. Valeurs de 21 et 2,3 mg/l au lieu de 2 mg/l max.
+Pour la DCO:
+Pour !'ammonium NH4+:
+Dépassement les 19/09/19, 07/05/20, 02/07/20 et 24/06/21. Valeurs de 055 - 0439 - 0404 et 046
+mg/l au lieu de 0,350 mg/l max.
+Absence de mesures pour la DCO et l'ammoniac.
+Résultats des concentrations des paramètres en prélèvements ponctuels.
+|
+‘|
+Pour les MES: résultats conformes
+Pour l'ammonium NH4+: résultats conformes.
+Absence de mésures pour la DBOS, la DCO et l'ammoniac.
+Absence de mesures de flux de pollution des paramètres indiqués dans l'arrêté d'autorisation.
+‘
+
+Prescription:
+;
+Les rejets doivent réporidre aux conditions suivantes:
+j;
+RARAMETRE
+;
+La concentration de l'effluent rejeté
+'
+i
+est inférieure ou égale à x
+:
+|
+Ümeximate | moyenne eur
+|moyenne sur
+|
+:
+|
+2H
+1
+24H
+ï
+i
+i
+'
+lMatières en
+|
+H
+jen. Suspension.....
+| 10,00 mg/1|
+10,00 mg/t
+3,000
+mg/1
+i
+|
+IDemanae biologique
+Hl
+H
+en oxygène sur
+l
+i
+16 jours DB05.....,
+3,80 mart
+3,6 mg/1
+;
+2,000
+mg/1
+|
+i
+i
+!
+|
+i
+{Demande
+chimique
+!
+|
+Jen oxygène DCO...
+12,00 mg/1 |
+12,00 mg/1
+,
+7,800
+mg/1
+:
+Hl
+i
+{Ammonium en NH4..
+j
+0,80 at
+9,60 mg/1
+,
+01380
+mg/1
+|
+:
+lAmmoniaque non
+.
+|dissccié-en
+NH4..
+0,008 mg/l
+0,008 me/i
+|
+0,0015 mg/1
+‘ion faite des vaieurs des différents paramètres mesurés
+ux à l’entrée de la pisciculture
+FLUX
+Flux de pollution qui ne peut être
+PARAMETRE
+- dépassé
+Penaant aucune Dériode de
+2H consécutives | 24 H consécutives
+86,50 kg.
+286,00 Kg
+103,70 kg
+713,00 Kg
+30,00 Kg
+190,00 kg
+‘
+"8,20 Kg
+33,00 kg
+Ammoniaque
+non
+.
+dissocié
+en NH4...
+0,04 kg
+0,15 Kg

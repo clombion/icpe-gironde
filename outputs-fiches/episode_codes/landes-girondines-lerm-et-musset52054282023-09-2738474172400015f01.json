@@ -1,0 +1,58 @@
+{
+  "document_date": "2023-09-27",
+  "document_title": "landes-girondines-lerm-et-musset52054282023-09-2738474172400015f01",
+  "codes": [
+    {
+      "description": "Le gérant de la société est décédé et la société a été radiée du registre du commerce, créant une situation juridique complexe pour la responsabilité environnementale du site.",
+      "excerpts": [
+        "il est constaté que cette société a été radiée du registre des commerces et sociétés le 10 janvier 2020 par manque d'actifs. Quant à M. Philippe TORREGARAY, il est décédé le 28 janvier 2022."
+      ],
+      "valence": "negative",
+      "code": "Exploitant décédé société radiée"
+    },
+    {
+      "description": "Aucune activité d'extraction ou d'enfouissement n'est constatée lors de l'inspection, mais des traces d'usage récréatif motorisé sont présentes.",
+      "excerpts": [
+        "Le jour de l'inspection, aucune activité d'extraction ni d'enfouissement n'a été constatée.",
+        "Compte tenu des traces observées, il semble utilisé pour du moto-cross et VTT."
+      ],
+      "valence": "neutral",
+      "code": "Site sans activité détectable"
+    },
+    {
+      "description": "L'analyse topographique suggère que les déchets enfouis sont toujours présents ou que des matériaux similaires les ont remplacés, sans preuve de remise en état.",
+      "excerpts": [
+        "Le niveau des terrains n'a pas baissé depuis 2010, voire s'est élevé vers le merlon de sable, ce qui peut être dû à l'étalement du sable. Les déchets semblent donc être encore en place ou avoir été substitués par d'autres matériaux."
+      ],
+      "valence": "negative",
+      "code": "Déchets enfouis probablement en place"
+    },
+    {
+      "description": "Absence de clôture et de signalisation de danger sur un site présentant des risques liés aux déchets enfouis et à la topographie.",
+      "excerpts": [
+        "Le site n'est pas clôturé et aucun signalement sur les risques du site n'est en place."
+      ],
+      "valence": "negative",
+      "code": "Site non clôturé accès libre"
+    },
+    {
+      "description": "En l'absence d'exploitant actif, l'inspection reporte la responsabilité sur la propriétaire du terrain et les ayants droit pour la fourniture d'un historique et d'un diagnostic.",
+      "excerpts": [
+        "Il est ainsi demandé à la propriétaire, en tant que détentrice de déchets enfouis, et aux ayant droit de fournir un historique de la fin d'activité opérée sur cette parcelle ainsi que les justificatifs d'une remise en état."
+      ],
+      "valence": "neutral",
+      "code": "Responsabilité transférée aux ayants droit"
+    },
+    {
+      "description": "L'inspection demande une information de la mairie pour conserver la mémoire de l'activité d'enfouissement en vue de tout changement d'usage futur.",
+      "excerpts": [
+        "une information de la Mairie est nécessaire pour garder la mémoire et informer de la situation particulière de cette parcelle en cas de changement d'usage."
+      ],
+      "valence": "neutral",
+      "code": "Mémoire du site transmise à la mairie"
+    }
+  ],
+  "document_summary": "Inspection d'un site d'extraction et d'enfouissement illicite de déchets dont le gérant est décédé et la société radiée. Le site est abandonné, non clôturé, et les déchets enfouis semblent toujours en place douze ans après leur constat initial. L'inspection tente d'identifier des responsables parmi la propriétaire et les ayants droit.",
+  "surprises": "La situation est un cas extrême d'abandon administratif : l'exploitant est mort, la société n'existe plus, et le site reste en déshérence depuis plus d'une décennie sans remise en état. L'inspection doit opérer dans un vide juridique rare.",
+  "tensions": "Tension majeure entre la nécessité règlementaire d'une remise en état par l'exploitant (défunt et disparu) et l'impossibilité pratique d'identifier un responsable solvable. La propriétaire du terrain se retrouve héritière d'une obligation environnementale qu'elle n'a pas créée."
+}

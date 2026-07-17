@@ -1,0 +1,42 @@
+Constats body:
+L'exploitant a répondu :
+"chaque Responsable de Ligne de Production a identifié les bâtiments (atelier, laboratoire, dépôt)
+dont la durée de stockage de matières dangereuses est supérieure à la journée et mis en oeuvre un
+suivi des stocks adapté à la nature, la quantité et la fréquence des mouvements de matières
+dangereuses. Ces bâtiments sont décrits dans un document de suivi propre à chaque secteur et les
+stocks sont suivis au travers des différents outils disponibles (ERP SAP ou fichiers excel). Des
+contrôles aléatoires sont par ailleurs effectués par le responsable du service et le service SSE pour
+vérifier la mise à jour des états de stock.
+"
+L'IIC a demandé à voir les derniers contrôles réalisés par le service SSE :
+- sur le CX 2 (1 remarque sur un défaut de renseignement des locaux)
+- sur le CEPS 2 (quelques remarques pour mise à jour)
+- sur le SSB et le SCL7 (quelques remarques sur mise à jour des stocks)
+Chaque responsable de secteur fait un retour au service SSE sur l'avancée des actions résultant de
+ces audits.
+Cependant, l'IIC note que certaines remarques d'amélioration réalisées par le service SSE ne sont
+pas prises en compte par les responsables de secteur. Par exemple, le fait d'ajouter 2 colonnes
+dans certains fichiers Excel pour indiquer non seulement la masse en équivalent TNT mais
+également la masse nette.
+0
+
+    
+		  		  	  	 
+		
+	  	    1
+
+!!			+"
+Dorénavant, l'exploitant a listé l'ensemble de ses bâtiments susceptibles de recevoir des matières
+dangereuses à l'échelle de la journée, que ces matières soient considérées comme des stocks ou
+des en-cours de production, à travers le fichier
+"ESM_StocksMD - Recherche de bâtiments"
+L'inspection des installations classées considère que les dispositions de l'arrêté de mise en
+demeure du 30/03/2021 sont respectées.
+
+Prescription:
+FNC 1 : Contrairement aux dispositions de l’article 6.
+1.
+1 de l’
+AP du 22/01/2021, l’état des stocks des
+substances et mélanges susceptibles d’être présents sur le site est incomplet et ne prend pas en
+compte l’ensemble des bâtiments susceptibles de contenir des substances dangereuses.

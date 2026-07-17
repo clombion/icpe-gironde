@@ -1,0 +1,33 @@
+{
+  "document_date": "2025-12-05",
+  "document_title": "domaine-clarence-dillon31042552025-12-0557217902600024f03",
+  "document_summary": "L'inspection d'un domaine viticole vérifie la conformité des panneaux photovoltaïques installés en toiture au regard des risques d'explosion (ATEX), et constate que seul le local de charge est classé ATEX et qu'il n'est pas en contact direct avec la toiture photovoltaïque.",
+  "surprises": "La prescription photovoltaïque-ATEX est particulièrement technique et détaillée — son application à un domaine viticole illustre la montée en complexité réglementaire même pour des installations traditionnelles.",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "L'exploitant identifie un seul volume classé ATEX sur son site (le local de charge), réduisant ainsi le périmètre d'application des contraintes photovoltaïques ATEX.",
+      "excerpts": [
+        "dans son établissement, seul le local de charge était une zone ATEX"
+      ],
+      "valence": "positive",
+      "code": "Zone ATEX unique local de charge"
+    },
+    {
+      "description": "Le local ATEX n'est pas en contact direct avec la toiture où sont installés les panneaux photovoltaïques, ce qui satisfait à l'exigence réglementaire de séparation.",
+      "excerpts": [
+        "Ce local n'est pas situé en contact direct avec la toiture où sont situés les panneaux photovoltaïques"
+      ],
+      "valence": "positive",
+      "code": "Absence contact ATEX-photovoltaïque"
+    },
+    {
+      "description": "La réglementation exige que l'ensemble toiture/panneaux photovoltaïques réponde aux mêmes exigences de résistance à l'explosion que la toiture seule, pour les bâtiments abritant des zones ATEX.",
+      "excerpts": [
+        "L'ensemble constitué par l'unité de production photovoltaïque et la toiture, respectivement la façade, présente les mêmes performances de résistance à l'explosion que celles imposées à la toiture seule"
+      ],
+      "valence": "neutral",
+      "code": "Prescription performance résistance explosion toiture PV"
+    }
+  ]
+}

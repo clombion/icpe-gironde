@@ -1,0 +1,5 @@
+Constats body:
+|
+Aucune valeur de débits de rejet n'a été transmise par l'exploitant.
+Seuls les débits du cours d'eau et les débits entrants sont estimés avec la methode dite “de Id
+|: bouteille" une fois par mois.

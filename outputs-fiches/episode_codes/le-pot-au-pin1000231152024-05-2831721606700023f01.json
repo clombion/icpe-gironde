@@ -1,0 +1,41 @@
+{
+  "document_date": "2024-05-28",
+  "document_title": "le-pot-au-pin1000231152024-05-2831721606700023f01",
+  "codes": [
+    {
+      "description": "Un drone utilisé par l'inspection a permis de calculer un volume de stockage de 16 000 m3, dépassant le seuil d'autorisation de 15 000 m3 de la rubrique 2160, démontrant l'usage de nouvelles technologies d'inspection.",
+      "excerpts": [
+        "D'après les mesures réalisées par l'inspection des installations classées à l'aide d'un aéronef circulant sans personne à bord (drone) puis par traitement des données via logiciel, le volume de la capacité de stockage des céréales, de grains... est d'environ 16 000 m3, soit au dessus du seuil de l'autorisation"
+      ],
+      "valence": "negative",
+      "code": "Dépassement seuil autorisation mesuré par drone"
+    },
+    {
+      "description": "Suite à la mise en demeure, l'exploitant a déclaré un changement d'exploitant et régularisé la situation administrative avec un récépissé de déclaration valide.",
+      "excerpts": [
+        "La situation administrative de la société est régularisée. L'arrêté de mise en demeure du 5 septembre 2023 est respecté."
+      ],
+      "valence": "positive",
+      "code": "Régularisation administrative réalisée"
+    },
+    {
+      "description": "Après justification précise du volume total (14 784 m3), l'installation est finalement classée en déclaration avec contrôle périodique, en dessous du seuil d'autorisation.",
+      "excerpts": [
+        "Soit un volume total de 14 784 m3. A ce titre, les installations sont soumises à la rubrique 2160-2 à déclaration avec contrôle périodique."
+      ],
+      "valence": "positive",
+      "code": "Reclassement régime déclaration"
+    },
+    {
+      "description": "La mise en demeure a été levée via un changement d'exploitant et une nouvelle déclaration, suggérant que la voie administrative peut passer par une restructuration juridique.",
+      "excerpts": [
+        "En date du 22 mai 2024, l'exploitant a déclaré un changement d'exploitant sous la référence de votre dossier est A-4-NDQKTDZT8A."
+      ],
+      "valence": "neutral",
+      "code": "Changement d'exploitant comme levier"
+    }
+  ],
+  "document_summary": "Inspection de suivi d'une mise en demeure pour dépassement du seuil d'autorisation d'un silo à céréales, initialement détecté par drone à 16 000 m3. La situation est régularisée après changement d'exploitant et nouvelle déclaration, le volume définitif recalculé étant inférieur au seuil.",
+  "surprises": "L'utilisation d'un drone avec traitement logiciel des données pour calculer des volumes de silos est une méthode d'inspection moderne et remarquable, permettant une mesure objective que l'exploitant ne peut contester facilement.",
+  "tensions": "Le volume mesuré par drone (16 000 m3) et le volume recalculé par l'exploitant (14 784 m3) diffèrent significativement — la résolution de la mise en demeure repose sur l'acceptation de la mesure de l'exploitant plutôt que sur celle de l'inspection."
+}

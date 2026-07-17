@@ -1,0 +1,49 @@
+{
+  "document_date": "2022-11-21",
+  "document_title": "ecopole-bellevue-exsogefi-materiaux31052272022-11-2189456954000012f09",
+  "document_summary": "Six mois après l'ouverture du site, l'inspection constate qu'aucune mesure de concentrations de polluants n'a encore été effectuée, bien que l'arrêté le prescrive annuellement. L'exploitant est mis en demeure de réaliser ces mesures avant un an d'exploitation.",
+  "surprises": "Le site a démarré en mai 2022 et l'inspection intervient dès novembre — délai court qui signale une vigilance réglementaire précoce sur les installations nouvelles.",
+  "tensions": "La prescription impose des mesures annuelles par organisme agréé, mais l'installation est si récente qu'aucune campagne n'a pu être réalisée ; l'inspection fixe un délai à mai 2023 qui correspond exactement à la première année d'exploitation.",
+  "codes": [
+    {
+      "description": "Aucune mesure des concentrations de polluants n'a été réalisée depuis l'ouverture du site, en violation de l'obligation de surveillance annuelle.",
+      "excerpts": [
+        "L'inspection a constaté qu'aucune mesure de concentrations de polluants n'avait encore été effectuée."
+      ],
+      "valence": "negative",
+      "code": "Absence mesure polluants"
+    },
+    {
+      "description": "L'installation est très récente (débutée en mai 2022) et l'inspection intervient seulement six mois après la mise en service.",
+      "excerpts": [
+        "L'exploitation du site a débuté le 15 mai 2022."
+      ],
+      "valence": "neutral",
+      "code": "Site en démarrage récent"
+    },
+    {
+      "description": "La prescription impose le recours à un organisme agréé par le ministre pour réaliser les mesures périodiques de polluants.",
+      "excerpts": [
+        "Une mesure des concentrations des différents polluants visés aux articles 17 et 18 est effectuée au moins tous les ans par un organisme agréé par le ministre chargé de l'environnement."
+      ],
+      "valence": "neutral",
+      "code": "Surveillance par organisme agréé"
+    },
+    {
+      "description": "L'inspection impose un délai précis (avant le 15 mai 2023) pour régulariser l'absence de surveillance, avec transmission immédiate des résultats.",
+      "excerpts": [
+        "L'inspection demande à l'exploitant de réaliser des mesures des concentrations de polluants avant le 15 mai 2023 et de lui transmettre les résultats dès leur réception"
+      ],
+      "valence": "neutral",
+      "code": "Délai correctif imposé"
+    },
+    {
+      "description": "La prescription prévoit que les polluants non susceptibles d'être émis par l'installation n'ont pas à faire l'objet de mesures périodiques.",
+      "excerpts": [
+        "Les polluants qui ne sont pas susceptibles d'être émis par l'installation ne font pas l'objet des mesures périodiques prévues au présent article."
+      ],
+      "valence": "neutral",
+      "code": "Exemption polluants non émis"
+    }
+  ]
+}

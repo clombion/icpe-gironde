@@ -1,0 +1,41 @@
+{
+  "document_date": "2022-11-10",
+  "document_title": "sea-invest-bordeaux-bassens-avenue-bellerive-des-moines52003302022-11-1031887184",
+  "codes": [
+    {
+      "description": "L'exploitant produit un exercice réalisé sur un autre site partagé par le même personnel, ce qui est accepté provisoirement mais ne satisfait pas pleinement l'obligation de tester les dispositifs propres au site.",
+      "excerpts": [
+        "L'exploitant a transmis le compte-rendu du dernier exercice qui a eu lieu, en présence du SDIS le 24/02/2022, sur un autre site exploité par la société SEA INVEST ; les employés partageant leur temps entre ces deux sites."
+      ],
+      "valence": "mixed",
+      "code": "Exercice incendie hors site"
+    },
+    {
+      "description": "L'écart porte sur l'absence d'exercice incendie propre au site de Bassens, condition mise à la levée de la non-conformité et liée à l'achèvement des travaux.",
+      "excerpts": [
+        "Une fois les travaux terminés, l'exploitant met en place un exercice incendie sur son site, sous 3 mois, permettant notamment de la mise en œuvre de la convention avec SIMOREP, et l'entraînement du personnel formé à la première intervention. La non réalisation de celui-ci constitue un écart aux dispositions de l'arrêté."
+      ],
+      "valence": "negative",
+      "code": "Exercice site non encore réalisé"
+    },
+    {
+      "description": "La prescription impose une coordination avec le SDIS pour des exercices communs, et le contexte révèle une convention opérationnelle avec SIMOREP comme ressource d'intervention externe.",
+      "excerpts": [
+        "Le chef d'établissement propose aux Services Départementaux d'incendie et de Secours leur participation à un exercice commun."
+      ],
+      "valence": "neutral",
+      "code": "Coordination SDIS et inter-établissements"
+    },
+    {
+      "description": "La prescription exige qu'au moins une fois par an le personnel d'intervention participe à un exercice ou à une intervention sur feu réel, distinguant cet entraînement des simulations.",
+      "excerpts": [
+        "Au moins une fois par an, le personnel d'intervention doit avoir participé à un exercice ou à une intervention sur feu réel."
+      ],
+      "valence": "neutral",
+      "code": "Formation feu réel obligatoire"
+    }
+  ],
+  "document_summary": "Inspection d'un entrepôt SEA Invest à Bassens (Bordeaux) portant sur l'entraînement incendie : le personnel partage son temps avec un autre site où un exercice a été réalisé avec le SDIS, mais aucun exercice propre au site de Bassens n'a encore eu lieu, constituant un écart à régulariser après la fin des travaux.",
+  "surprises": "La mutualisation du personnel entre deux sites est présentée comme justification partielle de l'absence d'exercice sur le site contrôlé — usage inhabituel de l'argument inter-sites.",
+  "tensions": "L'exploitation partage les effectifs avec un autre site mais doit quand même réaliser ses propres exercices réglementaires : la mutualisation organisationnelle ne dispense pas des obligations site par site."
+}

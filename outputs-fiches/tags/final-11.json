@@ -1,0 +1,2301 @@
+[
+  {
+    "slug": "bordeaux-metropole-merignac52049332023-05-0933783298400013f02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A05",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Rapport APAVE mars 2022 conclut aucune non-conformité, NC de 2021 résolues, inspection ne formule aucune remarque."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332023-05-0933783298400013f03",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Registre déchets partiellement mis à jour (GEDO) mais deux items réglementaires manquants (qualification traitement, code CE), même constat qu'en 2015, exploitant promet mise à jour prochaine."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332023-05-0933783298400013f04",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Nouvelle cuve aérienne installée sur rétention dans container fermé, levée de MED sur ce point."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332023-05-0933783298400013f05",
+    "domains": [
+      "D04",
+      "D07"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Vannes signalées, curage séparateur réalisé le 07/03/2022, aucune irisation observée, prescription respectée."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332023-05-0933783298400013f06",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Nouveau dispositif de récupération huiles installé sans nécessiter détecteur de fuite, MED sans objet."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332023-05-0933783298400013f07",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A04",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Relevé SDIS du 02/03/2022 confirmant débit 60 m³/h, prescription respectée."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332023-05-0933783298400013f08",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Jauge étanche absente au jour de l'inspection (suspicion de vol), MED partiellement levée mais nouvelle demande de remise en place sous 15 jours avec menace de suites."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332023-05-0933783298400013f09",
+    "domains": [
+      "D01",
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Formations sécurité incendie réalisées juin-décembre 2022, feuilles d'émargement présentées, MED levée."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332024-12-1933783298400013f01",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Registre déchets non dangereux conforme avec colonne code traitement CE, MED du 11/05/2022 levée."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332024-12-1933783298400013f02",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre déchets dangereux incomplet : nom/adresse destinataire absent pour piles et DEEE, numéro d'immatriculation absent pour toutes catégories."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332024-12-1933783298400013f03",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Lecture du niveau des cuves d'huiles usagées difficile du fait de la saleté des cuves, demande de s'assurer de l'opérationnalité de la jauge."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332024-12-1933783298400013f04",
+    "domains": [
+      "D01",
+      "D11"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Programme de formation fourni sans certificats de formation ni indication d'affectation des agents, exploitant s'engage sur recyclages 2025-2026."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332024-12-1933783298400013f05",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G4",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "RIA non opérationnel au jour de l'inspection (retard entreprise), MED active depuis 2022 non encore levée, calendrier de mise en service fourni pour janvier 2025."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332024-12-1933783298400013f06",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Séparateur hydrocarbures SE bouché avec irisation et MES, caniveau menaçant de déborder sur voie publique ; réseau eaux pluviales non séparatif."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332024-12-1933783298400013f07",
+    "domains": [
+      "D01",
+      "D11"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fiche de consigne incendie incomplète : numéro du responsable d'intervention et numéro DREAL absents. NC documentaire, pas physique."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332024-12-1933783298400013f08",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A05",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport Bureau Veritas juin 2024 signale deux écarts (fiches multiples, différentiel défectueux) et vérification incomplète faute de mise hors tension, travaux présumés faits sans justificatif."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332024-12-1933783298400013f09",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "DDS et gros électroménagers stockés dans conteneurs abrités ; petit électroménager et DEEE en cages métalliques extérieures conforme aux exceptions réglementaires."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332025-02-1133783298400013f01",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A05",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Vérification électrique complète non encore réalisée (relance BV du 04/02/2025 documentée, avis de passage BV planifié 28/02/2025), prescription non respectée au jour de la visite mais action initiée avec preuve écrite."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332025-02-1133783298400013f02",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Deux RIA installés et démontrés fonctionnels lors de l'inspection, MED levée, demande de justificatifs de conformité aux normes en vigueur sous 1 mois."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332025-02-1133783298400013f03",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Prolongation de gouttière installée permettant infiltration des eaux pluviales non polluées, réseau séparatif, prescription respectée."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332025-02-1133783298400013f04",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Séparateur SE curé en janvier 2025, conforme au jour de la visite malgré légère irisation résiduelle ; avaloir partiellement bouché par boue/feuilles, demande de maintien du bon écoulement."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332025-02-1133783298400013f05",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Deux GRV propres sur rétention adaptée dans local abrité, lecture niveau par transparence aisée (<10%), prescription respectée."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332026-02-2433783298400013f01",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "FDS regroupées dans classeur dédié, accessible aux agents, produits dans emballages d'origine, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332026-02-2433783298400013f02",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Incohérence constatée entre classement GHS de la FDS (GHS05/corrosif) et celui de l'étiquette bidon (GHS07/irritant), demande de mise en adéquation sous 2 mois."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332026-02-2433783298400013f03",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Produits sur rétention dimensionnée pour l'ensemble des volumes stockés, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332026-02-2433783298400013f04",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun produit incompatible dans la même rétention, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332026-02-2433783298400013f05",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Un seul produit (PROSENS, 1 bidon) sur site, pas d'état des stocks formalisé mais situation de fait conforme à l'esprit de la prescription."
+  },
+  {
+    "slug": "bordeaux-metropole-merignac52049332026-02-2433783298400013f06",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A05",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Rapport Bureau Veritas juillet 2025 sans observation mais mise hors tension partielle, intervention complémentaire à planifier pour 2026, exploitant promet coordination avec service bâtiments."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Capacités maximales autorisées respectées, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f02",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Modifications antérieures portées à la connaissance de l'inspection, conformité aux plans d'enregistrement respectée."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f03",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation maintenue propre et bien entretenue, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f04",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation exploitée en présence de deux personnes nommément désignées, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f05",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun élément contraire à la réglementation constaté, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f06",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Panneau heures d'ouverture et déchets admissibles présent, installation inaccessible hors heures (intrusions illégales signalées mais plaintes déposées), conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f07",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Panneaux béton et clôture grillage présents, issues avec portails, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f08",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Panneau limitation vitesse 10 km/h, bordures autour des quais et barrières au niveau des bennes présents, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f09",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A05",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport Bureau Veritas du 04/04/2022 sans observation particulière, prescription respectée."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f10",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Téléphone, extincteurs contrôlés (07/02/2023 sans anomalie), poteau incendie externe présent, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f11",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dispositifs antichutes véhicules et piétons, garde-corps, panneaux danger, voies dégagées, marquage piétons présents, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f12",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Ensemble des eaux recueilli par réseau unique vers débourbeur-déshuileur avec vannes de confinement, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f13",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Exutoires de rejet direct vers fossé bouchés, eaux dorénavant dans réseau unique, NC résolue."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f14",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Eaux pluviales collectées et traitées par débourbeur-déshuileur avant rejet fossé, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f15",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M03"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "BSD Trackdéchets non émis systématiquement avec exploitant comme producteur, demande sous 15 jours avec menace de MED."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f16",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dépassement VLE MES (210 mg/l vs 100 mg/l) constaté lors analyses juin 2022, demande de mesures correctives pour identifier l'origine."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f17",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A05",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Compte rendu mesures acoustiques ORFEA 10/12/2021 attestant conformité des activités."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f18",
+    "domains": [
+      "D08",
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchetterie fermée hors heures, 2 agents titulaires + 1 maître chien, déchets dans bennes dédiées avec affichage, piles/batteries collectées conformément."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-17-rue-gutenberg52117972023-04-2724330031600011f19",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre déchets non dangereux 2022 incomplet (2 items manquants : qualification traitement, code CE), inspection propose pas de suite immédiate vu mise à jour prochaine annoncée."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562023-05-0934868793000019f01",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Site propre, aucun déchet hors zones dédiées, organisation nettoyage périodique mise en place, NC de 2022 résolue."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562023-05-0934868793000019f02",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G4",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "RIA jamais mis en service (MED depuis 2022), travaux en cours mais mise en service prévue septembre 2023 au plus tôt, mesure compensatoire extincteur mobile 50 kg acceptable."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562023-05-0934868793000019f03",
+    "domains": [
+      "D01",
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Formations sécurité incendie réalisées juin-décembre 2022, MED levée, formations complémentaires sur moyens additionnels à planifier."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562023-05-0934868793000019f04",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A05",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "5 NC électriques dont 4 nouvelles suite contrôle BV mars 2023, NC récurrente (résistance prise de terre) non résolue, demande sous 2 mois avec menace MED."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562023-05-0934868793000019f05",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Registre GEDO partiellement conforme mais 2 items réglementaires manquants, même situation qu'en 2015, exploitant promet mise à jour prochaine."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562023-05-0934868793000019f06",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Analyses déchets aqueux (mars et juin 2022) en deçà des VLE, nouveau point de prélèvement ajouté, MED levée."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562023-05-0934868793000019f07",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Abri clos avec bacs de rétention, jauge et robinet aspiratif installés conformément aux engagements, MED levée."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562023-05-0934868793000019f08",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Bassin d'orage curé, aucun flottant, plan des réseaux fourni mais incomplet (points de rejet et ouvrages absents), MED levée, demande de mise à jour du plan sous 2 mois."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562024-12-1934868793000019f01",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Registre déchets non dangereux conforme avec colonne code traitement, MED du 11/05/2022 levée."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562024-12-1934868793000019f02",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre déchets dangereux incomplet (nom/adresse destinataire absent pour piles et DEEE, immatriculation absente), demande de mise à jour sous 30 jours."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562024-12-1934868793000019f03",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A05",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Analyses rejets eaux pluviales du 27/11/2024 conformes aux VLE, valeur MES égale à la limite (attention portée), mesures préventives balayage en cours."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562024-12-1934868793000019f04",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "RIA en place, fonctionnel (démonstration faite), protégé du gel, MED levée."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562024-12-1934868793000019f05",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A05",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cuve acier double enveloppe avec détecteur de fuite conforme, trace d'impact de 1 cm² notée mais intégrité non compromise selon rapport récent, vigilance demandée."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562024-12-1934868793000019f06",
+    "domains": [
+      "D01",
+      "D11"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Tableau de formation sans certificats réglementaires ni affectation des agents, formation RIA non annuelle pour tout le personnel, situation non conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562024-12-1934868793000019f07",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13",
+    "actor": "A05",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport BV 12/06/2024 sans NC mais installation électrique RIA non vérifiée, demande de vérification lors prochaine campagne."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562024-12-1934868793000019f08",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "État d'ordre et de propreté général n'appelant pas de remarque."
+  },
+  {
+    "slug": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562024-12-1934868793000019f09",
+    "domains": [
+      "D01",
+      "D11"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vanne d'obturation de technologie non standard (clapet à retourner), difficilement accessible, signalétique insuffisante, accès dangereux par temps de pluie, plan de procédure incomplet."
+  },
+  {
+    "slug": "bordeaux-metropole-saint-medard-en-jalles52012562023-05-0924330031600011f01",
+    "domains": [
+      "D01",
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Formations sécurité incendie réalisées juin-décembre 2022, feuilles d'émargement présentées, MED levée."
+  },
+  {
+    "slug": "bordeaux-metropole-saint-medard-en-jalles52012562023-05-0924330031600011f02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "NC électrique prise de terre levée selon exploitant, non récurrente par rapport au contrôle de 2021, constat de 2022 sans objet."
+  },
+  {
+    "slug": "bordeaux-metropole-saint-medard-en-jalles52012562023-05-0924330031600011f03",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Registre GEDO partiellement conforme mais 2 items réglementaires manquants, même situation qu'en 2015, exploitant promet mise à jour."
+  },
+  {
+    "slug": "bordeaux-metropole-saint-medard-en-jalles52012562023-05-0924330031600011f04",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Armoire clos avec rétention, jauge et robinet aspiratif installés, MED levée."
+  },
+  {
+    "slug": "bordeaux-metropole-saint-medard-en-jalles52012562023-05-0924330031600011f05",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A04",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Débit poteaux incendie confirmé par SDIS (60 m³/h chacun), essais individuels conformes, essai simultané non encore réalisé mais non obligatoire à ce stade."
+  },
+  {
+    "slug": "bordeaux-metropole-saint-medard-en-jalles52012562023-05-0924330031600011f06",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Gros appareils électroménagers stockés non abrités des intempéries, réaménagement prévu mais non réalisé, commande conteneur maritime à passer, demande sous 6 mois avec menace MED."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Volumes et capacités autorisés respectés, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f02",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation conforme aux plans d'enregistrement."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f03",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08",
+      "M11"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Deux incendies en bennes TVI déclarés dans les délais réglementaires en 2021 et 2022, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f04",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation conforme, pas de locaux habités au-dessus."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f05",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchets dangereux entreposés dans locaux spécifiques abrités, huiles et piles en conteneurs abrités, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f06",
+    "domains": [
+      "D01",
+      "D08"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Locaux stockage conformes (ventilés, rétentions) mais porte d'un local abîmée suite effraction, demande de remise en état."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f07",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Clôture, bordures quais, garde-corps, panneau vitesse 10 km/h présents, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f08",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Locaux de stockage déchets dangereux ventilés, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f09",
+    "domains": [
+      "D07",
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Locaux stockage déchets dangereux surélevés et sur rétention, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f10",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation conforme à la prescription sur les rétentions."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f11",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitation sous surveillance directe (heures ouverture) et indirecte par vidéo-surveillance, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f12",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Panneaux heures/jours d'ouverture et déchets admis/interdits présents à l'entrée, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f13",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucune remarque particulière sur ce point, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f14",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A05",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Rapport BV du 06/05/2022 avec réserve levée le 16/06/2022, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f15",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "5 extincteurs vérifiés (dont 1 de 50 kg) avec préconisation batteries lithium traitée ; débit poteau incendie non encore justifié, demande sous 2 mois avec menace de suites administratives. M08 incorrect : prescription non encore intégralement respectée."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f16",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Affichage interdiction de fumer visible et présent, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f17",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consignes claires et visibles présentes et accessibles, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f18",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation conforme à la prescription sur sécurité des piétons et circulation."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f19",
+    "domains": [
+      "D04",
+      "D08"
+    ],
+    "mechanisms": [
+      "M14",
+      "M03"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Irisation hydrocarbures dans débourbeur-déshuileur, présence de déchets polystyrène, BSD Trackdéchets non émis systématiquement, demande avec menace MED."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f20",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A05",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Analyses janvier 2022 avec anomalies MES/DCO qui disparaissent lors campagne juin 2022, aucune anomalie en juin 2022."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f21",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Eaux pluviales rejetées après traitement débourbeur-déshuileur dans fossé puis réseau assainissement collectif, pas de rejet en nappe souterraine, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f22",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchetterie fermée hors heures, 3 agents présents, agents titulaires par site remplacés par agents volants, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f23",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchets dangereux (bombes peinture) déposés dans benne TVI au jour de l'inspection, mauvais contrôle des dépôts par agents, situation régularisée immédiatement."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f24",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Identification complète de la nature des déchets entreposés, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f25",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Panneaux informatifs risques, EPI et consignes présents à l'entrée du local, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f26",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan de stockage affiché à l'intérieur correspond au stockage réel, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f27",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Présence d'hydrocarbures dans la rétention de la cuve d'huiles usagées indique une anomalie (cuve ou récupérateur), contrôle d'étanchéité demandé avec mesures correctives."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f28",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Information sur risques et interdiction de mélange des huiles clairement affichée à proximité du conteneur, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f29",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation conforme à la réglementation sur protection contre les chocs véhicules."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f30",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Jauge de niveau non facilement repérable, seul l'agent de maîtrise absent au jour de l'inspection en connaît la situation, demande de rendre la jauge visible et accessible."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f31",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation conforme à la prescription sur absorbant à proximité de la borne."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f32",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Documents relatifs aux sorties de déchets transmis et conformes, déchets dangereux stockés moins de 3 mois, harmonisation registres suggérée mais non bloquante."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f33",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchets dangereux (bombes peinture) déposés dans benne TVI observés lors de l'inspection, contrôle des dépôts insuffisant par agents, lien avec f23."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f34",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre déchets non dangereux incomplet (2 items manquants), mise à jour prochaine annoncée, pas de suite immédiate proposée."
+  },
+  {
+    "slug": "bordeaux-metropole-villenave-d-ornon52066212023-05-1024330031600011f35",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A05",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport mesure bruit du 09/12/2021 sans anomalie, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Capacités maximales respectées, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f02",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation conforme aux prescriptions de l'AP 04/10/2006."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f03",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Voiries conformes, plate-formes équipées de murets et protections caoutchouc anti-chute, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f04",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Locaux ventilés, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f05",
+    "domains": [
+      "D07",
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Locaux de stockage surélevés, sur rétention, sol étanche, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f06",
+    "domains": [
+      "D07",
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Zone de stockage déchets dangereux abritée de la pluie, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f07",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitation sous surveillance directe avec agent de surveillance, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f08",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Panneaux heures/jours et déchets admis/interdits présents, installation totalement clôturée et barriérée, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f09",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchets ménagers spéciaux posés sur le sol à proximité du local au lieu d'être rangés, situation régularisée immédiatement sur site, demande de respect des consignes."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f10",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Affichage risques et interdiction de mélange huiles visible à côté du conteneur, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f11",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Récipients récupérés correctement selon procédure, observé en direct avec déposant, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f12",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchets enfouissement dans benne TVI, informations contradictoires sur affectation des bennes, contrôle insuffisant par opérateurs."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f13",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Affectation des bennes, casiers et conteneurs clairement indiquée, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f14",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation maintenue dans un état de propreté correct, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f15",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registres transmis à l'inspection, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f16",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A05",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport contrôle installations électriques du 23/05/2023 sans anomalie, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f17",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport vérification extincteurs juin 2023, débit poteau incendie conforme (4 bar à 60 m³/h), dossier incendie à jour, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f18",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Affichage interdiction de fumer visible et présent, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f19",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consignes claires et visibles présentes, conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f20",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Deux débourbeurs-déshuileurs avec curage juin 2023, légère irisation dans un ouvrage mais curage réalisé, plan fourni conforme, acceptable."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f21",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A05",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Analyses eau du 15/05/2023 conformes aux prescriptions."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f22",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation conforme, pas de rejet dans nappe souterraine."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f23",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Cuve enterrée présente mais inertée et hors service, alarme fonctionnelle ; enlèvement et dépollution non prévus à court terme — constat d'état factuel sans NC active."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-ambares-et-lagrave52002482023-10-0584324580400011f24",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre déchets incomplet (2 items manquants : qualification traitement, code CE), mise à jour prochaine annoncée, pas de suite immédiate."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Capacités maximales respectées, conforme."
+  }
+]

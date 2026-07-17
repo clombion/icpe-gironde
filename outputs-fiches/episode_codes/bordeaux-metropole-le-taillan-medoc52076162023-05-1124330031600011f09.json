@@ -1,0 +1,42 @@
+{
+  "document_date": "2023-05-11",
+  "document_title": "bordeaux-metropole-le-taillan-medoc52076162023-05-1124330031600011f09",
+  "codes": [
+    {
+      "description": "Les eaux pluviales susceptibles d'être polluées sont rejetées dans un fossé avec infiltration dans le sol, ce qui est interdit car équivalent à un rejet en nappe souterraine.",
+      "excerpts": [
+        "L'exploitant précise que les eaux pluviales rejetées s'infiltrent dans le fossé et ne peuvent pas s'écouler au-delà des 20 m reprofilés.",
+        "les rejets en nappe d'eaux souterraines sont interdits (article 4.3.2)"
+      ],
+      "valence": "negative",
+      "code": "Rejet eaux pluviales par infiltration"
+    },
+    {
+      "description": "Le même problème de rejet par infiltration avait déjà été constaté lors d'une inspection en 2016, montrant une absence de correction durable.",
+      "excerpts": [
+        "L'inspection avait constaté, au cours d'une inspection effectuée le 09/06/2016, que les eaux pluviales interceptées par les voies de circulation, les aires de stationnement, de chargement, de déchargement, de stockage et autres surfaces imperméabilisées étaient rejetées au milieu naturel par infiltration."
+      ],
+      "valence": "negative",
+      "code": "Non-conformité récurrente depuis 2016"
+    },
+    {
+      "description": "L'exploitant a reprofilé le fossé et installé un puisard drainant pour absorber les eaux, mais cette solution constitue un rejet en nappe interdit.",
+      "excerpts": [
+        "L'exploitant indique que le fossé a été reprofilé sur une longueur de 20 m environ et que des matériaux drainants ont été enfouis au fond du fossé (\"puisard\")."
+      ],
+      "valence": "negative",
+      "code": "Solution puisard non conforme"
+    },
+    {
+      "description": "L'inspection demande à l'exploitant de mettre en place un exutoire vers le ruisseau du Monastère conformément à l'arrêté préfectoral.",
+      "excerpts": [
+        "L'inspection demande à l'exploitant de prendre, dans un délai de six mois, les dispositions nécessaires pour que les eaux pluviales susceptibles d'être polluées rejetées dans le fossé aient pour exutoire le ruisseau du Monastère conformément à l'arrêté préfectoral complémentaire du 09/10/2017."
+      ],
+      "valence": "neutral",
+      "code": "Exutoire conforme exigé"
+    }
+  ],
+  "document_summary": "L'inspection de la déchetterie Le Taillan-Médoc (f09) constate que les eaux pluviales polluées sont infiltrées dans le sol via un puisard — solution non conforme équivalant à un rejet en nappe interdit — et que ce problème persiste depuis une inspection de 2016.",
+  "surprises": "L'exploitant a réalisé des travaux (reprofiler le fossé, installer un puisard) qui ont paradoxalement aggravé la non-conformité en formalisant l'infiltration.",
+  "tensions": "Des travaux ont été réalisés depuis 2016 mais dans le mauvais sens : au lieu de créer un exutoire vers le ruisseau, l'exploitant a installé une solution d'infiltration qui aggrave le non-respect de l'interdiction de rejet en nappe."
+}

@@ -1,0 +1,51 @@
+{
+  "document_date": "2024-10-16",
+  "document_title": "semaq-ex-sarl-plana-31000030402024-10-1630152474000042f06",
+  "codes": [
+    {
+      "description": "L'exploitant ne peut pas produire les documents techniques justifiant le dimensionnement des cantons ni les comptes-rendus de tests des dispositifs de désenfumage.",
+      "excerpts": [
+        "L'exploitant n'a pas été en mesure de fournir les éléments justifiant du bon dimensionnement des cantons et des exutoires de désenfumage.",
+        "l'exploitant n'a pas été en mesure de fournir un compte-rendu de test des dispositifs de désenfumage."
+      ],
+      "valence": "negative",
+      "code": "Justificatifs désenfumage absents"
+    },
+    {
+      "description": "L'exploitant argumente que la surface d'amenée d'air est conforme (33 m² > 32,3 m² requis) malgré l'absence d'une porte sectionnelle, mais cette conformité reste à confirmer par des justificatifs.",
+      "excerpts": [
+        "en l'état actuel (sans la dernière porte de la cellule 1), la surface d'amenée d'air est de 33 m², donc conforme."
+      ],
+      "valence": "mixed",
+      "code": "Conformité de surface calculée"
+    },
+    {
+      "description": "Un stockage de matières combustibles à moins de 0,5 mètre d'un écran de cantonnement a été constaté sur le terrain, violant la prescription de distance minimale.",
+      "excerpts": [
+        "lors de la visite terrain, l'inspection a pu constater la présence de stockage, à moins de 0,5 mètre de l'écran de cantonnement."
+      ],
+      "valence": "negative",
+      "code": "Stockage proximitéécran cantonnement"
+    },
+    {
+      "description": "Les défauts constatés sur le désenfumage sont d'une gravité suffisante pour être repris dans un projet d'arrêté préfectoral de mise en demeure joint au rapport d'inspection.",
+      "excerpts": [
+        "Ces points sont repris dans le projet d'arrêté préfectoral de mise en demeure joint au présent rapport."
+      ],
+      "valence": "negative",
+      "code": "Mise en demeure désenfumage"
+    },
+    {
+      "description": "La prescription décrit un dispositif réglementaire très détaillé pour les systèmes de désenfumage des entrepôts : cantons, exutoires, surfaces utiles, commandes manuelles, amenées d'air.",
+      "excerpts": [
+        "Les cellules de stockage sont divisées en cantons de désenfumage d'une superficie maximale de 1 650 mètres carrés et d'une longueur maximale de 60 mètres.",
+        "La surface utile de l'ensemble de ces exutoires n'est pas inférieure à 2 % de la superficie de chaque canton de désenfumage."
+      ],
+      "valence": "neutral",
+      "code": "Exigences techniques entrepôt"
+    }
+  ],
+  "document_summary": "Inspection d'un entrepôt SEMAQ (ex Plana) portant sur le système de désenfumage : absence de justificatifs de dimensionnement et de tests des dispositifs, et constat d'un stockage trop proche d'un écran de cantonnement. Ces manquements sont d'une gravité suffisante pour justifier un projet de mise en demeure préfectorale.",
+  "surprises": "L'exploitant invoque une conformité de surface calculée pour justifier l'absence d'une porte manquante — un raisonnement compensatoire non officiel qui illustre la tendance à démontrer la conformité par le résultat plutôt que par la conformité stricte au dispositif prévu.",
+  "tensions": "La configuration réelle de l'installation (3 portes au lieu de 4) s'écarte du dispositif initialement prévu, mais l'exploitant soutient que le résultat final (surface d'air) reste conforme — tension entre conformité au dispositif et conformité à l'objectif."
+}

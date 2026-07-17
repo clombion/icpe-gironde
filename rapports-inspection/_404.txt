@@ -1,0 +1,7 @@
+# Identifiants de rapports d'inspection connus comme durables (404 /
+# HTTP 500 'Aucun document trouvé' / corps trop petit). Ces
+# identifiants ne seront pas retentés au prochain run, voir
+# DURABLE_STATUSES dans telecharger_rapports_inspection.py. Éditable
+# à la main si tu veux forcer une nouvelle tentative.
+
+TMnedBc53Ms35NwiwTPVajRx4R7gdOh1

@@ -1,0 +1,2321 @@
+[
+  {
+    "slug": "le-pot-au-pin1000231152023-06-1531721606700023f01",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M17"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pot-au-pin1000231152023-06-1531721606700023f02",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pot-au-pin1000231152023-06-1531721606700023f03",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pot-au-pin1000231152023-06-1531721606700023f04",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pot-au-pin1000231152023-06-1531721606700023f05",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M17",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pot-au-pin1000231152023-06-1531721606700023f06",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pot-au-pin1000231152023-06-1531721606700023f07",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pot-au-pin1000231152024-05-2831721606700023f01",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08",
+      "M19"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pot-au-pin1000231152024-05-2831721606700023f02",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pot-au-pin1000231152024-05-2831721606700023f03",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pot-au-pin1000231152024-05-2831721606700023f04",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pot-au-pin1000231152024-05-2831721606700023f05",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pot-au-pin1000231152024-05-2831721606700023f06",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M07",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pot-au-pin1000231152024-05-2831721606700023f07",
+    "domains": [
+      "D11",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pot-au-pin1000231152024-05-2831721606700023f08",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M07",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pot-au-pin1000231152024-05-2831721606700023f09",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T7",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pot-au-pin1000231152024-05-2831721606700023f10",
+    "domains": [
+      "D13",
+      "D15"
+    ],
+    "mechanisms": [
+      "M19"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pressing1002828292024-12-1782751678200014f01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pressing1002828292024-12-1782751678200014f02",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pressing1002828292024-12-1782751678200014f03",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pressing1002828292024-12-1782751678200014f04",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pressing1002828292024-12-1782751678200014f05",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pressing1002828292024-12-1782751678200014f06",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pressing1002828292024-12-1782751678200014f07",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pressing1002828292024-12-1782751678200014f08",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pressing1002828292024-12-1782751678200014f09",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-pressing1002828292024-12-1782751678200014f10",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-roy-logistique31049722025-01-3044199620400653f01",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-roy-logistique31049722025-01-3044199620400653f02",
+    "domains": [
+      "D15",
+      "D12"
+    ],
+    "mechanisms": [
+      "M14",
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-roy-logistique31049722025-01-3044199620400653f03",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-roy-logistique31049722025-01-3044199620400653f04",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01",
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-roy-logistique31049722025-01-3044199620400653f05",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-roy-logistique31049722025-01-3044199620400653f06",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-roy-logistique31049722025-01-3044199620400653f07",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-roy-logistique31049722025-01-3044199620400653f08",
+    "domains": [
+      "D01",
+      "D04"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-roy-logistique31049722025-01-3044199620400653f09",
+    "domains": [
+      "D04",
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-roy-logistique31049722025-01-3044199620400653f10",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-roy-logistique31049722025-01-3044199620400653f11",
+    "domains": [
+      "D01",
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-roy-logistique31049722025-01-3044199620400653f12",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M01",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-roy-logistique31049722025-01-3044199620400653f13",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-roy-logistique31049722025-01-3044199620400653f14",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "le-roy-logistique31049722025-01-3044199620400653f15",
+    "domains": [
+      "D01",
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "leclerc-blaye-distribution-ancien-site52112582025-09-2331922755900014f01",
+    "domains": [
+      "D13",
+      "D06"
+    ],
+    "mechanisms": [
+      "M19",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "leclerc-blaye-distribution-ancien-site52112582025-09-2331922755900014f02",
+    "domains": [
+      "D13",
+      "D06"
+    ],
+    "mechanisms": [
+      "M08",
+      "M19"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "leclerc-blaye-distribution-ancien-site52112582025-09-2331922755900014f03",
+    "domains": [
+      "D13",
+      "D06"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "leclerc-blaye-distribution-ancien-site52112582025-09-2331922755900014f04",
+    "domains": [
+      "D13"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "leclerc-blaye-distribution-ancien-site52112582025-09-2331922755900014f05",
+    "domains": [
+      "D06",
+      "D04"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "leclerc-blaye-distribution-ancien-site52112582025-09-2331922755900014f06",
+    "domains": [
+      "D13",
+      "D06"
+    ],
+    "mechanisms": [
+      "M19",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "leclerc-blaye-distribution-ancien-site52112582025-09-2331922755900014f07",
+    "domains": [
+      "D13"
+    ],
+    "mechanisms": [
+      "M01",
+      "M19"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "les-grands-chais-de-france52008412022-09-1331599920100058f01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f01",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M14",
+      "m_DELAI"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f02",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f03",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f04",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f05",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f06",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f07",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f08",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M14",
+      "m_DELAI"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f09",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f10",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M14",
+      "m_DELAI"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f11",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M09",
+      "m_DELAI"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f12",
+    "domains": [
+      "D05",
+      "D12"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f13",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M14",
+      "m_DELAI"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f14",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f15",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f16",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f17",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f18",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R09",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f19",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M01",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f20",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f21",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f22",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f23",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lesieur-bassens52116332024-03-0745720861900108f24",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "m_DELAI"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidis1000468002024-05-0731592089200074f01",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M17",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082024-04-0934326262204901f01",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01",
+      "M06"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082024-04-0934326262204901f02",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082024-04-0934326262204901f03",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082024-04-0934326262204901f04",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082024-04-0934326262204901f05",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082024-04-0934326262204901f06",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082024-04-0934326262204901f07",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082024-04-0934326262204901f08",
+    "domains": [
+      "D15",
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082024-04-0934326262204901f09",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082024-04-0934326262204901f10",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082024-04-0934326262204901f11",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14",
+      "m_DELAI"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082024-04-0934326262204901f12",
+    "domains": [
+      "D15",
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082025-03-1334326262204901f01",
+    "domains": [
+      "D15",
+      "D10"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082025-03-1334326262204901f02",
+    "domains": [
+      "D02",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082025-03-1334326262204901f03",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082025-03-1334326262204901f04",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082025-03-1334326262204901f05",
+    "domains": [
+      "D15",
+      "D11"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082025-03-1334326262204901f06",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082025-03-1334326262204901f07",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082025-03-1334326262204901f08",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082025-03-1334326262204901f09",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082025-03-1334326262204901f10",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082025-03-1334326262204901f11",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14",
+      "m_DELAI"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082025-03-1334326262204901f12",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082025-03-1334326262204901f13",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082025-03-1334326262204901f14",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082025-03-1334326262204901f15",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lidl-snc31001082025-03-1334326262204901f16",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "linde-france-sa1000028532024-11-1539263124800201f01",
+    "domains": [
+      "D03",
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "linde-france-sa1000028532024-11-1539263124800201f02",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "linde-france-sa1000028532024-11-1539263124800201f03",
+    "domains": [
+      "D11",
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "linde-france-sa1000028532024-11-1539263124800201f04",
+    "domains": [
+      "D11",
+      "D03"
+    ],
+    "mechanisms": [
+      "M14",
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R09",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "linde-france-sa1000028532024-11-1539263124800201f05",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "linde-france-sa1000028532024-11-1539263124800201f06",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "linde-france-sa1000028532024-11-1539263124800201f07",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "linde-france-sa1000028532024-11-1539263124800201f08",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "linde-france-sa1000028532024-11-1539263124800201f09",
+    "domains": [
+      "D01",
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "linde-france-sa1000028532024-11-1539263124800201f10",
+    "domains": [
+      "D01",
+      "D03"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "linde-france-sa1000028532024-11-1539263124800201f11",
+    "domains": [
+      "D03",
+      "D11"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14",
+      "m_DELAI"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "linde-france-sa1000028532024-11-1539263124800201f12",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lisi-aerospace-additive-manufacturing31019742024-07-1181840391700029f01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lisi-aerospace-additive-manufacturing31019742024-07-1181840391700029f02",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M17"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lisi-aerospace-additive-manufacturing31019742024-07-1181840391700029f03",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M17"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lisi-aerospace-additive-manufacturing31019742024-07-1181840391700029f04",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lisi-aerospace-additive-manufacturing31019742024-07-1181840391700029f05",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lisi-aerospace-additive-manufacturing31019742024-07-1181840391700029f06",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lisi-aerospace-additive-manufacturing31019742024-07-1181840391700029f07",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lisi-aerospace-additive-manufacturing31019742026-01-1381840391700029f01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lisi-aerospace-additive-manufacturing31019742026-01-1381840391700029f02",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lisi-aerospace-additive-manufacturing31019742026-01-1381840391700029f03",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "R09",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R09",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lixol-groupe-berkem52013572022-10-1864638008900037f01",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lixol-groupe-berkem52013572022-10-1864638008900037f02",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lixol-groupe-berkem52013572022-10-1864638008900037f03",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lixol-groupe-berkem52013572024-02-2964638008900037f01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  },
+  {
+    "slug": "lixol-groupe-berkem52013572024-02-2964638008900037f02",
+    "domains": [
+      "D12",
+      "D07"
+    ],
+    "mechanisms": [
+      "M09",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": ""
+  }
+]

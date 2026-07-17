@@ -1,0 +1,29 @@
+Constats body:
+La société CCMP exploite l’appontement n°710. Celui-ci est propriété du port de
+Bordeaux et la CCMP l’exploite sous couvert d’une convention d’occupation temporaire.
+L’appontement est équipé de deux bras de chargement/déchargement de navires : le bras A4810
+(DN300) et le bras A4813 (DN300). Les bras sont respectivement affectés au transfert des gazoles
+et des EMAG (composant des biocarburants), mais sont interchangeables.
+L’étude de dangers précise que ces deux bras ont été mis en service en 2012 en remplacement de
+deux anciens bras.
+L’appontement est relié au dépôt pétrolier par le biais de 4 tuyauteries : une tuyauterie DN250
+destinée aux EMAG, deux tuyauteries DN400 destinées aux gazoles et une dernière tuyauterie
+permet de renvoyer au dépôt les effluents recueillis dans la rétention de l’appontement.
+Les opérations de déchargement peuvent durer jusqu’à 72 heures.
+En ce qui concerne la défense incendie de l’installation, l’appontement est équipé des moyens
+suivants :
+ • 2 canons prépositionnés (solution moussante),
+ • des queues de paon (eau),
+ • des gicleurs pour la rétention située au pied des bras (solution moussante),
+ • plusieurs bouches incendie connectées au réseau incendie du dépôt.
+
+Prescription:
+L’établissement comprenant l’ensemble des installations classées et connexes, est organisé de la
+façon suivante :
+[…]
+3.3 - Appontement accueillant un poste de chargement/déchargement de navire équipé :
+•
+de 2 bras de chargement/déchargement,
+•
+de 4 tuyauteries DN 400 véhiculant les hydrocarbures vers les installations de stockage du
+dépôt CCMP, passant sous le domaine public.

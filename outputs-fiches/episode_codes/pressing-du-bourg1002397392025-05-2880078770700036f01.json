@@ -1,0 +1,26 @@
+{
+  "document_date": "2025-05-28",
+  "document_title": "pressing-du-bourg1002397392025-05-2880078770700036f01",
+  "codes": [
+    {
+      "description": "L'établissement a déclaré son activité dès 2015 et utilise un solvant organique non halogéné (Solvon), ce qui le place en conformité avec la rubrique 2345.",
+      "excerpts": [
+        "Le Pressing du Bourg a déclaré son activité de nettoyage à sec le 8 avril 2015 sous la rubrique 2345.",
+        "La situation administrative de l'établissement est donc régulière."
+      ],
+      "valence": "positive",
+      "code": "Situation administrative régulière"
+    },
+    {
+      "description": "L'établissement n'utilise que des solvants organiques non halogénés pour le nettoyage à sec, ce qui le place dans la catégorie la moins risquée sur le plan environnemental et sanitaire.",
+      "excerpts": [
+        "Cette machine utilise des solvants organiques non halogénés pour le nettoyage à sec. Aucun autre solvant organique que le Solvon utilisé par la machine n'était présent dans l'établissement."
+      ],
+      "valence": "positive",
+      "code": "Solvants non halogénés seuls présents"
+    }
+  ],
+  "document_summary": "Inspection brève d'un pressing déclaré en conformité avec la rubrique 2345 depuis 2015, utilisant exclusivement un solvant organique non halogéné. La fiche ne relève aucune non-conformité.",
+  "surprises": "",
+  "tensions": ""
+}

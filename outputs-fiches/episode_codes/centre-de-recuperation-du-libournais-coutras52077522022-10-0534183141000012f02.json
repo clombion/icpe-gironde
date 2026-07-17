@@ -1,0 +1,33 @@
+{
+  "document_date": "2022-10-05",
+  "document_title": "centre-de-recuperation-du-libournais-coutras52077522022-10-0534183141000012f02",
+  "document_summary": "L'inspection d'un centre de récupération (démolition de véhicules) vérifie la conformité des rejets d'eaux et constate qu'ils respectent les valeurs limites de l'arrêté ministériel, levant ainsi une mise en demeure préalable sur ce point.",
+  "surprises": "La levée explicite d'un arrêté de mise en demeure est notée positivement — document rare dans ce corpus où la conformité fait suite à une procédure coercitive.",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "Les analyses d'eaux de rejet transmises par l'exploitant montrent le respect de l'ensemble des valeurs limites fixées par l'arrêté ministériel applicable.",
+      "excerpts": [
+        "Les résultats de ces prélèvements montrent que les eaux de rejet du site respectent les valeurs limites des paramètres spécifiés dans l'arrêté ministériel"
+      ],
+      "valence": "positive",
+      "code": "Conformité valeurs limites rejet"
+    },
+    {
+      "description": "La conformité constatée permet de lever les dispositions de l'arrêté préfectoral de mise en demeure portant sur ce point, marquant la fin d'une procédure coercitive.",
+      "excerpts": [
+        "Les dispositions de l'arrêté préfectoral de mise en demeure portant sur ce point sont respectées"
+      ],
+      "valence": "positive",
+      "code": "Levée de mise en demeure"
+    },
+    {
+      "description": "L'exploitant a transmis le rapport d'analyses par courriel avant ou lors de l'inspection, facilitant le contrôle.",
+      "excerpts": [
+        "L'exploitant a transmis à l'inspection des installations classées le rapport d'analyses par courriel du 21 octobre 2022"
+      ],
+      "valence": "positive",
+      "code": "Transmission proactive des analyses"
+    }
+  ]
+}

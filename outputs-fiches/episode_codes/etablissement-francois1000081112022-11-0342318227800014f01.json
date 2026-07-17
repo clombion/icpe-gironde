@@ -1,0 +1,41 @@
+{
+  "document_date": "2022-11-03",
+  "document_title": "etablissement-francois1000081112022-11-0342318227800014f01",
+  "document_summary": "L'inspection vérifie si l'atelier de travail du bois de l'établissement François relève de la nomenclature ICPE (rubrique 2410). Après calcul des puissances installées (28 kW cumulés), l'inspection conclut que le seuil de 50 kW n'est pas atteint et que l'établissement n'est donc pas classé.",
+  "surprises": "Une inspection qui aboutit à un non-classement : l'inspection joue ici un rôle de régulation vers le bas (sortie du champ ICPE), ce qui est moins courant que les constats de non-conformité.",
+  "tensions": "La puissance retenue est celle de la motorisation électrique et non la prise de force tracteur, ce qui implique un choix méthodologique déterminant pour le classement — l'exploitant bénéficie de ce choix.",
+  "codes": [
+    {
+      "description": "L'inspection procède au calcul précis de la puissance cumulée des machines fixes susceptibles de fonctionner simultanément pour déterminer l'applicabilité de la rubrique 2410.",
+      "excerpts": [
+        "La puissance maximum de l'ensemble des machines fixes pouvant concourir simultanément au fonctionnement de l'installation (telle que visée par la rubrique 2410 de la nomenclature des installations classées) est de 28 kW, en dessous du seuil de 50 kW de cette rubrique."
+      ],
+      "valence": "positive",
+      "code": "Calcul puissance installée machines"
+    },
+    {
+      "description": "L'établissement est en dessous du seuil de classement ICPE pour la rubrique 2410 (atelier bois), ce qui signifie une absence d'obligation de déclaration ou d'autorisation.",
+      "excerpts": [
+        "L'établissement ne relève donc pas de la rubrique 2410 au titre des puissances installées."
+      ],
+      "valence": "neutral",
+      "code": "Non-classement sous seuil ICPE"
+    },
+    {
+      "description": "La puissance retenue est celle de la motorisation électrique de la machine et non la prise de force tracteur, choix méthodologique déterminant pour le calcul du seuil.",
+      "excerpts": [
+        "c'est leur puissance électrique qui est retenue pour le calcul, et non la puissance de la prise de force « tracteur », non utilisée dans les deux cas."
+      ],
+      "valence": "neutral",
+      "code": "Choix motorisation déterminant classement"
+    },
+    {
+      "description": "Les autres activités du site (stockage de bois, stockage de boissons) sont soit non visées par la nomenclature, soit clairement sous les seuils applicables.",
+      "excerpts": [
+        "Les autres activités de l'établissement (stockage de bois de chauffe, stockage de boissons en particulier) sont soit non visées par la nomenclature, soit manifestement très en dessous des seuils"
+      ],
+      "valence": "neutral",
+      "code": "Activités hors nomenclature ou sous seuil"
+    }
+  ]
+}

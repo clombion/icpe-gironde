@@ -1,0 +1,51 @@
+{
+  "document_date": "2024-12-17",
+  "document_title": "carambolage52078202024-12-1783222246700066f13",
+  "codes": [
+    {
+      "description": "L'exploitant réalise des campagnes semestrielles d'analyse des eaux souterraines sur trois piézomètres, conformément aux prescriptions.",
+      "excerpts": [
+        "Les analyses ont été réalisées par ASS'TECH ENVIRONNEMENT en juillet et décembre 2024 au niveau des trois piézomètres.",
+        "des échantillons sont prélevés tous les semestres : un prélèvement en période de hautes eaux et un en période de basses eaux"
+      ],
+      "valence": "positive",
+      "code": "Surveillance eaux souterraines semestrielle"
+    },
+    {
+      "description": "Une augmentation significative de plomb est observée dans le piézomètre PZ2 situé en aval hydraulique du site, restant sous les valeurs de référence.",
+      "excerpts": [
+        "une augmentation significative de plomb au droit de l'ouvrage PZ2 (en aval hydraulique au Nord-Est du site) ; la teneur relevée reste inférieure à la valeur de référence retenue."
+      ],
+      "valence": "mixed",
+      "code": "Signal plomb en aval hydraulique"
+    },
+    {
+      "description": "Des PCB sont détectés dans le piézomètre PZ3 au nord du site, nécessitant une attention particulière et potentiellement une contre-analyse.",
+      "excerpts": [
+        "la présence de PCB au droit de l'ouvrage PZ3 au Nord du site.",
+        "une contre-analyse au niveau de l'ouvrage PZ3"
+      ],
+      "valence": "negative",
+      "code": "Présence PCB piézomètre aval"
+    },
+    {
+      "description": "La présence de fer dans les eaux souterraines, y compris en amont hydraulique, est attribuée à la nature géologique aliotique locale et non à l'activité du site.",
+      "excerpts": [
+        "Les résultats mettent en évidence la présence de fer dans les eaux souterraines (y compris au niveau de l'ouvrage PZ1 situé en amont hydraulique). Selon le rapport, ces teneurs peuvent être liées à la nature aliotique des formations géologiques locales."
+      ],
+      "valence": "neutral",
+      "code": "Fond géologique naturel fer"
+    },
+    {
+      "description": "L'inspection demande une nouvelle campagne de mesure en période de hautes eaux sous trois mois pour suivre l'évolution des impacts identifiés.",
+      "excerpts": [
+        "L'exploitant programme et réalise, au plus tard sous un délai de trois mois, la prochaine campagne de mesure en période des « hautes eaux »."
+      ],
+      "valence": "neutral",
+      "code": "Prochaine campagne hautes eaux demandée"
+    }
+  ],
+  "document_summary": "Le suivi des eaux souterraines chez Carambolage révèle une surveillance active semestrielle ; les résultats 2024 montrent une hausse de plomb en aval (sous les seuils) et la présence de PCB dans un piézomètre — points d'attention pour lesquels une campagne hautes eaux est demandée.",
+  "surprises": "La détection de PCB dans un piézomètre d'un site de traitement de ferraille ou VHU soulève des questions sur l'origine de la contamination — les PCB peuvent provenir de transformateurs ou d'équipements électriques anciens dans les véhicules.",
+  "tensions": "Le bureau d'études conclut à l'absence de dégradation significative, mais les deux signaux (plomb PZ2 + PCB PZ3) sont des tendances préoccupantes — tension entre l'appréciation globale rassurante du rapport et les signaux individuels d'alerte."
+}

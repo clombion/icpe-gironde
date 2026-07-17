@@ -1,0 +1,41 @@
+Constats body:
+Le dernier exercice POI interne date du 17/12/2021 (scénario Incendie zone emballages).
+Des exercices d’évacuation ont régulièrement lieu sans qu’ils ne puissent être assimilés à des exercices POI.
+Le SDIS a été sollicité par l’exploitant pour l’organisation d’exercice POI au cours du dernier trimestre 2022
+(en attente de retour). Selon l'exploitant, le dernier exercice avec le SDIS date d'au moins deux années.
+Pour rappel  lors de  l’inspection  du  01/07/2021,  l’inspection  avait  relevé  que  l’exploitant  ne  réalise  pas
+d’exercices POI selon une fréquence annuelle. De plus, les seuls exercices incendie réalisés ne font pas l’objet
+de scénarios dimensionnants évoqués dans le POI du site, notamment par l’application des fiches réflexes.
+L’exploitant remédie à ces écarts dans les plus brefs délais (cf. Fait non conforme susceptible de mise en
+demeure de la dernière inspection FSMD7).
+Pour répondre à l’inspection, l’exploitant a fait procéder à un exercice POI le 17/12/2021 concernant le
+scénario 1 « Incendie zone emballages » (cf. fiches scénarios S100 et S110) (cf. Information supra).
+Le compte-rendu identifie des actions d’amélioration dont la nécessité de « renforcer les formations sur les
+scénarios » ; des actions de formation sont prévues à ce sujet d'ici fin 2022. De plus, l'exploitant a justifié que
+des formations à destination des équipiers incendie seront dispensées le 05/09/2022.
+De plus, l’inspection note que le compte-rendu n’est pas exhaustif sur les tâches réalisées et à réaliser selon
+les fiches  scénarios  du POI  dans  sa version  de  2020.  En  effet,  le  compte-rendu  ne  fait  pas référence
+explicitement aux fiches S100 et S110 liés au scénario de l’exercice. Aussi, les vérifications à réaliser n’ont pas
+été consignées ou non réalisées ; par exemple la fiche S110 prévoit pour les moyens de lutte incendie de :
+ • s’assurer du démarrage des groupe sprinkleurs au local source sprinkleur
+ • vérifier fermetures portes CF de l'entrepôt
+ • vérifier démarrage du moteur surpresseur RIA au stockage atelier
+ • s'assurer de l'accès à la cuve pompier n°1
+Par exemple à l’item « Fonctionnement correct des systèmes sous asservissement (portes automatiques,
+désenfumage…), cela est indiqué « non testé ».
+De ces constats réalisés par sondage, l’inspection en déduit que les exercices POI n’incluent pas l’ensemble
+des  tâches  de  vérifications,  d’interventions  requises  dans  les  fiches  scénarios  du  POI.  Il  nepeut  être
+considérer que le POI est testé annuellement.  Il convient d’y remédier d’autant plus que l’exploitant a
+identifié la nécessité de renforcer les formations sur les scénarios. Afin que cela aboutisse, il est impératif de
+créer, par exemple, des trames de CR d’exercices POI adaptés à chaque scénario pour être sûr que toutes les
+tâches soient déclinées lors des exercices et de facto, en cas d’accident / incident réel.
+L'exploitant a précisé en séance avoir procédé à une modification de son POI pour y inscrire les tâches à
+réaliser selon les attributs de chaque intervention (tâches spécifiques pour le personnel de maintenance,
+pour le personne d'intervention incendie...).
+Observations  : Il  est  demandé  à l'exploitant,  lors  du prochain  exercice  POI  et  des  suivants,  de  tester
+l'ensemble des tâches appelées par le POI dans sa version en vigueur. A cet effet, il pourrait être utile de
+créer une trame de compte-rendu d'exercice POI spécifique à chaque scénario.
+
+Prescription:
+Le POI est testé annuellement et à des intervalles n’excédant pas 3 ans avec les services d’incendie et de
+secours.

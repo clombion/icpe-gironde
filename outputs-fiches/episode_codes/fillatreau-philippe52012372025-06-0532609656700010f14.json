@@ -1,0 +1,41 @@
+{
+  "document_date": "2025-06-05",
+  "document_title": "fillatreau-philippe52012372025-06-0532609656700010f14",
+  "document_summary": "L'inspection d'un centre VHU (Véhicules Hors d'Usage) constate l'absence de contrat avec un éco-organisme agréé, ce qui interdit légalement à l'exploitant de collecter ou recevoir des VHU. La suspension de l'acceptation des VHU est requise.",
+  "surprises": "L'absence de contrat éco-organisme n'entraîne pas seulement une amende mais une interdiction opérationnelle immédiate de recevoir des VHU — mesure de suspension d'activité de fait.",
+  "tensions": "L'exploitant se trouve dans une situation bloquante : sans contrat éco-organisme, il ne peut pas exercer son activité principale, ce qui soulève la question de la viabilité du site.",
+  "codes": [
+    {
+      "description": "L'exploitant du centre VHU n'a pas contractualisé avec un éco-organisme agréé, condition nécessaire pour recevoir et traiter des véhicules hors d'usage.",
+      "excerpts": [
+        "L'exploitant n'a pas contractualisé avec un éco-organisme. Il ne peut dès lors plus collecter ni recevoir de véhicules hors d'usage."
+      ],
+      "valence": "negative",
+      "code": "Absence contrat éco-organisme VHU"
+    },
+    {
+      "description": "En l'absence de contrat éco-organisme, l'inspection impose la suspension immédiate de l'acceptation de véhicules hors d'usage.",
+      "excerpts": [
+        "il est nécessaire de suspendre l'acceptation des véhicules hors d'usage."
+      ],
+      "valence": "negative",
+      "code": "Suspension acceptation VHU"
+    },
+    {
+      "description": "Le régime des VHU s'inscrit dans la filière de responsabilité élargie du producteur, où les éco-organismes jouent un rôle central de coordination et de financement.",
+      "excerpts": [
+        "Tout centre VHU disposant d'un contrat conclu avec un éco-organisme en application de l'article L. 541-10-26 peut réaliser les opérations de gestion de tout véhicule hors d'usage correspondant à la catégorie d'agrément de l'éco-organisme."
+      ],
+      "valence": "neutral",
+      "code": "Filière responsabilité élargie producteur"
+    },
+    {
+      "description": "L'exploitant doit non seulement respecter le constat mais aussi fournir la preuve d'un contrat signé avec un éco-organisme.",
+      "excerpts": [
+        "il est demandé à l'exploitant de justifier d'un contrat avec un éco-organisme."
+      ],
+      "valence": "neutral",
+      "code": "Obligation justifier contrat"
+    }
+  ]
+}

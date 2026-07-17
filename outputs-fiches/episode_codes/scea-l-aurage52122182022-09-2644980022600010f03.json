@@ -1,0 +1,25 @@
+{
+  "document_date": "2022-09-26",
+  "document_title": "scea-l-aurage52122182022-09-2644980022600010f03",
+  "codes": [
+    {
+      "description": "Le constat se limite au mot « CONFORME », signalant que l'installation satisfait la prescription contrôlée sans qu'aucune observation ne soit formulée.",
+      "excerpts": [
+        "CONFORME"
+      ],
+      "valence": "positive",
+      "code": "Conformité sans réserve"
+    },
+    {
+      "description": "La prescription exige le maintien de la propreté des locaux et l'utilisation d'un matériel de nettoyage adapté aux risques spécifiques des produits et poussières présents.",
+      "excerpts": [
+        "Les locaux doivent être maintenus propres et régulièrement nettoyés. Le matériel de nettoyage doit être adapté aux risques présentés par les produits et poussières."
+      ],
+      "valence": "neutral",
+      "code": "Hygiène locaux adaptée"
+    }
+  ],
+  "document_summary": "Fiche de contrôle très brève d'un établissement agricole (SCEA L'Aurage) : la prescription portant sur la propreté des locaux est jugée conforme sans réserve. Aucun écart n'est relevé.",
+  "surprises": "Le corpus est exceptionnellement court — le constat tient en un seul mot (CONFORME) — ce qui rend le codage minimal mais révèle qu'une conformité peut être attestée sans aucune justification documentée.",
+  "tensions": ""
+}

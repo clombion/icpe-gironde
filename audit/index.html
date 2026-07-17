@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Audit des coordonnées ICPE — cahier d'enquête</title>
+<meta name="description" content="Outil de revue des écarts entre coordonnées et adresses pour les ICPE en Gironde, avec mini-carte par site et bucket-list collaborative.">
+
+<!-- CSP — defense-in-depth for the GitHub-fetched bucket files. Allows
+     Leaflet from unpkg, basemap tiles from cartocdn + IGN, the GitHub
+     Contents API + raw download URLs, and the local Web Worker that
+     parses flagged.json off the main thread. -->
+<meta http-equiv="Content-Security-Policy"
+      content="default-src 'none';
+               script-src 'self' https://unpkg.com;
+               worker-src 'self';
+               style-src 'self' 'unsafe-inline' https://unpkg.com;
+               img-src 'self' data: https://*.cartocdn.com https://data.geopf.fr https://unpkg.com;
+               connect-src 'self' https://api.github.com https://raw.githubusercontent.com;
+               font-src 'self' data:;">
+
+<!-- Preconnect to cut handshake RTT on first load -->
+<link rel="preconnect" href="https://basemaps.cartocdn.com" crossorigin>
+<link rel="preconnect" href="https://data.geopf.fr" crossorigin>
+<link rel="preconnect" href="https://api.github.com" crossorigin>
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
+
+<!-- Leaflet core -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+
+<link rel="stylesheet" href="../shared/tokens.css?v=11">
+<link rel="stylesheet" href="style.css?v=11">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead__topline">
+    <div>
+      <div class="masthead__label">Cahier d'enquête</div>
+      <h1 class="masthead__title">Audit des coordonnées ICPE</h1>
+    </div>
+    <div>
+      <a class="masthead__home" href="../">← retour à l'accueil</a>
+      <a class="masthead__table-link" href="table.html">Tableau des décisions</a>
+    </div>
+  </div>
+  <p class="status-strip" id="status-strip">Chargement…</p>
+</header>
+
+<div class="layout">
+  <button class="sidebar-toggle" id="sidebar-toggle" aria-label="Afficher/masquer la barre latérale">
+    <span class="sidebar-toggle__icon">◀</span>
+  </button>
+
+  <aside class="sidebar" id="sidebar" aria-label="Navigation des buckets">
+    <button class="guide-button" id="guide-button" type="button">
+      📖 Guide de l'audit
+    </button>
+    <nav class="bucket-nav" id="bucket-nav"></nav>
+  </aside>
+
+  <main class="main" id="main">
+    <div class="empty-state" id="empty-state">
+      <h2>Bienvenue</h2>
+      <p id="empty-state-text">Sélectionne un bucket dans la liste pour commencer la revue.</p>
+    </div>
+
+    <article class="review" id="review" hidden>
+      <header class="review__header">
+        <p class="review__breadcrumb" id="review-breadcrumb"></p>
+        <div class="review__nav">
+          <button class="btn btn--prev" id="btn-prev" type="button" title="Précédent (←)" aria-label="Site précédent">←</button>
+          <span class="review__progress" id="review-progress" aria-live="polite" aria-atomic="true">site 1 / 25</span>
+          <button class="btn btn--next" id="btn-next" type="button" title="Suivant (→)" aria-label="Site suivant">→</button>
+          <button class="btn btn--exit" id="btn-exit" type="button">Quitter sans perdre le brouillon</button>
+        </div>
+      </header>
+
+      <div class="review__body">
+        <div class="review__map-pane">
+          <div id="minimap" class="minimap"></div>
+          <p class="minimap__hint" id="minimap-hint" hidden aria-live="polite">
+            Clique sur la carte pour placer un point manuel.
+          </p>
+        </div>
+
+        <div class="review__info-pane">
+          <!-- Decision form at the TOP so the reviewer sees the verdict
+               buttons immediately without scrolling past 5 info blocks -->
+          <section class="decision-form" id="decision-form">
+            <fieldset class="verdict-radios">
+              <legend class="sr-only">Verdict</legend>
+              <label class="verdict verdict--keep" title="L'écart est cosmétique (même site, même parcelle)">
+                <input type="radio" name="verdict" value="garder_stored">
+                <span class="verdict__label">Garder <kbd>1</kbd></span>
+              </label>
+              <label class="verdict verdict--geocoded" title="Les coordonnées enregistrées sont fausses">
+                <input type="radio" name="verdict" value="utiliser_geocoded">
+                <span class="verdict__label">Géocodé <kbd>2</kbd></span>
+              </label>
+              <label class="verdict verdict--manual" title="Je place un meilleur point sur la carte (M)">
+                <input type="radio" name="verdict" value="placer_manuellement">
+                <span class="verdict__label">Manuel <kbd>3</kbd></span>
+              </label>
+              <label class="verdict verdict--terrain" title="Impossible de décider sans vérification terrain">
+                <input type="radio" name="verdict" value="terrain">
+                <span class="verdict__label">Terrain <kbd>4</kbd></span>
+              </label>
+            </fieldset>
+
+            <div class="decision-form__row">
+              <label class="note-field">
+                <textarea id="note-field" rows="2" placeholder="Note (optionnelle)"></textarea>
+              </label>
+              <label class="enquete-checkbox">
+                <input type="checkbox" id="pertinent-enquete">
+                <span>Pertinent enquête</span>
+              </label>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn--skip" id="btn-skip" type="button">Passer</button>
+              <button class="btn btn--save" id="btn-save" type="button">Enregistrer & suivant (Entrée)</button>
+            </div>
+          </section>
+
+          <section class="info-block" id="info-identity"></section>
+          <section class="info-block" id="info-stored"></section>
+          <section class="info-block" id="info-geocoded"></section>
+          <section class="info-block" id="info-reverse"></section>
+          <section class="info-block" id="info-signals"></section>
+        </div>
+      </div>
+    </article>
+
+    <section class="export-drawer" id="export-drawer" hidden>
+      <h3>Exporter le bucket</h3>
+      <p id="export-summary"></p>
+      <button class="btn btn--export" id="btn-export-download" type="button">
+        Télécharger <code id="export-filename">bucket.json</code>
+      </button>
+      <ol class="export-instructions">
+        <li>Sauvegarde le fichier dans <code id="export-target-path">…</code></li>
+        <li>Commit + push : <code>git add &amp;&amp; git commit -m "review bucket-…" &amp;&amp; git push</code></li>
+        <li>Actualise cette page — le bucket apparaîtra ✓</li>
+      </ol>
+      <button class="btn btn--close-drawer" id="btn-close-drawer" type="button">Fermer</button>
+    </section>
+  </main>
+</div>
+
+<aside class="guide-drawer" id="guide-drawer" hidden role="dialog" aria-modal="true" aria-labelledby="guide-drawer-title">
+  <div class="guide-drawer__header">
+    <h2 id="guide-drawer-title">Guide de l'audit</h2>
+    <button class="btn btn--close-guide" id="btn-close-guide" type="button" aria-label="Fermer le guide">×</button>
+  </div>
+  <div class="guide-drawer__body">
+    <h3>Pourquoi cet audit</h3>
+    <p>
+      Pour chaque ICPE, Géorisques liste à la fois une adresse postale et des coordonnées (latitude/longitude).
+      Quand les deux ne concordent pas, la carte peut être trompeuse — surtout quand l'écart fait basculer
+      la réponse à <em>« ce site est-il dans une réserve naturelle ? »</em>. Cet outil te permet de trier
+      les désaccords un par un.
+    </p>
+
+    <h3>Les trois groupes</h3>
+    <dl class="guide-groups">
+      <dt class="guide-group--rust">Réserves naturelles</dt>
+      <dd>Sites où l'adresse et les coordonnées divergent sur l'appartenance à une réserve, ou en sont très proches. À traiter en priorité.</dd>
+      <dt class="guide-group--ochre">Grands écarts</dt>
+      <dd>Distance ≥ 500 m, commune incorrecte, adresse irrésoluble, ou coordonnées structurellement invalides.</dd>
+      <dt class="guide-group--lead">Petits écarts</dt>
+      <dd>Distance entre 25 m et 500 m, ou cas où le reverse confirme déjà la commune. Triage rapide possible.</dd>
+    </dl>
+
+    <h3>Comment revoir un site</h3>
+    <ol>
+      <li>Lis l'identité du site (nom, commune, activité) dans le panneau de droite.</li>
+      <li>Regarde la mini-carte. Le point rouille = position enregistrée. Le point ocre = adresse géocodée. La ligne grise pointillée relie les deux.</li>
+      <li>Bascule sur la couche « Ortho » si tu veux voir le bâtiment réel.</li>
+      <li>Compare avec l'adresse inscrite (rue, parc, zone industrielle).</li>
+      <li>Choisis un verdict (voir ci-dessous).</li>
+      <li>Ajoute une note si tu hésites ou si quelque chose mérite d'être marqué pour l'enquête.</li>
+      <li>Coche <em>« Pertinent pour l'enquête réserves »</em> si l'écart change la réponse à « dans une réserve ? ».</li>
+      <li>Clique <em>« Enregistrer & suivant »</em> (ou tape Entrée).</li>
+    </ol>
+
+    <h3>Les quatre verdicts</h3>
+    <dl class="guide-verdicts">
+      <dt><kbd>1</kbd> Garder les coordonnées enregistrées</dt>
+      <dd>L'écart est cosmétique. Exemple : la raffinerie a son adresse au portail mais le point enregistré est à la torchère. Même site.</dd>
+
+      <dt><kbd>2</kbd> Utiliser l'adresse géocodée</dt>
+      <dd>Les coordonnées enregistrées sont visiblement fausses ; l'adresse est la source de vérité.</dd>
+
+      <dt><kbd>3</kbd> Placer le point manuellement</dt>
+      <dd>Les deux sont faux ; tu peux voir le bâtiment réel sur la couche ortho. Tu cliques sur la carte pour placer un point.</dd>
+
+      <dt><kbd>4</kbd> À vérifier sur le terrain</dt>
+      <dd>Impossible de décider depuis la documentation ; à inspecter pendant la semaine d'enquête.</dd>
+    </dl>
+
+    <h3>Raccourcis clavier</h3>
+    <table class="guide-shortcuts">
+      <tr><td><kbd>←</kbd> / <kbd>→</kbd></td><td>Site précédent / suivant</td></tr>
+      <tr><td><kbd>1</kbd> à <kbd>4</kbd></td><td>Choisir un verdict</td></tr>
+      <tr><td><kbd>Entrée</kbd></td><td>Enregistrer et passer au suivant</td></tr>
+      <tr><td><kbd>Échap</kbd></td><td>Retour à l'écran d'accueil</td></tr>
+      <tr><td><kbd>M</kbd></td><td>Mode placement de point manuel (clavier)</td></tr>
+    </table>
+
+    <h3>Exporter et partager son travail</h3>
+    <ol>
+      <li>Quand tous les sites d'un bucket sont revus, clique sur <em>« Exporter le brouillon »</em>.</li>
+      <li>Télécharge le fichier JSON et dépose-le dans <code>données-georisques/audit/coordonnees-audit-reviews/</code>.</li>
+      <li>Commit et push : <code>git add … &amp;&amp; git commit -m "review bucket-…" &amp;&amp; git push</code></li>
+      <li>Actualise cette page : le bucket apparaît avec une coche ✓ et tes initiales.</li>
+    </ol>
+
+    <h3>Après l'audit : appliquer les corrections</h3>
+    <p>Une fois que suffisamment de buckets ont été revus et commités :</p>
+    <ol>
+      <li>Lance <code>python3 scripts/apply_corrections.py</code> — ce script
+          lit les fichiers JSON de revue commités et produit
+          <code>coordonnees-corrections.csv</code>, un tableau complet des
+          décisions prises par les enquêteurs.</li>
+      <li>Vérifie les décisions dans le
+          <a href="table.html">tableau des décisions</a> avant de les appliquer.</li>
+      <li>Relance <code>python3 scripts/enrichir_libelles.py</code> — le script
+          lit automatiquement le sidecar de corrections et met à jour les
+          coordonnées dans le CSV de la carte.</li>
+      <li>Commit et push — la carte interactive affiche désormais les
+          coordonnées corrigées.</li>
+    </ol>
+    <p>Le script est idempotent : le relancer avec les mêmes revues produit
+    le même résultat. Pour prévisualiser sans écrire :
+    <code>python3 scripts/apply_corrections.py --dry-run</code>.</p>
+
+    <h3>Travailler en équipe</h3>
+    <p>
+      La coordination se fait à l'oral : « je prends le bucket reserves-01 ». Pas besoin de réservation
+      formelle — la page lit le dossier de revues sur GitHub à chaque chargement et sait toujours qui
+      a quoi terminé. Si deux personnes soumettent le même bucket, le commit le plus récent gagne.
+    </p>
+
+    <h3>En cas de problème</h3>
+    <ul>
+      <li><strong>Le bucket est marqué <code>⚠ audit plus récent</code></strong> : l'audit a été relancé depuis ta revue. Clique « Réimporter les décisions » pour migrer ce que tu as déjà fait.</li>
+      <li><strong>Le bouton Actualiser affiche « Limite atteinte »</strong> : GitHub limite les requêtes anonymes à 60/heure. Attends quelques minutes.</li>
+      <li><strong>La mini-carte est vide</strong> : le site a des coordonnées invalides (null_island). Le panneau de droite donne le détail.</li>
+    </ul>
+
+    <p class="guide-credit">
+      Données : <a href="https://www.georisques.gouv.fr/" target="_blank" rel="noopener">Géorisques</a>,
+      <a href="https://adresse.data.gouv.fr/" target="_blank" rel="noopener">BAN</a>,
+      <a href="https://opencagedata.com/" target="_blank" rel="noopener">OpenCage</a>,
+      <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© contributeurs OpenStreetMap</a>.
+      Couches : CartoDB, IGN Géoplateforme.
+    </p>
+  </div>
+</aside>
+
+<!-- Toast container for background-poll updates -->
+<div class="toast-container" id="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+<!-- Leaflet then our scripts -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="../shared/util.js?v=11"></script>
+<script src="lib.js?v=11"></script>
+<script src="app.js?v=11"></script>
+</body>
+</html>

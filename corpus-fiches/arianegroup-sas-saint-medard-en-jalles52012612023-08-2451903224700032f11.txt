@@ -1,0 +1,17 @@
+Constats body:
+Le fichier Excel IGFU (Grand Fichier Universel) J que l'exploitant utilise pour suivre les
+quantités présentes sur le site, par bâtiment indique, concernant le produit classé sous la rubrique
+4701 (nitrate d’ammonium), qu'il est censé être stocké dans les bâtiments CBM1, CLBC, CMP2, CSR
+et LQG.
+L’extraction informatique des stocks ne confirme pas cet état de fait car du nitrate d'ammonium
+se trouve au CPS2.
+6
+
+		)		$)	789	
+	(!	
+#"
+
+Prescription:
+Le fichier Excel dénommé GFU n’est pas fidèle à la réalité du terrain pour ce qui concerne la
+localisation du nitrate d’ammonium (rubrique 4701) et l’exhaustivité des rubriques ICPE
+correspondant aux substances effectivement présentes.

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Angles d'analyse — rapports d'inspection ICPE</title>
+<meta name="description" content="Requêtes SQL prédéfinies sur les fiches de constat ICPE en Gironde, avec export CSV en un clic.">
+<link rel="stylesheet" href="style.css?v=11">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead__topline">
+    <div>
+      <div class="masthead__label">Cahier d'enquête</div>
+      <h1 class="masthead__title">Angles d'analyse</h1>
+    </div>
+    <a class="masthead__home" href="../">← retour à l'accueil</a>
+  </div>
+  <nav class="masthead__nav">
+    <a href="./">Vérifier</a>
+    <a href="angles.html" class="active">Analyser par angle</a>
+  </nav>
+</header>
+
+<main style="max-width:900px;margin:0 auto;padding:32px;">
+  <p style="font-family:var(--font-body);font-size:14px;color:var(--ink-soft);margin-bottom:24px;">
+    Chaque angle est une requête SQL pré-calculée sur les fiches de constat.
+    Cliquez sur « Télécharger CSV » pour obtenir le résultat. Pour proposer un
+    nouvel angle, créez un fichier <code>.md</code> dans
+    <code>rapports/angles/</code> et faites un PR.
+  </p>
+  <div id="loading" class="loading">
+    <div class="loading__spinner"></div>
+    <span>Chargement…</span>
+  </div>
+  <div id="angles-container"></div>
+</main>
+
+<script type="module" src="angles.js?v=11"></script>
+</body>
+</html>

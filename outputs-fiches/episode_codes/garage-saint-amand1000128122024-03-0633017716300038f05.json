@@ -1,0 +1,49 @@
+{
+  "document_date": "2024-03-06",
+  "document_title": "garage-saint-amand1000128122024-03-0633017716300038f05",
+  "document_summary": "L'inspection porte sur la cessation d'activité d'une ancienne station-service à Bordeaux faisant l'objet d'un diagnostic de pollution (SEMOFI 2023). Le site est destiné à accueillir des maisons, et le permis de construire a déjà été délivré malgré l'absence d'attestation ALUR.",
+  "surprises": "Le permis de construire des futures maisons a été délivré par la mairie de Bordeaux avant que l'attestation ALUR (obligatoire pour les ICPE en changement d'usage) ne soit établie — situation qui révèle un défaut de coordination entre autorités d'urbanisme et DREAL.",
+  "tensions": "La mairie a accordé le permis de construire sans attestation ALUR, ce qui place l'aménageur dans une situation irrégulière et soulève la question de la responsabilité partagée entre autorités.",
+  "codes": [
+    {
+      "description": "Un bureau d'études spécialisé a identifié les sources de pollution concentrée et leurs impacts sur le sol, les eaux souterraines et les gaz de sol, avec recommandations de réhabilitation.",
+      "excerpts": [
+        "Le diagnostic de pollution réalisé par le bureau d'étude SEMOFI (rapport C23-18131-E 25/05/2023) identifie les sources de pollution concentrées et les impacts sur les milieux (sol, eaux souterraines et gaz de sol)."
+      ],
+      "valence": "neutral",
+      "code": "Diagnostic pollution sols eaux souterraines"
+    },
+    {
+      "description": "L'ancienne station-service (ICPE) est réhabilitée pour accueillir des logements, ce qui implique des obligations renforcées : attestation ALUR, analyse de risque résiduel, supervision spécialisée.",
+      "excerpts": [
+        "Le terrain ayant accueilli une activité classée ICPE et faisant l'objet d'un changement d'usage, ce dernier doit faire l'objet d'une attestation ATTES ALUR établie par un bureau d'étude certifié et jointe à la demande de permis de construire."
+      ],
+      "valence": "neutral",
+      "code": "Changement d'usage ICPE vers habitat"
+    },
+    {
+      "description": "Le permis de construire a été délivré par la mairie avant que l'attestation ALUR obligatoire ne soit produite, révélant un défaut de coordination administrative.",
+      "excerpts": [
+        "A noter que le permis de construire des futures maisons a déjà été délivré par la mairie de Bordeaux."
+      ],
+      "valence": "negative",
+      "code": "Permis construire avant attestation ALUR"
+    },
+    {
+      "description": "Le diagnostic recommande que les opérations de mise en sécurité et de réhabilitation soient réalisées sous la supervision d'un bureau d'études spécialisé en sites et sols pollués.",
+      "excerpts": [
+        "il conseille la réalisation des opérations de mise en sécurité et de réhabilitation sous la supervision d'un bureau d'études spécialisé en sites et sols pollués."
+      ],
+      "valence": "neutral",
+      "code": "Supervision bureau études sols pollués"
+    },
+    {
+      "description": "Une analyse de risque résiduel (ARR) est prescrite au terme des travaux de réhabilitation pour vérifier la compatibilité du site avec le nouvel usage résidentiel.",
+      "excerpts": [
+        "Il lui appartient de suivre les recommandations de cette étude notamment en réalisant au terme des travaux une analyse de risque résiduel (ARR)."
+      ],
+      "valence": "neutral",
+      "code": "Analyse risque résiduel post-travaux"
+    }
+  ]
+}

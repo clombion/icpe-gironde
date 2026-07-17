@@ -1,0 +1,41 @@
+{
+  "document_date": "2023-05-11",
+  "document_title": "fillatreau-philippe52012372023-05-1132609656700010f17",
+  "document_summary": "L'inspection d'un site de traitement de déchets (transit, regroupement ou traitement) constate l'absence totale de registre de déchets, en violation de l'obligation réglementaire de traçabilité des déchets entrants et sortants.",
+  "surprises": "La prescription citée en intégralité est très détaillée (origine, SIRET producteur, codes déchets, BSDs, éco-organismes, transporteurs), révélant la complexité administrative imposée aux opérateurs de déchets.",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "L'exploitant ne tient aucun registre de déchets entrants ou sortants, en violation de l'obligation de traçabilité chronologique réglementaire.",
+      "excerpts": [
+        "L'exploitant n'utilise pas de registre. L'exploitant doit assurer la traçabilité des déchets"
+      ],
+      "valence": "negative",
+      "code": "Absence registre déchets"
+    },
+    {
+      "description": "La réglementation impose la tenue d'un registre chronologique double (entrants et sortants) avec de nombreuses informations sur la nature, l'origine et le transport des déchets.",
+      "excerpts": [
+        "Les exploitants des établissements effectuant un transit, regroupement ou un traitement de déchets, y compris ceux effectuant un tri de déchets et ceux effectuant une sortie du statut de déchets, établissent et tiennent à jour un registre chronologique où sont consignés tous les déchets entrants."
+      ],
+      "valence": "neutral",
+      "code": "Obligation traçabilité déchets entrants et sortants"
+    },
+    {
+      "description": "L'exploitant se voit imposer un délai de trois mois pour se mettre en conformité avec l'arrêté ministériel du 31/05/2021 sur la traçabilité des déchets.",
+      "excerpts": [
+        "L'exploitant doit assurer la traçabilité des déchets conformément à l'arrêté ministériel du 31/05/2021 sous 3 mois."
+      ],
+      "valence": "neutral",
+      "code": "Délai correctif imposé trois mois"
+    },
+    {
+      "description": "Le registre doit comporter des informations détaillées sur le producteur initial du déchet, incluant raison sociale, SIRET et adresse, ou les codes INSEE de collecte.",
+      "excerpts": [
+        "la raison sociale, le numéro SIRET et l'adresse du producteur initial du déchet, ou, lorsque les déchets apportés proviennent de plusieurs producteurs, le ou les codes INSEE de la commune de collecte des déchets"
+      ],
+      "valence": "neutral",
+      "code": "Identification producteur initial déchets"
+    }
+  ]
+}

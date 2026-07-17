@@ -1,0 +1,33 @@
+{
+  "document_date": "2024-08-27",
+  "document_title": "edf-sei-guyane1000339992024-08-2755208131790191f03",
+  "document_summary": "L'inspection constate l'absence des bornes de délimitation du périmètre d'autorisation sur la carrière EDF SEI en Guyane, une obligation préalable à la mise en exploitation des carrières à ciel ouvert.",
+  "surprises": "",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "Les bornes délimitant le périmètre de l'autorisation ne sont pas en place, en violation d'une obligation préalable à toute mise en exploitation.",
+      "excerpts": [
+        "Les bornes ne sont pas présentes."
+      ],
+      "valence": "negative",
+      "code": "Absence bornage périmètre carrière"
+    },
+    {
+      "description": "Le bornage est une condition légale qui doit être satisfaite avant même le début de l'exploitation de la carrière à ciel ouvert.",
+      "excerpts": [
+        "Préalablement à la mise en exploitation des carrières à ciel ouvert, l'exploitant est tenu de placer : 1 Des bornes en tous les points nécessaires pour déterminer le périmètre de l'autorisation"
+      ],
+      "valence": "neutral",
+      "code": "Obligation préalable mise en exploitation"
+    },
+    {
+      "description": "Les bornes doivent rester en place non seulement pendant l'exploitation mais jusqu'à l'achèvement complet des travaux de remise en état.",
+      "excerpts": [
+        "Ces bornes doivent demeurer en place jusqu'à l'achèvement des travaux d'exploitation et de remise en état du site."
+      ],
+      "valence": "neutral",
+      "code": "Maintien bornes jusqu'à réhabilitation"
+    }
+  ]
+}

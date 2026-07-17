@@ -1,0 +1,928 @@
+{
+  "rapports-inspection.csv": {
+    "row_count": 1784,
+    "columns": {
+      "id_icpe": {
+        "type": "integer",
+        "distinct_count": 951,
+        "non_null_count": 1784,
+        "samples": [
+          "3100059",
+          "5200447",
+          "5205427",
+          "5212442",
+          "100309280"
+        ]
+      },
+      "nom_complet": {
+        "type": "text",
+        "distinct_count": 951,
+        "non_null_count": 1784,
+        "samples": [
+          "FAYAT ENTREPRISE TP",
+          "SIMOREP & CIE- CS MICHELIN",
+          "LVI",
+          "GRELIER & FILS",
+          "CARRIERES LEROUX PHILIPPE"
+        ]
+      },
+      "siret": {
+        "type": "integer",
+        "distinct_count": 822,
+        "non_null_count": 1705,
+        "samples": [
+          "13001104200012",
+          "35194530800051",
+          "45520338000031",
+          "59565031800016",
+          "98847565300016"
+        ]
+      },
+      "date_inspection": {
+        "type": "date",
+        "distinct_count": 689,
+        "non_null_count": 1784,
+        "samples": [
+          "2022-01-04",
+          "2022-12-29",
+          "2023-12-08",
+          "2025-01-14",
+          "2026-03-04"
+        ]
+      },
+      "identifiant_fichier": {
+        "type": "text",
+        "distinct_count": 1783,
+        "non_null_count": 1784,
+        "samples": [
+          "fD7fFUqTT1VcPwf16KvZgkBkc4WMHVNh",
+          "RhDjfTuBU9mzBZuWQwA8bsTe8d3FMX4d",
+          "L1zs8mKviYSBoPOaHRUb5U22v0qrQRH9",
+          "8zSwFNLIpn73ZcIq8Cw3l7A09n4XIo1V",
+          "swGaeYj4wXzb6HohX8vRMCvcwO4xi0Do"
+        ]
+      },
+      "type_fichier": {
+        "type": "categorical",
+        "distinct_count": 1,
+        "non_null_count": 1784,
+        "samples": [
+          "Rapport d'inspection publiable"
+        ]
+      },
+      "nom_fichier_source": {
+        "type": "text",
+        "distinct_count": 1242,
+        "non_null_count": 1784,
+        "samples": [
+          "rapport_INSP26PPCUD33.pdf",
+          "Partie_publiable.pdf",
+          "22-1025_Rapport_publiable",
+          "rapport_Recolement-apc-21112025.pdf",
+          "2023_674_RappVIPUB"
+        ]
+      },
+      "nom_fichier_local": {
+        "type": "text",
+        "distinct_count": 1783,
+        "non_null_count": 1784,
+        "samples": [
+          "FAYAT-ENTREPRISE-TP_3100059_2026-02-11_34324155000015.pdf",
+          "SIMOREP-CIE-CS-MICHELIN_5200351_2024-11-14_32852574600017.pdf",
+          "LVI_5201212_2022-11-24_44821839600019.pdf",
+          "GRELIER-FILS_5207819_2025-11-21_38441797800010.pdf",
+          "CARRIERES-LEROUX-PHILIPPE_5301335_2023-10-23_69265003900054.pdf"
+        ]
+      },
+      "url_source_georisques": {
+        "type": "text",
+        "distinct_count": 1783,
+        "non_null_count": 1784,
+        "samples": [
+          "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/fD7fFUqTT1VcPwf16KvZgkBkc4WMHVNh",
+          "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/RhDjfTuBU9mzBZuWQwA8bsTe8d3FMX4d",
+          "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/L1zs8mKviYSBoPOaHRUb5U22v0qrQRH9",
+          "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/8zSwFNLIpn73ZcIq8Cw3l7A09n4XIo1V",
+          "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/swGaeYj4wXzb6HohX8vRMCvcwO4xi0Do"
+        ]
+      },
+      "url_pages": {
+        "type": "text",
+        "distinct_count": 1783,
+        "non_null_count": 1784,
+        "samples": [
+          "https://bononlouis-del.github.io/Les-ICPE-en-r-serve-naturelle-nationale/rapports-inspection/FAYAT-ENTREPRISE-TP_3100059_2026-02-11_34324155000015.pdf",
+          "https://bononlouis-del.github.io/Les-ICPE-en-r-serve-naturelle-nationale/rapports-inspection/SIMOREP-CIE-CS-MICHELIN_5200351_2024-11-14_32852574600017.pdf",
+          "https://bononlouis-del.github.io/Les-ICPE-en-r-serve-naturelle-nationale/rapports-inspection/LVI_5201212_2022-11-24_44821839600019.pdf",
+          "https://bononlouis-del.github.io/Les-ICPE-en-r-serve-naturelle-nationale/rapports-inspection/GRELIER-FILS_5207819_2025-11-21_38441797800010.pdf",
+          "https://bononlouis-del.github.io/Les-ICPE-en-r-serve-naturelle-nationale/rapports-inspection/CARRIERES-LEROUX-PHILIPPE_5301335_2023-10-23_69265003900054.pdf"
+        ]
+      },
+      "url_markdown": {
+        "type": "text",
+        "distinct_count": 1782,
+        "non_null_count": 1783,
+        "samples": [
+          "https://bononlouis-del.github.io/Les-ICPE-en-r-serve-naturelle-nationale/rapports-inspection-markdown/FAYAT-ENTREPRISE-TP_3100059_2026-02-11_34324155000015.md",
+          "https://bononlouis-del.github.io/Les-ICPE-en-r-serve-naturelle-nationale/rapports-inspection-markdown/SIMOREP-CIE-CS-MICHELIN_5200351_2024-11-14_32852574600017.md",
+          "https://bononlouis-del.github.io/Les-ICPE-en-r-serve-naturelle-nationale/rapports-inspection-markdown/LVI_5201212_2022-11-24_44821839600019.md",
+          "https://bononlouis-del.github.io/Les-ICPE-en-r-serve-naturelle-nationale/rapports-inspection-markdown/GRELIER-FILS_5207819_2023-02-23_38441797800010.md",
+          "https://bononlouis-del.github.io/Les-ICPE-en-r-serve-naturelle-nationale/rapports-inspection-markdown/CARRIERES-LEROUX-PHILIPPE_5301335_2023-10-23_69265003900054.md"
+        ]
+      },
+      "statut_telechargement": {
+        "type": "categorical",
+        "distinct_count": 2,
+        "non_null_count": 1784,
+        "samples": [
+          "skip",
+          "fail_404"
+        ]
+      },
+      "taille_octets": {
+        "type": "integer",
+        "distinct_count": 1768,
+        "non_null_count": 1783,
+        "samples": [
+          "1150",
+          "82395",
+          "99365",
+          "129437",
+          "11038450"
+        ]
+      }
+    }
+  },
+  "liste-icpe-gironde_enrichi.csv": {
+    "row_count": 2890,
+    "columns": {
+      "id_icpe": {
+        "type": "integer",
+        "distinct_count": 2890,
+        "non_null_count": 2890,
+        "samples": [
+          "2",
+          "5201046",
+          "5208768",
+          "53300793",
+          "100311490"
+        ]
+      },
+      "nom_original": {
+        "type": "text",
+        "distinct_count": 2643,
+        "non_null_count": 2890,
+        "samples": [
+          "SAS CHATEAU MILORD",
+          "COULON",
+          "DMBP Dispano SAS",
+          "SCEA DU CHATEAU GENEAU",
+          "MADAME MEUNIER MARIE DOMINIQUE"
+        ]
+      },
+      "structure": {
+        "type": "text",
+        "distinct_count": 2584,
+        "non_null_count": 2890,
+        "samples": [
+          "SAS CHATEAU MILORD",
+          "COULON",
+          "DMBP Dispano SAS",
+          "SCEA DU CHATEAU GENEAU",
+          "MADAME MEUNIER MARIE DOMINIQUE"
+        ]
+      },
+      "etablissement": {
+        "type": "text",
+        "distinct_count": 387,
+        "non_null_count": 538,
+        "samples": [
+          "Le Teich",
+          "ISDI",
+          "Le Taillan-Médoc",
+          "Saint-Sulpice-de-Pommiers",
+          "Cestas (Station A63)"
+        ]
+      },
+      "nom_complet": {
+        "type": "identifier",
+        "distinct_count": 2890,
+        "non_null_count": 2890,
+        "samples": [
+          "SAS CHATEAU MILORD",
+          "COULON",
+          "DMBP Dispano SAS",
+          "SCEA DU CHATEAU GENEAU",
+          "MADAME MEUNIER MARIE DOMINIQUE"
+        ]
+      },
+      "code_insee_commune": {
+        "type": "integer",
+        "distinct_count": 438,
+        "non_null_count": 2890,
+        "samples": [
+          "33001",
+          "33077",
+          "33252",
+          "33395",
+          "33555"
+        ]
+      },
+      "nom_commune": {
+        "type": "text",
+        "distinct_count": 438,
+        "non_null_count": 2890,
+        "samples": [
+          "Grézillac",
+          "Grignols",
+          "Bordeaux",
+          "Saint-Laurent-d'Arce",
+          "Sadirac"
+        ]
+      },
+      "epci_siren": {
+        "type": "integer",
+        "distinct_count": 28,
+        "non_null_count": 2890,
+        "samples": [
+          "200023794",
+          "200069995",
+          "243300316",
+          "243301223",
+          "243301504"
+        ]
+      },
+      "epci_nom": {
+        "type": "text",
+        "distinct_count": 28,
+        "non_null_count": 2890,
+        "samples": [
+          "CC Castillon/Pujols",
+          "CC du Bazadais",
+          "Bordeaux Métropole",
+          "CC du Grand Cubzaguais",
+          "CC du Créonnais"
+        ]
+      },
+      "coordonnees_lat_lon": {
+        "type": "text",
+        "distinct_count": 2303,
+        "non_null_count": 2890,
+        "samples": [
+          "44.808954, -0.240952",
+          "44.408972, -0.027461",
+          "44.855651, -0.54412",
+          "45.032897, -0.451121",
+          "44.785445, -0.387361"
+        ]
+      },
+      "geometrie_geojson": {
+        "type": "text",
+        "distinct_count": 2303,
+        "non_null_count": 2890,
+        "samples": [
+          "{\"coordinates\": [-0.240952, 44.808954], \"type\": \"Point\"}",
+          "{\"coordinates\": [-0.027461, 44.408972], \"type\": \"Point\"}",
+          "{\"coordinates\": [-0.54412, 44.855651], \"type\": \"Point\"}",
+          "{\"coordinates\": [-0.451121, 45.032897], \"type\": \"Point\"}",
+          "{\"coordinates\": [-0.387361, 44.785445], \"type\": \"Point\"}"
+        ]
+      },
+      "id_ligne_export": {
+        "type": "integer",
+        "distinct_count": 2886,
+        "non_null_count": 2886,
+        "samples": [
+          "1",
+          "722",
+          "1445",
+          "2166",
+          "2888"
+        ]
+      },
+      "siret": {
+        "type": "integer",
+        "distinct_count": 2379,
+        "non_null_count": 2607,
+        "samples": [
+          "6580124300158",
+          "34457045200021",
+          "41755574500013",
+          "52528479000041",
+          "99753681801086"
+        ]
+      },
+      "regime_icpe": {
+        "type": "categorical",
+        "distinct_count": 4,
+        "non_null_count": 2890,
+        "samples": [
+          "AUTRE",
+          "NON_ICPE",
+          "ENREGISTREMENT",
+          "AUTORISATION"
+        ]
+      },
+      "categorie_seveso": {
+        "type": "categorical",
+        "distinct_count": 3,
+        "non_null_count": 1082,
+        "samples": [
+          "NON_SEVESO",
+          "SEUIL_BAS",
+          "SEUIL_HAUT"
+        ]
+      },
+      "priorite_nationale": {
+        "type": "boolean",
+        "distinct_count": 2,
+        "non_null_count": 2890,
+        "samples": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "url_fiche_georisques": {
+        "type": "identifier",
+        "distinct_count": 2890,
+        "non_null_count": 2890,
+        "samples": [
+          "https://www.georisques.gouv.fr/risques/installations/donnees/details/0053320787",
+          "https://www.georisques.gouv.fr/risques/installations/donnees/details/0003104564",
+          "https://www.georisques.gouv.fr/risques/installations/donnees/details/0005206609",
+          "https://www.georisques.gouv.fr/risques/installations/donnees/details/0005211830",
+          "https://www.georisques.gouv.fr/risques/installations/donnees/details/0003102865"
+        ]
+      },
+      "elevage_bovins": {
+        "type": "boolean",
+        "distinct_count": 1,
+        "non_null_count": 2890,
+        "samples": [
+          "FALSE"
+        ]
+      },
+      "elevage_porcs": {
+        "type": "boolean",
+        "distinct_count": 2,
+        "non_null_count": 2890,
+        "samples": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "elevage_volailles": {
+        "type": "boolean",
+        "distinct_count": 2,
+        "non_null_count": 2890,
+        "samples": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "activite_carriere": {
+        "type": "boolean",
+        "distinct_count": 2,
+        "non_null_count": 2890,
+        "samples": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "activite_eolienne": {
+        "type": "boolean",
+        "distinct_count": 1,
+        "non_null_count": 2890,
+        "samples": [
+          "FALSE"
+        ]
+      },
+      "activite_industrielle": {
+        "type": "boolean",
+        "distinct_count": 2,
+        "non_null_count": 2890,
+        "samples": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "directive_ied": {
+        "type": "boolean",
+        "distinct_count": 2,
+        "non_null_count": 2890,
+        "samples": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "code_naf_division": {
+        "type": "integer",
+        "distinct_count": 75,
+        "non_null_count": 1913,
+        "samples": [
+          "1",
+          "1",
+          "24",
+          "46",
+          "96"
+        ]
+      },
+      "date_enregistrement": {
+        "type": "date",
+        "distinct_count": 235,
+        "non_null_count": 2886,
+        "samples": [
+          "2025-02-10T00:00:00+01:00",
+          "2025-06-13T00:00:00+02:00",
+          "2025-09-20T00:00:00+02:00",
+          "2026-01-13T00:00:00+01:00",
+          "2026-04-01T00:00:00+02:00"
+        ]
+      },
+      "annee_enregistrement": {
+        "type": "integer",
+        "distinct_count": 2,
+        "non_null_count": 2886,
+        "samples": [
+          "2025",
+          "2025",
+          "2025",
+          "2025",
+          "2026"
+        ]
+      },
+      "nb_rapports_inspection": {
+        "type": "integer",
+        "distinct_count": 16,
+        "non_null_count": 2886,
+        "samples": [
+          "0",
+          "0",
+          "0",
+          "1",
+          "34"
+        ]
+      }
+    }
+  },
+  "coordonnees-audit-full.csv": {
+    "row_count": 2890,
+    "columns": {
+      "codeAiot": {
+        "type": "integer",
+        "distinct_count": 2890,
+        "non_null_count": 2890,
+        "samples": [
+          "2",
+          "5201046",
+          "5208768",
+          "53300793",
+          "100311490"
+        ]
+      },
+      "id_icpe": {
+        "type": "integer",
+        "distinct_count": 2890,
+        "non_null_count": 2890,
+        "samples": [
+          "2",
+          "5201046",
+          "5208768",
+          "53300793",
+          "100311490"
+        ]
+      },
+      "raisonSociale": {
+        "type": "text",
+        "distinct_count": 2643,
+        "non_null_count": 2890,
+        "samples": [
+          "SAS CHATEAU MILORD",
+          "COULON",
+          "DMBP Dispano SAS",
+          "SCEA DU CHATEAU GENEAU",
+          "MADAME MEUNIER MARIE DOMINIQUE"
+        ]
+      },
+      "libelle_complet": {
+        "type": "identifier",
+        "distinct_count": 2890,
+        "non_null_count": 2890,
+        "samples": [
+          "SAS CHATEAU MILORD",
+          "COULON",
+          "DMBP Dispano SAS",
+          "SCEA DU CHATEAU GENEAU",
+          "MADAME MEUNIER MARIE DOMINIQUE"
+        ]
+      },
+      "numeroSiret": {
+        "type": "integer",
+        "distinct_count": 2379,
+        "non_null_count": 2607,
+        "samples": [
+          "6580124300158",
+          "34457045200021",
+          "41755574500013",
+          "52528479000041",
+          "99753681801086"
+        ]
+      },
+      "adresse1": {
+        "type": "text",
+        "distinct_count": 2491,
+        "non_null_count": 2578,
+        "samples": [
+          "1, Mylord",
+          "Le Barrail de la Grand Mère",
+          "La Tuilerie",
+          "lieu dit",
+          "GABY"
+        ]
+      },
+      "adresse2": {
+        "type": "text",
+        "distinct_count": 819,
+        "non_null_count": 867,
+        "samples": [
+          "Parcelle 49 section A",
+          "6  R   DES MAGES",
+          "LD LA FUI",
+          "Lotissement d'activité JARRY IV",
+          "ZI La Lande"
+        ]
+      },
+      "adresse3": {
+        "type": "categorical",
+        "distinct_count": 14,
+        "non_null_count": 14,
+        "samples": [
+          "Seine-et-Marne",
+          "Parcelles cadastrales AD 64, 233, 235 et 237",
+          "33323",
+          "33076 BORDEAUX CEDEX",
+          "CS 21544"
+        ]
+      },
+      "codePostal": {
+        "type": "integer",
+        "distinct_count": 125,
+        "non_null_count": 2890,
+        "samples": [
+          "24230",
+          "33240",
+          "33450",
+          "33650",
+          "97313"
+        ]
+      },
+      "codeInsee": {
+        "type": "integer",
+        "distinct_count": 438,
+        "non_null_count": 2890,
+        "samples": [
+          "33001",
+          "33077",
+          "33252",
+          "33395",
+          "33555"
+        ]
+      },
+      "commune": {
+        "type": "text",
+        "distinct_count": 534,
+        "non_null_count": 2890,
+        "samples": [
+          "Grézillac",
+          "Grignols",
+          "Bordeaux",
+          "Virsac",
+          "Sadirac"
+        ]
+      },
+      "nom_commune": {
+        "type": "text",
+        "distinct_count": 438,
+        "non_null_count": 2890,
+        "samples": [
+          "Grézillac",
+          "Grignols",
+          "Bordeaux",
+          "Saint-Laurent-d'Arce",
+          "Sadirac"
+        ]
+      },
+      "epci_siren": {
+        "type": "integer",
+        "distinct_count": 28,
+        "non_null_count": 2890,
+        "samples": [
+          "200023794",
+          "200069995",
+          "243300316",
+          "243301223",
+          "243301504"
+        ]
+      },
+      "epci_nom": {
+        "type": "text",
+        "distinct_count": 28,
+        "non_null_count": 2890,
+        "samples": [
+          "CC Castillon/Pujols",
+          "CC du Bazadais",
+          "Bordeaux Métropole",
+          "CC du Grand Cubzaguais",
+          "CC du Créonnais"
+        ]
+      },
+      "longitude": {
+        "type": "numeric",
+        "distinct_count": 2299,
+        "non_null_count": 2890,
+        "samples": [
+          "-1.252286",
+          "-0.666915",
+          "-0.524068",
+          "-0.279244",
+          "0.301765"
+        ]
+      },
+      "latitude": {
+        "type": "numeric",
+        "distinct_count": 2297,
+        "non_null_count": 2890,
+        "samples": [
+          "44.260982",
+          "44.722411",
+          "44.850928",
+          "44.956444",
+          "45.537312"
+        ]
+      },
+      "regimeVigueur": {
+        "type": "categorical",
+        "distinct_count": 4,
+        "non_null_count": 2890,
+        "samples": [
+          "Autres régimes",
+          "Non ICPE",
+          "Enregistrement",
+          "Autorisation"
+        ]
+      },
+      "statutSeveso": {
+        "type": "categorical",
+        "distinct_count": 3,
+        "non_null_count": 1082,
+        "samples": [
+          "Non Seveso",
+          "Seveso seuil bas",
+          "Seveso seuil haut"
+        ]
+      },
+      "prioriteNationale": {
+        "type": "boolean",
+        "distinct_count": 2,
+        "non_null_count": 2890,
+        "samples": [
+          "false",
+          "true"
+        ]
+      },
+      "ied": {
+        "type": "boolean",
+        "distinct_count": 2,
+        "non_null_count": 2890,
+        "samples": [
+          "false",
+          "true"
+        ]
+      },
+      "url": {
+        "type": "identifier",
+        "distinct_count": 2890,
+        "non_null_count": 2890,
+        "samples": [
+          "https://www.georisques.gouv.fr/risques/installations/donnees/details/0053320787",
+          "https://www.georisques.gouv.fr/risques/installations/donnees/details/0003104564",
+          "https://www.georisques.gouv.fr/risques/installations/donnees/details/0005206609",
+          "https://www.georisques.gouv.fr/risques/installations/donnees/details/0005211830",
+          "https://www.georisques.gouv.fr/risques/installations/donnees/details/0003102865"
+        ]
+      },
+      "audit_class": {
+        "type": "categorical",
+        "distinct_count": 10,
+        "non_null_count": 2890,
+        "samples": [
+          "severe",
+          "suspicious",
+          "address_imprecise",
+          "very_severe",
+          "minor"
+        ]
+      },
+      "audit_group": {
+        "type": "categorical",
+        "distinct_count": 3,
+        "non_null_count": 2721,
+        "samples": [
+          "grand",
+          "petit",
+          "reserves"
+        ]
+      },
+      "forward_distance_m": {
+        "type": "numeric",
+        "distinct_count": 2820,
+        "non_null_count": 2890,
+        "samples": [
+          "0.22239",
+          "138.891541",
+          "628.205597",
+          "1751.023465",
+          "6725789.054608"
+        ]
+      },
+      "forward_score": {
+        "type": "numeric",
+        "distinct_count": 1914,
+        "non_null_count": 2890,
+        "samples": [
+          "0.2",
+          "0.475463",
+          "0.7",
+          "0.947786",
+          "1.0"
+        ]
+      },
+      "forward_type": {
+        "type": "categorical",
+        "distinct_count": 4,
+        "non_null_count": 2890,
+        "samples": [
+          "street",
+          "housenumber",
+          "locality",
+          "municipality"
+        ]
+      },
+      "forward_label": {
+        "type": "text",
+        "distinct_count": 2513,
+        "non_null_count": 2890,
+        "samples": [
+          "Route de Mylord 33420 Grézillac",
+          "29 Route de Casteljaloux 33690 Grignols",
+          "6 Rue Lajaunie 33100 Bordeaux",
+          "12 Chemin de Bonneau 33240 Saint-Laurent-d'Arce",
+          "20 Chemin de Padouens 33670 Sadirac"
+        ]
+      },
+      "forward_citycode": {
+        "type": "integer",
+        "distinct_count": 397,
+        "non_null_count": 2175,
+        "samples": [
+          "33001",
+          "33075",
+          "33248",
+          "33394",
+          "33555"
+        ]
+      },
+      "forward_lat": {
+        "type": "numeric",
+        "distinct_count": 2477,
+        "non_null_count": 2890,
+        "samples": [
+          "3.890873",
+          "44.722125",
+          "44.844819",
+          "44.957447",
+          "50.196341"
+        ]
+      },
+      "forward_lon": {
+        "type": "numeric",
+        "distinct_count": 2479,
+        "non_null_count": 2890,
+        "samples": [
+          "-51.80221",
+          "-0.66123",
+          "-0.522805",
+          "-0.281341",
+          "5.056072"
+        ]
+      },
+      "forward_error": {
+        "type": "text",
+        "distinct_count": 0,
+        "non_null_count": 0,
+        "samples": []
+      },
+      "reverse_citycode": {
+        "type": "integer",
+        "distinct_count": 423,
+        "non_null_count": 2544,
+        "samples": [
+          "33001",
+          "33075",
+          "33253",
+          "33394",
+          "33555"
+        ]
+      },
+      "reverse_label": {
+        "type": "text",
+        "distinct_count": 2009,
+        "non_null_count": 2544,
+        "samples": [
+          "1294 Route de Mylord 33420 Grézillac",
+          "1 Château Calon-Ségur 33180 Saint-Estèphe",
+          "23 Chemin de Lou Tribail 33610 Cestas",
+          "3b Allée des Escoliers 33138 Lanton",
+          "2 Route de Canissac 33340 Bégadan"
+        ]
+      },
+      "pip_in_commune": {
+        "type": "boolean",
+        "distinct_count": 2,
+        "non_null_count": 2890,
+        "samples": [
+          "TRUE",
+          "FALSE"
+        ]
+      },
+      "sentinel_flags": {
+        "type": "categorical",
+        "distinct_count": 3,
+        "non_null_count": 593,
+        "samples": [
+          "duplicate_coords",
+          "outside_gironde",
+          "commune_centroid"
+        ]
+      },
+      "stored_in_reserve": {
+        "type": "categorical",
+        "distinct_count": 2,
+        "non_null_count": 2890,
+        "samples": [
+          "none",
+          "Périmètre De Protection De La Réserve Naturelle Des Marais de Bruges"
+        ]
+      },
+      "geocoded_in_reserve": {
+        "type": "categorical",
+        "distinct_count": 1,
+        "non_null_count": 2890,
+        "samples": [
+          "none"
+        ]
+      },
+      "stored_reserve_distance_m": {
+        "type": "numeric",
+        "distinct_count": 2303,
+        "non_null_count": 2890,
+        "samples": [
+          "-6205458.378823",
+          "6102135.003994",
+          "6129424.482328",
+          "6142667.034924",
+          "6212350.38537"
+        ]
+      },
+      "geocoded_reserve_distance_m": {
+        "type": "numeric",
+        "distinct_count": 2481,
+        "non_null_count": 2890,
+        "samples": [
+          "5710316.131581",
+          "6102215.456652",
+          "6129655.492208",
+          "6142762.059617",
+          "10710023.234689"
+        ]
+      },
+      "reserve_ambiguous": {
+        "type": "boolean",
+        "distinct_count": 2,
+        "non_null_count": 2890,
+        "samples": [
+          "FALSE",
+          "TRUE"
+        ]
+      },
+      "reserve_boundary_proximity": {
+        "type": "boolean",
+        "distinct_count": 1,
+        "non_null_count": 2890,
+        "samples": [
+          "FALSE"
+        ]
+      }
+    }
+  }
+}

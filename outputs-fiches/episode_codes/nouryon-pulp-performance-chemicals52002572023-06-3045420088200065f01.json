@@ -1,0 +1,49 @@
+{
+  "document_date": "2023-06-30",
+  "document_title": "nouryon-pulp-performance-chemicals52002572023-06-3045420088200065f01",
+  "codes": [
+    {
+      "description": "Le site souffre d'intrusions répétées depuis son autorisation, avec vols de piquets et grillage, forçant l'exploitant à adapter sa stratégie de clôture pour réduire les coûts.",
+      "excerpts": [
+        "depuis l'autorisation des installations, ils ont toujours eu des intrusions, voire des vols de piquets et de grillage. Afin de réduire les coûts, l'établissement a choisi de faire une clôture plus proche du site pour protéger les installations."
+      ],
+      "valence": "negative",
+      "code": "Intrusions chroniques site industriel"
+    },
+    {
+      "description": "Des activités de motos et quads sont constatées sur le site au niveau de la pointe sud de la parcelle, révélant une perméabilité du périmètre et des risques d'accidents sur un site industriel.",
+      "excerpts": [
+        "Les photos aérienne montrent que des activités de types motos, quads ont lieu sur le site au niveau de la pointe sud de la parcelle."
+      ],
+      "valence": "negative",
+      "code": "Usages récréatifs motorisés périmètre ICPE"
+    },
+    {
+      "description": "Des arbres tombés sur la clôture l'ont abaissée d'environ vingt centimètres à certains endroits, compromettant l'hauteur réglementaire de 2,5 mètres.",
+      "excerpts": [
+        "A certains endroits, la clôture a été écrasée par des arbres réduisant sa hauteur d'une vingtaine de centimètre."
+      ],
+      "valence": "negative",
+      "code": "Dégradation clôture par végétation"
+    },
+    {
+      "description": "L'exploitant complète la clôture par un linéaire de ronces derrière la clôture, constituant une défense naturelle dissuasive contre les intrusions.",
+      "excerpts": [
+        "derrière la clôture plusieurs mètres de ronces permettent de dissuader toute tentative d'intrusion."
+      ],
+      "valence": "positive",
+      "code": "Ronces défense naturelle périmètre"
+    },
+    {
+      "description": "L'inspection laisse le choix à l'exploitant entre déposer un porter à connaissance pour officialiser le périmètre réduit ou réparer la clôture dans son emprise initiale.",
+      "excerpts": [
+        "L'exploitant dépose un porter à connaissance afin de mettre à jour le périmètre ICPE ou répare la clôture du site dans un délai de 2 mois."
+      ],
+      "valence": "neutral",
+      "code": "Mise à jour périmètre ICPE ou réparation"
+    }
+  ],
+  "document_summary": "Inspection d'un site chimique Nouryon portant sur la sécurité périmétrique. Le site souffre d'intrusions chroniques depuis sa création, avec des usages motorisés constatés par photographies aériennes et une clôture partiellement dégradée par la végétation. L'inspection demande une mise à jour administrative du périmètre ou des réparations sous deux mois.",
+  "surprises": "L'utilisation de photographies aériennes pour documenter des activités de motos/quads sur un site ICPE est une approche de surveillance proactive qui va au-delà de la simple inspection physique.",
+  "tensions": "Tension entre la logique économique de l'exploitant (réduire le périmètre clôturé pour limiter les coûts de maintenance) et l'obligation réglementaire de maintenir une clôture anti-intrusion de 2,5m sur le périmètre officiellement autorisé."
+}

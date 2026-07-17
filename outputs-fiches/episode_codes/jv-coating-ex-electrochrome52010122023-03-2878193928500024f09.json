@@ -1,0 +1,41 @@
+{
+  "document_date": "2023-03-28",
+  "document_title": "jv-coating-ex-electrochrome52010122023-03-2878193928500024f09",
+  "document_summary": "L'inspection d'un site de traitement de surface (JV Coating, ex-Electrochrome) constate que la chaudière actuelle est électrique, conformément à la prescription préfectorale. L'exploitant envisage de passer à une chaudière au gaz pour des raisons économiques, ce qui nécessiterait un Porté à Connaissance préalable.",
+  "surprises": "L'exploitant envisage explicitement de modifier son installation pour des raisons économiques (passage gaz) tout en reconnaissant que ce projet est incompatible avec les prescriptions actuelles — transparence rare sur un projet non encore réalisé.",
+  "tensions": "La prescription impose une chaudière électrique « sans aucun combustible », mais des raisons économiques poussent l'exploitant vers le gaz — tension entre contrainte réglementaire (probablement liée au risque ATEX ou aux bains actifs) et rentabilité économique.",
+  "codes": [
+    {
+      "description": "La chaudière alimentant les systèmes de chauffe des bains actifs est actuellement électrique, conformément à la prescription préfectorale interdisant tout combustible.",
+      "excerpts": [
+        "la chaudière alimentant les systèmes de chauffe des bains actifs est totalement électrique et n'est alimentée par aucun combustible."
+      ],
+      "valence": "positive",
+      "code": "Conformité chaudière électrique actuelle"
+    },
+    {
+      "description": "L'exploitant souhaite remplacer la chaudière électrique par une chaudière au gaz de ville pour des raisons économiques, en lien avec la mise en service d'une nouvelle ligne de production.",
+      "excerpts": [
+        "Pour des considérations économiques, l'exploitant souhaite in fine recourir à une chaudière au gaz prochainement et notamment à l'échéance de la mise en service de la ligne L100/200 en travaux."
+      ],
+      "valence": "mixed",
+      "code": "Projet changement combustible motifs économiques"
+    },
+    {
+      "description": "Le passage à une chaudière gaz est reconnu comme incompatible avec les prescriptions préfectorales actuelles, nécessitant une modification formelle de l'autorisation via un Porté à Connaissance.",
+      "excerpts": [
+        "La mise en place d'une chaudière gaz n'étant pas compatible avec les prescriptions préfectorales actuellement de l'établissement et afin de pouvoir l'envisager, ce dernier a précisé qu'un porter à connaissance sera transmis à l'inspection."
+      ],
+      "valence": "neutral",
+      "code": "Incompatibilité prescriptions préfectorales projet"
+    },
+    {
+      "description": "Pour toute modification technique incompatible avec les prescriptions en vigueur, l'exploitant doit déposer un Porté à Connaissance auprès de l'inspection avant mise en œuvre.",
+      "excerpts": [
+        "ce dernier a précisé qu'un porter à connaissance sera transmis à l'inspection."
+      ],
+      "valence": "neutral",
+      "code": "PAC requis modification technique"
+    }
+  ]
+}

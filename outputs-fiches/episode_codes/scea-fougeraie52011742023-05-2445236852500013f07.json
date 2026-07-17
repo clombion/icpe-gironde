@@ -1,0 +1,41 @@
+{
+  "document_date": "2023-05-24",
+  "document_title": "scea-fougeraie52011742023-05-2445236852500013f07",
+  "codes": [
+    {
+      "description": "L'exploitant ne peut pas produire les bordereaux d'enlèvement des effluents confiés au méthaniseur, empêchant tout contrôle de traçabilité.",
+      "excerpts": [
+        "Les bordereaux d'enlèvement n'ont pu être contrôlés : l'exploitant devra nous les transmettre par mail ou par courrier."
+      ],
+      "valence": "negative",
+      "code": "Traçabilité épandage défaillante"
+    },
+    {
+      "description": "La difficulté à obtenir les bons d'enlèvement vient d'un tiers (le méthaniseur GICA Energie), illustrant comment la sous-traitance crée des lacunes documentaires chez l'exploitant principal.",
+      "excerpts": [
+        "L'exploitant nous indique qu'il rencontre des difficultés pour récupérer les bons d'enlèvements auprès de ce site."
+      ],
+      "valence": "negative",
+      "code": "Dépendance tiers pour documents"
+    },
+    {
+      "description": "La prescription détaille les exigences exhaustives du cahier d'épandage (surfaces, dates, cultures, volumes, azote, mode d'épandage) comme outil central de suivi environnemental.",
+      "excerpts": [
+        "Un cahier d'épandage, tenu sous la responsabilité de l'exploitant et à la disposition de l'inspection de l'environnement, spécialité installations classées pendant une durée de cinq ans"
+      ],
+      "valence": "neutral",
+      "code": "Cahier d'épandage réglementaire"
+    },
+    {
+      "description": "La prescription distingue les obligations selon la localisation en zone vulnérable aux pollutions par les nitrates, renforçant les exigences de traçabilité.",
+      "excerpts": [
+        "En zone vulnérable aux pollutions par les nitrates, l'établissement des bordereaux d'échanges et du cahier d'enregistrement définis au IV de l'annexe I de l'arrêté du 19 décembre 2011"
+      ],
+      "valence": "neutral",
+      "code": "Zone vulnérable nitrates"
+    }
+  ],
+  "document_summary": "Fiche d'inspection d'un élevage (SCEA Fougeraie) portant sur la traçabilité des effluents envoyés au méthaniseur : l'exploitant ne peut pas produire les bordereaux d'enlèvement requis. La prescription rappelle les obligations détaillées du cahier d'épandage réglementaire.",
+  "surprises": "La défaillance documentaire vient du méthaniseur tiers (GICA Energie) et non de l'exploitant lui-même — la chaîne de responsabilité est floue.",
+  "tensions": "L'exploitant est responsable réglementairement du cahier d'épandage mais dépend d'un prestataire extérieur pour obtenir les pièces justificatives, créant une tension entre obligation légale et capacité pratique."
+}

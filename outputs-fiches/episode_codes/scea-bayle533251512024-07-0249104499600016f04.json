@@ -1,0 +1,33 @@
+{
+  "document_date": "2024-07-02",
+  "document_title": "scea-bayle533251512024-07-0249104499600016f04",
+  "document_summary": "La fiche contrôle deux points de l'élevage SCEA Bayle : les installations électriques (contrôlées le 13/12/2023) et la collecte des effluents d'élevage vers les équipements de stockage. Le constat sur les effluents est de conformité.",
+  "surprises": "",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "Les installations électriques ont fait l'objet d'un contrôle périodique en décembre 2023, témoignant du respect de l'obligation de vérification.",
+      "excerpts": [
+        "Les installations électriques ont été contrôlées le 13/12/2023."
+      ],
+      "valence": "positive",
+      "code": "Contrôle électrique récent réalisé"
+    },
+    {
+      "description": "Les effluents d'élevage sont collectés par un réseau étanche et dirigés vers les équipements de stockage conformément à la prescription.",
+      "excerpts": [
+        "Conforme."
+      ],
+      "valence": "positive",
+      "code": "Conformité collecte effluents d'élevage"
+    },
+    {
+      "description": "La prescription impose que tous les effluents d'élevage soient collectés par un réseau étanche et dirigés vers les équipements de stockage ou de traitement, avec un plan du réseau tenu à disposition.",
+      "excerpts": [
+        "Tous les effluents d'élevage sont collectés par un réseau étanche et dirigés vers les équipements de stockage ou de traitement des eaux résiduaires ou des effluents d'élevage."
+      ],
+      "valence": "neutral",
+      "code": "Réseau étanche de collecte des effluents"
+    }
+  ]
+}

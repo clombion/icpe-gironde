@@ -1,0 +1,33 @@
+{
+  "document_date": "2022-12-15",
+  "document_title": "cemex-granulats-sud-ouest-sas52072912022-12-1589695029200228f08",
+  "document_summary": "L'inspection fait le point sur le suivi de la qualité des eaux pluviales et des plans d'eau d'un site d'extraction de granulats : si le suivi général est effectué, la surveillance des matières en suspension (MES) dans les plans d'eau a été interrompue depuis plusieurs années.",
+  "surprises": "Le suivi des MES est absent « depuis plusieurs années » sans que cela semble avoir fait l'objet de mesures correctives auparavant — une lacune durable.",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "Le suivi réglementaire des rejets d'eaux pluviales est réalisé conformément aux prescriptions.",
+      "excerpts": [
+        "L'autosurveillance des rejets d'eaux pluviales (plan d'eau ou rejet) est réalisée"
+      ],
+      "valence": "positive",
+      "code": "Autosurveillance eaux pluviales conforme"
+    },
+    {
+      "description": "La surveillance des matières en suspension dans les plans d'eau n'est pas assurée depuis plusieurs années, constituant une lacune persistante dans le programme d'autosurveillance.",
+      "excerpts": [
+        "Le suivi des matières en suspension (MES) dans les plans d'eau n'est pas assuré depuis plusieurs années"
+      ],
+      "valence": "negative",
+      "code": "Suivi MES interrompu durablement"
+    },
+    {
+      "description": "L'inspection demande la reprise du suivi des MES dès la prochaine campagne d'analyses sans fixer de délai strict ni de menace de sanction.",
+      "excerpts": [
+        "Il est demandé à l'exploitant d'y remédier dès la prochaine campagne"
+      ],
+      "valence": "neutral",
+      "code": "Reprise surveillance à prochaine campagne"
+    }
+  ]
+}

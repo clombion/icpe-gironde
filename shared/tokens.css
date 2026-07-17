@@ -1,0 +1,82 @@
+/* ============================================================================
+   Cahier d'enquête — Design tokens partagés
+   Importé par chaque outil du projet (carte, audit, donnees, landing).
+   Modifier ici met à jour les quatre pages d'un coup.
+
+   Polices et palette uniquement. Les tokens de layout (sidebar-width,
+   header-height, timebar-height) restent dans carte/style.css car ils
+   sont spécifiques à la disposition de la carte.
+============================================================================ */
+
+/* ---------- fonts (self-hosted) ---------- */
+@font-face {
+  font-family: 'Fraunces';
+  src: url('./fonts/fraunces-vf.woff2') format('woff2-variations'),
+       url('./fonts/fraunces-vf.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('./fonts/plex-sans-400.woff2') format('woff2');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('./fonts/plex-sans-500.woff2') format('woff2');
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('./fonts/plex-sans-600.woff2') format('woff2');
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('./fonts/plex-mono-400.woff2') format('woff2');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('./fonts/plex-mono-500.woff2') format('woff2');
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+
+/* ---------- design tokens ---------- */
+:root {
+  /* foundation */
+  --ink: #1a1714;
+  --ink-soft: rgba(26, 23, 20, 0.72);
+  --paper: #f4efe6;
+  --paper-2: #ebe4d5;
+  --paper-3: #e2dac8;
+  --rule: #2a2520;
+  --rule-soft: rgba(42, 37, 32, 0.22);
+
+  /* régime */
+  --rust: #b4502e;
+  --ochre: #c08729;
+  --lead: #7a7065;
+  --fog: #b8afa3;
+
+  /* seveso progression */
+  --rust-deep: #6d2a14;
+  --rust-mid: #c87540;
+
+  /* protected zones */
+  --moss: #4a6b3a;
+  --moss-deep: #2a4220;
+  --olive: #6b7a35;
+  --olive-deep: #3d4a1d;
+
+  /* accent signals */
+  --copper: #b87333;
+  --azur: #2b5c7e;
+  --highlight: #fbec8a;
+
+  /* typography */
+  --font-display: 'Fraunces', ui-serif, Georgia, 'Times New Roman', serif;
+  --font-body: 'IBM Plex Sans', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-data: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+}

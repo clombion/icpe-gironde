@@ -1,0 +1,57 @@
+{
+  "document_date": "2022-09-02",
+  "document_title": "o-i-france-sas52013752022-09-0233903070200130f10",
+  "codes": [
+    {
+      "description": "Un prélèvement du 1er août 2022 a révélé une concentration en légionelles supérieure au seuil critique de 100 000 UFC/L dans la tour aéroréfrigérante, déclenchant le protocole d'urgence.",
+      "excerpts": [
+        "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme « NF T90-431 (version 2020) » mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L"
+      ],
+      "valence": "negative",
+      "code": "Dépassement seuil légionelles confirmé"
+    },
+    {
+      "description": "Dès réception des résultats, l'exploitant a arrêté la dispersion, procédé à la vidange et désinfection de la tour, réparé la panne du ventilateur et redémarré après confirmation de la décontamination.",
+      "excerpts": [
+        "Suite à la réception des résultats, la dispersion a été stoppée et l'exploitant a procédé à la vidange, désinfection et nettoyage de la tour le 12/08. Par ailleurs, le moteur ventilateur de refroidissement de la tour qui était en panne a été réparé le 11/08."
+      ],
+      "valence": "positive",
+      "code": "Réaction corrective rapide exploitant"
+    },
+    {
+      "description": "L'exploitant n'a informé l'inspection que 10 jours après le prélèvement (11 août pour un prélèvement du 1er août), invoquant une réception tardive des résultats.",
+      "excerpts": [
+        "l'exploitant a informé l'inspection des installations classées par courriel du 11/08/2022. Il a indiqué qu'il n'avait eu connaissance des résultats de prélèvement que le 11/08."
+      ],
+      "valence": "negative",
+      "code": "Délai notification inspection tardif"
+    },
+    {
+      "description": "La panne du ventilateur de la tour était concomitante à la prolifération de légionelles, soulevant la question d'un lien causal entre défaillance de maintenance et contamination.",
+      "excerpts": [
+        "le moteur ventilateur de refroidissement de la tour qui était en panne a été réparé le 11/08."
+      ],
+      "valence": "negative",
+      "code": "Panne ventilateur facteur aggravant"
+    },
+    {
+      "description": "La prescription prévoit qu'un organisme indépendant vérifie l'installation dans les six mois suivant l'incident, assurant un contrôle externe après l'autocorrection de l'exploitant.",
+      "excerpts": [
+        "Dans les six mois suivant l'incident, l'exploitant fait réaliser une vérification de l'installation par un organisme indépendant et compétent"
+      ],
+      "valence": "neutral",
+      "code": "Vérification post-incident organisme indépendant"
+    },
+    {
+      "description": "Un prélèvement de contrôle le 16 août confirme le retour à une concentration inférieure à 1000 UFC/L, validant l'efficacité des mesures curatives.",
+      "excerpts": [
+        "Un prélèvement réalisé le 16/08 a permis de le confirmer, faisant apparaître une concentration en Legionella pneumophila inférieure à 1 000 UFC/L."
+      ],
+      "valence": "positive",
+      "code": "Retour conformité mesuré confirmé"
+    }
+  ],
+  "document_summary": "Incident légionelles dans une tour aéroréfrigérante d'O-I France avec dépassement du seuil critique (> 100 000 UFC/L) en août 2022. L'exploitant a réagi rapidement (arrêt, désinfection, réparation du ventilateur en panne) et le retour à la normale est confirmé par un prélèvement de contrôle.",
+  "surprises": "La concomitance de la panne du ventilateur et de la prolifération de légionelles suggère un lien de causalité que le texte n'explicite pas, mais qui laisse entendre une défaillance de maintenance préventive comme facteur déclenchant.",
+  "tensions": "Tension entre la réactivité démontrée de l'exploitant après la crise et le délai de 10 jours entre le prélèvement et la notification à l'inspection, qui contrevient à l'obligation de notification immédiate prévue par la prescription."
+}

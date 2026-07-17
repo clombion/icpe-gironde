@@ -1,0 +1,41 @@
+{
+  "document_date": "2022-06-07",
+  "document_title": "sarl-moulin-du-caouley52008782022-06-0732368394600012f04",
+  "document_summary": "L'inspection constate que la pisciculture Moulin du Caouley dépasse sa production annuelle autorisée depuis 13 ans sans en avoir informé les services en charge des ICPE, et que ce même manquement avait déjà été relevé lors d'une inspection précédente en 2013.",
+  "surprises": "Le dépassement dure depuis 13 ans et avait déjà été signalé en 2013 — neuf ans après cette première constatation, la situation n'a pas été régularisée, révélant une récidive documentée et une inefficacité de la procédure de suivi.",
+  "tensions": "L'exploitant continue à dépasser les limites autorisées sans modifier son autorisation, alors même que cette obligation est clairement posée par l'arrêté. La récidive documentée depuis 2013 indique que ni les suites précédentes ni la contrainte réglementaire n'ont produit d'effet.",
+  "codes": [
+    {
+      "description": "La pisciculture excède sa production annuelle autorisée depuis au moins 13 ans, sans avoir engagé de procédure de régularisation auprès de l'administration.",
+      "excerpts": [
+        "Dépassement de la production annuelle autorisée sur les 13 dernières années sans en informer le service en charge des installations classées."
+      ],
+      "valence": "negative",
+      "code": "Dépassement chronique de production"
+    },
+    {
+      "description": "En plus du dépassement lui-même, l'exploitant n'a pas informé l'inspection des installations classées du dépassement de production, contrairement à ses obligations.",
+      "excerpts": [
+        "Dépassement de la production annuelle autorisée sur les 13 dernières années sans en informer le service en charge des installations classées."
+      ],
+      "valence": "negative",
+      "code": "Non-information de l'administration"
+    },
+    {
+      "description": "Le même constat de dépassement avait été établi lors d'une inspection antérieure en 2013, attestant d'une non-conformité persistante malgré une interpellation passée.",
+      "excerpts": [
+        "Dépassement déjà constaté lors de l'inspection du 16 juillet 2013"
+      ],
+      "valence": "negative",
+      "code": "Récidive constatée depuis 2013"
+    },
+    {
+      "description": "La prescription rappelle l'interdiction formelle d'augmenter les capacités ou les inconvénients de l'installation sans obtenir préalablement une autorisation.",
+      "excerpts": [
+        "Il est expressément défendu au permissionnaire de donner aucune extension à ses installations et d'y apporter aucune modification de nature à augmenter les inconvénients avant d'en avoir obtenu l'autorisation"
+      ],
+      "valence": "neutral",
+      "code": "Interdiction d'extension sans autorisation"
+    }
+  ]
+}

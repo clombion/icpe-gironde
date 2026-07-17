@@ -1,0 +1,9 @@
+# Échecs d'extraction du dernier run
+
+date : 2026-04-09T09:50:21
+nombre d'échecs : 2
+
+- SAS-PROUST-AUTOMOBILES_5204831_2022-05-16_50064442200015.pdf
+    raison : ocrmypdf a produit un PDF sans couche texte pour SAS-PROUST-AUTOMOBILES_5204831_2022-05-16_50064442200015.pdf (1150 octets) — source vide, corrompue ou scan trop dégradé
+- VERMILION-REP-SAS-La-Teste-de-Buch_100288556_2025-03-18_41096483700026.pdf
+    raison : ocrmypdf a produit un PDF sans couche texte pour VERMILION-REP-SAS-La-Teste-de-Buch_100288556_2025-03-18_41096483700026.pdf (3403 octets) — source vide, corrompue ou scan trop dégradé

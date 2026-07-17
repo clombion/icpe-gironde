@@ -1,0 +1,49 @@
+{
+  "document_date": "2023-08-17",
+  "document_title": "gazechim-sa52014012023-08-1754292008700062f11",
+  "document_summary": "L'inspection constate que Gazechim SA n'a pas déclaré un incident survenu le 14 août 2023, consécutif à des événements orageux, en violation de l'obligation de déclaration des incidents aux installations classées. L'incident impliquait la perte d'une mesure de maîtrise des risques.",
+  "surprises": "L'incident est lié à des événements orageux — vecteur climatique externe qui entraîne une perte de maîtrise des risques, ce qui est particulièrement notable dans un contexte de risques climatiques croissants.",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "L'exploitant n'a pas informé l'inspection des installations classées d'un incident survenu, en violation de l'obligation de déclaration dans les meilleurs délais.",
+      "excerpts": [
+        "L'inspection des installations classées n'a pas été informée de l'incident du 14/08/2023 suite aux événements orageux."
+      ],
+      "valence": "negative",
+      "code": "Non-déclaration incident à l'inspection"
+    },
+    {
+      "description": "L'incident est causé par des événements orageux, illustrant la vulnérabilité des installations industrielles aux aléas climatiques.",
+      "excerpts": [
+        "L'inspection des installations classées n'a pas été informée de l'incident du 14/08/2023 suite aux événements orageux."
+      ],
+      "valence": "negative",
+      "code": "Incident lié événements climatiques"
+    },
+    {
+      "description": "L'incident est particulièrement grave car il a entraîné la perte d'une mesure de maîtrise des risques, ce qui aggrave l'obligation de déclaration.",
+      "excerpts": [
+        "L'exploitant doit veiller à déclarer les incidents survenant sur son site en particulier quand cet incident implique la perte d'une mesure de maitrise des risques."
+      ],
+      "valence": "negative",
+      "code": "Perte mesure maîtrise des risques"
+    },
+    {
+      "description": "L'exploitant est tenu de transmettre dans les 15 jours un rapport d'incident précisant les causes, substances en cause, effets et mesures prises.",
+      "excerpts": [
+        "Il transmet à l'inspection dans un délai de 15 jours un rapport d'incident avec les éléments prévus à l'article R512-69 du code de l'environnement."
+      ],
+      "valence": "neutral",
+      "code": "Obligation rapport incident circonstancié"
+    },
+    {
+      "description": "Si une enquête approfondie révèle de nouveaux éléments, l'exploitant doit mettre à jour les informations transmises, obligation de suivi continu du rapport.",
+      "excerpts": [
+        "Si une enquête plus approfondie révèle des éléments nouveaux modifiant ou complétant ces informations ou les conclusions qui en ont été tirées, l'exploitant est tenu de mettre à jour les informations fournies"
+      ],
+      "valence": "neutral",
+      "code": "Mise à jour rapport si éléments nouveaux"
+    }
+  ]
+}

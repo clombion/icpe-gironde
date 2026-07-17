@@ -1,0 +1,20 @@
+Constats body:
+L'exploitant a indiqué à l'inspection des installations classées que dans son établissement, seul le
+local de charge était une zone ATEX. Ce local n'est pas situé en contact direct avec la toiture où
+sont situés les panneaux photovoltaïques.
+
+Prescription:
+8/17
+Les panneaux ou films photovoltaïques ne sont pas en contact direct avec les volumes intérieurs
+des bâtiments, auvents ou ombrières où est potentiellement présente, en situation normale, une
+atmosphère explosible (gaz, vapeurs ou poussières). Ces volumes sont identifiés dans l'étude de
+dangers de l'installation classée.
+L'ensemble constitué par l'unité de production photovoltaïque et la toiture, respectivement la
+façade, présente les mêmes performances de résistance à l'explosion que celles imposées à la
+toiture seule, respectivement à la façade seule, lorsque les équipements photovoltaïques sont
+installés sur des bâtiments, auvents ou ombrières qui abritent des zones à risque d'explosion,
+identifiées dans l'étude de dangers. Pour les bâtiments, auvents et ombrières abritant des zones à
+risque d'explosion, identifiées dans l'étude de dangers, l'ensemble constitué d'une part par la
+toiture ou la façade, et d'autre part par l'unité de production photovoltaïque, répond aux
+exigences imposées à la toiture seule, ou à la façade seule, notamment pour les critères à
+respecter pour les surfaces soufflables.

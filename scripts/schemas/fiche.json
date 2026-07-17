@@ -1,0 +1,177 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ijba.fr/projet-icpe/schemas/fiche.json",
+  "title": "Ligne du pivot fiches.parquet",
+  "description": "Schéma strict d'une ligne du parquet produit par construire_fiches.py. Chaque ligne est soit une fiche de constat structurée (issue d'un rapport DREAL) soit un 'prose row' (rapport non-DREAL ou failed, avec fiche_num=null).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "fiche_id",
+    "source_pdf",
+    "source_md",
+    "extraction_method",
+    "id_icpe",
+    "siret",
+    "nom_complet",
+    "date_inspection",
+    "identifiant_fichier",
+    "url_source_georisques",
+    "url_pages",
+    "body",
+    "body_chars"
+  ],
+  "properties": {
+    "fiche_id": {
+      "type": "string",
+      "pattern": "^.+_(f[0-9]{2,}|prose)$",
+      "description": "Identifiant unique. Format: {source_pdf_stem}_f{seq_index 0-padded} pour les fiches DREAL (index séquentiel 1-based dans l'ordre d'apparition), {source_pdf_stem}_prose pour les rapports sans fiches."
+    },
+    "fiche_num": {
+      "type": ["string", "null"],
+      "description": "Numéro de la fiche (ex. '1', '12'). Null pour les prose rows."
+    },
+    "titre": {
+      "type": ["string", "null"],
+      "description": "Titre de la fiche. Null pour les prose rows."
+    },
+    "theme": {
+      "type": ["string", "null"],
+      "description": "Valeur du champ 'Thème(s)' de la fiche. Peut contenir plusieurs thèmes séparés par virgule. Null si absent ou prose row."
+    },
+    "reference_reglementaire": {
+      "type": ["string", "null"],
+      "description": "Valeur du champ 'Référence réglementaire'. Null si absent ou prose row."
+    },
+    "deja_controle": {
+      "type": ["string", "null"],
+      "description": "Valeur du champ 'Point de contrôle déjà contrôlé'. Attendu: 'Oui', 'Non', 'Sans Objet', ou null."
+    },
+    "prescription": {
+      "type": ["string", "null"],
+      "description": "Valeur du champ 'Prescription contrôlée'. Texte multi-ligne. Null si absent ou prose row."
+    },
+    "constats_body": {
+      "type": ["string", "null"],
+      "description": "Valeur du champ 'Constats'. Le corps descriptif principal de la fiche. Null si absent ou prose row."
+    },
+    "type_suite": {
+      "type": ["string", "null"],
+      "description": "Valeur du champ 'Type de suites proposées'. Vocabulaire semi-fermé DREAL. Null si absent ou prose row."
+    },
+    "proposition_suite": {
+      "type": ["string", "null"],
+      "description": "Valeur du champ 'Proposition de suites'. Null si absent ou prose row."
+    },
+    "sub_section": {
+      "type": ["string", "null"],
+      "description": "Heading de la sous-section contenant cette fiche (ex. '2-4) Fiches de constats'). Null pour prose rows."
+    },
+    "body": {
+      "type": "string",
+      "description": "Corps complet. Pour les fiches DREAL: le body brut de la fiche (tous champs labélisés). Pour les prose rows: le texte complet du markdown (sans front matter)."
+    },
+    "body_chars": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Longueur du champ body en caractères."
+    },
+    "regions": {
+      "type": ["array", "null"],
+      "description": "Régions visuelles dans le PDF source. Null pour les prose rows.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["page", "bbox"],
+        "properties": {
+          "page": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Numéro de page 1-based."
+          },
+          "bbox": {
+            "type": "array",
+            "items": {"type": "number"},
+            "minItems": 4,
+            "maxItems": 4,
+            "description": "Bounding box [x0, y0, x1, y1] en points PDF."
+          }
+        }
+      }
+    },
+    "source_pdf": {
+      "type": "string",
+      "pattern": "^[^/]+\\.pdf$",
+      "description": "Basename du PDF source."
+    },
+    "source_md": {
+      "type": "string",
+      "pattern": "^[^/]+\\.md$",
+      "description": "Basename du fichier markdown correspondant."
+    },
+    "extraction_method": {
+      "type": "string",
+      "enum": ["dreal_parser", "pymupdf4llm_generic", "ocr_then_dreal_parser", "ocr_then_pymupdf4llm", "failed"],
+      "description": "Chemin d'extraction du rapport source."
+    },
+    "id_icpe": {
+      "type": "string",
+      "pattern": "^[0-9]+$",
+      "description": "Identifiant ICPE (codeAiot normalisé)."
+    },
+    "siret": {
+      "type": "string",
+      "pattern": "^([0-9]{14})?$",
+      "description": "SIRET de l'exploitant ou chaîne vide."
+    },
+    "nom_complet": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Libellé désambiguïsé de l'installation."
+    },
+    "date_inspection": {
+      "type": "string",
+      "pattern": "^([0-9]{4}-[0-9]{2}-[0-9]{2})?$",
+      "description": "Date de l'inspection ISO ou chaîne vide."
+    },
+    "identifiant_fichier": {
+      "type": "string",
+      "description": "Identifiant opaque du fichier côté Géorisques."
+    },
+    "url_source_georisques": {
+      "type": "string",
+      "description": "URL canonique du PDF côté Géorisques."
+    },
+    "url_pages": {
+      "type": "string",
+      "description": "URL GitHub Pages du PDF."
+    },
+    "url_markdown": {
+      "type": ["string", "null"],
+      "description": "URL GitHub Pages du markdown. Null si absent du CSV."
+    },
+    "nom_commune": {
+      "type": ["string", "null"],
+      "description": "Nom de la commune (jointure depuis enrichi). Null si id_icpe absent de l'enrichi."
+    },
+    "code_insee_commune": {
+      "type": ["string", "null"],
+      "description": "Code INSEE de la commune."
+    },
+    "epci_nom": {
+      "type": ["string", "null"],
+      "description": "Nom de l'EPCI."
+    },
+    "epci_siren": {
+      "type": ["string", "null"],
+      "description": "SIREN de l'EPCI."
+    },
+    "regime_icpe": {
+      "type": ["string", "null"],
+      "description": "Régime ICPE normalisé (AUTORISATION, ENREGISTREMENT, AUTRE, NON_ICPE)."
+    },
+    "categorie_seveso": {
+      "type": ["string", "null"],
+      "description": "Catégorie Seveso normalisée (NON_SEVESO, SEUIL_BAS, SEUIL_HAUT, ou vide)."
+    }
+  }
+}

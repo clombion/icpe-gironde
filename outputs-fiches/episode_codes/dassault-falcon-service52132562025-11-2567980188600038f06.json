@@ -1,0 +1,33 @@
+{
+  "document_date": "2025-11-25",
+  "document_title": "dassault-falcon-service52132562025-11-2567980188600038f06",
+  "document_summary": "L'inspection vérifie la tenue à jour de l'inventaire des produits chimiques chez Dassault Falcon Service et constate une conformité totale : le suivi est informatisé, quotidien, et l'extraction peut être fournie immédiatement sur demande.",
+  "surprises": "La capacité à fournir instantanément une extraction de l'inventaire sur demande des inspecteurs illustre une maturité organisationnelle peu commune dans les fiches de ce corpus.",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "Le suivi des produits chimiques est intégré au logiciel de gestion de production avec un codage par sous-familles aligné sur les rubriques ICPE.",
+      "excerpts": [
+        "Le suivi est réalisé quotidiennement via le logiciel informatique de gestion de production de la société. Les produits sont regroupés en 4 sous-familles via un code à 4 lettres"
+      ],
+      "valence": "positive",
+      "code": "Inventaire chimique informatisé"
+    },
+    {
+      "description": "L'exploitant peut fournir une extraction de son inventaire chimique en temps réel lors de l'inspection, démontrant une accessibilité exemplaire de l'information.",
+      "excerpts": [
+        "Sur demande des inspecteurs, une extraction a rapidement pu être transmise"
+      ],
+      "valence": "positive",
+      "code": "Extraction immédiate sur demande"
+    },
+    {
+      "description": "Les sous-familles de produits sont codées de manière à être directement assimilables aux rubriques ICPE, facilitant le contrôle réglementaire.",
+      "excerpts": [
+        "Ces sous-familles sont assimilables aux rubriques ICPE"
+      ],
+      "valence": "positive",
+      "code": "Codage ICPE intégré à la gestion"
+    }
+  ]
+}

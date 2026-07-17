@@ -1,0 +1,57 @@
+{
+  "document_date": "2022-08-23",
+  "document_title": "u-logistique-sas52008502022-08-2381014656300178f04",
+  "codes": [
+    {
+      "description": "L'exercice POI réalisé n'a pas testé l'ensemble des tâches prévues par les fiches scénarios, avec des items marqués « non testé » — notamment les systèmes sous asservissement — ce qui invalide la conformité de l'exercice.",
+      "excerpts": [
+        "l'inspection en déduit que les exercices POI n'incluent pas l'ensemble des tâches de vérifications, d'interventions requises dans les fiches scénarios du POI. Il ne peut être considérer que le POI est testé annuellement."
+      ],
+      "valence": "negative",
+      "code": "Exercice POI incomplet"
+    },
+    {
+      "description": "Le compte-rendu de l'exercice ne référence pas explicitement les fiches scénarios correspondantes ni les tâches non réalisées, rendant impossible la vérification de l'exhaustivité du test.",
+      "excerpts": [
+        "le compte-rendu n'est pas exhaustif sur les tâches réalisées et à réaliser selon les fiches scénarios du POI dans sa version de 2020. En effet, le compte-rendu ne fait pas référence explicitement aux fiches S100 et S110 liés au scénario de l'exercice."
+      ],
+      "valence": "negative",
+      "code": "Compte-rendu exercice non exhaustif"
+    },
+    {
+      "description": "L'écart sur la fréquence et la qualité des exercices POI avait déjà été signalé lors de l'inspection de 2021, et persiste lors de l'inspection de 2022 malgré un exercice réalisé en décembre 2021.",
+      "excerpts": [
+        "lors de l'inspection du 01/07/2021, l'inspection avait relevé que l'exploitant ne réalise pas d'exercices POI selon une fréquence annuelle."
+      ],
+      "valence": "negative",
+      "code": "Récurrence écart fréquence POI"
+    },
+    {
+      "description": "Pour pallier les lacunes des comptes-rendus d'exercice, l'inspection recommande la création de trames spécifiques à chaque scénario pour garantir que toutes les tâches sont déclinées lors des exercices.",
+      "excerpts": [
+        "il est impératif de créer, par exemple, des trames de CR d'exercices POI adaptés à chaque scénario pour être sûr que toutes les tâches soient déclinées lors des exercices et de facto, en cas d'accident / incident réel."
+      ],
+      "valence": "neutral",
+      "code": "Trame CR exercice proposée"
+    },
+    {
+      "description": "Le dernier exercice avec le SDIS date d'au moins deux ans ; la réglementation exige un test du POI avec les services de secours à des intervalles n'excédant pas 3 ans.",
+      "excerpts": [
+        "Le SDIS a été sollicité par l'exploitant pour l'organisation d'exercice POI au cours du dernier trimestre 2022 (en attente de retour). Selon l'exploitant, le dernier exercice avec le SDIS date d'au moins deux années."
+      ],
+      "valence": "mixed",
+      "code": "Absence SDIS exercice commun"
+    },
+    {
+      "description": "L'exploitant annonce en séance d'inspection avoir modifié son POI pour y intégrer les tâches par attribut d'intervenant — réponse immédiate mais non encore vérifiable.",
+      "excerpts": [
+        "L'exploitant a précisé en séance avoir procédé à une modification de son POI pour y inscrire les tâches à réaliser selon les attributs de chaque intervention"
+      ],
+      "valence": "mixed",
+      "code": "Modification POI en séance"
+    }
+  ],
+  "document_summary": "Inspection U Logistique SAS portant sur la qualité des exercices POI : l'exercice réalisé en décembre 2021 est insuffisant — le compte-rendu ne référence pas les fiches scénarios, plusieurs tâches sont « non testées », et la fréquence annuelle n'est pas respectée. L'inspection recommande des trames de compte-rendu spécifiques et la reprogrammation d'un exercice avec le SDIS.",
+  "surprises": "Des éléments clés d'un exercice POI (démarrage des groupes sprinkleurs, vérification des portes coupe-feu, accès à la cuve pompier) sont marqués « non testés » alors même qu'ils constituent le cœur du scénario d'incendie.",
+  "tensions": "L'exploitant a réalisé un exercice POI en réponse à la demande de l'inspection, mais la qualité de cet exercice est insuffisante — tension entre la conformité formelle (exercice réalisé) et la conformité substantielle (exercice réellement testé)."
+}

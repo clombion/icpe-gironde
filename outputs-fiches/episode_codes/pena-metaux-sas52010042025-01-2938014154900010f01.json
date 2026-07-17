@@ -1,0 +1,57 @@
+{
+  "document_date": "2025-01-29",
+  "document_title": "pena-metaux-sas52010042025-01-2938014154900010f01",
+  "codes": [
+    {
+      "description": "Malgré une nouvelle campagne de mesures réalisée en janvier 2025, la non-conformité sonore au point ZER3 demeure, avec des émergences significativement supérieures aux seuils réglementaires.",
+      "excerpts": [
+        "Cette synthèse fait état de non-conformités aux points ZER 1 et 2 en période diurne ; émergence respectivement de 12 et 7,5 à comparer à une valeur réglementaires de 5 dB."
+      ],
+      "valence": "negative",
+      "code": "Non-conformité bruit persistante ZER3"
+    },
+    {
+      "description": "Le bruit résiduel mesuré au point ZER3 quand le site est à l'arrêt (60,5 dB) est anormalement élevé comparé aux autres points (environ 49 dB), sans explication satisfaisante de l'exploitant.",
+      "excerpts": [
+        "Il n'apparaît pas justifié qu'en étant à l'arrêt et en retirant l'impact des opérations de terrassement les valeurs de bruit résiduel en ZER 3 soient aussi élevées. L'exploitant n'a pas apporté d'autre explication à cette valeur significativement plus élevée que les autres points de même configuration."
+      ],
+      "valence": "negative",
+      "code": "Bruit résiduel ZER3 inexpliqué"
+    },
+    {
+      "description": "L'inspection choisit de ne pas donner suite à des non-conformités sur des points ZER situés au droit d'une habitation vide et d'une propriété appartenant à l'entreprise, au nom d'un pragmatisme contextuel.",
+      "excerpts": [
+        "ces ZER étant respectivement placées au droit d'une habitation actuellement vide et d'une habitation appartenant en réalité à la société. Ces points restent non-conformes, mais en l'état actuel, il peut être considéré que cela ne génère pas de nuisance sur ce voisinage"
+      ],
+      "valence": "mixed",
+      "code": "Conformité différée voisinage vide"
+    },
+    {
+      "description": "L'exploitant a diffusé des communications externes et internes sur l'interdiction de klaxonner et de circuler par certaines voies, et installé des panneaux, témoignant d'une démarche de réduction proactive.",
+      "excerpts": [
+        "une communication externe a été diffusée à l'ensemble des sous-traitants et entreprises de transport extérieurs, rappelant l'interdiction de klaxonner ainsi que celle de circuler par le Chemin de la Poudrière"
+      ],
+      "valence": "positive",
+      "code": "Actions communication préventive exploitant"
+    },
+    {
+      "description": "Paradoxalement, le point ZER5 situé au droit du domicile de la riveraine qui se plaint de nuisances sonores présente des valeurs d'émergence conformes après correction.",
+      "excerpts": [
+        "en ce qui concerne la mesure au point ZER 5 (au droit du domicile de la riveraine de PENA METAUX se plaignant de nuisances sonores émanant du site) [...] les valeurs d'émergence corrigées du bruit résiduel mesuré lors de la dernière campagne 2025 sont conformes."
+      ],
+      "valence": "mixed",
+      "code": "Riveraine plaignante ZER5 conforme"
+    },
+    {
+      "description": "L'inspection envisage un contrôle inopiné sur les émissions de bruit courant 2025, ajoutant un outil de vérification indépendant aux auto-déclarations de l'exploitant.",
+      "excerpts": [
+        "un contrôle inopiné sur les mesures de bruit pourra être diligenté courant 2025."
+      ],
+      "valence": "neutral",
+      "code": "Contrôle inopiné bruit envisagé"
+    }
+  ],
+  "document_summary": "Inspection de suivi des nuisances sonores de Pena Métaux avec campagne de mesures à l'arrêt complet du site. Les non-conformités persistent sur ZER1, 2 et 3, mais l'inspection choisit une approche différenciée : tolérance sur les ZER sans voisinage actif, maintien des exigences sur ZER3 qui présente un bruit résiduel inexpliqué.",
+  "surprises": "La riveraine qui se plaint de nuisances est paradoxalement le point de mesure (ZER5) qui s'avère conforme après correction, illustrant le décalage possible entre ressenti subjectif et mesure instrumentale.",
+  "tensions": "Tension entre le principe de conformité universelle aux seuils réglementaires et la modulation pragmatique adoptée par l'inspection (non-conformités tolérées faute de voisinage réel), qui crée un précédent risqué si la situation du voisinage évolue."
+}

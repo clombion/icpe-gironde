@@ -1,0 +1,25 @@
+{
+  "document_date": "2022-06-07",
+  "document_title": "sarl-moulin-du-caouley52008782022-06-0732368394600012f11",
+  "document_summary": "La fiche contrôle les émissions sonores de la pisciculture Moulin du Caouley. Le constat est de conformité aux dispositions de l'arrêté du 23 janvier 1997 sur la limitation des bruits.",
+  "surprises": "",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "Les émissions sonores de l'installation respectent les dispositions réglementaires applicables aux installations classées.",
+      "excerpts": [
+        "Conforme"
+      ],
+      "valence": "positive",
+      "code": "Conformité émissions sonores"
+    },
+    {
+      "description": "La prescription interdit l'usage de tout appareil de communication acoustique gênant pour le voisinage, sauf pour la prévention ou le signalement d'accidents.",
+      "excerpts": [
+        "l'usage de tout appareil de communication par voie acoustique (sirènes, avertisseurs, haut-parleurs, etc.) gênant pour le voisinage est interdit, sauf si son emploi est exceptionnel et réservé à la prévention ou au signalement d'incidents graves ou d'accidents."
+      ],
+      "valence": "neutral",
+      "code": "Interdiction des appareils acoustiques gênants"
+    }
+  ]
+}

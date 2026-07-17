@@ -1,0 +1,41 @@
+{
+  "document_date": "2023-11-16",
+  "document_title": "energie-des-bassins1000365532023-11-1679068741200029f03",
+  "document_summary": "L'inspection contrôle les rejets atmosphériques d'une installation disposant de chaudières gaz et d'une chaudière biomasse. Les chaudières gaz sont conformes, mais la vérification des rejets de la chaudière biomasse est en retard sur la périodicité biennale imposée (dernière vérification en 2021).",
+  "surprises": "La vérification de 2021 montrait des valeurs conformes, ce qui relativise le risque, mais l'inspection maintient l'exigence de la périodicité réglementaire même en l'absence de signe de non-conformité.",
+  "tensions": "Le retard n'est pas imputable à un dysfonctionnement de l'installation (valeurs conformes en 2021) mais à un manquement administratif de suivi calendaire — tension entre conformité de fond et conformité procédurale.",
+  "codes": [
+    {
+      "description": "Les mesures des émissions des chaudières gaz (septembre 2023) montrent des valeurs conformes aux limites prescrites.",
+      "excerpts": [
+        "Le rapport des dernière mesures des émissions des chaudières gaz (28 septembre 2023) a été inspecté, et montre des valeurs conformes aux limites prescrites."
+      ],
+      "valence": "positive",
+      "code": "Conformité chaudières gaz confirmée"
+    },
+    {
+      "description": "La vérification biennale des rejets atmosphériques de la chaudière biomasse est en retard : la dernière date de mars 2021, soit plus de deux ans avant l'inspection.",
+      "excerpts": [
+        "La dernière vérification des rejets atmosphériques de la chaudière biomasse date du 3 mars 2021, et est en retard par rapport à la fréquence de 2 ans prescrite."
+      ],
+      "valence": "negative",
+      "code": "Retard contrôle chaudière biomasse"
+    },
+    {
+      "description": "La prescription impose des mesures des teneurs en polluants (O2, SO2, poussières, NOx, CO) et pour les combustibles solides, dioxines et furanes, à fréquence régulière.",
+      "excerpts": [
+        "une mesure du débit rejeté et des teneurs en O2, SO2, poussières, NOx et CO dans les gaz rejetés à l'atmosphère. Pour les chaudières utilisant un combustible solide, l'exploitant fait également effectuer une mesure des teneurs en dioxines et furanes."
+      ],
+      "valence": "neutral",
+      "code": "Obligation mesures polluants combustion"
+    },
+    {
+      "description": "L'inspection impose à l'exploitant de transmettre le rapport de contrôle de la chaudière biomasse dans un délai de trois mois.",
+      "excerpts": [
+        "L'exploitant transmet sous trois mois le rapport de contrôle des rejets atmosphériques de la chaudière biomasse."
+      ],
+      "valence": "neutral",
+      "code": "Délai correctif trois mois"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+Constats body:
+Document consulté : COMPTE RENDU DE VERIFICATION PERIODIQUE des installations
+électriques Q18, réalisé par SOCOTEC, daté du 26/09/2022.
+Le rapport mentionne une absence ou inadaptation des dispositifs de protection contre les
+surintensités  pouvant entraîner des risques d’incendie et/ou d’explosion.
+Le jour de l’inspection, l’exploitant a présenté son plan d’action global suites aux constats du Q18.
+Le jour de l’inspection, 67 % des actions avaient été soldées sur 23 observations.
+Le Contrôle Q18  précise que N les éléments suivants n'ont pu être vérifiés pour des raisons
+d'exploitation :
+- Coupure et essai des dispositifs différentiels (Pour cause d'exploitation), Les éléments suivants
+n'ont pu être vérifiés pour des raisons d'inaccessibilité - Contrôle de continuité non effectué (Zone
+ATEX).
+L’exploitant a indiqué oralement que le contrôle de continuité se fait au moment de l’arrêt annuel.
+Sous un mois, l’exploitant transmet l’avis d’un organisme compétent sur les mesures prises pour
+prévenir les risques liés aux effets de l’électricité statique et des courants vagabonds, et la
+justification de la conformité des tests de coupure et essai des dispositifs différentiels et les
+contrôles de continuité.
+Plusieurs équipements (Aspirateur, ...) n'ont pas été testés car en exploitation. L’exploitant ne
+dispose pas d’un suivi des équipements pour justifier qu’ils sont bien tous vérifiés.
+L’exploitant fait également réaliser des contrôles thermographiques (Q19) tous les six mois.
+Document consulté : Rapport thermographique SAIPOL méca – décembre 2022, Rapport
+thermographique SAIPOL Installations électriques Novembre 2022
+Plusieurs équipements (transporteurs à bandes, transporteur à chaîne, ventilateurs,…) n’ont pas fait
+l’objet de contrôle lors des 3 dernières interventions car l’équipement était à l’arrêt.
+L’exploitant a indiqué que parmi les équipements indiqués comme à l’arrêt, certains sont à l’arrêt
+définitivement alors que d’autres étaient à l’arrêt les jours des contrôles thermographiques mais
+fonctionnent régulièrement.
+Au plus tard le 1er juillet 2023, l’exploitant met en place une liste des équipements en phase
+d'arrêt au sein des installations, ainsi que leur statut (arrêt temporaire, arrêt définitif, mis en
+sécurité) conformément de l‘article 64 de l'arrêté ministériel du 4 octobre 2010 relatif à la
+prévention des risques accidentels au sein des installations classées pour la protection de
+l'environnement soumises à autorisation.
+Suite à l’inspection par courriel du 10 mars 2023, l’exploitant s’est engagé à lister les équipements
+de manière individuelle et non globale afin de garantir un contrôle exhaustif du Q19. L’exploitant a
+14
+
+précisé que l'exhaustivité des contrôles sera vérifiée lors du prochain Q19 semestriel planifié au
+mois de mai et juin.
+Un mois après la réalisation du contrôle et au plus tard le 31 juillet 2023 l’exploitant justifie la
+bonne réalisation des contrôles thermographiques et électriques, il justifie l’exhaustivité des
+contrôles et transmet le plan d’action pour corriger les écarts.
+Observations :
+Synthèses des demandes :
+Sous un mois, l’exploitant transmet l’avis d’un organisme compétent sur les mesures prises pour
+prévenir les risques liés aux effets de l’électricité statique et des courants vagabonds, et la
+justification de la conformité des tests de coupure et essai des dispositifs différentiels et les
+contrôles de continuité.
+Au plus tard le 1er juillet 2023, l’exploitant met en place une liste des équipements en phase
+d'arrêt au sein des installations, ainsi que leur statut (arrêt temporaire, arrêt définitif, mis en
+sécurité) conformément de l‘article 64 de l'arrêté ministériel du 4 octobre 2010 relatif à la
+prévention des risques accidentels au sein des installations classées pour la protection de
+l'environnement soumises à autorisation.
+Un mois après la réalisation du contrôle et au plus tard le 31 juillet 2023 l’exploitant justifie la
+bonne réalisation des contrôles thermographiques et électriques, il justifie l’exhaustivité des
+contrôles et transmet le plan d’action pour corriger les écarts.
+L’absence de transmission des éléments supra expose l’exploitant à des suites administratives de
+type mise en demeure.
+
+Prescription:
+[…] Dans les locaux de l'établissement susceptibles d'être à l'origine d'incendies, notamment
+lorsqu'ils ont été identifiés dans l'étude de dangers, les installations électriques, y compris les
+canalisations, doivent être conformes aux prescriptions de l'article 422 de la norme NF C 15-100
+relative aux locaux à risque d'incendie.[...]L’exploitant doit tenir à la disposition de l’Inspection des
+Installations Classées un rapport annuel. Ce rapport est constitué des pièces suivantes :
+- l’avis d’un organisme compétent sur les mesures prises pour prévenir les risques liés aux effets de
+l’électricité statique et des courants vagabonds ;
+- l’avis d’un organisme compétent sur la conformité des installations électriques et du matériel
+utilisé aux dispositions du présent arrêté ;
+Un suivi formalisé de la prise en compte des conclusions du rapport doit être tenu à la disposition
+de l’Inspection des installations classées.[…]

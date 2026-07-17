@@ -1,0 +1,49 @@
+{
+  "document_date": "2023-05-09",
+  "document_title": "intermarche-bordeaux-caphy52004852023-05-0933313234800017f02",
+  "document_summary": "L'inspection d'une station-service Intermarché à Bordeaux constate que les rapports de contrôles périodiques pour les rubriques 1435 (stockage hydrocarbures) et 4734 ne sont pas disponibles — seule la rubrique 1185 est en ordre. L'exploitant invoque des travaux de rénovation en retard.",
+  "surprises": "L'exploitant justifie le retard des contrôles par des travaux de rénovation à venir : stratégie de report qui consiste à attendre les travaux pour faire les contrôles après, alors que la réglementation est indépendante des travaux.",
+  "tensions": "L'exploitant lie explicitement la réalisation des contrôles à la fin des travaux de rénovation, alors que la réglementation n'autorise pas ce report — tension entre logique opérationnelle et rigueur réglementaire.",
+  "codes": [
+    {
+      "description": "L'exploitant ne peut pas présenter les rapports de contrôles périodiques datant de moins de cinq ans pour les rubriques 1435 et 4734, contrairement à la rubrique 1185.",
+      "excerpts": [
+        "l'exploitant n'a pas été en mesure de présenter à l'inspection des installations classées les rapports de contrôles périodiques datant de moins de 5 ans pour les rubriques 1435 et 4734."
+      ],
+      "valence": "negative",
+      "code": "Absence contrôles périodiques rubriques"
+    },
+    {
+      "description": "L'exploitant justifie le retard des contrôles par des travaux de rénovation de la station-service prévus mais en retard, avec intention de réaliser les contrôles après travaux.",
+      "excerpts": [
+        "l'exploitant a justifié ce retard, car des travaux de rénovation de la station service sont prévus, mais ont pris du retard. Il est prévu que les contrôles périodiques soient réalisés après ces travaux."
+      ],
+      "valence": "negative",
+      "code": "Report contrôles lié à travaux rénovation"
+    },
+    {
+      "description": "Le contrôle périodique relatif à la rubrique 1185 a été réalisé et le rapport transmis à l'inspection, montrant une conformité partielle.",
+      "excerpts": [
+        "Par mail du 15 mai 2023, l'exploitant a fourni le rapport de contrôle périodique relatif à la rubrique 1185."
+      ],
+      "valence": "positive",
+      "code": "Conformité contrôle rubrique 1185"
+    },
+    {
+      "description": "Les non-conformités aux prescriptions soumises à contrôle périodique peuvent entraîner une information du préfet si elles sont qualifiées de majeures.",
+      "excerpts": [
+        "Les prescriptions dont le non-respect constitue une non-conformité majeure entraînant l'information du préfet dans les conditions prévues à l'article R. 512-59-1"
+      ],
+      "valence": "neutral",
+      "code": "Non-conformité majeure contrôle périodique"
+    },
+    {
+      "description": "L'inspection accorde cinq mois à l'exploitant pour réaliser les contrôles périodiques manquants pour les rubriques 1435 et 4734.",
+      "excerpts": [
+        "L'exploitant procède aux contrôles périodiques pour les installations relevant des rubriques 1435 et 4734 dans un délai de 5 mois."
+      ],
+      "valence": "neutral",
+      "code": "Délai correctif cinq mois"
+    }
+  ]
+}

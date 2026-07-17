@@ -1,0 +1,33 @@
+{
+  "document_date": "2025-03-11",
+  "document_title": "monsieur-chassaing-herve31041472025-03-1132296382800031f02",
+  "codes": [
+    {
+      "description": "Les chiens présents sur le site n'aboient pas pendant l'inspection en présence de l'exploitant, ce qui constitue un constat positif direct lors de la visite.",
+      "excerpts": [
+        "Lors de l'arrivée sur les lieux, Les 4 chiens présents sur les lieux n' aboient pas avant et durant l'inspection avec Monsieur CHASSAING Hervé."
+      ],
+      "valence": "positive",
+      "code": "Animaux calmes inspection favorable"
+    },
+    {
+      "description": "La prescription rappelle que les aboiements constituent des nuisances réglementées, et que des mesures architecturales et comportementales doivent éviter toute sollicitation des animaux.",
+      "excerpts": [
+        "Toutes les précautions sont prises pour éviter aux animaux de voir directement la voie publique ou toute sollicitation régulière susceptible de provoquer des aboiements"
+      ],
+      "valence": "neutral",
+      "code": "Nuisances sonores animales réglementées"
+    },
+    {
+      "description": "L'arrêté impose que les animaux soient rentrés chaque nuit dans des bâtiments ou enclos, limitant les nuisances sonores pour le voisinage en période nocturne.",
+      "excerpts": [
+        "Les animaux sont rentrés chaque nuit dans les bâtiments, ou enclos réservés."
+      ],
+      "valence": "neutral",
+      "code": "Rentrée nocturne animaux obligatoire"
+    }
+  ],
+  "document_summary": "Inspection très courte d'un élevage canin vérifiant les nuisances sonores potentielles liées aux aboiements. Lors de la visite avec l'exploitant, les 4 chiens présents n'aboient pas, ce qui constitue le seul constat factuel de la fiche.",
+  "surprises": "La brièveté extrême de cette fiche (quelques lignes) et son objet — vérifier que des chiens n'aboient pas — contraste avec la technicité des autres inspections ICPE du corpus, révélant la grande diversité des installations classées.",
+  "tensions": "La conformité est évaluée dans un contexte favorable (présence de l'exploitant) qui peut ne pas refléter le comportement habituel des animaux en l'absence de leur maître — une limite méthodologique inhérente à ce type d'inspection."
+}

@@ -1,0 +1,49 @@
+{
+  "document_date": "2025-11-07",
+  "document_title": "heidelberg-materials-france-granulats-illats31036272025-11-0757216565201419f03",
+  "document_summary": "L'inspection évalue si l'arrêté ministériel sécheresse s'applique à l'installation de traitement de granulats d'Heidelberg Materials à Illats, qui prélève en Garonne. L'installation démontre une réduction de 30% des prélèvements d'eau depuis 2018 et un taux de recyclage de 92-94%, lui permettant de bénéficier de l'exemption.",
+  "surprises": "Des aménagements confidentiels ont été réalisés depuis 2018 pour améliorer l'efficience du recyclage — le caractère confidentiel des mesures est exceptionnel dans un contexte de contrôle administratif.",
+  "tensions": "L'arrêté sécheresse s'applique en principe au site (prélèvement >10 000 m³, soumis à autorisation) mais l'exploitant démontre répondre aux critères d'exclusion — tension entre application formelle et exemption méritée.",
+  "codes": [
+    {
+      "description": "L'installation démontre une réduction de plus de 20% de ses prélèvements d'eau depuis 2018 et l'utilisation d'eau recyclée à plus de 20%, lui permettant de ne pas être soumise aux obligations de restriction en période de sécheresse.",
+      "excerpts": [
+        "L'installation de traitement entre dans le champ d'exclusion et n'est donc pas concernée par les obligations de sécheresse."
+      ],
+      "valence": "positive",
+      "code": "Exemption arrêté sécheresse démontrée"
+    },
+    {
+      "description": "Les prélèvements d'eau en Garonne ont diminué de 30% entre 2018 et 2023 grâce aux aménagements réalisés, soit -38% à la tonne traitée.",
+      "excerpts": [
+        "le prélèvement d'eau en Garonne a diminué de 30% entre 2018 et 2023, qui s'exprime aussi comme une baisse de 38% à la tonne traitée."
+      ],
+      "valence": "positive",
+      "code": "Réduction prélèvements eau Garonne"
+    },
+    {
+      "description": "L'installation affiche un taux de recyclage d'eau de 92 à 94%, bien au-delà du seuil de 20% requis pour l'exemption.",
+      "excerpts": [
+        "Les volumes déclarés par l'exploitant, sur la base des compteurs, permettent de calculer un taux de recyclage entre 92 et 94%."
+      ],
+      "valence": "positive",
+      "code": "Taux recyclage eau élevé"
+    },
+    {
+      "description": "Des compteurs ont été installés en plusieurs points du réseau pour justifier précisément les volumes consommés et permettre le calcul du taux de recyclage.",
+      "excerpts": [
+        "Des compteurs ont été notamment installés en différents points du réseau permettant de justifier les volumes consommés."
+      ],
+      "valence": "positive",
+      "code": "Compteurs de suivi installés"
+    },
+    {
+      "description": "Des aménagements dont la nature est déclarée confidentielle ont été réalisés depuis 2018 pour améliorer l'efficience du recyclage et les opérations de lavage.",
+      "excerpts": [
+        "depuis 2018, des aménagements (confidentiels) ont été apportés sur l'installation permettant d'améliorer l'efficience du recyclage d'eau et les opérations de lavage."
+      ],
+      "valence": "neutral",
+      "code": "Aménagements confidentiels efficience eau"
+    }
+  ]
+}

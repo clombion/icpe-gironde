@@ -1,0 +1,15 @@
+Constats body:
+L’autosurveillance des rejets d’eaux pluviales (plan d’eau ou rejet) est réalisée.
+Le suivi des matières en suspension (MES) dans les plans d’eau n’est pas assuré depuis plusieurs
+années.
+Il est demandé à l’exploitant d’y remédier dès la prochaine campagne.
+
+Prescription:
+Une analyse du plan d’eau est effectuée annuellement afin de vérifier les paramètres suivants :
+- pH,
+- température,
+- Matières en suspension (MES),
+- Demande chimique en oxygène sur effluent décanté (DCO),
+- Hydrocarbures totaux.
+Eaux pluviales susceptibles d’être polluées en sortie de l’aire de lavage et de l’atelier : Un contrôle
+de paramètres définies ci-dessus est effectué annuellement.

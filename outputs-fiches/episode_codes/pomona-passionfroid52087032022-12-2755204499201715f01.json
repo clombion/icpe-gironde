@@ -1,0 +1,41 @@
+{
+  "document_date": "2022-12-27",
+  "document_title": "pomona-passionfroid52087032022-12-2755204499201715f01",
+  "codes": [
+    {
+      "description": "Suite à une modification réglementaire de la nomenclature ICPE, l'établissement est passé du régime d'autorisation (rubrique 1510) au régime de déclaration (rubrique 1511), sans changement physique de l'installation.",
+      "excerpts": [
+        "Suite à la modification de la nomenclature des ICPE, l'établissement est passé du régime de l'Autorisation au titre de la rubrique 1510 à celui de la déclaration au titre de la rubrique 1511."
+      ],
+      "valence": "neutral",
+      "code": "Changement nomenclature régime déclaration"
+    },
+    {
+      "description": "Bien que l'établissement soit passé en régime de déclaration, l'arrêté préfectoral du 18/02/2010 reste applicable, maintenant des obligations plus strictes que le régime déclaratif standard.",
+      "excerpts": [
+        "le préfet a pris acte de ce classement et a rappelé à l'exploitant que l'arrêté préfectoral du 18/02/2010 demeurait cependant applicable à l'établissement."
+      ],
+      "valence": "neutral",
+      "code": "Arrêté préfectoral maintenu malgré déclassement"
+    },
+    {
+      "description": "L'inspection vérifie et confirme que la seule cellule non frigorifique contient moins de 500 tonnes de matières combustibles, maintenant le classement sous la rubrique 1511 exclusivement frigorifique.",
+      "excerpts": [
+        "l'entrepôt ne contient que des cellules frigorifiques, à l'exception d'une seule cellule à température ambiante, dite cellule « sèche » [...] dont l'exploitant a pu démontrer qu'elle contenait moins de 500 tonnes de matières combustibles."
+      ],
+      "valence": "positive",
+      "code": "Cellule sèche sous seuil combustibles"
+    },
+    {
+      "description": "L'inspection confirme que la situation administrative de l'établissement est inchangée après la réforme de la nomenclature, validant la décision de l'exploitant de ne pas modifier sa déclaration.",
+      "excerpts": [
+        "L'inspection a permis de constater que [...] la situation administrative de l'établissement est inchangée suite à la modification de la rubrique 1510"
+      ],
+      "valence": "positive",
+      "code": "Situation administrative confirmée stable"
+    }
+  ],
+  "document_summary": "Inspection de suivi d'un entrepôt frigorifique Pomona Passionfroid concernant l'impact d'une réforme de la nomenclature ICPE. L'établissement est passé en régime de déclaration mais son arrêté préfectoral reste applicable. L'inspection confirme que le classement en entrepôt exclusivement frigorifique est maintenu.",
+  "surprises": "Le maintien de l'arrêté préfectoral initial après passage au régime déclaratif illustre le principe de droits acquis en matière de réglementation ICPE : un déclassement administratif ne libère pas l'exploitant de ses anciennes obligations.",
+  "tensions": ""
+}

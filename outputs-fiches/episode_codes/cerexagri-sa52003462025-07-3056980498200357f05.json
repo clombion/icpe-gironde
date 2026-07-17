@@ -1,0 +1,50 @@
+{
+  "document_date": "2025-07-30",
+  "document_title": "cerexagri-sa52003462025-07-3056980498200357f05",
+  "document_summary": "L'inspection de suivi après incendie dans les unités UFAB d'un site agrochimique constate que l'exploitant n'a pas pu présenter le rapport d'incident ni confirmer la conformité de l'UFAB 3 aux arrêtés d'autorisation, malgré la réalisation de vérifications électriques concluantes.",
+  "surprises": "L'exploitant dispose de rapports de vérification électrique récents et favorables mais ne peut pas produire le rapport d'incident requis depuis le sinistre — un document clé reste manquant bien après l'accident.",
+  "tensions": "Les vérifications électriques concluent à l'absence de risque d'incendie et d'explosion, mais l'autorisation de reprendre l'activité reste bloquée faute de rapport d'incident et de confirmation globale de conformité — tension entre la réalité technique et les exigences procédurales.",
+  "codes": [
+    {
+      "description": "L'exploitant est incapable de produire le rapport d'incident relatif à l'incendie passé, document pourtant requis comme condition préalable à la reprise d'activité.",
+      "excerpts": [
+        "L'exploitant n'a pas été en mesure de présenter en séance le rapport d'incident ni de confirmer que l'UFAB 3 respectait l'ensemble des prescriptions des arrêtés d'autorisation le concernant"
+      ],
+      "valence": "negative",
+      "code": "Rapport d'incident non présenté"
+    },
+    {
+      "description": "Les rapports de vérification électrique sur les bâtiments 22 et 26 concluent que les installations ne peuvent pas entraîner de risques d'incendie et d'explosion.",
+      "excerpts": [
+        "Le rapport de vérification électrique Q18 en date du 12/02/2025 conclut que les installations électriques des bâtiments 22 et 26 ne peuvent pas entraîner de risques d'incendie et d'explosion"
+      ],
+      "valence": "positive",
+      "code": "Vérification électrique post-incendie conforme"
+    },
+    {
+      "description": "La remise en service est subordonnée à la production de multiples documents (rapport d'accident, dossier de remise en état, actions correctives), créant un ensemble de conditions cumulatives.",
+      "excerpts": [
+        "La remise en service des activités dans les autres zones du bâtiment 22 (UFAB 2 et 3) est subordonnée à : la remise du rapport d'accident prévu à l'article 4 du présent arrêté"
+      ],
+      "valence": "neutral",
+      "code": "Reprise activité conditionnée multi-documents"
+    },
+    {
+      "description": "L'inspection s'inscrit dans un processus de suivi multi-inspections après sinistre, avec des constats et demandes qui s'accumulent et se complètent d'une visite à l'autre.",
+      "excerpts": [
+        "Constats précédents",
+        "Constat du jour"
+      ],
+      "valence": "neutral",
+      "code": "Suivi d'inspection itératif post-sinistre"
+    },
+    {
+      "description": "L'exploitant a fait réaliser un diagnostic de l'état de conservation du bâtiment touché par l'incendie, concluant que l'accès du personnel n'est pas compromis.",
+      "excerpts": [
+        "L'exploitant a fourni un diagnostic de l'état de conservation de l'ensemble du bâtiment 22 (qui regroupe UFAB1, 2 et 3) suite à l'incendie avec des actions à mettre en œuvre. Le rapport conclut que \"l'accès du personnel au bâtiment ne semble pas compromis\""
+      ],
+      "valence": "positive",
+      "code": "Diagnostic intégrité structurelle réalisé"
+    }
+  ]
+}

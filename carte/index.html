@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ICPE en Gironde — cahier d'enquête</title>
+<meta name="description" content="Carte d'exploration des Installations Classées pour la Protection de l'Environnement en Gironde, avec superposition des réserves naturelles nationales.">
+
+<!-- Preconnect to cut handshake RTT on first load -->
+<link rel="preconnect" href="https://basemaps.cartocdn.com" crossorigin>
+<link rel="preconnect" href="https://a.basemaps.cartocdn.com" crossorigin>
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
+
+<!-- Leaflet core + marker clustering -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+      integrity="sha256-YU3qCpj/P06tdPBJGPax0bm6Q1wltfwjsho5TR4+TYc=" crossorigin="">
+
+<!-- Our styles — ?v bumped on each deploy to bust Pages CDN cache -->
+<link rel="stylesheet" href="style.css?v=12">
+</head>
+<body>
+
+<header class="masthead" aria-label="En-tête du cahier d'enquête">
+  <div class="masthead__topline">
+    <div>
+      <div class="masthead__label">Cahier d'enquête</div>
+      <h1 class="masthead__title">ICPE en Gironde</h1>
+    </div>
+    <a class="masthead__home" href="../">← accueil</a>
+  </div>
+  <p class="masthead__meta">
+    <span id="site-count" class="meta-count">…</span>
+    <span class="meta-sep">·</span>
+    <span>source : <a href="https://www.georisques.gouv.fr/" target="_blank" rel="noopener">Géorisques <span class="sr-only">(ouvre dans un nouvel onglet)</span></a></span>
+    <span class="meta-sep">·</span>
+    <span>mis à jour <time id="site-mdate">…</time></span>
+  </p>
+</header>
+
+<main class="workspace">
+  <div id="map" role="application" aria-label="Carte interactive des ICPE en Gironde"></div>
+
+  <button type="button" id="recenter-btn" class="recenter-btn" aria-label="Recentrer sur la Gironde" title="Recentrer sur la Gironde">⌖</button>
+
+  <!-- Playback HUD: big month label that appears only during auto-play -->
+  <div id="playback-hud" class="playback-hud" aria-hidden="true">
+    <span id="playback-hud-text">—</span>
+  </div>
+
+  <button type="button" id="legend-toggle" class="legend-toggle" aria-controls="legend" aria-expanded="true" title="Afficher la légende">
+    Lég.
+  </button>
+  <div id="legend" class="legend" role="region" aria-label="Légende">
+    <div class="legend__head">
+      <div class="legend__title">Légende — <span id="legend-dim">Régime</span></div>
+      <button type="button" id="legend-close" class="legend__close" aria-controls="legend" aria-label="Masquer la légende">×</button>
+    </div>
+    <ul id="legend-items" class="legend__items"></ul>
+    <div class="legend__seveso" id="legend-seveso">
+      <span class="legend__seveso-mark" aria-hidden="true"></span>
+      Seveso (contour)
+    </div>
+  </div>
+
+  <aside class="filters" aria-label="Filtres">
+
+    <div class="filters__section">
+      <label class="filters__section-label" for="search-input">Recherche</label>
+      <div class="search-combobox">
+        <div id="search-pills" class="search-pills" role="list" aria-label="Filtres sélectionnés"></div>
+        <input
+          id="search-input"
+          type="search"
+          placeholder="commune, EPCI, entreprise, site…"
+          autocomplete="off"
+          role="combobox"
+          aria-autocomplete="list"
+          aria-haspopup="listbox"
+          aria-expanded="false"
+          aria-controls="suggestions">
+        <div id="suggestions" class="suggestions is-hidden" role="listbox" aria-label="Suggestions"></div>
+      </div>
+      <p class="filters__hint">Choisissez une suggestion dans la liste, ou tapez librement pour filtrer par SIRET / nom partiel.</p>
+    </div>
+
+    <div class="filters__section">
+      <div class="filters__section-label" id="label-color-dim">Colorer par</div>
+      <div class="segmented" role="radiogroup" aria-labelledby="label-color-dim">
+        <button type="button" role="radio" class="segmented__option is-active" data-color-dim="regime">Régime</button>
+        <button type="button" role="radio" class="segmented__option" data-color-dim="seveso">Seveso</button>
+        <button type="button" role="radio" class="segmented__option" data-color-dim="priority">Priorité</button>
+        <button type="button" role="radio" class="segmented__option" data-color-dim="ied">IED</button>
+        <button type="button" role="radio" class="segmented__option" data-color-dim="secteur">Secteur</button>
+      </div>
+      <div class="filters__footer">
+        <div class="counter" aria-live="polite" aria-atomic="true"><span id="counter-shown">0</span> <span class="counter__of">sur</span> <span id="counter-total">0</span> <span class="counter__label">sites</span></div>
+        <button type="button" id="reset-button" class="reset">Réinitialiser</button>
+      </div>
+    </div>
+
+    <details class="filters__details" open>
+      <summary>Régime</summary>
+      <label class="check"><input type="checkbox" data-filter="regime" value="AUTORISATION" checked><span class="swatch" style="background:var(--rust)"></span>Autorisation</label>
+      <label class="check"><input type="checkbox" data-filter="regime" value="ENREGISTREMENT" checked><span class="swatch" style="background:var(--ochre)"></span>Enregistrement</label>
+      <label class="check"><input type="checkbox" data-filter="regime" value="NON_ICPE" checked><span class="swatch" style="background:var(--lead)"></span>Non-ICPE</label>
+      <label class="check"><input type="checkbox" data-filter="regime" value="AUTRE" checked><span class="swatch" style="background:var(--fog)"></span>Autre</label>
+    </details>
+
+    <details class="filters__details">
+      <summary>Seveso</summary>
+      <label class="check"><input type="checkbox" data-filter="seveso" value="SEUIL_HAUT" checked><span class="swatch" style="background:var(--rust-deep)"></span>Seuil haut</label>
+      <label class="check"><input type="checkbox" data-filter="seveso" value="SEUIL_BAS" checked><span class="swatch" style="background:var(--rust-mid)"></span>Seuil bas</label>
+      <label class="check"><input type="checkbox" data-filter="seveso" value="NON_SEVESO" checked><span class="swatch" style="background:var(--lead)"></span>Non Seveso</label>
+      <label class="check"><input type="checkbox" data-filter="seveso" value="" checked><span class="swatch" style="background:var(--fog)"></span>Non classé</label>
+    </details>
+
+    <details class="filters__details">
+      <summary>Priorité nationale</summary>
+      <div class="segmented segmented--small" role="radiogroup" aria-label="Priorité nationale">
+        <button type="button" role="radio" class="segmented__option is-active" data-filter="priority" data-value="all">Tous</button>
+        <button type="button" role="radio" class="segmented__option" data-filter="priority" data-value="yes">Oui</button>
+        <button type="button" role="radio" class="segmented__option" data-filter="priority" data-value="no">Non</button>
+      </div>
+    </details>
+
+    <details class="filters__details">
+      <summary>IED</summary>
+      <div class="segmented segmented--small" role="radiogroup" aria-label="Directive IED">
+        <button type="button" role="radio" class="segmented__option is-active" data-filter="ied" data-value="all">Tous</button>
+        <button type="button" role="radio" class="segmented__option" data-filter="ied" data-value="yes">Oui</button>
+        <button type="button" role="radio" class="segmented__option" data-filter="ied" data-value="no">Non</button>
+      </div>
+    </details>
+
+    <details class="filters__details">
+      <summary>Secteur</summary>
+      <label class="check"><input type="checkbox" data-filter="secteur" value="industrie"><span class="swatch" style="background:var(--ink)"></span>Industrie</label>
+      <label class="check"><input type="checkbox" data-filter="secteur" value="carriere"><span class="swatch" style="background:var(--ochre)"></span>Carrière</label>
+    </details>
+
+    <details class="filters__details">
+      <summary>EPCI</summary>
+      <div id="epci-list" class="epci-list"></div>
+    </details>
+
+    <div class="filters__actions">
+      <button type="button" id="embed-open" class="embed-button" aria-haspopup="dialog">
+        <span aria-hidden="true">⌘</span> Partager / Intégrer
+      </button>
+    </div>
+
+    <button type="button" id="mobile-filters-close" class="mobile-filters-close" aria-label="Fermer les filtres">×</button>
+  </aside>
+</main>
+
+<!-- Mobile filter FAB — visible only on narrow viewports -->
+<button type="button" id="mobile-filters-fab" class="mobile-filters-fab" aria-label="Afficher les filtres" aria-expanded="false">
+  <span aria-hidden="true">⚙</span>
+  <span class="mobile-filters-fab__label">Filtres</span>
+</button>
+
+<!-- Embed / share dialog -->
+<dialog id="embed-dialog" class="embed-dialog" aria-label="Intégrer la carte">
+  <form method="dialog" class="embed-dialog__form">
+    <header class="embed-dialog__head">
+      <h2>Partager / Intégrer la carte</h2>
+      <button type="button" id="embed-close" class="embed-dialog__close" aria-label="Fermer">×</button>
+    </header>
+
+    <div class="embed-dialog__body">
+      <p class="embed-dialog__intro">
+        Copiez le lien direct pour partager la vue actuelle, ou le code
+        <code>&lt;iframe&gt;</code> pour intégrer la carte dans un article.
+      </p>
+
+      <div class="embed-dialog__opts">
+        <label class="check">
+          <input type="checkbox" id="embed-include-filters" checked>
+          <span>Conserver les filtres actuels</span>
+        </label>
+        <label class="check">
+          <input type="checkbox" id="embed-compact" checked>
+          <span>Mode embed (masquer l'en-tête)</span>
+        </label>
+        <label class="embed-height">
+          Hauteur de l'iframe&nbsp;:
+          <input type="number" id="embed-height" min="400" max="2000" step="20" value="780">
+          <span>px</span>
+        </label>
+      </div>
+
+      <fieldset class="embed-dialog__hide-features">
+        <legend>Masquer des éléments dans l'embed</legend>
+        <div class="embed-dialog__hide-grid">
+          <label class="check"><input type="checkbox" data-hide="sidebar"><span>Barre latérale (filtres)</span></label>
+          <label class="check"><input type="checkbox" data-hide="timebar"><span>Barre temporelle</span></label>
+          <label class="check"><input type="checkbox" data-hide="legend"><span>Légende</span></label>
+          <label class="check"><input type="checkbox" data-hide="layers"><span>Sélecteur de couches</span></label>
+          <label class="check"><input type="checkbox" data-hide="zoom"><span>Boutons +/- de zoom</span></label>
+          <label class="check"><input type="checkbox" data-hide="reserves"><span>Réserves naturelles (RNN/RNR)</span></label>
+        </div>
+      </fieldset>
+
+      <div class="embed-dialog__opts">
+        <label class="check">
+          <input type="checkbox" id="embed-lock-bounds">
+          <span>Verrouiller la vue actuelle (l'utilisateur ne pourra pas déplacer la carte en dehors)</span>
+        </label>
+      </div>
+
+      <div class="embed-dialog__field">
+        <label for="embed-url">Lien direct</label>
+        <div class="embed-dialog__row">
+          <input id="embed-url" type="text" readonly>
+          <button type="button" id="embed-copy-url" class="embed-copy">Copier</button>
+        </div>
+      </div>
+
+      <div class="embed-dialog__field">
+        <label for="embed-iframe-code">Code d'intégration (<code>&lt;iframe&gt;</code>)</label>
+        <div class="embed-dialog__row">
+          <textarea id="embed-iframe-code" rows="6" readonly></textarea>
+          <button type="button" id="embed-copy-iframe" class="embed-copy">Copier</button>
+        </div>
+        <p class="embed-dialog__hint">
+          Collez ce bloc dans un « HTML personnalisé » WordPress.
+          Fonctionne dans tout thème qui accepte les iframes.
+        </p>
+      </div>
+
+      <details class="embed-dialog__advanced">
+        <summary>Redimensionnement automatique (optionnel)</summary>
+        <p class="embed-dialog__hint">
+          Ajoutez ce script une fois sur la page WordPress pour que l'iframe
+          s'adapte automatiquement à son contenu.
+        </p>
+        <div class="embed-dialog__row">
+          <textarea id="embed-script-code" rows="5" readonly></textarea>
+          <button type="button" id="embed-copy-script" class="embed-copy">Copier</button>
+        </div>
+      </details>
+    </div>
+  </form>
+</dialog>
+
+<div class="timebar" id="timebar" role="region" aria-label="Filtre temporel">
+  <label class="timebar__toggle">
+    <input type="checkbox" id="month-enabled">
+    <span class="timebar__toggle-label">Filtre mensuel</span>
+  </label>
+  <div class="timebar__transport" role="group" aria-label="Lecture du filtre temporel">
+    <button type="button" id="time-play" class="timebar__play" aria-label="Lecture" title="Lecture / pause" disabled>
+      <span class="time-play-icon" aria-hidden="true">▶</span>
+    </button>
+    <label class="timebar__loop">
+      <input type="checkbox" id="time-loop">
+      <span>Boucle</span>
+    </label>
+  </div>
+  <div class="timebar__slider-wrap">
+    <input type="range" id="time-slider" min="0" max="0" step="1" value="0" disabled aria-label="Mois sélectionné">
+  </div>
+  <div class="timebar__readout">
+    <strong id="time-slider-value">—</strong>
+    <span class="timebar__count"><span id="time-slider-count">—</span>&nbsp;dossiers</span>
+  </div>
+  <p class="timebar__hint">Fenêtre d'un mois — affiche les dossiers dont la dernière activité administrative tombe dans cette période. Désactivé par défaut.</p>
+</div>
+
+<!-- JS libraries -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"
+        integrity="sha256-Hk4dIpcqOSb0hZjgyvFOP+cEmDXUKKNE/tT542ZbNQg=" crossorigin=""></script>
+<script src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"
+        integrity="sha256-uOhwxdKyl3LxDJ+pppPIuJaqyFQO1nAePMYwTGg/69s=" crossorigin=""></script>
+
+<!-- Our app — ?v bumped on each deploy to bust Pages CDN cache -->
+<script src="../shared/util.js?v=13"></script>
+<script src="app.js?v=13"></script>
+</body>
+</html>

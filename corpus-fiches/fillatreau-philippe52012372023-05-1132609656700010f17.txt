@@ -1,0 +1,64 @@
+Constats body:
+L'exploitant n'utilise pas de registre. L'exploitant doit assurer la traçabilité des déchets
+24
+
+conformément à l'arrêté ministériel du 31/05/2021 sous 3 mois.
+
+Prescription:
+Article 1 :
+Les exploitants des établissements effectuant un transit, regroupement ou un traitement de
+déchets, y compris ceux effectuant un tri de déchets et ceux effectuant une sortie du statut de
+déchets, établissent et tiennent à jour un registre chronologique où sont consignés tous les
+déchets entrants.
+Le registre des déchets entrants contient au moins les informations suivantes :
+a) Concernant la date d'entrée dans l'établissement :
+23
+
+- la date de réception du déchet et, pour les installations soumises à dispositif de contrôle par
+vidéo au titre de l'article L. 541-30-3 du code de l'environnement, l'heure de la pesée du déchet ;
+b) Concernant la dénomination, nature et quantité :
+- la dénomination usuelle du déchet ;
+- le code du déchet entrant au regard l'article R. 541-7 du code de l'environnement ;
+- s'il s'agit de déchets POP au sens de l'article R. 541-8 du code de l'environnement ;
+- le cas échéant, le code du déchet mentionné aux annexes VIII et IX de la Convention de Bâle
+susvisée ;
+- le cas échéant, le numéro du ou des bordereaux de suivi de déchets mentionnés aux articles R.
+541-45 du code de l'environnement et R. 1335-4 du code de la santé publique ;
+- la quantité de déchet entrant exprimée en tonne ou en m3 ;
+c) Concernant l'origine, la gestion et le transport du déchet :
+- la raison sociale, le numéro SIRET et l'adresse du producteur initial du déchet, ou, lorsque les
+déchets apportés proviennent de plusieurs producteurs, le ou les codes INSEE de la commune de
+collecte des déchets ;
+- la raison sociale, le numéro SIRET et l'adresse de l'établissement expéditeur des déchets ;
+- l'adresse de prise en charge lorsqu'elle se distingue de l'adresse de l'établissement expéditeur des
+déchets ;
+- la raison sociale et le numéro SIREN de l'éco-organisme si le déchet est pris en charge par un éco-
+organisme mis en place dans le cadre d'une filière à responsabilité élargie du producteur définie à
+l'article L. 541-10-1 du code de l'environnement ;
+- la raison sociale et le numéro SIRET du courtier ou du négociant, ainsi que leur numéro de
+récépissé mentionné à l'article R. 541-56 du code de l'environnement, si le déchet est géré par un
+courtier ou un négociant ;
+- la raison sociale, le numéro SIRET et l'adresse du ou des transporteurs, ainsi que leur numéro de
+récépissé mentionné à l'article R. 541-53 du code de l'environnement ;
+Article 2 :
+Les exploitants des établissements produisant ou expédiant des déchets tiennent à jour un registre
+chronologique où sont consignés tous les déchets sortants.
+Le registre des déchets sortants contient au moins les informations suivantes :
+a) Concernant la date de sortie de l'installation :
+- la date de l'expédition du déchet ;
+b) Concernant la dénomination, nature et quantité :
+- la dénomination usuelle du déchet ;
+- le code du déchet sortant au regard de l'article R. 541-7 du code de l'environnement ;
+- s'il s'agit, de déchets POP au sens de l'article R. 541-8 du code de l'environnement ;
+- le cas échéant, le code du déchet mentionné aux annexes VIII et IX de la Convention de Bâle
+susvisée ;
+- le cas échéant, le numéro du ou des bordereaux de suivi de déchets mentionnés aux articles R.
+541-45 du code de l'environnement et R. 1335-4 du code de la santé publique ;
+- la quantité de déchet sortant en tonne ou en m3 ;
+c) Concernant l'origine du déchet :
+- l'adresse de l'établissement ;
+- l'adresse de prise en charge lorsque celle-ci se distingue de l'adresse de l'établissement ;
+- la raison sociale, le numéro SIRET et l'adresse du producteur initial du déchet, ou, lorsque les
+déchets apportés proviennent de plusieurs producteurs, le ou les codes INSEE de la commune de
+collecte des déchets ;
+[... ]

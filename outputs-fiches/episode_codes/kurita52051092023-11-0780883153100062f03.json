@@ -1,0 +1,58 @@
+{
+  "document_date": "2023-11-07",
+  "document_title": "kurita52051092023-11-0780883153100062f03",
+  "document_summary": "L'inspection de Kurita effectue un suivi post-mise en demeure (arrêté du 31/07/2023) relatif à la vérification des installations électriques. L'exploitant peut désormais présenter les rapports de vérification de février 2023 et des justificatifs de correction partielle, mais la mise en demeure ne peut être levée, faute de la nouvelle vérification complète.",
+  "surprises": "La mise en demeure de juillet 2023 n'est pas levée mais l'inspection renonce aux suites administratives immédiates au vu des efforts de l'exploitant — posture pragmatique entre rigueur procédurale et proportionnalité.",
+  "tensions": "L'exploitant a corrigé certaines anomalies et fourni des devis pour les autres, mais les rapports de vérification actualisés ne sont pas encore disponibles, laissant la conformité en suspension — tension entre conformité documentaire et conformité réelle.",
+  "codes": [
+    {
+      "description": "L'inspection est un suivi de la mise en demeure du 31/07/2023 portant sur la vérification annuelle des installations électriques et la correction des anomalies.",
+      "excerpts": [
+        "Cette non-conformité a fait l'objet d'arrêté de mise en demeure en date du 31/07/2023."
+      ],
+      "valence": "neutral",
+      "code": "Suivi mise en demeure vérification électrique"
+    },
+    {
+      "description": "Les rapports de vérification de 2023 présentent des observations récurrentes (2 sur 4 pour une usine, 3 sur 5 pour l'autre), indiquant un historique de défaillances répétées.",
+      "excerpts": [
+        "Rapport de vérification de l'APAVE pour son intervention du 15 février 2023 - usine SIZE (4353328-015-1) présentant 4 observations dont 2 récurrentes",
+        "Rapport de vérification de l'APAVE pour son intervention du 15 février 2023 - usine KENORES (6115061-013-1) présentant 5 observations dont 3 récurrentes"
+      ],
+      "valence": "negative",
+      "code": "Anomalies électriques récurrentes non corrigées"
+    },
+    {
+      "description": "L'exploitant a justifié de la correction de certaines anomalies par des documents d'intervention et fourni des devis signés pour les corrections restantes.",
+      "excerpts": [
+        "L'exploitant a été en capacité de présenter les documents d'intervention justifiant la correction de certaines des observations des rapports de vérification électrique et des devis signés sur les autres."
+      ],
+      "valence": "mixed",
+      "code": "Correction partielle avec devis signés"
+    },
+    {
+      "description": "La mise en demeure reste active car la nouvelle vérification complète des installations électriques n'a pas encore été réalisée, malgré les corrections partielles justifiées.",
+      "excerpts": [
+        "Ce point de l'arrêté de mise en demeure du 31/07/2023 ne peut être levé à ce jour."
+      ],
+      "valence": "negative",
+      "code": "Mise en demeure non levée attente vérification"
+    },
+    {
+      "description": "L'inspection renonce aux suites administratives immédiates au vu des éléments fournis (justificatifs et devis), dans l'attente des informations complémentaires.",
+      "excerpts": [
+        "au vu des éléments fournis par l'exploitant (justificatifs de travaux et devis signés), il n'est pas proposé de suites administratives dans l'attente des informations complémentaires demandés ci-dessous."
+      ],
+      "valence": "mixed",
+      "code": "Suspension suites administratives proportionnée"
+    },
+    {
+      "description": "La réglementation impose une vérification annuelle complète de l'installation électrique par un organisme compétent, avec rapport explicite sur les défectuosités.",
+      "excerpts": [
+        "Une vérification de l'ensemble de l'installation électrique est effectuée au minimum une fois par an par un organisme compétent qui mentionnera très explicitement les défectuosités relevées dans son rapport."
+      ],
+      "valence": "neutral",
+      "code": "Vérification annuelle installation électrique"
+    }
+  ]
+}

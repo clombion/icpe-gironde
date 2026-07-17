@@ -1,0 +1,33 @@
+{
+  "document_date": "2024-08-27",
+  "document_title": "edf-sei-guyane1000339992024-08-2755208131790191f04",
+  "document_summary": "L'inspection constate que le réseau de dérivation des eaux pluviales et le bassin de décantation ne sont pas finalisés sur la carrière EDF SEI en Guyane, exposant le milieu naturel aux risques de ruissellement depuis la zone d'exploitation.",
+  "surprises": "",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "Le réseau censé empêcher les eaux de ruissellement d'atteindre la zone en exploitation n'est pas encore finalisé.",
+      "excerpts": [
+        "Le réseau de dérivation aboutissant au bassin de décantation n'est pas finalisé"
+      ],
+      "valence": "negative",
+      "code": "Réseau dérivation eaux pluviales inachevé"
+    },
+    {
+      "description": "Le bassin de décantation, destiné à retenir les eaux chargées en matières en suspension, n'est pas achevé.",
+      "excerpts": [
+        "Mettre en place un réseau de dérivation sur le pourtour de la zone d'exploitation pour les eaux pluviales et finaliser le bassin de décantation."
+      ],
+      "valence": "negative",
+      "code": "Bassin décantation non opérationnel"
+    },
+    {
+      "description": "La prescription vise à protéger les intérêts visés par le code de l'environnement en évitant que les eaux de ruissellement chargées n'atteignent les zones exploitées.",
+      "excerpts": [
+        "Lorsqu'il existe un risque pour les intérêts visés à l'article L. 2114 du code de l'environnement, un réseau de dérivation empéchant les eaux de ruissellement d'atteindre la zone en exploitation est mis en place a la périphérie de cette zone."
+      ],
+      "valence": "neutral",
+      "code": "Protection milieu aquatique carrière"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "document_date": "2022-12-15",
+  "document_title": "sas-melusine-energie31059802022-12-1585036642800017f01",
+  "document_summary": "L'inspection du site de SAS Mélusine Énergie (méthanisation) constate que l'ensemble du site et ses abords sont propres et bien entretenus.",
+  "surprises": "",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "L'ensemble du site de méthanisation et ses abords sont propres et semblent régulièrement entretenus, témoignant d'une bonne gestion courante.",
+      "excerpts": [
+        "L'ensemble du site, de même que ses abords sont propres et semblent entretenus en"
+      ],
+      "valence": "positive",
+      "code": "Propreté et entretien du site"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "document_date": "2023-05-11",
+  "document_title": "bordeaux-metropole-le-taillan-medoc52076162023-05-1124330031600011f07",
+  "codes": [
+    {
+      "description": "Le regard de collecte des eaux pluviales de la plateforme basse a été réparé, répondant à une demande ancienne de l'inspection (2016).",
+      "excerpts": [
+        "Le regard de collecte des eaux de ruissellement de la plateforme basse a été réparé.",
+        "DEM 9 du 27/06/2016 de l'inspection : L'exploitant répare le regard de collecte des eaux de ruissellement de la plateforme basse."
+      ],
+      "valence": "positive",
+      "code": "Infrastructure eaux pluviales réparée"
+    },
+    {
+      "description": "Les eaux pluviales polluées sont collectées par un bassin de rétention équipé de pelles-étang et de deux séparateurs à hydrocarbures positionnés en amont et aval.",
+      "excerpts": [
+        "Les deux réseaux de collecte des eaux pluviales susceptibles d'être polluées sont équipés de pelles-étang positionnées immédiatement en amont du bassin de rétention. Un premier séparateur à hydrocarbure est situé à l'amont du raccordement \"sud\" au bassin de rétention, un second séparateurs à hydrocarbures est situé à l'aval du bassin de rétention."
+      ],
+      "valence": "positive",
+      "code": "Réseau rétention double séparateurs"
+    },
+    {
+      "description": "L'exploitant prévoit de fermer les pelles-étang en cas d'incendie pour confiner les eaux dans les réseaux plutôt que dans le bassin, ce qui nécessite une justification de capacité.",
+      "excerpts": [
+        "En cas d'incendie, l'exploitant indique que les eaux d'extinction sont confinées dans les réseaux de collecte par la fermeture des pelles-étang (en amont du bassin de rétention) afin d'éviter le confinement dans le bassin de rétention en raison de l'importance des coûts de dépollution d'un bassin."
+      ],
+      "valence": "mixed",
+      "code": "Stratégie confinement incendie discutable"
+    },
+    {
+      "description": "L'inspection exige que l'exploitant justifie que la capacité des réseaux de collecte est suffisante pour contenir les eaux d'un incendie éventuel.",
+      "excerpts": [
+        "L'exploitant justifie, dans un délai de un mois, que la capacité de rétention des réseaux de collecte des eaux pluviales est suffisante pour confiner les eaux polluées issues d'un accident ou incendie éventuel."
+      ],
+      "valence": "neutral",
+      "code": "Justification capacité rétention requise"
+    }
+  ],
+  "document_summary": "L'inspection de la déchetterie Le Taillan-Médoc montre une bonne infrastructure de gestion des eaux pluviales avec bassin de rétention, double séparateur à hydrocarbures et pelles-étang ; cependant la stratégie de confinement incendie (dans les réseaux plutôt que dans le bassin pour des raisons de coût) doit être justifiée.",
+  "surprises": "La raison invoquée pour détourner les eaux d'extinction du bassin est économique (coût de dépollution) plutôt que technique — tension entre optimisation financière et sécurité réglementaire.",
+  "tensions": "Le choix de confiner les eaux dans les réseaux plutôt que dans le bassin est motivé par les coûts, ce qui place l'exploitant dans une position où il doit prouver que cette solution est sûre avant que l'inspection l'accepte."
+}

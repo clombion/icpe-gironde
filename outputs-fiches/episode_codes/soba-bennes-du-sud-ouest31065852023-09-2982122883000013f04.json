@@ -1,0 +1,42 @@
+{
+  "document_date": "2023-09-29",
+  "document_title": "soba-bennes-du-sud-ouest31065852023-09-2982122883000013f04",
+  "codes": [
+    {
+      "description": "Deux salariés intérimaires travaillant à la cabine de peinture n'ont pas reçu la formation incendie obligatoire, révélant une lacune systématique dans l'intégration des travailleurs temporaires au dispositif de sécurité.",
+      "excerpts": [
+        "l'exploitant a indiqué que deux des salariés de la société n'avaient pas été formés à date. L'exploitant a précisé qu'il s'agissait de salariés intérimaires évoluant au niveau de la cabine de peinture."
+      ],
+      "valence": "negative",
+      "code": "Formation incendie intérimaires omise"
+    },
+    {
+      "description": "La formation incendie a été dispensée en 2023 à l'ensemble des salariés permanents mais n'a pas inclus les intérimaires, révélant une distinction implicite mais non réglementairement justifiée entre types de contrats.",
+      "excerpts": [
+        "l'exploitant avait justifié que la formation au risque incendie de l'ensemble des salariés avait été réalisée le 03/02/2023 sur le site SOBA par l'organisme CHRONOFEU.",
+        "l'exploitant a indiqué que deux des salariés de la société n'avaient pas été formés à date. L'exploitant a précisé qu'il s'agissait de salariés intérimaires"
+      ],
+      "valence": "negative",
+      "code": "Salariés permanents vs temporaires"
+    },
+    {
+      "description": "L'absence de formation de ces deux salariés est qualifiée de non-conformité pouvant conduire à des sanctions administratives, renforçant la pression réglementaire dans un établissement déjà sous surveillance renforcée.",
+      "excerpts": [
+        "Ce point constitue une non-conformité susceptible de conduire à des sanctions administratives."
+      ],
+      "valence": "negative",
+      "code": "Non-conformité sanctions administratives"
+    },
+    {
+      "description": "L'exploitant est invité à transmettre les preuves de formation des deux intérimaires sous 15 jours, montrant un délai très court conforme à la facilité attendue de la régularisation.",
+      "excerpts": [
+        "Il est demandé à l'exploitant de transmettre les éléments justifiants de la formation des deux salariés au risque incendie dans un délai maximal de 15 jours."
+      ],
+      "valence": "neutral",
+      "code": "Délai court justification formation"
+    }
+  ],
+  "document_summary": "Inspection SOBA Bennes (Coutras) portant sur la formation incendie : bien qu'une session ait été organisée en février 2023 pour l'ensemble du personnel, deux salariés intérimaires travaillant à la cabine de peinture n'y ont pas participé. La régularisation est attendue sous 15 jours.",
+  "surprises": "L'écart porte précisément sur les salariés les plus exposés (cabine de peinture = zone de solvants inflammables) — l'omission des intérimaires dans un poste à risque élevé est particulièrement préoccupante.",
+  "tensions": "La formation a été présentée comme couvrant « l'ensemble des salariés » lors de l'inspection précédente, mais cette affirmation s'avère inexacte pour les intérimaires — tension entre la déclaration de conformité et la réalité de terrain."
+}

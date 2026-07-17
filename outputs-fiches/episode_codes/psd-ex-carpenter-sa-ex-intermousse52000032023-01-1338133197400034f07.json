@@ -1,0 +1,49 @@
+{
+  "document_date": "2023-01-13",
+  "document_title": "psd-ex-carpenter-sa-ex-intermousse52000032023-01-1338133197400034f07",
+  "document_summary": "Suite à un constat d'absence de surveillance du bâtiment de stockage lors d'une inspection précédente, l'exploitant a installé des dispositifs de détection anti-intrusion et de vidéosurveillance. L'inspection note la mise en place des équipements mais n'a pas pu en vérifier le fonctionnement effectif, et demande une confirmation sous 30 jours.",
+  "surprises": "L'inspection reconnaît explicitement ne pas avoir vérifié le fonctionnement de l'installation 'faute de temps', ce qui est une limite méthodologique avouée dans le rapport.",
+  "tensions": "L'exploitant déclare l'installation en service et fonctionnelle, mais l'inspection ne peut le confirmer — tension entre la parole de l'exploitant et la vérification indépendante requise.",
+  "codes": [
+    {
+      "description": "L'exploitant a répondu à l'injonction de l'inspection précédente en installant les équipements requis, illustrant une trajectoire de correction entre deux inspections.",
+      "excerpts": [
+        "Au jour de l'inspection, l'exploitant a confirmé la mise en place de la surveillance de son batiment de stockage. Il a présenté l'offre détaillée de mise en place de matériels de détection anti-intrusion et de vidéosurveillance de ce batiment."
+      ],
+      "valence": "positive",
+      "code": "Mise en conformité progressive"
+    },
+    {
+      "description": "L'inspection n'a pas pu contrôler le fonctionnement effectif des équipements installés lors de la visite, soulignant une limite pratique de l'inspection sur site.",
+      "excerpts": [
+        "L'inspection n'a cependant pas vérifié ce point faute de temps."
+      ],
+      "valence": "neutral",
+      "code": "Vérification incomplète faute de temps"
+    },
+    {
+      "description": "La prescription exige une surveillance permanente (gardiennage ou télésurveillance) du stockage en dehors des heures d'exploitation pour alerter les secours en cas d'incident.",
+      "excerpts": [
+        "En dehors des heures d'exploitation du stockage, une surveillance de ce stockage, par gardiennage ou télésurveillance, est mise en place en permanence notamment afin de transmettre l'alerte aux services d'incendie et de secours"
+      ],
+      "valence": "neutral",
+      "code": "Surveillance stockage hors heures d'exploitation"
+    },
+    {
+      "description": "La surveillance était déjà en place sur le bâtiment de production mais absente du bâtiment de stockage, révélant une gestion inégale des risques au sein d'un même site.",
+      "excerpts": [
+        "Plusieurs dispositifs de surveillance sont en place en revanche sur le bâtiment de production (centrale de détection incendie associée à une télésurveillance en dehors des heures d'ouvertures)."
+      ],
+      "valence": "mixed",
+      "code": "Asymétrie entre bâtiments"
+    },
+    {
+      "description": "Faute de vérification in situ, l'inspection demande un document probant pour attester du bon fonctionnement de l'installation.",
+      "excerpts": [
+        "Il est demandé à l'exploitant de confirmer le fonctionnement de son installation dans un délai de 30 jours via tout document probant."
+      ],
+      "valence": "neutral",
+      "code": "Preuve documentaire exigée a posteriori"
+    }
+  ]
+}

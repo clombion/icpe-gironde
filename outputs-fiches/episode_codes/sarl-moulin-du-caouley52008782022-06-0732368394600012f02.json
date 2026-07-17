@@ -1,0 +1,25 @@
+{
+  "document_date": "2022-06-07",
+  "document_title": "sarl-moulin-du-caouley52008782022-06-0732368394600012f02",
+  "document_summary": "La fiche contrôle la configuration du dispositif de rejet d'une pisciculture dans le milieu récepteur. Le constat est de conformité : le rejet est aménagé de façon à minimiser les perturbations, conformément aux prescriptions.",
+  "surprises": "",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "Le dispositif de rejet de la pisciculture est aménagé conformément aux prescriptions : situé sur la rive droite, sans saillie en rivière, sans entrave à l'écoulement.",
+      "excerpts": [
+        "Conforme"
+      ],
+      "valence": "positive",
+      "code": "Conformité dispositif de rejet"
+    },
+    {
+      "description": "La réglementation exige que le rejet soit conçu pour minimiser la perturbation du milieu récepteur, sans faire saillie en rivière ni entraver l'écoulement.",
+      "excerpts": [
+        "Le dispositif de rejet doit être aménagé de manière à réduire au minimum la perturbation apportée par le déversement au milieu récepteur aux abords du point de rejet compte tenu des utilisations de l'eau à proximité immédiate de celui-ci."
+      ],
+      "valence": "neutral",
+      "code": "Prescription d'aménagement du point de rejet"
+    }
+  ]
+}

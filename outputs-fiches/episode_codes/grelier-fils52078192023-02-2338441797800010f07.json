@@ -1,0 +1,50 @@
+{
+  "document_date": "2023-02-23",
+  "document_title": "grelier-fils52078192023-02-2338441797800010f07",
+  "document_summary": "L'inspection d'une carrière constate que les derniers résultats d'analyse de la qualité des eaux (fossé, plan d'eau, puits) datent de décembre 2019. Le puits est déclaré à sec. L'exploitant est mis en demeure de commander une campagne de suivi des eaux dans les trois mois.",
+  "surprises": "Le puits est déclaré à sec par l'exploitant, ce qui soulève la question de la validité du suivi de ce point de surveillance et de l'impact potentiel de la carrière sur les niveaux de la nappe.",
+  "tensions": "La fréquence bisannuelle de surveillance, issue d'une discussion lors d'une inspection de 2016, est plus favorable à l'exploitant que la fréquence annuelle initialement prescrite — illustrant comment la réalité opérationnelle modifie les prescriptions formelles.",
+  "codes": [
+    {
+      "description": "Les derniers résultats d'analyse de la qualité des eaux du plan d'eau et du fossé datent de plus de trois ans (décembre 2019), en retard sur la fréquence bisannuelle convenue.",
+      "excerpts": [
+        "Les derniers résultats d'analyse d'eau présentés par l'exploitant datent de décembre 2019 pour le fossé et le plan d'eau."
+      ],
+      "valence": "negative",
+      "code": "Retard surveillance qualité eaux"
+    },
+    {
+      "description": "L'exploitant déclare que le puits est à sec, rendant impossible le suivi de ce point de surveillance et soulevant une question sur l'impact de la carrière sur la nappe.",
+      "excerpts": [
+        "Pour ce qui est du puits, l'exploitant déclare qu'il est à sec."
+      ],
+      "valence": "negative",
+      "code": "Puits à sec absence prélèvement"
+    },
+    {
+      "description": "L'exploitant justifie l'absence de risque majeur par la nature des vecteurs de contamination (ruissellement MES, accidents engins) et l'absence d'incident déclaré.",
+      "excerpts": [
+        "La qualité du plan d'eau ne peut être affectée que par le ruissellement des eaux pluviales qui entrainent des matières en suspension et par un éventuel accident de fuite de fluide des engins utilisés pendant la période limitée d'extraction. L'exploitant ne déclare aucun incident."
+      ],
+      "valence": "mixed",
+      "code": "Risques limités sans incident déclaré"
+    },
+    {
+      "description": "La fréquence de surveillance a été modulée de annuelle à bisannuelle lors d'une inspection précédente (2016), illustrant une négociation informelle entre l'exploitant et l'administration.",
+      "excerpts": [
+        "Cette fréquence bisannuelle a été reprise dans le projet d'arrêté préfectoral rédigé dans le cadre de l'instruction de la demande d'autorisation d'extension de la carrière.",
+        "lors de l'inspection du 16/03/2016, il a été convenu d'assurer un contrôle tous les 2 ans."
+      ],
+      "valence": "neutral",
+      "code": "Modulation fréquence par l'inspection"
+    },
+    {
+      "description": "La prescription impose une surveillance annuelle portant sur DCO, DBO, MES et hydrocarbures totaux dans le plan d'eau et les eaux souterraines.",
+      "excerpts": [
+        "Une mesure annuelle de la qualité des eaux du plan d'eau et des eaux souterraines au niveau du puits « Roubisque » situé à proximité du site, est réalisée par un laboratoire agréé."
+      ],
+      "valence": "neutral",
+      "code": "Surveillance multi-paramètres eaux carrière"
+    }
+  ]
+}

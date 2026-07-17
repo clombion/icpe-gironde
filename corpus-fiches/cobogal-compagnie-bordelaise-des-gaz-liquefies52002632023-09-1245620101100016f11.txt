@@ -1,0 +1,31 @@
+Constats body:
+Lors de la visite terrain, l'inspection a relevé des brides de bras présentant un état de corrosion
+avancé. Il s'agit des brides situées en pied des 2 bras (liquide et gazeux) de déchargement wagon
+du poste n° 1 et des 2 bras (liquide et gazeux) du poste de déchargement wagon n° 4. Ce sont des
+brides dont l'orientation de pose est horizontale. L'endommagement se traduit par le départ de la
+peinture, un feuilletage métallique friable et des cratères de corrosion sur la surface des brides.
+L'état d'endommagement de ces brides ne permet pas d'assurer le niveau de sécurité du bras.
+L'exploitant a indiqué en séance que ce type d'endommagement ne s'observe que sur les brides
+horizontales et qu'il a conscience de cette problématique.
+Observations :
+SUITE ATTENDUE :
+L'exploitant :
+- procède à une inspection des 4 brides de pied de bras des postes wagon n° 1 et n° 4 pour évaluer
+l'état de dégradation et réalise les actions correctives nécessaire à leur remise en état ou à leur
+remplacement,
+- procède à des investigations sur l'ensemble des bras des autres postes wagon et camion et, dans
+24/25
+
+le cas de découverte d'état de dégradation similaire, réalise les actions correctives en
+conséquence,
+- s'assure que la mise à jour du programme de contrôle des tuyauteries couvrant les bras prévoit
+bien un point de contrôle des brides horizontales.
+
+Prescription:
+article L. 557-29 du code de l'environnement
+L'exploitant est responsable de l'entretien, de la surveillance et des réparations nécessaires au
+maintien du niveau de sécurité du produit ou de l'équipement. Il retire le produit ou l'équipement
+du service si son niveau de sécurité est altéré.
+article R. 557-14-2 du code de l'environnement
+Les équipements sont maintenus constamment en bon état et vérifiés aussi souvent que
+nécessaire.

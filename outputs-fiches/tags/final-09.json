@@ -1,0 +1,2380 @@
+[
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f06",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Délai réglementaire de prélèvement post-redémarrage non respecté (8 jours au lieu de 48h–1 semaine) — non-conformité de protocole/calendrier de mesure M02."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f07",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "AMR datant de >2 ans, obsolète — absence de document à jour M01."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f08",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "AMR obsolète et incomplète (plans flous, points critiques non décrits) — obsolescence documentaire M01."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f09",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Certificats de dévésiculeurs conformes, pas de NC ni dégradation des pare-gouttelettes — conformité constatée M08."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f10",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "AMR ne couvre pas l'analyse des bras morts et le risque eau d'appoint — lacune documentaire M01."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f11",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan d'entretien inexistant chez l'exploitant (seul manuel du précédent fournisseur Kurita disponible) — absence de document réglementaire M01. Instruction donnée à l'exploitant, pas de promesse formelle de l'exploitant."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f12",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan de surveillance ne précise pas les valeurs à respecter dans le document lui-même — document incomplet M01."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f13",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Installations propres et maintenues en bon état — conformité constatée M08."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f14",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Nettoyages annuels des deux tours réalisés avec rapport illustré — conformité M08."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f15",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Traitement préventif en place (anti-tartre, biodispersant, biocide) répondant aux objectifs — conformité M08."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f16",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Stratégie de traitement préventif bien intégrée dans le manuel d'exploitation — conformité M08."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f17",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Justification de la stratégie de traitement absente de tous les documents — absence documentaire M01."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f18",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Justification des injections ponctuelles de biocides absente — absence documentaire M01."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f19",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Injection continue de biocide non oxydant non justifiée — absence de justification documentaire M01."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f20",
+    "domains": [
+      "D14_RISQUE_BIO",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "FDS conservées, produits autorisés, stockés sur rétention, bien étiquetés — conformité M08."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f21",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Analyses mensuelles confirmées sur GIDAF pour 2021 et 2022, fréquence bimestrielle respectée — conformité M08."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f22",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Délai de transmission des résultats d'analyse non respecté (transmis en bloc en octobre pour juin–septembre) — défaillance reporting M03."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742023-06-0191195064000019f01",
+    "domains": [
+      "D14_RISQUE_BIO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Liste de personnes désignées maintenant disponible, NC 2022 résolue — conformité M08, amélioration depuis 2022."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742023-06-0191195064000019f02",
+    "domains": [
+      "D14_RISQUE_BIO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Attestations de formation montrées, démarche mise en oeuvre depuis 2022 — conformité M08."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742023-06-0191195064000019f03",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Prélèvement post-redémarrage réalisé à J+3 (dans délai), MED levée — levée de MED M08."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742023-06-0191195064000019f04",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Contrôle périodique par APAVE réalisé, MED levée — levée de MED M08."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742023-06-0191195064000019f05",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "AMR révisée transmise, MED levée — levée de MED M08."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742023-06-0191195064000019f06",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "MED levée (AMR transmise) mais nouvelle version toujours incomplète — point de MED levé mais nouvelle demande documentaire M01."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742023-06-0191195064000019f07",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Nouvelle stratégie de traitement bien justifiée dans un document — NC 2022 résolue, conformité M08."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742023-06-0191195064000019f08",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Plan de traitement modifié, injection continue de biocide non oxydant supprimée — NC 2022 résolue, conformité M08."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742023-06-0191195064000019f09",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Nouvelle stratégie de traitement préventif bien décrite — conformité M08."
+  },
+  {
+    "slug": "bibliotheque-meriadeck-bordeaux52070742023-06-0191195064000019f10",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [],
+    "dynamic": "R09_BLOCAGE_TIERS",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "medium",
+    "reasoning": "Retard de transmission justifié par absence du responsable GIDAF (tiers), autres transmissions conformes — retard reporting M03 avec contexte tiers."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192024-03-2781967165200025f01",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Quantités maximales respectées (14 645 t sur 15 120 t autorisées), écart FSMD6 levé — conformité M08."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192024-03-2781967165200025f02",
+    "domains": [
+      "D08_DECHETS",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Portique radioactivité opérationnel, contrôle annuel par BERTHOLD sans dysfonctionnement, procédure transmise — conformité M08."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192024-03-2781967165200025f03",
+    "domains": [
+      "D03_SEVESO",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Outil de détermination classement SEVESO mis à jour avec analyses métaux sur brut, écart FSMD5 levé — conformité M08."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192024-03-2781967165200025f04",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Procédure d'acceptation préalable conforme, FID et CAP vérifiés pour 2 lots sans remarque — conformité M08."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192024-03-2781967165200025f05",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Critères d'acceptation en biotertre respectés pour les 2 lots vérifiés — conformité M08."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192024-03-2781967165200025f06",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Registre d'exploitation présenté avec toutes les informations requises pour les lots vérifiés — conformité M08."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192024-03-2781967165200025f07",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Analyses de sortie non réalisées avant enlèvement de 2 lots (violation art. 8.4.2), accords écrits avec sites récepteurs manquants — NC protocole analytique M02."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192024-03-2781967165200025f08",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Configuration de stockage conforme au plan AP, pas de biopile active le jour J — conformité partielle M08, dispositions biopile non contrôlables."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192024-03-2781967165200025f09",
+    "domains": [
+      "D06_SOLS",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Contrôles visuels mensuels tracés depuis 2022, dalle en bon état sans anomalie — conformité M08."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192024-03-2781967165200025f10",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Dépassements VLE en flux pour métaux (Pb, Cu) avec impact sur milieu naturel Craste de Laperge confirmé + méthodologie d'échantillonnage non conforme — constat technique M14 avec défaut protocole M02."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192024-03-2781967165200025f11",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Niveau piézométrique absent des rapports laboratoire (présent uniquement sur GIDAF pour les 3 piézomètres initiaux) — document de surveillance incomplet M01. Demande formulée à l'exploitant."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192024-03-2781967165200025f12",
+    "domains": [
+      "D04_EAUX",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M09_PAC",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Deux piézomètres supplémentaires installés sans PAC au préfet, rapport fin de travaux non remis — manque de PAC M09 et documentation M01."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192024-03-2781967165200025f13",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Ensemble des mesures olfactives exigées réalisées, pas d'impact significatif identifié — conformité M08."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192024-03-2781967165200025f14",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Absence de dispositif d'aspersion sur concasseur mobile contrairement aux prescriptions — équipement absent M14."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192024-03-2781967165200025f15",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Aucune analyse rejets atmosphériques depuis 2019 car pas de biopile en activité — contrôle non réalisé M07, mais lié à absence d'activité."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192024-03-2781967165200025f16",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Dispositifs biofiltre présents sur site, matériel de mesure disponible sur site ORTEC — conformité constatée par présence équipements, vérification non possible sans activité biopile."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192025-10-1381967165200025f01",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "12 927 tonnes en stock, inférieur au plafond de 15 120 tonnes — conformité M08."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192025-10-1381967165200025f02",
+    "domains": [
+      "D03_SEVESO",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Outil SEVESO mis à jour hebdomadairement pour tous chantiers (au-delà de l'obligation), écart 2024 levé — conformité M08 avec dépassement spontané des exigences."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192025-10-1381967165200025f03",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Justificatifs d'acceptation préalable transmis, analyses de sortie présentes pour 2 lots 2025, écart 2024 levé — conformité M08."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192025-10-1381967165200025f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Filtre à sable déclaré permanent mais non installé en permanence — équipement de traitement des rejets opérationnel à la demande seulement, incohérence avec engagement écrit M14."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192025-10-1381967165200025f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Séparateur HC et bassin curés deux fois par an, bons d'exécution transmis — conformité M08."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192025-10-1381967165200025f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Absence de procédure de pompage vers débourbeur en cas d'attente DBO5 non possible — procédure documentaire absente M01."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192025-10-1381967165200025f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M09_PAC"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "PAC pour 2 piézomètres supplémentaires transmis, mais rapport fin de travaux ouvrage 'amont 2' manquant et positionnement non pris sur ajout d'un 5e ouvrage — documentation incomplète M01."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192025-10-1381967165200025f08",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Concasseur loué muni de brumisation intégrée, système canon à eau prévu en secours, écart 2024 levé — conformité M08."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192025-10-1381967165200025f09",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Procédure contrôle de conformité conforme, lots analysés correctement, lot proche des seuils placé en biopile par précaution — conformité M08."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192025-10-1381967165200025f10",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Fichier de suivi biodégradation informatisé avec tous polluants analysés sur échantillons représentatifs — conformité M08."
+  },
+  {
+    "slug": "biocentre-du-sud-ouest31008192025-10-1381967165200025f11",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Analyses rejets atmosphériques biopile non encore réalisées au jour J — contrôle en attente M07, campagne programmée par GINGER."
+  },
+  {
+    "slug": "bonne-daniel1000318722024-06-2142307968000017f01",
+    "domains": [
+      "D08_DECHETS",
+      "D12_ADMIN",
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE",
+      "M19_CESSATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Cessation d'activité VHU réalisée, 97 VHU évacués vers centre agréé, terrain remis en état, MED levée — cessation effective M19 avec levée MED."
+  },
+  {
+    "slug": "bonne-daniel1000318722024-06-2142307968000017f02",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Aucun nouveau véhicule apporté sur site, tous véhicules connus — interdiction d'apport respectée, MED levée M08."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f01",
+    "domains": [
+      "D08_DECHETS",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Capacité VHU dépassée en 2021 (962 admis vs 800 autorisés) — MED active non levée, en attente de communication du bilan 2022 sous 15 jours. NC quantitative administrative, M04."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f02",
+    "domains": [
+      "D08_DECHETS",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Bacs de collecte verre en place et utilisés, éléments plastiques volumineux stockés en benne — MED levée M08."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f03",
+    "domains": [
+      "D07_RETENTION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Sol zone véhicules à risques non imperméabilisé (trous remplis d'eau), NC récurrente non résolue — constat physique d'imperméabilisation défaillante M14."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f04",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Barils et contenants stockés sur rétention — MED levée M08."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f05",
+    "domains": [
+      "D07_RETENTION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Moteurs stockés sur racks sans emballage étanche, benne extérieure non abritée — NC physique de stockage non résolue M14."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f06",
+    "domains": [
+      "D08_DECHETS",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Seulement 3 véhicules stockés en zone broyeur, hauteur respectée — MED levée M08."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f07",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Vanne accessible mais accès périlleux (végétation, objets), sans marquage — équipement de confinement dégradé/non opérationnel M14."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f08",
+    "domains": [
+      "D08_DECHETS",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Véhicules dépollués vérifiés par sondage sans fluides — MED levée M08."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f09",
+    "domains": [
+      "D06_SOLS",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Zone de dépôt illicite vidée et nettoyée, activité export cessée. MED en suspens dans l'attente du bon de commande d'un diagnostic sol (demandé sous 1 mois) puis résultats sous 6 mois — M04 non levée + M01 (diagnostic environnemental non fourni)."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f10",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Etiquetage présent mais pictogrammes danger non conformes règlement CLP (non-conformité physique de signalisation) — NC constatée M14."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f11",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan des réseaux nécessitant mise à jour suite travaux — document obsolète M01."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f12",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Atelier de démontage avec un seul détecteur insuffisant en localisation et couverture — dispositif de détection incendie inadéquat M14."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f13",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Travaux réalisés, collecte EP nord-ouest vers débourbeur — MED levée M08."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f14",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Mesures acoustiques VIAM concluant à conformité en émergence et limites de bruit — MED levée M08."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f15",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Plan général des stockages produits dangereux inexistant, registre mis à jour seulement 1-2×/an — absence et obsolescence documentaire M01. NC initialement relevée en 2021 (FSMD 1), aucune correction apportée."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f16",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Rapport contrôle périodique électrique Bureau Veritas 19 observations sans suivi, certificat Q18 manquant — M07 non résolu. NC initialement relevée en 2021 (FSMD 3), aucune correction apportée."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f17",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Rapport ASS'TECH sans dépassement — MED levée M08."
+  },
+  {
+    "slug": "bonnieu52006022022-08-3038174994400017f18",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Clôture absente sur moitié du périmètre (haies non entretenues), déchets en limite de propriété, benne pneumatiques en bordure — NC physique de sécurité périmétrique M14."
+  },
+  {
+    "slug": "bonnieu52006022023-02-2338174994400017f01",
+    "domains": [
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A06_BET",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Diagnostic sols révèle pollution significative aux métaux lourds (Cu, Zn, Pb) mais rapport insuffisamment précis — pollution sol confirmée, étude complémentaire documentaire requise M01."
+  },
+  {
+    "slug": "bonnieu52006022023-02-2338174994400017f02",
+    "domains": [
+      "D07_RETENTION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Zone imperméabilisée, véhicules à risques sur surfaces imperméables avec rétention — MED levée M08."
+  },
+  {
+    "slug": "bonnieu52006022023-02-2338174994400017f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Registre produits dangereux mis à jour le 2 janvier 2023 mais déjà périmé au jour de l'inspection — mise à jour insuffisante M01."
+  },
+  {
+    "slug": "bonnieu52006022023-02-2338174994400017f04",
+    "domains": [
+      "D07_RETENTION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Moteurs entreposés sous abri et dans emballages étanches, MED levée — conformité M08."
+  },
+  {
+    "slug": "bonnieu52006022023-02-2338174994400017f05",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Nouvelles clôtures installées, pneumatiques en benne abritée, zone dégagée — retour conformité M08, MED levée."
+  },
+  {
+    "slug": "bonnieu52006022023-02-2338174994400017f06",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Vanne accessible, actionnable, visible, pancarte et plan mis à jour — MED levée M08."
+  },
+  {
+    "slug": "bonnieu52006022023-02-2338174994400017f07",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Q18 transmis mais plusieurs observations non résolues — contrôle incomplet, actions correctives électriques toujours en cours M07."
+  },
+  {
+    "slug": "bonnieu52006022023-02-2338174994400017f08",
+    "domains": [
+      "D08_DECHETS",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "399 VHU admis en 2022, nettement sous le plafond de 800 — retour conformité, MED levée M08."
+  },
+  {
+    "slug": "bonnieu52006022023-02-2338174994400017f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "3 détecteurs de fumée ajoutés dans l'atelier — MED levée M08."
+  },
+  {
+    "slug": "bonnieu52006022023-02-2338174994400017f10",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Pictogrammes danger mis à jour conformément CLP — MED levée M08."
+  },
+  {
+    "slug": "bonnieu52006022023-02-2338174994400017f11",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Schéma des réseaux transmis mais incomplet (manque adductions, points d'entrée/sortie eaux) — document toujours insuffisant M01."
+  },
+  {
+    "slug": "bonnieu52006022026-02-2738174994400017f01",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Bidon 5 L non étiqueté avec liquide non identifié dans atelier — constat physique de produit non identifié M14."
+  },
+  {
+    "slug": "bonnieu52006022026-02-2738174994400017f02",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Absorbants présents en stock et en position opérationnelle — conformité M08."
+  },
+  {
+    "slug": "bonnieu52006022026-02-2738174994400017f03",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Produits chimiques (~30 L) non stockés sur rétention malgré prescription — absence de rétention physique M14."
+  },
+  {
+    "slug": "bonnieu52006022026-02-2738174994400017f04",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Produits entreposés sans incompatibilité — conformité M08."
+  },
+  {
+    "slug": "bonnieu52006022026-02-2738174994400017f05",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Volumes très limités (6 bidons 5 L), consommation faible, gestion par besoin suffisante — formalisation non nécessaire, conformité M08."
+  },
+  {
+    "slug": "bordeaux-bois-service-merignac52089222022-11-1432802448400045f01",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Impossibilité de confirmer respect volume maximal stocké (2105 m³), suivi flux absent — NC technique de quantification M14 avec risque incendie."
+  },
+  {
+    "slug": "bordeaux-bois-service-merignac52089222022-11-1432802448400045f02",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Hauteur dépassant 3m, stockages hors îlots et sur zone enherbée zone 2 — NC physique stockage bois M14."
+  },
+  {
+    "slug": "bordeaux-bois-service-merignac52089222022-11-1432802448400045f03",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Distance stockage < 10m de l'atelier, distance toiture < 1m, absence de mur coupe-feu ou modélisation flux thermiques côté Nord — NC physique sécurité incendie M14."
+  },
+  {
+    "slug": "bordeaux-bois-service-merignac52089222022-11-1432802448400045f04",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Stockages zone traitement bois conformes aux prescriptions — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-ambares-et-lagrave52127412025-12-0924330031600011f01",
+    "domains": [
+      "D12_ADMIN",
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M19_CESSATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Installation n'est plus classée ICPE (chaudière 900 kW + GE 800 kW en dessous seuil 1 MW) — vérification classement M17, exploitant doit demander abrogation/cessation M19."
+  },
+  {
+    "slug": "bordeaux-metropole-ambares-et-lagrave52127412025-12-0924330031600011f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Teneur O2 sur gaz sec mesurée à 3,3% (seuil AP : 3%) lors du contrôle organisme agréé de janvier 2023 — dépassement VLE mesuré M14. Écart faible, pas de suites formelles, G2."
+  },
+  {
+    "slug": "bordeaux-metropole-ambares-et-lagrave52127412025-12-0924330031600011f03",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "3 conteneurs 1 m³ de polymère liquide Flopam dans local pompes à boues sans rétention — absence physique de rétention M14."
+  },
+  {
+    "slug": "bordeaux-metropole-ambes52117962023-04-1724330031600011f01",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Capacités maximales respectées — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-ambes52117962023-04-1724330031600011f02",
+    "domains": [
+      "D08_DECHETS",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Installation entretenue et nettoyée — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-ambes52117962023-04-1724330031600011f03",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Installation exploitée en présence de deux personnes désignées — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-ambes52117962023-04-1724330031600011f04",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Panneaux heures d'ouverture et liste déchets présents à l'entrée — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-ambes52117962023-04-1724330031600011f05",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Installation entièrement clôturée, accès conformes — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-ambes52117962023-04-1724330031600011f06",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Panneau vitesse présent, bordures et barrières bennes en place — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-ambes52117962023-04-1724330031600011f07",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Contrôle Bureau Veritas réalisé le 22/04/2022, observation corrigée en mai 2022 — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-ambes52117962023-04-1724330031600011f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Pas de remarques, plan d'intervention incendie présent — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-ambes52117962023-04-1724330031600011f09",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Affichage risque chute visible, zone basse interdite aux usagers — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-ambes52117962023-04-1724330031600011f10",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Aucune anomalie constatée sur rétentions — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-ambes52117962023-04-1724330031600011f11",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Déchèterie entièrement imperméabilisée, eaux transitant par séparateur HC, vanne d'isolement posée — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-ambes52117962023-04-1724330031600011f12",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "BSD sous Trackdéchets non émis systématiquement avec l'exploitant comme producteur — défaillance reporting numérique M03."
+  },
+  {
+    "slug": "bordeaux-metropole-ambes52117962023-04-1724330031600011f13",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Analyses de rejet conformes réalisées en juin 2022 par Arcagée — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-ambes52117962023-04-1724330031600011f14",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Déchets non dangereux dans bennes spécifiques clairement identifiées — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-ambes52117962023-04-1724330031600011f15",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Registre déchets sortants incomplet (qualification traitement final et code traitement manquants) — document incomplet M01."
+  },
+  {
+    "slug": "bordeaux-metropole-ambes52117962023-04-1724330031600011f16",
+    "domains": [
+      "D07_RETENTION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Huiles de vidange en cuve enterrée avec rétention, contrôle étanchéité 2019 sans anomalie, absorbant en place — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-atelier-achard-tram52126452025-06-1150975221800024f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "PGS 2023 présenté, PGS 2024 en finalisation — conformité documentaire M08."
+  },
+  {
+    "slug": "bordeaux-metropole-atelier-achard-tram52126452025-06-1150975221800024f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Emissions diffuses COV à 85% de la consommation solvants, seuil réglementaire de 25% très largement dépassé — NC technique émissions atmosphériques M14."
+  },
+  {
+    "slug": "bordeaux-metropole-atelier-achard-tram52126452025-06-1150975221800024f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Mesures semestrielles et annuelles 2024 sans dépassement, mesures 2025 en cours — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-atelier-achard-tram52126452025-06-1150975221800024f04",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant incapable de codifier la sciure de bois (dangereux 03 01 04* ou non dangereux 03 01 05) — absence de caractérisation documentaire M01."
+  },
+  {
+    "slug": "bordeaux-metropole-atelier-achard-tram52126452025-06-1150975221800024f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "medium",
+    "reasoning": "3 séparateurs HC présents dont pour zone lavage manuel (NC 2018 résolue), entretien 1–3 fois/an justifié — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-atelier-achard-tram52126452025-06-1150975221800024f06",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "3 obturateurs gonflables sur réseaux EP avec terminaux de gonflage et commande à distance — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-atelier-achard-tram52126452025-06-1150975221800024f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Fréquences de mesure respectées, résultats 2024 présentés — conformité M08, dépassement pH traité fiche n°8."
+  },
+  {
+    "slug": "bordeaux-metropole-atelier-achard-tram52126452025-06-1150975221800024f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "pH ponctuel à 9 mesuré sur rejet n°1 en novembre 2024 (seuil 5,5–8,5), cause non expliquée — dépassement VLE rejet aqueux M14."
+  },
+  {
+    "slug": "bordeaux-metropole-atelier-achard-tram52126452025-06-1150975221800024f09",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Convention avec gestionnaire réseau assainissement de 2018 non renouvelée — document périmé M01."
+  },
+  {
+    "slug": "bordeaux-metropole-atelier-achard-tram52126452025-06-1150975221800024f10",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Suivi piézométrique semestriel sur 4 piézomètres, capuchonnés et cadenassés — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-atelier-achard-tram52126452025-06-1150975221800024f11",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Bidon 5 L lave-vitre dans atelier vitrerie sans rétention — absence physique de rétention M14."
+  },
+  {
+    "slug": "bordeaux-metropole-atelier-achard-tram52126452025-06-1150975221800024f12",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Inspection télévisuelle 2024 révèle anomalies sur réseaux EU/EP, travaux de chemisage programmés courant 2026 — réseaux en état dégradé M14."
+  },
+  {
+    "slug": "bordeaux-metropole-begles1000233902023-06-2724330031600011f01",
+    "domains": [
+      "D12_ADMIN",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Volume annuel 794 m³ conforme au régime déclaration rubrique 1435 — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-begles1000233902023-06-2724330031600011f02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Contrôle périodique de 2020 avec 7 NC non résolues, aucun justificatif de résorption — contrôle périodique sans suivi correctif M07."
+  },
+  {
+    "slug": "bordeaux-metropole-begles1000233902023-06-2724330031600011f03",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Accès SDIS disponible en permanence — conformité M08."
+  },
+  {
+    "slug": "bordeaux-metropole-begles1000233902023-06-2724330031600011f04",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Anomalie installations électriques signalée dans rapport Bureau Veritas juin 2023 sans preuve de correction, bouton arrêt urgence non testé — contrôle électrique incomplet M07."
+  },
+  {
+    "slug": "bordeaux-metropole-begles1000233902023-06-2724330031600011f05",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Traces importantes d'hydrocarbures sur la station service, notamment à la pompe gasoil — constat physique de pollution/malpropreté M14."
+  }
+]

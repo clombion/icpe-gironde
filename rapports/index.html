@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rapports d'inspection ICPE — cahier d'enquête</title>
+<meta name="description" content="Rechercher et vérifier les fiches de constat d'inspection ICPE en Gironde, avec snippet PDF à la bonne page.">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="style.css?v=12">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead__topline">
+    <div>
+      <div class="masthead__label">Cahier d'enquête</div>
+      <h1 class="masthead__title">Rapports d'inspection</h1>
+    </div>
+    <a class="masthead__home" href="../">← retour à l'accueil</a>
+  </div>
+  <nav class="masthead__nav">
+    <a href="./" class="active">Vérifier</a>
+    <a href="angles.html">Analyser par angle</a>
+  </nav>
+</header>
+
+<div class="search-bar">
+  <input
+    class="search-bar__input"
+    id="search-input"
+    type="search"
+    placeholder="Rechercher : mot-clé, nom, commune, SIRET…"
+    autocomplete="off"
+  >
+  <label class="search-bar__toggle" title="Inclut le corps des constats et prescriptions (~13 MB, plus lent au premier usage)">
+    <input type="checkbox" id="fulltext-toggle"> texte complet
+  </label>
+  <span class="search-bar__hint" id="search-hint">Chargement…</span>
+</div>
+
+<div class="filter-bar" id="filter-bar">
+  <button class="filter-bar__toggle" id="filter-toggle" type="button" hidden>Filtres ▾</button>
+  <div class="filter-bar__fields" id="filter-fields">
+    <select id="filter-suite" class="filter-bar__select" disabled>
+      <option value="">Type de suites</option>
+    </select>
+    <select id="filter-commune" class="filter-bar__select" disabled>
+      <option value="">Commune</option>
+    </select>
+    <select id="filter-regime" class="filter-bar__select" disabled>
+      <option value="">Régime</option>
+    </select>
+    <select id="filter-seveso" class="filter-bar__select" disabled>
+      <option value="">Seveso</option>
+    </select>
+    <select id="filter-annee" class="filter-bar__select" disabled>
+      <option value="">Année</option>
+    </select>
+  </div>
+</div>
+
+<div id="init-loading" class="init-loading">
+  <div class="loading__spinner"></div>
+  <div class="init-loading__info">
+    <span id="init-status">Chargement du moteur de recherche…</span>
+    <div class="init-loading__bar"><div class="init-loading__fill" id="init-progress"></div></div>
+    <span class="init-loading__step" id="init-step">1 / 3</span>
+  </div>
+</div>
+
+<div class="layout" id="layout" hidden>
+  <aside class="results" id="results">
+    <p class="results__empty" id="results-empty">
+      Tapez un mot-clé pour rechercher parmi les fiches de constat.
+    </p>
+  </aside>
+
+  <main class="detail" id="detail">
+    <p class="detail__empty" id="detail-empty">
+      Sélectionnez une fiche dans les résultats pour voir son détail et la source PDF.
+    </p>
+  </main>
+</div> <!-- .layout -->
+
+<script type="module" src="app.js?v=12"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "document_date": "2022-10-27",
+  "document_title": "crl-sud-gironde52080742022-10-2745264452900011f09",
+  "document_summary": "L'inspection d'un site agro-industriel (CRL Sud Gironde) constate que si les rejets respectent les concentrations limites réglementaires, la compatibilité des émissions avec le milieu naturel récepteur n'a pas encore été formellement démontrée, et l'exploitant est invité à proposer des valeurs limites en flux.",
+  "surprises": "La conformité en concentration n'est pas suffisante : l'inspection exige une démonstration de compatibilité avec le milieu naturel, une exigence plus élaborée que le simple respect des VLE.",
+  "tensions": "Les rejets sont conformes aux limites de concentration mais la compatibilité milieu n'est pas prouvée — une distinction fine entre conformité réglementaire stricte et protection effective du milieu aquatique.",
+  "codes": [
+    {
+      "description": "Le respect des valeurs limites en concentration ne suffit pas à établir la compatibilité avec le milieu naturel récepteur — l'inspection exige une approche par flux.",
+      "excerpts": [
+        "Bien que les rejets soient conformes aux limites d'émission en concentration, la compatibilité des rejets avec le milieu naturel n'a pas été démontrée"
+      ],
+      "valence": "negative",
+      "code": "Conformité concentration insuffisante"
+    },
+    {
+      "description": "L'exploitant est mis en demeure de prouver que ses rejets sont compatibles avec les objectifs de qualité du milieu récepteur (ruisseau de Tauziette) sur la base des analyses semestrielles.",
+      "excerpts": [
+        "Sur la base des analyses semestrielles, l'exploitant justifie que ses rejets sont compatibles avec le milieu naturel récepteur (ruisseau de Tauziette)"
+      ],
+      "valence": "neutral",
+      "code": "Démonstration compatibilité milieu naturel"
+    },
+    {
+      "description": "L'exploitant est invité à proposer des valeurs limites d'émission en flux en vue d'un futur arrêté préfectoral complémentaire, instituant un processus collaboratif de fixation de normes.",
+      "excerpts": [
+        "Il propose à l'inspection des installations des valeurs limites d'émission en flux, en vue d'un prochain arrêté préfectoral complémentaire"
+      ],
+      "valence": "neutral",
+      "code": "Proposition VLE flux pour arrêté complémentaire"
+    },
+    {
+      "description": "La prescription impose que le flux rejeté ne dépasse pas 10% du flux admissible par le milieu, une règle plus contraignante que la simple conformité aux VLE en concentration.",
+      "excerpts": [
+        "Pour chaque polluant, le flux rejeté est inférieur à 10 % du flux admissible par le milieu"
+      ],
+      "valence": "neutral",
+      "code": "Exigence règle 10% flux admissible"
+    }
+  ]
+}

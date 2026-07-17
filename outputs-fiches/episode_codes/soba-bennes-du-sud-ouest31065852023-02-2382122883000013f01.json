@@ -1,0 +1,57 @@
+{
+  "document_date": "2023-02-23",
+  "document_title": "soba-bennes-du-sud-ouest31065852023-02-2382122883000013f01",
+  "codes": [
+    {
+      "description": "Des contrôles par sondage révèlent que l'exploitant a régulièrement dépassé le seuil de 100 kg/j de produits solvantés (valeurs allant jusqu'à 152 kg/j), y compris le jour même de l'inspection, malgré une mise en demeure antérieure.",
+      "excerpts": [
+        "-02/08 : 126 kg/j ; -03/08 : 110 kgj ; -01/09 : 152 kg/j ; -12/09 (JOUR DE L'INSPECTION) : 112 kg/j alors que la journée de travail n'était pas finalisée"
+      ],
+      "valence": "negative",
+      "code": "Dépassement seuil solvants confirmé"
+    },
+    {
+      "description": "L'exploitant continue d'exercer l'activité au-delà du seuil de la déclaration malgré une mise en demeure antérieure (APMD 21/09/2021), ce qui conduit l'inspection à proposer une amende administrative.",
+      "excerpts": [
+        "La mise en demeure supra n'est donc pas respectée compte tenu du fait que l'établissement continue d'exploiter l'activité 2940 sous le régime de l'Enregistrement."
+      ],
+      "valence": "negative",
+      "code": "APMD non respectée récidive"
+    },
+    {
+      "description": "Lors de l'inspection de 2023, l'exploitant présente un registre et un système de pesée montrant un respect apparent du seuil, alors que des données antérieures révèlent des dépassements répétés.",
+      "excerpts": [
+        "Il a donc été relevé que l'exploitant a réduit son activité au plus au seuil de la déclaration. Ce point de l'APMD du 21/09/2021 est soldé."
+      ],
+      "valence": "mixed",
+      "code": "Conformité affichée faussée"
+    },
+    {
+      "description": "Face à la mise en demeure, l'exploitant opte pour le maintien du régime déclaratif (plutôt que le dépôt d'un dossier d'enregistrement) en s'engageant à limiter son activité sous le seuil.",
+      "excerpts": [
+        "l'exploitant a opté pour le maintien de son établissement sous le régime déclaratif."
+      ],
+      "valence": "neutral",
+      "code": "Stratégie déclarative choisie"
+    },
+    {
+      "description": "Le dépassement de l'échéance de l'APMD et la poursuite de l'activité hors régime autorisé conduisent l'inspection à proposer à la Préfète une amende administrative à l'encontre de l'exploitant.",
+      "excerpts": [
+        "l'inspection a proposé à Madame la Préfète de prendre à l'encontre de l'exploitant, un arrêté préfectoral prescrivant une amende administrative pour non-respect dudit APMD."
+      ],
+      "valence": "negative",
+      "code": "Amende administrative proposée"
+    },
+    {
+      "description": "L'exploitant met en place une consigne opérationnelle (arrêter la peinture avant d'atteindre 100 kg/j) dont le respect repose entièrement sur la discipline des opérateurs, sans dispositif de blocage automatique.",
+      "excerpts": [
+        "l'agent qui pesait la peinture lors de la visite a déclaré avoir pour consigne d'arrêter les activités d'application de peinture avant d'atteindre le seuil des 100 kg/j."
+      ],
+      "valence": "mixed",
+      "code": "Consigne autolimitation salariés"
+    }
+  ],
+  "document_summary": "Suivi d'une mise en demeure pour SOBA Bennes (Coutras) sur le dépassement du seuil de 100 kg/j de solvants : l'inspection de 2023 soldait l'écart après mise en place d'un registre, mais des données antérieures (été 2022) documentent des dépassements répétés et le non-respect de la mise en demeure, conduisant à une proposition d'amende administrative.",
+  "surprises": "L'inspection clôt le point en 2023 alors que des preuves de dépassement de seuil datent de 2022 — il y a une discontinuité entre les périodes de contrôle qui permet à l'exploitant de présenter une conformité de façade le jour de la visite.",
+  "tensions": "La conformité constatée lors de l'inspection de février 2023 s'appuie sur des données récentes uniquement, alors que les données de l'été 2022 démontrent des dépassements systématiques — tension entre le temps de l'inspection ponctuelle et le comportement continu de l'exploitant."
+}

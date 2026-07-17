@@ -1,0 +1,77 @@
+Constats body:
+Constats du 15/04/2022:
+1/ L’exploitant proposera des mesures concrètes pour améliorer la connaissance, par les personnels
+des  EE,  des  consignes  en  cas  d’alarme. Le  support  de  la  formation  Sécurité  environnement
+Simorep doit par ailleurs être vérifié, et complété si nécessaire, de façon à intégrer les consignes
+précises associées à chacune des alarmes actuellement en place.
+Observations complémentaires :
+4/ L'exploitant précisera si une réflexion sur le nombre d’alarmes actuellement en place pourrait
+être engagée, au vu des retours d’expérience du site et du secteur d’activité, des remontées
+éventuelles sur le sujet faites par des EE (ou tout autre intervenant) et des pratiques en vigueur sur
+les autres établissements du groupe.
+Constat du jour :
+L’exploitant a fourni le nouveau dépliant à destination des entreprises extérieures, qui reprécise le
+fonctionnement des alarmes et la conduite à tenir. L’exploitant indique avoir remis à jour le
+support de formation.
+L’exploitant indique avoir fait du benchmark auprès de différents gros sites industriels (INEOS à
+Lavera, plateforme de Lacq, site Michelin aux USA,…). L’exploitant indique que ces sites ont en
+général plus d’alarmes que le site de SIMOREP.
+L’exploitant indique que l’alarme de zone est régulièrement entendue sur site car elle sert à la fois
+aux accidents de travail et aux accidents industriels.
+D'après l'exploitant, les EE connaissent la zone dans laquelle ils travaillent. Les consignes passées
+reposent sur un usage systématique du bouton d'alerte en cas d'observation d'anomalies (accident
+de personne, fuite, incendie, ..), une évacuation de la zone de travail pour permettre l'accès aux
+pompiers et sur un point de rassemblement spécifique aux EE,
+Par ailleurs, l’exploitant indique être en cours de changement de système d’accès pour permettre
+un comptage plus rapide des personnes sur site. Lors de la remise de ces nouveaux badges, un
+rappel des consignes est réalisépour l’ensemble du personnel interne et entreprises extérieures.
+Constat du 15/04/2022 :
+2/ Une participation des EE à des exercices (rassemblement, POI…) doit par ailleurs être prévue à
+intervalles réguliers.
+Constat du jour :
+L’exploitant s’est engagé à réaliser annuellement, un exercice POI avec déclenchement d’alarme, ce
+qui permettra de vérifier à cette occasion l’application des conduites à tenir par les entreprises
+extérieures.
+L’exploitant a indiqué le jour de l’inspection ne pas avoir encore réalisé l’exercice car il attend la
+6
+
+mise en place du nouveau système de contrôle des accès prévu courant mars-avril 2023.
+L’exploitant informera l’inspection de la date de cet exercice pour qu’elle puisse y participer
+éventuellement.
+Constat du 15/04/2022 :
+3/ Un seul point de regroupement des EE est fixé, à l’ouest du site : l’exploitant doit prévoir une
+stratégie alternative en cas d’impossibilité d’effectuer ce regroupement à cet endroit-là (car situé
+sous les vents dominants, ou dont l’accès nécessite de traverser une zone de dangers, etc.).
+Constat du jour :
+L’exploitant a rappelé que le point de rassemblement actuel des EE, situé à l’Ouest du site, a été
+choisi notamment car il ne se trouve pas sous les vents dominants. De plus, en cas de fuite de
+produit ou d’incendie, et donc de risque de traversée de zone de danger, l'exploitant considère
+qu'il revient à la cellule DOI de définir le ou les points de rassemblements alternatifs les plus
+adaptés et les moyens permettant d’orienter les personnes vers ces lieux, en fonction de la
+localisation des sous-traitants par rapport à l’évènement et aux conditions météorologiques du
+moment. Le jour de l'inspection, l'exploitant a indiqué qu'il ne manipule pas de toxique aigüe.
+Cependant le site utilise des toxiques aigus de catégorie 1 et 3  dans des quantités supérieures au
+seuil SEVESO seuil bas et des toxiques aigus de catégorie 2 dans des quantités supérieures au seuil
+de l'autorisation.
+L'inspection demande à l'exploitant d'évaluer les zones de regroupement préférentiel en fonction
+des scénarios impliquant des substances avec une toxicité aiguë de catégorie 1, 2 et 3.
+De plus l’exploitant a étudié la possibilité d’implanter un second point de rassemblement des
+entreprises extérieures. Notamment, la mise en oeuvre du nouveau système de contrôle d’accès
+devrait  leur  permettre  de  mettre  en  place  une  évacuation  par  l’entrée  salariés.  Ceci  doit
+néanmoins encore être testé avant mise en place.
+Observations : L’exploitant informera l’inspection de la date de l’exercice POI avec évacuation
+pour qu’elle puisse y participer éventuellement.
+L'inspection demande à l'exploitant d'évaluer les zones de regroupement préférentiel des EE en
+fonction des scénarios impliquant des substances avec une toxicité aiguë de catégorie 1, 2 et 3.
+
+Prescription:
+En cohérence avec les procédures du point 2 (Identification et évaluation des risques d'accidents
+majeurs) et du point 3 (Maîtrise des procédés, maîtrise d'exploitation), des procédures sont mises
+en œuvre pour la gestion des situations d'urgence.
+Leur  articulation  avec  les  plans  d'opération  interne  prévus  à  l'article  L.  515-41  du  code  de
+l'environnement est assurée.
+Ces procédures font l'objet :
+- d'une  formation  spécifique  dispensée  à  l'ensemble  du  personnel  concerné  travaillant  dans
+l'établissement,  y  compris  le  personnel  d'entreprises  extérieures  appelé  à  intervenir
+momentanément dans l'établissement ;
+- de tests de mise en œuvre sous forme d'exercice, et, si nécessaire, d'aménagements.

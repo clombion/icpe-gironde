@@ -1,0 +1,150 @@
+{
+  "declaration": {
+    "extraction_categories": [
+      {
+        "name": "regulatory_references",
+        "type": "string_array",
+        "description": "Articles de loi, arrêtés préfectoraux ou ministériels cités dans le texte"
+      },
+      {
+        "name": "findings",
+        "type": "object_array",
+        "description": "Constats factuels identifiés lors de l'inspection",
+        "fields": {
+          "finding": {
+            "type": "string",
+            "required": true
+          },
+          "conformity": {
+            "type": "string",
+            "required": true,
+            "note": "conforme | non-conforme | observation"
+          }
+        }
+      },
+      {
+        "name": "prescribed_actions",
+        "type": "object_array",
+        "description": "Actions prescrites à l'exploitant",
+        "fields": {
+          "action": {
+            "type": "string",
+            "required": true
+          },
+          "deadline": {
+            "type": "string",
+            "required": false,
+            "note": "Délai si mentionné"
+          }
+        }
+      },
+      {
+        "name": "risk_indicators",
+        "type": "string_array",
+        "description": "Types de risques ou dangers mentionnés (pollution, incendie, explosion, fuite, etc.)"
+      },
+      {
+        "name": "quotes",
+        "type": "object_array",
+        "description": "Citations verbatim significatives",
+        "fields": {
+          "text": {
+            "type": "string",
+            "required": true
+          },
+          "context": {
+            "type": "string",
+            "required": false
+          }
+        }
+      }
+    ]
+  },
+  "pass1_jsonschema": {
+    "type": "object",
+    "required": [
+      "document_meta"
+    ],
+    "properties": {
+      "document_meta": {
+        "type": "object",
+        "required": [
+          "title",
+          "date"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string"
+          }
+        }
+      },
+      "regulatory_references": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "findings": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "finding": {
+              "type": "string"
+            },
+            "conformity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "finding",
+            "conformity"
+          ]
+        }
+      },
+      "prescribed_actions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string"
+            },
+            "deadline": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "action"
+          ]
+        }
+      },
+      "risk_indicators": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "quotes": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string"
+            },
+            "context": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "text"
+          ]
+        }
+      }
+    }
+  }
+}

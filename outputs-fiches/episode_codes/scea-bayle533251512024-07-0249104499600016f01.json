@@ -1,0 +1,33 @@
+{
+  "document_date": "2024-07-02",
+  "document_title": "scea-bayle533251512024-07-0249104499600016f01",
+  "document_summary": "L'inspection de l'élevage SCEA Bayle porte sur les fosses de stockage du lisier. Deux fosses sont en service : une fosse gonflable de secours sans regard d'étanchéité (vide au moment de l'inspection), et une fosse enterrée de 500 m³ équipée de drains sous géomembrane avec regard dans une pente.",
+  "surprises": "Les drains sous géomembrane récoltent dans un regard situé dans une pente — une configuration qui peut compliquer la surveillance de l'étanchéité et favoriser des écoulements non contrôlés.",
+  "tensions": "La fosse gonflable ne possède pas de regard pour vérifier son étanchéité, ce qui pose une question sur la capacité à détecter une fuite, même si elle était vide le jour de l'inspection.",
+  "codes": [
+    {
+      "description": "La fosse gonflable de secours ne dispose pas d'un regard permettant de surveiller son étanchéité, contrairement aux exigences réglementaires pour les stockages de lisier.",
+      "excerpts": [
+        "tune fosse de secours qui se gonfle avec le lisier. Elle n'est pas pourvue de regard pour l'étanchéité."
+      ],
+      "valence": "negative",
+      "code": "Fosse de secours sans dispositif de contrôle d'étanchéité"
+    },
+    {
+      "description": "La fosse principale de 500 m³ est équipée d'une géomembrane avec drains et regard de collecte, constituant un système de détection des fuites.",
+      "excerpts": [
+        "une fosse de 500 m³ enterrée qui est tout le temps gonflée, mise en service depuis 2007. Des drains situés sous la géomembrane récolent dans un regard qui est situé dans une pente."
+      ],
+      "valence": "mixed",
+      "code": "Fosse enterrée sous géomembrane"
+    },
+    {
+      "description": "Le lisier est un effluent d'élevage dont l'imperméabilisation des fosses de stockage est réglementairement encadrée pour prévenir toute pollution du milieu naturel.",
+      "excerpts": [
+        "Les équipements de stockage et de traitement des effluents d'élevage [...] sont conçus, dimensionnés et exploités de manière à éviter tout déversement dans le milieu naturel."
+      ],
+      "valence": "neutral",
+      "code": "Stockage lisier — risque d'étanchéité"
+    }
+  ]
+}

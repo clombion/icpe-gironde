@@ -1,0 +1,43 @@
+{
+  "document_date": "2026-01-08",
+  "document_title": "barriere-freres533007932026-01-0845620404900054f05",
+  "codes": [
+    {
+      "description": "Le site ne dispose que d'un seul accès pour les services de secours, ce qui est acceptable grâce à des mesures compensatoires (télésurveillance, gardien, ouverture à distance).",
+      "excerpts": [
+        "L'inspection des installations classées a pu constater sur site l'accès unique présent pour l'intervention des services de secours.",
+        "le portail était ouvert de 7h45 à 18h00 et de la possibilité d'ouverture à distance en cas de nécessité. En dehors des heures ouvrées, le site est télésurveillé et un gardien habite sur site."
+      ],
+      "valence": "mixed",
+      "code": "Accès secours unique avec compensations"
+    },
+    {
+      "description": "Le plan de défense incendie prévoit une procédure de levée de doute par caméra et d'alerte des astreintes pour l'accueil des secours.",
+      "excerpts": [
+        "Selon le plan de défense incendie, sur alarme incendie, après levée de doute (caméras), les services de secours et les astreintes directions et techniques sont contactées pour assurer l'accueil des secours et l'ouverture du portail d'accès (si gardien absent)."
+      ],
+      "valence": "positive",
+      "code": "Plan de défense incendie opérationnel"
+    },
+    {
+      "description": "La réglementation exige un accès permanent aux services d'incendie et de secours, y compris hors heures d'exploitation.",
+      "excerpts": [
+        "L'installation dispose en permanence d'un accès au moins pour permettre à tout moment l'intervention des services d'incendie et de secours.",
+        "L'accès au site est conçu pour pouvoir être ouvert immédiatement sur demande des services d'incendie et de secours ou directement par ces derniers."
+      ],
+      "valence": "neutral",
+      "code": "Permanence d'accès aux secours"
+    },
+    {
+      "description": "La présence permanente d'un gardien et d'un système de télésurveillance constitue la mesure organisationnelle compensant l'accès unique.",
+      "excerpts": [
+        "En dehors des heures ouvrées, le site est télésurveillé et un gardien habite sur site."
+      ],
+      "valence": "positive",
+      "code": "Surveillance nocturne et gardiennage"
+    }
+  ],
+  "document_summary": "L'inspection de Barrière Frères vérifie l'accessibilité aux services de secours : le site ne dispose que d'un accès unique, mais des mesures compensatoires (portail à ouverture à distance, télésurveillance, gardien résident, plan incendie) assurent la permanence de l'accès.",
+  "surprises": "La présence d'un gardien habitant sur site est une mesure de sécurité peu commune et efficace pour garantir l'accès des secours hors heures ouvrées.",
+  "tensions": "Un seul accès pour un site industriel crée un point de défaillance unique — la conformité repose entièrement sur des mesures organisationnelles qui pourraient échouer simultanément à un sinistre."
+}

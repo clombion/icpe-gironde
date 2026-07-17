@@ -1,0 +1,49 @@
+{
+  "document_date": "2025-07-07",
+  "document_title": "donitian-demolition31061472025-07-0748797039400010f07",
+  "document_summary": "L'inspection d'une entreprise de démolition constate que des fûts de lubrifiants sont stockés sans rétention et que la cuvette de rétention des GRV de gazole est dégradée (enfoncements, déchirures, empoussièrement), la rendant potentiellement inopérante.",
+  "surprises": "La présence de bidons dont les étiquettes sont illisibles empêche de savoir s'ils nécessitent une rétention — un problème élémentaire de gestion des produits chimiques dans une installation soumise à contrôle.",
+  "tensions": "L'exploitant dispose d'une cuvette de rétention pour les GRV de gazole, mais son état physique est tel qu'elle ne peut plus remplir sa fonction — une conformité de façade dissimulant une non-conformité réelle.",
+  "codes": [
+    {
+      "description": "Quatre fûts de 200 litres de lubrifiants sont entreposés sans aucun dispositif de rétention associé, en violation des prescriptions sur le stockage des liquides potentiellement polluants.",
+      "excerpts": [
+        "4 fûts d'environ 200 L de lubrifiants sont entreposés dans le hangar sans aucune rétention"
+      ],
+      "valence": "negative",
+      "code": "Fûts lubrifiants sans rétention"
+    },
+    {
+      "description": "La cuvette de rétention des GRV de gazole présente des dommages physiques (enfoncements, déchirures) et un empoussièrement qui compromettent son efficacité réelle.",
+      "excerpts": [
+        "des enfoncements et déchirures locales de la tôle, un empoussièrement généralisé et la présence de nombreux bidons vides dans cette cuvette sont de nature à la rendre inopérante"
+      ],
+      "valence": "negative",
+      "code": "Rétention dégradée inopérante"
+    },
+    {
+      "description": "Des bidons de produits chimiques sans étiquetage lisible sont observés, empêchant toute évaluation du risque et de la nécessité d'une rétention.",
+      "excerpts": [
+        "divers bidons de produits chimiques sont également observés juste à côté de la rétention sans que les inscriptions ne soient lisibles, ne permettant pas de savoir s'ils nécessitent une rétention"
+      ],
+      "valence": "negative",
+      "code": "Étiquetage produits illisible"
+    },
+    {
+      "description": "L'inspection fixe un délai de 15 jours pour placer tous les liquides polluants sur des rétentions adéquates et fournir des pièces justificatives photographiques.",
+      "excerpts": [
+        "Il est demandé à l'exploitant de placer, sous 15 jours, l'ensemble des liquides susceptibles de générer une pollution sur des rétentions adéquates"
+      ],
+      "valence": "negative",
+      "code": "Délai 15 jours retour conformité"
+    },
+    {
+      "description": "Au-delà de la réparation physique, l'inspection exige une vérification du calcul de dimensionnement de la cuvette pour s'assurer que sa capacité est réglementairement suffisante.",
+      "excerpts": [
+        "Un nettoyage et une vérification de la cuvette utilisée pour les stocks de gazole doivent être réalisés. Le dimensionnement doit également être vérifié"
+      ],
+      "valence": "neutral",
+      "code": "Vérification dimensionnement rétention"
+    }
+  ]
+}

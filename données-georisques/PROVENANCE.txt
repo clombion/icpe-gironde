@@ -1,0 +1,12 @@
+# Provenance de l'export bulk Géorisques
+
+date_téléchargement : 2026-04-08T18:41:02
+url                 : https://www.georisques.gouv.fr/api/v1/csv/installations_classees?departement=33
+archive             : données-georisques/raw/2026-04-08T18-41-02_gironde_bulk.zip
+taille_octets       : 590513
+sha256              : e015373b9ead3ef202b87b19204b8bf2b10b773f02af6274965a6e90610fa713
+encodage_source     : iso-8859-1
+séparateur          : ;
+
+Les CSV extraits dans ce dossier sont convertis en UTF-8.
+Les originaux ISO-8859-1 restent disponibles dans raw/ (ZIP).

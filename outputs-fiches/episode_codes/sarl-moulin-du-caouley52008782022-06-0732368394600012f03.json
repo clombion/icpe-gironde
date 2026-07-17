@@ -1,0 +1,25 @@
+{
+  "document_date": "2022-06-07",
+  "document_title": "sarl-moulin-du-caouley52008782022-06-0732368394600012f03",
+  "document_summary": "La fiche constate que l'exploitant de la pisciculture n'a transmis aucune valeur de débit de rejet. Les seules mesures effectuées (débits cours d'eau et entrants) sont réalisées une fois par mois par la méthode de la bouteille, sans que le débit de rejet soit calculé ou suivi.",
+  "surprises": "La méthode de mesure dite 'de la bouteille' pour les débits est une technique sommaire normalement réservée à des contextes très rustiques — son emploi mensuel comme seule forme de suivi hydrologique révèle des moyens de surveillance très limités.",
+  "tensions": "La prescription impose un suivi du rejet, mais l'exploitant ne mesure que les débits d'entrée et du cours d'eau récepteur, omettant le paramètre clé — le débit rejeté — qui permettrait de calculer l'impact réel.",
+  "codes": [
+    {
+      "description": "L'exploitant ne transmet aucune valeur de débit de rejet, ne permettant pas de vérifier la conformité aux volumes autorisés.",
+      "excerpts": [
+        "Aucune valeur de débits de rejet n'a été transmise par l'exploitant."
+      ],
+      "valence": "negative",
+      "code": "Absence de mesure du débit de rejet"
+    },
+    {
+      "description": "Seuls les débits du cours d'eau et les débits entrants sont estimés via la méthode de la bouteille, technique d'estimation grossière effectuée une fois par mois.",
+      "excerpts": [
+        "Seuls les débits du cours d'eau et les débits entrants sont estimés avec la méthode dite 'de la bouteille' une fois par mois."
+      ],
+      "valence": "negative",
+      "code": "Mesure sommaire par méthode de la bouteille"
+    }
+  ]
+}

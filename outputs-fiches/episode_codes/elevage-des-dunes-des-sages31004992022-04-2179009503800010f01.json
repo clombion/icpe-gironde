@@ -1,0 +1,42 @@
+{
+  "document_date": "2022-04-21",
+  "document_title": "elevage-des-dunes-des-sages31004992022-04-2179009503800010f01",
+  "document_summary": "L'inspection constate l'effondrement de la clôture d'un élevage canin, rendant possible la divagation des chiens et présentant un risque pour la sécurité publique. Un arrêté d'urgence impose la remise en état pérenne dans un délai de 48 heures.",
+  "surprises": "Le délai de mise en conformité est de 48 heures — délai d'urgence exceptionnellement court, révélateur de la gravité du risque perçu (divagation de chiens dangereux potentiellement).",
+  "tensions": "Les mesures déjà mises en place par l'exploitant sont jugées insuffisantes pour empêcher un nouvel effondrement, ce qui indique une récidive ou un premier correctif défaillant.",
+  "codes": [
+    {
+      "description": "La clôture de l'élevage est effondrée et les mesures correctives apportées sont insuffisantes pour éviter une nouvelle défaillance, permettant la divagation des animaux.",
+      "excerpts": [
+        "Les mesures mises en place ne permettent pas d'empêcher un nouvel effondrement de la clôture.",
+        "Les chiens pourraient divaguer et porter atteinte à la sécurité publique"
+      ],
+      "valence": "negative",
+      "code": "Clôture effondrée risque divagation"
+    },
+    {
+      "description": "L'arrêté prescrit une remise en état de la clôture dans un délai de 48 heures, ce qui constitue une mesure d'urgence impérative en raison du risque pour la sécurité publique.",
+      "excerpts": [
+        "est tenue, sous un délai de 48 h à compter de la date de notification du présent arrêté"
+      ],
+      "valence": "neutral",
+      "code": "Délai d'urgence 48 heures"
+    },
+    {
+      "description": "La prescription ne se contente pas de demander une réparation temporaire mais exige explicitement une solution pérenne empêchant tout nouvel effondrement.",
+      "excerpts": [
+        "cette remise en état devra être pérenne et empêcher tout nouvel effondrement de la clôture"
+      ],
+      "valence": "neutral",
+      "code": "Exigence pérennité de la remise en état"
+    },
+    {
+      "description": "En parallèle, l'exploitante doit limiter l'accès au site au strict nécessaire pour les interventions de mise en sécurité.",
+      "excerpts": [
+        "de limiter l'accès au site à la stricte nécessité des interventions liées à la mise en sécurité des installations."
+      ],
+      "valence": "neutral",
+      "code": "Restriction accès site"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Constats body:
+Table de détourage Bx1 : Le flux massique et la concentration en poussières sont nuls en
+2021.
+Extractions Bx2 : Pour les 5 extractions, les flux massiques sont inférieurs à 0,5 kg/h. La VLE en
+poussières est respectée pour les 5 extractions (mesures inférieures à 0,05 mg/m³).
+Extraction Bx3 : Aucune mesure de poussières n’a été effectuée.
+Grand extracteur Bx6 : Le flux massique et la concentration en poussières sont nuls.
+
+Prescription:
+Si le flux massique est inférieur à 0,5 kg/h, les gaz rejetés à l'atmosphère ne doivent pas contenir
+plus de 150 mg/Nm³ de poussières.Si le flux massique est supérieur à 0,5 kg/h, les gaz rejetés à
+l'atmosphère ne doivent pas contenir plus de 100 mg/Nm³ de poussières.

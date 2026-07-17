@@ -1,0 +1,2391 @@
+[
+  {
+    "slug": "sarl-les-pierres-de-frontenac-frontenac-bignon52095902024-05-3045070130500036f01",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: problème d'accès ponts initialement signalé résolu — 'ce point a pu être constaté' le jour de l'inspection. NC antérieure de 2021 levée. Carrière (D15)."
+  },
+  {
+    "slug": "sarl-les-pierres-de-frontenac-frontenac-bignon52095902024-05-3045070130500036f02",
+    "domains": [
+      "D12_ADMIN",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Borne n°7 manquante lors inspection précédente, installée par géomètre le 5 janvier, présence constatée le jour de l'inspection. NC 2021 résolue."
+  },
+  {
+    "slug": "sarl-les-pierres-de-frontenac-frontenac-bignon52095902024-05-3045070130500036f03",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R08_CONTRAINTE_ECONOMIQUE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "MED du 12/05/2021 et astreinte du 02/02/2023. Bande d'écoulement toujours encombrée de matériaux. Situation partiellement améliorée: MED levée via photos/vidéos transmises mais demande formalisée de procédure d'entretien toujours requise. Exploitant invoque contraintes économiques. NC physique persistante (bande encombrée) mais levée partielle grâce aux preuves transmises."
+  },
+  {
+    "slug": "sarl-moulin-du-caouley52008782022-06-0732368394600012f02",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps = 'Conforme' uniquement. Pisciculture (D15). Conformité constatée sans écart."
+  },
+  {
+    "slug": "sarl-moulin-du-caouley52008782022-06-0732368394600012f03",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Aucune valeur de débits de rejet transmise. Méthode de mesure des débits inadéquate (méthode bouteille pour débit entrant seulement). Écart méthodologique sans dimension physique = G2."
+  },
+  {
+    "slug": "sarl-moulin-du-caouley52008782022-06-0732368394600012f04",
+    "domains": [
+      "D12_ADMIN",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "Dépassement production annuelle autorisée sur 13 dernières années sans information du service. Déjà constaté inspection du 16/07/2013. Récidive et persistance chronique >3 ans."
+  },
+  {
+    "slug": "sarl-moulin-du-caouley52008782022-06-0732368394600012f05",
+    "domains": [
+      "D12_ADMIN",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Production moyenne de 375 t/an au lieu de 200 t autorisées. Demande de modification de l'arrêté d'autorisation requise. Écart administratif de dépassement de capacité nécessitant PAC."
+  },
+  {
+    "slug": "sarl-moulin-du-caouley52008782022-06-0732368394600012f06",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Dépassements VLE multiples (MES, DBO5, NH4+). Absence de mesures pour DCO, ammoniaque et flux. Dépassements constatés sur plusieurs dates (2015-2021). NC technique sur mesures de rejet avec dépassements avérés."
+  },
+  {
+    "slug": "sarl-moulin-du-caouley52008782022-06-0732368394600012f10",
+    "domains": [
+      "D04_EAUX",
+      "D09_BIODIVERSITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Niveau de prélèvement non fixé dans les arrêtés = M14 (constat technique sur lacune réglementaire). Passe à poissons nécessite diagnostic. Grilles conformes (10mm). Tous ouvrages en bon état de fonctionnement. Mixed: conformité partielle avec quelques lacunes mineures. G2 car écart principalement documentaire/procédural."
+  },
+  {
+    "slug": "sarl-moulin-du-caouley52008782022-06-0732368394600012f12",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Présence d'enceinte réfrigérée à l'extérieur du site. Passage équarrisseur une fois par semaine. Conformité constatée pour élimination des poissons morts. Pisciculture."
+  },
+  {
+    "slug": "sarl-moulin-du-caouley52008782022-06-0732368394600012f14",
+    "domains": [
+      "D01_INCENDIE",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Arrêtés préfectoraux datant de 1984 et 1989. Mise à jour nécessaire vis-à-vis des moyens de lutte contre l'incendie. NC documentaire/administrative = G2."
+  },
+  {
+    "slug": "sarl-moulis-et-fils52013722022-12-0139403593500011f01",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R08_CONTRAINTE_ECONOMIQUE",
+    "actor": "A11_PROPRIETAIRE",
+    "stage": "S03_CORRECTION",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "MED active (évacuation VHU et déchets). Grande partie des déchets de septembre 2021 toujours présente. Exploitants invoquent difficultés financières. Enlèvements partiels réalisés. MED + NC technique (déchets VHU persistants) = G4. Même constat qu'inspection précédente avec évolution partielle = T4."
+  },
+  {
+    "slug": "sas-brochard-materiaux-isdi52138852022-07-2849410683400018f01",
+    "domains": [
+      "D13_CESSATION",
+      "D06_SOLS",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M19_CESSATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Dossier cessation d'activités analysé. Mise en sécurité partielle: absence de clôture à la limite entre parcelles (NC physique G3), registre d'admission incomplet (code déchet '17' insuffisant). Demande de justificatifs d'apports sous 3 mois. ISDI post-cessation."
+  },
+  {
+    "slug": "sas-brochard-materiaux-isdi52138852022-07-2849410683400018f02",
+    "domains": [
+      "D13_CESSATION",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M19_CESSATION",
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Réaménagement final prévu mais incompatible avec usage projeté (PPRI, photovoltaïque non autorisé actuellement). État actuel sol nu non encore compatible avec usage. Écart procédural/documentaire sur réaménagement post-cessation."
+  },
+  {
+    "slug": "sas-brochard-materiaux-isdi52138852022-07-2849410683400018f03",
+    "domains": [
+      "D13_CESSATION",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M19_CESSATION",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Demande de justificatifs d'apports de déchets pour démontrer que matériaux inertes (sondage). Mémoire précisant mesures de protection à transmettre. NC documentaire dans le cadre de la cessation."
+  },
+  {
+    "slug": "sas-brochard-materiaux-isdi52138852022-07-2849410683400018f04",
+    "domains": [
+      "D13_CESSATION",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Couverture finale constatée (terres sur certaines zones, végétation spontanée). Fossés de gestion des EP présents et non en zone de remblaiement. Constats confirment les informations de l'exploitant. Conformité générale constatée."
+  },
+  {
+    "slug": "sas-brochard-materiaux-isdi52138852022-07-2849410683400018f05",
+    "domains": [
+      "D13_CESSATION",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Conformité du réaménagement non démontrée: plan topographique incomplet (partie Nord manquante, périmètre remblayé non représenté). Cotes supérieures à 3m NGF sur 5400 m² (zone rouge PPRI). NC physique sur remblaiement avec risque potentiel (non-respect cote imposée)."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f01",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Armoire à batteries plutôt vide. Registre: tonnages mensuels conformes au seuil de 2t pour rubrique 2718. 24,5t batteries évacuées depuis janvier 2023. Seuils autorisés respectés."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f02",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "'Ecart levé'. Ferrailles respectent seuil 6m hauteur, sur aires imperméabilisées. Dalle agrandie pour éviter débordement sur sol terre. MED antérieure levée. Correction proactive avec agrandissement dalle."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f03",
+    "domains": [
+      "D08_DECHETS",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "'Ecart levé'. 1927 VHU / 2098t en 2022, sous le seuil de 3000 carcasses/t post-arrêté 2022. Dépassements 2020-2021 sur ancien seuil désormais régularisés."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f04",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Bac de récupération rempli et traces d'hydrocarbures sur sol visibles. Même constat que 2022. Exploitant s'engage à mettre en place un auvent (promesse). NC physique (traces HC sol) = G3. Récidive par rapport à inspection précédente."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f05",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Système de traçabilité pièces détachées toujours absent (lot non visualisé). Déjà demandé en 2022. Exploitant évoque filière REP 2025. Écart de traçabilité sans dimension physique = G2."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Dépassements VLE multiples en plomb, DCO, DBO5, cuivre (décembre 2022 et juin 2023). Paramètres manquants non analysés. Protocole d'échantillonnage non conforme (prélèvement instantané au lieu de 2h). NC technique avec dépassements avérés = G3."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Résultats décembre 2022 non transmis via GIDAF. Résultats juin 2023 transmis partiellement. NC reporting = G2. Menace de sanction financière."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f08",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Dépollution VHU toujours non conforme: liquide de frein, filtre à huile, airbags non retirés, flaques de liquide noirâtre. Déjà signalé précédente inspection ('toujours pas conforme'). MED + NC technique physique = G4. Récidive explicite."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f09",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Composants volumineux plastique (tableaux de bord, récipients fluides) non démontés avant compactage. Procédure de démontage absente. VHU passés en presse rendant tout réemploi impossible. NC technique physique sur procédé de démontage."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "RIA non contrôlés. Débits/pressions poteaux incendie inconnus. Extincteurs sans vignette 2023 et posés au sol derrière servante (non accessibles). Plans non à jour. NC physique sur équipements incendie. Même constat que 2022 inspection."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f11",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "medium",
+    "reasoning": "Nouveau système gestion EP bien mis en place (séparateurs HC, bassin filtration). Ouvrage de confinement en place mais non signalisé clairement. Procédure d'intervention absente. Plan réseaux à mettre à jour. Amélioration majeure par rapport à 2022 mais lacunes de signalisation = G2."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f12",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03_REPORTING",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "BSD Trackdéchets utilisé depuis juillet 2022. Un mouvement de déchets (curage séparateur HC) absent du registre manuel. NC de traçabilité documentaire. Saisie manuelle peu fiable."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f13",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Registre interne connecté RNDTS mais saisie manuelle peu fiable. Inspection alerte sur risque d'oubli dans remontée RNDTS. Alerte sans NC formalisée = G2 potentiel documentaire."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f01",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Auvent protection cuves toujours absent (promesse non tenue depuis inspection 2023). Rétention disponible. MED toujours applicable. NC physique persistante (rétention sans protection pluie). Exploitant s'engage à nouveau pour juin."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f02",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Exploitant indique ne plus exercer activité revente pièces détachées actuellement. Logiciel Opisto 360 et hangar prévu. Demande vide (tiret). Conformité actuelle par absence d'activité."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Dépassements VLE importants: DCO 433 (limite 125), DBO5 173 (limite 50), Fer+Al 7.9 (limite 5), Pb 0.19 (limite 0.1). Paramètres manquants dans analyses. MED active. Dépassements répétés confirmés = G4."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "RIA 'HORS SERVICE' (atelier mécanique) et 'NON ATTRIBUE/FLASQUE TORDU' (bâtiment dépollution). MED non respectée sur maintenance moyens incendie. Projet d'arrêté astreinte proposé. NC physique sur équipements incendie hors service + MED = G4."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f05",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Facture SARP OSIS pompage/nettoyage séparateurs HC et hydrocurage réseaux. Point MED peut être levée. Demande vide (tiret). Conformité atteinte."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M03_REPORTING",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R07_CONTRAINTE_TECHNIQUE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Déclarations GIDAF juin et novembre 2023 réalisées. Exploitant rencontre des difficultés pour saisir GIDAF (contrainte technique invoquée). MED existante. NC reporting persistante. G2 car écart purement déclaratif."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f07",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Procédure démontage transmise mais attestations broyeur non valables (2021 et non datée). Composants plastiques volumineux restent dans véhicule avant presse. Amélioration partielle (procédure rédigée) mais NC technique sur justification broyeur. Susceptible de MED."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Analyse réalisée (décembre 2023, janvier 2024) mais point prélèvement non détaillé ('bâche arrière'). Paramètres manquants sur 2e et 3e échantillons. Protocole amélioré (3 échantillons sur 2h) mais incomplet. NC méthodologique persistante."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f09",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Ouvrage de confinement amont non matérialisé par panneau. Vanne sortie bassin 600m³ non matérialisée. NC physique sur signalisation dispositifs de sécurité critiques = G3."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f10",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Registres sortants incomplets: VHU compactés (16 01 06) et déchets métalliques absents. Non tracés sur Trackdéchets. Filière export Espagne non documentée (transfert transfrontalier). NC documentaire."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f11",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Vanne sortie bassin confinement 600m³ ouverte le jour visite, non repérable ni accessible, immergée. Ouverture manuelle non démontrée. Ouverture automatique non testable. NC physique sur dispositif confinement critique."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f12",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan des réseaux ne permet pas d'identifier exutoire eaux pluviales partie bureau. NC documentaire purement."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412022-10-1185021387700010f01",
+    "domains": [
+      "D07_RETENTION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Site non imperméabilisé. Déchets en bennes sur sol non étanche. NC physique sur sol = G3."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412022-10-1185021387700010f02",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Absence de capacité de rétention eaux d'extinction incendie et de vanne de confinement. NC physique sur dispositif de sécurité absent = G3."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412022-10-1185021387700010f03",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Site clôturé par murs et grillage, fermé par portail. Conformité constatée."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412022-10-1185021387700010f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Site dépourvu de tout moyen de lutte contre l'incendie. Absence complète d'extincteurs, point d'eau incendie, détection. NC physique majeure = G3."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412022-10-1185021387700010f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Site non imperméabilisé, donc pas de réseau collecte EP ni système traitement. NC physique sur infrastructure = G3."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412022-10-1185021387700010f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant ne surveille pas la qualité des rejets en eaux pluviales. Aucun dispositif. NC = absence de surveillance rejets."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412022-10-1185021387700010f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Aucune surveillance des rejets aqueux mise en place. Absence de mesures périodiques. NC méthodologique = G2."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412022-10-1185021387700010f08",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Niveaux sonores non justifiés. Deux voisins se plaignent depuis 1 an de nuisances sonores. NC technique sonore = G3."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412022-10-1185021387700010f09",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Déclaration déposée le 2 septembre 2022. Quantités réduites en dessous des seuils ICPE annoncées. Anciennes remorques évacuées. Régularisation administrative réalisée."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412023-07-1985021387700010f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "'Le site ne dispose toujours pas de moyens de défense incendie adapté au site.' MED active non respectée. NC physique + MED = G4."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412023-07-1985021387700010f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "'Étude des niveaux sonores n'a toujours pas été réalisée.' MED active non respectée. NC + MED = G4."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412023-07-1985021387700010f03",
+    "domains": [
+      "D07_RETENTION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G4",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Aire bétonnée pour déchargement DIB mais pas pour aire de tri. MED active partiellement respectée. NC physique partielle + MED = G4."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412023-07-1985021387700010f04",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "'Capacité de rétention des eaux d'extinction d'incendie et dispositif d'obturation n'ont toujours pas été mis en oeuvre.' MED non respectée = G4."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412023-07-1985021387700010f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "'Réseau de collecte des eaux de ruissellement et système de traitement n'ont toujours pas été mis en oeuvre.' MED non respectée = G4."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412023-07-1985021387700010f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "'Aucune analyse des eaux pluviales de ruissellement n'a été réalisée.' MED non respectée = G4."
+  },
+  {
+    "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412023-07-1985021387700010f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "'Aucune surveillance des rejets aqueux du site n'a été mise en place.' MED non respectée = G4."
+  },
+  {
+    "slug": "sas-capy-ex-lapoule-stephane52003022024-01-2351199510200015f01",
+    "domains": [
+      "D01_INCENDIE",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitation pas encore commencée le jour inspection. Bâtiment bien éloigné zones d'habitation (distances effets létaux respectées). Conformité constatée malgré absence d'activité."
+  },
+  {
+    "slug": "sas-capy-ex-lapoule-stephane52003022024-01-2351199510200015f02",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Sol emplacements déchets bateaux imperméable. Site constitue une rétention. Conformité constatée."
+  },
+  {
+    "slug": "sas-capy-ex-lapoule-stephane52003022024-01-2351199510200015f03",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Second accès prévu effectivement en place. Portail permet accès SDIS. Remplacement portail prévu prochainement. Conformité constatée."
+  },
+  {
+    "slug": "sas-capy-ex-lapoule-stephane52003022024-01-2351199510200015f04",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rapport de conformité électrique non transmis préalablement et non disponible le jour inspection. NC documentaire = G2."
+  },
+  {
+    "slug": "sas-capy-ex-lapoule-stephane52003022024-01-2351199510200015f05",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Aucun stockage de liquide constaté le jour inspection. Conformité par absence d'activité."
+  },
+  {
+    "slug": "sas-capy-ex-lapoule-stephane52003022024-01-2351199510200015f06",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Sol imperméabilisé mais vanne de fermeture du réseau EP permettant mise en rétention du site non constatée. NC physique sur dispositif de sécurité absent."
+  },
+  {
+    "slug": "sas-capy-ex-lapoule-stephane52003022024-01-2351199510200015f07",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Corps: 'Voir point précédent.' Renvoie au f06 — vanne confinement absente. NC physique sur dispositif de confinement."
+  },
+  {
+    "slug": "sas-capy-ex-lapoule-stephane52003022024-01-2351199510200015f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant n'a pas su déterminer l'emplacement du débourbeur/déshuileur. NC physique sur absence de système traitement effluents pollués. Méconnaissance de l'exploitant = R04."
+  },
+  {
+    "slug": "sas-capy-ex-lapoule-stephane52003022024-01-2351199510200015f09",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "En l'absence d'activité et déchets, analyse non pertinente. Conformité par absence d'activité."
+  },
+  {
+    "slug": "sas-capy-ex-lapoule-stephane52003022024-01-2351199510200015f10",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "En l'absence d'activité et déchets, réalisation analyse non pertinente. Conformité par absence d'activité."
+  },
+  {
+    "slug": "sas-capy-ex-lapoule-stephane52003022024-01-2351199510200015f11",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "En l'absence d'activité, mesure bruit non pertinente. Conformité par absence d'activité."
+  },
+  {
+    "slug": "sas-capy-ex-lapoule-stephane52003022024-01-2351199510200015f12",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "En l'absence d'activité, aucun déchet produit. Conformité par absence d'activité."
+  },
+  {
+    "slug": "sas-capy-ex-lapoule-stephane52003022024-01-2351199510200015f13",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "En l'absence d'activité, aucun déchet produit (bateaux de plaisance). Conformité par absence d'activité."
+  },
+  {
+    "slug": "sas-capy-ex-lapoule-stephane52003022024-01-2351199510200015f14",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "En l'absence d'activité, aucun déchet ou fluide stocké. Conformité par absence d'activité."
+  },
+  {
+    "slug": "sas-capy-ex-lapoule-stephane52003022024-01-2351199510200015f15",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "En l'absence d'activité, aucune carcasse stockée. Conformité par absence d'activité."
+  },
+  {
+    "slug": "sas-carrefour-stations-service52098742025-09-1750476710400087f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Exploitant ne dispose pas du dossier de demande d'enregistrement. Modifications carburants notifiées en 2025 (amelioration). Dossier non à jour. NC documentaire = G2."
+  },
+  {
+    "slug": "sas-carrefour-stations-service52098742025-09-1750476710400087f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "GPL déclaré absent en 2019 mais présence constatée en 2025. Distances respectées (>6m). Besoin de courrier précisant quantité max GPL stockée pour mise à jour AP. NC administrative légère."
+  },
+  {
+    "slug": "sas-carrefour-stations-service52098742025-09-1750476710400087f03",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Surveillance 24h/24 par agents Carrefour et télésurveillance SECURITAS confirmée. Test interphone concluant. Point antérieur (2018) résolu. Conformité constatée."
+  },
+  {
+    "slug": "sas-carrefour-stations-service52098742025-09-1750476710400087f04",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Fichier daté 06/08/2025 précisant date validité de chaque flexible. Demande 2018 honorée. Conformité constatée."
+  },
+  {
+    "slug": "sas-carrefour-stations-service52098742025-09-1750476710400087f05",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Interphone fonctionnel (test concluant). Dispositifs d'arrêt urgence vérifiés. Point 2018 (interphone non fonctionnel) résolu. Conformité constatée."
+  },
+  {
+    "slug": "sas-carrefour-stations-service52098742025-09-1750476710400087f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Deux poteaux incendie présents mais débits/distances non justifiés (exige 240m³ sur 2h). Produits absorbants présents (4 réserves). Justification débit incendie requise sous 2 mois. NC sur capacité incendie non démontrée = G3."
+  },
+  {
+    "slug": "sas-carrefour-stations-service52098742025-09-1750476710400087f07",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Mode opératoire dépotage affiché au niveau aire dépotage. Personnel Carrefour formé. Point 2018 résolu. Conformité constatée."
+  },
+  {
+    "slug": "sas-carrefour-stations-service52098742025-09-1750476710400087f08",
+    "domains": [
+      "D07_RETENTION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Analyses rejets avant rejet conformes (08/2025). BSD séparateur HC 2024 incomplet (élimination non renseignée) et 2025 éliminateur non clairement désigné. Obturateur séparateur à vérifier. NC documentaire sur BSD = G2."
+  },
+  {
+    "slug": "sas-des-vignobles-philippe-de-lagarcie31051742022-09-2931457184500010f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Déclaration du 22 octobre 2021 avec preuve dépôt 202100814. Corps confirme déclaration. Conformité administrative."
+  },
+  {
+    "slug": "sas-des-vignobles-philippe-de-lagarcie31051742022-09-2931457184500010f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Présence d'effluents viti-vinicoles dans le fossé depuis l'exutoire à l'aval de la station de lagunage. Rejet visible s'étendant sur plus de 100 mètres. NC physique avec rejet réel dans milieu = G3."
+  },
+  {
+    "slug": "sas-des-vignobles-philippe-de-lagarcie31051742022-09-2931457184500010f03",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Aucune surveillance visuelle préventive des exutoires et de l'état du fossé organisée. NC de surveillance/documentation = G2."
+  },
+  {
+    "slug": "sas-des-vignobles-philippe-de-lagarcie31051742022-09-2931457184500010f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Origine du rejet non établie (vanne défaillante, membrane trouée). Regard amont contient effluent et matières organiques. Rejet sur 100 m dans fossé (n'atteint pas ruisseau). Mesures correctives non encore réalisées à la rédaction. Danger identifié sans cause maîtrisée = G4."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822023-02-2832849829000035f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Débit rejet 32,5 m³ sur 24h légèrement supérieur au maximum autorisé lors contrôle inopiné. Explication: vidange TAR et chaudière biomasse même jour. Relevés journaliers mis en place depuis. Demande d'actions pour garantir respect débit max. NC légère sur débit = G2."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822023-02-2832849829000035f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "VLE en concentration respectées selon rapport LDAR. Paramètres pH et T° non analysés (absent du mandat DREAL). Pas de remarque de l'inspection sur les valeurs. NC méthodologique légère (paramètres pH/T° manquants) = G2."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822023-02-2832849829000035f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Mesures chaudière biomasse conformes aux VLE (pas de dépassement). CO non mesuré (prévu par AP, sans VLE avant 2030). Demande d'intégrer CO dans prochaines mesures. NC méthodologique légère = G2."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822023-02-2832849829000035f04",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Incident légionelles (>100 000 UFC/mL) déclaré et géré immédiatement. Actions correctives réalisées (arrêt TAR, traitement choc, vidange, remplissage). Résultats post-incident conformes (3 analyses <100 UFC/L). Système voyants installé. Comportement proactif exemplaire. Résolution constatée = G1."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822023-02-2832849829000035f05",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Vérification par organisme indépendant suite incident légionelles prévue en octobre 2023 (délai 6 mois post-incident). NC procédurale: vérification non encore réalisée. Exploitant s'engage à le faire en octobre."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822023-02-2832849829000035f06",
+    "domains": [
+      "D06_SOLS",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Chaudière fioul démantelée et enlevée. Sable souillé récupéré et stocké en big-bag en cours de préparation. Cuve aérienne fioul contient encore du fioul (viscosité empêche dépotage immédiat). BSD justificatif requis. Pollution résiduelle physique (cuve fioul + sable) = G3."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822023-02-2832849829000035f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "PIA extérieur présente grosse fuite signalée lors dernier contrôle (5/05/2022). Réparation insuffisante (petite fuite persistante constatée). Registre non mis à jour. NC physique sur équipement incendie non fonctionnel = G3."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822023-02-2832849829000035f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Réserve 200L émulseur avec dosage réglé à 3%. Canalisation inox et prise pompier SDIS constatées. Déversoir à mousse sans défaut apparent. Conformité constatée."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822023-02-2832849829000035f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Émulseurs avec limite validité 10 ans (échéance 2028). Non encore soumis à analyses annuelles. Conformité constatée pour la période actuelle."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822023-02-2832849829000035f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Flocage homogène des deux côtés du mur séparatif. Porte séparative coupe-feu. Conformité constatée."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Circuit gestion eaux optimisé en circuit fermé. Consommations respectent plafond AP. Conformité constatée."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan réseaux présenté mais présente installations supprimées (cuve fuel, chaudière) et circuit eau non clairement visible. NC documentaire = G2."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Compteurs relevés mensuellement alors que réglementation exige relevé hebdomadaire (débit <100m³/j). NC de fréquence = G2."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Volumes déclarés GEREP présentés (2021-2024). Corps factuel sans NC ni demande. Conformité déclarative."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Volumes prélèvement bien inférieurs à 10 000 m³. Exploitant non soumis aux restrictions sécheresse. Conformité constatée."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Volumes prélèvement autorisés respectés. Prélèvement ruisseau Lacarès non utilisé depuis plusieurs années. Inspection demande révision de l'AP pour fixer plafond cohérent. NC administrative légère sur révision AP."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Zone en alerte renforcée mais site non concerné car eau prélevée en nappe. Conformité constatée vis-à-vis restrictions sécheresse."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f08",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Mesures chaudière biomasse Bureau Véritas 10/11/2022 conformes. Devis campagne 2025 signé. Bilan COV supprimé du contradictoire. Conformité constatée."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f09",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "BSD évacuation sables souillés présenté (prise en charge 26/04/2023, traitement mai 2023). Demande ancienne inspections honorée. Conformité constatée."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f10",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Mesures acoustiques Apave (3/04/2024) conformes (bruit et émergence). Site en horaires jour (1x8h). Localisation point masqué non détaillée dans rapport (observation mineure). Conformité principale constatée."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f11",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Dernière étude odeurs 2020 (valide 5 ans, donc nouvelle campagne à planifier en 2025). Concentrations >5 uo/m³ identifiées ponctuellement en 2020. Campagne à réaliser. NC de fréquence de contrôle = G2."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f12",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Rapports mesures eaux résiduaires LPL (décembre 2024 et février 2025) consultés. Résultats conformes. Conformité constatée."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f13",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Relevé débits rejetés tenu avant/après vidanges. Opérations vidange TAR/chaudière/bassin non réalisées le même jour. Demande inspection précédente honorée. Conformité constatée, comportement proactif."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f14",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "AMR mise à jour le 2 mars 2023 par ALOES consultée lors inspection. Demande inspection précédente honorée. Conformité constatée."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f15",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Analyses TAR enregistrées sous GIDAF: <103 en 30/04/2025 et 19/02/2025. Production cessée fin avril 2025. Conformité légionelles constatée."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f16",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Réserve émulseur constatée sur site (émulseur sans PFOA). Pas de remarque de l'inspection. Conformité constatée."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f17",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Bâtiment chaudière biomasse 2,6 MW sans système de détection automatique incendie. Prescription applicable depuis 1er juillet 2024. NC majeure selon réglementation = G3."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f18",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A05_ORGANISME",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Rapport vérification électrique APAVE 05/09/2025: une observation non récurrente traitée le jour inspection. Rapport thermographie Q19 22/04/2025: sans observation. Conformité constatée."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f19",
+    "domains": [
+      "D01_INCENDIE",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A05_ORGANISME",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Vérification complète APAVE 27/03/2025: une observation (nettoyage regard) résolue le jour inspection. Vérification visuelle 17/05/2024 sans observation. Conformité constatée."
+  },
+  {
+    "slug": "sas-distillerie-douence52013822025-09-0332849829000035f20",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Cuve 1500L GNR dans bâtiment principal sans rétention. NC physique sur stockage liquide sans rétention = G3."
+  },
+  {
+    "slug": "sas-j-dubourg52034892022-09-2781742313000019f01",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Extraction 2022: environ 1200 tonnes sur campagne unique. Corps factuel, pas de dépassement signalé. Carrière (D15). Conformité sur production."
+  },
+  {
+    "slug": "sas-j-dubourg52034892022-09-2781742313000019f02",
+    "domains": [
+      "D09_BIODIVERSITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Justificatifs boisement compensatoire non fournis. Défrichement pas encore réalisé (extraction première partie non achevée). NC documentaire sur condition préalable au défrichement = G2."
+  },
+  {
+    "slug": "sas-j-dubourg52034892022-09-2781742313000019f03",
+    "domains": [
+      "D12_ADMIN",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M10_GARANTIES"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Garanties financières échues le 23/09/2021. Attestation nouvelles GF non fournie. NC documentaire sur garanties financières = G2."
+  },
+  {
+    "slug": "sas-j-dubourg52034892022-09-2781742313000019f04",
+    "domains": [
+      "D11_SECURITE",
+      "D09_BIODIVERSITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Panneaux signalétique carrière manquants ou endommagés/illisibles et au sol. Zones espèces protégées non balisées. NC physique sur signalisation = G3."
+  },
+  {
+    "slug": "sas-j-dubourg52034892022-09-2781742313000019f05",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R08_CONTRAINTE_ECONOMIQUE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Retard sur phasage prévisionnel dû à conjoncture économique. Organisation va évoluer (phase 2 au lieu de 1). Profondeur extraction ~4m conforme. NC légère sur phasage documentaire. G2 car écart principalement documentaire."
+  },
+  {
+    "slug": "sas-j-dubourg52034892022-09-2781742313000019f06",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan actualisé non présenté par l'exploitant. NC documentaire = G2."
+  },
+  {
+    "slug": "sas-j-dubourg52034892022-09-2781742313000019f07",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Rampe d'accès au fond de fouille accessible aux services secours. Plan d'eau hors période extraction. Corps factuel sans NC formalisée, avec observations sur futur. Conformité constatée."
+  },
+  {
+    "slug": "sas-j-dubourg52034892022-09-2781742313000019f08",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Eaux collectées = eaux pluviales. Tests colorimétriques pH/chlore insuffisants (méthode piscine). AP prévoit analyse complète avant chaque vidange. NC méthodologique = G2."
+  },
+  {
+    "slug": "sas-la-compagnie-des-pruneaux533250712025-01-0780372646200010f01",
+    "domains": [
+      "D12_ADMIN",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Installation conforme aux plans dossier d'enregistrement. Augmentation capacité 31t/j (<44t/j autorisé). Conformité constatée. Agroalimentaire (pruneaux)."
+  },
+  {
+    "slug": "sas-la-compagnie-des-pruneaux533250712025-01-0780372646200010f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Voies circulation et aires stationnement aménagées et propres. Absence d'envols de poussières. Conformité constatée."
+  },
+  {
+    "slug": "sas-la-compagnie-des-pruneaux533250712025-01-0780372646200010f03",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Ensemble des installations maintenu propre et entretenu. Conformité constatée."
+  },
+  {
+    "slug": "sas-la-compagnie-des-pruneaux533250712025-01-0780372646200010f04",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant dispose d'un plan général des ateliers et stockages. Conformité constatée."
+  },
+  {
+    "slug": "sas-la-compagnie-des-pruneaux533250712025-01-0780372646200010f05",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Locaux maintenus propres et régulièrement nettoyés. Conformité constatée."
+  },
+  {
+    "slug": "sas-la-compagnie-des-pruneaux533250712025-01-0780372646200010f06",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Accessibilité engins services de secours depuis voies circulation externes assurée. Conformité constatée."
+  },
+  {
+    "slug": "sas-la-compagnie-des-pruneaux533250712025-01-0780372646200010f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Équipements incendie globalement présents (détection, extincteurs, RIA, réserves). PEI n°27 débit 48m³/h au lieu de 60m³/h minimum requis. D9 et DIA à fournir. NC physique sur débit PEI insuffisant = G3."
+  }
+]

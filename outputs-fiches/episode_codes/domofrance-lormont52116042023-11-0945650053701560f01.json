@@ -1,0 +1,41 @@
+{
+  "document_date": "2023-11-09",
+  "document_title": "domofrance-lormont52116042023-11-0945650053701560f01",
+  "document_summary": "L'inspection d'une chaufferie d'un bailleur social (Domofrance Lormont) révèle que la déclaration ICPE n'est pas à jour au regard des équipements actuels, que le temps de fonctionnement n'est pas justifié, et qu'un projet de réhabilitation annoncé pour 2026 devrait entraîner un déclassement ICPE.",
+  "surprises": "La déclaration ICPE initiale date de 1986 et n'a jamais été mise à jour malgré le remplacement des chaudières — une obsolescence administrative de près de 40 ans pour une installation en exploitation active.",
+  "tensions": "L'installation est gérée au quotidien par un sous-traitant (SPIE) mais le statut ICPE reste au nom de Domofrance, créant un décalage entre la responsabilité opérationnelle et la responsabilité réglementaire.",
+  "codes": [
+    {
+      "description": "La déclaration ICPE datant de 1986 ne reflète pas la configuration actuelle de la chaufferie (deux nouvelles chaudières), nécessitant une mise à jour administrative urgente.",
+      "excerpts": [
+        "Il convient de mettre à jour la déclaration au regard des installations composant la chaufferie, à savoir une chaudière de 1 740 kW datant de 2000 et une de 900 kW datant de 2022"
+      ],
+      "valence": "negative",
+      "code": "Déclaration ICPE non mise à jour"
+    },
+    {
+      "description": "L'exploitation technique de la chaufferie est déléguée à un prestataire externe (SPIE) tandis que la responsabilité réglementaire ICPE reste à la charge du bailleur social.",
+      "excerpts": [
+        "L'exploitation de la chaufferie est sous-traitée à la société SPIE. L'exploitant au titre des ICPE reste cependant le titulaire de la déclaration, soit DOMOFRANCE"
+      ],
+      "valence": "neutral",
+      "code": "Sous-traitance exploitation chaufferie"
+    },
+    {
+      "description": "L'exploitant ne peut pas démontrer le temps de fonctionnement annuel des chaudières, déclaré inférieur à 500 heures, faute de dispositif de comptage.",
+      "excerpts": [
+        "Les chaudières gaz fonctionnent principalement en secours, et moins de 500 heures par an selon l'exploitant, sans possibilité de justifier ce temps de fonctionnement à ce jour"
+      ],
+      "valence": "negative",
+      "code": "Durée fonctionnement non justifiable"
+    },
+    {
+      "description": "Un projet de réhabilitation annoncé pour 2026 devrait réduire la puissance de la chaufferie sous le seuil ICPE, nécessitant une déclaration de cessation d'activité.",
+      "excerpts": [
+        "seule la chaudière de 900 kW serait conservée, impliquant le déclassement ICPE de l'installation. Une déclaration de cessation d'activité sera à réaliser"
+      ],
+      "valence": "neutral",
+      "code": "Projet réhabilitation entraînant déclassement"
+    }
+  ]
+}

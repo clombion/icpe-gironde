@@ -1,0 +1,42 @@
+{
+  "document_date": "2022-09-27",
+  "document_title": "sas-j-dubourg52034892022-09-2781742313000019f06",
+  "document_summary": "L'inspection d'une carrière constate que l'exploitant ne dispose pas d'un plan à jour représentant l'état de la zone d'extraction et les éléments réglementaires requis. L'inspection demande la transmission d'un plan actualisé sous trois mois, en acceptant que l'exploitant le réalise lui-même.",
+  "surprises": "L'inspection précise qu'une mise à jour qualitative par l'exploitant lui-même suffit, et ne réclame une intervention géomètre qu'à la fin de chaque période quinquennale — ce qui révèle une acceptation explicite d'une mise à jour 'au jugé' en dehors des fenêtres quinquennales.",
+  "tensions": "La prescription impose une mise à jour annuelle du plan et sa transmission quinquennale à l'inspection, mais l'exploitant n'a pas pu présenter un plan à jour — suggérant que cette obligation n'a pas été honorée depuis au moins un an.",
+  "codes": [
+    {
+      "description": "L'exploitant ne dispose pas d'un plan à jour de la zone d'extraction intégrant les éléments requis par la réglementation.",
+      "excerpts": [
+        "Un plan actualisé n'a pu être présenté par l'exploitant."
+      ],
+      "valence": "negative",
+      "code": "Plan cartographique non actualisé"
+    },
+    {
+      "description": "La prescription détaille une liste exhaustive d'éléments que le plan de carrière doit représenter (périmètre, bornes, fouille, stockages, voiries, installations, zones remises en état).",
+      "excerpts": [
+        "L'exploitant établit un plan d'échelle adapté à la superficie de la carrière. Sur ce plan, sont reportés : les limites du périmètre sur lequel porte le droit d'exploiter [...] les bords de la fouille [...] les zones de stockages des terres de découverte [...] les voies de circulation"
+      ],
+      "valence": "neutral",
+      "code": "Cartographie réglementaire de carrière"
+    },
+    {
+      "description": "Le plan de carrière doit être mis à jour au moins une fois par an et tenu à la disposition de l'inspection, avec une transmission formelle à l'échéance quinquennale.",
+      "excerpts": [
+        "Ce plan est mis à jour au moins une fois par an et est tenu à la disposition de l'inspection des installations classées. À la fin de chaque période quinquennale, ce plan est adressé à l'inspection des installations classées."
+      ],
+      "valence": "neutral",
+      "code": "Mise à jour annuelle exigée"
+    },
+    {
+      "description": "L'inspection accepte une mise à jour qualitative réalisée par l'exploitant lui-même, ne requérant l'intervention d'un géomètre qu'aux échéances quinquennales.",
+      "excerpts": [
+        "De manière proportionnée à l'activité du site, il est demandé à l'exploitant, sur la base d'un plan topographique [...] de mettre à jour la représentation de la zone d'extraction de manière qualitative",
+        "A la fin de chaque période quinquennale, une mise à jour avec l'aide d'un géomètre apparaît suffisant."
+      ],
+      "valence": "neutral",
+      "code": "Souplesse sur le mode de mise à jour"
+    }
+  ]
+}

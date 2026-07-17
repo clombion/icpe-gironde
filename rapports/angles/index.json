@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-top-mises-en-demeure.md",
+    "title": "Top 20 des installations avec le plus de mises en demeure",
+    "question": "Quelles installations cumulent le plus de sanctions lourdes ?",
+    "caveat": "Compte uniquement les rapports d'inspection publiés sur Géorisques. Les installations sans rapport public peuvent avoir été sanctionnées sans apparaître ici."
+  },
+  {
+    "file": "02-installations-recidivistes.md",
+    "title": "Installations récidivistes",
+    "question": "Quelles installations ont les mêmes points de contrôle signalés comme 'déjà contrôlé' d'une inspection à l'autre ?",
+    "caveat": "Le champ 'déjà contrôlé' est rempli par l'inspecteur ; il peut y avoir des oublis ou des reformulations entre deux inspections. La récidive est un signal, pas une preuve."
+  },
+  {
+    "file": "03-matrice-regime-suite.md",
+    "title": "Matrice régime ICPE × type de suites",
+    "question": "Est-ce que les installations en Autorisation sont plus souvent sanctionnées que celles en Enregistrement ou Déclaration ?",
+    "caveat": "Les installations en Déclaration sont rarement inspectées publiquement, donc leur absence dans les suites lourdes ne signifie pas absence de problème."
+  },
+  {
+    "file": "04-comparaison-secteurs.md",
+    "title": "Comparaison du taux de non-conformité par secteur",
+    "question": "Quels thèmes d'inspection concentrent le plus de suites non-nulles ?",
+    "caveat": "Les thèmes sont assignés par l'inspecteur depuis un vocabulaire semi-ouvert. Certains thèmes sont plus fréquemment inspectés que d'autres, ce qui biaise le taux brut."
+  },
+  {
+    "file": "05-trous-de-couverture.md",
+    "title": "Trous de couverture : communes sans inspection récente",
+    "question": "Quelles communes ont des ICPE actives mais aucun rapport d'inspection publié récent ?",
+    "caveat": "L'absence de rapport public ne signifie pas absence d'inspection — les rapports peuvent ne pas être publiés sur Géorisques. C'est un indicateur de transparence, pas de contrôle."
+  }
+]

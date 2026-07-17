@@ -1,0 +1,25 @@
+{
+  "document_date": "2024-08-27",
+  "document_title": "edf-sei-guyane1000339992024-08-2755208131790191f05",
+  "document_summary": "L'inspection constate que l'accès à la voirie publique depuis la piste de Saut Maripa n'est pas aménagé sur la carrière EDF SEI en Guyane, créant un risque potentiel pour la sécurité publique.",
+  "surprises": "La localisation en Guyane (piste de Saut Maripa) implique un contexte d'isolement géographique où l'aménagement de la voirie représente une contrainte opérationnelle significative.",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "L'accès à la voirie publique depuis le site de la carrière n'a pas été aménagé conformément aux exigences réglementaires.",
+      "excerpts": [
+        "L'accès à la piste de Saut Maripa n'est pas aménagé."
+      ],
+      "valence": "negative",
+      "code": "Accès voirie non aménagé"
+    },
+    {
+      "description": "L'absence d'aménagement de l'accès est qualifiée comme susceptible de créer un risque pour la sécurité publique.",
+      "excerpts": [
+        "L'accès à la voirie publique est aménagé de telle sorte qu'il ne crée pas de risque pour la sécurité publique."
+      ],
+      "valence": "negative",
+      "code": "Risque sécurité publique accès"
+    }
+  ]
+}

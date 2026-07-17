@@ -1,0 +1,51 @@
+{
+  "document_date": "2025-09-03",
+  "document_title": "btva52070422025-09-0339846750600026f05",
+  "codes": [
+    {
+      "description": "L'inspection juge les modifications portées à connaissance (augmentation de flux de traitement VHU, régularisation surface) comme non substantielles, ne nécessitant pas de prescriptions complémentaires.",
+      "excerpts": [
+        "l'inspection des installations classées juge ces modifications non substantielles et ne nécessitant pas de prescriptions complémentaires."
+      ],
+      "valence": "positive",
+      "code": "Modification non substantielle acceptée"
+    },
+    {
+      "description": "La pollution des eaux pluviales est maîtrisée grâce à l'imperméabilisation de la surface d'entreposage et aux dispositifs de traitement correctement dimensionnés.",
+      "excerpts": [
+        "La pollution des eaux pluviales est maîtrisée grâce à l'imperméabilisation de l'ensemble de la surface d'entreposage des véhicules hors d'usage et à la réfection des dispositifs de traitement de l'eau et des bassins de collecte et rétention de ces eaux avant rejet",
+        "Les dispositifs de traitement sont correctement dimensionnés, comme en témoignent les résultats d'analyse des eaux"
+      ],
+      "valence": "positive",
+      "code": "Maîtrise eaux pluviales VHU"
+    },
+    {
+      "description": "Une nouvelle étude de bruit est requise avant finalisation de l'instruction de la modification, en raison d'une non-conformité sonore potentielle.",
+      "excerpts": [
+        "Les niveaux d'émission sonore doivent être mieux évalués en vue de cette modification et des solutions doivent être trouvées dans le cas où la nouvelle mesure montrerait à nouveau une non-conformité",
+        "la finalisation de l'instruction est suspendue à la transmission par l'exploitant d'une nouvelle étude de bruit."
+      ],
+      "valence": "negative",
+      "code": "Étude bruit exigée"
+    },
+    {
+      "description": "La transmission semestrielle des résultats d'analyse des eaux est un point de contrôle pour s'assurer que l'augmentation d'activité ne génère pas de dépassement.",
+      "excerpts": [
+        "La bonne transmission des résultats d'analyse chaque semestre permettra de s'assurer que l'augmentation du flux de véhicules traités n'occasionne pas de dépassement"
+      ],
+      "valence": "neutral",
+      "code": "Surveillance résultats d'analyse semestrielle"
+    },
+    {
+      "description": "L'exploitant estime que l'augmentation du flux de véhicules hors d'usage n'aura qu'un impact négligeable sur le trafic routier.",
+      "excerpts": [
+        "Le trafic routier serait impacté de façon négligeable selon l'exploitant"
+      ],
+      "valence": "positive",
+      "code": "Impact trafic jugé négligeable"
+    }
+  ],
+  "document_summary": "BTVA (centre VHU) a notifié une modification non substantielle (augmentation du flux annuel de traitement, régularisation de surface) ; l'inspection l'accepte sous conditions de suivi mais suspend la finalisation de l'instruction à la production d'une nouvelle étude de bruit.",
+  "surprises": "",
+  "tensions": "L'instruction est acceptée en principe mais bloquée sur la question acoustique — l'exploitant peut augmenter son flux d'activité sans disposer d'une autorisation formelle complète."
+}

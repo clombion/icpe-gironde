@@ -1,0 +1,2371 @@
+[
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682025-10-3026330582300019f01",
+    "domains": [
+      "D05_AIR_BRUIT",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation non renseignée dans le recueil national des installations moyennes de combustion (AIDA) — NC purement administrative de déclaration/reporting, délai d'un mois imposé. [SKEPTIC: D03_REPORTING inexistant en v5 → remplacé D12_ADMIN (déclaration administrative recueil AIDA).]"
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682025-10-3026330582300019f02",
+    "domains": [
+      "D12_ADMIN",
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M09_PAC",
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "L'exploitant a retenu une puissance thermique totale sous-évaluée car il n'y a pas de dispositif technique empêchant le fonctionnement simultané des chaudières — NC technique sur le classement réel du site, portant sur la situation administrative. [SKEPTIC: M17_CLASSIFICATION ajouté — constat central est la détermination du régime (enregistrement vs autorisation) par seuil de puissance thermique.]"
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682025-10-3026330582300019f03",
+    "domains": [
+      "D07_RETENTION",
+      "D08_DECHETS",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aire de dépotage fioul sans séparateur d'hydrocarbures (rejet direct EP vers réseau collectif) et déchets stockés hors rétention — NC physiques constatées sur site."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682025-10-3026330582300019f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Relevés d'heures de fonctionnement consultés confirment un temps annuel nettement inférieur à 500h — conformité actée, VLE non applicables aux groupes électrogènes."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682025-10-3026330582300019f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Mesures NOx conformes aux VLE de l'AP — dernier point restant de la MED 2013 levé, situation résolue après longue trajectoire de mise en conformité."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682025-10-3026330582300019f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dépassement VLE NOx chaudière 2 au fioul et absence de mesures sur chaudière 3 fioul — NC technique sur émissions atmosphériques avec absence de justification des engagements <500h."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682025-10-3026330582300019f07",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Périodicité annuelle des mesures chaudières non respectée (dernières en 2023, oubli 2024 dû au changement de prestataire) — NC documentaire/contrôle périodique, exploitant invoque circonstance."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682025-10-3026330582300019f08",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédures de démarrage/arrêt présentées à l'inspection sans remarques particulières — conformité constatée."
+  },
+  {
+    "slug": "chu-hopitaux-de-bordeaux-pessac52010682025-10-3026330582300019f09",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dossier PAC déposé mais incomplet — compléments requis sous 2 mois avant reprise de l'instruction, NC administrative procédurale."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-03-2457645046400119f01",
+    "domains": [
+      "D03_SEVESO",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Inspection PM2I tuyauteries : contrôle SCOPEO réalisé 2022, catalogue des défauts en cours, conclusion principale que les tuyauteries peuvent être exploitées jusqu'en 2027 — situation suivie et progresse vers conformité."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-03-2457645046400119f02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "medium",
+    "reasoning": "Exhaustivité des mesures compensatoires des MMRi non vérifiée et pas de réponse sur disponibilité des pièces — point persistant depuis 2021, incertitude technique sur les MMR."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-03-2457645046400119f03",
+    "domains": [
+      "D07_RETENTION",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M09_PAC"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Rétention T702-T704 insuffisante en volume — exploitant s'engage à faire le PAC mais avait oublié de le réaliser, NC physique sur dimensionnement avec menace de MED."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-03-2457645046400119f04",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rétention déportée T501-T506 disponible le jour de l'inspection, caniveau rempli d'eau constaté, déversoirs à mousse présents, ronde quotidienne — conformité vérifiée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-03-2457645046400119f05",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "medium",
+    "reasoning": "Examen MMRi Barrière 1 sur critères indépendance/efficacité/cinétique/tests — résultats en annexe confidentielle, point de suivi d'une inspection de vérification de MMR Seveso. [SKEPTIC: G3→G2 — body uniquement \"voir annexe confidentielle\", aucun défaut physique visible; G3 non justifiable depuis le corps du constat.]"
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-03-2457645046400119f06",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "medium",
+    "reasoning": "Examen MMRi Barrière 5 — résultats en annexe confidentielle, point de contrôle MMR Seveso en cours. [SKEPTIC: G3→G2 — body uniquement \"voir annexe confidentielle\", aucun défaut physique visible.]"
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-06-2257645046400119f01",
+    "domains": [
+      "D03_SEVESO",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Description de l'appontement 710 et ses équipements (bras de chargement, tuyauteries, défense incendie) — constat descriptif sans NC, état des lieux de l'installation."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-06-2257645046400119f02",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédures de contrôle avant déchargement (EN083, PETROSERVICES, ship/shore check-list) présentées à l'inspection sans remarque — conformité des check-lists constatée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-06-2257645046400119f03",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rondes de déchargement non tracées, absence d'information sur interdiction de modification des amarres autour des marées, procédure de chargement navire absente — NC documentaires/procédurales multiples."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-06-2257645046400119f04",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Formation des employés PETROSERVICES insuffisante (accueil sécurité seulement) et absence de formation spécifique au contrôle des amarres — NC sur co-activité/plan de prévention."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-06-2257645046400119f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vidange des bras après transfert avec détection de niveau bas stoppant les pompes — procédure conforme à la prescription."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-06-2257645046400119f06",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "MMR 'contrôle compatibilité bride PERC' réalisée mais non tracée — NC documentaire sur enregistrement de MMR, exploitant doit tracer ou supprimer du dossier."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-06-2257645046400119f07",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas de bouton d'arrêt d'urgence au niveau de l'appontement lui-même (seulement en salle de contrôle déportée) — lacune technique d'équipement de sécurité à étudier."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-06-2257645046400119f08",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport APAVE 2022 liste 4 observations sur l'appontement, plan d'actions établi et devis obtenu, exploitant s'engage à solder en 2023 — NC électriques en cours de correction."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-06-2257645046400119f09",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Suivi PM2I rétention appontement omis, équipements d'amarrage sans surveillance/maintenance, gicleurs rétention sans contrôle périodique — multiples lacunes de contrôle périodique sur équipements critiques."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-06-2257645046400119f10",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Accès appontement clôturé avec portail fermé à clé accessible aux secours — conformité constatée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-06-2257645046400119f11",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Nombreuses tuyauteries de l'appontement non identifiées — NC physique sur signalétique des tuyauteries."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-06-2257645046400119f12",
+    "domains": [
+      "D07_RETENTION",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Tuyauterie effluents rétention appontement sans contrôle tracé et risque de corrosion interne par eau saumâtre/hydrocarbures — NC technique sur équipement de confinement."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-06-2257645046400119f13",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Surveillance permanente en salle de contrôle + PETROSERVICES appontement, convention POLMAR/TERRE en cours de renouvellement — conformité globale avec remarque mineure sur convention expirée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-06-2257645046400119f14",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exercices POI jamais réalisés avec PETROSERVICES ni simulant un épandage en Gironde — lacune documentaire/organisationnelle dans les exercices POI."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-06-2257645046400119f15",
+    "domains": [
+      "D03_SEVESO",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Tuyauteries à l'arrêt sans inventaire documenté de leur statut (arrêt temporaire/définitif/mis en sécurité) — NC documentaire sur gestion des équipements en arrêt."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-12-0757645046400119f01",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "POI mis à jour mars 2022 transmis en version papier et électronique — OBS1 de l'inspection 25/11/2021 levée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-12-0757645046400119f02",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Cartographies flux thermiques 3 kW/m² toujours absentes du POI mars 2022 — exploitant s'engage pour la prochaine version (2024), observation persistante depuis 2021."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-12-0757645046400119f03",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Version électronique POI mars 2022 comprend désormais plan du site et plan DCI — OBS3 levée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-12-0757645046400119f04",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Coordonnées DREAL mises à jour dans le POI mars 2022 — OBS4 levée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-12-0757645046400119f05",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Lors de l'exercice POI du 07/12/2023, l'agent d'astreinte n'a pas vérifié l'état des vannes de la cuvette — NC opérationnelle constatée sur le terrain lors de l'exercice, malgré procédure correcte dans le POI."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-12-0757645046400119f06",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "POI mars 2022 intègre désormais la vérification état vannes cuvette/décanteur en cas d'urgence — OBS6 levée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-12-0757645046400119f07",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Lors de l'exercice du 07/12/2023, l'exploitant a confirmé la cohérence de la stratégie de sous-rétentions — FSMD1 levée, POI cohérent avec les actions et les moyens DCI."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-12-0757645046400119f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Tous les moyens DCI ont correctement fonctionné lors de l'exercice feu de nappe T403 — conformité de l'exercice constatée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-12-0757645046400119f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A04",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "SDIS a signalé que l'aire de mise en aspiration du réservoir T411 manque de largeur pour ses camions — NC physique sur accessibilité des moyens DCI identifiée lors de l'exercice."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362023-12-0757645046400119f10",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R10",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Irisations dans les EP stagnantes de la rue n°5, origine contestée (végétation selon exploitant) — inspection demande justificatif, prélèvement non supervisé réalisé."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-04-1857645046400119f01",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Demande de validation de la fixation M8 du clamp photovoltaïque réitérée depuis 2021, aucun nouvel élément fourni — NC technique persistante avec menace de MED."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-04-1857645046400119f02",
+    "domains": [
+      "D15_SECTEUR",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Exploitant ne respecte pas sa procédure ITD30 (contrôle sur 4 ans fait en 6 ans) et échanges persistants depuis plusieurs années — NC sur contrôle périodique centrale PV avec menace de MED."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-04-1857645046400119f03",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Interrogations persistantes sur l'indépendance et les modalités de tests cinétiques de la MMRi Barrière 1 malgré éléments transmis — point ouvert, NC technique sur MMR Seveso."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-04-1857645046400119f04",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Justificatifs sur l'efficacité MMRi Barrière 5 toujours insuffisants — exploitant s'engage à réviser la procédure au 1er semestre 2024."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-04-1857645046400119f05",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "POI révision 6 (fév. 2024) comprend désormais les cartographies flux 3, 5 et 8 kW/m² — OBS2 de l'inspection 2021 levée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-04-1857645046400119f06",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Rappel réalisé auprès des opérateurs d'astreinte le 30/01/2024 avec attestation transmise — point levé."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-04-1857645046400119f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Élargissement aire aspiration T411 : devis reçu, attente d'autres devis, exploitant s'engage pour 2024 — travaux en cours de programmation."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-04-1857645046400119f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Analyse EP rue n°5 : 0,12 mg/l HC (VLE = 10 mg/l), exploitant justifie l'origine (engins de travaux) — conformité des rejets établie, point levé."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-04-1857645046400119f09",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure ITD26 de gestion des shunts MMRi à compléter : périmètre limité aux MMRi instrumentées, modes opératoires incomplets, shunts terrain non couverts — NC documentaire sur procédure de maintenance sécurité."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-04-1857645046400119f10",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Gestion des shunts/by-pass intégrée au SGS (§5.3.6 fonctionnement dégradé) — conformité procédurale constatée sans demande."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-04-1857645046400119f11",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Revue des MMR sur défaillances/REX réalisée mais aucune revue ciblée sur les inhibitions — lacune documentaire sur la gouvernance des shunts MMR."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-04-1857645046400119f12",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure ITD26 peu détaillée sur fonctions/coordination/pose-dépose des shunts, pas de signalisation terrain des by-pass — NC procédurale sur gestion des shunts MMRi."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-04-1857645046400119f13",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun shunt actif le jour de l'inspection, fiche EN117 examinée correctement renseignée avec mesure compensatoire cohérente — conformité constatée par sondage."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-04-1857645046400119f14",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fiches EN117 archivées, shunts facilement identifiables et communicables au SDIS/DREAL en cas d'accident — conformité du système de traçabilité."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-04-1857645046400119f15",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Absence d'habilitation formelle pour pose de shunts justifiée par l'organisation (validation direction obligatoire) — constat factuel sans demande, accepté en l'état."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-04-1857645046400119f16",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Émulseur POLYPETROFILM 3/6 contenant PFOA interdit au 04/07/2025, 75m³ en stock, exploitant doute de sa capacité à remplacement à temps — risque avéré de non-conformité réglementaire sur substance POPs interdite avec délai critique."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-07-0857645046400119f01",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Uniformisation check-lists déchargement, rapports de rondes complétés, consignes amarres à marée intégrées, procédure chargement navire transmise — toutes les NC de 2023 levées."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-07-0857645046400119f02",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Formation des employés PETROSERVICES toujours insuffisante (accueil sécurité seulement) malgré leur formation safe mooring — NC persistante sur co-activité, délai 2 mois imposé avant prochain navire."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-07-0857645046400119f03",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Vérifications compatibilité bride intégrées à la check-list appontement 710 et document complété transmis sans remarque — NC de 2023 levée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-07-0857645046400119f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Second bouton d'arrêt d'urgence installé sur l'appontement et intégré dans check-list EN083 rev.1 — NC de 2023 levée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-07-0857645046400119f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Rapport APAVE 2023 et dossier travaux SINDELEC transmis, 4 observations appontement en cours de traitement — NC électriques en cours de correction, mais demande de veiller à traiter toutes NC même si Q18 acceptable."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-07-0857645046400119f06",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "PM2I bras: actions priorité faible à réaliser avant prochaine maintenance; PM2I tuyauteries: défauts D1 en cours; rétention: petites fissures non critiques; amarrage: exploitant attend retour lamanage; gicleurs: essai OK — suivi multi-points avec progrès partiels."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-07-0857645046400119f07",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Tuyauteries appontement toujours non marquées malgré étiquettes reçues — exploitant attend résultats devis peinture, menace de MED sous 4 mois."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-07-0857645046400119f08",
+    "domains": [
+      "D07_RETENTION",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Contrôle tuyauterie effluents rétention réalisé mai 2024 (SCOPEO), corrosion perforante support détectée mais pas de contre-indication exploitation — rapport en attente, défaut technique identifié."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-07-0857645046400119f09",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Exercice POI avec PETROSERVICES simulant épandage Gironde prévu 2024 mais non encore programmé — NC sur exercices POI toujours ouverte."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-07-0857645046400119f10",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Inventaire tuyauteries abandonnées annoncé pour 2024 mais non réalisé le jour de l'inspection — NC documentaire persistante avec menace de MED sous 2 mois."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-11-2957645046400119f01",
+    "domains": [
+      "D13_CESSATION",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M19_CESSATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Zone Guineys (réservoirs séries 100 arrêtés en 2015) : sécurisation insuffisante, dispositifs d'interdiction d'accès à renforcer — NC post-cessation sur sécurité du site à l'abandon."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-11-2957645046400119f02",
+    "domains": [
+      "D13_CESSATION",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M19_CESSATION",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A06",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Dossier de récolement Géolia transmis avec compléments demandés — examen du dossier de remise en état zone Guineys, remarques formulées sur contenu, suivi procédure cessation."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-11-2957645046400119f03",
+    "domains": [
+      "D13_CESSATION",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M19_CESSATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Proposition d'usage futur zone Guineys incomplète (sans études/rapports transmis à l'administration) — NC procédurale sur obligations R512-39-2 post-cessation."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-11-2957645046400119f04",
+    "domains": [
+      "D04_EAUX",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Piézomètres zone Guineys non correctement cadenassés, puits non sécurisé, absence d'analyses HAP/Plomb — NC physiques sur surveillance eaux souterraines post-cessation."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-11-2957645046400119f05",
+    "domains": [
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A06",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "70 278 m³ de terres polluées excavées et traitées (biodégradation + évacuation BIOCENTRE) conformément aux prescriptions — conformité du traitement des sols polluées."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-11-2957645046400119f06",
+    "domains": [
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Étude vigne expérimentale insuffisante — dossier de récolement à compléter par un schéma conceptuel pour statuer sur impact sanitaire résiduel avant usage agricole."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362024-11-2957645046400119f07",
+    "domains": [
+      "D08_DECHETS",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "BSD examinés par sondage sans remarque, terres évacuées vers filière autorisée BIOCENTRE avec CAP — conformité déchets traçage constatée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362025-04-1657645046400119f01",
+    "domains": [
+      "D03_SEVESO",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Raidisseur T715 installé, T706 en IHED sans raidisseur posé (demande de dérogation), absence de procédure post-vent extrême — NC technique sur résistance des réservoirs aux vents extrêmes, tierce expertise demandée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362025-09-2557645046400119f01",
+    "domains": [
+      "D03_SEVESO",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Périmètre PM2I appliqué à l'ensemble des tuyauteries acier carbone — décision exploitant de simplifier le suivi, constat factuel sans NC."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362025-09-2557645046400119f02",
+    "domains": [
+      "D03_SEVESO",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan d'inspection tuyauteries (ITD22) incomplet : points singuliers non tous répertoriés, critères de déclenchement actions correctives insuffisamment définis — NC documentaire sur plan PM2I tuyauteries."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362025-09-2557645046400119f03",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Défaut D3 résorbé mais actions correctives D2 depuis 2022 non mises en place (ressources humaines), vérification US sur choc non réalisée, remise en peinture en retard — délai trop long, MED possible si non résolu mi-2027."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362025-09-2557645046400119f04",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réservoirs CCMP soumis aux IHED art.29-4, donc exclus du champ d'application de l'art.4 AM 04/10/2010 — conformité de classement réglementaire constatée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362025-09-2557645046400119f05",
+    "domains": [
+      "D12_ADMIN",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vérification de l'applicabilité de l'AM du 03/10/10 au site CCMP — constat factuel de classement réglementaire sans NC."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362025-09-2557645046400119f06",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "25 réservoirs soumis PM2I, programme d'inspection respecté avec suivi Excel et intégration budgétaire, guide DT94 appliqué — conformité du programme PM2I réservoirs."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362025-09-2557645046400119f07",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan d'inspection réservoirs (ITD05) ne prévoit pas les mesures d'épaisseur du fond — NC documentaire, plan à compléter sous 6 mois."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362025-09-2557645046400119f08",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "IHED T603 non conclusive sur aptitude au service, calcul cinétique corrosion fond absent, garantie décennale revêtement douteuse, mélange codes EEMUA/CODRES — NC techniques multiples sur inspection décennale réservoir."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362025-09-2557645046400119f09",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Émulseur POLYPETROFILM 3/6 PFOS conforme actuellement (<0,85 mg/kg) mais dépassera les nouveaux seuils au 03/12/2025 — remplacement prévu fin S1 2026 trop tardif, MED annoncée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362025-09-2557645046400119f10",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Concentration PFHxS (<20 g/kg) inférieure à la tolérance contamination non intentionnelle (0,1 mg/kg) — conformité PFAS PFHxS constatée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362025-09-2557645046400119f11",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cuve C dépassera le seuil composés apparentés PFOA à partir du 03/12/2025 (18 mg/kg > 10 mg/kg seuil futur) — délai de remplacement insuffisant, MED annoncée."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362025-09-2557645046400119f12",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déclaration annuelle stocks >50kg de substances POP effectuée en février 2025, nouvelle prévue sous 3 mois — NC reporting PFAS en cours de régularisation."
+  },
+  {
+    "slug": "cie-commerciale-manutention-petroliere52010362025-09-2557645046400119f13",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Concentrations PFCA C9-C14 (<1,42 mg/kg) inférieures au seuil de tolérance (25 mg/kg), composés apparentés (<81,4 mg/kg) < 260 mg/kg — conformité PFAS C9-C14 constatée."
+  },
+  {
+    "slug": "ciorbea-petru31070492023-11-1653771565800028f01",
+    "domains": [
+      "D08_DECHETS",
+      "D06_SOLS",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "VHU en grande partie évacués (amélioration notable) sans justificatifs, pièces/déchets encore présents, pas de diagnostic sols, MED en cours — progression partielle post-MED sur installation VHU illégale."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plan de défense incendie mis à jour et échangé avec SDIS 33 mais non encore analysé par l'inspection — MED 10/02/2022 non levée, inspection dédiée à venir pour statuer."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plan d'urgence mis à jour avec partie inondation ajoutée — FNC2 de la MED 10/02/2022 levée."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f03",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "medium",
+    "reasoning": "Procédure de vidange rétentions en place, vidange en cours le jour de l'inspection — FNC3 MED levée, mais ambiguïté rédactionnelle formulaire à corriger."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f04",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Procédure 'Plan d'inspection des cuvettes de rétention' v1 mise en place et travaux de restauration étanchéité réalisés — FNC9 MED levée (remarque sur fréquence examen visuel)."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f05",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Travaux rétentions réalisés, étanchéité et obturateurs restaurés sauf un bouchon endommagé cuvette n°54 — FNC7 MED levée avec nouvelle NC mineure sur obturation."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f06",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Éléments insuffisants pour attester date de construction des réservoirs avant 16 mai 2011 — facture partielle fournie mais documentation incomplète, FSMD3 non levé."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f07",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Rétention générale zone B mise en place, vanne fermée par défaut — FNC4 MED levée (remarque sur gestion EP)."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f08",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A06",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Calcul géomètre confirme que certaines rétentions sont sous-dimensionnées, plan de mise à niveau en cours — FNC8 non levée, NC physique sur volumes rétention insuffisants."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f09",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Nombreux stockages de liquides inflammables/acides/solvants sans capacité de rétention, zone 5 avec seulement 5m³ vs 40m³ prévus — NC physique grave avec stockage dangereux sans rétention."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f10",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Émulseur présent sur site sans capacité de rétention malgré sa toxicité aquatique — NC physique sur rétention d'un produit dangereux pour l'environnement."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f11",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Liaisons équipotentielles mises en place récemment, dernier rapport foudre 2022 attendu pour lever FNC5 — NC sur protection foudre en cours de vérification."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f12",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Tous les GRV/IBC vus lors de l'inspection étiquetés, tuyauteries clarifiées (traitement eau) — FSMD1 et OBS levés."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f13",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Certaines zones de stockage liquides inflammables toujours sans symboles de dangers/codes produits malgré amélioration partielle — NC physique résiduelle sur signalétique de danger."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f14",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plan d'urgence v.oct.2022 inclut volet inondation mais exploitant ne peut justifier conformité au PPRI Barsac — NC documentaire résiduelle sur justification PPRI."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f15",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plus de réservoir sans identification dans les cuvettes de rétention, produits incompatibles séparés — FSMD2 levé."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f16",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plan d'inspection interne mis en place pour tous les réservoirs dont un soumis à l'AM 04/10/10 — FNC10 MED levée."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f17",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Clôture réparée, site clôturé sur toute sa périphérie — FNC11 MED levée."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f18",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Voies d'accès pompiers maintenues libres lors de l'inspection — FNC12 MED levée."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f19",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Groupe motopompe réparé, PIA fonctionnel lors de l'essai du 03/01/2023, opérateur sans difficulté — FNC13 et FNC14 MED levées."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f20",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Palettes en bois stockées devant la porte du groupe motopompe alimentant les PIA/RIA — NC physique sur accessibilité des moyens DCI en cas d'incendie."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f21",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Hydrants accessibles lors de la visite — FSMD4 levé."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f22",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "PAC lessive de soude déposé, état des stocks non consultable (basculement logiciel) — FNC15 non levée, NC administrative sur nomenclature ICPE en attente de confirmation."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f23",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "SSI vérifié juillet 2022, mais détection incendie absente de la chaufferie — NC résiduelle sur détection, exploitant conditionne installation au remplacement du système de chauffage."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172023-01-0346720164600016f24",
+    "domains": [
+      "D07_RETENTION",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Citernes propane déclarées enterrées dans EDD mais exploitées en surface — NC physique sur exploitation non conforme aux données techniques du dossier."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-04-0946720164600016f01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "EDD actualisée transmise en novembre 2024 avec remarques d'inspection, modifications demandées lors de l'inspection du 09/04/2025 — NC documentaire sur contenu EDD Seveso."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-04-0946720164600016f02",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "État des stocks incomplet (pas de déchets, pas de batteries, récipients mobiles non géolocalisés, non référencé dans POI) — NC documentaire sur état des matières stockées."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-04-0946720164600016f03",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "État des stocks synthétique sans localisation récipients mobiles ni quantité déchets — NC documentaire sur format synthétique réglementaire."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-04-0946720164600016f04",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Inventaire quotidien des stocks de liquides inflammables par réservoir confirmé — conformité constatée."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-04-0946720164600016f05",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Classement autorisation rubrique 4331 (>1000t et <5000t) confirmé — constat de classement ICPE sans NC."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-04-0946720164600016f06",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Quantités carburants et méthanol sous les seuils de classement rubriques 4734 et 4722 — constat de classement ICPE sans NC."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-04-0946720164600016f07",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Inventaire substances H225/H226 réalisé pour rubriques applicables, pas de H224 ni HP3 — conformité nomenclature ICPE constatée."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-04-0946720164600016f08",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Modélisations incendie confirment des effets 8 kW/m² sortant du site mais ne touchant pas de zones d'occupation permanente — conformité à l'annexe IV AM 24/09/2020."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-04-0946720164600016f09",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Stockage de liquides H225 en contenants fusibles en intérieur interdit à partir du 01/01/2026 et absence d'extinction automatique — NC technique à anticiper avant échéance réglementaire."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-04-0946720164600016f10",
+    "domains": [
+      "D11_SECURITE",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Surveillance par caméras thermiques et télésurveillance, astreinte pour accueil SDIS — conformité sur surveillance hors exploitation."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-04-0946720164600016f11",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "POI et plan de défense incendie présents mais calculs besoins en eau/émulseurs à recalculer suite aux remarques EDD — NC documentaire sur dimensionnement DCI."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-04-0946720164600016f12",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Formation et exercices incendie tous les 6 mois constatés conformes — conformité sur formation et entraînement."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-04-0946720164600016f13",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aires d'aspiration sur le Ciron hors service — NC physique sur approvisionnement en eau incendie au-delà de 3 heures, rencontre SDIS prévue."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-04-0946720164600016f14",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exercices incendie tous les 6 mois constatés — conformité sur périodicité des exercices."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-04-0946720164600016f15",
+    "domains": [
+      "D07_RETENTION",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Visites externes détaillées non conformes (bac javel), corrosions significatives sur réservoirs horizontaux sans traitement, état initial rétentions absent et désordres D3/D3P constatés sur rétentions — MED proposée au Préfet sur PM2I réservoirs et rétentions. [SKEPTIC: D10_ELECTRIQUE_ESP remplacé D03_SEVESO — fiche porte sur PM2I réservoirs/rétentions (risque majeur Seveso), pas sur équipements électriques/ESP.]"
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-10-2146720164600016f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Chaudières 27 et 63 retirées, seule chaudière 43 + conduit fûts + dépoussiéreur restants — descriptif complet des conduits atmosphériques à transmettre à l'inspection."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-10-2146720164600016f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence totale de mesures sur les conduits (fûts, chaudière 43, dépoussiéreur) — NC sur absence de campagnes de mesures réglementaires des rejets atmosphériques."
+  },
+  {
+    "slug": "ciron-sa-barsac52003172025-10-2146720164600016f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mesures trimestrielles de débit et COV spécifiques non effectuées — NC sur contrôle périodique autosurveillance atmosphérique."
+  }
+]

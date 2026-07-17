@@ -1,0 +1,25 @@
+Constats body:
+La dernière vérification de l’épaisseur des cuves a eu lieu le 23 juillet 2021. La fréquence
+de ces vérifications n’a pas amené de remarque.
+L’exploitant  constate  une  diminution,  lente  mais  non  négligeable,  des  épaisseurs  minimales
+mesurées. Les épaisseurs minimales restent encore nettement supérieures aux valeurs admissibles
+calculées (cf. rapport de l’inspection du 23 février 2021). Toutefois, l’exploitant explore des pistes
+afin de se doter d’un moyen de stockage plus pérenne. Le remplacement des cuves est une
+solution possible bien que techniquement délicate et coûteuse ; la réfection des cuves existantes
+par un enduit de résine intérieur permettant de stopper la corrosion du métal constitue une
+alternative.
+Observations  :
+ il  est  impératif  que  l'exploitant  poursuive  la  réalisation  des  examens  non
+destructifs de routine pour suivre la cinétique de corrosion desdites cuves.
+
+Prescription:
+« Les installations de traitement non soumises à la réglementation des appareils à pression (bac de
+trempage, …), doivent satisfaire, tous les 18 mois, à une vérification de l’étanchéité des cuves.
+Cette vérification, qui peut être visuelle, est renouvelée après toute réparation notable, ou dans le
+cas  où  la  cuve  de  traitement  est  restée  vide  12  mois  consécutifs.  Cela  fait  l'objet  d'un
+enregistrement.
+Les canalisations  et tuyauteries  non soumises à la réglementation précitée sont visitables et
+vérifiées avec la même fréquence.
+Les autoclaves sont concus et éprouvés de manière à éviter toute rupture du matériau. Les cuves
+de préparation et de mélange des solutions de traitement des bois font l’objet d’un contrôle
+annuel par ultrasons et magnétoscopie. »

@@ -1,0 +1,57 @@
+Constats body:
+Vu la déclaration GEREP 2024, le site a consommé 1245 m³ d'eau issu du forage et 66 214 m³ d'eau
+issus du réseau public. Ce volume est supérieur au volume autorisé.
+En l'état, ce dépassement constitue un écart susceptible de suites administratives qui nécessite
+d'être régularisé. Par ailleurs, la consommation étant supérieure à 10 000 m3/an, l'inspection
+rappelle que l'arrêté du 30 juin 2023 relatif aux mesures de restriction, en période de sécheresse,
+portant sur le prélèvement d'eau et la consommation d'eau des installations classées pour la
+protection de l'environnement est applicable.
+
+9/21
+L'exploitant dispose d'un unique forage en fonctionnement sur son site (forage 3). Il a indiqué que
+le forage 4 a été supprimé et que le forage 7 n'est plus utilisé et est condamné.
+Le site dispose de 2 points de rejets d'eaux usées : EU1 (avec prétraitement) et EU2, ainsi que 6
+points de rejets d'eaux pluviales (EP1 à EP6). Une ceinture hydraulique permet la collecte d'une
+partie des eaux de ruissellement du site (EP1 et EP6 non connectés).
+En cas d'incident, la ceinture hydraulique permet un confinement des eaux sur site grâce à la
+fermeture de vannes. Pour les zones non raccordées à cette ceinture, le site dispose de bassins de
+rétention.
+L'exploitant a présenté un plan à jour des réseaux du site (eaux pluviales, eaux usées).
+Il a été demandé de fournir un plan complet de la gestion des eaux sur le site, présentant la
+gestion des eaux pluviales (points de rejets, bassins versants, bassins de rétention étanche ou non,
+ceinture  hydraulique,  séparateurs,  vannes),  des  eaux  usées  (points  de  rejets),  des  eaux
+souterraines (piézomètres et forages), ainsi que le périmètre ICPE du site. Ce dernier pourra être
+intégré dans le projet d'arrêté préfectoral actualisé.
+Demande à formuler à l’exploitant à la suite du constat :
+L'exploitant met en œuvre les mesures nécessaire afin de réduire sa consommation d'eau, ou
+sollicite une révision du volume d'eau consommé autorisé en évaluant les incidences.
+Par ailleurs, l’exploitant fournit un positionnement vis-à-vis de l'arrêté du 30 juin 2023 suscité.
+L'exploitant fournit à l'inspection des installations classées le plan "Eau" du site, tel qu'évoqué en
+inspection.
+L'exploitant justifie le comblement dans les règles de l'art du forage 4 suite à son abandon. Il peut
+se référer aux obligations de l'arrêté ministériel du 11 septembre 2003 fixant les prescriptions
+générales applicables aux sondage, forage, création de puits ou d'ouvrage souterrain.
+S'agissant du forage 7, il veille à se positionner sur le devenir de l'ouvrage. Dans le cas d'un
+abandon, ce forage devra faire l'objet d'un comblement.
+
+Prescription:
+Les alimentations en eau de l'établissement sont assurée par :
+1° Le réseau de distribution publique : 20 000 m3/an
+2° Forages en activité [...]
+Nota : Les forages numérotés 1, 2, 5 et 6, utilisés jusqu’en 1998, ont été neutralisés à partir de
+1998.
+Identification des effluents
+L'exploitant est en mesure de distinguer les différentes catégories d'effluents suivants :
+- Eaux de nettoyage : Le lavage des sols des ateliers s'effectue de manière périodique ou
+exceptionnelle, par le service de nettoyage de l'usine qui récupère les eaux souillées. Leur
+évacuation est communément assurée vers le réseau d'eaux usées.
+Les cabines de peintures sont régulièrement nettoyées. Les eaux de lavage sont évacuées vers un
+décanteur lamellaire (1 par atelier). Les eaux de ces décanteurs sont ensuite acheminées par
+surverse vers les séparateurs décanteurs-déshuileurs en limite de terrain.
+- Eaux sanitaires :
+Eaux sanitaires classiques : rejet direct dans le réseau d'assainissement public
+Eaux issues de l'activité de restauration : Ces eaux subissent un pré traitement avant évacuation
+vers le réseau public d'assainissement
+- Eaux pluviales : Constituées des eaux de toitures, des eaux collectées sur les surfaces étanches et
+des eaux de drainage des surfaces vertes.
+Le site ne génère pas d'eaux de procédé.

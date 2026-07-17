@@ -1,0 +1,33 @@
+{
+  "document_date": "2023-01-12",
+  "document_title": "sas-lelay52011532023-01-1237831137700022f02",
+  "document_summary": "L'inspection d'un élevage porcin (SAS Lelay) constate la présence d'alarmes pour signaler les dysfonctionnements liés à l'eau et aux températures, et la disponibilité de buses d'aspersion pour le lavage des salles, en conformité avec les prescriptions de limitation de la consommation d'eau.",
+  "surprises": "",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "Le site est équipé d'alarmes signalant les anomalies liées à l'eau et aux températures des salles d'élevage, permettant une réaction rapide en cas d'incident.",
+      "excerpts": [
+        "Le site est équipé d'alarmes notamment pour signaler tous les dysfonctionnements afférents à l'eau, aux températures des salles"
+      ],
+      "valence": "positive",
+      "code": "Surveillance automatisée des dysfonctionnements"
+    },
+    {
+      "description": "Des buses d'aspersion sont disponibles pour le lavage des salles d'élevage, facilitant la gestion de l'hygiène tout en étant des équipements consommateurs d'eau.",
+      "excerpts": [
+        "Les buses d'aspersion permettent de débuter le lavage des salles."
+      ],
+      "valence": "positive",
+      "code": "Dispositifs de nettoyage par aspersion"
+    },
+    {
+      "description": "La prescription rappelle que toutes les dispositions doivent être prises pour limiter la consommation d'eau sur le site.",
+      "excerpts": [
+        "Toutes les dispositions sont prises pour limiter la consommation d'eau."
+      ],
+      "valence": "neutral",
+      "code": "Obligation de limitation de la consommation d'eau"
+    }
+  ]
+}

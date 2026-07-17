@@ -1,0 +1,2357 @@
+[
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation déclarée conforme aux arrêtés préfectoraux — conformité administrative directe."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f03",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Voiries et accessibilité conformes, plates-formes équipées de protections — constat terrain positif."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f04",
+    "domains": [
+      "D02_ATEX",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation conforme, locaux ventilés — conformité constatée sans réserve."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f05",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Locaux surélevés avec rétention, sol étanche — conformité physique observée."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f06",
+    "domains": [
+      "D07_RETENTION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Zone de stockage DMS abritée de la pluie — constat terrain de conformité."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f07",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Surveillance directe pendant heures d'ouverture et gardiennage nocturne — conformité opérationnelle."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f08",
+    "domains": [
+      "D08_DECHETS",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure de réception des DMS par personnel habilité vérifiée, local dédié constaté."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f09",
+    "domains": [
+      "D11_SECURITE",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Affichage des risques et interdiction présent à proximité du conteneur — conformité signalétique."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f10",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Récipients correctement récupérés selon procédure — conformité opérationnelle."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f11",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchets non dangereux déposés sous contrôle dans réceptacles dédiés — conformité terrain."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f12",
+    "domains": [
+      "D08_DECHETS",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "[SKEPTIC] Casiers sans étiquettes requises = absence de marquage = M01_DOCUMENTATION, non M14_CONSTAT_TECHNIQUE. NC formelle sur signalétique documentaire."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f13",
+    "domains": [
+      "D11_SECURITE",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation maintenue en état de propreté excellent — conformité observée."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f14",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registres transmis à l'inspection — conformité documentaire."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f15",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Rapport de contrôle électrique transmis, NC relevée puis corrigée le 26/09/2023 — NC résolue, trajectoire d'amélioration."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f16",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport extincteurs, débit PI et dossier incendie à jour transmis — conformité contrôles périodiques."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f17",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Affichage interdiction de fumer visible et présent — conformité signalétique."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f18",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consignes claires et visibles présentes — conformité documentaire-affichage."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f19",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réseau séparatif avec débourbeurs-déshuileurs confirmé par inspection, bon d'intervention curage présenté — conformité."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f20",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dépassement VLE MES constaté (880 mg/l au lieu de 600 mg/l), demande de nouvelles analyses sous 3 mois."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f21",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas de rejet nappe souterraine — installation conforme à l'AP."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f22",
+    "domains": [
+      "D07_RETENTION",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Lampe témoin de fonctionnement ne fonctionnait manifestement pas — équipement physique hors service, délai 1 mois."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f23",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R12",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Cuve sans jauge à lecture directe mais inspection ne prend pas de suite administrative vu le contexte d'inertage prochain — pragmatisme réglementaire."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-blanquefort52076072023-10-0524330031600011f24",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R12",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Deux items manquants dans registre déchets (qualification traitement, code directive), pas de suite administrative au regard mise à jour prochaine."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Capacités maximales de l'installation respectées — conformité aux seuils autorisés."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "[SKEPTIC] \"L'exploitant a indiqué... que le site fermerait provisoirement\" = déclaration factuelle, non engagement sans preuve. R02 sur-attribué. R13 défaut."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f03",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchets dangereux entreposés dans locaux dédiés et abrités — conformité physique observée."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f04",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Clôture discontinue à un endroit (arbre responsable) — NC physique sur intégrité de la clôture, délai 2 mois."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f05",
+    "domains": [
+      "D02_ATEX",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Locaux normalisés, ventilés avec rétentions — conformité technique constatée."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f06",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Coffret électrique avec portes détériorées et installation ouverte à tout vent, exploitant incapable d'expliquer — NC physique électrique."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f07",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Sol des aires étanche, incombustible, avec seuil surélevé — conformité physique."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f08",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cuvettes de rétention et jauges présentes — conformité physique observée."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f09",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Surveillance directe pendant heures d'ouverture par personnes nommées, vidéo-surveillance nocturne."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f10",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Panneaux horaires présents, vidéo-surveillance et maître chien — conformité sécurité accès."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f11",
+    "domains": [
+      "D11_SECURITE",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchets éparpillés dans caniveaux et regards malgré site globalement propre — NC proprete terrain, demande nettoyage."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f12",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport Bureau Veritas 04/2022 sans NC — vérification périodique conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f13",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Moyens incendie présents et contrôlés mais débit poteau incendie non attesté — demande justificatif."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f14",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pictogrammes interdiction de fumer présents — conformité signalétique."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f15",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consignes présentes et constatées — conformité affichage."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f16",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Garde-corps métalliques et panneaux au niveau des bennes constatés — conformité sécurité piétons."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f17",
+    "domains": [
+      "D04_EAUX",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réseau EP conforme mais BSD Trackdéchets non émis systématiquement pour déchets dangereux des déchetteries — NC reporting traçabilité, menace de MED."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f18",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "[SKEPTIC] Dépassements confirmés métaux totaux (82,9 vs 15 mg/l), DCO (2260 vs 2000 mg/l) et MES (2700 vs 600 mg/l) = dépassements VLE multiples confirmés = G4, non G3."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f19",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "EP restituées après traitement au réseau, pas de rejet nappe souterraine — conformité."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f20",
+    "domains": [
+      "D11_SECURITE",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchetterie fermée hors horaires — conformité opérationnelle."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f21",
+    "domains": [
+      "D08_DECHETS",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure dépôt DMS par usagers sur desserte dédiée avec vidage rapide, gardiens seuls accèdent aux locaux — conformité."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f22",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Identification des déchets complète, signalétique conforme, pas de mélange constaté."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f23",
+    "domains": [
+      "D11_SECURITE",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Affichages nécessaires présents et visibles — conformité signalétique."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f24",
+    "domains": [
+      "D01_INCENDIE",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan de stockage des DMS affiché à l'intérieur du local — conformité documentaire."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f25",
+    "domains": [
+      "D07_RETENTION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R12",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Hydrocarbures dans cuvette rétention suite mauvaise manipulation usager, nettoyage prévu, autre prescriptions respectées — situation transitoire acceptée."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f26",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R12",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fichier registre conforme mais deux items manquants (qualification et code traitement), pas de suite administrative vu mise à jour prochaine."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f27",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchets mal affectés dans conteneur TVI (bois, déchets verts, carton) alors que conteneurs dédiés disponibles — NC de tri constatée."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f28",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R12",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Deux items manquants dans registre déchets sortants, pas de suites administratives au regard mise à jour prochaine."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-bruges52076172023-04-2424330031600011f29",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mesures acoustiques ORFEA 2021 conformes — vérification périodique sans NC."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Volumes et capacités autorisés respectés — conformité aux seuils déclarés."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "[SKEPTIC] Donné acte préfectoral non exécuté + obligation de transmettre état chantier = M09_PAC + m_DELAI + S02. R02 sur-attribué (obligation préfectorale ≠ promesse exploitant). G2 (NC administrative formelle)."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f03",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M11",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Incendie de mai 2022 déclaré à l'inspection conformément aux obligations — déclaration incident respectée."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f04",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation conforme — pas de locaux tiers au-dessus."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f05",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "DDs en locaux dédiés, huiles et piles en conteneurs abrités — conformité stockage."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucune remarque particulière sur résistance et réaction au feu — conformité constatée."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f07",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Clôture sur tous les côtés, bordure béton, panneau vitesse présents — conformité sécurité périmètre."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f08",
+    "domains": [
+      "D02_ATEX",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Locaux normalisés et ventilés — conformité technique constatée."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f09",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Locaux surélevés avec rétentions — conformité physique observée."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f10",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation conforme — constat positif sur rétentions."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f11",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Surveillance directe pendant heures d'ouverture, vidéo-surveillance nocturne — conformité."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f12",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Panneaux horaires et déchets admis à l'entrée constatés — conformité affichage."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f13",
+    "domains": [
+      "D11_SECURITE",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Très bien entretenu, aucun déchet hors réceptacles — état de propreté excellent."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f14",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Rapport Veritas avec 3 observations, levée des réserves le 22/09/2022 — prescription respectée après correction."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f15",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Extincteurs contrôlés sans anomalie mais débit poteau incendie non documenté — demande justificatif PI."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f16",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Affichage visible présent — conformité signalétique."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f17",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consignes claires et visibles — conformité affichage."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f18",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Garde-corps et panneaux signalant chutes constatés — conformité sécurité piétons."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f19",
+    "domains": [
+      "D04_EAUX",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réseau EP conforme avec curage à jour mais BSD Trackdéchets non émis systématiquement, menace de MED, plus demande plan réseaux."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f20",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Analyses ARCAGEE sans dépassement VLE — vérifications périodiques conformes."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f21",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "EP après traitement vers fossé, pas de rejet nappe souterraine — conformité."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f22",
+    "domains": [
+      "D11_SECURITE",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchetterie fermée hors horaires, agents affectés avec remplaçants — conformité opérationnelle."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f23",
+    "domains": [
+      "D08_DECHETS",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure DMS vérifiée en action, exécution parfaitement conforme, agent avec EPI idoines."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f24",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Identification des déchets complète, conteneurs rayonnés — conformité organisation stockage."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f25",
+    "domains": [
+      "D11_SECURITE",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Identification de la nature des déchets complète — conformité signalétique."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f26",
+    "domains": [
+      "D01_INCENDIE",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan de stockage DMS affiché correspond au stockage réel — conformité documentaire."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f27",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cuve enterrée retirée, cuve aérienne avec rétention conforme, toutes prescriptions respectées."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f28",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Documents indiquent déchets non entreposés plus de 3 mois — conformité documentaire."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f29",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchets ND en bennes sous surveillance agents, affichage par type — conformité terrain."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f30",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R12",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Deux items manquants dans registre déchets sortants, pas de suite administrative vu mise à jour prochaine du registre."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f31",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mesures bruit sans anomalie — vérification périodique conforme."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-gradignan52077812023-04-2724330031600011f32",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Zone de réemploi testée depuis 2021, local dédié avec agent habilité — conformité opérationnelle."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-paludate52117982023-05-0224330031600219f01",
+    "domains": [
+      "D13_CESSATION",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M19",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mise en sécurité post-cessation incomplète: grille zone impact D déplacée, matériaux dans zone K — NC physique sur zones polluées, risque avéré."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-paludate52117982023-05-0224330031600219f02",
+    "domains": [
+      "D13_CESSATION",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M19",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan de gestion transmis mais incomplet: modalités conservation mémoire manquantes, impact nappe non démontré — NC documentaire post-cessation."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-paludate52117982023-05-0224330031600219f03",
+    "domains": [
+      "D06_SOLS",
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M19",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan de gestion insuffisant sur métaux (non abordés dans seuils de coupure), incohérence 5% HAP — NC qualité du plan de gestion sols pollués."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-paludate52117982023-05-0224330031600219f04",
+    "domains": [
+      "D13_CESSATION",
+      "D06_SOLS",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M19",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport de récolement incomplet avec plusieurs incohérences (planning non actualisé, pollution générique non définie, incohérences destinations déchets ISDD)."
+  },
+  {
+    "slug": "bordeaux-metropole-dechetterie-paludate52117982023-05-0224330031600219f05",
+    "domains": [
+      "D13_CESSATION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M19",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport DOE indique envoi vers ISDD Solrem non autorisée pour DDs — incohérence traçabilité déchets post-travaux dépollution."
+  },
+  {
+    "slug": "bordelaise-de-materiaux-enrobes-bme52007682023-03-2346720015000010f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan d'action pollution atmosphérique établi, affiché, abonnements alertes ATMO — conformité."
+  },
+  {
+    "slug": "bordelaise-de-materiaux-enrobes-bme52007682023-03-2346720015000010f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Filtres à manches avec suivi continu, alarme colmatage, vérification 2x/an — conformité entretien traitement air."
+  },
+  {
+    "slug": "bordelaise-de-materiaux-enrobes-bme52007682023-03-2346720015000010f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Conduit non conforme à l'inspection 2020, rapport rectificatif et analyses 2021/2022 confirment conformité — NC précédente soldée."
+  },
+  {
+    "slug": "bordelaise-de-materiaux-enrobes-bme52007682023-03-2346720015000010f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Trois dernières analyses atmosphériques conformes, campagne retombées poussières conforme — surveillance conforme."
+  },
+  {
+    "slug": "bordelaise-de-materiaux-enrobes-bme52007682023-03-2346720015000010f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cheminée 32m confirmée, diamètre 1,25m, vitesses 14-17 m/s conformes — caractéristiques cheminée vérifiées."
+  },
+  {
+    "slug": "bordelaise-de-materiaux-enrobes-bme52007682023-03-2346720015000010f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Unité traitement vapeurs bitume (charbon actif) en fonctionnement permanent confirmé, mesures COV sans écart — NC 2020 résolue."
+  },
+  {
+    "slug": "bordelaise-de-materiaux-enrobes-bme52007682023-03-2346720015000010f07",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rétention 300 m³ pour 480 m³ bitume conforme au critère 50%, stockages petits avec rétentions adéquates."
+  },
+  {
+    "slug": "bordelaise-de-materiaux-enrobes-bme52007682023-03-2346720015000010f08",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Étiquetage CLP pictogrammes inflammables présents, plan zones à risques — NC étiquetage 2020 résolue."
+  },
+  {
+    "slug": "bordelaise-de-materiaux-enrobes-bme52007682023-03-2346720015000010f09",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "[SKEPTIC] Confinement eaux extinction incendie non vérifié = D01_INCENDIE manquant dans domaines. Constat porte sur capacités post-incendie (D01 + D04 + D07)."
+  },
+  {
+    "slug": "bordelaise-de-materiaux-enrobes-bme52007682023-03-2346720015000010f10",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vanne d'isolement Ouest avec signalétique fortement dégradée/illisible, position ouverte/fermée non indiquée, visibilité vanne limitée — NC physique sur équipement de sécurité."
+  },
+  {
+    "slug": "bordelaise-de-materiaux-enrobes-bme52007682023-03-2346720015000010f11",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "[SKEPTIC] Irisation active au point de rejet + accumulation significative hydrocarbures rétention dépotage = pollution en cours avérée = G4. G3 insuffisant pour déversement actif constaté."
+  },
+  {
+    "slug": "bouyer-leroux-gironde-sur-dropt-1787-route-des-vignerons52063062023-06-2752910584300070f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mesures prévues mais plan d'action non formalisé/écrit — absence document requis."
+  },
+  {
+    "slug": "bouyer-leroux-gironde-sur-dropt-1787-route-des-vignerons52063062023-06-2752910584300070f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Stocks communiqués, quantités maximales autorisées non dépassées — conformité aux seuils."
+  },
+  {
+    "slug": "bouyer-leroux-gironde-sur-dropt-1787-route-des-vignerons52063062023-06-2752910584300070f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dépassements VLE SO2 et poussières (chaudière BSWA15), vitesse éjection (GIR27), CO (foyer bois) et paramètres non analysés — dépassements multiples confirmés, actions correctives en cours."
+  },
+  {
+    "slug": "bouyer-leroux-gironde-sur-dropt-1787-route-des-vignerons52063062023-06-2752910584300070f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan des réseaux incomplet: séparateurs, avaloirs et points de rejets manquants."
+  },
+  {
+    "slug": "bouyer-leroux-gironde-sur-dropt-1787-route-des-vignerons52063062023-06-2752910584300070f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "VLE concentrations respectées mais flux non mesurés, GIDAF mentionne flux sans base réelle, point de rejet lac 2 non suivi."
+  },
+  {
+    "slug": "bouyer-leroux-gironde-sur-dropt-1787-route-des-vignerons52063062023-06-2752910584300070f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "5 RIA présentent des fuites, débit PI non justifié — équipements de lutte incendie non conformes physiquement."
+  },
+  {
+    "slug": "bouyer-leroux-gironde-sur-dropt-1787-route-des-vignerons52063062023-06-2752910584300070f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Écart relevé sur désenfumage BAT3, surfaces exutoires non justifiées — NC physique et documentaire sur désenfumage."
+  },
+  {
+    "slug": "bouyer-leroux-gironde-sur-dropt-1787-route-des-vignerons52063062023-06-2752910584300070f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Détecteurs température, taux humidité, CO, fumées; surveillance stockage sciure; inertage eau présents — conformité dispositifs détection."
+  },
+  {
+    "slug": "bouyer-leroux-gironde-sur-dropt-1787-route-des-vignerons52063062023-06-2752910584300070f09",
+    "domains": [
+      "D01_INCENDIE",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M14",
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Palettes non sur parcelles AB45/AB49 mais dans zone non autorisée avec végétation et sans lutte incendie, modification non portée à connaissance préfet."
+  },
+  {
+    "slug": "bouyer-leroux-gironde-sur-dropt-1787-route-des-vignerons52063062023-06-2752910584300070f10",
+    "domains": [
+      "D02_ATEX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas de détection gaz car surveillance permanente 24/7, suivi compteur mensuel/hebdo — conformité à exemption réglementaire."
+  },
+  {
+    "slug": "bouyer-leroux-gironde-sur-dropt-1787-route-des-vignerons52063062023-06-2752910584300070f11",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M11"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Incendie mai 2022 non déclaré à l'inspection, exploitant a jugé sans objet — méconnaissance obligation déclaration, demande rapport accident."
+  },
+  {
+    "slug": "brangeon-recyclage-ex-sx-environnement-sainte-eulalie52133802023-06-1339943571800065f01",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Trackdéchets utilisé mais pas pour tous les mouvements (ex: terres polluées nov 2022 uniquement BSD papier) — NC reporting Trackdéchets, suivi depuis inspection 2022."
+  },
+  {
+    "slug": "brangeon-recyclage-ex-sx-environnement-sainte-eulalie52133802023-06-1339943571800065f02",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "RNDTS alimenté automatiquement via Trackdéchets pour flux DD, pas d'autre anomalie identifiée — conformité sur cet aspect."
+  },
+  {
+    "slug": "brangeon-recyclage-ex-sx-environnement-sainte-eulalie52133802023-06-1339943571800065f03",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Trackdéchets utilisé depuis juil 2022, BSD papiers abandonnés — conformité Trackdéchets atteinte."
+  },
+  {
+    "slug": "brangeon-recyclage-ex-sx-environnement-sainte-eulalie52133802023-06-1339943571800065f04",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Terres excavées non polluées (17 05 04) non tracées dans RNDTS bien que suivi interne existant — NC reporting réglementaire."
+  },
+  {
+    "slug": "brangeon-recyclage-ex-sx-environnement-sainte-eulalie52133802023-06-1339943571800065f05",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas d'excavation sur emprise foncière du site — exemption applicable, pas d'obligation."
+  },
+  {
+    "slug": "brangeon-recyclage-ex-sx-environnement-sainte-eulalie52133802023-06-1339943571800065f06",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Écrémage et nettoyage séparateurs réalisés 2x/an confirmés par RNDTS — entretien périodique conforme."
+  },
+  {
+    "slug": "brangeon-recyclage-ex-sx-environnement-sainte-eulalie52133802023-06-1339943571800065f07",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "État des stocks cohérent avec terrain, sous capacités autorisées, D3E confirmé — conformité quantités maximales."
+  },
+  {
+    "slug": "brangeon-recyclage-ex-sx-environnement-sainte-eulalie52133802023-06-1339943571800065f08",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Portique radioactivité contrôlé annuellement, opérationnel, boîtier vert indiquant fonctionnel — conformité vérification périodique."
+  },
+  {
+    "slug": "brangeon-recyclage-ex-sx-environnement-sainte-eulalie52133802023-06-1339943571800065f09",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Clôture réhaussée >2m en 2022, mise en conformité constatée — NC précédente résolue."
+  },
+  {
+    "slug": "brangeon-recyclage-ex-sx-environnement-sainte-eulalie52133802023-06-1339943571800065f10",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "[SKEPTIC] Dépassements DCO et COT confirmés sur 2 campagnes successives (dec 2021 et nov 2022) = dépassement VLE confirmé et persistant = G4. G3 insuffisant pour VLE avérés."
+  },
+  {
+    "slug": "brangeon-recyclage-ex-sx-environnement-sainte-eulalie52133802023-06-1339943571800065f11",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Colonne qualification traitement non systématiquement renseignée dans registre ND sortants — NC documentaire persistante depuis inspection précédente."
+  },
+  {
+    "slug": "brangeon-recyclage-ex-sx-environnement-sainte-eulalie52133802023-06-1339943571800065f12",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Détection incendie raccordée télésurveillance CHUBB en août 2022, vérifiée sept 2022, macaron 2023 — NC précédente résolue."
+  },
+  {
+    "slug": "brangeon-recyclage-ex-sx-environnement-sainte-eulalie52133802023-06-1339943571800065f13",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "2 des 3 RIA avec anomalies dont diffuseurs HS, surpresseur non alimenté électriquement découvert lors de l'inspection — équipements incendie physiquement défectueux."
+  },
+  {
+    "slug": "brangeon-recyclage-ex-sx-environnement-sainte-eulalie52133802023-06-1339943571800065f14",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R12",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Argument exploitant recevable (pelles grappin nécessitent accès direct), réserves sable accessibles — pragmatisme accepté par inspection."
+  },
+  {
+    "slug": "brangeon-recyclage-ex-sx-environnement-sainte-eulalie52133802023-06-1339943571800065f15",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bassin confinement au 1/3 mais exploitant incapable de confirmer compatibilité avec volume de confinement requis — incertitude sur capacité disponible pour eaux incendie."
+  },
+  {
+    "slug": "brenez52064592022-10-01nosiretf01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M11"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G6",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Incendie déclaré, un bâtiment quasi totalement détruit, police et maire présents — événement incendie survenu."
+  },
+  {
+    "slug": "brenez52064592022-10-01nosiretf02",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G5",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Eaux extinction non confinées, rejetées au milieu via fossé non maçonné — pollution potentielle en cours post-incendie, risque imminent."
+  },
+  {
+    "slug": "brenez52064592022-10-01nosiretf03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G5",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bâtiment non détruit avec fissures et traces remettant en cause résistance au feu — structure endommagée, risque imminent avant reprise d'activité."
+  },
+  {
+    "slug": "brenez52064592022-10-01nosiretf04",
+    "domains": [
+      "D06_SOLS",
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M11",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G5",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Panache fumée vers Est avec contamination potentielle sols/cultures jusqu'à 1km, diagnostic requis — risque pollution post-incendie non encore caractérisé."
+  }
+]

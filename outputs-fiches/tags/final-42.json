@@ -1,0 +1,2258 @@
+[
+  {
+    "slug": "l-electrolyse-sas52008692022-07-2846020064500022f07",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Monthly point-bas retention alarm tests conducted and verified OK. Technical compliance confirmed."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692022-07-2846020064500022f08",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bath temperature sensors and thermal safety cutoffs verified OK by TRESCAL. Periodic controls compliant."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692022-07-2846020064500022f09",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PAC qualification for Line G extension verified. Modification deemed notable but non-substantial. Future inspection will verify conformity."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R09",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "DAI (automatic fire detection) still absent despite prior commitment for end 2022. MED threat mentioned in prescription. Temperature sensor alarms raccordés since Nov 2022 but generalized DAI not yet deployed."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R09",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "DAI generalized not yet installed despite 50k€ budget. Six-month deadline set. MED threat explicit."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Smoke extraction for painting cabins 4-5-6 corrected (attestation MISO 22/11/2022). NC from prior inspection lifted."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f04",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PM2I quinquennial checks conducted by APAVE for A31 and cuvette. Minor fissure noted with 1-year repair deadline. Compliant overall."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R09",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Fire water supply deficit: 3 public hydrants only provide 130+100+150 m3/h individually but no simultaneous test done. Need 360 m3/h. MED threat raised."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Topographic study confirms 1000m3 containment capacity available on site for fire water. Requirement is 936m3 with DAI. Compliant."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Chemical storage checks: no H2O2 >35% or HNO3 >53%, solvent container CF-2h, TGBT extinction system verified OK, GRV stacking compliant."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f08",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Point-bas retention alarms, bath level sensors, thermal cutoffs all verified quarterly. All controls current. Functional test confirmed OK."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f09",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "TVDI retention area: incompatible chemicals (acids/bases/cyanides) properly separated on individual mobile retentions. No compatibility risk."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f10",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Cadmium discharges 90-170 µg/l vs target 25 µg/l. No technically viable solution available by Jan 2023 deadline. 10-month extension requested and accepted. MED threat if not resolved."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f11",
+    "domains": [
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R10",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "COHV contamination (perchloroethylene from former degreaser 15 years ago) confirmed in soil gas, groundwater. Puisard 1 in direct contact with stormwater network. Active pollution source in Zone 1. Treatment by activated carbon filtration planned. Off-site pathway via stormwater drainage is a direct threat."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f12",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "H+ VLE exceedance on stack 20 (OAD 4M). Missing parameters (NOx, NH3, CN, Ni, HF) on multiple stacks. Measurements not done under normal conditions per APAVE. MED threat."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f13",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Capture systems for all heated active baths observed. All connected to atmospheric stacks. No diffuse emissions observed."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f14",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Number of atmospheric discharge points minimized and consistent with number of treatment lines. Compliant."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f15",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Chimney outlets observed: vertical discharge, no obstacles, proper dispersion configuration. Compliant."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f16",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "No dilution of effluents observed. All pipes connected upstream to capture zones. Compliant."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f17",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Measurement points non-conforming vs NF EN 15259 for several stacks (insufficient straight lengths). APAVE does not assess representativity impact. Justification required."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f18",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Gas scrubber and dévésiculeur maintenance deficiencies: controls not done at required frequency, no traceability of dévésiculeur visual checks. Maintenance gaps documented."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-02-2146020064500022f19",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Measurement methods comply with normalized reference methods. Compliant."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-05-3046020064500022f01",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "BSD Trackdéchets used since Jan 2022 for both produced and received dangerous waste. Procedures updated. Multiple BSDs checked: no anomalies."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-05-3046020064500022f02",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Waste refusals properly traced in Trackdéchets with motifs. Partial refusal tonnage limitation noted as system constraint."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-05-3046020064500022f03",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "RNDTS correctly populated via Trackdéchets automatic data transfer. Compliant."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-05-3046020064500022f04",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Chronological waste register via Trackdéchets feeding RNDTS automatically. No anomaly."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-05-3046020064500022f05",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "No terres excavées/sédiments currently concerned. Prescription noted for future COHV remediation."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-05-3046020064500022f06",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "RNDTS terres excavées not applicable currently. Future COHV excavation will trigger requirement."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-05-3046020064500022f07",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "No catalyseurs usés as products admitted yet, only as déchet code 16 08 03. Within authorized capacity."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-05-3046020064500022f08",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "TVDI admission records checked by sondage. BSD, visual/olfactory checks, analyses, CAP references all compliant for 2 sampled admissions."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-05-3046020064500022f09",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "TVDI exploitation register (quantities received, reagents, boues, GIDAF) maintained monthly and compliant."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-05-3046020064500022f10",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "TVDI waste codes and quantities per GEREP compliant with APC September 2022 authorized list. Capacity of 240 t/j not exceeded."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-05-3046020064500022f11",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R09",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Fire water still deficient: 3 hydrants provide confirmed individual 60m3/h but no simultaneous test yet. Forage study needed. MED threat reiterated. Recurring issue from multiple inspections."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-05-3046020064500022f12",
+    "domains": [
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R10",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "COHV report AMDE received. Activated carbon treatment for puisards planned July 2023. Zone 1 source decontamination measures pending further EQRS investigations. Progressing but not resolved."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-05-3046020064500022f13",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "H+ VLE exceedance on stack 20 still unexplained (no dysfonctionnement identified). Missing parameter measurements justified for absence in gas. New measurement planned Q3 2023."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-05-3046020064500022f14",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "NF EN 15259 non-conformances in measurement points justified by APAVE (aeraulic conformant, no impact on representativity). NC from prior inspection lifted."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692023-05-3046020064500022f15",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Gas scrubber and dévésiculeur maintenance controls now documented and properly traced. Prior inspection NC lifted."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f01",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PM2I quinquennial checks verified via GMAO. Oxydation on C16 noted with remediation action scheduled. Annual verifications also conducted. Compliant."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "DAI (automatic fire detection) finally installed and operational since September 2023 (DAI from 2021 inspection demand). Long-standing NC resolved."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "DAI installed but PV from SIEMENS does not detail zones covered or asservissements. No test of ventilation stoppage demonstrated. Deadline 1 month to justify."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Smoke extraction for painting cabins verified in 2024 (trappe constatée). 2.6% opening ratio confirmed. Compliant."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M04_MED"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R12",
+    "actor": "A03",
+    "stage": "S06",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Fire water still deficient after years of requests. SIEA confirms only 140-150 m3/h simultaneous (vs 360 m3/h required). Multiple urban planning constraints for water reserve. MED proposed to Prefect. Recurring failure since 2021 inspection."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R06",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T5",
+    "confidence": "high",
+    "reasoning": "Cadmium emissions reduced below 25µg/l since July 2023 (lamellaire decantation + optimized coagulation/floculation). Multi-year conformity effort resolved."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f07",
+    "domains": [
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "COHV: regular reporting not transmitted since end 2023. 2 new deep piezometers planned by Nov 2024. Continued investigation needed. Reporting gap is primary concern."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f08",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "2023 atmospheric emissions: OH- (113 vs 10 mg/m3) and H+ (116 vs 0.5 mg/m3) exceedances on 2 stacks. Unexplained. Next control December 2024."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f09",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Sampling point analysis for NF EN 15259: aéraulic conformant, non-conformances on straight lengths do not affect representativity. Point addressed."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f10",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "2023 VLE exceedances (OH- and H+) still unexplained. Missing parameters justification transmitted. Future PAC modification for monitoring adaptation needed."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f11",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plan de défense contre l'incendie incomplete per arrêté 22/12/2023 (applicable 01/07/2024). New content requirements (POI, FDS access, training justification etc.) must be integrated."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f12",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Automatic detection system installed and operational. Exercise conducted September 2024 with compte rendu. Compliant."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f13",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Stock management software tracks nature and quantity of all waste by GRV reference. Daily update for dangerous waste. 400-550 t/month within 240 t/j limit."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f14",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "PFAS list not established as required by arrêté 20/06/2023. 1-month deadline to establish list of PFAS used, produced, treated or discharged."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f15",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "3 PFAS analysis campaigns conducted (Jan-Mar 2024). Results: mostly <LQ, one AOF at 7.7 µg/l. Forage also analyzed (all <LQ). Compliant with campaign requirement."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f16",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "SGS Environmental Analytics accredited under RvA n°L028 (EN ISO/IEC 17025:2017). Laboratory qualification compliant."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f17",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "SGS report states sampling descriptions from client only. Unclear if SGS conducted sampling themselves. Justification that samples were taken by accredited laboratory required within 1 month."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f18",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PFAS quantification limits: AOF LQ=2 µg/l, PFAS LQ=100 ng/l. Both within regulatory requirements."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f19",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PFAS campaign results transmitted to GIDAF within regulatory deadlines. Compliant."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f20",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Forage withdrawals: 18742 m3 in 2023 (down 19% from 2018). Volume tracking compliant. Eco-Flux diagnostic ongoing targeting 25% reduction by 2025."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f21",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Specific water consumption for TS not calculated (difficulty estimating treated surfaces). Annual calculation required. 1-month deadline."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f22",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Cuve on line D mislabeled (wrong color code) causing apparent chemical incompatibility with associated retention basin. Labeling correction required."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f23",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Confinement discharge point not located or signaled. Balloon obturateur available but operationality not demonstrated. 1-month deadline for justification."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692024-10-1646020064500022f24",
+    "domains": [
+      "D08_DECHETS",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "3 non-conforming GRV stored outside reinforced waterproof area for ~1 month. Immediate corrective action required."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692025-05-2846020064500022f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M04_MED"
+    ],
+    "modifiers": [],
+    "dynamic": "R06",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T5",
+    "confidence": "high",
+    "reasoning": "MED from December 2024 lifted. 480m3 flexible bâche installed (SDIS confirmed only 2 simultaneous hydrants needed). Reserve in water day of inspection. Pending: SDIS aspiration test."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692025-05-2846020064500022f02",
+    "domains": [
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R09",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "2 deep piezometers installed. Feb 2025 campaign: plume limited to site with some TCE traces off-site in PP2 (to confirm). Charcoal active treatment operational. Further monitoring recommended."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692025-05-2846020064500022f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "2024 atmospheric control: HF exceedances on stacks 6 and 17 (different parameters than 2023). New scrubber tower under consideration. Prior OH-/H+ non-conformances not reproduced."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692025-05-2846020064500022f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "PDI updated but needs integration of new 480m3 water reserve. Document physically available at site entrance. Remote digital access system pending (onduleurs)."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692025-05-2846020064500022f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R09",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "PFAS list established. AOF above LQ in one campaign. Waste intake protocols updated (PTFE rejected from Jan 2025). Multiple investigations ongoing. AOF source not yet identified."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692025-05-2846020064500022f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "2023 specific water consumption communicated (7.8 l/m2). 2024 calculation not yet done. Annual requirement. 1-month deadline."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692025-05-2846020064500022f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Discharge point now signaled. Obturateur system described in PDI but no operational exercise done. Difficult access (fossé in water). Vanne automatique de coupure study underway."
+  },
+  {
+    "slug": "l-electrolyse-sas52008692025-05-2846020064500022f08",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Non-conforming GRV now on étanche zone but fissures observed on reinforced étanche floor. Periodic repairs done but formal restitution required."
+  },
+  {
+    "slug": "l-o-dyomin1002373062025-09-0381034393900023f01",
+    "domains": [
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M19_CESSATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R11",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Change of operator (Fondaudège Pressing to L&O Dyomin) not declared. Activity actually stopped Nov 2020 (machine destroyed). Cessation declaration submitted day of inspection. ATTES SECUR required to finalize cessation (rubrique 2345 requires it)."
+  },
+  {
+    "slug": "l-o-dyomin1002373062025-09-0381034393900023f02",
+    "domains": [
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M19_CESSATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R06",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G2",
+    "trajectory": "T5",
+    "confidence": "high",
+    "reasoning": "Physical verification: no dry cleaning machine, no perchloroethylene stock. Activity is ironing only. Site effectively ceased for the classified activity."
+  },
+  {
+    "slug": "l-o-dyomin1002373062025-09-0381034393900023f03",
+    "domains": [
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M19_CESSATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R11",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Cessation declaration registered. ATTES SECUR (certification by approved firm for security measures per L.512-12-1) still required to complete the cessation process."
+  },
+  {
+    "slug": "la-distillerie-de-la-rive-droite31051952023-01-2485170859400029f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "New distillery: chai 2 not yet built, only 2 alambics (3rd planned). Storage well below authorized 499.9m3. Conformant with current authorization for current state."
+  },
+  {
+    "slug": "la-distillerie-de-la-rive-droite31051952023-01-2485170859400029f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fire access road (voie engins) on 2+ facades with required dimensions verified. Turnaround zone present. Compliant."
+  },
+  {
+    "slug": "la-distillerie-de-la-rive-droite31051952023-01-2485170859400029f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Retention (caniveau siphons, basin 270m3, geomembrane), threshold sills on doors. Monthly water level checks on siphons. Compliant."
+  },
+  {
+    "slug": "la-distillerie-de-la-rive-droite31051952023-01-2485170859400029f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "300m3 fire reserve with dual connection for 2 SDIS engines (120m3/h capacity). Requirement is 60m3/h for 2 hours. Largely compliant."
+  },
+  {
+    "slug": "la-distillerie-de-la-rive-droite31051952023-01-2485170859400029f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Storage height ≤5m, cuve degrees <70°, pressure vents dimensioned correctly, REI 240 walls with correct toiture overhang, EI 30 doors. Compliant (chai 2 distance not verifiable yet)."
+  },
+  {
+    "slug": "la-distillerie-de-la-rive-droite31051952023-01-2485170859400029f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Two process water networks with siphon fire stops. 380m3 effluent basin. REI 120 between distillery and tasting room. DOE confirms REI 120 facades. Compliant."
+  },
+  {
+    "slug": "la-distillerie-de-la-rive-droite31051952023-01-2485170859400029f07",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Truck unloading area connected to 30m3 underground retention tank (volume not verified by inspection). Prescribed to prevent flammable alcohol pool formation."
+  },
+  {
+    "slug": "la-distillerie-de-la-rive-droite31051952023-01-2485170859400029f08",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "First inspection: no written evacuation procedure for tasting room occupants. Muster point identified but not posted. 3-month deadline. MED threat if not resolved."
+  },
+  {
+    "slug": "la-distillerie-de-la-rive-droite31051952023-01-2485170859400029f10",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Off-hours surveillance incomplete: video OK but anti-intrusion system not yet installed (pending). 3-month deadline. MED threat."
+  },
+  {
+    "slug": "la-distillerie-de-la-rive-droite31051952023-01-2485170859400029f11",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Smoke extraction (DENFC) manual-only at distillery and chai 1. No automatic triggers. 3-month deadline for automatic commands or equivalent measures. MED threat."
+  },
+  {
+    "slug": "la-distillerie-de-la-rive-droite31051952023-01-2485170859400029f12",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "New installation (end 2022): Q18/Q19 electrical and thermographic verification contracted with ANCO for 2023. Will be addressed at next inspection."
+  },
+  {
+    "slug": "la-distillerie-de-la-rive-droite31051952023-01-2485170859400029f13",
+    "domains": [
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Grounding absent on alambics and barrel racks. Prise de terre only on trucks at unloading, cuves inox, gas pipeline. IP55 equipment verified OK. 1-month deadline for full grounding. MED threat."
+  },
+  {
+    "slug": "la-distillerie-de-la-rive-droite31051952023-01-2485170859400029f14",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Extinguishers (≥2 per local at 144B) present, visible and accessible. Compliant."
+  },
+  {
+    "slug": "la-distillerie-de-la-rive-droite31051952023-01-2485170859400029f15",
+    "domains": [
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "ATEX not mastered: ATEX study outdated (references GPL not installed, wrong storage volumes). No 'Ex' signage, no DRPCE, no equipment certification. 3-month deadline for full compliance. MED threat."
+  },
+  {
+    "slug": "la-distillerie-de-la-rive-droite31051952023-01-2485170859400029f16",
+    "domains": [
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "ANCO audit identified multiple NCs: ATEX signage, CF-30 partition justification, DENFC sizing, drainage issues, DOE missing. ANCO audit itself incomplete (ATEX article incorrectly states no explosion risk). New full audit required by mid-May 2023. MED threat."
+  },
+  {
+    "slug": "la-grande-jaugue52093612023-03-3050818282100027f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Fire water reserve recalculation completed (SDIS engagement). PAC to be filed mid-2023 integrating extension. Prior inconsistency (650 vs 480 m3/h) addressed."
+  },
+  {
+    "slug": "la-grande-jaugue52093612023-03-3050818282100027f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "SDIS letter establishes conditions for using lixiviat basin as fire reserve (480m3 with DAI and astreinte, or 240m3 with additional means). Operator to justify via PAC."
+  },
+  {
+    "slug": "la-grande-jaugue52093612023-03-3050818282100027f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "RIA maintenance tracking established since May 2021. Register to be sent to inspection within 1 month. Compliant in principle."
+  },
+  {
+    "slug": "la-grande-jaugue52093612023-03-3050818282100027f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R06",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T5",
+    "confidence": "high",
+    "reasoning": "Lixiviat basin accepted as fire reserve under SDIS conditions. Prior NC about needing additional reserve moot."
+  },
+  {
+    "slug": "la-grande-jaugue52093612023-03-3050818282100027f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R06",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T5",
+    "confidence": "high",
+    "reasoning": "Basin overflow corrected since last inspection. No overflow observed day of inspection."
+  },
+  {
+    "slug": "la-grande-jaugue52093612023-03-3050818282100027f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Groundwater monitoring (ammonium, DCO) tracking requested. Operator has done monthly monitoring since Feb 2021. Graphical summary to be sent within 2 months."
+  },
+  {
+    "slug": "la-grande-jaugue52093612023-03-3050818282100027f07",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Complaints register maintained, no complaints received since last inspection. Odor management procedure to be included in SME."
+  },
+  {
+    "slug": "la-grande-jaugue52093612023-03-3050818282100027f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "medium",
+    "reasoning": "Leachate treatment strategy being tested (reed filters, activated carbon). Decision to be integrated in PAC mid-2023."
+  },
+  {
+    "slug": "la-grande-jaugue52093612023-03-3050818282100027f09",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Merlon made of sorting rejects placed directly on unpaved ground (not on étanche dalle as required). Operator to clarify origin of requirement and address in PAC."
+  },
+  {
+    "slug": "la-grande-jaugue52093612023-03-3050818282100027f10",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plastic content in compost (pots from public waste) within NFU 44-051 norm (<5% impurities). Bordeaux Métropole to be informed for déchetterie sensitization."
+  },
+  {
+    "slug": "la-grande-jaugue52093612023-03-3050818282100027f11",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Compost heap extends onto grass area outside étanche dalle. Runoff not collected as prescribed. 6-month deadline to collect all runoff in prescribed collection network."
+  },
+  {
+    "slug": "la-tour-saint-christophe52121002022-09-2678815886300050f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation conforms to declaration (récépissé 2017). First item verified: compliant."
+  },
+  {
+    "slug": "la-tour-saint-christophe52121002022-09-2678815886300050f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Separate wastewater/stormwater networks with bypass at pressing zone. Compliant."
+  },
+  {
+    "slug": "la-tour-saint-christophe52121002022-09-2678815886300050f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "No groundwater discharge. Effluents collected in 140hl underground tank then collected by CUMA. Compliant."
+  },
+  {
+    "slug": "la-villa-luna-du-bois-d-alex-pension31041762024-01-0550995396400012f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "12 dogs present plus 3 personal. Count verified against classification threshold."
+  },
+  {
+    "slug": "la-villa-luna-du-bois-d-alex-pension31041762024-01-0550995396400012f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation located inside residential lotissement, <100m from neighboring habitations (mandatory distance). Buildings in prohibited zone. Structural NC."
+  },
+  {
+    "slug": "la-villa-luna-du-bois-d-alex-pension31041762024-01-0550995396400012f03",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Site well maintained. Compliant."
+  },
+  {
+    "slug": "la-villa-luna-du-bois-d-alex-pension31041762024-01-0550995396400012f04",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Animal housing (boxes) well maintained, hard materials, daily cleaning and disinfection. Parc d'ébat maintained. Compliant."
+  },
+  {
+    "slug": "la-villa-luna-du-bois-d-alex-pension31041762024-01-0550995396400012f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Wastewater connected to collective sewer without authorization (L.1331-10 CSP). Effluent discharge requires formal authorization which is absent."
+  },
+  {
+    "slug": "la-villa-luna-du-bois-d-alex-pension31041762024-01-0550995396400012f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "No barking observed during inspection. Isolation materials in buildings. But simple grillage on property boundary allows visual contact with public road, potentially stimulating barking."
+  },
+  {
+    "slug": "labrousse-et-fils52011022022-10-1038418497400036f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "New wood processing machines added without PAC notification. 30-day deadline to declare new equipment with installed power details."
+  },
+  {
+    "slug": "labrousse-et-fils52011022022-10-1038418497400036f02",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Fire team formation not done in 2021-2022. Non-compliance with prescription. 30-day deadline for next exercise scheduling. MED exposure mentioned."
+  },
+  {
+    "slug": "labrousse-et-fils52011022022-10-1038418497400036f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T7",
+    "confidence": "high",
+    "reasoning": "Two water reserves both at wrong location (both South instead of one North+one South). Access path to South reserve not stabilized. No PI debit attestation. Recurring non-conformance from 2014 MED."
+  },
+  {
+    "slug": "labrousse-et-fils52011022022-10-1038418497400036f04",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Wood treatment equipment and safety organs (alarms, floats, retentions) inspected without particular remark. Compliant."
+  },
+  {
+    "slug": "labrousse-et-fils52011022022-10-1038418497400036f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "No atmospheric measurements done since 2015 (cyclone recently replaced, adjustments underway). Required every 3 years per prescription. 3-month deadline. MED exposure."
+  },
+  {
+    "slug": "lacoste-entrepot52002422025-09-1141519379600018f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "No 2662 polymer currently stored. Enregistrement maintained. Other rubriques unchanged from 2021 AP. PAC obligation if polymers resume."
+  },
+  {
+    "slug": "lacoste-entrepot52002422025-09-1141519379600018f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Stock management software lacks ICPE rubric column. Quantities by rubrique not quickly determinable. Update required."
+  },
+  {
+    "slug": "lacoste-entrepot52002422025-09-1141519379600018f03",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Spot check: no 2662 products found in building B as prescribed. Compliant."
+  },
+  {
+    "slug": "lacoste-entrepot52002422025-09-1141519379600018f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Storage conditions generally OK. Liquid GRVs present in building A not accounted for in D9A calculation, but 400m3 confinement well below 1200m3 available capacity. Update calculation requested."
+  },
+  {
+    "slug": "lacoste-entrepot52002422025-09-1141519379600018f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Storage in building A: aisle widths, island areas, height limits all verified OK."
+  },
+  {
+    "slug": "lacoste-entrepot52002422025-09-1141519379600018f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Building B: only 1 manual smoke extraction command present (2 required at opposite ends). 3-month deadline for second command installation."
+  },
+  {
+    "slug": "lacoste-entrepot52002422025-09-1141519379600018f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Detection system apparently functional but verification report not available during inspection. Report required with any corrective action justification."
+  },
+  {
+    "slug": "lacoste-entrepot52002422025-09-1141519379600018f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Private hydrant insufficient debit. Convention with Foresa neighbor for their reserve, but volume and debit not documented. Required: 480 m3/h for 2 hours. Justification or complementary measures needed."
+  },
+  {
+    "slug": "lacoste-entrepot52002422025-09-1141519379600018f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R08",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Extinguishers verified OK. RIA verification report and implantation plan for building B absent. Minimum RIA count conformity cannot be verified."
+  },
+  {
+    "slug": "lafarge-betons-france52131532023-06-0541481504302566f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Production 26000 m3/year with unchanged 2m3 malaxage capacity (below 3m3 threshold for enregistrement). Declared production 25000m3/year in declaration."
+  },
+  {
+    "slug": "lafarge-betons-france52131532023-06-0541481504302566f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M04_MED"
+    ],
+    "modifiers": [],
+    "dynamic": "R06",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G2",
+    "trajectory": "T5",
+    "confidence": "high",
+    "reasoning": "MED on effluent treatment lifted: cuve tampon 47m3 installed, decantation circuit completed, pH treatment (CO2) and filtration added. All equipment verified operational. Modification declared June 2022. Some justificatory docs still pending."
+  },
+  {
+    "slug": "lafarge-betons-france52131532023-06-0541481504302566f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Water consumption 276 l/m3 below 350 l/m3 limit. Internal target 240 l/m3. Compliant."
+  },
+  {
+    "slug": "lafarge-betons-france52131532023-06-0541481504302566f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "pH control: exceedances in May 2023 (9.4) and Sept 2022 (10.9) vs limit 9.5. Measurement point representativity questionable (before final treatment). Performance justification reiteraterd with 1-month deadline."
+  },
+  {
+    "slug": "lafarge-granulats-france-blanquefort52048122022-10-2741451176600506f01",
+    "domains": [
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M19_CESSATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Total cessation declared March 2022. Only dragline used, no hazardous products, no water extraction/discharge, no incidents. Groundwater monitoring bilan clean. No residual effects."
+  },
+  {
+    "slug": "lafarge-granulats-france-blanquefort52048122022-10-2741451176600506f02",
+    "domains": [
+      "D09_BIODIVERSITE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Site restoration observed: islands, sinuous banks, low-slope shores, plantations, natural vegetation. Jussie (invasive plant) noted. Coordinated with prior quarry restorations."
+  },
+  {
+    "slug": "lafarge-granulats-lg-abzac31048412022-12-0556211088201575f01",
+    "domains": [
+      "D09_BIODIVERSITE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Défrichement done avoiding protected Picampeau stream forest. Indemnity of 35622€ paid to fonds stratégique (DRFIP justificative). Compliant."
+  },
+  {
+    "slug": "lafarge-granulats-lg-abzac31048412022-12-0556211088201575f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Access from RD17E1: tourne-à-gauche created, Tripoteau hamlet bypass road built. Speed limitation recommended (curve geometry). Compliant."
+  },
+  {
+    "slug": "lafarge-granulats-lg-abzac31048412022-12-0556211088201575f03",
+    "domains": [
+      "D09_BIODIVERSITE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fence partially installed (along RD17E1). Sensitive zone balisage done with stakes during défrichement. East limit not yet completed. Simethis ecology firm coordinating. Justification of avoidance measures requested."
+  }
+]

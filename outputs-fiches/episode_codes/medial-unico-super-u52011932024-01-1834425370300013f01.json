@@ -1,0 +1,41 @@
+{
+  "document_date": "2024-01-18",
+  "document_title": "medial-unico-super-u52011932024-01-1834425370300013f01",
+  "codes": [
+    {
+      "description": "L'exploitant annonce un projet de modification substantielle de sa station service (nouvelles cuves, postes de distribution, aire de dépotage) pour le premier semestre 2024.",
+      "excerpts": [
+        "L'exploitant a précisé avoir un projet de modification de sa station service dans le premier semestre 2024 . Il envisage d'installer une nouvelle cuve double enveloppe enterrée au sud du terrain de la station (GO, E85, E10), remplacer des postes de distribution, modifier l'aire de dépotage"
+      ],
+      "valence": "positive",
+      "code": "Projet rénovation station service"
+    },
+    {
+      "description": "L'inspection rappelle l'obligation réglementaire de déclarer préalablement toute modification notable de l'installation ICPE avant le début des travaux.",
+      "excerpts": [
+        "Il est rappelé à l'exploitant la nécessité, préalablement aux travaux, de faire une déclaration de modification de son installation ICPE"
+      ],
+      "valence": "neutral",
+      "code": "Déclaration modification préalable requise"
+    },
+    {
+      "description": "L'inspection encourage l'exploitant à profiter des travaux prévus pour corriger d'autres non-conformités identifiées, transformant une obligation en opportunité globale.",
+      "excerpts": [
+        "L'inspection recommande à l'exploitant de profiter de la réalisation de ces travaux pour mettre en conformité et améliorer les installations de la station service."
+      ],
+      "valence": "positive",
+      "code": "Travaux levier mise en conformité"
+    },
+    {
+      "description": "Le site présente une pollution historique des sols dont l'origine et l'étendue ne sont pas encore investigées ; les travaux sont vus comme occasion de faire avancer ce dossier.",
+      "excerpts": [
+        "L'inspection recommande également de mettre à profit ces travaux pour avancer sur le sujet de la pollution historique du site (réalisation d'investigations sur les sols pour identifier les sources de pollution, excavation des terres polluées et enlèvement des anciennes cuves inertées)"
+      ],
+      "valence": "negative",
+      "code": "Pollution historique sol non traitée"
+    }
+  ],
+  "document_summary": "Inspection d'une station service Super U dont l'exploitant annonce des travaux de rénovation importants. L'inspection rappelle les obligations déclaratives préalables et encourage l'exploitant à utiliser ces travaux pour traiter simultanément d'autres non-conformités et la pollution historique du site.",
+  "surprises": "",
+  "tensions": "Tension entre l'opportunité que représentent les travaux planifiés et la multiplicité des points de non-conformité à adresser simultanément, ce qui pourrait compliquer ou retarder le projet de rénovation."
+}

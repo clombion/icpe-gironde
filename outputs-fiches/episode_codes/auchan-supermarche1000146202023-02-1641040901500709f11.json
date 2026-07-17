@@ -1,0 +1,33 @@
+{
+  "document_date": "2023-02-16",
+  "document_title": "auchan-supermarche1000146202023-02-1641040901500709f11",
+  "codes": [
+    {
+      "description": "L'exploitant ne dispose pas des plans/schémas permettant de vérifier l'existence d'un dispositif de collecte indépendant pour les eaux non polluées.",
+      "excerpts": [
+        "L'exploitant n'a pas été en mesure de fournir les éléments (plans/schémas des réseaux...) permettant de déterminer si un dispositif de collecte indépendant est prévu en vue de recevoir les autres effluents liquides tels que les eaux pluviales non susceptibles d'être polluées"
+      ],
+      "valence": "negative",
+      "code": "Réseau eaux pluviales non documenté"
+    },
+    {
+      "description": "L'inspection demande à l'exploitant de transmettre les schémas réseaux pour vérifier la conformité du dispositif de collecte des eaux.",
+      "excerpts": [
+        "L'exploitant transmet les éléments permettant de déterminer si un dispositif de collecte indépendant est prévu en vue de recevoir les autres effluents liquides"
+      ],
+      "valence": "neutral",
+      "code": "Transmission documentaire demandée"
+    },
+    {
+      "description": "L'obligation réglementaire impose un traitement des eaux susceptibles d'être polluées et un réseau indépendant pour celles qui ne le sont pas.",
+      "excerpts": [
+        "Les liquides susceptibles d'être pollués sont collectés et traités au moyen d'un décanteur séparateur d'hydrocarbures muni d'un dispositif d'obturation automatique ou éliminés dans une installation dûment autorisée. Un dispositif de collecte indépendant est prévu en vue de recevoir les autres effluents liquides tels que les eaux pluviales non susceptibles d'être polluées"
+      ],
+      "valence": "neutral",
+      "code": "Séparation eaux polluées non polluées"
+    }
+  ],
+  "document_summary": "L'inspection d'Auchan Supermarché porte sur la gestion des eaux pluviales d'une station-service : l'exploitant n'a pas pu fournir les plans des réseaux permettant de vérifier la présence d'un collecteur indépendant pour les eaux non polluées, et doit transmettre ces éléments.",
+  "surprises": "",
+  "tensions": "L'absence de documentation technique (plans réseaux) empêche l'inspection de statuer sur la conformité physique réelle des installations — la non-conformité est documentaire mais peut cacher un problème d'infrastructure."
+}

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ICPE en Gironde — cahier d'enquête</title>
+<meta name="description" content="Outils d'enquête sur les Installations Classées pour la Protection de l'Environnement en Gironde : carte interactive, audit des coordonnées, catalogue des données.">
+<link rel="prefetch" href="carte/data/fiches.sqlite" as="fetch">
+<link rel="prefetch" href="https://cdn.jsdelivr.net/npm/sql.js@1.12.0/dist/sql-wasm.js" as="script" crossorigin>
+<link rel="prefetch" href="https://cdn.jsdelivr.net/npm/sql.js@1.12.0/dist/sql-wasm.wasm" as="fetch" crossorigin>
+
+<!-- CSP — landing page only fetches local files. -->
+<meta http-equiv="Content-Security-Policy"
+      content="default-src 'none';
+               script-src 'self' 'unsafe-inline';
+               style-src 'self' 'unsafe-inline';
+               img-src 'self' data:;
+               connect-src 'self';
+               font-src 'self' data:;">
+
+<!-- Embed redirect: any URL with map filter params goes to /carte/ -->
+<script>
+  (function () {
+    const mapKeys = ['embed', 'hide', 'regime', 'seveso', 'secteur', 'commune', 'epci', 'structure', 'priority', 'ied', 'q', 'month', 'color'];
+    const params = new URLSearchParams(location.search);
+    if (mapKeys.some((k) => params.has(k))) {
+      location.replace('carte/' + location.search + location.hash);
+    }
+  })();
+</script>
+
+<link rel="stylesheet" href="shared/tokens.css?v=11">
+<link rel="stylesheet" href="style.css?v=11">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead__label">Cahier d'enquête</div>
+  <h1 class="masthead__title">ICPE en Gironde</h1>
+  <p class="masthead__meta">
+    <span>source : <a href="https://www.georisques.gouv.fr/" target="_blank" rel="noopener">Géorisques</a></span>
+    <span class="meta-sep">·</span>
+    <span>IJBA 2026 — semaine d'enquête</span>
+  </p>
+</header>
+
+<main class="hub">
+  <a class="card card--rust" href="carte/">
+    <h2 class="card__title">Carte interactive</h2>
+    <p class="card__line">Explorer les sites ICPE et les réserves naturelles.</p>
+    <p class="card__count" id="count-carte">2 890 sites</p>
+  </a>
+
+  <a class="card card--ochre" href="audit/">
+    <h2 class="card__title">Audit des coordonnées</h2>
+    <p class="card__line">Vérifier les écarts entre adresses et coordonnées.</p>
+    <p class="card__count" id="count-audit">Audit non exécuté</p>
+  </a>
+
+  <a class="card card--lead" href="donnees/">
+    <h2 class="card__title">Documentation</h2>
+    <p class="card__line">Méthodologie et catalogue des données.</p>
+    <p class="card__count" id="count-donnees">Catalogue indisponible</p>
+  </a>
+
+  <a class="card card--moss" href="rapports/">
+    <h2 class="card__title">Rapports d'inspection</h2>
+    <p class="card__line">Vérifier et analyser les fiches de constat.</p>
+    <p class="card__count" id="count-rapports">Corpus indisponible</p>
+  </a>
+</main>
+
+<footer class="footer">
+  <p>
+    Projet pédagogique pour l'Institut de Journalisme Bordeaux Aquitaine ·
+    <a href="https://github.com/bononlouis-del/Les-ICPE-en-r-serve-naturelle-nationale" target="_blank" rel="noopener">code source</a>
+  </p>
+</footer>
+
+<script>
+  // Pull live counts for the audit and catalogue cards.
+  // Audit count: total flagged from coordonnees-audit-flagged.json (added in Phase 5).
+  // Catalogue count: distinct fichier values from metadonnees_colonnes.csv.
+  fetch('données-georisques/audit/coordonnees-audit-flagged.json', { cache: 'no-store' })
+    .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then((data) => {
+      const total = (data.groups || []).reduce((acc, g) => acc + (g.count || 0), 0);
+      document.getElementById('count-audit').textContent = total + ' sites à vérifier';
+    })
+    .catch((err) => { console.warn('landing: audit count unavailable', err); });
+
+  fetch('carte/data/metadonnees_colonnes.csv', { cache: 'no-store' })
+    .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
+    .then((text) => {
+      const lines = text.split('\n').slice(1).filter((l) => l.trim());
+      const fichiers = new Set();
+      lines.forEach((line) => {
+        const first = line.split(',')[0];
+        if (first) fichiers.add(first);
+      });
+      document.getElementById('count-donnees').textContent = fichiers.size + ' fichiers documentés';
+    })
+    .catch((err) => { console.warn('landing: catalogue count unavailable', err); });
+
+  fetch('carte/data/fiches-meta.json', { cache: 'no-store' })
+    .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then((meta) => {
+      const el = document.getElementById('count-rapports');
+      el.textContent =
+        meta.total_fiches.toLocaleString('fr-FR') + ' fiches · ' +
+        meta.total_rapports_parsed.toLocaleString('fr-FR') + ' rapports';
+    })
+    .catch((err) => { console.warn('landing: rapports count unavailable', err); });
+</script>
+
+</body>
+</html>

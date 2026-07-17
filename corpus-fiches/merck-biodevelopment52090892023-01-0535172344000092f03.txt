@@ -1,0 +1,52 @@
+Constats body:
+La convention de rejet mise à jour en 2022 rappelle en son article 5.2, les dispositions de
+traitement préalable aux déversements des effluents. Les systèmes de traitement listés sont cohérents avec
+les dispositions détaillées dans le dernier porter à connaissance, instruit par l’inspection.
+Cette même convention précise que « ces dispositifs de traitement ou d’épuration avant rejet nécessaires à
+l’obtention des qualités d’effluents fixées dans la convention, sont conçus, installés et entretenus sous la
+responsabilité de l’exploitant… Les certificats d’interventions et d’entretiens des équipements sont transmis
+annuellement par l’exploitant à la collectivité et au délégataire ».
+L’exploitant a indiqué qu’il transmettait uniquement les rapports d’analyses des effluents et de l’auto-
+surveillance des rejets journaliers en pH et température. Les volumes journaliers rejetés sont transmis au
+gestionnaire. Les rapports d’interventions et d’entretiens des équipements de traitement des effluents ne
+sont pas communiqués au gestionnaire. L’exploitant a indiqué qu’il allait y remédier rapidement.
+De plus, l’exploitant a présenté différentes gammes opératoires consignant la réalisation de maintenance et
+de contrôle au niveau de la station effluents unité MB B2, station effluent MA, station effluents pH, …
+L’inspection n’est pas rentrée dans le détail des contrôles réalisés mais il semble que les installations de
+traitement sont suivies.
+L’inspection n’a pas reçu d’éléments de la maintenance liée à l’évapo-concentrateur du bâtiment MB installé
+en 2022. Cela s’explique par le fait que cet équipement n’a pas encore été mis en service ; cela est prévu au
+9
+
+courant de l’année 2023.
+Observations : Il est demandé à l’exploitant, sous un mois, de confirmer la mise en oeuvre et la disponibilité
+des équipements de traitement et de surveillance de ses rejets en détaillant les opérations de maintenance
+et de contrôle réalisés (à l'exception de l'évapo-concentrateur qui sera mis en service courant 2023). Pour les
+points nécessitant des actions correctives,, l’exploitant y remédie sous deux mois. En l’absence de mise en
+œuvre de ces actions, l’inspection pourrait proposer à Madame la Préfète de mettre en demeure l’exploitant.
+
+Prescription:
+L’exploitant doit mettre en œuvre les dispositifs nécessaires pour la surveillance de ses rejets et … de s’assurer
+de l’absence d’impact de ses rejets sur les eaux souterraines.
+A cet effet, l’exploitant a détaillé dans son porter à connaissance du 21/10/2022 dans la fiche de constat ci-
+après les équipements  présents pour permettre de traiter et d’épurer les effluents liquides de process:
+Les rejets aqueux seront envoyés dans le réseau existant, et traités selon la procédure existante
+(séparation des effluents « pH » et « Toxiques »).
+Bassin de lissage :
+La création d’un bassin regroupant les effluents des bâtiments MA, A7 et MB sur plusieurs jours, permet la
+suppression des points critiques du pré-traitement pour le lagunage par un lissage des rejets tant en volume
+qu’en qualité :
+- Lissage des rejets -> réduction des pics de charges et de polluants et réduction des perturbations du
+lagunage ;
+- Homogénéisation des eaux chargées issues de la régénération des adoucisseurs -> réduction des pics de
+chlorures.
+- Homogénéisation  des  eaux  d’utilités  et  de  process ->  absence  de  dégradation  en  sulfates de  l’acide
+sulfurique de neutralisation, par conséquent réduction des pics de sulfates et de pH.
+Nouvel équipement de traitement thermique :
+Installation d’un équipement de traitement thermique complémentaire, plus puissant, permettant
+l’augmentation  et  la  fiabilisation  de  la  capacité  de  traitement  thermique  de  destruction  des  micro-
+organismes du bâtiment MB (traitement thermique en ligne et non plus par batch).
+Evapo-concentrateur :
+Installation d’un évapoconcentrateur permettant  de  réduire  de  70% le  nombre  de  camions associés à
+l’évacuation des eaux considérées comme trop chargées pour le lagunage (réseau nommé « Toxique » en
+interne).

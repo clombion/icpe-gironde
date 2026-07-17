@@ -1,0 +1,41 @@
+{
+  "document_date": "2022-10-14",
+  "document_title": "feu-vert-merignac-rte-du-cap-ferret1000078212022-10-1432735998001476f01",
+  "document_summary": "L'inspection d'un garage Feu Vert à Mérignac vérifie la conformité au règlement européen F-Gaz sur les gaz à effet de serre fluorés. Aucune bouteille à usage unique n'est constatée et les bouteilles présentes sont conformes au règlement n°517/2014.",
+  "surprises": "",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "Les bouteilles de gaz fluorés présentes sur le site sont conformes au règlement européen F-Gaz n°517/2014 et aucune bouteille à usage unique n'est détectée.",
+      "excerpts": [
+        "L'inspection a constaté la présence de bouteilles conformes au réglement Fgas n°517/2014 relatif aux gaz à effet de serre fluorés."
+      ],
+      "valence": "positive",
+      "code": "Conformité règlement F-Gaz"
+    },
+    {
+      "description": "Aucune bouteille à usage unique de gaz à effet de serre fluorés n'est présente, conformément à l'interdiction réglementaire.",
+      "excerpts": [
+        "Lors de l'inspection, il n'a pas été constaté de présence de bouteilles à usage unique."
+      ],
+      "valence": "positive",
+      "code": "Absence bouteilles usage unique"
+    },
+    {
+      "description": "L'exploitant peut présenter la traçabilité de son approvisionnement en gaz via un bon de livraison de son fournisseur unique.",
+      "excerpts": [
+        "L'exploitant a présenté un bon de livraison de l'entreprise SMB Auto, son unique fournisseur de gaz R134A et R1234yf."
+      ],
+      "valence": "positive",
+      "code": "Traçabilité fournisseur gaz fluorés"
+    },
+    {
+      "description": "La prescription rappelle l'interdiction de mise sur le marché de conteneurs non rechargeables de gaz fluorés utilisés pour l'entretien des équipements de climatisation et réfrigération.",
+      "excerpts": [
+        "Interdiction de mise sur le marché de conteneurs non rechargeables de gaz à effet de serre fluorés utilisés pour l'entretien, la maintenance ou la charge des équipements de réfrigération, de climatisation ou de pompes à chaleur"
+      ],
+      "valence": "neutral",
+      "code": "Interdiction conteneurs non rechargeables"
+    }
+  ]
+}

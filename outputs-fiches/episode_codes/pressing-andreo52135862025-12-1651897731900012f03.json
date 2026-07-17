@@ -1,0 +1,57 @@
+{
+  "document_date": "2025-12-16",
+  "document_title": "pressing-andreo52135862025-12-1651897731900012f03",
+  "codes": [
+    {
+      "description": "Un second pressing a succédé à l'établissement ANDREO dans les mêmes locaux sans jamais déclarer son activité ICPE, prolongeant la zone grise réglementaire.",
+      "excerpts": [
+        "La SAS Ni Qui Press n'a jamais déclaré son activité ICPE."
+      ],
+      "valence": "negative",
+      "code": "Succession non déclarée exploitants"
+    },
+    {
+      "description": "La SAS successeuse a fait l'objet d'une liquidation judiciaire en 2023, aboutissant à la fermeture du local et à la disparition de tout exploitant identifiable.",
+      "excerpts": [
+        "cette SAS a été créée le 02/03/2015 puis radiée du registre du commerce le 30/09/2024 suite à l'ouverture d'une procédure de liquidation judiciaire le 25/07/2023."
+      ],
+      "valence": "negative",
+      "code": "Liquidation judiciaire ferme site"
+    },
+    {
+      "description": "Aucune information sur la nature du nettoyage à sec pratiqué (utilisation ou non de solvants organiques halogénés) n'est disponible, empêchant l'évaluation du risque de pollution résiduelle.",
+      "excerpts": [
+        "Il est à noter qu'aucune information sur la nature du nettoyage à sec (utilisation ou non de solvants organiques) n'est connue."
+      ],
+      "valence": "negative",
+      "code": "Nature solvants inconnue"
+    },
+    {
+      "description": "Face à l'absence de toute documentation, l'inspection recourt à l'enregistrement dans la base CASIAS pour conserver la mémoire industrielle du site en vue d'usages futurs.",
+      "excerpts": [
+        "Afin de conserver la mémoire du site ANDREO, ce dernier sera enregistré dans la CASIAS (carte des anciens sites industriels et activités de services définie à l'article L125-6 du code de l'environnement)."
+      ],
+      "valence": "neutral",
+      "code": "Enregistrement CASIAS mémoire site"
+    },
+    {
+      "description": "En l'absence de déclaration par le liquidateur judiciaire, l'inspection ignore si des mesures de mise en sécurité ont été prises à la cessation d'activité.",
+      "excerpts": [
+        "En l'absence de déclaration des mesures prises pour assurer la mise en sécurité du site suite à la cessation d'activités par le liquidateur judiciaire, ces mesures ne sont donc pas connues de l'Inspection des Installations Classées."
+      ],
+      "valence": "negative",
+      "code": "Mesures sécurité cessation inconnues"
+    },
+    {
+      "description": "L'inspection transmet une copie du rapport au propriétaire du local commercial pour l'informer du risque potentiel de sources de pollution, en l'absence de tout exploitant.",
+      "excerpts": [
+        "Une copie de ce rapport est donc transmise au propriétaire du local de l'ancien pressing, le propriétaire du centre commercial."
+      ],
+      "valence": "neutral",
+      "code": "Propriétaire local informé risque pollution"
+    }
+  ],
+  "document_summary": "Inspection d'un ancien pressing dans un centre commercial où deux exploitants successifs ont exercé sans que le second n'ait jamais déclaré son activité ICPE. La SAS successeuse a fait l'objet d'une liquidation judiciaire, laissant un vide total de responsabilité. L'inspection ne peut qu'enregistrer le site en CASIAS faute d'interlocuteur.",
+  "surprises": "La chaîne de non-conformités est totale : exploitant initial disparu, successeur non déclaré, liquidation judiciaire, local vide — le système de contrôle ICPE se retrouve face à une situation où aucun levier d'action n'existe, hormis la mémoire du site.",
+  "tensions": "Tension entre l'obligation réglementaire de remise en état à la cessation d'activité (article L.512) et l'impossibilité pratique de l'imposer quand le liquidateur judiciaire ne s'est pas déclaré comme successeur de l'exploitant ICPE."
+}

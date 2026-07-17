@@ -1,0 +1,2460 @@
+[
+  {
+    "slug": "lafarge-granulats-lg-abzac31048412022-12-0556211088201575f04",
+    "domains": [
+      "D09_BIODIVERSITE",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Inspection inopinée: protocoles suivi/abattage non fournis car absents le jour J. Marquage chiroptères et troncs capricornes observés sur site. Demande de fourniture des justificatifs et plan avancée défrichement. NC documentaire, pas de dimension physique."
+  },
+  {
+    "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-01-1356211088202235f01",
+    "domains": [
+      "D13_CESSATION",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M19_CESSATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Cessation partielle justifiée transmise par courriel. Dossier remblaiement matériaux inertes de la carrière. Aucune activité polluante. Plan d'eau et nappe surveillés 2015-2019 sans remarque. Avis favorables propriétaire et mairie. Nouvelle remise en état (photovoltaïque) acceptée."
+  },
+  {
+    "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-01-1356211088202235f02",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Clôtures et pancartes en place pour la partie principale. Observation: trop-plein bassin décantation pourrait se déverser vers parcelle exclue, exploitant explique sens d'écoulement Est. Berge mérite d'être remontée. NC physique mineure (berge basse), mais exploitant explique le sens d'écoulement — pas de risque avéré."
+  },
+  {
+    "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-01-1356211088202235f03",
+    "domains": [
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Cessation partielle plan d'eau Plaisance Sud. Remblayage stériles inertes carrière constaté. Plan d'eau, berges, végétation reprise spontanée. Aucun déchet ni installation observé. Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-06-0156211088202235f01",
+    "domains": [
+      "D15_SECTEUR",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "medium",
+    "reasoning": "Transmission annuelle plan exploitation non faite depuis inspection 2021. Plan mis à jour transmis par courriel pendant inspection. GEREP déclare extraction mais aucun plan certifié géomètre fourni. Rappel obligation transmission annuelle. NC documentaire, 2+ ans de retard transmission."
+  },
+  {
+    "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-06-0156211088202235f02",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03_REPORTING",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Aucun DI entreposé cohérent avec mise en sommeil. Mais incohérence entre GEREP (40 000 m³ restant) et dossier modification (650 000 m³). Données déclarées dans GEREP ne correspondent pas aux tableaux du dossier. Demande justification volumes."
+  },
+  {
+    "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-06-0156211088202235f03",
+    "domains": [
+      "D08_DECHETS",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "medium",
+    "reasoning": "Déchets barrés affichage entrée (correction 2021 vérifiée pérenne). Carroyage plan/site en place. Benne indésirables présente. Double contrôle visuel en place via caméra pont bascule. Mais justificatifs contrôle quotidien émargement non présentés le jour J. NC documentaire résiduelle."
+  },
+  {
+    "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-06-0156211088202235f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "medium",
+    "reasoning": "Travaux berge non réalisés le jour J mais exploitant déclare avoir renforcé la berge par courriel. Justificatifs restent à transmettre. Pas de pompage déclaré. Demande photo dans 15 jours. Exploitant a promis correction non vérifiable."
+  },
+  {
+    "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-06-0156211088202235f05",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Fosse de rétention lavage véhicules pleine le jour de l'inspection. Mise en sommeil maintien fréquences suivi déclaré par exploitant. Demande justification vidange/curage débourbeurs-séparateurs et fosse. Équipement physiquement en mauvais état (plein) → G3."
+  },
+  {
+    "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912025-12-1156211088202235f01",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan topographique mis à jour 27/08/2025 fourni. Dernière phase exploitation 2026-2031 en cours. Principe remise en état à l'avancée respecté. Observation sur actualisation GF pour prendre en compte fronts restants (voir constat 3)."
+  },
+  {
+    "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912025-12-1156211088202235f02",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Zone extraction visitée. Surfaces décapées limitées aux besoins. Principe répartition matériaux respecté. Dispositions paysagères bordure périmètre maintenues. Cotes minimales conformes ~53m et 55m NGF. Retraits respectés."
+  },
+  {
+    "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912025-12-1156211088202235f03",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M10_GARANTIES",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Acte cautionnement remis en 2021 avait échéance 31/12/2025. Aucun nouvel acte remis par exploitant depuis. Demande de fournir nouvel acte avec détail calcul. Garanties financières absentes (échéance dépassée) → G3."
+  },
+  {
+    "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912025-12-1156211088202235f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Aucun pompage nappe constaté. Exploitant déclare ne pas avoir besoin de pomper. Mais vérification des conditions préalables au pompage montre qu'aucune surverse n'est en place du bassin Est vers crastes. Pas de NC à ce stade (absence pompage) mais mise en oeuvre pompage interdite dans ces conditions. Observation préventive."
+  },
+  {
+    "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912025-12-1156211088202235f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Moyens autosurveillance eaux pompage nappe conformes. Hauteur eau craste mesurée en amont/aval, seuil critique fixé. Pz13 équipé sonde pneumatique continue. Relevés mensuels piézométriques en place. Autosurveillance qualité nappe semestrielle. Résultats sans remarque."
+  },
+  {
+    "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912025-12-1156211088202235f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Registre consommation eau en place, volume conforme. Mais volucompteur trouvé ouvert (déplombé) - condensation gêne lecture mais entraîne possibilité modifier l'affichage. Aucune incohérence relevée. Demande refermer le volucompteur. NC physique mineure (intégrité compteur)."
+  },
+  {
+    "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912025-12-1156211088202235f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Arrêté ministériel sécheresse applicable à l'installation. Mais taux recyclage 83-89% place l'installation dans le champ d'exclusion. Exploitant doit tenir à disposition les éléments de l'article 4 de l'arrêté sécheresse. Situation conforme, pas d'obligation de réduction."
+  },
+  {
+    "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912025-12-1156211088202235f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Suivi qualité physico-chimique eaux conforme (fréquences avril/septembre 2025 respectées, résultats sans remarque). Mais piézomètres Pz4,5,6,3b,7,8 figurent sur plan sans résultats de suivi présentés - probablement abandonnés. Point rejet n°3 ne correspond plus à rejet milieu naturel depuis APC 2023. Demande clarification réseau suivi."
+  },
+  {
+    "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912025-12-1156211088202235f09",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03_REPORTING",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Déchets inertes admis 2025 ~75 000 t (max autorisé). Procédure acceptation préalable GEOCYCLE examinée. Mais registre terres s'arrête au 02/10/2025; registre DIB recyclage vide; adresse chantier vide 70% des cas; livraisons de départements limitrophes sans justification proximité. Demande amélioration traçabilité."
+  },
+  {
+    "slug": "lafarge-granulats-lg-fontet52037162022-10-0356211088202243f01",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Plan exploitation fourni date du 27/09/2021. Actualisation 2022 en cours. Retraits et profondeur respectés selon conducteur dragueline. Demande de transmettre plan mis à jour dès réception. NC documentaire (plan pas à jour pour l'année)."
+  },
+  {
+    "slug": "lafarge-granulats-lg-fontet52037162022-10-0356211088202243f02",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Phasage exploitation vérifié suite inondation. Exploitant en phase 1c. Phases permutées (2a, 1c, 1b) pour maintenir production hors eau. Surfaces et linéaires berges équivalents, GF non remises en cause. Remise en état coordonnée à l'avancée."
+  },
+  {
+    "slug": "lafarge-granulats-lg-fontet52037162022-10-0356211088202243f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M02_MESURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Temps sec, aucune eau ruissellement. Eaux ressuyage vers plan eau. Contrôle annuel correct. Anomalies: [Pb]=8,6 µg/l dans plan eau Espasot avril 2021 (non détecté 2022). [DCO]=900 mg/l sortie séparateur HC, nettoyage déclenché. Demande traçage contexte exploitation et actions correctives. NC ponctuelles documentées, non persistantes."
+  },
+  {
+    "slug": "lafarge-granulats-lg-fontet52037162022-10-0356211088202243f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Suivi bi-annuel 5 piézomètres réalisé. Rapport SGS avril et septembre 2021 consulté sans remarque."
+  },
+  {
+    "slug": "lafarge-granulats-lg-fontet52037162022-10-0356211088202243f05",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Crue hiver 2020/2021 non visible. Pas d'obstacle pour écoulement crues. Merlons limités et discontinus. Berges remises en état enherbées. Bande transporteuse sur structure métallique transparente aux crues. Exploitant déclare avoir déplacé engins en zone haute. Exutoire évacuation eaux piégées identifié. Matériaux très sableux — précautions à prendre pour MES lors pompage."
+  },
+  {
+    "slug": "lafarge-granulats-lg-fontet52037162022-10-0356211088202243f06",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan de gestion des déchets d'extraction mis à jour juin 2021 (<5 ans). Déchets limités aux terres de découverte. Sous-produits réutilisés dans réaménagement. PGDE sans remarque."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-le-fieu52082922025-11-1856211088201575f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Installations globalement propres. Système lavage roue présent et mis en fonctionnement. Site végétalisé hors parties exploitées, bien intégré paysage. Conforme aux dispositions anti-poussières."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-le-fieu52082922025-11-1856211088201575f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Végétation permettant bonne intégration paysagère. Route accès exempte poussière/boue. Installations de traitement à l'arrêt nettoyées à l'eau. Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-le-fieu52082922025-11-1856211088201575f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Locaux visités exempts d'amas poussière ou boue. Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-le-fieu52082922025-11-1856211088201575f04",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant dispose liste produits dangereux (lubrifiants, huiles) avec FDS associées. Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-le-fieu52082922025-11-1856211088201575f05",
+    "domains": [
+      "D11_SECURITE",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "FDS disponibles sur intranet et en affichages simplifiés au stockage. Mais affichages tendent à se décoller — exploitant prévoit tableaux d'affichage (promesse future). Extincteurs poudre présents aux stockages. Situation fonctionnelle mais affichages physiquement dégradés."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-le-fieu52082922025-11-1856211088201575f06",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Contrôle 2025 réalisé en août mais rapport pas encore transmis. Précédent rapport juillet 2024: 6 remarques dont 3 levées. Demande de transmettre rapport 2025 avec plan d'actions. NC documentaire."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-le-fieu52082922025-11-1856211088201575f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Moyens lutte incendie vérifiés avril 2025. Centrale incendie remplacée 24/04/2025. Pas de convention avec pompiers mais accès et pompages avec leurs propres équipements dans bassins. Plan localisation stockages et matières à risques réalisé 2021."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-le-fieu52082922025-11-1856211088201575f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Clarificateur avec floculant, recyclage eaux. Relevés compteurs 2025 transmis préalablement. Prélèvement carrière 500-9000 m³/mois. Consommation réseau public 3-8 m³/mois. Principe réutilisation/recyclage respecté."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-le-fieu52082922025-11-1856211088201575f09",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "2 points de rejet: boues dans bassins décantation (comblement), second au pont bascule vers fossé (à sec le jour J). Séparateur HC vidangé octobre, BSD saisis Trackdéchets. Rejet par tuyau coudé évite HC en cas incident. Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-le-fieu52082922025-11-1856211088201575f10",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Mesures bruit réalisées juillet 2025. Résultats sans non-conformité."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-saucats52063572023-05-3156211088202144f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant indique aucune modification n'a augmenté la puissance. Certaines parties démantelées (maintenance difficile, perte efficacité). Sans commentaire inspection. Situation administrative et classement conformes."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-saucats52063572023-05-3156211088202144f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "medium",
+    "reasoning": "Ouvrage déviation fossés non observé en 2016, non plus en 2023. Fossés présents mais déviation busée pas visible. Exploitant n'a pas fourni schéma à jour des réseaux. Ruissellement peut aller vers fossés non isolés. Demande justificatif buse et plan réseau mis à jour. Même NC qu'en 2016."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-saucats52063572023-05-3156211088202144f03",
+    "domains": [
+      "D07_RETENTION",
+      "D04_EAUX",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Aire étanche entretien véhicules avec rétention/débourbeur présente. Dernier bon d'intervention curage: 25/02/2020. Exploitant n'a pas procédé au curage depuis 2020 (arrêt activités). BSD du curage 2020 non fourni. Demande bon commande curage sous 15 jours et facture+BSD sous 3 mois."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-saucats52063572023-05-3156211088202144f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Rapport SGS 2023 inclut mesures bassin de reprise: valeurs non excessives. Mais rapport ne présente ni évolution annuelle ni comparaison état initial. Demande d'inclure ces éléments à prochaine campagne. NC méthodologique mesure."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-saucats52063572023-05-3156211088202144f05",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Depuis inspection 2016 (cuve gazole à l'extérieur), exploitant a couvert la cuve. Cuve à présent à l'abri des intempéries, sur rétention, dans local grillagé fermé. Huiles dans conteneur fermé sur dalle étanche et rétention. Correction spontanée depuis inspection précédente."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-saucats52063572023-05-3156211088202144f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Système nettoyage roues mis en marche par exploitant lors inspection au pont bascule. Fonctionnait convenablement. Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-saucats52063572023-05-3156211088202144f07",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Mesures bruit commandées (bon commande daté 12/04/2023 transmis). Résultats pas encore disponibles. Demande transmission résultats avec mesures correctives si dépassement. NC mesure en cours de régularisation."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-saucats52063572023-05-3156211088202144f08",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Clôture en partie recouverte par stock de matériaux s'écroulant vers l'extérieur. Plusieurs panneaux en mauvais état. Côté Sud accès plan d'eau chemin DFCI non protégé, aucune pancarte risque noyade. Aucune bouée au plan d'eau en cours d'exploitation. Demande calendrier réparation clôture et mise en place bouée. Déficits physiques multiples → G3."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-saucats52063572023-05-3156211088202144f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "medium",
+    "reasoning": "Extincteurs: devis pour vérification daté 08/06/2022 transmis mais ni compte-rendu d'intervention, ni suivi actions correctives fournis. Rapport de vérification annuelle absent. NC sur vérification extincteurs déjà soulevée en 2016 et maintenant → G3 (même constat 2 inspections)."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-saucats52063572023-05-3156211088202144f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Aire aspiration SDIS sur plan eau reprise vérifiée. Courrier SDIS 2019 confirme mise en aspiration concluante. Mais bassin d'appoint non équipé d'aire aspiration contrairement à prescription arrêté autorisation. Déjà souligné lors inspection 2016. NC physique persistante (équipement absent sur un bassin)."
+  },
+  {
+    "slug": "lafarge-granulats-lg-ic-saucats52063572023-05-3156211088202144f11",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Bouée et touline présentes à proximité bassin reprise mais bassin d'appoint en est dépourvu. Demande mise en place moyens intervention sur les 2 plans d'eau sous 15 jours. Équipement de sécurité absent → G3."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f01",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Ecart 2017: carrière non séparée par portail de l'installation traitement. Exploitant avait répondu: portail sera mis en place fin 2017. Le portail est bien présent le jour inspection 2022. NC levée."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f02",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Plan exploitation daté 27/09/2021. Limites carrière/traitement confondues. Cotes altitude difficiles à lire. Relevés bathymétriques peu nombreux. Légende convoyeur/gaz absente. RD10 non identifiée. Demande nouveau plan conforme avec limites dissociées sous 1 mois. NC documentaire formelle."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f03",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "medium",
+    "reasoning": "NC 2017: cote minimale +19 mNGF non respectée à 3 endroits. Exploitant avait sensibilisé conducteurs dragueline. Réunion 27/09/2017 tracée. Rappels réguliers. Mais plan actuel ne permet pas de s'assurer de la cote minimale (cotes difficiles à lire cf point 2). NC residuelle liée à lisibilité plan."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f04",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Limite extraction figurée en légende mais distances de sécurité non représentées sur plan, ne permet pas vérifier conformité. Demande nouveau plan avec distances de sécurité (cf point 2). NC documentaire."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f05",
+    "domains": [
+      "D15_SECTEUR",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M10_GARANTIES",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Cautionnement 436 179€ couvre période 5/03/2018-4/03/2023. Exploitation en retard de phase (phase 8 vs phase 10 attendue). Montant caution suffisant pour phase 8. Pas d'irrégularité soulevée à ce stade mais actualisation calendrier/GF demandée lors prochain dossier modification."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Ecart 2017: arrosage pistes temps sec non permanent. Exploitant a répondu avec amplitude horaire et sensibilisation opérateurs. Arrosage déclenché manuellement selon météo. Enrobé mis en place jusqu'à RD21 (fin travaux 2021). Situation améliorée."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f07",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M03_REPORTING"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Déclaration GEREP réalisée le 8 mars 2022 (dans délai avant 31/03/N+1). Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "medium",
+    "reasoning": "Analyses piézomètres (PZ2, PZ5, PZ6) et plan eau avril 2022 réalisées. Périodicité respectée. Mais point non abordé en séance: demande de transmettre tableaux de suivi analyses. Amélioration depuis 2017 (suivi désormais délégué à organisme externe depuis problèmes relevés 2019-2020)."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f09",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Absences relevés mensuels en 2019-2020. Exploitant a délégué surveillance mensuelle à organisme externe. Relevés bien réalisés mensuellement 2021-juillet 2022. Amélioration constatée."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f10",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Déchets extraction: terres végétales/limons issus découverte et boues/stériles production. Pas de stockage >3 ans sauf merlons paysagers/phoniques en périphérie. Bassins décantation utilisés dans remise en état. Pas d'installation stockage déchets extraction. Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f11",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Pas d'installation gestion déchets catégorie A et pas de zones stockage déchets extraction. Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f12",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "PGD daté octobre 2021. Contenu conforme (caractérisation, quantités, lieux implantation, procédures). Mais exploitant n'a pas transmis son PGD à Mme la Préfète. NC documentaire transmission."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f13",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G6",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Incendie de la dragueline survenu. Rapport d'incident non transmis le jour inspection mais transmis par mail le 12/09/2022. Dragueline isolée en attente experts (cause incendie). Demande suivi: expertise, mesures clôture incident, mesures prévention. G6 car événement survenu."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772025-11-1856211088201575f01",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Quantité extraite 2024 inférieure au tonnage maximal autorisé. Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772025-11-1856211088201575f02",
+    "domains": [
+      "D12_ADMIN",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M03_REPORTING",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Déclaration GEREP finalisée 7/03/2025. Quantité totale extraite 2024 dans onglet information générale mais pas reportée dans onglet production pour chaque substance. Demande veiller à détailler par substance pour déclaration 2025. NC GEREP partielle."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772025-11-1856211088201575f03",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Panneau affichage présent à l'entrée site. Tous les éléments réglementaires mentionnés. Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772025-11-1856211088201575f04",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Relevés 2024 présentés, relevés 2025 réalisés la veille de l'inspection. Profondeur globalement entre 21 et 20 m NGF, quelques points 20-19 m NGF. Cote minimale +19 m NGF respectée. Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772025-11-1856211088201575f05",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan exploitation daté 20/09/2024 consulté. Périmètre exploitation respecté. Distances sécurité respectées. Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772025-11-1856211088201575f06",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Ensemble des paramètres requis sur dernier plan exploitation. Plan référence les 6 piézomètres. Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772025-11-1856211088201575f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Bilan suivi qualité eaux 2024 transmis. Fréquences respectées. Valeurs MES importantes au Pz1bis (410 mg/l) et Pz4 (580 mg/l) avril 2024. Exploitant explique piézomètres peu profonds et affectés par extraction voisine. Campagne 2025 nettement plus basses (<100 mg/l). Demande attention sur suivi MES et améliorer présentation historique."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772025-11-1856211088201575f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Relevés compteurs 2025 transmis. Prélèvement radeau carrière 530-8842 m³/mois. Suivi périodes vigilance/alerte sécheresse avec relevé hebdomadaire en période d'alerte. Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772025-11-1856211088201575f09",
+    "domains": [
+      "D13_CESSATION",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M19_CESSATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Cessation activité partie ouest actée par APC 10/09/2024 suite transmission ATTES. Parcelles maintenant séparées de la carrière par clôture. Partie sud conduite de gaz non exploitée (contrainte). Boues rejetées dans bassin décantation sud pour comblement. Zone extraction actuelle maintenue en plan d'eau avec modelage berges."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772025-11-1856211088201575f10",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M10_GARANTIES",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Acte cautionnement court jusqu'au 5/03/2026. Demande de transmettre prochain acte d'ici 5/12/2025 (3 mois avant échéance). NC: prochain acte pas encore transmis alors qu'il doit l'être 3 mois avant échéance."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772025-11-1856211088201575f11",
+    "domains": [
+      "D12_ADMIN",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Demande de prolongation 4 ans déposée en avril. Participation public par voie électronique prévue. Projet à plus long terme d'exploitation nouveaux terrains à l'est de D21. Etudes à lancer en 2026. Information factuelle sur évolution situation administrative."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772025-11-1856211088201575f12",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "PGD de Le Fieu mis à jour février 2025 transmis préalablement. Document sans observation."
+  },
+  {
+    "slug": "lafarge-granulats-lg-le-fieu52082772025-11-1856211088201575f13",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Moyens lutte incendie (extincteurs tapis, engins, dragueline) vérifiés avril 2025. Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f01",
+    "domains": [
+      "D12_ADMIN",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Activité mise en pause 2020 (COVID). Dossier PAC prolongation 4 ans déposé 2021. APC daté 21/06/2023 prolonge jusqu'en juin 2027. Exploitation en reprise depuis 2 mois. Quantités autorisées respectées 3 dernières années. Remblais quasiment aucun sur ce site."
+  },
+  {
+    "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f02",
+    "domains": [
+      "D09_BIODIVERSITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Zone protégée (partie Sud parcelle 2332) observée avec clôture en place. Plan exploitation confirme zones préservées lors différentes phases. Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f03",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "2 bornes observées au Nord du site. Végétation foisonnante mais exploitant connaît l'emplacement avec précision. Bornes reportées sur plan exploitation. Conforme."
+  },
+  {
+    "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f04",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Zone décapée en 2019 (zone 2B) mais exploitation stoppée 2020 suite COVID. Exploitant n'a pas su répondre définitivement sur exploitation tranche 3 - vraisemblablement abandonnée mauvaise qualité matériaux mais n'avait pas de réponse définitive. Berges non totalement réhabilitées en attente décision. Méconnaissance partielle de la situation."
+  },
+  {
+    "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f05",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan exploitation fourni. Cotes décapées 66-65 m NGF, fond découverte 57-59 m NGF. Conformes aux prescriptions. Cote minimale +52 m NGF respectée."
+  },
+  {
+    "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f06",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M09_PAC",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Exploitant semble avoir décidé de ne pas exploiter une tranche de la première phase. Demande de se positionner et transmettre éléments d'appréciation sous 2 mois. NC: modification conditions exploitation non formellement portée à connaissance du Préfet."
+  },
+  {
+    "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f07",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Rapport DEKRA vérification installations électriques daté 28/09/2022: 5 observations. Demande état résolution des observations sous 15 jours. Si aucune action corrective: justificatifs attendus sous 1 mois. NC documentaire (état résolution non fourni)."
+  },
+  {
+    "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f08",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R09_BLOCAGE_TIERS",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Clôture endommagée par tiers (accès plan eau). Portail SDIS présent mais endommagé fréquemment. Côté Sud accès non protégé, aucune pancarte risque noyade. Aucune bouée côté plan eau exploitation. Demande bouée sous 15 jours et plan réparation clôtures. Tiers bloquant (dégradations), équipements absents → G3."
+  },
+  {
+    "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f09",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan exploitation daté 4/10/2022 présenté. Reprend l'ensemble des éléments requis. Sans commentaire particulier."
+  },
+  {
+    "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f10",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Rapport SGS 2023 inclut analyses eaux surface plan eau. Résultats conformes VLE. Tableau suivi depuis 2012 transmis sans évolution particulière. Mais rapport SGS/tableau ne précisent pas nature piézomètres, localisation, ni analyse qualitative évolution. Demande analyse résultats et position amont/aval."
+  },
+  {
+    "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f11",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Rapport SGS eaux souterraines 4 piézomètres. Tableau suivi depuis 2012. Mais rapport ne précise ni nature, ni localisation amont/aval des piézomètres, ni analyse qualitative. Valeurs nickel et zinc non négligeables mais stables (Pz10). Valeurs MES fluctuantes mais concordantes entre piézomètres. Demande analyse causes éventuelles."
+  },
+  {
+    "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f12",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Aucune mesure bruit réalisée au cours des 3 dernières années. Bon commande mesures daté 12/04/2023 transmis. Résultats attendus. Demande de transmettre résultats avec mesures correctives si dépassement. NC mesure périodique non réalisée depuis 3 ans."
+  },
+  {
+    "slug": "laffort52007512023-02-2379088731900016f01",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Stockages liquides proches limite 30 m³/bâtiment mais état des stocks ne permet pas s'assurer du respect. Outil suivi existant mais volume liquides non suivi pour respecter limite. Cubitainers et bidons nombreux. SO2: 980 kg cylindre, quantité rubrique 4130-3 respectée. Dépassement volume liquides susceptible de conduire à sanctions administratives → G3."
+  },
+  {
+    "slug": "laffort52007512023-02-2379088731900016f02",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Etat des stocks présent mais manquent: mentions de dangers pour matières dangereuses, grands types pour produits non dangereux, combustibles non dangereux (palettes, cartons). Produits H225 liquides inflammables: mise à jour quotidienne non justifiable. Exploitant s'est engagé à mettre en oeuvre les dispositions. Ecart documentaire formel mais entrepôt logistique."
+  },
+  {
+    "slug": "laffort52007512023-02-2379088731900016f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Bâtiment B: justificatifs dispositions constructives fournis sans remarque. Plaques coupe-feu 2h présentes sur portes séparatives B/F. Mais aucun justificatif caractère coupe-feu des façades Ouest/Est bâtiment F et façade Nord bâtiment E. Constructeur initial disparu. Exploitant invoque similarité avec bâtiment B mais non suffisant. Absence justificatifs CF murs séparatifs et façades extérieures → G3."
+  },
+  {
+    "slug": "laffort52007512023-02-2379088731900016f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R09_BLOCAGE_TIERS",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Portail Ouest créé, bassin rétention modifié pour accès SDIS: OK. Aires stationnement engins créées hors zone effets thermiques: OK. Passage B-C créé: OK mais conformité à fiche voie engins non vérifiée. Convention accès via site voisin: pas encore signée, voisin a un projet d'agrandissement (blocage tiers). Matériaux voisin bloquent zone accès. Portail définitif en attente (commandé récemment). Plusieurs NC résiduelles → G3."
+  },
+  {
+    "slug": "laffort52007512023-02-2379088731900016f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Bâtiment B: 5 racks doubles vs 5+2 prévus (OK). Bâtiment F: stockage racks+masse présent alors que seul racks prévu - lié à réfection sol bâtiment A (temporaire mais non conforme en tout temps). Bâtiment E cellule 1: hauteur maximale 4m dépassée (stockage 4 niveaux palettes ~1,5m chacun), séparation entre îlots pas marquée, largeur 2m non respectée. Non-respect conditions stockage susceptible de conduire à suites administratives → G3."
+  },
+  {
+    "slug": "laffort52007512023-02-2379088731900016f06",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Aucune disposition garantie étanchéité revêtement sol. Aucun contrôle périodique semestriel réalisé. Bassin de rétention avec végétation (étanchéité questionnée). Confinement interne interdit avec matières dangereuses (AM). Aucun devis établi à la date inspection. Ecart passible suites administratives → G3."
+  },
+  {
+    "slug": "laffort52007512023-02-2379088731900016f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Second poteau incendie installé (déplacé mais à moins de 150m bâtiment E). Mais aucun justificatif de débits simultanés. BET a indiqué impossibilité de réaliser cette mesure en simultané. Non-conformité passible suites administratives. Demande mesure débits simultanés sous 30 jours → G3."
+  },
+  {
+    "slug": "laffort52007512023-02-2379088731900016f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Exploitant n'a pas mis à jour études de non-ruine en chaîne. Incohérences multiples entre études et réalité: stocks différents, exutoires différents, hauteurs différentes pour bâtiments B et E. Bâtiment E: longueur 76m réelle vs 67m étude, stockage racks+masse réel vs racks seuls dans étude. Mise à jour obligatoire avant mise en exploitation → G3."
+  },
+  {
+    "slug": "laffort52007512023-02-2379088731900016f09",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "EDD transmise 24/10/2022 étudie incendie bâtiment E touchant zone ensachage tanins bâtiment D mais sans mesures réduction. Incendie généralisé D+E non étudié, acceptabilité non démontrée. Demande mesures prévention propagation E→D ou mise à jour EDD sous 1 mois → G3."
+  },
+  {
+    "slug": "laffort52007512023-02-2379088731900016f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Plan de défense incendie mis à jour présente les informations sauf une: justification compétences personnel susceptible d'intervenir avec extincteurs/RIA (formation, qualification, entraînement). Demande mise à jour sous 30 jours. NC documentaire formelle."
+  },
+  {
+    "slug": "laffort52007512023-02-2379088731900016f11",
+    "domains": [
+      "D01_INCENDIE",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Charge batteries dans bâtiment B hors local dédié. Stockages combustibles à moins de 3m de la charge. Exploitant invoque réfection sol bâtiment A. Charge hors local dédié = écart susceptible suites administratives. Demande arrêt immédiat ou démonstration absence risques gaz et distances >3m. Risque incendie physique immédiat → G3."
+  },
+  {
+    "slug": "lalanne-isdi52138692023-05-0947010902600042f01",
+    "domains": [
+      "D13_CESSATION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Autorisation échue depuis 22/12/2020. Tout remblaiement et stockage déchets cessé. Parcelles C48/C57 couvertes de végétation, prairie, exhaussement 2m. Parcelles C365/367/352/366 construites, occupées industriellement. MED du 13/04/2016 désormais sans objet. MED levée de fait."
+  },
+  {
+    "slug": "lamouroux-gilbert31066282023-02-23nosiretf01",
+    "domains": [
+      "D08_DECHETS",
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M19_CESSATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "medium",
+    "reasoning": "Inspection 2023: véhicules évacués. Reste 1 VHU, pièces détachées réduites, quelques moteurs sous bâche. Stockage résiduel ne relève plus police ICPE mais police du maire. Maire en sera informé. Situation largement améliorée vs avant."
+  },
+  {
+    "slug": "lamouroux-gilbert31066282023-02-23nosiretf02",
+    "domains": [
+      "D06_SOLS",
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M19_CESSATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A06_BET",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rapport TEREO 08/10/2021 (4 prélèvements sols). Absence impact significatif. Concentrations C10-C40 et HAP inférieures aux seuils ISDI. Surveillance environnementale post-cessation réalisée et concluante."
+  },
+  {
+    "slug": "landes-girondines-lerm-et-musset52054282023-09-2738474172400015f01",
+    "domains": [
+      "D13_CESSATION",
+      "D08_DECHETS",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M19_CESSATION",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R06_VIDE_JURIDIQUE",
+    "actor": "A11_PROPRIETAIRE",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T5_AGGRAVATION",
+    "confidence": "high",
+    "reasoning": "SARL radiée RCS 10/01/2020 manque d'actifs. Gérant Philippe TORREGARAY décédé 28/01/2022. Aucun dossier ni suite justifiés. Pas d'extraction ni enfouissement le jour J. Merlon sable toujours en place (moto-cross). Site non clôturé, aucune signalisation. Déchets semblent encore en place ou substitués. Niveau terrain pas baissé. Demande historique fin activité + justificatifs remise en état + diagnostic sol à propriétaire et ayants droit. Information mairie pour mémoire du site. Vide juridique total + aggravation (pas de clôture, déchets) → G4."
+  },
+  {
+    "slug": "lapoule-michel52004182022-11-0731662700900046f01",
+    "domains": [
+      "D13_CESSATION",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M19_CESSATION",
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R05_VIDE_FACTUEL",
+    "actor": "A11_PROPRIETAIRE",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Activité récupération VHU/pièces arrêtée début années 1990. En 2011: site non actif mais cessation non notifiée. 07/11/2022: M. et Mme LAPOULE plus domiciliés au 260 av. Côte d'Argent, terrain vendu à restaurateurs. Activité bois fermée 31/12/2012. Inspection propose arrêté préfectoral péremption. Exploitant absent, site vendu → vide factuel."
+  },
+  {
+    "slug": "lapoule-roland52068812023-06-1238449580000011f01",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "Volume rétention eaux extinction non justifié depuis 2019 (6 inspections). Calcul 195 m³ non basé D9A, non justifié. Exploitant affirmait avoir recalculé mais aucun élément probant présenté. Amende 5000€ proposée. MED active non levée + NC technique rétention incendie → G4. Plus de 5 ans de même écart → T7."
+  },
+  {
+    "slug": "lapoule-roland52068812023-06-1238449580000011f02",
+    "domains": [
+      "D08_DECHETS",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "APC 26/01/2020 interdit réception VHU jusqu'au respect MED 16/01/2020 points 1,2,11,14. Exploitant a reçu >60 VHU en 2023 malgré interdiction. Amende 5000€ déjà prise 11/05/2022 sur ce point. Proposition nouvelle amende 5000€. Non-respect MED persistant depuis 2020 → G4, T7."
+  },
+  {
+    "slug": "lapoule-roland52068812023-06-1238449580000011f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M06_RECIDIVE",
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "Dépassements VLE importants: MES 178 mg/l (seuil 35), DBO5 130 mg/l (seuil 30), DCO 502 mg/l (seuil 125), HC 96 mg/l (seuil 5). Aucune mesure corrective mise en place. Même écart relevé en 2019, 2021, 2022 (persistant). GIDAF: valeurs renseignées = exactement les VLE (erronées). Amende 5000€ proposée → G4 (dépassement VLE confirmé), T7 (>3 ans)."
+  },
+  {
+    "slug": "lapoule-roland52068812023-06-1238449580000011f04",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Valise déclenchement airbags et prétensionneurs présente. Mais aucun VHU dépollué visible (en cours évacuation benne). Impossibilité de contrôler l'utilisation effective. Pas de sanction proposée mais justificatif demandé sous 3 mois. Constat d'incertitude."
+  },
+  {
+    "slug": "lapoule-roland52068812023-06-1238449580000011f05",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Extraction composants volumineux (tableaux de bord) non contrôlable - VHU dépollués dans benne camion. Pas de sanction à ce stade. Justificatif demandé sous 3 mois (photos VHU dépollués). Constat d'incertitude."
+  },
+  {
+    "slug": "lapoule-roland52068812023-06-1238449580000011f06",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M06_RECIDIVE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "TRR et TRV non justifiés le jour J (secrétaire absente). S'est engagé à transmettre sous 15 jours. Ecart relevé à chaque inspection depuis 2019 (5 inspections). Amende 5000€ proposée. MED active non prouvée + NC persistante depuis >3 ans → G4, T7."
+  },
+  {
+    "slug": "lapoule-roland52068812023-06-1238449580000011f07",
+    "domains": [
+      "D08_DECHETS",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M06_RECIDIVE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "Moteurs stockés au sol sur dalle étanche sans conteneurs/emballages étanches, non abrités des intempéries. Benne étanche mais non couverte. Aucune mesure corrective depuis 2019. Astreinte administrative prise 16/01/2020 (persistant). Amende 5000€ déjà prise 11/05/2022. Nouvelle amende 5000€ proposée. Stockage physique non conforme persistant → G4, T7."
+  },
+  {
+    "slug": "lapoule-roland52068812023-06-1238449580000011f08",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "medium",
+    "reasoning": "Rapport APAVE 2022: nombreuses NC dont certaines déjà signalées 2021 (poussières armoire, traces échauffement, matériel inadéquat). Exploitant affirme réparations faites mais aucun justificatif présenté (secrétaire absente). Pas de mise en demeure à ce stade car actions en cours. Justificatifs demandés sous 3 mois. Installations électriques avec NC récurrentes → G3."
+  },
+  {
+    "slug": "lapoule-roland52068812023-06-1238449580000011f09",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M03_REPORTING",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "medium",
+    "reasoning": "Corps très court (renvoi au point de contrôle surveillance eaux pluviales). Depuis 2019 écarts GIDAF (valeurs erronées vs rapport laboratoire). Ecart récurrent persistant. Dépassements VLE enregistrés."
+  },
+  {
+    "slug": "lapoule-roland52068812023-06-1238449580000011f10",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "medium",
+    "reasoning": "Marquage composants démontés VHU non réalisé. Ecart relevé lors des inspections 2022, 2021, 2020, 2019. Persistant depuis 4 inspections. Demande traçabilité sous 3 mois. NC documentaire/opérationnelle."
+  },
+  {
+    "slug": "lapoule-roland52068812023-06-1238449580000011f11",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "medium",
+    "reasoning": "Seul numéro ASN affiché, aucune procédure/consigne écrite en cas détection radioactivité. Même écart qu'inspection 2022. Demande procédure écrite sous 3 mois."
+  },
+  {
+    "slug": "lapoule-roland52068812023-06-1238449580000011f12",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Aucun VHU non dépollué sur espace public extérieur à l'installation. Ecart précédente inspection levé."
+  },
+  {
+    "slug": "lapoule-roland52068812023-06-1238449580000011f13",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Rapport vérification extincteurs et registre sécurité non présentés (secrétaire absente). Entretien annuel bon état fonctionnement non justifié. De plus, 2 extincteurs au hangar encombrés par pneus et moteurs: non accessibles. Même écart qu'inspection 2022. Demande rendre extincteurs accessibles et justificatifs sous 3 mois → G3."
+  },
+  {
+    "slug": "lapoule-roland52068812023-06-1238449580000011f14",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Secrétaire absente, exploitant incapable de présenter tout document (rapport analyses, vérifications matériel incendie, installations électriques, registre déchets, livre de police). Ne sait pas où sont rangés les documents ni utiliser l'ordinateur. Méconnaissance documentaire totale. Demande mise à disposition documents sous 3 mois."
+  },
+  {
+    "slug": "lapoule-roland52068812024-01-2338449580000011f01",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "Toujours pas de démonstration que volume rétention eaux extinction est suffisant. Calcul transmis ne s'appuie pas sur D9A. Ecart persistant. Demande calcul D9A sous 1 mois. MED active + NC rétention incendie → G4. >5 ans du même écart → T7."
+  },
+  {
+    "slug": "lapoule-roland52068812024-01-2338449580000011f02",
+    "domains": [
+      "D08_DECHETS",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "317 VHU reçus en 2023. Points 1 (airbags) et 2 (composants volumineux) de l'annexe I AM 2 mai 2012 considérés respectés. Point 11 (TRR): TRR 2022 non atteint mais TRV (5,9% pour 5%) OK. Dispositions APC 26/01/2020 art.3.1 considérées respectées: exploitant peut recevoir nouveaux VHU. Levée partielle de la MED."
+  },
+  {
+    "slug": "lapoule-roland52068812024-01-2338449580000011f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "medium",
+    "reasoning": "Contrôle 29/11/2023: paramètres conformes sauf HC à 9,85 mg/l (VLE 5 mg/l). Dépassement VLE HC lié à fuite benne moteurs. Benne remplacée semaine précédant inspection. Inspection constate benne ne fuit plus. Demande nouvelle analyse sous 3 mois. NC HC résolue en cours mais VLE dépassée constatée."
+  },
+  {
+    "slug": "lapoule-roland52068812024-01-2338449580000011f04",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Dispositif de neutralisation des airbags présenté. NC précédente levée."
+  },
+  {
+    "slug": "lapoule-roland52068812024-01-2338449580000011f05",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Stock pare-brises, tableaux de bord, pare-chocs constatés: extraction composants volumineux réalisée. Facture déchetterie professionnelle COBAS Arcachon présentée. NC précédente considérée levée."
+  },
+  {
+    "slug": "lapoule-roland52068812024-01-2338449580000011f06",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "medium",
+    "reasoning": "2022: TRV 5,9% (objectif 5% OK), TRR 2,2% (objectif 3,5% non atteint). Demande transmission TRV/TRR 2023 sous 3 mois. Si non conforme, amende proposée. MED active sur TRR → G3."
+  },
+  {
+    "slug": "lapoule-roland52068812024-01-2338449580000011f07",
+    "domains": [
+      "D08_DECHETS",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Tous moteurs stockés dans même benne recouverte d'une bâche étanche. NC précédente levée."
+  },
+  {
+    "slug": "lapoule-roland52068812024-01-2338449580000011f08",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "medium",
+    "reasoning": "Rapport conformité électrique 12/01/2024: 11 préconisations dont 8 récurrentes. Demande justificatifs prise en compte préconisations et travaux sous 3 mois. NC récurrentes installations électriques → G3."
+  },
+  {
+    "slug": "lapoule-roland52068812024-01-2338449580000011f09",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M03_REPORTING"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Analyses premier semestre 2023 bien saisies dans GIDAF. NC précédente levée."
+  },
+  {
+    "slug": "lapoule-roland52068812024-01-2338449580000011f10",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "medium",
+    "reasoning": "Certains composants marqués mais exploitant reconnaît ne pas le faire de manière systématique. Demande marquage systématique sous 1 mois. NC partiellement corrigée mais pas systématique."
+  },
+  {
+    "slug": "lapoule-roland52068812024-01-2338449580000011f11",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "medium",
+    "reasoning": "Exploitant dispose du numéro à appeler en cas détection radioactivité. Mais toujours aucune procédure écrite. NC maintenue (même que 2023)."
+  },
+  {
+    "slug": "lapoule-roland52068812024-01-2338449580000011f12",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Extincteurs contrôlés le 13/07/2023. 2 ont été remplacés. NC précédente levée."
+  },
+  {
+    "slug": "lapoule-roland52068812024-01-2338449580000011f13",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Exploitant a pu présenter dossier ICPE et documents demandés par l'inspection. NC précédente levée."
+  },
+  {
+    "slug": "larre-frederic31070472024-07-0335042974200017f01",
+    "domains": [
+      "D08_DECHETS",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M05_SANCTION",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [],
+    "dynamic": "R05_VIDE_FACTUEL",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T5_AGGRAVATION",
+    "confidence": "high",
+    "reasoning": "Exploitant absent du site (installé en Espagne). MED 10/12/2021 non respectée. Depuis juin 2022: quantité déchets a de nouveau augmenté (déchets bois, remblayage nouveaux inertes, bennes ECOFIELD). ECOFIELD exploite le site illégalement sans en avoir informé l'inspection. Proposition amende 5000€ contre M. LARRE. Site illégalement exploité par tiers. Aggravation vs 2022 → G4, T5."
+  },
+  {
+    "slug": "lavigne-jimmy1000314682023-09-15nosiretf01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant a exercé activité garage/VHU sans enregistrement. ~10 VHU encore présents sur zone non imperméabilisée. Moteurs, boîtes vitesse à même le sol. Surface >200 m² (seuil enregistrement rubrique 2712). Inspection propose MED: soit cessation activité (évacuation VHU + diagnostic sols), soit dossier enregistrement. Exploitant non conscient des obligations ICPE → méconnaissance. NC physique site non conforme → G3."
+  },
+  {
+    "slug": "lavigne-jimmy1000314682023-09-15nosiretf02",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant ne dispose pas d'agrément préfectoral pour exercer activité centre VHU (art. L.515-13 et R.543-162 code environnement). Demande régularisation situation administrative sous 2 mois. Activité illégale sans agrément obligatoire → G3."
+  },
+  {
+    "slug": "le-mas-des-bouilles-a-bises-abzac-22-tripoteau533248882023-03-1651509701200014f01",
+    "domains": [
+      "D05_AIR_BRUIT",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Au moins 20 chiens adultes maintenus dans conditions engendrant nuisances olfactives. Chiens à l'intérieur de l'habitation non dénombrables. Type de suites: avec suites. Nuisances olfactives physiquement constatées sur site → G3."
+  }
+]

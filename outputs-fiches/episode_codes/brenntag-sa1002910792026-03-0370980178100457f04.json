@@ -1,0 +1,59 @@
+{
+  "document_date": "2026-03-03",
+  "document_title": "brenntag-sa1002910792026-03-0370980178100457f04",
+  "codes": [
+    {
+      "description": "Les liquides inflammables, acides et bases sont stockés dans des rétentions spécifiques dédiées, conformément aux exigences de séparation des produits incompatibles.",
+      "excerpts": [
+        "les liquides inflammables sont stockés dans une cellule spécifique, formant rétention, coupe-feu 2 heures",
+        "Les produits incompatibles sont donc stockés dans des rétentions dédiées"
+      ],
+      "valence": "positive",
+      "code": "Stockage produits incompatibles séparés"
+    },
+    {
+      "description": "Dans la zone de commande, des produits incompatibles sont temporairement mélangés, ce qui crée un risque résiduel nécessitant une surveillance permanente.",
+      "excerpts": [
+        "excepté au niveau de la zone de commande où tous les produits sont mélangés.",
+        "il appartient à l'exploitant, sous sa seule responsabilité, de garantir en permanence l'absence de mélange de produits incompatibles et de déversement de produits chimiques et inflammables à l'extérieur du site."
+      ],
+      "valence": "negative",
+      "code": "Zone commande produits mélangés"
+    },
+    {
+      "description": "L'inspection demande une surveillance permanente de la zone de commande et l'absence de produits la nuit et le week-end.",
+      "excerpts": [
+        "Il convient, au niveau de la zone de commande des produits chimiques et inflammables : - d'avoir une surveillance permanente ; - qu'aucun produit ne soit présent dans cette zone, la nuit et le week-end"
+      ],
+      "valence": "neutral",
+      "code": "Surveillance zone commande exigée"
+    },
+    {
+      "description": "Des mesures passives (dos d'âne) doivent être mises en place dans la zone de commande pour éviter tout écoulement accidentel vers l'extérieur.",
+      "excerpts": [
+        "de prendre les mesures nécessaires pour éviter tout écoulement à l'extérieur par des dispositifs passifs (dos d'âne par exemple)."
+      ],
+      "valence": "neutral",
+      "code": "Dispositifs passifs déversement"
+    },
+    {
+      "description": "L'ensemble des produits chimiques est stocké à l'intérieur des bâtiments, ce qui est conforme et limite les risques de pollution extérieure.",
+      "excerpts": [
+        "il est à noter que l'ensemble des produits est stocké à l'intérieur."
+      ],
+      "valence": "positive",
+      "code": "Stockage intérieur total"
+    },
+    {
+      "description": "La prescription détaille les exigences complexes de rétention pour les liquides polluants : volume, étanchéité, résistance chimique, maintenance et procédures.",
+      "excerpts": [
+        "Tout stockage d'un liquide susceptible de créer une pollution des eaux ou des sols est associé à une capacité de rétention dont le volume est au moins égal à la plus grande des deux valeurs suivantes"
+      ],
+      "valence": "neutral",
+      "code": "Rétention réglementaire produits chimiques"
+    }
+  ],
+  "document_summary": "L'inspection de Brenntag SA (distributeur de produits chimiques) porte sur le stockage de produits incompatibles (inflammables, acides, bases) ; les rétentions dédiées sont en place mais la zone de commande présente des mélanges temporaires qui exigent des mesures organisationnelles et passives supplémentaires.",
+  "surprises": "La zone de commande où les produits sont mélangés est une zone opérationnelle normale d'un distributeur chimique — l'inspection reconnaît implicitement qu'une conformité parfaite de séparation est impossible en exploitation, d'où les mesures compensatoires.",
+  "tensions": "La réglementation exige une séparation stricte des produits incompatibles, mais l'activité de préparation de commandes implique nécessairement leur co-présence temporaire — tension entre exigence réglementaire absolue et réalité opérationnelle."
+}

@@ -1,0 +1,49 @@
+{
+  "document_date": "2022-09-29",
+  "document_title": "jeanneau-sas52122872022-09-2980046790400010f07",
+  "document_summary": "L'inspection d'un site industriel (fabrication de béton) constate qu'un dispositif totalisateur a été installé sur le forage depuis la dernière inspection (2021), mais qu'aucun compteur n'équipe encore le puits utilisé pour la fabrication. L'exploitant s'engage à installer le compteur avant fin 2022.",
+  "surprises": "La fiche illustre un suivi longitudinal efficace : la non-conformité de 2021 est partiellement corrigée (forage équipé), mais un second point de prélèvement (puits) avait été oublié.",
+  "tensions": "L'exploitant a corrigé le point signalé en 2021 (forage) mais un autre prélèvement (puits) utilisé aux mêmes fins reste sans comptage, soulevant la question de la connaissance exhaustive des prélèvements par l'exploitant lui-même.",
+  "codes": [
+    {
+      "description": "L'exploitant a installé un dispositif totalisateur sur le forage et tient des relevés mensuels depuis mars 2022, donnant suite à la non-conformité signalée lors de l'inspection de 2021.",
+      "excerpts": [
+        "il a été constaté la présence d'un dispositif totalisateur au niveau du forage. L'inspection a pu constater la réalisation d'un relevé mensuel par l'exploitant depuis le 18/03/22."
+      ],
+      "valence": "positive",
+      "code": "Correction partielle non-conformité antérieure"
+    },
+    {
+      "description": "Aucun dispositif totalisateur n'équipe le puits, deuxième source de prélèvement également utilisée pour la fabrication du béton, créant une lacune dans le suivi des consommations.",
+      "excerpts": [
+        "aucun dispositif totalisateur n'était présent pour comptabiliser les eaux prélevées dans le puits, dont l'eau puisée est également utilisée pour la fabrication du béton."
+      ],
+      "valence": "negative",
+      "code": "Absence compteur puits prélèvement"
+    },
+    {
+      "description": "La réglementation impose que les installations de prélèvement d'eau soient munies de dispositifs totalisateurs et que les mesures soient relevées mensuellement quel que soit le débit.",
+      "excerpts": [
+        "Les installations de prélèvement d'eau dans le milieu naturel sont munies de dispositifs de mesure totalisateurs de la quantité d'eau prélevée. Ces mesures sont relevées une fois par mois quelque soit le débit prélevé."
+      ],
+      "valence": "neutral",
+      "code": "Obligation relevés mensuels prélèvements"
+    },
+    {
+      "description": "L'exploitant s'engage à installer le compteur totalisateur sur le puits avant fin 2022, ce qui constitue une correction volontaire annoncée mais non encore réalisée.",
+      "excerpts": [
+        "L'exploitant a indiqué qu'un compteur totalisateur allait être installé au plus tard pour fin 2022."
+      ],
+      "valence": "mixed",
+      "code": "Engagement exploitant installation compteur"
+    },
+    {
+      "description": "Les données de prélèvement du puits devront être intégrées au calcul de la consommation d'eau par m³ de béton produit, indicateur de performance environnementale.",
+      "excerpts": [
+        "Ces relevés devront être pris en compte pour l'étblissement de la consommation d'eaux par m3 de bétons produits."
+      ],
+      "valence": "neutral",
+      "code": "Ratio consommation eau béton produit"
+    }
+  ]
+}

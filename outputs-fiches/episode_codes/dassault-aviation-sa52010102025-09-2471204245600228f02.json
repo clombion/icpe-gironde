@@ -1,0 +1,50 @@
+{
+  "document_date": "2025-09-24",
+  "document_title": "dassault-aviation-sa52010102025-09-2471204245600228f02",
+  "document_summary": "L'inspection d'un site industriel de l'aéronautique (Dassault Aviation) révèle un dépassement du volume d'eau autorisé (66 214 m³ prélevés sur le réseau public contre 20 000 m³ autorisés), et signale l'existence de forages abandonnés ou inutilisés qui nécessitent une régularisation.",
+  "surprises": "La consommation d'eau dépasse de plus de trois fois le volume autorisé — un écart massif qui n'a manifestement pas été suivi de mesures correctives préalables à l'inspection.",
+  "tensions": "L'inspection reconnaît la nécessité d'une régularisation mais laisse ouverte la voie d'une révision à la hausse du volume autorisé, ce qui peut apparaître comme une validation implicite du dépassement.",
+  "codes": [
+    {
+      "description": "La consommation d'eau du site (66 214 m³) dépasse très largement le volume autorisé (20 000 m³/an), constituant un écart susceptible de suites administratives.",
+      "excerpts": [
+        "Vu la déclaration GEREP 2024, le site a consommé 1245 m³ d'eau issu du forage et 66 214 m³ d'eau issus du réseau public. Ce volume est supérieur au volume autorisé"
+      ],
+      "valence": "negative",
+      "code": "Dépassement volume eau autorisé"
+    },
+    {
+      "description": "Du fait d'une consommation supérieure à 10 000 m³/an, l'arrêté sur les restrictions en période de sécheresse devient applicable, ajoutant une contrainte réglementaire supplémentaire.",
+      "excerpts": [
+        "la consommation étant supérieure à 10 000 m3/an, l'inspection rappelle que l'arrêté du 30 juin 2023 relatif aux mesures de restriction, en période de sécheresse, portant sur le prélèvement d'eau et la consommation d'eau des installations classées est applicable"
+      ],
+      "valence": "negative",
+      "code": "Applicabilité arrêté sécheresse"
+    },
+    {
+      "description": "Des forages mis hors service ou abandonnés (forage 4 supprimé, forage 7 condamné) n'ont pas été comblés dans les règles de l'art, créant un risque de pollution des eaux souterraines.",
+      "excerpts": [
+        "L'exploitant justifie le comblement dans les règles de l'art du forage 4 suite à son abandon",
+        "S'agissant du forage 7, il veille à se positionner sur le devenir de l'ouvrage. Dans le cas d'un abandon, ce forage devra faire l'objet d'un comblement"
+      ],
+      "valence": "negative",
+      "code": "Forages abandonnés non comblés"
+    },
+    {
+      "description": "L'inspection exige un plan complet de gestion des eaux intégrant toutes les catégories d'effluents, les ouvrages et le périmètre ICPE du site.",
+      "excerpts": [
+        "Il a été demandé de fournir un plan complet de la gestion des eaux sur le site, présentant la gestion des eaux pluviales (points de rejets, bassins versants, bassins de rétention étanche ou non, ceinture hydraulique, séparateurs, vannes), des eaux usées"
+      ],
+      "valence": "neutral",
+      "code": "Plan eau multi-réseaux demandé"
+    },
+    {
+      "description": "Le site dispose d'une ceinture hydraulique permettant le confinement des eaux de ruissellement en cas d'incident, constituant une mesure de sécurité spécifique aux grands sites industriels.",
+      "excerpts": [
+        "En cas d'incident, la ceinture hydraulique permet un confinement des eaux sur site grâce à la fermeture de vannes"
+      ],
+      "valence": "positive",
+      "code": "Ceinture hydraulique confinement incidents"
+    }
+  ]
+}

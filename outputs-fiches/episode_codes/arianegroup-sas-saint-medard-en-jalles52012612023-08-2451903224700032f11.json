@@ -1,0 +1,34 @@
+{
+  "document_date": "2023-08-24",
+  "document_title": "arianegroup-sas-saint-medard-en-jalles52012612023-08-2451903224700032f11",
+  "codes": [
+    {
+      "description": "Le fichier Excel GFU de suivi des stocks ne correspond pas à la localisation réelle du nitrate d'ammonium sur le site.",
+      "excerpts": [
+        "L'extraction informatique des stocks ne confirme pas cet état de fait car du nitrate d'ammonium se trouve au CPS2.",
+        "Le fichier Excel dénommé GFU n'est pas fidèle à la réalité du terrain pour ce qui concerne la localisation du nitrate d'ammonium (rubrique 4701)"
+      ],
+      "valence": "negative",
+      "code": "Fichier stock infidèle à la réalité"
+    },
+    {
+      "description": "Le fichier GFU ne couvre pas l'exhaustivité des rubriques ICPE correspondant aux substances réellement présentes sur le site.",
+      "excerpts": [
+        "l'exhaustivité des rubriques ICPE correspondant aux substances effectivement présentes."
+      ],
+      "valence": "negative",
+      "code": "Lacunes rubriques ICPE déclarées"
+    },
+    {
+      "description": "La présence de nitrate d'ammonium (rubrique 4701) dans des bâtiments non prévus représente un risque non maîtrisé documentairement.",
+      "excerpts": [
+        "le produit classé sous la rubrique 4701 (nitrate d'ammonium), qu'il est censé être stocké dans les bâtiments CBM1, CLBC, CMP2, CSR et LQG."
+      ],
+      "valence": "negative",
+      "code": "Matière dangereuse substance explosive"
+    }
+  ],
+  "document_summary": "L'inspection révèle que le fichier GFU d'ArianeGroup, censé localiser le nitrate d'ammonium par bâtiment, est inexact : du nitrate d'ammonium est présent dans un bâtiment (CPS2) non prévu par le fichier, et les rubriques ICPE ne sont pas toutes renseignées.",
+  "surprises": "La discordance entre l'outil informatique de suivi et la réalité physique du stockage d'une matière explosive illustre un risque systémique de traçabilité dans un site Seveso.",
+  "tensions": "Le site dispose d'un système ERP/Excel sophistiqué (cf. fiche f07) mais ce système produit malgré tout des données inexactes pour une matière à haut risque."
+}

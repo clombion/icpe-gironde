@@ -1,0 +1,33 @@
+{
+  "document_date": "2025-03-20",
+  "document_title": "pressing-lorina1002374242025-03-2050093832900017f09",
+  "codes": [
+    {
+      "description": "La nouvelle machine de nettoyage à sec est installée depuis moins d'un an, ce qui explique l'absence du premier contrôle annuel obligatoire, prévu sous un mois.",
+      "excerpts": [
+        "l'exploitant indique que la nouvelle machine ayant été installée il y a moins d'une année, le premier contrôle annuel n'a pas encore été effectué, mais qu'il est prévu sous un mois."
+      ],
+      "valence": "neutral",
+      "code": "Contrôle annuel machine non encore réalisé"
+    },
+    {
+      "description": "L'inspection demande à l'exploitant de transmettre le compte-rendu du contrôle annuel sous un mois, pour s'assurer de la conformité de la machine neuve.",
+      "excerpts": [
+        "L'exploitant transmet sous un mois à l'inspection des ICPE, le compte-rendu de la dernière visite annuelle de la machine de nettoyage à sec."
+      ],
+      "valence": "neutral",
+      "code": "Transmission compte-rendu contrôle demandée"
+    },
+    {
+      "description": "La prescription détaille une liste exhaustive de vérifications annuelles (étanchéité, séparateurs, sécurités, séchage, compatibilité solvant), témoignant du niveau d'exigence technique pour ces équipements.",
+      "excerpts": [
+        "Il atteste : - de l'étanchéité de la machine et de l'état des joints des ouvrants ; - du bon fonctionnement du double séparateur ; - du bon fonctionnement des dispositifs de sécurité sur les ouvrants"
+      ],
+      "valence": "neutral",
+      "code": "Contrôle annuel multi-paramètres machine"
+    }
+  ],
+  "document_summary": "Inspection d'un pressing équipé d'une machine neuve de nettoyage à sec dont le premier contrôle annuel n'a pas encore été effectué en raison de sa récente installation. L'inspection demande la transmission du compte-rendu dans le mois.",
+  "surprises": "",
+  "tensions": "Tension mineure entre l'obligation réglementaire de contrôle annuel et la logique pratique d'un équipement neuf installé il y a moins d'un an : le délai réglementaire s'applique sans tenir compte de la date d'installation de la machine."
+}

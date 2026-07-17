@@ -1,0 +1,41 @@
+{
+  "document_date": "2023-01-30",
+  "document_title": "carrosserie-le-graal52012022023-01-30nosiretf03",
+  "document_summary": "L'inspection porte sur l'obligation de mise en place d'un plan de gestion des solvants (PGS) pour une carrosserie consommant 2,6 t/an de solvants. L'exploitant ne peut pas présenter le PGS, déclaré en cours d'établissement, et l'inspection exige sa transmission sous un mois sous peine de mise en demeure.",
+  "surprises": "Le PGS est décrit comme 'en cours d'établissement' mais l'obligation existe depuis l'arrêté ministériel du 04/06/2004 — l'absence de ce document après des années d'exploitation est notable.",
+  "tensions": "La prescription impose un PGS dès lors que la consommation dépasse 1 t/an, seuil largement dépassé (2,6 t/an), mais l'exploitant n'a pas encore constitué ce document pourtant requis depuis longtemps.",
+  "codes": [
+    {
+      "description": "L'exploitant n'a pas établi le plan de gestion des solvants réglementairement requis dès lors que la consommation annuelle dépasse 1 tonne.",
+      "excerpts": [
+        "L'exploitant n'a pas été en mesure de présenter à l'inspection le plan de gestion de solvants (PGS) car ce dernier est, selon ses dires, en cours d'établissement"
+      ],
+      "valence": "negative",
+      "code": "Plan de gestion solvants absent"
+    },
+    {
+      "description": "La réalisation du PGS est conditionnée à des mesures en sortie canalisée de la cabine de peinture, créant une chaîne de prérequis techniques avant la conformité documentaire.",
+      "excerpts": [
+        "pour réaliser le PGS du site, des mesures canalisées des rejets en COV doivent être réalisées. Pour l'établissement, ce sont des émissions réalisées en sortie canalisée de la cabine de peinture PL"
+      ],
+      "valence": "negative",
+      "code": "Mesures canalisées préalables au PGS"
+    },
+    {
+      "description": "La consommation de solvants de l'établissement (2,6 t/an) dépasse le seuil légal d'1 tonne enclenchant l'obligation de PGS, sans que celle-ci soit respectée.",
+      "excerpts": [
+        "la quantité de solvant consommée par ses installations pour 2022 est : 2,6 t/an"
+      ],
+      "valence": "negative",
+      "code": "Seuil réglementaire dépassé"
+    },
+    {
+      "description": "L'inspection fixe un délai d'un mois pour produire les justificatifs du PGS, en précisant explicitement que l'absence de transmission peut déclencher une mise en demeure.",
+      "excerpts": [
+        "La non-transmission de ces justificatifs pourrait être considérée comme une non-conformité à l'obligation de mise en place d'un plan de gestion de solvants et peu conduire à des suites administratives de type mise en demeure"
+      ],
+      "valence": "negative",
+      "code": "Délai sous peine de mise en demeure"
+    }
+  ]
+}

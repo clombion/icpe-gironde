@@ -1,0 +1,51 @@
+{
+  "document_date": "2022-06-07",
+  "document_title": "sarl-moulin-du-caouley52008782022-06-0732368394600012f06",
+  "document_summary": "L'inspection de la pisciculture Moulin du Caouley révèle de multiples dépassements historiques des valeurs limites de rejet pour les MES, la DBO5 et l'ammonium, ainsi que des lacunes de mesure pour la DCO, l'ammoniac et les flux de pollution. Des mesures ponctuelles restent en revanche conformes.",
+  "surprises": "Les mesures de flux de pollution — pourtant requises par l'arrêté d'autorisation — sont totalement absentes, ce qui est une lacune plus grave encore que les dépassements ponctuels de concentrations.",
+  "tensions": "Les résultats ponctuels sur les MES et l'ammonium sont conformes, tandis que les moyennes sur 24h révèlent des dépassements récurrents — illustrant la divergence entre mesures ponctuelles (favorables) et moyennes journalières (défavorables) comme modes de contrôle.",
+  "codes": [
+    {
+      "description": "Les mesures en moyenne sur 24h montrent des dépassements répétés des valeurs limites pour les MES, la DBO5 et l'ammonium sur plusieurs années (2015-2021).",
+      "excerpts": [
+        "Pour les MES: Dépassement les 11/07/15, 07/05/20, 17/09/20 et 30/03/21. Valeurs de 4-9 - 11 et 5,5 au lieu de 3,8 mg/l max."
+      ],
+      "valence": "negative",
+      "code": "Dépassements récurrents valeurs limites"
+    },
+    {
+      "description": "Deux paramètres imposés par l'arrêté d'autorisation — DCO et ammoniac — ne font l'objet d'aucune mesure, constituant une lacune de surveillance caractérisée.",
+      "excerpts": [
+        "Absence de mesures pour la DCO et l'ammoniac."
+      ],
+      "valence": "negative",
+      "code": "Absence de mesures de la DCO et ammoniac"
+    },
+    {
+      "description": "Aucune mesure de flux de pollution n'est réalisée pour les paramètres imposés par l'arrêté, alors que des valeurs limites de flux sont explicitement fixées.",
+      "excerpts": [
+        "Absence de mesures de flux de pollution des paramètres indiqués dans l'arrêté d'autorisation."
+      ],
+      "valence": "negative",
+      "code": "Absence totale de mesures de flux"
+    },
+    {
+      "description": "Les prélèvements ponctuels sur les MES et l'ammonium donnent des résultats conformes, contrastant avec les dépassements observés sur les moyennes 24h.",
+      "excerpts": [
+        "Pour les MES: résultats conformes",
+        "Pour l'ammonium NH4+: résultats conformes."
+      ],
+      "valence": "positive",
+      "code": "Conformité des mesures ponctuelles"
+    },
+    {
+      "description": "La comparaison entre résultats ponctuels (conformes) et moyennes 24h (dépassements) illustre comment le choix de la méthode de mesure influence la qualification de la conformité.",
+      "excerpts": [
+        "Résultats des concentrations des paramètres en moyenne sur 24h.",
+        "Résultats des concentrations des paramètres en prélèvements ponctuels."
+      ],
+      "valence": "mixed",
+      "code": "Divergence mesures ponctuelles / moyennes 24h"
+    }
+  ]
+}

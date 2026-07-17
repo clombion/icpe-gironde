@@ -1,0 +1,2390 @@
+[
+  {
+    "slug": "airbus-atlantic-composites52057962025-09-0933031638100012f06",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Absence physique constatée de système de confinement des eaux d'extinction (site en surface plane, fossé non étanchéifié) — NC technique directe avec APMD proposé."
+  },
+  {
+    "slug": "airbus-atlantic-composites52057962025-09-0933031638100012f07",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Quatre prélèvements légionelles 2025 tous conformes, point sans observation particulière — M08 évident."
+  },
+  {
+    "slug": "airbus-atlantic-composites52057962025-09-0933031638100012f08",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Rapport quadriennal consulté, 96 observations dont 42 récurrentes, plan d'action BV Link en cours — vérification périodique avec progression notable depuis 400 obs il y a 3 ans."
+  },
+  {
+    "slug": "airbus-atlantic-composites52057962025-09-0933031638100012f09",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Résultats conformes aux VLE mais plan des points de rejets atmosphériques non finalisé (version manuscrite seulement) — M08 sur les mesures, M01 sur le document manquant."
+  },
+  {
+    "slug": "airbus-atlantic-composites52057962025-09-0933031638100012f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rapports de vérification 2025 RIA, désenfumage et extincteurs présentés — contrôles périodiques réalisés avec quelques observations suivies par plan d'action."
+  },
+  {
+    "slug": "airbus-atlantic-composites52057962025-09-0933031638100012f11",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "NC bruit identifiée et source trouvée (cabine B15), automatisation en cours — levée de NC considérée, demande de prochain rapport 2026 uniquement."
+  },
+  {
+    "slug": "albillo-jean-charles52118752022-11-0330715119100045f01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "MED non satisfaite, quinzaine de VHU présents, absence d'enregistrement/agrément, pollution sols non exclue — MED active avec NC technique persistante."
+  },
+  {
+    "slug": "albillo-jean-charles52118752022-11-0330715119100045f02",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Aucun apport de nouveaux déchets constaté — conformité directe, corps ultra-court."
+  },
+  {
+    "slug": "alcyon-environnement-services-aes52054422024-10-1741807056100034f01",
+    "domains": [
+      "D08_DECHETS",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Hauteurs de stockage déchets atteignant toujours le haut des parois (4m) comme lors de la précédente inspection — NC physique répétée, engagement exploitant de réduire immédiatement."
+  },
+  {
+    "slug": "alcyon-environnement-services-aes52054422024-10-1741807056100034f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Travaux de conformité réseau non réalisés malgré 3 inspections précédentes et engagement; plan réseaux encore incomplet — NC physique persistante (réseau toitures non séparé)."
+  },
+  {
+    "slug": "alcyon-environnement-services-aes52054422024-10-1741807056100034f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE",
+      "M03_REPORTING",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Paramètre Cr6+ absent, flux non mesurés, fréquence MES/DCO non respectée, méthodologie échantillonnage non précisée, GIDAF incomplet — écart déjà relevé en 2021, MED proposée."
+  },
+  {
+    "slug": "alcyon-environnement-services-aes52054422024-10-1741807056100034f04",
+    "domains": [
+      "D11_SECURITE",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Procédure alerte crue transmise avec diagnostic vulnérabilité, conformité aux dispositions PPRI — sans remarque de l'inspection."
+  },
+  {
+    "slug": "alcyon-environnement-services-aes52054422024-10-1741807056100034f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Moyens alimentation réseau RIA toujours non précisés, maintenance 2024 du poteau incendie non vérifiable — NC technique persistante (contrôles non réalisés)."
+  },
+  {
+    "slug": "alcyon-environnement-services-aes52054422024-10-1741807056100034f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "Système détection incendie caméra thermique absent depuis 2016 (AP autorisation) — toujours absent malgré deux engagements préalables en 2021 et 2023, bon de commande enfin remis."
+  },
+  {
+    "slug": "alcyon-environnement-services-aes52054422024-10-1741807056100034f07",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Réglage poste relevage réalisé (facture 2AEI 2023) — eaux pluviales ne transitent plus dans cuves rétention, écart précédent levé."
+  },
+  {
+    "slug": "alcyon-environnement-services-aes52054422024-10-1741807056100034f08",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Vannes accessibles, correctement signalées avec sens ouverture/fermeture, contrôles mensuels consignés — MED dispositions respectées, écarts précédents levés."
+  },
+  {
+    "slug": "alcyon-environnement-services-aes52054422024-10-1741807056100034f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Parois REI 240 non conformes en orientation (box B/C) et 5 box non rehaussés; justificatifs résistance au feu absents — NC physique directe sur équipements de sécurité incendie."
+  },
+  {
+    "slug": "alcyon-environnement-services-aes52054422024-10-1741807056100034f10",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M12_IED_MTD"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Suffisance MTD14 BREF WT non clairement justifiée depuis inspection précédente — engagement oral pour dossier sans justification effective."
+  },
+  {
+    "slug": "alcyon-environnement-services-aes52054422025-11-2541807056100034f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Travaux toiture réalisés (facture mai 2025), écart réseau levé — mais plan réseaux toujours non mis à jour et accumulation eaux à l'arrière du site."
+  },
+  {
+    "slug": "alcyon-environnement-services-aes52054422025-11-2541807056100034f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE",
+      "M03_REPORTING",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T6_ACCUMULATION",
+    "confidence": "high",
+    "reasoning": "Dépassements VLE confirmés (MES 140mg/l vs 60, Zn, Cu, Fe+Al) que l'exploitant ignorait; méthodologie d'échantillonnage toujours non précisée; GIDAF toujours incomplet — dépassements physiques avérés avec récidive."
+  },
+  {
+    "slug": "alcyon-environnement-services-aes52054422025-11-2541807056100034f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Alimentation RIA clarifiée, réserves d'eau suffisantes, SDIS référencé, PEI contrôlés — deux écarts précédents levés, défense incendie considérée suffisante."
+  },
+  {
+    "slug": "alcyon-environnement-services-aes52054422025-11-2541807056100034f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Caméras thermiques installées (box stockage pneus) mais zone broyage non couverte — NC physique partielle, engagement oral de l'exploitant."
+  },
+  {
+    "slug": "alcyon-environnement-services-aes52054422025-11-2541807056100034f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Rehaussement progressif (3 box restants), REI 240 considérée conforme mais plan incomplet — situation acceptable mais justificatifs documentaires incomplets."
+  },
+  {
+    "slug": "alcyon-environnement-services-aes52054422025-11-2541807056100034f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Exploitant justifie broyeurs lents non émetteurs de poussières + brumisation — MTD14 considérée satisfaite, écart précédent levé."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962022-11-1740309262001321f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R08_CONTRAINTE_ECONOMIQUE",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "MED du 17/03/2022 échue, motopompes sous-dimensionnées (341 vs 432 m3/h), mesure compensatoire non respectée (hauteurs stockage dépassées) — astreinte 100€/j proposée."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962022-11-1740309262001321f02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Protection foudre toujours non conforme à l'échéance MED 17/03/2022 — travaux en cours (Indelec bon de commande) mais non finalisés, astreinte 50€/j proposée."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962022-11-1740309262001321f03",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Rétentions produits dangereux mises en place, incompatibilités gérées, liquides inflammables dans cellules coupe-feu REI 120 — MED levée sur ces points."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962022-11-1740309262001321f04",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "État des stocks non conforme (rubriques ICPE manquantes, mentions de danger H absentes) malgré MED échue — astreinte 25€/j proposée."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962022-11-1740309262001321f05",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Voies échelles non matérialisées ni leur résistance au poinçonnement attestée à l'échéance MED — astreinte 25€/j proposée."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962022-11-1740309262001321f06",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Rampes dévidoirs mises en place — MED sur ce point levée."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962022-11-1740309262001321f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Multiples NC physiques désenfumage: surface < 2%, exutoires trop proches murs, commandes non doublées, câblage non résistant au feu — APMD proposé."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962022-11-1740309262001321f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "medium",
+    "reasoning": "Étude technico-économique refroidissement murs séparatifs en cours d'élaboration — demande documentaire avec délai, pas encore NC physique constatée."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962022-11-1740309262001321f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Qualification sprinkler vis-à-vis liquides inflammables constatée compatible, mais revues périodiques de conformité non réalisées — M07 sur contrôle périodique absent."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962022-11-1740309262001321f10",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Prise de terre camions dépotage installée — NC précédente corrigée, affichage prévu."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962022-11-1740309262001321f11",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Surfaces amenée d'air frais insuffisantes, absence de commandes extérieures portes sectionnelles — APMD proposé, NC physique directe."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962022-11-1740309262001321f12",
+    "domains": [
+      "D09_BIODIVERSITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Haie existante préservée intacte malgré travaux extension en cours — aucune remarque."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962023-10-2340309262001321f01",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Voies échelles matérialisées, bitume réalisé, étude géotechnique poinçonnement conforme — NC levée, astreinte caduque."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962023-10-2340309262001321f02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "PDA installés, vérification initiale SOCOTEC sans NC, DOE Indelec transmis — NC foudre levée, astreinte caduque."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962023-10-2340309262001321f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M05_SANCTION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R08_CONTRAINTE_ECONOMIQUE",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Motopompes toujours sous-dimensionnées à l'échéance, livraison des nouvelles pompes retardée (contexte international) — liquidation partielle astreinte 13000€ proposée."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962023-10-2340309262001321f04",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "État des stocks actualisé conforme aux attendus réglementaires — NC levée, astreinte caduque (mais dépassements quantités 4320/4331 traités fiche n°7)."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962023-10-2340309262001321f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R09_BLOCAGE_TIERS",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Commandes manuelles exutoires non opérationnelles, exutoires < 7m du mur séparatif non corrigés — MED échue, astreinte 100€/j proposée."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962023-10-2340309262001321f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Commandes ouverture portes amenée air frais non en extérieur cellules 3 et 5 — MED échue, astreinte 50€/j proposée."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962023-10-2340309262001321f07",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Quantités rubriques 4320 et 4331 dépassant les autorisées, exploitant non alerté et sans action corrective — dépassement physique des seuils autorisés."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962023-10-2340309262001321f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Stockage froid cellule 6 avec 8 racks doubles (< 10 prévus), modélisation reste valable — aucune demande particulière."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962023-10-2340309262001321f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Mur séparatif REI 180 présent mais justificatif attestation coupe-feu non présenté — absence de document probant."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962023-10-2340309262001321f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Réserve souple sans capacité identifiée (affichage absent), poteaux aspiration non raccordés — NC physique sur équipement défense incendie cellule 6."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962023-10-2340309262001321f11",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Caractéristiques motopompes cellule 6 environ 680 m3/h vs 850 m3/h requis — dimensionnement insuffisant constaté, vérification demandée."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962023-10-2340309262001321f12",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Fossé périphérique non étanchéifié (absence géomembrane) malgré engagement pris lors instruction PAC — NC physique, APMD proposé."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962023-10-2340309262001321f13",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "medium",
+    "reasoning": "Étude 1M€ non retenue, exploitant propose murs irrigués validés par SDIS — PAC à déposer sous 4 mois, pas encore de solution physique déployée."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962023-10-2340309262001321f14",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Revues périodiques de conformité stockage vs sprinkler toujours non formalisées malgré demande inspection précédente."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962023-10-2340309262001321f15",
+    "domains": [
+      "D09_BIODIVERSITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Haie maintenue, pierriers non encore mis en place mais travaux d'extension non finalisés — prévu fin 2023, situation acceptable."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962023-10-2340309262001321f16",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R08_CONTRAINTE_ECONOMIQUE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Palettes eau de javel sans rétention en cellules 1 et 2 — NC physique directe, devis 25k€ daté, mise en conformité prévue mars 2024."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962025-07-1040309262001321f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Deux nouvelles motopompes 432 m3/h installées — APMD 17/03/2022 et astreinte levés."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962025-07-1040309262001321f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Exutoires à > 7m validés par mesure, APC 2025 modifiant prescriptions amenée air frais — APMD désenfumage levé, astreinte non liquidée."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962025-07-1040309262001321f03",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "APC 2025 modifie article 3.6 pour fixer objectif d'étanchéité sans imposer géomembrane — APMD caduque, récolement prévu 2026."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962025-07-1040309262001321f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Attestation REI 180 mur séparatif cellule 6 transmise (Eiffage 2025) — point soldé."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962025-07-1040309262001321f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Revues périodiques de conformité formalisées (état stocks quotidien par division) — conformité justifiée."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962025-07-1040309262001321f06",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Barrières fixes et semi-automatiques avec détection fuite installées — NC rétention produits dangereux soldée."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962025-07-1040309262001321f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Bandes incombustibles toiture dégradées en plusieurs points — NC physique sur protection anti-propagation incendie, réfection prévue 2026."
+  },
+  {
+    "slug": "aldi-marche-cestas52081962025-07-1040309262001321f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Notes de calcul FM transmises validant dimensionnement motopompes cellule 6, APC 2025 modifiant article 3.5 — constat n°11 soldé."
+  },
+  {
+    "slug": "alliance-forets-bois31027822025-02-2179201378100010f01",
+    "domains": [
+      "D01_INCENDIE",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Unité pyrogazéification respecte conditions exploitation du PAC (ressources eau, éloignement stocks bois) — sans remarque."
+  },
+  {
+    "slug": "alliance-forets-bois31027822025-02-2179201378100010f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Nouveau broyeur opérationnel fait passer rubrique 2260 de déclaration à enregistrement (811 kW > seuil) — régularisation administrative requise, MED proposée."
+  },
+  {
+    "slug": "alliance-forets-bois31027822025-02-2179201378100010f03",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Pistes terre-pleins délimitant cellules de stockage en mauvais état, sans surélévation appréciable — NC physique directe sur confinement eaux d'extinction."
+  },
+  {
+    "slug": "alliance-forets-bois31027822025-02-2179201378100010f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Distances isolement entre cellules stockage bois ~10m vs 14-20m prescrits — NC physique sur distances réglementaires."
+  },
+  {
+    "slug": "alliance-forets-bois31027822025-02-2179201378100010f05",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Voie engins en mauvais état et < 6m en certains endroits; commande coupe-circuit PV inaccessible (clef introuvable) — NC physique sur accès secours."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "État des stocks conforme aux dispositions AM 1510, mis à jour chaque semaine — vérification par sondage sans remarque."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f02",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Alarme incendie remontant à centrale et fermant vannes martelières validée (attestation EXI BAT) — mais vérification asservissements non incluse dans contrat SSI, à intégrer."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Flocage CF 2h en bon état général, contrôle octobre 2022 sans remise en état majeure, travaux bâtiment 5 réalisés (DOE transmis)."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R09_BLOCAGE_TIERS",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "RIA visiblement inopérants et dégradés, tuyauteries non fixées au mur — NC physique persistante depuis inspection 2022, APMD proposé."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Extincteurs sur roues présents et contrôlés mais formation manipulation des équipiers non encore dispensée — M07 sur formation périodique absente."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R09_BLOCAGE_TIERS",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Poteau incendie n°11 toujours non installé (EAU Bordeaux Métropole refus initial, démarches en cours), APMD proposé."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f07",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Clôture et portails installés, vidéosurveillance fonctionnelle, barrières asservies à détection incendie — NC précédente levée."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f08",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Outils fermeture vannes martelières disponibles, consignes au poste de garde, essai fermeture concluant, rapport ITV réseaux enterrés sans défaut."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Exercice PDI prévu 26/04/2023 mais non encore réalisé au jour de l'inspection — type d'exercice attendu pas encore décliné."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f10",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Bureaux/sanitaires avec dispositions constructives non conformes (portes non EI120), exploitant n'a pas produit état des lieux recensant les NC — APMD proposé."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f11",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Voies échelles matérialisées, dimensionnements 7m x 10m conformes, non entravées — sans remarque."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f12",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Multiples NC désenfumage constatées par BV (surface < 2%, exutoires < 7m, commandes mal positionnées) et zones non vérifiées — APMD proposé."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f13",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Travaux foudre réalisés, vérification initiale complète RG Consultant, levée des 9 réserves attestée par ISE — thématique correctement gérée."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f14",
+    "domains": [
+      "D02_ATEX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Tuyauterie gaz en cellule non conforme article 18.2 AM 1510 (devis insuffisamment détaillé), aucun travaux engagés — NC physique persistante, APMD proposé."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f15",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Contrôles électriques réalisés par BV pour tous bâtiments, NC identifiées avec plan action à établir; affichages arrêts urgence non encore déployés."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f16",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Registre de suivi contrôles réglementaires établi, reprise en main par SCI ALMA — NC précédente levée sauf point désenfumage."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f17",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Extincteurs mobiles 50kg positionnés correctement et contrôlés — formation manipulation équipiers non encore dispensée."
+  },
+  {
+    "slug": "alma-sci52114962023-04-1349510508200012f18",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "PDI inexistant (représentants exploitant ignoraient son existence) — absence totale d'un document de sécurité critique, APMD proposé."
+  },
+  {
+    "slug": "alma-sci52114962024-01-1849510508200012f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "RIA conformes APSAD R5 pour 5 bâtiments (attestations dans DOE), travaux vérifiés sur site — MED levée sur ce point."
+  },
+  {
+    "slug": "alma-sci52114962024-01-1849510508200012f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "PDI finalisé et mis à jour (v03/12/2023), conforme article 2.2.3 — MED levée mais diffusion dernière version à assurer."
+  },
+  {
+    "slug": "alma-sci52114962024-01-1849510508200012f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Poteau incendie n°11 installé, essai conforme (125m3/h à 1 bar > 60m3/h requis) — MED levée."
+  },
+  {
+    "slug": "alma-sci52114962024-01-1849510508200012f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Travaux désenfumage terminés pour bâtiments 1,2,3 mais restent en cours pour 4 et 5 — MED non satisfaite à l'échéance, délai supplémentaire accordé."
+  },
+  {
+    "slug": "alma-sci52114962024-01-1849510508200012f05",
+    "domains": [
+      "D02_ATEX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M05_SANCTION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Aucun travaux de mise en conformité tuyauterie gaz cellule DBF malgré MED — amende administrative proposée, conformité prévue au plus tôt avril 2024."
+  },
+  {
+    "slug": "alma-sci52114962024-01-1849510508200012f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "medium",
+    "reasoning": "Formations dispensées en juin 2023 pour la plupart — enregistrement bâtiment 4 manquant dans PDI, transmission justificatifs demandée."
+  },
+  {
+    "slug": "alma-sci52114962024-01-1849510508200012f07",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Affichages coupure électrique en entrée de cellules constatés par sondage — NC précédente levée."
+  },
+  {
+    "slug": "alma-sci52114962024-01-1849510508200012f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Hauteur stockage palettes plastique vide dépassant 4m et distance 1m sous toiture non respectée — NC physique directe sur conditions stockage."
+  },
+  {
+    "slug": "alsymex1000133092024-06-0751881781200036f01",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Contrôles périodiques réglementaires rubriques 2565 et 2560 non réalisés — MED proposée pour contrôles périodiques absents."
+  },
+  {
+    "slug": "alsymex1000133092024-06-0751881781200036f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Système de sécurité incendie par détection automatique absent — MED proposée, investissement annoncé pour 2024."
+  },
+  {
+    "slug": "alsymex1000133092024-06-0751881781200036f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Autorisation déversement Bordeaux Métropole en cours, analyse juin 2023 présentée — conformité à renouveler en 2024."
+  },
+  {
+    "slug": "alsymex1000133092024-06-0751881781200036f04",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Distance < 5m limites établissement non couverte par dérogation, études CNPP non lancées malgré demande mai 2023 — MED proposée, NC physique sur implantation."
+  },
+  {
+    "slug": "alsymex1000133092024-06-0751881781200036f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rapport mesures acoustiques juin/juillet 2022 présentant résultats conformes."
+  },
+  {
+    "slug": "alsymex1000133092024-06-0751881781200036f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Mesures concentration émissions atmosphériques non disponibles — absence de document de surveillance réglementaire."
+  },
+  {
+    "slug": "alsymex1000133092024-06-0751881781200036f07",
+    "domains": [
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Évaluation ATEX réalisée mais zonage non formalisé sur site — document absent."
+  },
+  {
+    "slug": "alsymex1000133092025-06-2451881781200036f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M05_SANCTION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Système SSI toujours absent malgré MED juillet 2024 — astreinte administrative proposée, travaux annoncés 1er septembre 2025."
+  },
+  {
+    "slug": "alsymex1000133092025-06-2451881781200036f02",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M05_SANCTION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Distance < 5m mur mitoyen toujours non conforme, études CNPP non menées malgré MED juillet 2024 — astreinte administrative proposée, dévis établis."
+  },
+  {
+    "slug": "ambc-aquitaine-menuiserie-bois-concept1000134922023-07-2743479059800032f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Conditions stockage mises en œuvre inférieures à celles modélisées (moins de racks), zone finition sans stockage hors produits finis — conformité constatée."
+  },
+  {
+    "slug": "ambc-aquitaine-menuiserie-bois-concept1000134922023-07-2743479059800032f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Vitrages dans mur coupe-feu 2h façade Est dont exploitant ne peut préciser les caractéristiques coupe-feu — incertitude sur résistance feu d'un élément physique."
+  },
+  {
+    "slug": "ambc-aquitaine-menuiserie-bois-concept1000134922023-07-2743479059800032f03",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Voie engin sur façade Sud, ouvrants (issues de secours) présents — accès SDIS conforme."
+  },
+  {
+    "slug": "ambc-aquitaine-menuiserie-bois-concept1000134922023-07-2743479059800032f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Extincteurs vérifiés mai 2023 sans observation, réserve incendie contrôlée par SDIS — sans remarque particulière."
+  },
+  {
+    "slug": "ambc-aquitaine-menuiserie-bois-concept1000134922023-07-2743479059800032f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan général ateliers et stockages indiquant zones danger absent — recensement zones à risques manquant (incendie + ATEX aspiration poussières)."
+  },
+  {
+    "slug": "ambc-aquitaine-menuiserie-bois-concept1000134922023-07-2743479059800032f06",
+    "domains": [
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Présence probable de zones ATEX (aspiration poussières) non vérifiable en absence recensement zones risques — incertitude physique sur conformité matériels ATEX."
+  },
+  {
+    "slug": "amc-castera52006682023-01-3039033064500016f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R09_BLOCAGE_TIERS",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Désenfumage cabine de peinture absent depuis inspection 2021 malgré commande passée et 10k€ avancés — prestataire en retard, APMD proposé."
+  },
+  {
+    "slug": "amc-castera52006682023-01-3039033064500016f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Système détection automatique incendie installé, contrôles annuels 2021 et 2022 sans NC, bon état de fonctionnement — sans commentaire."
+  },
+  {
+    "slug": "amc-castera52006682023-01-3039033064500016f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Extincteur 50kg sur roues manquant à proximité cabine de peinture — absence d'équipement de sécurité requis, APMD proposé."
+  },
+  {
+    "slug": "amc-castera52006682023-01-3039033064500016f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan de gestion solvants 2022 non encore établi à l'échéance, 6192 kg non rattachés à commandes — absence du document de suivi PGS."
+  },
+  {
+    "slug": "amcor-flexible-capsules-france52012772022-07-0534839062600219f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G6",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Incendie réel survenu (5 juillet) dans gaine aspiration four étain — rapport d'accident transmis, cause identifiée (résidus hydrocarbures + niveau fusion), compte rendu exigé."
+  },
+  {
+    "slug": "amcor-flexible-capsules-france52012772024-12-1234839062600219f01",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Fûts peinture réputés vides stockés sans rétention en contre-haut d'un caniveau EP — NC physique sur stockage produits dangereux sans rétention."
+  },
+  {
+    "slug": "amcor-flexible-capsules-france52012772024-12-1234839062600219f02",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rétention souterraine local peinture non accessible ni étanchéité vérifiable — incertitude physique sur intégrité d'une rétention critique."
+  },
+  {
+    "slug": "amcor-flexible-capsules-france52012772024-12-1234839062600219f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Dépassement VLE COVnM atelier PF1 (~170 mg/m3 vs 150) avec flux élevé (2,5 kg/h) déjà constaté en 2021 — NC persistante, MED proposée, projet réaménagement annulé."
+  },
+  {
+    "slug": "amcor-flexible-capsules-france52012772024-12-1234839062600219f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Poteau n°2 défense extérieure à débit insuffisant; prise aspiration Isle sans essai récent non disponible — NC physique sur équipements défense incendie."
+  },
+  {
+    "slug": "amcor-flexible-capsules-france52012772024-12-1234839062600219f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan d'action épisodes de pollution air (AM 23/03/2021) inexistant — exploitant ignorait cet arrêté, MED proposée."
+  },
+  {
+    "slug": "andernos-carrosserie1002904472025-04-2448237646400012f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Surface atelier ~700m2 < seuil 2000m2 — établissement ne relève pas rubrique 2930."
+  },
+  {
+    "slug": "andernos-carrosserie1002904472025-04-2448237646400012f02",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Véhicules présents sans caractère VHU démontrable, véhicules de prêt — ne relève pas rubrique 2712."
+  },
+  {
+    "slug": "andernos-carrosserie1002904472025-04-2448237646400012f03",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Quantité peinture pulvérisée ~6 kg/semaine < seuil 10 kg/j — ne relève pas rubrique 2940."
+  },
+  {
+    "slug": "anett-un52012422023-12-0637975368400057f01",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Liste ESP à jour avec type, dates IP et RP pour chaque équipement — conforme."
+  },
+  {
+    "slug": "anett-un52012422023-12-0637975368400057f02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Liste ESP non à jour (DMS chaudière G1341230001 absente bien que réalisée) — NC documentaire formelle, maintien liste à jour requis."
+  },
+  {
+    "slug": "anett-un52012422023-12-0637975368400057f03",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "IP bien réalisées mais liste ESP non mise à jour avec dates d'inspection — NC documentaire formelle."
+  },
+  {
+    "slug": "anett-un52012422023-12-0637975368400057f04",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "IP chaudière et ballon condensats 2023 satisfaisantes sans anomalie."
+  },
+  {
+    "slug": "anett-un52012422023-12-0637975368400057f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Requalifications périodiques chaudière et ballon condensats satisfaisantes et conformes."
+  },
+  {
+    "slug": "anett-un52012422023-12-0637975368400057f06",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plaques chaudière et ballon avec date RP et marque tête de cheval conformes — constat sans remarque."
+  },
+  {
+    "slug": "anett-un52012422023-12-0637975368400057f07",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Étude de dangers cuve GPL non remise malgré mise en exploitation; déficit eau incendie 30m3; convention réserve voisin non consultée — NC critique sur mise en service sans justificatifs."
+  },
+  {
+    "slug": "anett-un52012422023-12-0637975368400057f08",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Cuve GPL potentiellement < 5m limite propriété côté Ouest, zones d'effets dominos non vérifiables sans EDD, convention réserve non consultable — NC physique sur implantation."
+  },
+  {
+    "slug": "anett-un52012422023-12-0637975368400057f09",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Autosurveillance déclarée dans GIDAF, suivi continu pH et débit, paramètres trimestriels suivis — conforme."
+  },
+  {
+    "slug": "anett-un52012422023-12-0637975368400057f10",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rejets industriels conformes aux VLE (analyse 2023), fréquence mesure EP non prescrite — analyse EP 2013 ancienne, nouvelle demandée sous 3 mois."
+  },
+  {
+    "slug": "anett-un52012422023-12-0637975368400057f11",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Fréquence contrôles rejets atmosphériques semestrielle non respectée (analyses 2021 et 2023 seulement) — NC formelle sur périodicité, fréquence potentiellement disproportionnée."
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "document_date": "2023-03-29",
+  "document_title": "mairie-d-hourtin31045842023-03-29nosiretf01",
+  "codes": [
+    {
+      "description": "Le diagnostic de pollution commandé par la mairie conclut à une bonne qualité des eaux, mais les données brutes du même rapport révèlent une pollution chimique sévère dans les eaux superficielles du site.",
+      "excerpts": [
+        "les mesures faites dans les eaux superficielles du site (plan(s) d'eau - nappe affleurante) montrent une pollution chimique très nette sur les 3 points de mesures (DCO de 177 / 172 / 359 mg/l pour une valeur en amont de 30 mg/l"
+      ],
+      "valence": "negative",
+      "code": "Pollution eau constatée niée par diagnostic"
+    },
+    {
+      "description": "L'inspection s'oppose aux conclusions du bureau d'études mandaté par l'exploitant en citant les propres données du rapport, illustrant un conflit d'interprétation entre expert privé et autorité publique.",
+      "excerpts": [
+        "ces conclusions interpellent et appellent les remarques suivantes de l'inspection",
+        "l'éventuel respect des limites de potabilité pour l'Homme ne préjuge absolument pas l'absence d'impact environnemental."
+      ],
+      "valence": "negative",
+      "code": "Conclusions diagnostic contestées inspection"
+    },
+    {
+      "description": "Le plan de gestion proposé consiste à laisser les déchets en place et à les recouvrir de remblais, une solution peu ambitieuse que l'inspection critique.",
+      "excerpts": [
+        "Le scénario proposé consiste à laisser les déchets en place et à venir les couvrir à l'aide de matériaux de remblais, en respectant des pentes douces (5% minimum) pour éviter les flashs et permettre une bonne insertion paysagère."
+      ],
+      "valence": "negative",
+      "code": "Plan gestion enfouissement in situ"
+    },
+    {
+      "description": "L'inspection soulève que la terre locale, de nature tourbeuse et sableuse, ne garantit pas la stabilité et l'imperméabilité nécessaires à une couverture efficace des déchets.",
+      "excerpts": [
+        "la terre locale est plutôt tourbeuse et sablonneuse donc l'utilisation de celle se trouvant sur le site afin de recouvrir les déchets pose question au niveau de la stabilité et de l'imperméabilité de la couverture."
+      ],
+      "valence": "negative",
+      "code": "Risques couverture argile tourbeuse"
+    },
+    {
+      "description": "Les déchets signalés lors des années précédentes sont toujours présents, indiquant une absence de progrès dans la réhabilitation du site.",
+      "excerpts": [
+        "Lors de la présente inspection du 29 mars 2023, les déchets constatés les années précédentes étaient toujours sur site. L'état du site n'a pas évolué."
+      ],
+      "valence": "negative",
+      "code": "Site sans évolution malgré injonction"
+    },
+    {
+      "description": "Une collectivité publique se retrouve dans le rôle d'exploitant récalcitrant face à une mise en demeure de régulariser une décharge municipale illicite.",
+      "excerpts": [
+        "La MAIRIE D'HOURTIN exploitant une installation de stockage de déchets non dangereux [...] est mise en demeure de régulariser sa situation administrative"
+      ],
+      "valence": "negative",
+      "code": "Mairie exploitant récalcitrant"
+    },
+    {
+      "description": "Des concentrations en arsenic significativement supérieures à la valeur amont sont mesurées dans les plans d'eau du site, signalant une contamination métallique préoccupante.",
+      "excerpts": [
+        "les métaux notamment l'arsenic (autour de 8 µg/l sur les 3 points de mesures pour une valeur en amont de 1,03 µg/l)"
+      ],
+      "valence": "negative",
+      "code": "Arsenic métaux traces eau site"
+    }
+  ],
+  "document_summary": "Inspection d'une décharge municipale illicite à Hourtin exploitée par la mairie, sans évolution depuis les visites précédentes. L'inspection conteste vigoureusement les conclusions favorables du diagnostic de pollution fourni par l'exploitant, en relevant une pollution chimique sévère dans les eaux du site (DCO, arsenic, azote) que le rapport minimise.",
+  "surprises": "Le cas d'une mairie mise en demeure pour une décharge illicite est notable. Plus surprenant encore : le bureau d'études mandaté par la mairie conclut à une bonne qualité des eaux dans son résumé, alors que ses propres données montrent des dépassements manifestes de seuils réglementaires.",
+  "tensions": "Tension centrale entre les conclusions édulcorées du diagnostic privé (commandé par l'exploitant-mairie) et les données brutes du même rapport qui révèlent une pollution réelle. L'inspection doit contredire l'expert mandaté par l'exploitant en s'appuyant sur les données de ce même rapport."
+}

@@ -1,0 +1,34 @@
+{
+  "document_date": "2023-02-14",
+  "document_title": "construction-navale-de-bordeaux52091142023-02-1434201239000023f07",
+  "document_summary": "L'inspection d'un chantier naval vérifie les mesures d'empoussièrement atmosphérique aux différents points d'extraction : la majorité des extractions respectent les VLE en poussières, mais l'extraction Bx3 n'a fait l'objet d'aucune mesure.",
+  "surprises": "Plusieurs extractions affichent des flux nuls ou des concentrations inférieures aux seuils de détection — ce qui peut indiquer soit une très bonne maîtrise soit une activité réduite sur ces postes.",
+  "tensions": "L'extraction Bx3 n'a fait l'objet d'aucune mesure sans que la fiche explique pourquoi — une lacune de surveillance qui reste sans justification.",
+  "codes": [
+    {
+      "description": "Les mesures de concentration en poussières aux extractions Bx1, Bx2 et Bx6 montrent le respect des valeurs limites réglementaires, avec des concentrations très basses.",
+      "excerpts": [
+        "La VLE en poussières est respectée pour les 5 extractions (mesures inférieures à 0,05 mg/m³)"
+      ],
+      "valence": "positive",
+      "code": "VLE poussières respectées"
+    },
+    {
+      "description": "Aucune mesure de poussières n'a été effectuée sur l'extraction Bx3, constituant une lacune dans le programme d'autosurveillance des rejets atmosphériques.",
+      "excerpts": [
+        "Extraction Bx3 : Aucune mesure de poussières n'a été effectuée"
+      ],
+      "valence": "negative",
+      "code": "Absence mesures extraction Bx3"
+    },
+    {
+      "description": "Plusieurs extractions présentent des flux massiques nuls ou inférieurs au seuil de 0,5 kg/h, situant l'installation bien en deçà des seuils réglementaires.",
+      "excerpts": [
+        "Table de détourage Bx1 : Le flux massique et la concentration en poussières sont nuls en 2021",
+        "Pour les 5 extractions, les flux massiques sont inférieurs à 0,5 kg/h"
+      ],
+      "valence": "positive",
+      "code": "Flux massiques nuls ou très faibles"
+    }
+  ]
+}

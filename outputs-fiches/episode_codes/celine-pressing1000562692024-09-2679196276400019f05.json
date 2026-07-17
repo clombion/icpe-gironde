@@ -1,0 +1,25 @@
+{
+  "document_date": "2024-09-26",
+  "document_title": "celine-pressing1000562692024-09-2679196276400019f05",
+  "document_summary": "L'inspection d'un pressing vérifie la restriction d'accès aux zones de manipulation de solvants et constate qu'un comptoir physique satisfait pleinement à l'exigence réglementaire.",
+  "surprises": "Cette fiche est remarquablement courte et entièrement positive — une conformité simple et sans discussion.",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "Un comptoir empêche le libre accès du public à la zone où les solvants sont manipulés, répondant directement à l'exigence réglementaire de restriction d'accès.",
+      "excerpts": [
+        "Le pressing présente un comptoir interdisant le libre accès à la partie de l'installation où sont mis en œuvre les solvants"
+      ],
+      "valence": "positive",
+      "code": "Barrière physique accès solvants"
+    },
+    {
+      "description": "L'inspection ne soulève aucune observation ou réserve sur ce point de contrôle, signalant une conformité pleine et entière.",
+      "excerpts": [
+        "L'inspection n'a pas de remarque sur ce point"
+      ],
+      "valence": "positive",
+      "code": "Conformité sans remarque"
+    }
+  ]
+}

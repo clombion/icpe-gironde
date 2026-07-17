@@ -1,0 +1,54 @@
+Constats body:
+L’inspection a constaté la présence de cinq chaudières de marque Guillot dans la chaufferie.
+Les puissances nominales maximum reportées sur les plaques constructeur des chaudières sont
+de :
+- 6 400 kW pour la chaudière n°1,
+- 6 394 kW pour la chaudière n°2,
+- 5 760 kW pour la chaudière n°3,
+- 6 394 kW pour la chaudière n°4,
+- 6 394 kW pour la chaudière n°5.
+La puissance thermique maximale des chaudières de l’installation est de 31,34 MW. L'exploitant
+indique que la puissance maximale de la chaufferie va être réduite dans les prochaines années, en
+lien avec les projets en cours de construction d'une chaufferie biomasse et de remise en service
+d'une chaufferie par géothermie. L'exploitant précise que la chaufferie GP2 pourrait avoir une
+puissance totale inférieure à 20 MW et ainsi relever du régime déclaratif.
+L’inspection a constaté que les brûleurs des chaudières 1, 3 et 5 sont uniquement alimentés au gaz
+naturel et que les brûleurs des chaudières 2 et 4 sont alimentés au gaz naturel ou au fioul
+domestique. L’exploitant indique que le fioul domestique était disponible en cas de secours mais
+que les brûleurs consomment exclusivement du gaz naturel depuis de nombreuses années. Il
+précise que la pompe d’alimentation en fioul domestique a été retirée et que la cuve de fioul
+domestique sera retirée à terme. Seule la chaudière n°3 fonctionnait au cours de la visite
+d'inspection.
+L’inspection constate que l'installation est correctement classée en 2910-A1 en raison d’une
+puissance totale supérieure ou égale à 20 MW et inférieure à 50 MW de la chaufferie et de la
+consommation exclusive de gaz naturel et de fioul domestique.
+Demande à formuler à l’exploitant à la suite du constat :
+L'inspection rappelle à l'exploitant que les évolutions à venir de la chaufferie (mise à l'arrêt
+définitif d'une ou plusieurs chaudière(s), retrait de la cuve de fioul, etc...) devront être portées à la
+connaissance du préfet préalablement à leur mise en œuvre.
+
+Prescription:
+La société Elyo Midi Océan (désormais Grand Parc Énergie) est autorisée sous réserve du respect
+des prescriptions annexée au présent arrêté, à exploiter sur le territoire de la commune de
+Bordeaux, rue Jean Artus, une chaufferie dite Grand Parc 2 (GP2) comprenant les installations
+suivantes :
+Rubrique ICPE
+libellé
+capacité maximale
+classement
+2910.1a
+I n s t a l l a t i o n  d e
+c o m b u s t i o n  :
+5 générateurs :
+G1 fuel/gaz : 7,11 MW
+G2 fuel/gaz : 7,11 MW
+G3 gaz : 5,58 MW
+G4 gaz : 7,11 MW
+G5 gaz : 7,11 MW
+
+5/13
+G5 gaz : 7,11 MW
+puissance thermique
+maximale
+34,22 MW
+A

@@ -1,0 +1,21 @@
+Constats body:
+Un détecteur de chlore était présent en partie basse de l’armoire chlore.
+L’exploitant n’a pas mis en place de procédure d’entretien de ce détecteur. L’exploitant ne
+connait pas le paramétrage (valeur seuil) déclenchant l’alarme visuelle (visible au niveau de
+l’armoire et dans les locaux techniques). L’exploitant dispose également d’une retransmission de
+la concentration en temps réel. Le jour de l’inspection, la concentration était de 0,14 ppm.
+Demande à formuler à l’exploitant à la suite du constat :
+Il est proposé à M. Le Préfet un arrêté de mise en demeure afin que l'exploitant assure le contrôle
+et la maintenance de ses détecteurs.
+
+Prescription:
+Chaque local technique ou armoire technique dispose d'un détecteur. L'exploitant dresse la liste
+de ces détecteurs avec leur fonctionnalité et détermine les opérations d'entretien destinées à
+maintenir leur efficacité dans le temps.
+Au-delà du seuil de 5 ppm, les détecteurs déclenchent une alarme sonore ou visuelle retransmise
+en salle de contrôle ou dispositif équivalent.
+Ces détecteurs sont maintenus en bon état et font l'objet de vérifications tous les trois mois. Le
+suivi est consigné dans un registre tenu à la disposition de l'inspection des installations classées et
+de l'organisme chargé du contrôle périodique. Une consigne décrit les actions correctives à
+mettre en œuvre en cas de déclenchement de la détection.
+[…]

@@ -1,0 +1,71 @@
+Constats body:
+Lors de la visite, l'inspection des installations classées a constaté :
+- que les liquides inflammables sont stockés dans une cellule spécifique, formant rétention,
+coupe-feu 2 heures, équipée d'un dos d'âne ;
+- que les acides sont stockés dans une rétention spécifique constituée d'un muret en parpaing et
+d'un dos d'âne ;
+- que les bases sont stockés dans une rétention spécifique constituée d'un muret en parpaing et
+d'un dos d'âne ;
+D'après l'exploitant, les quelques produits comburants pouvant être stockés sur le site le sont
+dans le local technique équipé d'une rétention spécifique constituée d'un muret en parpaing et
+d'un dos d'âne. Toujours d'après l'exploitant, il n'y aurait pas de produits toxiques stockés sur le
+site.
+Les produits incompatibles sont donc stockés dans des rétentions dédiées excepté au niveau de
+la zone de commande où tous les produits sont mélangés. D'après l'exploitant, cette zone est
+sous  surveillance,  aucun  produit  n'est  stocké  la  nuit  ou  le  week-end,  et  des  dispositifs
+d'obturation sont mis en place au niveau du réseau d'eau pluviales en cas de déversement de
+produits. Il est rappelé à l’exploitant qu’il lui appartient, sous sa seule responsabilité, de garantir
+en permanence l’absence de mélange de produits incompatibles et de déversement de produits
+chimiques et inflammables à l’extérieur du site.
+Enfin, il est à noter que l'ensemble des produits est stocké à l'intérieur.
+Demande à formuler à l’exploitant à la suite du constat :
+Il convient, au niveau de la zone de commande des produits chimiques et inflammables :
+- d'avoir une surveillance permanente ;
+- qu'aucun produit ne soit présent dans cette zone, la nuit et le week-end ;
+- de prendre les mesures nécessaires pour éviter tout écoulement à l'extérieur par des dispositifs
+passifs (dos d'âne par exemple).
+
+Prescription:
+A.-Tout stockage d'un liquide susceptible de créer une pollution des eaux ou des sols est associé à
+une capacité de rétention dont le volume est au moins égal à la plus grande des deux valeurs
+suivantes :
+-100 % de la capacité du plus grand réservoir ou récipient ;
+-50 % de la capacité globale des réservoirs et récipients associés.
+Lorsque le stockage est constitué exclusivement de récipients mobiles de capacité unitaire
+inférieure ou égale à 250 litres, le volume minimal de la rétention est égal soit à la capacité totale
+des récipients si cette capacité est inférieure à 800 litres, soit à 20 % de la capacité totale avec un
+minimum de 800 litres si cette capacité excède 800 litres.
+B.-La rétention est étanche aux produits qu'elle pourrait contenir.
+L'exploitant s'assure dans le temps de la pérennité de ce dispositif. L'étanchéité ne doit
+notamment pas être compromise par les produits pouvant être recueillis, par un éventuel
+
+7/9
+incendie ou par les éventuelles agressions physiques liées à l'exploitation courante.
+C.-La rétention résiste à la pression statique du produit éventuellement répandu et à l'action
+physique et chimique des produits pouvant être recueillis. Il en est de même pour son dispositif
+d'obturation, s'il existe.
+-En cas de rétention locale, le dispositif d'obturation, s'il existe, est maintenu fermé,
+-En cas de rétention déportée, celle-ci est conforme aux dispositions du point 2.7.7 de la présente
+annexe.
+D.-L'exploitant met en place les dispositifs et procédures appropriés pour assurer l'évacuation des
+eaux pouvant s'accumuler dans les rétentions.
+Ces dispositifs :
+-sont étanches aux produits susceptibles d'être retenus ;
+-sont fermés (ou à l'arrêt s'il s'agit de dispositifs actifs) sauf pendant les phases de vidange ;
+-peuvent être commandés sans avoir à pénétrer dans la rétention.
+La position ouverte ou fermée de ces dispositifs est clairement identifiable sans avoir à pénétrer
+dans la rétention.
+E.-Les produits récupérés en cas d'accident ne peuvent être rejetés que dans des conditions
+conformes  au  présent  arrêté  ou  sont  éliminés  vers  les  filières  de  traitement  des  déchets
+appropriées.
+F.-L'exploitant veille à ce que les capacités de rétention soient disponibles en permanence.
+La rétention et ses dispositifs associés font l'objet d'une surveillance et d'une maintenance
+appropriées, définies dans une procédure.
+G.-Une rétention affectée au stockage de réservoirs ne peut pas également être affectée au
+stockage de récipients mobiles, sauf dans le cas des rétentions déportées.
+H.-Des réservoirs ou récipients contenant des produits susceptibles de réagir dangereusement
+ensemble ne sont pas associés à la même rétention. Cette disposition ne s'applique pas aux
+bassins de confinement des eaux d'extinction d'un éventuel incendie prévus au point 6.3 de la
+
+8/9
+présente annexe.

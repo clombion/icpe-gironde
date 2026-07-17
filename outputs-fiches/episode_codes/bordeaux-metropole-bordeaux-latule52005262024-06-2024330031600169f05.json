@@ -1,0 +1,42 @@
+{
+  "document_date": "2024-06-20",
+  "document_title": "bordeaux-metropole-bordeaux-latule52005262024-06-2024330031600169f05",
+  "codes": [
+    {
+      "description": "Les formations du personnel en équipier de première intervention incendie n'ont pas encore été réalisées, seulement convoquées pour une date ultérieure.",
+      "excerpts": [
+        "L'Inspection des installations classées a pris connaissance des convocations destinées au personnel du site pour les formations d'équipier de 1ère intervention en sécurité incendie.",
+        "Ces formations sont prévues le 17 juillet 2024."
+      ],
+      "valence": "negative",
+      "code": "Formation incendie non réalisée"
+    },
+    {
+      "description": "L'inspecteur exige la transmission des attestations de formation dans le mois suivant leur réalisation.",
+      "excerpts": [
+        "Il est demandé à l'exploitant de transmettre les attestations de formation à l'Inspection au plus tard un mois après la réalisation de ces formations."
+      ],
+      "valence": "neutral",
+      "code": "Attestations de formation à transmettre"
+    },
+    {
+      "description": "L'absence de mise en place des actions de formation expose l'exploitant à des suites administratives de type mise en demeure.",
+      "excerpts": [
+        "L'absence de mise en place des actions supra expose l'exploitant à des suites administratives de type mise en demeure."
+      ],
+      "valence": "negative",
+      "code": "Menace de mise en demeure"
+    },
+    {
+      "description": "Le dossier d'enregistrement de l'installation prévoit explicitement la formation du personnel à la maîtrise des risques incendie.",
+      "excerpts": [
+        "Le personnel du site est formé à l'utilisation des matériels mis à disposition ainsi qu'à la maîtrise des risques et des situations d'urgence. Ainsi il reçoit une sensibilisation et/ou une formation aux risques suivants : […] risque incendie."
+      ],
+      "valence": "neutral",
+      "code": "Formation risque incendie obligatoire"
+    }
+  ],
+  "document_summary": "L'inspection de la déchetterie Bordeaux Métropole Bordeaux-Latule constate que les formations d'équipier de première intervention incendie n'ont pas encore été dispensées au personnel ; des convocations sont prévues pour juillet 2024 et l'exploitant est mis en garde contre une mise en demeure.",
+  "surprises": "",
+  "tensions": "L'inspection a lieu en juin 2024 et les formations sont convoquées pour juillet — l'exploitant a réagi mais au dernier moment, après l'intervention de l'inspection."
+}

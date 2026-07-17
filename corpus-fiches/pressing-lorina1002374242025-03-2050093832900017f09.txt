@@ -1,0 +1,25 @@
+Constats body:
+L’exploitant indique que la nouvelle machine ayant été installée il y a moins d’une année, le
+premier contrôle annuel n’a pas encore été effectué, mais qu’il est prévu sous un mois.
+Demande à formuler à l’exploitant à la suite du constat :
+L’exploitant transmet sous un mois à l’inspection des ICPE, le compte-rendu de la dernière visite
+annuelle de la machine de nettoyage à sec.
+
+Prescription:
+Les machines de nettoyage à sec sont visitées annuellement par un organisme compétent qui
+atteste du bon état général du matériel. Les résultats de ces contrôles sont tenus à la disposition
+de l’inspection des installations classées et consignés sur un registre.
+Il atteste :
+- de l’étanchéité de la machine et de l’état des joints des ouvrants ;
+- du bon fonctionnement du double séparateur ;
+- du bon fonctionnement des dispositifs de sécurité sur les ouvrants ;
+- du bon fonctionnement du contrôleur de séchage ;
+
+9/9
+- de la qualité du séchage (propreté du tunnel et des batteries, état et propreté des filtres, de la
+pompe à chaleur, de l’épurateur à charbons actifs...) ;
+- de la compatibilité de la machine au solvant utilisé ;
+- de la compatibilité des paramètres de fonctionnement et de sécurité de la machine par rapport
+au solvant utilisé (notamment les températures maximums de fonctionnement).
+L’organisme s’attache également à vérifier le bon fonctionnement et la propreté de la ventilation
+de l’établissement et en atteste de la même façon.

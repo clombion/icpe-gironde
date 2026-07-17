@@ -1,0 +1,65 @@
+{
+  "document_date": "2023-01-20",
+  "document_title": "simorep-cie-cs-michelin52003512023-01-2032852574600017kaqj8df01",
+  "codes": [
+    {
+      "description": "Un constat antérieur (2022) pointait l'insuffisance de la connaissance des consignes d'alarme par le personnel des entreprises extérieures (EE) ; l'exploitant a depuis produit un nouveau dépliant et mis à jour le support de formation.",
+      "excerpts": [
+        "L'exploitant a fourni le nouveau dépliant à destination des entreprises extérieures, qui reprécise le fonctionnement des alarmes et la conduite à tenir. L'exploitant indique avoir remis à jour le support de formation."
+      ],
+      "valence": "positive",
+      "code": "Consignes alarme entreprises extérieures"
+    },
+    {
+      "description": "L'exploitant justifie son dispositif d'alarme en le comparant à d'autres grands sites industriels (INEOS, Lacq, Michelin USA), qui auraient généralement plus d'alarmes, suggérant que le site n'est pas sous-équipé.",
+      "excerpts": [
+        "L'exploitant indique avoir fait du benchmark auprès de différents gros sites industriels (INEOS à Lavera, plateforme de Lacq, site Michelin aux USA,…). L'exploitant indique que ces sites ont en général plus d'alarmes que le site de SIMOREP."
+      ],
+      "valence": "mixed",
+      "code": "Benchmark pratiques industrielles"
+    },
+    {
+      "description": "L'exercice POI avec déclenchement d'alarme n'a pas encore été réalisé ; l'exploitant conditionne sa réalisation à la mise en place du nouveau système de contrôle des accès, prévue courant mars-avril 2023.",
+      "excerpts": [
+        "L'exploitant a indiqué le jour de l'inspection ne pas avoir encore réalisé l'exercice car il attend la mise en place du nouveau système de contrôle des accès prévu courant mars-avril 2023."
+      ],
+      "valence": "negative",
+      "code": "Exercice POI différé système accès"
+    },
+    {
+      "description": "La localisation du point de rassemblement des EE à l'ouest est justifiée par l'exploitant comme étant hors des vents dominants, mais l'inspection demande une évaluation en fonction des scénarios impliquant des toxiques aigus.",
+      "excerpts": [
+        "L'exploitant a rappelé que le point de rassemblement actuel des EE, situé à l'Ouest du site, a été choisi notamment car il ne se trouve pas sous les vents dominants."
+      ],
+      "valence": "mixed",
+      "code": "Point rassemblement EE sous vents"
+    },
+    {
+      "description": "L'exploitant affirme le jour de l'inspection ne pas manipuler de toxiques aigus, alors que le site utilise des toxiques aigus de catégories 1, 2 et 3 en quantités supérieures aux seuils SEVESO et d'autorisation.",
+      "excerpts": [
+        "Le jour de l'inspection, l'exploitant a indiqué qu'il ne manipule pas de toxique aigüe. Cependant le site utilise des toxiques aigus de catégorie 1 et 3 dans des quantités supérieures au seuil SEVESO seuil bas et des toxiques aigus de catégorie 2 dans des quantités supérieures au seuil de l'autorisation."
+      ],
+      "valence": "negative",
+      "code": "Toxiques aigus non déclarés verbalement"
+    },
+    {
+      "description": "Le remplacement du système de contrôle d'accès vise notamment à permettre un comptage rapide des personnes présentes sur site en cas d'urgence — enjeu de sécurité des personnes lors d'une évacuation.",
+      "excerpts": [
+        "l'exploitant indique être en cours de changement de système d'accès pour permettre un comptage plus rapide des personnes sur site."
+      ],
+      "valence": "neutral",
+      "code": "Comptage personnes en urgence"
+    },
+    {
+      "description": "L'inspection demande une évaluation formelle des zones de rassemblement préférentiel des EE en fonction des scénarios d'accidents impliquant des substances à toxicité aiguë, démarche non encore réalisée.",
+      "excerpts": [
+        "L'inspection demande à l'exploitant d'évaluer les zones de regroupement préférentiel en fonction des scénarios impliquant des substances avec une toxicité aiguë de catégorie 1, 2 et 3."
+      ],
+      "valence": "negative",
+      "code": "Évaluation zones regroupement toxiques"
+    }
+  ],
+  "document_summary": "Fiche de suivi SIMOREP (site SEVESO) portant sur la gestion des urgences avec les entreprises extérieures : progrès documentés sur les consignes d'alarme et le dépliant EE, mais exercice POI encore différé, point de rassemblement EE non encore évalué en scénarios toxiques, et déclaration erronée de l'exploitant sur la présence de toxiques aigus.",
+  "surprises": "L'exploitant d'un site SEVESO déclare le jour de l'inspection ne pas manipuler de toxiques aigus alors que le site en détient au-delà des seuils d'autorisation — erreur factuelle préoccupante pour la gestion des risques.",
+  "tensions": "L'exploitant relie la mise en œuvre de l'exercice POI à la finalisation du nouveau système de contrôle des accès, créant une dépendance entre deux obligations distinctes et reportant indéfiniment la réalisation de l'exercice."
+}

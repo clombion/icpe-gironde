@@ -1,0 +1,28 @@
+Constats body:
+Le récépissé de déclaration initiale, n° 12660 du 14 mars 1986, a été présenté à l'inspection des
+installations classées.
+L'exploitation de la chaufferie est sous-traitée à la société SPIE. L’exploitant au titre des ICPE
+reste cependant le titulaire de la déclaration, soit DOMOFRANCE.
+Les chaudières gaz fonctionnent principalement en secours, et moins de 500 heures par an selon
+l’exploitant, sans possibilité de justifier ce temps de fonctionnement à ce jour.
+Par ailleurs, il a été annoncé qu'un projet de réhabilitation des logements était à venir à horizon
+2026. Dans ce projet, seule la chaudière de 900 kW serait conservée, impliquant le déclassement
+ICPE de l’installation. Une déclaration de cessation d’activité sera à réaliser.
+7/12
+
+Il convient de mettre à jour la déclaration au regard des installations composant la chaufferie, à
+savoir une chaudière de 1 740 kW datant de 2000 et une de 900 kW datant de 2022 (mise en
+service le 3 juillet 2023), toutes fonctionnant  au gaz  naturel. La chaufferie est équipée de
+2 échangeurs thermiques constituant le circuit primaire de chauffage.
+
+Prescription:
+Rubrique 2910 :
+Combustion à l'exclusion des activités visées par les rubriques 2770, 2771, 2971 ou 2931 et des
+installations  classées  au  titre  de  la  rubrique  3110  ou  au  titre  d'autres  rubriques  de  la
+nomenclature pour lesquelles la combustion participe à la fusion, la cuisson ou au traitement, en
+mélange avec les gaz de combustion, des matières entrantes
+A. Lorsque sont consommés exclusivement, seuls ou en mélange, du gaz naturel, [...] , si la
+puissance thermique nominale totale de l'installation de combustion (*) est :
+1. Supérieure ou égale à 20 MW, mais inférieure à 50 MW (E)
+2. Supérieure ou égale à 1 MW, mais inférieure à 20 MW (DC)
+[…]

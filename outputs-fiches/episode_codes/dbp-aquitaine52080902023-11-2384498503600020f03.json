@@ -1,0 +1,33 @@
+{
+  "document_date": "2023-11-23",
+  "document_title": "dbp-aquitaine52080902023-11-2384498503600020f03",
+  "document_summary": "L'inspection d'un site de fabrication de produits chimiques constate que l'inventaire des matières stockées est bien tenu et facilement accessible lors de l'inspection.",
+  "surprises": "",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "L'inventaire des produits chimiques est présenté durant l'inspection et jugé conforme aux obligations de tenue à jour des matières stockées.",
+      "excerpts": [
+        "L'inventaire des produits chimiques présents sur site a été présenté durant l'inspection"
+      ],
+      "valence": "positive",
+      "code": "Inventaire produits chimiques conforme"
+    },
+    {
+      "description": "Les produits sont organisés en sous-familles codées directement assimilables aux rubriques ICPE, facilitant la vérification réglementaire.",
+      "excerpts": [
+        "Les produits sont regroupés en 4 sous-familles via un code à 4 lettres : SSPN (acides), TA2L (toxiques liquides), TA2S (toxiques solides) et SLSP (lessive de soude). Ces sous-familles sont assimilables aux rubriques ICPE"
+      ],
+      "valence": "positive",
+      "code": "Catégorisation produits par rubrique ICPE"
+    },
+    {
+      "description": "Le suivi des quantités de produits est intégré au système de gestion de production et mis à jour quotidiennement.",
+      "excerpts": [
+        "Le suivi est réalisé quotidiennement via le logiciel informatique de gestion de production de la société"
+      ],
+      "valence": "positive",
+      "code": "Suivi quotidien informatisé"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "document_date": "2023-01-30",
+  "document_title": "carrosserie-le-graal52012022023-01-30nosiretf04",
+  "document_summary": "L'inspection constate une conformité partielle sur les stockages de produits dangereux : les locaux internes ont été correctement étanchéifiés par des murets depuis la dernière inspection, mais un stockage extérieur de déchets liquides dangereux (fûts et bidons) se trouve sans rétention au Sud-Ouest du bâtiment.",
+  "surprises": "L'exploitant assimile des déchets liquides en attente d'évacuation à un stockage ordinaire, semblant ignorer que les déchets dangereux liquides requièrent également une rétention.",
+  "tensions": "L'exploitant a fait des efforts reconnus par l'inspection (murets intérieurs) mais maintient un stockage extérieur non conforme, créant une conformité sélective selon les zones du site.",
+  "codes": [
+    {
+      "description": "Les locaux de stockage internes ont été mis en conformité par installation de murets formant rétention, effort reconnu positivement par l'inspection.",
+      "excerpts": [
+        "l'ensemble des stockages de produits dangereux était réalisé dans des pièces dédiées et étanchéifiées, notamment par l'installation de murets (qui permettent désormais de considérer que le local d'entreposage fait office de rétention)"
+      ],
+      "valence": "positive",
+      "code": "Rétention intérieure conforme"
+    },
+    {
+      "description": "Des produits liquides dangereux sont stockés à l'extérieur du bâtiment sans capacité de rétention associée, constituant une non-conformité résiduelle malgré les améliorations intérieures.",
+      "excerpts": [
+        "un stockage de produits liquides dangereux (3 bidons plastiques de 25 litres et un fût d'une capacité de 200 l) qui n'était pas associé à une capacité de rétention"
+      ],
+      "valence": "negative",
+      "code": "Stockage extérieur sans rétention"
+    },
+    {
+      "description": "L'exploitant présente les produits sans rétention comme des déchets en attente d'évacuation, tentant de distinguer ce cas des stockages ordinaires soumis à l'obligation de rétention.",
+      "excerpts": [
+        "L'exploitant à indiqué à l'inspection qu'il s'agissait d'un stockage de déchets de produits liquides dangereux en attente d'évacuation"
+      ],
+      "valence": "neutral",
+      "code": "Déchets liquides requalifiés en stockage"
+    },
+    {
+      "description": "L'inspection vérifie l'absence d'incompatibilités chimiques entre les produits co-stockés, l'exploitant justifiant leur mélange intentionnel lors des opérations de carrosserie.",
+      "excerpts": [
+        "l'exploitant a indiqué qu'il n'y avait aucun problème de compatibilité chimique entre les produits stockés (diluants, apprêts...)"
+      ],
+      "valence": "positive",
+      "code": "Compatibilité chimique vérifiée"
+    },
+    {
+      "description": "L'inspection impose une régularisation immédiate assortie d'un délai de 15 jours pour fournir les justificatifs, avec la menace d'une astreinte journalière.",
+      "excerpts": [
+        "Il est demandé à l'exploitant de mettre en place sans délais les dispositions correctives idoines",
+        "La non-justification des actions prises pourrait être considéré comme une non-conformité à l'obligation d'installer des capacités de rétention pour l'ensemble des stockages de produits dangereux le requérant peu conduire à des suites administratives de type astreinte journalière"
+      ],
+      "valence": "negative",
+      "code": "Délai court de régularisation"
+    }
+  ]
+}

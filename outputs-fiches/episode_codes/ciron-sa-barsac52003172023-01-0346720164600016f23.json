@@ -1,0 +1,50 @@
+{
+  "document_date": "2023-01-03",
+  "document_title": "ciron-sa-barsac52003172023-01-0346720164600016f23",
+  "document_summary": "L'inspection de suivi d'une résidence (Ciron SA, établissement de soins ou logements collectifs) constate une non-conformité récurrente sur la vérification du système de sécurité incendie et l'absence de détection dans certains locaux techniques, avec une évolution partielle entre 2021 et 2023.",
+  "surprises": "L'exploitant invoque un futur remplacement du système de chauffage pour différer l'installation de la détection incendie dans la chaufferie — une logique de report conditionnel qui est acceptée avec des réserves par l'inspection.",
+  "tensions": "La vérification du SSI a été réalisée en 2022, levant partiellement la non-conformité de 2021, mais la chaufferie reste sans détection en 2023 avec une justification procrastinante — une conformité progressive mais incomplète.",
+  "codes": [
+    {
+      "description": "Le système de sécurité incendie n'a pas fait l'objet d'une vérification réglementaire à jour lors de la première inspection, révélant un défaut de maintenance documentée.",
+      "excerpts": [
+        "La vérification de système de sécurité n'est pas à jour"
+      ],
+      "valence": "negative",
+      "code": "Vérification SSI non à jour"
+    },
+    {
+      "description": "Certains locaux ou armoires techniques (tableaux électriques, chaudières) ne sont pas équipés de détection incendie, contrairement aux prescriptions applicables.",
+      "excerpts": [
+        "Certains des locaux techniques ou armoires techniques (tableaux électriques, chaudières...) ne sont pas équipés de détection"
+      ],
+      "valence": "negative",
+      "code": "Détection incendie absente locaux techniques"
+    },
+    {
+      "description": "La vérification du SSI a été réalisée entre les deux inspections, levant partiellement la non-conformité initiale tout en laissant subsister la question de la chaufferie.",
+      "excerpts": [
+        "La vérification du système de sécurité incendie a été réalisée, le 5 juillet 2022, par l'entreprise SEMAS"
+      ],
+      "valence": "positive",
+      "code": "Régularisation partielle entre inspections"
+    },
+    {
+      "description": "L'exploitant justifie l'absence de détection dans la chaufferie par un projet de remplacement imminent du système de chauffage, obtenant un délai conditionnel de 6 mois.",
+      "excerpts": [
+        "l'exploitant a indiqué ne pas avoir mis en place de détection incendie, car le système de chauffage va être remplacé prochainement",
+        "L'exploitant installe une détection incendie dans la chaufferie sauf si la mise en place de son nouveau système de chauffage intervient dans les 6 mois"
+      ],
+      "valence": "neutral",
+      "code": "Report conditionnel travaux"
+    },
+    {
+      "description": "Le registre de sécurité est consulté par l'inspection comme document de référence pour établir les dates de vérification du SSI.",
+      "excerpts": [
+        "il a été vérifié, d'après le registre de sécurité, le 18 mars 2021"
+      ],
+      "valence": "neutral",
+      "code": "Registre de sécurité comme preuve"
+    }
+  ]
+}

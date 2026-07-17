@@ -1,0 +1,49 @@
+{
+  "document_date": "2022-08-23",
+  "document_title": "u-logistique-sas52008502022-08-2381014656300178f01",
+  "codes": [
+    {
+      "description": "Le POI n'est disponible qu'au niveau des bureaux de la direction et non au poste de garde, alors que ce poste est le premier point d'alerte en dehors des heures ouvrées et en travail posté 3x8.",
+      "excerpts": [
+        "l'inspection a relevé qu'aucune version du POI n'était disponible et accessible en dehors des bureaux de la direction de l'entrepôt (non présent lors des périodes d'exploitation estivales en 3x8). Par exemple, au niveau du poste de garde, aucune version du POI n'était disponible"
+      ],
+      "valence": "negative",
+      "code": "POI absent poste de garde"
+    },
+    {
+      "description": "Le poste de garde dispose de consignes incendie datant de 2007, clairement obsolètes par rapport au POI en vigueur, créant un risque d'intervention inadaptée en situation d'urgence.",
+      "excerpts": [
+        "seulement des références à des consignes incendie en date de 2007 étaient présentes ; ces dernières sont clairement obsolètes."
+      ],
+      "valence": "negative",
+      "code": "Consignes incendie obsolètes"
+    },
+    {
+      "description": "Le POI fait l'objet de mises à jour successives (2020, 2021, en cours lors de l'inspection) pour intégrer les nouvelles rubriques ICPE et les demandes de l'inspection, mais la version consolidée n'est pas encore diffusée.",
+      "excerpts": [
+        "La mise à jour est toujours en cours, notamment pour tenir compte des demandes issues de la dernière inspection."
+      ],
+      "valence": "mixed",
+      "code": "POI en cours de mise à jour"
+    },
+    {
+      "description": "L'absence de diffusion du POI hors des bureaux de direction est particulièrement problématique pour les quarts de nuit et les périodes estivales en 3x8, quand la direction n'est pas physiquement présente.",
+      "excerpts": [
+        "non présent lors des périodes d'exploitation estivales en 3x8"
+      ],
+      "valence": "negative",
+      "code": "Accessibilité POI en dehors heures ouvrées"
+    },
+    {
+      "description": "L'inspection demande une transmission systématique du POI consolidé à chaque mise à jour, pour garantir que les versions en circulation sont toujours à jour.",
+      "excerpts": [
+        "une transmission doit être systématiquement réalisée en cas de mise à jour."
+      ],
+      "valence": "neutral",
+      "code": "Transmission systématique mise à jour POI"
+    }
+  ],
+  "document_summary": "Inspection d'un entrepôt logistique U Logistique SAS (autoroute A62) portant sur la disponibilité du POI : le plan n'est accessible qu'aux bureaux de direction et non au poste de garde, qui ne dispose que de consignes obsolètes de 2007. La mise à jour du POI est en cours mais sa diffusion opérationnelle est insuffisante.",
+  "surprises": "Un grand entrepôt fonctionnant en 3x8 (donc en exploitation continue) n'a pas son POI accessible à son poste de garde — la première ligne de réponse à un incident nocturne est sans document de référence valide.",
+  "tensions": "Le POI existe et est en cours de mise à jour (preuve d'engagement), mais il reste confiné à la direction alors que la réglementation impose qu'il soit accessible à tout moment — tension entre la gestion documentaire centralisée et la nécessité d'une accessibilité opérationnelle décentralisée."
+}

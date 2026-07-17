@@ -1,0 +1,57 @@
+{
+  "document_date": "2022-10-10",
+  "document_title": "ucva52007212022-10-1078188879700011f06",
+  "codes": [
+    {
+      "description": "L'exploitant reconnaît explicitement que le rejet odorant et coloré observé dans la Dronne du 7 octobre 2022 provient bien de son installation, ce qui constitue une reconnaissance de responsabilité.",
+      "excerpts": [
+        "L'exploitant admet cependant que la pollution constatée le 7/10/2022 a bien pour origine son rejet."
+      ],
+      "valence": "negative",
+      "code": "Pollution rivière admise exploitant"
+    },
+    {
+      "description": "Le rejet aurait conduit à un taux de mortalité piscicole dans la Dronne, constituant un impact environnemental concret sur le milieu aquatique récepteur.",
+      "excerpts": [
+        "Ce rejet aurait conduit à un taux de mortalité piscicole."
+      ],
+      "valence": "negative",
+      "code": "Mortalité piscicole rejet effluents"
+    },
+    {
+      "description": "L'exploitant a stoppé le rejet et maintenu les effluents sur site dans ses capacités de stockage dès que la pollution a été constatée, montrant une réaction corrective immédiate.",
+      "excerpts": [
+        "Une fois constaté, le rejet a été stoppé par l'exploitant (maintien des effluents sur site dans des capacités de stockage)."
+      ],
+      "valence": "positive",
+      "code": "Arrêt volontaire rejet"
+    },
+    {
+      "description": "L'inspecteur a procédé à une vérification visuelle du cours d'eau lors de la visite : absence de poissons morts en surface et couleur normale de l'eau, confirmant la cessation du rejet.",
+      "excerpts": [
+        "aucun poisson mort en surface n'a été constaté par l'inspecteur le 10/10/2022 ; aucun rejet n'était en cours et la coloration de l'eau du cours d'eau était d'apparence normale."
+      ],
+      "valence": "positive",
+      "code": "Vérification milieu aquatique visite"
+    },
+    {
+      "description": "L'inspection avertit que la récurrence d'écarts de ce type peut conduire à des sanctions administratives, signalant que cet épisode n'est pas isolé.",
+      "excerpts": [
+        "La récurrence d'écart observé peut conduire l'inspection à proposer des sanctions administratives."
+      ],
+      "valence": "negative",
+      "code": "Récurrence risque sanctions"
+    },
+    {
+      "description": "L'exploitant est invité à proposer des mesures préventives et correctives dans le cadre d'un rapport d'accident, outil formel de gestion des incidents environnementaux.",
+      "excerpts": [
+        "L'exploitant proposera des mesures préventives et correctives dans le cadre du rapport d'accident demandé en fiche constat n°1."
+      ],
+      "valence": "neutral",
+      "code": "Rapport accident mesures correctives"
+    }
+  ],
+  "document_summary": "Inspection d'urgence de l'UCVA (coopérative vinicole) suite à un rejet odorant et coloré dans la Dronne du 7 octobre 2022, ayant provoqué une mortalité piscicole. L'exploitant a stoppé le rejet dès sa constatation. L'inspection vérifie la cessation effective du rejet et demande un rapport d'accident avec mesures correctives, tout en avertissant que la récurrence pourrait entraîner des sanctions.",
+  "surprises": "La mention d'une « récurrence d'écart » suggère que des pollutions similaires se sont déjà produites sur ce site — la coopérative vinicole est peut-être un site avec des épisodes de pollution réguliers liés au cycle de vinification.",
+  "tensions": "L'exploitant réagit rapidement et arrête le rejet (ce qui est positif), mais la récurrence des écarts indique que les mesures préventives ne sont pas suffisantes pour éviter les incidents — tension entre la réactivité curative et l'insuffisance préventive."
+}

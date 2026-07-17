@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>audit/lib.js — tests</title>
+<style>
+  body { font-family: monospace; padding: 20px; max-width: 800px; }
+  .pass { color: green; }
+  .fail { color: red; font-weight: bold; }
+  .summary { margin-top: 20px; padding: 12px; background: #eee; }
+</style>
+</head>
+<body>
+<h1>audit/lib.js — tests</h1>
+<p>Open this file in a browser. Open the dev console to see assertion details.</p>
+<div id="results"></div>
+<div class="summary" id="summary"></div>
+
+<script src="../shared/util.js"></script>
+<script src="lib.js"></script>
+<script>
+// Fail loudly if lib.js failed to load — without this, an empty harness
+// silently reports "0 passed, 0 failed" which looks like a clean run.
+if (typeof window.AuditLib === 'undefined') {
+  document.getElementById('results').textContent =
+    'FATAL: window.AuditLib is undefined — lib.js did not load.';
+  document.getElementById('summary').textContent = '0 passed, 1 failed';
+  throw new Error('AuditLib not loaded');
+}
+
+let pass = 0, fail = 0;
+const results = document.getElementById('results');
+
+function assertEq(actual, expected, label) {
+  const a = JSON.stringify(actual);
+  const e = JSON.stringify(expected);
+  const ok = a === e;
+  const div = document.createElement('div');
+  if (ok) {
+    div.className = 'pass';
+    div.textContent = '✓ ' + label;
+    pass++;
+  } else {
+    div.className = 'fail';
+    div.textContent = '✗ ' + label + ' — expected ' + e + ' got ' + a;
+    fail++;
+    console.error(label, 'expected', expected, 'got', actual);
+  }
+  results.appendChild(div);
+}
+
+function assert(cond, label) {
+  const div = document.createElement('div');
+  if (cond) {
+    div.className = 'pass';
+    div.textContent = '✓ ' + label;
+    pass++;
+  } else {
+    div.className = 'fail';
+    div.textContent = '✗ ' + label;
+    fail++;
+  }
+  results.appendChild(div);
+}
+
+const Lib = window.AuditLib;
+
+// ===== sliceBuckets =====
+{
+  const items = Array.from({length: 14}, (_, i) => ({id_icpe: 'i' + i}));
+  const buckets = Lib.sliceBuckets(items, 25);
+  assertEq(buckets.length, 1, 'sliceBuckets: 14 items, size 25 → 1 bucket');
+  assertEq(buckets[0].items.length, 14, 'sliceBuckets: bucket has 14 items');
+  assertEq(buckets[0].index, 1, 'sliceBuckets: bucket is 1-indexed');
+}
+{
+  const items = Array.from({length: 50}, (_, i) => ({id_icpe: 'i' + i}));
+  const buckets = Lib.sliceBuckets(items, 25);
+  assertEq(buckets.length, 2, 'sliceBuckets: 50 items, size 25 → 2 buckets');
+  assertEq(buckets[0].items.length, 25, 'sliceBuckets: bucket 1 = 25');
+  assertEq(buckets[1].items.length, 25, 'sliceBuckets: bucket 2 = 25');
+  assertEq(buckets[1].index, 2, 'sliceBuckets: 2nd bucket is index 2');
+}
+{
+  const items = Array.from({length: 26}, (_, i) => ({id_icpe: 'i' + i}));
+  const buckets = Lib.sliceBuckets(items, 25);
+  assertEq(buckets.length, 2, 'sliceBuckets: 26 items, size 25 → 2 buckets (25+1)');
+  assertEq(buckets[0].items.length, 25, 'sliceBuckets: first 25');
+  assertEq(buckets[1].items.length, 1, 'sliceBuckets: last 1');
+}
+// Edge cases — guard branches that were previously invisible
+assertEq(Lib.sliceBuckets([], 25), [], 'sliceBuckets: empty array → []');
+assertEq(Lib.sliceBuckets(null, 25), [], 'sliceBuckets: null input → [] (Array.isArray guard)');
+assertEq(Lib.sliceBuckets('not-an-array', 25), [], 'sliceBuckets: string input → []');
+{
+  // Zero/falsy bucket_size falls back to default 25
+  const items = Array.from({length: 30}, (_, i) => ({id_icpe: 'i' + i}));
+  const buckets = Lib.sliceBuckets(items, 0);
+  assertEq(buckets.length, 2, 'sliceBuckets: bucket_size=0 falls back to default 25');
+  assertEq(buckets[0].items.length, 25, 'sliceBuckets: fallback first bucket = 25');
+}
+{
+  // Exact-multiple boundary
+  const items = Array.from({length: 25}, (_, i) => ({id_icpe: 'i' + i}));
+  const buckets = Lib.sliceBuckets(items, 25);
+  assertEq(buckets.length, 1, 'sliceBuckets: 25 items size 25 → 1 full bucket');
+}
+{
+  // Round-trip: parseBucketFilename(bucketFilename(g, i)) should be {g, i}
+  const round = Lib.parseBucketFilename(Lib.bucketFilename('petit', 7));
+  assertEq(round, {group: 'petit', index: 7}, 'bucketFilename round-trip with parseBucketFilename');
+}
+
+// ===== bucketFilename / parseBucketFilename =====
+assertEq(Lib.bucketFilename('reserves', 1), 'bucket-reserves-01.json', 'bucketFilename: reserves 1');
+assertEq(Lib.bucketFilename('grand', 12), 'bucket-grand-12.json', 'bucketFilename: grand 12');
+assertEq(Lib.parseBucketFilename('bucket-reserves-01.json'), {group: 'reserves', index: 1}, 'parseBucketFilename: reserves-01');
+assertEq(Lib.parseBucketFilename('bucket-grand-12.json'), {group: 'grand', index: 12}, 'parseBucketFilename: grand-12');
+assertEq(Lib.parseBucketFilename('not-a-bucket.json'), null, 'parseBucketFilename: invalid → null');
+
+// ===== validateReviewFile =====
+const validFile = {
+  flagged_hash: 'sha256:abc',
+  group: 'reserves',
+  bucket_index: 1,
+  reviewer: 'L.B.',
+  decisions: [
+    {id_icpe: '5211496', verdict: 'placer_manuellement', manual_lat: 44.8, manual_lon: -0.6},
+    {id_icpe: '5206006', verdict: 'garder_stored'},
+  ],
+};
+const flagged = {flagged_hash: 'sha256:abc'};
+{
+  const r = Lib.validateReviewFile(validFile, flagged, 'reserves', 1);
+  assertEq(r.status, 'valid', 'validateReviewFile: valid file');
+  assertEq(r.decisions.length, 2, 'validateReviewFile: returns decisions');
+}
+{
+  const r = Lib.validateReviewFile(validFile, {flagged_hash: 'sha256:other'}, 'reserves', 1);
+  assertEq(r.status, 'stale', 'validateReviewFile: stale on hash mismatch');
+}
+{
+  const r = Lib.validateReviewFile({...validFile, group: 'grand'}, flagged, 'reserves', 1);
+  assertEq(r.status, 'invalid', 'validateReviewFile: invalid on group mismatch');
+}
+{
+  const bad = {...validFile, decisions: [{id_icpe: 'x', verdict: 'unknown_verdict'}]};
+  const r = Lib.validateReviewFile(bad, flagged, 'reserves', 1);
+  assertEq(r.status, 'invalid', 'validateReviewFile: invalid on bad verdict');
+}
+{
+  const missing = {flagged_hash: 'sha256:abc', group: 'reserves'};
+  const r = Lib.validateReviewFile(missing, flagged, 'reserves', 1);
+  assertEq(r.status, 'invalid', 'validateReviewFile: invalid on missing fields');
+}
+// New: bucket_index mismatch (was uncovered)
+{
+  const r = Lib.validateReviewFile({...validFile, bucket_index: 99}, flagged, 'reserves', 1);
+  assertEq(r.status, 'invalid', 'validateReviewFile: invalid on bucket_index mismatch');
+}
+// New: null/non-object file (was uncovered)
+{
+  const r = Lib.validateReviewFile(null, flagged, 'reserves', 1);
+  assertEq(r.status, 'invalid', 'validateReviewFile: invalid on null file');
+}
+{
+  const r = Lib.validateReviewFile('not-an-object', flagged, 'reserves', 1);
+  assertEq(r.status, 'invalid', 'validateReviewFile: invalid on string file');
+}
+// New: decisions is not an array
+{
+  const r = Lib.validateReviewFile({...validFile, decisions: 'oops'}, flagged, 'reserves', 1);
+  assertEq(r.status, 'invalid', 'validateReviewFile: invalid when decisions is not an array');
+}
+// New: decision is not an object
+{
+  const bad = {...validFile, decisions: ['not-an-object']};
+  const r = Lib.validateReviewFile(bad, flagged, 'reserves', 1);
+  assertEq(r.status, 'invalid', 'validateReviewFile: invalid when a decision is not an object');
+}
+// New: decision missing id_icpe
+{
+  const bad = {...validFile, decisions: [{verdict: 'garder_stored'}]};
+  const r = Lib.validateReviewFile(bad, flagged, 'reserves', 1);
+  assertEq(r.status, 'invalid', 'validateReviewFile: invalid when a decision is missing id_icpe');
+}
+// New: null flagged → no stale check (should still validate as 'valid')
+{
+  const r = Lib.validateReviewFile(validFile, null, 'reserves', 1);
+  assertEq(r.status, 'valid', 'validateReviewFile: null flagged → valid (no stale check)');
+}
+
+// ===== decisionToCorrection =====
+{
+  const item = {geocoded_lat: 44.8, geocoded_lon: -0.6};
+  const r = Lib.decisionToCorrection({verdict: 'garder_stored'}, item);
+  assertEq(r.action, 'noop', 'decisionToCorrection: garder_stored → noop');
+}
+{
+  const item = {geocoded_lat: 44.8, geocoded_lon: -0.6};
+  const r = Lib.decisionToCorrection({verdict: 'utiliser_geocoded'}, item);
+  assertEq(r, {action: 'use_geocoded', lat: 44.8, lon: -0.6}, 'decisionToCorrection: utiliser_geocoded');
+}
+{
+  const item = {geocoded_lat: null, geocoded_lon: null};
+  const r = Lib.decisionToCorrection({verdict: 'utiliser_geocoded'}, item);
+  assertEq(r.action, 'error', 'decisionToCorrection: utiliser_geocoded with no coords → error');
+}
+{
+  const item = {};
+  const r = Lib.decisionToCorrection({verdict: 'placer_manuellement', manual_lat: 44.9, manual_lon: -0.5}, item);
+  assertEq(r, {action: 'use_manual', lat: 44.9, lon: -0.5}, 'decisionToCorrection: placer_manuellement');
+}
+{
+  const item = {};
+  const r = Lib.decisionToCorrection({verdict: 'placer_manuellement'}, item);
+  assertEq(r.action, 'error', 'decisionToCorrection: manual without coords → error');
+}
+{
+  const r = Lib.decisionToCorrection({verdict: 'terrain'}, {});
+  assertEq(r.action, 'field_visit', 'decisionToCorrection: terrain → field_visit');
+}
+// New: unknown verdict default branch
+{
+  const r = Lib.decisionToCorrection({verdict: 'definitely_not_a_verdict'}, {});
+  assertEq(r.action, 'error', 'decisionToCorrection: unknown verdict → error');
+}
+// New: null decision and null item guards
+{
+  const r = Lib.decisionToCorrection(null, {});
+  assertEq(r.action, 'error', 'decisionToCorrection: null decision → error');
+}
+{
+  const r = Lib.decisionToCorrection({verdict: 'terrain'}, null);
+  assertEq(r.action, 'error', 'decisionToCorrection: null item → error');
+}
+// New: utiliser_geocoded with coords of exactly 0 (legitimate equator point)
+{
+  const r = Lib.decisionToCorrection({verdict: 'utiliser_geocoded'}, {geocoded_lat: 0, geocoded_lon: 0});
+  assertEq(r, {action: 'use_geocoded', lat: 0, lon: 0}, 'decisionToCorrection: zero coords are valid (not falsy)');
+}
+
+// ===== countProgress =====
+{
+  const flagged = {
+    bucket_size: 2,
+    groups: [
+      {id: 'reserves', count: 4, items: [{id_icpe: 'a'}, {id_icpe: 'b'}, {id_icpe: 'c'}, {id_icpe: 'd'}]},
+      {id: 'grand', count: 1, items: [{id_icpe: 'e'}]},
+    ],
+  };
+  // bucket reserves-01 done (2 items), reserves-02 pending, grand-01 pending
+  const reviews = {
+    'reserves-01': [{id_icpe: 'a', verdict: 'garder_stored'}, {id_icpe: 'b', verdict: 'garder_stored'}],
+  };
+  const p = Lib.countProgress(flagged, reviews);
+  assertEq(p.total, 5, 'countProgress: total=5');
+  assertEq(p.reviewed, 2, 'countProgress: reviewed=2');
+  assertEq(p.remaining, 3, 'countProgress: remaining=3');
+  assertEq(p.perGroup.reserves.reviewed, 2, 'countProgress: reserves reviewed=2');
+  assertEq(p.perGroup.grand.reviewed, 0, 'countProgress: grand reviewed=0');
+}
+// New: partial bucket — submitting fewer decisions than the bucket holds
+// must NOT count the bucket as reviewed (all-or-nothing semantic).
+{
+  const flagged = {
+    bucket_size: 2,
+    groups: [
+      {id: 'reserves', count: 2, items: [{id_icpe: 'a'}, {id_icpe: 'b'}]},
+    ],
+  };
+  const reviews = {
+    'reserves-01': [{id_icpe: 'a', verdict: 'garder_stored'}], // only 1 of 2
+  };
+  const p = Lib.countProgress(flagged, reviews);
+  assertEq(p.reviewed, 0, 'countProgress: partial bucket counts as 0 reviewed (all-or-nothing)');
+  assertEq(p.remaining, 2, 'countProgress: partial bucket leaves 2 remaining');
+}
+// New: all buckets done
+{
+  const flagged = {
+    bucket_size: 2,
+    groups: [{id: 'reserves', count: 2, items: [{id_icpe: 'a'}, {id_icpe: 'b'}]}],
+  };
+  const reviews = {
+    'reserves-01': [{id_icpe: 'a', verdict: 'garder_stored'}, {id_icpe: 'b', verdict: 'garder_stored'}],
+  };
+  const p = Lib.countProgress(flagged, reviews);
+  assertEq(p.reviewed, 2, 'countProgress: all buckets done → reviewed === total');
+  assertEq(p.remaining, 0, 'countProgress: all buckets done → remaining === 0');
+}
+// New: null flagged → safe defaults
+{
+  const p = Lib.countProgress(null, {});
+  assertEq(p.total, 0, 'countProgress: null flagged → total=0');
+  assertEq(p.reviewed, 0, 'countProgress: null flagged → reviewed=0');
+}
+// New: empty groups
+{
+  const p = Lib.countProgress({bucket_size: 25, groups: []}, {});
+  assertEq(p.total, 0, 'countProgress: empty groups → total=0');
+}
+
+// ===== formatStatusStrip =====
+// Modern Intl.NumberFormat for fr-FR uses U+202F (NNBSP) as the
+// thousands separator, not a regular space. Strip ALL Unicode
+// whitespace before asserting digit content so the test is
+// browser/Node-version-agnostic and doesn't fall into the substring
+// theater pattern (where any string would technically pass).
+function _stripWS(s) { return s.replace(/[\s\u00a0\u202f]/g, ''); }
+{
+  const s = Lib.formatStatusStrip(2890, 169, 2721, 42);
+  const flat = _stripWS(s);
+  assert(flat.includes('2890'), 'formatStatusStrip: total 2890');
+  assert(flat.includes('169'), 'formatStatusStrip: coherent 169');
+  assert(flat.includes('2721'), 'formatStatusStrip: à vérifier 2721');
+  assert(flat.includes('42'), 'formatStatusStrip: revus 42');
+  assert(s.includes('cohérents'), 'formatStatusStrip: French label cohérents');
+  assert(s.includes('vérifier'), 'formatStatusStrip: French label vérifier');
+}
+// Edge: zero totalSites must not divide-by-zero
+{
+  const s = Lib.formatStatusStrip(0, 0, 0, 0);
+  assert(_stripWS(s).includes('0%'), 'formatStatusStrip: zero totalSites guarded');
+}
+
+// ===== composeExportFile =====
+{
+  const decisions = [{id_icpe: '5211496', verdict: 'garder_stored'}];
+  const out = Lib.composeExportFile('sha256:abc', '2026-04-09T10:00:00Z', 'reserves', 1, 'L.B.', decisions);
+  assertEq(out.flagged_hash, 'sha256:abc', 'composeExportFile: flagged_hash');
+  assertEq(out.audit_run_id, '2026-04-09T10:00:00Z', 'composeExportFile: audit_run_id passthrough');
+  assertEq(out.group, 'reserves', 'composeExportFile: group');
+  assertEq(out.bucket_index, 1, 'composeExportFile: bucket_index');
+  assertEq(out.reviewer, 'L.B.', 'composeExportFile: reviewer');
+  assertEq(out.decisions.length, 1, 'composeExportFile: decisions length');
+  assertEq(out.decisions[0].id_icpe, '5211496', 'composeExportFile: decisions content passthrough');
+  assert(typeof out.submitted_at === 'string', 'composeExportFile: submitted_at is string');
+  // submitted_at must look like an ISO 8601 timestamp, not just any string
+  assert(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}/.test(out.submitted_at),
+    'composeExportFile: submitted_at is ISO-8601 formatted');
+}
+
+// Summary
+const sum = document.getElementById('summary');
+sum.textContent = pass + ' passed, ' + fail + ' failed';
+sum.style.color = fail === 0 ? 'green' : 'red';
+console.log('audit/test.html:', pass, 'passed,', fail, 'failed');
+</script>
+</body>
+</html>

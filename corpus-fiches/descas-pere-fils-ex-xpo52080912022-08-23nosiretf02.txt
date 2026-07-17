@@ -1,0 +1,15 @@
+Constats body:
+La régulation de température de l’entrepôt était réalisée par le précédent exploitant XPO en
+ayant recours à deux tours aéro-réfrigérantes (TAR) classées sous la rubrique 2921 au régime DC.
+Or lors de sa venue, l’inspection a constaté la présence des tours aéro-réfrigérantes (TAR) ; ces dernières n’ont
+pas été démantelées. Il subsiste donc un doute quant à leur usage ultérieur et à leur devenir.
+Observations : Il est demandé à l’exploitant, sous un mois, de préciser si les TAR sont vouées à être
+exploitées. Si tel est le cas, l’exploitant régularise la situation administrative de ces dernières sous le même délai.
+A défaut, il procède à leur démantèlement et transmet les justificatifs idoines sous 3 mois.
+
+Prescription:
+1. Installations de refroidissement évaporatif par dispersion d'eau dans un flux d'air généré par ventilation
+mécanique ou naturelle :
+a) La puissance thermique évacuée maximale étant supérieure ou égale à 3 000 kW (E)
+b) La puissance thermique évacuée maximale étant inférieure à 3 000 kW (DC)
+2. Installations de récupération de la chaleur par dispersion d'eau dans des fumées émises à l'atmosphère (DC)

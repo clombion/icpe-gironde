@@ -1,0 +1,42 @@
+{
+  "document_date": "2023-01-05",
+  "document_title": "cemex-betons-sud-ouest1000111832023-01-0540015157700220f05",
+  "document_summary": "L'inspection d'une centrale à béton révèle que les pentes de l'aire de lavage des toupies ne canalisent pas correctement les eaux de process vers les bassins de collecte, permettant potentiellement un déversement direct de laitance de béton dans le milieu naturel.",
+  "surprises": "Le site dispose d'un système de recyclage des eaux de process bien conçu (bassins en cascade) mais ce dispositif est rendu partiellement inopérant par un simple défaut de pente sur l'aire de lavage.",
+  "tensions": "L'inspection n'a pas constaté de traces de laitance à l'extérieur du site, mais refuse d'exclure le risque — une tension entre l'absence de dommage avéré et le principe de précaution.",
+  "codes": [
+    {
+      "description": "Les pentes de l'aire de lavage des toupies sont insuffisantes pour diriger l'ensemble des eaux vers les caniveaux et bassins de collecte, créant des zones de stagnation.",
+      "excerpts": [
+        "les pentes au niveau de l'aire de lavage des toupies ne permettaient pas de diriger l'ensemble des eaux vers les caniveaux et les bassins de collecte dédiés"
+      ],
+      "valence": "negative",
+      "code": "Défaut de pente aire lavage"
+    },
+    {
+      "description": "La configuration défectueuse de l'aire de lavage fait peser un risque de déversement d'eaux chargées en fines de béton directement dans le milieu naturel.",
+      "excerpts": [
+        "rien ne permet d'écarter le fait que des eaux de process non épurées, contenant des fines et de la laitance de béton, ne puissent se déverser directement dans le milieu naturel"
+      ],
+      "valence": "negative",
+      "code": "Risque de rejet milieu naturel"
+    },
+    {
+      "description": "Le site a mis en place un système de bassins en cascade pour la décantation et le recyclage des eaux de process, constituant une bonne pratique de gestion de l'eau.",
+      "excerpts": [
+        "Des bassins de collecte reçoivent, par écoulement gravitaire, in fine les eaux de process (utilisées pour la fabrication du béton) et de lavage camions",
+        "Les eaux ainsi décantées sont par la suite réutilisées dans le procédé de fabrication de béton"
+      ],
+      "valence": "positive",
+      "code": "Circuit de recyclage des eaux"
+    },
+    {
+      "description": "L'inspection exige une mise en conformité immédiate avec transmission de justificatifs sous un mois, sous peine de mise en demeure.",
+      "excerpts": [
+        "Il est demandé à l'exploitant de mettre en place, sans délai, les actions correctrices idoines pour recueillir l'ensemble des eaux de lavage des toupies"
+      ],
+      "valence": "negative",
+      "code": "Action correctrice urgente demandée"
+    }
+  ]
+}

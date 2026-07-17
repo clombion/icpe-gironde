@@ -1,0 +1,33 @@
+{
+  "document_date": "2022-06-07",
+  "document_title": "sarl-moulin-du-caouley52008782022-06-0732368394600012f14",
+  "document_summary": "L'inspection signale que les arrêtés préfectoraux régissant la pisciculture datent de 1984 et 1989 et nécessitent une mise à jour des prescriptions relatives aux moyens de lutte contre l'incendie. Les prescriptions en matière d'installations électriques et de consignes de sécurité sont mentionnées.",
+  "surprises": "Les arrêtés préfectoraux en vigueur ont plus de 30 ans (1984 et 1989), témoignant d'une situation réglementaire figée qui ne reflète plus l'état de l'art en matière de prévention des risques incendie.",
+  "tensions": "Les prescriptions relatives aux consignes de sécurité incluent des procédures d'arrêt d'urgence en cas de crue, ce qui révèle une préoccupation spécifique au contexte fluvial de la pisciculture — un risque naturel peu habituel dans les ICPE industrielles.",
+  "codes": [
+    {
+      "description": "Les prescriptions de lutte contre l'incendie n'ont pas été mises à jour depuis les arrêtés de 1984 et 1989, nécessitant une révision pour intégrer les exigences actuelles.",
+      "excerpts": [
+        "Les arrêtés préfectoraux en vigueur datent du 5 octobre 1984 et du 25 août 1989. Une mise à jour des prescriptions devra être réalisée vis à vis des moyens de lutte contre l'incendie."
+      ],
+      "valence": "negative",
+      "code": "Arrêtés préfectoraux obsolètes"
+    },
+    {
+      "description": "Les consignes de sécurité incluent des procédures spécifiques pour l'arrêt d'urgence et la mise en sécurité du site lors de crues, reflétant la vulnérabilité du site à des risques naturels.",
+      "excerpts": [
+        "les consignes de sécurité sont établies portées à la connaissance du personnel de l'exploitation, notamment les procédures d'arrêt d'urgence et de mise en sécurité du site lors de crues."
+      ],
+      "valence": "neutral",
+      "code": "Consignes sécurité en cas de crue"
+    },
+    {
+      "description": "L'inspection identifie un besoin de révision des prescriptions de lutte contre l'incendie, sans toutefois formuler d'injonction formelle assortie d'un délai.",
+      "excerpts": [
+        "Une mise à jour des prescriptions devra être réalisée vis à vis des moyens de lutte contre l'incendie."
+      ],
+      "valence": "negative",
+      "code": "Mise à jour réglementaire requise"
+    }
+  ]
+}

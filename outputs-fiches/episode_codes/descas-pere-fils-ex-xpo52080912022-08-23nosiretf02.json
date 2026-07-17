@@ -1,0 +1,33 @@
+{
+  "document_date": "2022-08-23",
+  "document_title": "descas-pere-fils-ex-xpo52080912022-08-23nosiretf02",
+  "document_summary": "Lors du changement d'exploitant d'un entrepôt logistique (de XPO à Descas Père et Fils), l'inspection découvre que les tours aéro-réfrigérantes installées par le précédent exploitant n'ont pas été démantelées, créant une ambiguïté sur leur devenir et un risque de situation administrative non régularisée.",
+  "surprises": "Le changement d'exploitant a laissé en place des équipements classés ICPE sans clarification de leur statut — une situation de flou administratif générée par la transition d'exploitation.",
+  "tensions": "Les TAR appartiennent à la configuration du précédent exploitant (XPO) mais se trouvent dans les locaux du nouvel exploitant (Descas), créant une ambiguïté sur la responsabilité réglementaire.",
+  "codes": [
+    {
+      "description": "Le changement d'exploitant a laissé en place des tours aéro-réfrigérantes classées ICPE sans que leur devenir soit clarifié, créant une zone grise réglementaire.",
+      "excerpts": [
+        "lors de sa venue, l'inspection a constaté la présence des tours aéro-réfrigérantes (TAR) ; ces dernières n'ont pas été démantelées. Il subsiste donc un doute quant à leur usage ultérieur et à leur devenir"
+      ],
+      "valence": "negative",
+      "code": "TAR non démantelées au changement exploitant"
+    },
+    {
+      "description": "L'inspection impose à l'exploitant un choix binaire : soit régulariser administrativement les TAR s'il souhaite les exploiter, soit procéder à leur démantèlement avec justificatifs.",
+      "excerpts": [
+        "Si tel est le cas, l'exploitant régularise la situation administrative de ces dernières sous le même délai. A défaut, il procède à leur démantèlement et transmet les justificatifs idoines sous 3 mois"
+      ],
+      "valence": "neutral",
+      "code": "Régularisation administrative ou démantèlement"
+    },
+    {
+      "description": "La situation non résolue des TAR illustre une lacune dans la gestion des équipements lors des transitions entre exploitants successifs.",
+      "excerpts": [
+        "La régulation de température de l'entrepôt était réalisée par le précédent exploitant XPO en ayant recours à deux tours aéro-réfrigérantes (TAR)"
+      ],
+      "valence": "neutral",
+      "code": "Transmission liée au changement d'exploitation"
+    }
+  ]
+}

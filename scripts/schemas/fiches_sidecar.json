@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ijba.fr/projet-icpe/schemas/fiches_sidecar.json",
+  "title": "Sidecar _fiches.jsonl — 1 entrée par PDF",
+  "description": "Chaque ligne de _fiches.jsonl décrit un PDF et ses fiches de constat structurées (numéro, titre, body, sous-section, page 1-based, bbox en points PDF). Produit par extract_rapports_markdown.py v0.2.0. Consommé par construire_fiches.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "source_pdf",
+    "source_sha256",
+    "extraction_version",
+    "extraction_method",
+    "page_count",
+    "fiches"
+  ],
+  "properties": {
+    "source_pdf": {
+      "type": "string",
+      "pattern": "^[^/]+\\.pdf$",
+      "description": "Basename du PDF source."
+    },
+    "source_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$",
+      "description": "SHA-256 hex du PDF au moment de l'extraction."
+    },
+    "extraction_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "description": "Version de l'extracteur."
+    },
+    "extraction_method": {
+      "type": "string",
+      "enum": [
+        "dreal_parser",
+        "pymupdf4llm_generic",
+        "ocr_then_dreal_parser",
+        "ocr_then_pymupdf4llm",
+        "failed"
+      ],
+      "description": "Chemin d'extraction emprunté."
+    },
+    "page_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Nombre total de pages du PDF."
+    },
+    "fiches": {
+      "type": "array",
+      "description": "Liste des fiches de constat extraites. Vide pour les PDFs non-DREAL et les failed.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["num", "titre", "body", "sub_section", "regions"],
+        "properties": {
+          "num": {
+            "type": "string",
+            "pattern": "^[0-9]+$",
+            "description": "Numéro de la fiche (ex. '1', '12')."
+          },
+          "titre": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Titre de la fiche (ex. 'Situation administrative')."
+          },
+          "body": {
+            "type": "string",
+            "description": "Corps complet de la fiche tel qu'extrait du PDF (après clean_text). Contient les champs labélisés (Référence réglementaire, Thème(s), etc.)."
+          },
+          "sub_section": {
+            "type": "string",
+            "description": "Heading de la sous-section DREAL contenant cette fiche (ex. '2-4) Fiches de constats')."
+          },
+          "regions": {
+            "type": "array",
+            "description": "Régions visuelles de la fiche dans le PDF. 1 entrée par page traversée. Vide si le titre n'a pas été trouvé par search_for (OCR dégradé).",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["page", "bbox"],
+              "properties": {
+                "page": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "description": "Numéro de page 1-based (convention PDF viewers)."
+                },
+                "bbox": {
+                  "type": "array",
+                  "items": {"type": "number"},
+                  "minItems": 4,
+                  "maxItems": 4,
+                  "description": "Bounding box [x0, y0, x1, y1] en points PDF (72 pts = 1 inch), origine haut-gauche. Région cropée du titre au titre suivant (ou fin de page)."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

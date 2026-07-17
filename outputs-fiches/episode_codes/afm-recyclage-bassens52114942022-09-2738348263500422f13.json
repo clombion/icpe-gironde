@@ -1,0 +1,34 @@
+{
+  "document_date": "2022-09-27",
+  "document_title": "afm-recyclage-bassens52114942022-09-2738348263500422f13",
+  "codes": [
+    {
+      "description": "L'exploitant n'a pas renseigné son carnet de bord conformément à l'article réglementaire, faute documentaire récurrente.",
+      "excerpts": [
+        "Celui-ci n'est pas complété et renseigné par l'exploitant.",
+        "L'exploitant n'a pas été en mesure de fournir à l'inspection des installations classées le carnet de bord."
+      ],
+      "valence": "negative",
+      "code": "Carnet de bord non tenu"
+    },
+    {
+      "description": "Le même non-respect documentaire a été relevé lors de l'inspection précédente de 2021, signalant une absence de correction dans le temps.",
+      "excerpts": [
+        "L'écart relevé lors de l'inspection 2021 est maintenu."
+      ],
+      "valence": "negative",
+      "code": "Récidive d'écart"
+    },
+    {
+      "description": "L'inspection fixe un délai de trois mois à l'exploitant pour régulariser la tenue du carnet de bord.",
+      "excerpts": [
+        "Il lui appartient ainsi de tenir à jour son carnet de bord selon les dispositions de l'article 19 de l'arrêté ministériel du 4 octobre 2010 sous un délai trois mois."
+      ],
+      "valence": "neutral",
+      "code": "Délai de mise en conformité"
+    }
+  ],
+  "document_summary": "Lors d'une inspection d'AFM Recyclage à Bassens, l'inspecteur constate que le carnet de bord exigé par arrêté n'est pas tenu par l'exploitant, un écart déjà relevé en 2021 et donc maintenu. Un délai de trois mois est accordé pour mise en conformité.",
+  "surprises": "L'écart sur le carnet de bord est identique d'une année à l'autre, suggérant une non-conformité persistante sans sanction intermédiaire.",
+  "tensions": "L'exploitant a communiqué le carnet par courriel, ce qui indique une certaine réactivité, mais le document lui-même reste vide — la forme est respectée, le fond non."
+}

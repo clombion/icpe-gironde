@@ -1,0 +1,43 @@
+{
+  "document_date": "2023-06-22",
+  "document_title": "cie-commerciale-manutention-petroliere52010362023-06-2257645046400119f01",
+  "document_summary": "L'inspection décrit l'organisation de l'appontement pétrolier exploité par la CCMP sur le port de Bordeaux : deux bras de chargement/déchargement de navires pour gazole et biocarburants (EMAG), reliés au dépôt par des tuyauteries, avec un dispositif de défense incendie à mousse.",
+  "surprises": "L'appontement est propriété du port de Bordeaux et exploité par la CCMP via une convention d'occupation temporaire — une relation de propriété/exploitation dissociée qui peut compliquer la responsabilité réglementaire.",
+  "tensions": "Les deux bras sont interchangeables entre gazole et EMAG alors que les tuyauteries sont dédiées à chaque produit — une flexibilité opérationnelle qui contraste avec la rigidité de l'infrastructure.",
+  "codes": [
+    {
+      "description": "La fiche décrit en détail la configuration physique de l'appontement : deux bras DN300, quatre tuyauteries, et les produits transportés (gazole, EMAG).",
+      "excerpts": [
+        "L'appontement est équipé de deux bras de chargement/déchargement de navires : le bras A4810 (DN300) et le bras A4813 (DN300)"
+      ],
+      "valence": "neutral",
+      "code": "Infrastructure appontement pétrolier"
+    },
+    {
+      "description": "L'appontement appartient au Grand Port Maritime de Bordeaux et est exploité par la CCMP sous convention d'occupation temporaire, créant une dualité de responsabilité.",
+      "excerpts": [
+        "Celui-ci est propriété du port de Bordeaux et la CCMP l'exploite sous couvert d'une convention d'occupation temporaire"
+      ],
+      "valence": "neutral",
+      "code": "Dissociation propriété/exploitation"
+    },
+    {
+      "description": "L'appontement est équipé d'un système de défense incendie complet (canons prépositionnés, gicleurs mousse, queues de paon), assurant une protection adaptée aux risques pétroliers.",
+      "excerpts": [
+        "2 canons prépositionnés (solution moussante)",
+        "des gicleurs pour la rétention située au pied des bras (solution moussante)",
+        "plusieurs bouches incendie connectées au réseau incendie du dépôt"
+      ],
+      "valence": "positive",
+      "code": "Défense incendie mousse appontement"
+    },
+    {
+      "description": "Les opérations de déchargement peuvent durer jusqu'à 72 heures, impliquant une exposition prolongée aux risques de fuite ou d'incendie sur l'appontement.",
+      "excerpts": [
+        "Les opérations de déchargement peuvent durer jusqu'à 72 heures"
+      ],
+      "valence": "neutral",
+      "code": "Durée prolongée déchargement navire"
+    }
+  ]
+}

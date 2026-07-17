@@ -1,0 +1,68 @@
+{
+  "document_date": "2026-01-13",
+  "document_title": "aslinka1000518542026-01-1383116137700013f01",
+  "codes": [
+    {
+      "description": "Après clôture de liquidation judiciaire, la station-service reste inaccessible à la sécurisation réglementaire avec des cuves non dégazées et des accès non contrôlés.",
+      "excerpts": [
+        "Au regard de ces éléments, le site n'a donc toujours pas été mis en sécurité."
+      ],
+      "valence": "negative",
+      "code": "Site abandonné non sécurisé"
+    },
+    {
+      "description": "Deux cuves multi-compartiments contenant gazole et sans-plomb sont toujours présentes, non dégazées, avec couvercles non cadenassés.",
+      "excerpts": [
+        "la présence de de deux cuves d'hydrocarbures non dégazées",
+        "le couvercle des cuves d'hydrocarbures toujours présentes et non dégazées, n'était pas cadenassé, ce qui permettait de l'ouvrir facilement."
+      ],
+      "valence": "negative",
+      "code": "Cuves hydrocarbures non dégazées"
+    },
+    {
+      "description": "La clôture de la liquidation pour insuffisance d'actif crée un vide de responsabilité : le liquidateur n'existe plus et le bailleur hérite des obligations.",
+      "excerpts": [
+        "En date du 18/11/2024, la liquidation judiciaire a été clôturée par le tribunal de commerce pour insuffisance d'actif du liquidateur judiciaire."
+      ],
+      "valence": "negative",
+      "code": "Liquidation judiciaire et vide réglementaire"
+    },
+    {
+      "description": "Face à l'absence de responsable légal, l'inspection interpelle le bailleur et le futur acquéreur pour assurer la mise en sécurité du site.",
+      "excerpts": [
+        "l'inspection des installations classées a procédé à une inspection du site avec le bailleur du site et le futur acquéreur (Garage RENAULT).",
+        "l'inspection des installations classées a demandé au bailleur, sous 3 mois maximum"
+      ],
+      "valence": "neutral",
+      "code": "Transfert de responsabilité au bailleur"
+    },
+    {
+      "description": "Le diagnostic de qualité des sols fourni par le bailleur est jugé insuffisant pour évaluer l'étendue de la pollution et les risques sanitaires.",
+      "excerpts": [
+        "ce document ne permet pas notamment : - de connaître l'étendue de la pollution en hydrocarbures (surface, profondeur, volume) du site ; - de savoir s'il y a une pollution des eaux souterraines et superficielles sur et hors site"
+      ],
+      "valence": "negative",
+      "code": "Diagnostic sol insuffisant"
+    },
+    {
+      "description": "Des voitures du garage voisin sont garées sur le site de la station-service sans aucune limitation d'accès malgré les risques.",
+      "excerpts": [
+        "qu'aucune limitation d'accès à la station-service n'a été mise en place. Des voitures du garage RENAULT étaient garées au niveau de la station service."
+      ],
+      "valence": "negative",
+      "code": "Accès non contrôlé zone dangereuse"
+    },
+    {
+      "description": "Les mêmes manquements (cuves non dégazées, accès non limités) sont relevés lors d'inspections successives sans correction effective.",
+      "excerpts": [
+        "Lors de la visite des installations effectuées le 11/07/2024, l'inspection des installations a constaté qu'aucune mesure de mise en sécurité n'a été prise.",
+        "L'inspection a donc proposé de mettre en demeure Maître Caroline CACHAU-LAGOUTTE, liquidateur judiciaire"
+      ],
+      "valence": "negative",
+      "code": "Non-conformité persistante multi-inspections"
+    }
+  ],
+  "document_summary": "Le site d'une ancienne station-service ASLINKA, après faillite et clôture de liquidation judiciaire pour insuffisance d'actif, n'a toujours pas été mis en sécurité en janvier 2026 : deux cuves d'hydrocarbures non dégazées, aucune limitation d'accès et un diagnostic de sols incomplet. L'inspection interpelle désormais le bailleur et le futur acquéreur.",
+  "surprises": "La clôture de la liquidation pour insuffisance d'actif transfère de facto les obligations de sécurisation au bailleur — situation illustrant comment la faillite peut bloquer la mise en sécurité réglementaire des ICPE.",
+  "tensions": "Un futur acquéreur (garage RENAULT) est déjà sur place et utilise le site, alors que les obligations légales de sécurisation n'ont pas été remplies par l'ancien exploitant — risque d'acquisition d'un passif environnemental."
+}

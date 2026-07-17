@@ -1,0 +1,50 @@
+{
+  "document_date": "2023-05-09",
+  "document_title": "bordeaux-metropole-pessac-le-bourgailh-2-chemin-de-la-princesse52085562023-05-09",
+  "codes": [
+    {
+      "description": "Un RIA est présent sur le site mais n'a jamais été mis en service, ce qui constitue une non-conformité malgré la présence physique de l'équipement.",
+      "excerpts": [
+        "le RIA en haut de quai n'a jamais été mis en service.",
+        "Mise en demeure du 11/05/2022: Remise en service du RIA (échéance: 11/08/2022)"
+      ],
+      "valence": "negative",
+      "code": "RIA jamais mis en service"
+    },
+    {
+      "description": "Les travaux préparatoires à la mise en service du RIA (voirie, compteur d'eau double, électricité triphasée) ont été réalisés.",
+      "excerpts": [
+        "les travaux de voirie, le double compteur d'eau et l'installation électrique triphasée ont été réalisés pour permettre l'adjonction du RIA et des équipements connexes."
+      ],
+      "valence": "positive",
+      "code": "Travaux voirie préparatoires réalisés"
+    },
+    {
+      "description": "Comme pour la déchetterie de Mérignac, le contrat avec DESAUTEL n'inclut pas la protection hors-gel, risquant de rendre le RIA inopérant en période froide.",
+      "excerpts": [
+        "Le bon de commande passé avec DESAUTEL indique que les prestations suivantes ne sont pas comprises dans le contrat: « Toute mise hors gel non prévue au présent descriptif / création local surpresseur hors gel. »"
+      ],
+      "valence": "negative",
+      "code": "Protection hors-gel non couverte par contrat"
+    },
+    {
+      "description": "Un extincteur mobile 50 kg est présent comme mesure compensatoire, jugée acceptable à court terme par l'inspection.",
+      "excerpts": [
+        "l'inspecteur a constaté la présence d'une extincteur mobile sur roue d'une capacité de 50 kg ; ce type de moyen de lutte incendie est souvent un moyen compensatoire en l'absence de RIA. La maîtrise du risque incendie au jour de l'inspection, était acceptable."
+      ],
+      "valence": "mixed",
+      "code": "Extinction mobile compensatoire"
+    },
+    {
+      "description": "L'échéance de la mise en demeure (août 2022) est dépassée mais l'inspection n'engage pas de suites administratives immédiates au regard des progrès.",
+      "excerpts": [
+        "Étant donné la volonté de l'exploitant de se mettre en conformité et les justifications avancées pour le retard pris dû à la mise en œuvre des travaux, aucune suite administrative n'est proposé à ce stade."
+      ],
+      "valence": "neutral",
+      "code": "Mise en demeure délai dépassé toléré"
+    }
+  ],
+  "document_summary": "La déchetterie de Pessac (Le Bourgailh) a un RIA physiquement présent mais jamais mis en service depuis l'inspection de 2022 ; des travaux préparatoires ont été réalisés mais la mise en service effective est repoussée à septembre 2023 selon l'exploitant.",
+  "surprises": "La situation est quasi-identique à celle de la déchetterie de Mérignac inspectée le même jour — même prestataire (DESAUTEL), même mise en demeure de mai 2022, même lacune hors-gel — suggérant un problème systémique dans la gestion des équipements incendie au niveau de Bordeaux Métropole.",
+  "tensions": "Le RIA existe physiquement mais n'est pas mis en service depuis plus d'un an après la mise en demeure — la présence matérielle de l'équipement ne garantit pas la conformité opérationnelle."
+}

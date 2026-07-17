@@ -1,0 +1,2360 @@
+[
+  {
+    "slug": "auchan-retail-logistique52004312025-10-2383223540200167f03",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Organisation en cas d'indisponibilité du sprinkleur non décrite dans le PDI — absence de document (M01), domaine incendie entrepôt logistique."
+  },
+  {
+    "slug": "auchan-retail-logistique52004312025-10-2383223540200167f04",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exercices incendie réalisés mais l'organisation du PDI (coupures, vannes, astreinte) n'est pas testée — lacune dans les contrôles/exercices périodiques (M07)."
+  },
+  {
+    "slug": "auchan-retail-logistique52004312025-10-2383223540200167f05",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Appellations des cellules divergent entre APC 2018 et PDI — incohérence documentaire entre deux documents de référence (M01). | SKEPTIC: stage corrected S01→S02 (formal demand to update PDI)"
+  },
+  {
+    "slug": "auchan-retail-logistique52004312025-10-2383223540200167f06",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Réserves et sprinklage conformes (M08) mais poteau incendie PI rue P. et M. Curie en mauvais état/borne détachée (M14) — état physique dégradé d'un équipement de lutte incendie."
+  },
+  {
+    "slug": "auchan-supermarche1000146202023-02-1641040901500709f01",
+    "domains": [
+      "D07_RETENTION",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R03_FACADE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant ne peut pas fournir estimation stocks, bilan quantités, ni plan général des stockages le jour de l'inspection — absence de documents requis (M01)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202023-02-1641040901500709f02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rapport de contrôle périodique révèle 2 NCM et 2 ANC sans attestation de mise en conformité transmise — non-conformités de contrôle périodique non levées (M07)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202023-02-1641040901500709f03",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Contrôle complémentaire non réalisé après NCM malgré courrier d'injonction du 9 juin 2022 — absence de contre-visite organisme agréé obligatoire (M07) + absence de rapport (M01)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202023-02-1641040901500709f04",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Station service dispose en permanence d'un accès pour services incendie/secours — conformité constatée sans demande formulée (M08)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202023-02-1641040901500709f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A05_ORGANISME",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Vérification électrique incomplète — rapport initial non présenté, armoire station et prises de terre non vérifiées (impossibilité technique) — M07 + M14 incertitude technique. | SKEPTIC: added M01 (rapport de vérification initiale non présenté)"
+  },
+  {
+    "slug": "auchan-supermarche1000146202023-02-1641040901500709f06",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Traces et présence d'hydrocarbures au sol près des pompes 1-4, détritus dans l'enveloppe de l'extinction automatique — constats physiques directs sur terrain (M14)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202023-02-1641040901500709f07",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Réserve absorbant présente mais aucun moyen de mise en oeuvre (pelle, seau) absent du site — équipement incomplet physiquement constaté (M14)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202023-02-1641040901500709f08",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Consignes d'exploitation du point 4.8 AM 15 avril 2010 absentes du site — absence documentaire de consignes réglementaires (M01)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202023-02-1641040901500709f09",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Dispositif d'arrêt d'urgence présent mais exploitant ne peut pas fournir éléments probants de son test — absence d'attestation de vérification périodique (M07/M01)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202023-02-1641040901500709f10",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Station libre-service 24h/24h sans dispositif de communication permettant d'alerter le responsable — absence d'équipement de sécurité physique constatée (M14)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202023-02-1641040901500709f11",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant ne peut pas fournir plans/schémas réseaux permettant de vérifier le dispositif de collecte indépendant pour eaux pluviales — absence documentaire (M01)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202023-02-1641040901500709f12",
+    "domains": [
+      "D08_DECHETS",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "BSD fourni mais date de prise en charge, nom et signature collecteur-transporteur manquants — BSD incomplet, absence d'éléments documentaires obligatoires (M01)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202023-02-1641040901500709f13",
+    "domains": [
+      "D07_RETENTION",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Attestation d'installation décanteur-séparateur conforme NF EN 858-1 fournie et rapport organisme agréé confirme la conformité (M08)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202023-02-1641040901500709f14",
+    "domains": [
+      "D07_RETENTION",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Fissures constatées aux aires de rétention de distribution de carburant — état physique dégradé d'une zone de rétention (M14, fissuré)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202023-02-1641040901500709f15",
+    "domains": [
+      "D08_DECHETS",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant ne peut pas fournir registre des déchets pour la station service — absence documentaire de registre obligatoire (M01)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202023-02-1641040901500709f16",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Affichette consignes présente mais numéro téléphone responsable d'intervention manquant — document incomplet (M01)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202024-09-2641040901500709f01",
+    "domains": [
+      "D07_RETENTION",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Plan de récolement fourni mais ne montre pas clairement position des cuves — document toujours insuffisant lors de la seconde inspection (M01, T4 car même constat 2023→2024)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202024-09-2641040901500709f02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "ANC toujours non résolues en 2024 malgré bon de commande contre-visite — contrôle périodique incomplet, non-conformités persistantes (M07, T4)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202024-09-2641040901500709f03",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T5_AGGRAVATION",
+    "confidence": "high",
+    "reasoning": "MED du 28/03/2023 non levée — NCM encore non corrigées en 2024 et astreinte administrative proposée (M07 + M04, G4 MED active + NC technique)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202024-09-2641040901500709f04",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "MED levée sur point électrique après rapport Q18 et quadriennal BV 2023 sans observation (M08), mais rapport 2024 non transmis = nouvelle demande documentaire mineure (M01)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202024-09-2641040901500709f05",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Hydrocarbures au sol et irisations constatés de nouveau en 2024 comme en 2023 — même constat physique persistant (M14, T4)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202024-09-2641040901500709f06",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Sable présent dans bac rouge mais toujours aucun moyen de mise en oeuvre (pelle, seau) — même défaut physique en 2024 (M14, T4)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202024-09-2641040901500709f07",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Consignes d'exploitation toujours absentes au niveau dépotage, MED non levée, astreinte proposée — M01 persistant sous MED active (G4, T4)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202024-09-2641040901500709f08",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Aucun justificatif de test du dispositif d'arrêt d'urgence transmis en 2024 malgré engagement 2023 — vérification non réalisée (M07/M01, T4)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202024-09-2641040901500709f09",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Borne 'appel assistance' installée mais inopérante lors des 4 tests (aucune mise en relation) — dispositif physique non fonctionnel sous MED (M14 + M04, G4)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202024-09-2641040901500709f10",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Schéma des réseaux toujours non transmis en 2024 malgré demande initiale 2023 — absence documentaire persistante (M01, T4)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202024-09-2641040901500709f11",
+    "domains": [
+      "D08_DECHETS",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Registre déchets TRINOV mis en place selon exploitant mais aucune preuve transmise — absence de justificatif documentaire (M01, T4)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202024-09-2641040901500709f12",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Affichette consignes toujours sans mention du responsable station-service — document incomplet persistant (M01, T4)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202024-09-2641040901500709f13",
+    "domains": [
+      "D08_DECHETS",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "BSDs mentionnés dans courrier 2023 mais non joints — absence de documents justificatifs (M01, T4)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202024-09-2641040901500709f14",
+    "domains": [
+      "D07_RETENTION",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T5_AGGRAVATION",
+    "confidence": "high",
+    "reasoning": "Fissures constatées en 2024 semblent plus importantes que 2023 (dégradations dans le temps) sans traitement réalisé — aggravation de l'état physique (M14, T5)."
+  },
+  {
+    "slug": "auchan-supermarche1000146202025-03-2541040901500709f01",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "MED levée car dispositif communication fonctionnel lors 5 tests (M08/S06), mais retour son quasi-inaudible — conformité partielle avec réserve sur qualité sonore (M14 mineur). | SKEPTIC: dynamic R13→R02 (exploitant has ongoing improvement commitment with prestataire)"
+  },
+  {
+    "slug": "auchan-supermarche1000146202025-03-2541040901500709f02",
+    "domains": [
+      "D07_RETENTION",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Attestation SID du 22/01/2025 transmise confirmant reprise des fissures, constatée sur terrain par l'inspection — NC résolue, conformité (M08)."
+  },
+  {
+    "slug": "audoin-fils-beton-by-edicem31032922025-04-2333977844100040f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Changement de dirigeant après rachat par EDYCEM; déclaration faite par courrier 06/05/2025; statut légal SAS AUDOIN inchangé — situation administrative régularisée (M08)."
+  },
+  {
+    "slug": "audoin-fils-beton-by-edicem31032922025-04-2333977844100040f02",
+    "domains": [
+      "D12_ADMIN",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Puissance BRH non précisée, plan d'implantation absent pour vérifier le seuil rubrique 2515 et 2517 — positionnement vis-à-vis seuils classement incomplet (M17) + absence plan (M01)."
+  },
+  {
+    "slug": "audoin-fils-beton-by-edicem31032922025-04-2333977844100040f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Prélèvement eau 2023 supérieur de 10% au seuil autorisé, volume auto-consommation non présenté, pas de distinction béton/traitement matériaux — dépassement constaté et mesures insuffisantes (M14/M02). | SKEPTIC: removed M14 (no physical degradation observed, issue is measurement methodology + absent document)"
+  },
+  {
+    "slug": "audoin-fils-beton-by-edicem31032922025-04-2333977844100040f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Sécurisation tête de forage insuffisante, non conforme aux recommandations du dossier technique — état physique inadéquat constaté sur site (M14)."
+  },
+  {
+    "slug": "audoin-fils-beton-by-edicem31032922025-04-2333977844100040f05",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M03_REPORTING"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "DAP avec vocabulaire erroné, registre entrants incomplet (adresse chantier absente), registre sortant non télédéclaré dans RNDTS — NC documentaires et reporting (M01 + M03)."
+  },
+  {
+    "slug": "audoin-fils-beton-by-edicem31032922025-04-2333977844100040f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Fréquence suivi poussières non respectée pour concassage/transit, niveaux significatifs ~2x seuil carrières, référentiel tronqué (M02 — méthodologie et fréquence inadéquates)."
+  },
+  {
+    "slug": "audoin-fils-beton-by-edicem31032922025-04-2333977844100040f07",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Mesures bruit non représentatives (pas de ZER, pas de mesures nocturnes alors que campagnes nocturnes existent), émergences dépassent seuils en points 3 et 4 (M02)."
+  },
+  {
+    "slug": "audoin-fils-beton-by-edicem31032922025-04-2333977844100040f08",
+    "domains": [
+      "D12_ADMIN",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Dossier de modification pour travaux avenue Marcel Dassault incomplet — dossier de porter-à-connaissance insuffisant pour apprécier incidences environnementales (M09)."
+  },
+  {
+    "slug": "audy-sas52012942025-04-0245520322400023f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Aucune mesure des émissions de poussières en sortie du système de filtration — absence de mesures des émissions (M02), VLE non vérifiées."
+  },
+  {
+    "slug": "audy-sas52012942025-04-0245520322400023f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Dépassement important VLE CO (3117 vs 250 mg/Nm3), mesures poussières et COV absentes, organisme non certifié — VLE dépassée + mesures incomplètes (M02)."
+  },
+  {
+    "slug": "audy-sas52012942025-04-0245520322400023f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Dépassements constatés en 2020 (mesures), actions mises en oeuvre mais aucune campagne de mesures réalisée depuis — absence de mesures démontrant conformité sonore (M02, T4)."
+  },
+  {
+    "slug": "audy-sas52012942025-04-0245520322400023f04",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Grille bien en place dans canalisation rejet eaux polluées vers réserve — conformation au confinement incendie vérifiée sur site (M08)."
+  },
+  {
+    "slug": "audy-sas52012942025-04-0245520322400023f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Attestation Q4 RIA/extincteurs fournie, réserve eau 3 colonnes présente, rideaux eau mobiles présents (M08) mais emplacement rideaux non localisé sur plan d'intervention (M14 mineur). | SKEPTIC: removed false M14 (unknown location of rideaux mobiles = plan annotation demand not physical NC); added M01; G1→G2; R13→R14; S01→S02"
+  },
+  {
+    "slug": "audy-sas52012942025-04-0245520322400023f06",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Conditions de stockage vérifiées par sondage sans remarque particulière — conformité constatée (M08)."
+  },
+  {
+    "slug": "audy-sas52012942025-04-0245520322400023f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "CR exercice 14/06/2024 SDIS 33 fourni démontrant bonne mise en oeuvre des mesures, actions correctives réalisées — exercice conforme (M08)."
+  },
+  {
+    "slug": "auto-pieces-du-bassin-lot-110552068622024-01-2344536218900018f01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Au moins 30 VHU dont moteurs démontés constatés — activité de démontage VHU sans enregistrement ni agrément rubrique 2712 (M17 — seuil dépassé, classement requis)."
+  },
+  {
+    "slug": "auto-pieces-du-bassin-lot-110552068622025-09-1144536218900018f01",
+    "domains": [
+      "D12_ADMIN",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M19_CESSATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Aucun VHU constaté le 11/09/2025, mise en sécurité effective R.512-46-25, diagnostic sol 2021 sans contamination, MED respectée — cessation conforme (M08 + M19)."
+  },
+  {
+    "slug": "auto-pieces-du-bassin-lot-110552068622025-09-1144536218900018f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Aucun VHU présent le jour de l'inspection — dispositions art. 2 de l'arrêté MED respectées (M08)."
+  },
+  {
+    "slug": "auto-pro1003078012026-01-2092813057400017f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Établissement sous seuils rubriques 2930 et 2712 — conclusion d'absence de classement ICPE après vérification des seuils (M17)."
+  },
+  {
+    "slug": "automotive-cells-company-se1000264772024-09-2688463858600047f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Niveau d'activité rubrique 2560 travail mécanique des métaux non précisé — positionnement vis-à-vis d'une rubrique ICPE à clarifier (M17)."
+  },
+  {
+    "slug": "automotive-cells-company-se1000264772024-09-2688463858600047f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Contrôle périodique obligatoire (échéance sept. 2021) pas encore effectué en sept. 2024 — absence de contrôle périodique avec fort retard (M07)."
+  },
+  {
+    "slug": "automotive-cells-company-se1000264772024-09-2688463858600047f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan de gestion solvants NMP (reprotoxique H360D) non finalisé, mesures périodiques non réalisées, seuil flux H360D 2kg/h à vérifier — M02 mesures manquantes + M01 plan absent."
+  },
+  {
+    "slug": "automotive-cells-company-se1000264772024-09-2688463858600047f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Mur partiellement non coupe-feu salle 1B, stabilité/épaisseur insuffisante cellule testing, distances aux limites insuffisantes atelier 3 — NC constructives physiques (M14)."
+  },
+  {
+    "slug": "automotive-cells-company-se1000264772024-09-2688463858600047f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant indique n'avoir pas réalisé de mesure de pollution atmosphérique rejetée — absence de mesures périodiques (M02)."
+  },
+  {
+    "slug": "automotive-cells-company-se1000264772025-06-1988463858600047f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Rubrique 2560 identifiée (339+26 kW) mais déclaration 2023 a supprimé par erreur rubriques 1978/2910/2940 — mise à jour déclaration et classement nécessaire (M17 + M01)."
+  },
+  {
+    "slug": "automotive-cells-company-se1000264772025-06-1988463858600047f02",
+    "domains": [
+      "D12_ADMIN",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A05_ORGANISME",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Contrôles périodiques réalisés depuis 2024 (T3), mais NCM rubrique 2940 (dépassement seuil enregistrement) et impossibilité évacuation fumées — contrôle révèle NC techniques (M07)."
+  },
+  {
+    "slug": "automotive-cells-company-se1000264772025-06-1988463858600047f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Plan de gestion solvants sept. 2024 fourni (T3) mais erreur dans gestion des stocks rend bilans massiques illisibles — document incomplet/erroné (M01)."
+  },
+  {
+    "slug": "automotive-cells-company-se1000264772025-06-1988463858600047f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Faux plafonds et ventilation mécanique des salles de travail mécanique ne garantissent pas le désenfumage d'urgence — configuration physique inadéquate pour évacuation fumées (M14)."
+  },
+  {
+    "slug": "automotive-cells-company-se1000264772025-06-1988463858600047f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Mesure pollution atmosphérique du 18/03/2025 sans constat d'écart — conformité des émissions mesurée (M08)."
+  },
+  {
+    "slug": "automotive-cells-company-se1000264772025-06-1988463858600047f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A05_ORGANISME",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Impossibilité évacuation fumées en cas d'incendie rubrique 2940 relevée au contrôle périodique; mur coupe-feu bureaux ne dépasse pas en toiture — NC constructives physiques (M14)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f01",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Contrôle périodique réglementaire TAR non réalisé à la date de l'inspection — absence de contrôle obligatoire organisme agréé (M07)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f02",
+    "domains": [
+      "D14_RISQUE_BIO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "TAR enterrée en espace public à proximité d'arrêts tramway, risque de siphonnage signalé dans AMR — problème de conception physique avec risque sanitaire légionelles (M14, G4). | SKEPTIC: dynamic R14→R02 (exploitant indiqué démantèlement TAR en 2023 = future engagement)"
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f03",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Bras mort présent, purge hebdomadaire réalisée par DALKIA mais non tracée dans carnet de suivi — vérification non documentée (M07/M01)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f04",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "GRV de glycol sans rétention constaté physiquement — stockage liquide sans rétention (M14)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f05",
+    "domains": [
+      "D14_RISQUE_BIO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Corps confidentiel mais demande porte sur désignation des personnes responsables, plan de formation à formaliser et liste intervenants complète — NC documentaires formation (M01)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f06",
+    "domains": [
+      "D11_SECURITE",
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "TAR implantée en espace public accessible par le public malgré grilles — accès impossible à interdire complètement dû à la conception (M14 incertitude technique + risque sanitaire G4). | SKEPTIC: dynamic R14→R02 (exploitant prend contact avec Mairie = future action)"
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f07",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Produits étiquetés avec symboles de dangers — partiellement conforme; demande porte sur FDS manquantes donc légère NC documentaire (M08 dominant mais FDS à fournir). | SKEPTIC: M08→M01 (FDS absent for treatment chemicals; conformity on labelling alone insufficient); G1→G2; R13→R14; S01→S02"
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f08",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rapport de vérification installations électriques non fourni — absence de document de contrôle périodique (M07 + M01)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f09",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan d'entretien présenté mais AMR préconise des compléments non encore apportés — plan de maintenance incomplet selon AMR (M07/M01)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f10",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Analyse Legionella post-redémarrage réalisée 8 jours après (au lieu de 48h-7j) — délai réglementaire de contrôle non respecté (M07)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f11",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Analyses Legionella réalisées tous les mois, dépassant l'exigence bimestrielle — conformité plus que satisfaisante (M08)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f12",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Procédure actions Legionella >1000 UFC/L présente — conformité documentaire constatée (M08)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f13",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Carnet de suivi TAR présent et tenu à jour — inspection ne vérifie pas la complétude, conformité partielle (M08)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f14",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Bilans annuels Legionella non transmis à l'inspection — obligation de transmission documentaire non respectée (M01)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f15",
+    "domains": [
+      "D14_RISQUE_BIO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Affichettes masque FFP3 obligatoire apposées, masques disponibles le jour de l'inspection — conformité EPI (M08)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f16",
+    "domains": [
+      "D14_RISQUE_BIO",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Relevés compteur eau présents, MES <10 mg/L et Legionella <seuil en janvier 2022 — conformité eau d'appoint (M08)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f17",
+    "domains": [
+      "D04_EAUX",
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant ne peut pas certifier la destination des rejets de l'installation — absence de document réseau (M01)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f18",
+    "domains": [
+      "D04_EAUX",
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Résultats analyses jan. 2022 conformes — demande mineure sur flux journalier phosphore (M08 dominant). | SKEPTIC: added M01 (flux phosphore demand = absent data point); G1→G2; R13→R14; S01→S02"
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f19",
+    "domains": [
+      "D08_DECHETS",
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Aucune traçabilité pour la destruction des déchets produits (bidons vides 20L) — absence de stratégie de traçabilité déchets (M01)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f20",
+    "domains": [
+      "D08_DECHETS",
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Registre déclarations d'élimination déchets et BSD absents — absence documentaire obligatoire (M01)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f21",
+    "domains": [
+      "D08_DECHETS",
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Registre des déchets dangereux absent — document obligatoire non tenu (M01)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f22",
+    "domains": [
+      "D05_AIR_BRUIT",
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Aucune surveillance des émissions sonores réalisée pour évaluer l'émergence en ZER — absence de mesures sonores périodiques (M02)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f23",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "AMR réalisée le 29/09/2022 — document réglementaire à jour (M08)."
+  },
+  {
+    "slug": "axel-vega52067542022-10-0641374835100025f24",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant dispose de l'ensemble des procédures spécifiques listées au point 3.7.I.1 — conformité documentaire procédures (M08)."
+  },
+  {
+    "slug": "axel-vega52067542024-12-0441374835100025f01",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Bras mort supprimé (tronçonnage + bouchon + soudure, attestation fournie), point MED levé (M08); nouvelles zones stagnation AMR déc. 2023 à traiter (M07 résiduel)."
+  },
+  {
+    "slug": "axel-vega52067542024-12-0441374835100025f02",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Plan d'entretien complété et intégré dans GMAO prestataire, actions préventives hebdo/mensuel/annuel documentées — point MED levé (M08)."
+  },
+  {
+    "slug": "axel-vega52067542024-12-0441374835100025f03",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Prélèvement post-redémarrage août 2024 dans les délais (48h-7j), résultats <1000 ufc/L, procédures mises à jour — point MED levé (M08)."
+  },
+  {
+    "slug": "axel-vega52067542024-12-0441374835100025f04",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Fonctionnement intermittent des pompes circulation TAR sans suivi de périodes ni procédure définie — AMR déc. 2023 pointe absence de gestion risque stagnation (M07)."
+  },
+  {
+    "slug": "axel-vega52067542025-06-1041374835100025f01",
+    "domains": [
+      "D14_RISQUE_BIO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Absence de dispositif d'éloignement public autour des TAR en espace public — MED proposée au préfet, risque sanitaire légionelles identifié (M14, G4)."
+  },
+  {
+    "slug": "axel-vega52067542025-06-1041374835100025f02",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Échéances arrêté 17/03/2025 non échues — bilan actions AMR à transmettre avant 17/06/2025, conformité à vérifier (M07, R02 car engagement futur). | SKEPTIC: dynamic R02→R14 (no exploitant promise in body; inspection recommending action on non-due deadline)"
+  },
+  {
+    "slug": "axel-vega52067542025-06-1041374835100025f03",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Étude technico-économique substitution TAR par technologie sans légionelles imposée à l'article 5 — obligation de communication/étude (M09) à remettre avant 17/08/2025. | SKEPTIC: dynamic R02→R14 (no exploitant promise); G3→G2 (deadline not yet due, no current NC)"
+  },
+  {
+    "slug": "azura31024502023-03-2980419967700027f01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Seuil rubrique 2714 dépassé (337 m3 vs 216 déclaré), DIS stockés sans rétention — classement non mis à jour et écart physique (M17 + M14 résiduel). | SKEPTIC: added M14 (déchets dangereux non entreposés sur rétention = physical site observation)"
+  },
+  {
+    "slug": "azura31024502023-03-2980419967700027f02",
+    "domains": [
+      "D07_RETENTION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Imperméabilisation complète levée (M08), mais 2 fûts 200L sans rétention constatés et poste distribution sans bac égouttures (M14 physique résiduel). | SKEPTIC: removed false M14 (fûts on rétention, rétentions propres, \"Ecart levé\"); G3→G1; S02→S01"
+  },
+  {
+    "slug": "azura31024502023-03-2980419967700027f03",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Personnel sans connaissance du dispositif de confinement des eaux polluées (déversement/incendie) ni de sa capacité — absence physique de vanne/consigne identifiée (M14)."
+  },
+  {
+    "slug": "azura31024502023-03-2980419967700027f04",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Deux portails fermés fin journée/week-end et clôture périphérique complète — écart accès levé (M08)."
+  },
+  {
+    "slug": "azura31024502023-03-2980419967700027f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Courrier SDIS 11/03/2022 confirmant 3 points eau opérationnels, extincteurs contrôlés déc. 2022, bâtiment sans stockage déchets — écart incendie/désenfumage levé (M08)."
+  },
+  {
+    "slug": "azura31024502023-03-2980419967700027f06",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Zone imperméabilisée, réseau collecte et séparateur HC présents (M08), mais séparateur déjà saturé en moins d'un an — pompage à envisager (M14 mineur)."
+  },
+  {
+    "slug": "azura31024502023-03-2980419967700027f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Réseau de collecte installé depuis moins d'un an sans analyse de rejets aqueux réalisée — mesures de rejets à effectuer (M02)."
+  },
+  {
+    "slug": "azura31024502023-03-2980419967700027f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Aucune analyse polluants en sortie réseau — mesures périodiques annuelles requises par AM non encore réalisées (M02)."
+  },
+  {
+    "slug": "arcelormittal-construction-france52053242024-06-2148572062700234f01",
+    "domains": [
+      "D04_EAUX",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Établissement bien visé par L.541-15-11 granulés plastique industriels; équipements et procédures de prévention pertes mis en place — conformité constatée (M08)."
+  },
+  {
+    "slug": "arcelormittal-construction-france52053242024-06-2148572062700234f02",
+    "domains": [
+      "D04_EAUX",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Puisards/regard avec paniers récupération granulés, débourbeur, nettoyages réguliers documentés — dispositifs confinement granulés conformes (M08)."
+  },
+  {
+    "slug": "arcelormittal-construction-france52053242024-06-2148572062700234f03",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Procédures récupération chutes polymères, entretien paniers/débourbeur, sensibilisation 'minute environnement' — procédures sans remarque particulière (M08)."
+  },
+  {
+    "slug": "arcelormittal-construction-france52053242024-06-2148572062700234f04",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A05_ORGANISME",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Audit certification granulés plastique D.541-362 prévu mi-juillet 2024 selon exploitant — contrôle par organisme indépendant pas encore réalisé (M07, R02 engagement futur)."
+  },
+  {
+    "slug": "arcelormittal-construction-france52053242024-06-2148572062700234f05",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Puissance travail métaux 832 kW vs 400/700 kW déclarés, rubrique 1185 gaz R410A à préciser — classement nécessitant mise à jour PAC (M17 + M09)."
+  },
+  {
+    "slug": "arcelormittal-construction-france52053242024-06-2148572062700234f06",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Seuil porte rectifié depuis inspection 2020 permettant mise en oeuvre facilitée du batardeau — NC résolue, conformité (M08)."
+  },
+  {
+    "slug": "arcelormittal-construction-france52053242024-06-2148572062700234f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Travaux désenfumage ateliers quasi-completés selon échéancier 5 ans, dernière tranche atelier pliage prévue août 2024 — en cours de correction (M08 partiel). | SKEPTIC: false M08 (last tranche désenfumage not yet done, planned Aug 2024); M08→M01; G1→G2; R13→R02; S01→S02"
+  },
+  {
+    "slug": "au-bois-de-chauffage1000429572024-03-1444277146500014f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Quantités stockées sous seuil 1532, puissance machine ~48 kW sous seuil 2410, VHU sous seuil 2712 — non-classement ICPE conclu après vérification seuils (M17)."
+  },
+  {
+    "slug": "b-a-tp52124422022-11-2482500722200011f01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Site classé enregistrement pour rubriques 2713/2714 sans dossier déposé; site non régularisable (zone N PLU, proximité ruisseau); exploitant débordé — M17 seuils dépassés sans classement (G4 car non régularisable + pollution sol suspecte). | SKEPTIC: added M06_RECIDIVE (same non-regularisation NC since 07/01/2021 inspection)"
+  },
+  {
+    "slug": "baffoigne-frederic31054482022-11-0351749850700048f01",
+    "domains": [
+      "D08_DECHETS",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE",
+      "M19_CESSATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T5_AGGRAVATION",
+    "confidence": "high",
+    "reasoning": "MED 27/07/2021 non respectée, VHU non évacués, batteries au sol, bidons acide enfouis, irisations hydrocarbures — état physique aggravé, travaux d'office proposés (M04 + M14, G4). | SKEPTIC: added M19_CESSATION (body explicitly references cessation obligations and étude de sol post-cessation)"
+  },
+  {
+    "slug": "baffoigne-frederic31054482022-11-0351749850700048f02",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T5_AGGRAVATION",
+    "confidence": "high",
+    "reasoning": "Exploitant a continué à apporter des déchets après interdiction — violation d'une prescription explicite d'interdiction (M14 comportement/constat physique direct). | SKEPTIC: added M06_RECIDIVE (accumulation of waste continues from prior inspection despite MED)"
+  },
+  {
+    "slug": "baffoigne-frederic31054482023-04-2051749850700048f01",
+    "domains": [
+      "D08_DECHETS",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M19_CESSATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Quasi-totalité des déchets évacuée mais zone décapée avec déchets enfouis, dossier cessation R.512-46-25 non fourni, SUP proposée — obligations post-cessation non respectées (M04 + M19)."
+  },
+  {
+    "slug": "baffoigne-frederic31054482023-04-2051749850700048f02",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Pas de nouveaux déchets apportés constatés — prescription d'interdiction d'apport respectée (M08)."
+  },
+  {
+    "slug": "bagatelle52088262024-01-1737935553000013f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Nouvelles chaudières (4x1400 kW + GE fioul) installées dans cadre chantier BAHIA — mise à jour déclaration puissance à vérifier vis-à-vis seuils rubrique 2910 (M17)."
+  },
+  {
+    "slug": "bagatelle52088262024-01-1737935553000013f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rapport contrôle périodique non présenté, nouvelle chaufferie nov. 2023 = premier contrôle dû avant mai 2024 — contrôle obligatoire à réaliser (M07)."
+  },
+  {
+    "slug": "bagatelle52088262024-01-1737935553000013f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Mesures rejets atmosphériques non encore réalisées pour nouvelle chaufferie (délai: avant mars 2024 au plus tard 4 mois après mise en service nov. 2023) — M02 mesures absentes."
+  },
+  {
+    "slug": "bagatelle52088262024-01-1737935553000013f04",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Chaîne de coupure automatique testée annuellement selon IDEX mais attestation mise en service de la centrale de détection non présentée — document de vérification manquant (M07/M01)."
+  },
+  {
+    "slug": "bagatelle52088262024-01-1737935553000013f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Contrôle efficacité énergétique réalisé à mise en service mais rapport non présenté — document non transmis (M01)."
+  },
+  {
+    "slug": "bagatelle52088262024-01-1737935553000013f06",
+    "domains": [
+      "D01_INCENDIE",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Chaufferie équipée de détecteurs gaz et détecteurs incendie — conformité dispositifs de détection constatée (M08)."
+  },
+  {
+    "slug": "bagatelle52088262024-01-1737935553000013f07",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Technicien IDEX présent à demeure, passage toutes les 2 jours, surveillance à distance avec remontée alertes — surveillance installation conforme (M08)."
+  },
+  {
+    "slug": "bagatelle52088262024-01-1737935553000013f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Extincteur à l'extérieur uniquement, aucun à l'intérieur du local chaufferie — absence physique d'équipement incendie obligatoire (M14 — équipement absent)."
+  },
+  {
+    "slug": "bagneres-bois52006962022-08-0438411878200018f01",
+    "domains": [
+      "D06_SOLS",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "Plan de gestion pollution sols non réalisé depuis rapport KCE 2015 (constat initial 2015 → 2022), piézomètres montrant contamination pérenne propiconazole/tébuconazole — MED proposée, pollution chronique (M04 + M14, T7)."
+  },
+  {
+    "slug": "bagneres-bois52006962022-08-0438411878200018f02",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Conditions de stockage non conformes aux hypothèses PAC (allées orientation, masse vs racks, cellules 8/9) — NC physiques de stockage constatées sur site (M14)."
+  },
+  {
+    "slug": "bagneres-bois52006962022-08-0438411878200018f03",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Container de produit pur (antifongique) stocké quelques heures avant vidange sans rétention — absence physique de rétention pendant stockage temporaire (M14)."
+  },
+  {
+    "slug": "bagneres-bois52006962022-08-0438411878200018f04",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Alarmes niveau haut/bas fonctionnelles, lèvre face arrière bac traitement assurant débordement vers rétention — conformité zone traitement bois (M08)."
+  }
+]

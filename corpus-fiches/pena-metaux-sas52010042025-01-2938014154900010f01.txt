@@ -1,0 +1,109 @@
+Constats body:
+A titre de rappel, l'autosurveillance réalisée en novembre 2024 avait montré des non-conformités
+en particulier au niveau de la zone à émergence réglementée n°3 (ZER3). Ainsi, il avait été
+demandé à l'exploitant de fournir sous un délai de 1 mois (cf. rapport de l'inspection daté du
+13/01/2025) :
+une analyse critique des nuisances observées dans le rapport de rapport de mesurages de
+bruit environnemental du 19/11/2024, afin de déterminer l'origine des nuisances et extraire
+celles qui sont propres à son activité ;
+•
+un plan d'actions avec échéancier de mise en œuvre, détaillant les actions à mener pour
+permettre le retour à une situation d'émergence sonore conforme. Cette situation sera à
+justifier par de nouvelles mesures de bruit.
+•
+Afin de répondre à cette demande, l’exploitant a transmis le 25/03/2025 un nouveau rapport de
+mesure des émissions de bruit avec les installations mises à l’arrêt complet durant une période de
+24 heures.
+L’objectif était de comparer les valeurs de bruit et d’émergence mesurées lors de la campagne de
+
+5/7
+novembre 2024 (site en fonctionnement) avec les valeurs de bruit ambiant résiduel de la zone
+industrielle pour quantifier les nuisances imputables à l’établissement PENA METAUX.
+Lors de cette nouvelle campagne 2025, les mesures ont été effectuées sur l’ensemble des 4 points
+en limite de propriétés (LDP) et des 5 zones à émergence réglementées (ZER) durant une période
+de 24 heures :
+en période nocturne : du 29/01/25 à 22h00 au 30/01/25 à 07h00 ;
+•
+en période diurne : du 30/01/25 à 07h00 au 30/01/25 à 22h00.
+•
+L’inspection des installations classées s’est déplacée sur site afin de constater, d’une part la mise
+en place effective des sonomètres aux points prévus dans l’arrêté préfectoral de 2020, et d’autre
+part les conditions dans lesquels les mesures ont été réalisées.
+L'implantation des sonomètres n’appelle pas de commentaire de la part de l’inspection qui a
+constaté qu'ils enregistraient bien et étaient positionnés conformément à l’arrêté préfectoral
+d’autorisation et incluant une habitation ayant porté plainte pour nuisances sonores (ZER5).
+Ainsi, la synthèse des résultats du rapport d'analyse en date du 24/03/2025 présente les valeurs de
+bruit ambiant mesurés en novembre 2024 corrigés du bruit résiduel mesuré en janvier 2025
+lorsque les installations de PENA METAUX étaient à l'arrêt.
+Cette synthèse fait état de non-conformités aux points ZER 1 et 2 en période diurne ; émergence
+respectivement de 12 et 7,5 à comparer à une valeur réglementaires de 5 dB. Néanmoins, et pour
+rappel, ces ZER étant respectivement placées au droit d'une habitation actuellement vide et
+d'une habitation appartenant en réalité à la société. Ces points restent non-conformes, mais en
+l'état actuel, il peut être considéré que cela ne génère pas de nuisance sur ce voisinage et aucune
+suite n'est proposée à ce stade. Il appartient à l'exploitant de prévoir des actions dans le cas
+d'une évolution du voisinage.
+Les résultats sur les autres ZER sont indiqués conformes. Néanmoins, les valeurs de bruit résiduels
+(c’est-à-dire les valeurs de bruit mesurées au droit des points ZER 1 à 5 lorsque le site PENA
+METAUX était à l'arrêt) présentés dans la synthèse des résultats du rapport montrent en ZER 3
+des valeurs en décibels nettement supérieurs aux autres point en ZER. La valeur du niveau de
+pression acoustique en période diurne pour ce point est en effet égale à 60,5 dB contre des
+mesures environ égales à 49 dB au droit des autres ZER.
+Le rapport indique que : « Pour le point ZER 3, une phase de travaux sur le parking a eu lieu de
+08h00 à 11h00. Cette plage horaire a été retirée du calcul. (cf. page 27). Le bruit résiduel mesuré de
+07h00 à 13h30 en enlevant la période des travaux est de 60,5 dB. Le bruit résiduel mesuré de 07h00
+à 13h30 en gardant dans le calcul la période de travaux est de 72,5 dB. »
+Il  n'apparaît  pas  justifié  qu'en  étant  à  l'arrêt  et  en  retirant  l'impact  des  opérations  de
+
+6/7
+terrassement les valeurs de bruit résiduel en ZER 3 soient aussi élevées. L'exploitant n'a pas
+apporté d'autreexplication à cette valeur significativement plus élevée que les autres points de
+même configuration.
+En outre, même en prenant en considération la valeur de bruit résiduel la plus élevée d'une autre
+ZER (51,5 dB), le niveau d'émergence n'est toujours pas respecté. La non conformité au droit de
+ZER 3 demeure donc.
+L’inspection propose de ce fait de ne pas prendre en considération la valeur 2025 de ZER 3 pour
+lever la non-conformité déjà relevée en 2024.
+Toujours concernant la ZER 3, l’exploitant avait indiqué à l’oral à l’inspection des installations
+classées que cette zone, en plus d’être affectée en tant qu’aire de transit des véhicules entrant
+sur le site PENA METAUX, accueillait des activités de manutention (exemple : déchargement de
+bennes) pouvant s’avérer bruyantes. L’exploitant s'était alors engagé à interdire toute opération
+bruyante à cet emplacement afin d'en faire un espace de stockage du matériel et une aire de
+stationnement. Ce point n'a pas été vérifié compte tenu de l'arrêt des activités et sa mise en
+place reste à justifier par l'exploitant.
+Enfin, en ce qui concerne la mesure au point ZER 5 (au droit du domicile de la riveraine de PENA
+METAUX se plaignant de nuisances sonores émanant du site) les valeurs de bruit résiduel sont
+cohérentes avec celles mesurées sur les ZER 1, 2 et 4. Au droit de ce point (ZER 5), les valeurs
+d'émergence  corrigées  du  bruit  résiduel  mesuré  lors  de  la  dernière  campagne  2025  sont
+conformes.
+Au vu des actions déjà mises en œuvre par l’exploitant, il n’est pas prévu à ce stade de mettre en
+demeure ce dernier sur ce point (rappel des actions mises en œuvre : une communication externe
+a été diffusée à l'ensemble des sous-traitants et entreprises de transport extérieurs, rappelant
+l'interdiction de klaxonner ainsi que celle de circuler par le Chemin de la Poudrière en direction
+ou en provenance de Pessac ; une communication interne a également été effectuée auprès de
+l'ensemble de la flotte de véhicules pour reprendre les consignes mentionnées ci-dessus ; des
+panneaux d'interdiction de klaxonner ont été installés sur les trois entrées du site situées sur le
+Chemin de la Poudrière.).
+Comme évoqué ci-dessus, les valeurs d'émergence reste non-conformes et les demandes faites
+lors de la précédente inspection restent valables. Il est attendu une réponse officielle dans un
+délais de 2 mois et un contrôle inopiné sur les mesures de bruit pourra être diligenté courant
+2025.
+Demande à formuler à l’exploitant à la suite du constat :
+L’exploitant apporte par courrier officiel, dans un délais de deux mois, les réponses demandées
+
+7/7
+par l’inspection des installations classées dans le rapport du 13/01/2025, en particulier concernant
+la zone ZER 3.
+L'exploitant est toujours redevable d'un plan d'action avec échéancier de mise en œuvre justifié,
+détaillant les actions à mener pour permettre le retour à une situation d'émergence sonore
+conforme sur cette partie de l'installation.
+Ce point pourra à terme faire l'objet d'une mise en demeure.
+
+Prescription:
+L'installation est construite, équipée et exploitée de façon que son fonctionnement ne puisse être
+à l'origine de bruits transmis par voie aérienne ou solidienne susceptibles de compromettre la
+santé ou la sécurité du voisinage ou de constituer une nuisance pour celui-ci. Ses émissions
+sonores ne doivent pas engendrer une émergence supérieure aux valeurs admissibles fixées dans
+le tableau ci-après, dans les zones où celle-ci est réglementée : (…)
+Mémo : émergence : la différence entre les niveaux de pression continus équivalents pondérés A du
+bruit ambiant (établissement en fonctionnement) et du bruit résiduel (en l'absence du bruit généré
+par l'établissement).

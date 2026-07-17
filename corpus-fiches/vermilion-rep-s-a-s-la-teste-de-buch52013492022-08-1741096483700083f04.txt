@@ -1,0 +1,17 @@
+Constats body:
+Le service intégrité de l’exploitant a procédé à l’inspection visuelle des équipements sous pression
+et de leurs éléments singuliers (supports, massifs, accessoires) du dépôt de Cazaux.
+Les visites ont été réalisées en se basant sur l’identification de dégradations liés à un contact ou
+une proximité avec une flamme selon la norme API 579.
+Le  compte  rendu  interne  Vermilion  du  03/08/2022  concernant  la  visite  de  l’ensemble  des
+équipements sous pression du dépôt a été examiné.
+Il en ressort que :
+- la visite n’a pas relevé de signe de contact avec une flamme ou de dégradations particulière liées
+aux éventuels flux thermiques de l’incendie,
+-  les  équipements  ne  nécessitent  pas  de  contrôle  non  destructif  ou  d’investigations
+complémentaires (étape suivante de la démarche API 579),
+- la visite ne remet pas en cause l’aptitude au service de ces installations.
+
+Prescription:
+Avant la reprise d’activité du dépôt, l’exploitant réalise une inspection visuelle des équipements
+sous pression

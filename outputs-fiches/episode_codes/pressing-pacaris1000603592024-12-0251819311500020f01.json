@@ -1,0 +1,41 @@
+{
+  "document_date": "2024-12-02",
+  "document_title": "pressing-pacaris1000603592024-12-0251819311500020f01",
+  "document_summary": "Un pressing exerçant une activité de nettoyage à sec n'a pas procédé à sa demande d'antériorité pour la rubrique 1978 (solvants organiques / directive IED), créant une non-conformité administrative. L'exploitant est mis en demeure de régulariser sa déclaration sous 15 jours.",
+  "surprises": "La rubrique 1978 est entrée en vigueur le 1er janvier 2020, mais l'inspection n'a lieu qu'en décembre 2024 — l'exploitant a donc exercé pendant près de cinq ans sans régulariser une obligation connue dès la création de la rubrique.",
+  "tensions": "L'exploitant dispose déjà d'un récépissé 2345.2 en bonne et due forme, mais l'absence d'un second récépissé (1978) suffit à constituer une non-conformité susceptible de suites administratives — tension entre régularité partielle et exigence de complétude.",
+  "codes": [
+    {
+      "description": "L'exploitant n'a pas accompli la formalité de déclaration requise par une nouvelle rubrique de nomenclature, alors qu'il aurait dû en bénéficier d'office par antériorité.",
+      "excerpts": [
+        "L'exploitant n'a pas procédé à sa demande d'antériorité pour la rubrique 1978. Ceci constitue une non-conformité susceptible de conduire à des suites administratives."
+      ],
+      "valence": "negative",
+      "code": "Défaut de déclaration administrative"
+    },
+    {
+      "description": "La création d'une rubrique par décret aurait déclenché automatiquement un droit à bénéfice de l'antériorité, mais l'exploitant n'a pas activé ce mécanisme.",
+      "excerpts": [
+        "bénéfice de l'antériorité suite à la création de la rubrique par le décret n°2019-1096 du 28/10/19"
+      ],
+      "valence": "negative",
+      "code": "Régime d'antériorité ignoré"
+    },
+    {
+      "description": "L'inspection fixe un délai de 15 jours seulement pour que l'exploitant transmette le récépissé de déclaration.",
+      "excerpts": [
+        "L'exploitant procède à la déclaration de son installation au titre de la rubrique 1978 et transmet le récépissé à l'inspection sous 15 jours."
+      ],
+      "valence": "neutral",
+      "code": "Délai de mise en conformité court"
+    },
+    {
+      "description": "L'activité de nettoyage à sec relève de la directive européenne sur les émissions industrielles, ce qui justifie un encadrement réglementaire spécifique.",
+      "excerpts": [
+        "Installations et activités mentionnées à l'annexe VII de la directive 2010/75/UE du 24/11/10 relative aux émissions industrielles (prévention et réduction intégrées de la pollution) utilisant des solvants organiques - Nettoyage à sec."
+      ],
+      "valence": "neutral",
+      "code": "Solvants organiques / directive IED"
+    }
+  ]
+}

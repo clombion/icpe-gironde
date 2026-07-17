@@ -1,0 +1,2406 @@
+[
+  {
+    "slug": "ecopole-bellevue-exsogefi-materiaux31052272022-11-2189456954000012f09",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Site débuté mai 2022, aucune mesure de concentrations de polluants atmosphériques réalisée. Inspection demande mesure avant mai 2023. Contrôle périodique manquant = M07. NC documentaire/procédurale = G2."
+  },
+  {
+    "slug": "ecopole-bellevue-exsogefi-materiaux31052272022-11-2189456954000012f10",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucune analyse des effluents réalisée depuis mise en service. Inspection demande analyses avant mai 2023. Contrôle/surveillance manquant = M07. NC formelle = G2."
+  },
+  {
+    "slug": "ecopole-bellevue-exsogefi-materiaux31052272022-11-2189456954000012f11",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucune mesure de bruit réalisée depuis démarrage. Demande mesures avant mai 2023. M07 contrôle périodique manquant. G2 NC purement formelle/procédurale."
+  },
+  {
+    "slug": "ecopole-bellevue-exsogefi-materiaux31052272023-05-3089456954000012f01",
+    "domains": [
+      "D01_INCENDIE",
+      "D08_DECHETS",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Incendie survenu sur stock DIB (~100m3 brûlés), défaillance pompe camion pompiers, bâche 160m3 non remplie, mur alvéole abîmé, niveau citerne rétention inconnu. M11 déclaration incident + M14 constats techniques (défaillances physiques constatées). G4 incident réel avec NC physiques concomitantes."
+  },
+  {
+    "slug": "edf-cpe52002622022-11-1655208131762216f01",
+    "domains": [
+      "D13_CESSATION",
+      "D11_SECURITE",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Inspection post-cessation: clôture efficace, gardiennage 24/7, absence produits dangereux sauf terres polluées stockées sur géomembranes renouvelées en bon état, piézomètres en bon état. Conformité générale constatée = M08."
+  },
+  {
+    "slug": "edf-cpe52002622022-11-1655208131762216f02",
+    "domains": [
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Investigations complémentaires réalisées mais schéma conceptuel à actualiser + échéance AP dépassée. M01 document à mettre à jour + M14 constat de dépassement d'échéance réglementaire. Inspection propose APC révisé. G3 NC technique (plan gestion non finalisé) avec historique = T2."
+  },
+  {
+    "slug": "edf-cpe52002622022-11-1655208131762216f03",
+    "domains": [
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Plan de gestion global doit être mis à jour. Exploitant a contractualisé la mise à jour, planning fourni (2023-2024). M01 obsolescence documentaire. R02 engagements futurs de l'exploitant. G2 NC documentaire. T2 suivi antérieur explicit."
+  },
+  {
+    "slug": "edf-cpe52002622022-11-1655208131762216f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Surveillance piézomètres respectée sauf Pz22 bouché (non prélèvement 2e/3e trimestre). Dépassements sur pH, conductivité, arsenic détectés. M14 constat technique (puits bouché, dépassements valeurs référence). Partiellement M08 (fréquence respectée). G3 NC technique (ouvrage bouché + dépassements). T2 suivi continu."
+  },
+  {
+    "slug": "edf-cpe52002622022-11-1655208131762216f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Prescription n'est plus applicable car terrains tranches 1-6 réhabilités et PV récolement obtenu 07/02/2020. Conformité constatée = M08. T3 amélioration (obligation soldée)."
+  },
+  {
+    "slug": "edf-cpe52002622022-11-1655208131762216f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Prescription sur eaux d'exhaure des tranches 1-6 n'est plus applicable post-réhabilitation. A réviser pour futurs pompages. M08 conformité partielle sur point soldé, inspection propose APC. T3."
+  },
+  {
+    "slug": "edf-cpe52002622022-11-1655208131762216f07",
+    "domains": [
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Prescription matériaux inertes pour tranches 1-6 n'est plus applicable (PV récolement 07/02/2020). À intégrer dans mémoire fin travaux futurs. M08 conformité = prescription obsolète."
+  },
+  {
+    "slug": "edf-cpe52002622022-11-1655208131762216f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R10",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "medium",
+    "reasoning": "EDF demande arrêt surveillance paramètres mais inspection refuse car travaux non finalisés. Bilan quadriennal transmis, résultats globalement <VR. M14 tension sur surveillance (exploitant et inspection divergent). M09 refus PAC implicit. R10 tension/conflit sur diagnostic. G2 NC documentaire (divergence sur fréquence). T2 suivi."
+  },
+  {
+    "slug": "edf-cpe52002622023-03-3155208131762216f01",
+    "domains": [
+      "D13_CESSATION",
+      "D06_SOLS",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Cessation bâtiment FIRE: produits évacués, clôture OK, bâtiment vide. MAIS cuve enterrée fioul: neutralisation/démantèlement non justifié documentairement. M01 absence justificatifs cuve enterrée. M14 constat physique (cuve non documentée). G3 NC technique (cuve enterrée sans justificatif). T2 suivi cessation."
+  },
+  {
+    "slug": "edf-cpe52002622023-03-3155208131762216f02",
+    "domains": [
+      "D13_CESSATION",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Investigations démontrent compatibilité zones FIRE avec usage futur. Travaux conformes CE. PV récolement joint. Seule réserve: cuve enterrée fioul non justifiée. M08 conformité globale + M14 résiduel cuve. G2 réserve documentaire mineure. S06 clôture procédure cessation FIRE. T3 amélioration."
+  },
+  {
+    "slug": "edf-cpe52002622024-11-2855208131762216f01",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Clôture efficace mais signalisation danger/interdiction absente en périphérie. Procédure accueil présente. M14 constat terrain: signalisation manquante (équipement absent). G3 NC technique (signalétique sécurité absente). Délai 1 mois imposé."
+  },
+  {
+    "slug": "edf-cpe52002622024-11-2855208131762216f02",
+    "domains": [
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Plan de gestion transmis jan 2024 mais plan de conception travaux absent (exigé par APC 01/2024). Délais 2027-2028 non conformes à l'échéance 31/12/2024. Géomembranes terres polluées réouvertes non re-soudées. Tas terres/végétaux origine inconnue. M01 plan conception manquant + M14 géomembranes non re-soudées, tas terres non confiné. G4 MED échéance dépassée + NC technique. R02 planning annoncé par exploitant non conforme. T4 stagnation (délais non respectés)."
+  },
+  {
+    "slug": "edf-cpe52002622024-11-2855208131762216f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Surveillance trimestrielle eaux souterraines 2023-2024 respectée (fréquence + paramètres). Pas d'évolution notable pollution. Concentrations cohérentes contexte pédogéochimique. M08 conformité totale sur surveillance. T2 suivi continu."
+  },
+  {
+    "slug": "edf-cpe52002622024-11-2855208131762216f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Piézomètres examinés par sondage: bon état, protégés chocs, têtes capuchonnées et cadenassées. M08 conformité terrain totale."
+  },
+  {
+    "slug": "edf-cpe52002622024-11-2855208131762216f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Surveillance eaux superficielles réalisée sur mauvais point (ancien rejet industriel) ne correspondant pas à l'APC 01/2023 (jalles ceinturant le site). M07 mauvais protocole/point prélèvement. M14 non-conformité méthodologique. G3 NC technique (surveillance non conforme à l'arrêté). R02 exploitant a proposé 3 nouveaux points pendant inspection. Délai 3 mois."
+  },
+  {
+    "slug": "edf-sei-guyane1000339992024-08-2755208131790191f01",
+    "domains": [
+      "D12_ADMIN",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Carrière exploitée sans autorisation (pelle mécanique chargement latérite constatée). Prescription non respectée. L171-7 applicable. M14 constat exploitation illégale sur site. M04 MED proposée (régularisation). G4 exploitation sans titre = risque avéré. secteur = carrières."
+  },
+  {
+    "slug": "edf-sei-guyane1000339992024-08-2755208131790191f02",
+    "domains": [
+      "D12_ADMIN",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M10_GARANTIES"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Attestation garanties financières non fournie. M01 absence document requis. G3 NC technique (obligation financière non satisfaite pour carrière). secteur = carrières."
+  },
+  {
+    "slug": "edf-sei-guyane1000339992024-08-2755208131790191f03",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bornes de délimitation périmètre autorisation absentes. Prescription non respectée. M14 équipements physiques absents sur site. G3 NC technique (absence bornes = périmètre non délimité). secteur = carrières."
+  },
+  {
+    "slug": "edf-sei-guyane1000339992024-08-2755208131790191f04",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réseau dérivation eaux pluviales et bassin décantation non finalisés. M14 infrastructure physique absente/incomplète. G3 NC technique (système gestion EP absent = risque pollution). secteur = carrières."
+  },
+  {
+    "slug": "edf-sei-guyane1000339992024-08-2755208131790191f05",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Accès voirie publique non aménagé. M14 infrastructure absente. G3 NC technique (risque sécurité publique accès non aménagé)."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-carbon-blanc1000022042022-11-2431452823300245f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Campagne mesure poussières réalisée (CERIB, 2022): empoussiérage entre 50-280 mg/m²/j < seuil TA-Luft 350 mg/m²/j. Solde constat APMD du 11/04/2022. M08 conformité + levée NC. T3 amélioration. S06 clôture."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-carbon-blanc1000022042022-11-2431452823300245f02",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Vanne isolement réseau EP mise en place mai 2022, essai de fermeture concluant lors inspection. Solde constat APMD. M08 conformité totale. T3 amélioration. S06."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-carbon-blanc1000022042022-11-2431452823300245f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Eaux lavage: circuit fermé bassin lavage goulotte, aire toupies avec merlon retenue, pistes propres, pas de trace laitance fossés. Solde APMD. M08 conformité totale. T3. S06."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-carbon-blanc1000022042022-11-2431452823300245f04",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "2 locaux stockage adjuvants avec rétentions conformes (12640L vs 50% cap = OK), produits toxiques toujours sur rétention idoine. Solde APMD. M08 conformité. T3. S06."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-carbon-blanc1000022042022-11-2431452823300245f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plan intervention présent et affiché (solde APMD). Mais hydrant PI n°8449: débit 60m3/h sous 5 bar (non conforme, doit être 60m3/h sous 1 bar). Distance PI non confirmée. M14 constat non-conformité technique appareil incendie + M01 document distance non fourni. G3 NC technique incendie (hydrant non conforme). Menace sanctions. T3 partiel (plan soldé mais nouveau problème hydrant)."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-carbon-blanc1000022042022-11-2431452823300245f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Analyse eaux réalisée (solde APMD) mais paramètre Chrome total (Crt) manquant. HCT à 8,52 mg/l (proche VLE 10). M07 surveillance incomplète (paramètre manquant). M14 constat rapport incomplet. G3 NC technique (paramètre réglementaire manquant, doute efficacité séparateur). T3 partiel."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-carbon-blanc1000022042022-11-2431452823300245f07",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Mesure acoustique réalisée (CERIS, 2022), conforme en diurne. Mais mesures nocturnes absentes alors que site peut fonctionner de nuit. Conditions non représentatives. M07 surveillance incomplète (conditions non représentatives). G2 NC formelle (mesures partielles, pas de dépassement constaté). T3 partiel."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-carbon-blanc1000022042022-11-2431452823300245f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Effluents process recyclés, forage avec totalisateur mensuel, consommation 224 l/m3 < seuil 350 l/m3. M08 conformité totale. G1."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-carbon-blanc1000022042022-11-2431452823300245f09",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Forage rehaussé buse béton avec couvercle béton: dispositif isolement surface conforme. M08 conformité totale. G1."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-carbon-blanc1000022042022-11-2431452823300245f10",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Séparateur à hydrocarbures installé nov 2021 jamais curé. HCT 8,52 mg/l proche VLE 10. Depuis avril sans nouvelles analyses ni entretien. M07 entretien périodique non réalisé. M14 constat risque dépassement VLE. G3 NC technique (séparateur non entretenu, VLE potentiellement dépassée)."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-villenave-d-ornon52070962022-10-1731452823300237f01",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Clôture détériorée côté bassin DIRA. M14 constat physique terrain: clôture dégradée. G3 NC technique (équipement physique dégradé = accès non interdit)."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-villenave-d-ornon52070962022-10-1731452823300237f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bac décantation plein: eaux lavage débordant vers milieu naturel via regard. Exploitant a condamné rejet par courriel 21/10/2022 de façon réactive. M14 rejet effectif constaté + correction en cours. R01 correction spontanée réactive. G3 NC technique (rejet effectif vers milieu naturel)."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-villenave-d-ornon52070962022-10-1731452823300237f03",
+    "domains": [
+      "D04_EAUX",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Point rejet NE avec traces significatives laitances béton, fossé souillé. Exploitant a condamné point de rejet et remis terrain. BSD terres excavées demandé. M14 pollution terrain constatée. R01 correction spontanée. G3 NC technique (pollution constatée, terres souillées)."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-villenave-d-ornon52070962022-10-1731452823300237f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Laitance béton visible dans bassin d'orage malgré décantation + débourbeur. Rejet bassin DIRA non conventionné (ouvrage privé tiers). Vannes guillotines en position fermée (pas de rejet actuel). M14 laitance constatée physiquement, rejet irrégulier vers tiers. G3 NC technique."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-villenave-d-ornon52070962024-01-2631452823300237f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Réseau séparatif mis en place, circuit EP bassin orage + séparateur HC, circuit process fermé en 6 bassins décantation. M08 conformité totale. T3 amélioration post-2022. S06 clôture."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-villenave-d-ornon52070962024-01-2631452823300237f02",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Accès restreint avec clôtures. M08 conformité. T3."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-villenave-d-ornon52070962024-01-2631452823300237f03",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "medium",
+    "reasoning": "Nouvelle vanne guillotine posée 2 jours avant: sable présent (résidus travaux). Pas de matières dangereuses constatées. Analyse prévue par exploitant. M14 résidus de travaux observés (incertitude sur conformité). G2 NC formelle mineure (travaux récents, aucun impact constaté). T3 amélioration générale du réseau."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-villenave-d-ornon52070962024-01-2631452823300237f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Rejet vers bassin DIRA condamné définitivement (obturation + enlèvement buse). Surverse maintenant vers milieu naturel. M08 conformité. T3. S06."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-villenave-d-ornon52070962024-01-2631452823300237f05",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Zone perméable ~80m2 SE avec accumulation eau, pas de dispositif physique pour empêcher infiltration. Incertitude sur ruissellement vers zone perméable. M14 constat d'incertitude (inspecteur interroge possibilité de ruissellement = 'susceptible de constituer un écart'). G3 NC potentielle terrain."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-villenave-d-ornon52070962024-01-2631452823300237f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Puits utilisé pour fabrication béton sans totalisateur. Déclaration loi sur l'eau non justifiée. M14 équipement absent (totalisateur) + M01 absence déclaration IOTA. G3 NC technique (prélèvement non mesuré, non déclaré)."
+  },
+  {
+    "slug": "edycem-ex-vm-beton-villenave-d-ornon52070962024-01-2631452823300237f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Point rejet E non répertorié sur plans, exploitant n'en avait pas connaissance. Pas d'eau/trace visible = probablement hors service. M14 constat incertitude sur point rejet + M01 plans non à jour. R04 méconnaissance exploitant. G2 NC documentaire (plans non à jour, pas d'impact physique constaté)."
+  },
+  {
+    "slug": "ehpad-espace-latour-du-pin1000602962024-11-1926330568200019f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation combustion 1,53 MW mise en service 2019 sans déclaration préalable (rubrique 2910 A-2 DC). Projet APMD joint. M17 classification/régime non respecté. M04 MED proposée. R04 méconnaissance. G4 exploitation sans déclaration depuis 2019 = risque avéré."
+  },
+  {
+    "slug": "ehpad-espace-latour-du-pin1000602962024-11-1926330568200019f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "En l'absence de déclaration, contrôle périodique non réalisé. MED proposée sur ce point aussi. M07 contrôle périodique absent. M04 MED. G4 même logique: absence contrôle depuis mise en service."
+  },
+  {
+    "slug": "ehpad-espace-latour-du-pin1000602962024-11-1926330568200019f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Entretien périodique chaudières OK (attestations 2024). Mais mesure rejets atmosphériques par organisme agréé (O2, SO2, poussières, NOx, CO) jamais réalisée. M07 mesure organisme agréé absente. G2 NC formelle (entretien OK, mesures spécifiques manquantes)."
+  },
+  {
+    "slug": "ehpad-espace-latour-du-pin1000602962024-11-1926330568200019f04",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dispositif coupure alimentation extérieur local chaufferie présent, identifié et signalé. M08 conformité totale."
+  },
+  {
+    "slug": "ehpad-espace-latour-du-pin1000602962024-11-1926330568200019f05",
+    "domains": [
+      "D02_ATEX",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence vannes automatiques redondantes asservies détection gaz + pressostat. Aucun détecteur gaz constaté. MED proposée. M14 équipements sécurité absents physiquement. M04 MED. G4 absence sécurité gaz critique (risque explosion) avec MED."
+  },
+  {
+    "slug": "ehpad-espace-latour-du-pin1000602962024-11-1926330568200019f06",
+    "domains": [
+      "D02_ATEX",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation en sous-sol, aucun dispositif détection gaz présent (déclenchant alarme/coupure électrique). M14 équipement sécurité absent. G4 risque gaz en sous-sol sans détection = danger avéré."
+  },
+  {
+    "slug": "ehpad-espace-latour-du-pin1000602962024-11-1926330568200019f07",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitation sans surveillance permanente: astreinte technique non justifiée formellement, aucune procédure gestion anomalies chaufferie présentée. M14 défaut technique surveillance + M01 absence documentation procédures. R04 méconnaissance. G3 NC technique (mode exploitation non démontré)."
+  },
+  {
+    "slug": "ehpad-espace-latour-du-pin1000602962024-11-1926330568200019f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "3 extincteurs à l'entrée extérieure local mais aucun à l'intérieur (obligation). Système DAI présent. M14 équipement incendie absent à l'intérieur. G3 NC technique (moyens lutte incendie intérieur absents)."
+  },
+  {
+    "slug": "ehpad-espace-latour-du-pin1000602962025-07-0226330568200019f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Exploitant a procédé à la déclaration le 5 février 2025 (rubrique 2910 A-2, 2,43 MW). Situation administrative régularisée. Point MED soldé. M08 conformité. T3. S06."
+  },
+  {
+    "slug": "ehpad-espace-latour-du-pin1000602962025-07-0226330568200019f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contrôle périodique réalisé le 24/06/2025, rapport transmis. 1 NCM (BSD déchets) + 12 ANC. Contrôle effectué donc MED soldée. Exploitant doit lever les NC. M08 conformité sur réalisation contrôle + M07 suivi. G2 NC documentaires résiduelles. T3 amélioration (contrôle réalisé). S06 partiel."
+  },
+  {
+    "slug": "ehpad-espace-latour-du-pin1000602962025-07-0226330568200019f03",
+    "domains": [
+      "D02_ATEX",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "2 vannes automatiques en série, 2 capteurs détection gaz, pressostat installés. Paramétrage présenté. Exploitant mis en conformité. Point MED levé. M08 conformité. T3. S06."
+  },
+  {
+    "slug": "ehtp-saint-jean-d-illac-allee-des-deux-poteaux31051102023-12-1443998740500024f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant ne transmet pas systématiquement l'information préalable fonctionnement nocturne. Pas de procédure formalisée. M01 absence procédure + M14 constat terrain (non-transmission). G2 NC formelle/documentaire (pas d'impact technique direct constaté)."
+  },
+  {
+    "slug": "ehtp-saint-jean-d-illac-allee-des-deux-poteaux31051102023-12-1443998740500024f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mesures émissions atmosphériques (BV, 20/07/2023): dépassement VLE SO2 (371 vs 300 mg/m3) et COVNM (1,71 vs 1,584 kg/h). M14 dépassement VLE mesuré physiquement. G3 NC technique significative (dépassement VLE confirmé)."
+  },
+  {
+    "slug": "ehtp-saint-jean-d-illac-allee-des-deux-poteaux31051102023-12-1443998740500024f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Rapport odeurs 03/02/2023 (mesures 12/12/2022): débits < VR. Mais prochaine étude annuelle 2023 non programmée lors inspection. M07 étude périodique non planifiée. G2 NC formelle (résultats conformes mais calendrier non respecté). T2 suivi (référence mesures antérieures)."
+  },
+  {
+    "slug": "ehtp-saint-jean-d-illac-allee-des-deux-poteaux31051102023-12-1443998740500024f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mesures acoustiques 15/06/2023 (9h26-11h50): non représentatives car site fonctionne aussi de nuit. Mesures nocturnes absentes. M07 mesures acoustiques insuffisantes (conditions non représentatives). G3 NC technique (surveillance non conforme, site fonctionnant de nuit)."
+  },
+  {
+    "slug": "ehtp-saint-jean-d-illac-allee-des-deux-poteaux31051102023-12-1443998740500024f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "medium",
+    "reasoning": "Rapport vérif élec Q18 (09/05/2023) indique dysfonctionnements dispositifs différentiels. Exploitant déclare avoir remplacé début 2023 AVANT la visite. Rapport ne reflète pas la réalité. M07 vérification réalisée avec anomalies. M14 anomalies listées. R03 façade: rapport erroné (conformité déclarée non prouvée). G2 NC formelle (dysfonctionnements corrigés selon exploitant mais non vérifiés)."
+  },
+  {
+    "slug": "ehtp-saint-jean-d-illac-allee-des-deux-poteaux31051102025-06-2743998740500024f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Mesures atm 15/10/2024: SO2 301 mg/m3 (VLE 300, léger dépassement) et NOx 7,61 kg/h (VLE 7,2 kg/h, dépassement). Cf inspection 2023: déjà dépassement SO2 et COVNM. M14 dépassements VLE mesurés physiquement. G3 NC significative (dépassements persistants). T4 stagnation (dépassements reconduisent entre 2023 et 2024)."
+  },
+  {
+    "slug": "ehtp-saint-jean-d-illac-allee-des-deux-poteaux31051102025-06-2743998740500024f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Rapport odeurs 6 sept 2024 (mesures 10/07/2024): émissions odorantes < VR sur tous points. Non-conformité campagne précédente levée (traitement évents cuves bitumes sur charbon actif efficace). M08 conformité. T3 amélioration."
+  },
+  {
+    "slug": "ehtp-saint-jean-d-illac-allee-des-deux-poteaux31051102025-06-2743998740500024f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "medium",
+    "reasoning": "Effluents gazeux diffus trémie chargement non récupérés. Mais valeurs mesurées 10/07/2024 très inférieures VR. Plaintes odeurs voisinage existantes. M14 constat non-récupération diffus + insuffisance. R02 exploitant s'engage à chercher nouvelles solutions. G2 NC technique formelle (valeurs conformes mais dispositif incomplet)."
+  },
+  {
+    "slug": "ehtp-saint-jean-d-illac-allee-des-deux-poteaux31051102025-06-2743998740500024f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Registre périodes travail de nuit absent. Installation a fonctionné la veille sans information préalable à l'inspection. M01 registre absent + M14 non-transmission constatée. G2 NC formelle/documentaire. T4 même constat qu'en 2023 (f01): procédure toujours non en place."
+  },
+  {
+    "slug": "ehtp-saint-jean-d-illac-allee-des-deux-poteaux31051102025-06-2743998740500024f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Mesures bruit 17-18/07/2024: dépassements limite propriété Est nocturne (62>60 dB), ZER NW nocturne (8,5>3 dB), ZER SE diurne (7,5>5 dB) et nocturne (6,5>3 dB). Écrans anti-bruits prévus dossier non installés (déjà demandés en 2022). MED proposée. M14 NC physique mesurée + M04 MED. G4 MED + NC technique. T4 stagnation (écrans toujours absents depuis 2022)."
+  },
+  {
+    "slug": "ehtp-saint-jean-d-illac-allee-des-deux-poteaux31051102025-06-2743998740500024f06",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "GRV liquide dangereux sans rétention, mais corrigé pendant inspection. M08 conformité (correction immédiate). R01 correction spontanée sur site. G1."
+  },
+  {
+    "slug": "ehtp-saint-jean-d-illac-lieu-dit-les-cantines52138612023-03-0443998740500131f01",
+    "domains": [
+      "D13_CESSATION",
+      "D11_SECURITE",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M19_CESSATION",
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Site abandonnée (centrale enrobés): grillage toujours détérioré (identique constat 18/01/2022), 22 fûts rouillés produits dangereux (acétone, huile) posés à même sol sans confinement. Risque écoulement polluants ne peut être écarté. Démarches cessation d'activité R512-39-1 non entamées malgré relances. MED proposée. M19 obligations cessation non respectées. M14 fûts dégradés physiquement sur site. M04 MED. G5 risque imminent (fûts rouillés, produits dangereux, risque écoulement sols). T4 stagnation totale depuis 01/2022."
+  },
+  {
+    "slug": "eiffage-route-sud-ouest1000015872024-01-1839930737000359f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Diagnostic réseau réalisé mais intégrité non justifiée. Actions APS réalisées (vanne barrage, piège cailloux, séparateur HC) mais diagnostic réseaux enterrés post-déploiement non fait par méconnaissance. Eau stagnante parking NE. M14 réseau dégradé non confirmé + eau stagnante. M01 diagnostic intégrité absent. R02 exploitant s'engage à vidanger. G3 NC technique (réseaux intégrité non démontrée, pollution 2022 historique). T2 suivi."
+  },
+  {
+    "slug": "eiffage-route-sud-ouest1000015872024-01-1839930737000359f02",
+    "domains": [
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Terres souillées excavées stockées sur site sous bâche, devis évacuation demandé. Rapport analyses Egis (15/11/2022) non présenté lors inspection. M01 rapport non fourni. R02 exploitant affirme analyses OK mais sans preuves. G3 NC technique (terres polluées non évacuées, rapport manquant). T2 suivi APS."
+  },
+  {
+    "slug": "eiffage-route-sud-ouest1000015872024-01-1839930737000359f03",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aire de lavage raccordée en point bas vers réseau collecte eaux résiduaires. Conforme prescriptions article 5.7 AM. M08 conformité. Rappel que diagnostic réseaux f01 devra confirmer le cheminement."
+  },
+  {
+    "slug": "eiffage-route-sud-ouest1000015872024-06-2639930737000359f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Diagnostic réseau janvier 2024 révèle état dégradé réseaux. Travaux réfection en cours (bitume frais constaté). Rejet fossé toujours condamné (depuis 2022). Exploitant n'a pas présenté détail travaux ni échéancier. M14 réseaux dégradés constatés physiquement (caméra). G3 NC technique (réseaux dégradés, situation prolongée). T4 stagnation (rejet toujours condamné, réseaux toujours défectueux)."
+  },
+  {
+    "slug": "eiffage-route-sud-ouest1000015872024-06-2639930737000359f02",
+    "domains": [
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Rapport Egis transmis 27/06/2024 mais ne couvre pas la zone excavée du fossé (prescrite par APC). Analyses complémentaires fossé non réalisées. M01 rapport incomplet (zone manquante). M14 insuffisance diagnostic (lacune identifiée). R02 exploitant affiche volonté réaliser rapidement. G3 NC technique (pollution potentielle fossé non caractérisée). T4 stagnation (obligation de 2022 toujours non satisfaite)."
+  },
+  {
+    "slug": "eiffage-route-sud-ouest1000015872025-03-2539930737000359f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Travaux réfection réseaux effectués. Ancien séparateur HC dysfonctionnant neutralisé (non déposé, proche compteur élec). Rejet fossé toujours condamné. Nouveau séparateur HC implanté. Mairie Toulenne a levé interdiction de rejet le 19/03/2025. M08 travaux réalisés (partiel) + M14 situation complexe séparateur. G3 NC technique résiduelle (séparateur ancien neutralisé mais non déposé, rejet non encore libéré). T3 amélioration progressive."
+  },
+  {
+    "slug": "eiffage-route-sud-ouest1000015872025-03-2539930737000359f02",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Piège cailloux, 2 séparateurs HC, vanne de barrage mis en place. Solde constat 22/07/2022 et APMD. M08 conformité totale. T3. S06."
+  },
+  {
+    "slug": "eiffage-route-sud-ouest1000015872025-03-2539930737000359f03",
+    "domains": [
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Rapport Egis 11/01/2023 transmis en juin 2024. Analyses complémentaires fossé (ECR Environnement, 20/02/2025): HCT > seuil ISDI fond fossé sortie exutoire S3 + concentrations notables S4. Plan de gestion pollution requis. M14 contamination résiduelle détectée physiquement. R02 exploitant affiche volonté plan gestion rapide. G3 NC technique (pollution détectée au fond fossé). T2 suivi."
+  },
+  {
+    "slug": "ekem-keyor52005542023-06-1245420155900019f01",
+    "domains": [
+      "D13_CESSATION",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "État site conforme au plan de gestion et annexes. 4 piézomètres présents (2 déplacés pour contraintes aménagement, anciens rebouchés, nouveaux forés en aval hydraulique). Aucune mesure de dépollution supplémentaire exigée. M08 conformité totale. T2 suivi plan gestion."
+  },
+  {
+    "slug": "elevage-des-dunes-des-sages31004992022-04-2179009503800010f01",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A03",
+    "stage": "S05",
+    "gravity": "G5",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Clôture non remise en état, chiens pourraient divaguer (atteinte sécurité publique). Arrêté MED 48h joint. M14 clôture physiquement défaillante. M04 MED 48h. A03 préfet (arrêté signé). G5 urgence (risque imminent divagation animaux, délai 48h). secteur = élevage."
+  },
+  {
+    "slug": "elevage-des-dunes-des-sages31004992022-06-2179009503800010f01",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M05_SANCTION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G5",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Inspection réalisée sans rentrer. Présence ~20 chiens adultes constatée. Prescriptions arrêté suspension (5 mai 2022) non respectées. M14 constat non-respect suspension active. M05 sanction (arrêté suspension). G5 urgence (exploitation illégale sous suspension d'activité). T4 stagnation (aucune mise en conformité depuis arrêté)."
+  },
+  {
+    "slug": "elevage-dnepr-elita-mme-le-priol-lyudm31047802024-06-1081788252500014f01",
+    "domains": [
+      "D12_ADMIN",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déclaration du 25/09/2021 très incomplète, principales unités non figurées sur plans. Pas de demande dérogation prescriptions AM. Toutes installations ne respectent pas distances tiers. Certaines à moins 35m cours d'eau. M17 classement/déclaration non conforme à réalité. M01 plans et dossier incomplets. R04 méconnaissance. G3 NC technique (distances non respectées, installations non conformes). secteur = élevage."
+  },
+  {
+    "slug": "elevage-dnepr-elita-mme-le-priol-lyudm31047802024-06-1081788252500014f02",
+    "domains": [
+      "D12_ADMIN",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dossier déclaration et plans non à jour, ne correspondent pas aux installations réelles. Pas de demande dérogation. M01 dossier obsolète/non à jour. R04 méconnaissance. G3 NC technique (installations non déclarées en réalité)."
+  },
+  {
+    "slug": "elevage-dnepr-elita-mme-le-priol-lyudm31047802024-06-1081788252500014f03",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Tous bâtiments/parcs élevage à moins 100m habitations tiers. Unités 9-13 à moins 35m cours d'eau. M14 constat physique distances non respectées. G3 NC technique (distances réglementaires violées). secteur = élevage."
+  },
+  {
+    "slug": "elevage-dnepr-elita-mme-le-priol-lyudm31047802024-06-1081788252500014f04",
+    "domains": [
+      "D15_SECTEUR",
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bâtiments sales, déjections jonchant sols intérieurs/extérieurs non ramassés depuis plusieurs jours, niches tôles/bois sales, odeurs ammoniacales fortes. M14 constats physiques terrain multiples (état dégradé installations, insalubrité). G3 NC technique significative (état sanitaire des installations). secteur = élevage."
+  },
+  {
+    "slug": "elevage-dnepr-elita-mme-le-priol-lyudm31047802024-06-1081788252500014f05",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Unités 4-8: sols non imperméables (terre/cailloux), récupération effluents impossible. Unités NW: aires extérieures bétonnées sans caniveaux étanches. Unités 9-13: partie empierrée. M14 sols non étanches constatés physiquement. G3 NC technique (étanchéité sols absente)."
+  },
+  {
+    "slug": "elevage-dnepr-elita-mme-le-priol-lyudm31047802024-06-1081788252500014f06",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aires extérieures non couvertes et unités élevage SE: eaux nettoyage non collectées/traitées. Pas de système/ouvrage stockage. M14 absence dispositif collecte physique. G3 NC technique (rejets eaux nettoyage non récupérés)."
+  },
+  {
+    "slug": "elevage-dnepr-elita-mme-le-priol-lyudm31047802024-06-1081788252500014f07",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Eaux toitures mélangées aux effluents élevage pour unités 4-8. Eaux pluie aires extérieures s'écoulent dans parcs sans collecte. Réseau séparatif absent. M14 absence séparation physique réseaux. G3 NC technique (mélange eaux toiture/effluents)."
+  },
+  {
+    "slug": "elevage-dnepr-elita-mme-le-priol-lyudm31047802024-06-1081788252500014f08",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Tous effluents non traités car non récupérés. Déjections se décomposent dans enclos, s'infiltrent sols. Aucune fosse stockage sur site. Caniveaux unités 9-13 non raccordés. M14 absence infrastructure traitement effluents. G4 rejet direct milieu naturel (pollution sols actuelle, risque environnemental avéré)."
+  },
+  {
+    "slug": "elevage-dnepr-elita-mme-le-priol-lyudm31047802024-06-1081788252500014f09",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réseau collecte inexistant pour multiples zones. Effluents et déjections chiens non collectés pour 5 unités légères + aires extérieures NW. M14 absence infrastructure collecte. G4 rejet direct milieu naturel (effluents non collectés)."
+  },
+  {
+    "slug": "elevage-dnepr-elita-mme-le-priol-lyudm31047802024-06-1081788252500014f10",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence récupération effluents dans 3 zones: unités 4-8 (sols perméables), unités 9-13 (caniveau sans fosse aval), aires ext NW (pas caniveaux). Effluents rejetés milieu naturel constaté. M14 rejet direct milieu naturel constaté physiquement. G4 rejet direct milieu naturel avéré."
+  },
+  {
+    "slug": "elevage-dnepr-elita-mme-le-priol-lyudm31047802024-06-1081788252500014f11",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence totale stockage effluents sur site, caniveaux unités 9-13 non raccordés à fosse. M14 infrastructure stockage absente. G4 absence totale de traitement des effluents = risque pollution avéré."
+  },
+  {
+    "slug": "elise-atlantique1000087412022-11-0990034581000015f01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Activité transit/tri/préparation déchets papier/carton/plastique/bois dépasse seuil déclaration (>100m3 rubrique 2714) sans récépissé de déclaration. M17 seuil classement dépassé, régime déclaration non satisfait. R04 méconnaissance. G3 NC technique (exploitation sans titre = irrégularité administrative)."
+  },
+  {
+    "slug": "engie-solutions1002923292025-07-2255204695501017f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Chaufferie Ginko composée 4 chaudières + cogénération conforme à déclaration. Interverrouillage coge/ch3 vérifié sur site. Combustibles biomasse plaquettes forestières avec contrôle qualité. Puissance 18,97 MW PCI, correctement classée 2910 A2 DC. M08 conformité totale administrative/technique."
+  },
+  {
+    "slug": "engie-solutions1002923292025-07-2255204695501017f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dispositif traitement fumées chaudière bois (multicyclone + électrofiltre) entretenu annuellement (dernier 25/06/2025 OK). Mais bon fonctionnement en continu non démontré. M01 traçabilité fonctionnement absent. M14 constat incertitude fonctionnement continu. G3 NC technique (traçabilité continue manquante pour équipement critique)."
+  },
+  {
+    "slug": "engie-solutions1002923292025-07-2255204695501017f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Mesures rejets atm réalisées par organisme agréé (BV Exploitation) en fév et nov 2024 et APAVE 2022-2023. Fréquence biennale respectée pour installation >5 MW. Agréments vérifiés (AM 4 déc 2024). M08 conformité totale procédure mesures."
+  },
+  {
+    "slug": "engie-solutions1002923292025-07-2255204695501017f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Résultats mesures exprimés dans conditions de référence requises (Nm3 gaz secs à 3% O2 chaudières gaz, 6% combustible solide, 15% moteur). M08 conformité méthodologique totale."
+  },
+  {
+    "slug": "engie-solutions1002923292025-07-2255204695501017f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mesures fév 2024 (BV): dépassement VLE poussières chaudière bois (51,3>50 mg/Nm3) et dioxines/furanes (0,153>0,1 ng I-TEQ/Nm3, potentiellement double VLE). Mesure nov 2024 revient à 0,00361 (conforme). Programme 2018-2023 incomplet (chaudière bois mise en service 2018, première mesure dioxines 2023). M14 dépassement VLE physiquement mesuré. G4 dépassement VLE confirmé dioxines (polluant critique) + programme surveillance historiquement incomplet."
+  },
+  {
+    "slug": "engie-solutions1002923292025-07-2255204695501017f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mesures cogénération fév 2024: NOx 79,5 mg/Nm3 (<100), formaldéhyde 2,04 mg/Nm3 (<15). Conformes VLE. M08 conformité totale."
+  },
+  {
+    "slug": "engie-solutions1002923292025-07-2255204695501017f07",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Centrale thermique Ginko recensée dans tableau synthèse installations combustion taille moyenne (R.515-114) avec toutes informations requises disponibles. M08 conformité déclarative totale."
+  },
+  {
+    "slug": "enrobes-de-gironde-ex-stami52076282023-03-0239904811500030f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "ERS réalisée en mai 2022 (BV, réf 14475446-2) conclut risque sanitaire acceptable. Hypothèses majorantes retenues (170-270 t/h, horaires étendus). M08 conformité ERS. T2 suivi suite PAC 2021."
+  },
+  {
+    "slug": "enrobes-de-gironde-ex-stami52076282023-03-0239904811500030f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Débit horaire 60000 Nm3/h pris en compte dans ERS (majorant technique de l'exhausteur). Inspection sans remarque. M08 conformité."
+  },
+  {
+    "slug": "enrobes-de-gironde-ex-stami52076282023-03-0239904811500030f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Effluents = eaux sanitaires + pluviales (voiries) + eaux arrosage anti-poussières. Convention BM 22/01/2015 ne couvre pas les eaux arrosage. M14 constat lacune: eaux arrosage chargées MES non intégrées convention. M01 convention à actualiser. G2 NC formelle/documentaire (impact potentiel mais pas confirmé)."
+  },
+  {
+    "slug": "enrobes-de-gironde-ex-stami52076282023-03-0239904811500030f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "ERS valide conditions rejet (H: 20,5m, D: 1100mm, débit max 60000 Nm3/h, vitesse 8 m/s) conformes à AP 15/02/2022. Prescriptions validées. M08 conformité totale."
+  },
+  {
+    "slug": "enrobes-de-gironde-ex-stami52076282023-03-0239904811500030f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Rapport BV oct 2022: concentrations et flux tous <VLE. Exprimé à 17% O2. Inspection sans remarque. M08 conformité totale."
+  },
+  {
+    "slug": "enrobes-de-gironde-ex-stami52076282023-03-0239904811500030f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "BV a justifié impossibilité technique mesure flux COV diffus au chargement enrobés. Courrier BV 23/09/2021 transmis. Observation n°5 insp 23/07/2021 satisfaite. M08 conformité. T3. S06."
+  },
+  {
+    "slug": "enrobes-de-gironde-ex-stami52076282023-03-0239904811500030f07",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Évaluation tonnages déchets non dangereux présentée (bois 0,74t, métaux 0,82t) mais incomplète: enrobés excédentaires, emballages multiples, absorbants... non listés. M01 inventaire déchets incomplet. G2 NC documentaire formelle."
+  },
+  {
+    "slug": "enrobes-de-gironde-ex-stami52076282023-03-0239904811500030f08",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Bassin rétention eaux extinction (≥240 m3) sans anomalie étanchéité. Vanne guillotine avec fermeture manuelle, déportée depuis salle commande (essai concluant). Signalétique open/fermé. Contrôle semestriel étanchéité dal béton avec fiches justificatives (01 et 08/2022, aucune remarque). M08 conformité totale."
+  },
+  {
+    "slug": "enrobes-de-gironde-ex-stami52076282023-03-0239904811500030f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Groupe électrogène et réserve liquide inflammable jamais présents sur site. Prescriptions articles AP 2007 caduques (article 9 AP modifié). Inspection sans remarque. M08 conformité (prescription inapplicable)."
+  },
+  {
+    "slug": "enrobes-de-gironde-ex-stami52076282023-03-0239904811500030f10",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Approvisionnement granulats 2022: 92,6% ferrée, 7,4% routier. Largement au-dessus seuil 80% ferroviaire. Inspection note l'absence d'augmentation routière. M08 conformité totale."
+  },
+  {
+    "slug": "entreprise-courrian-gaillan-en-medoc52105372025-09-0432734196200014f01",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dernier plan exploitation (jan 2024 = relevés 7 déc 2023) = 21 mois écoulés. Mise à jour annuelle non respectée. M01 document non à jour. G2 NC documentaire formelle. secteur = carrières."
+  },
+  {
+    "slug": "entreprise-courrian-gaillan-en-medoc52105372025-09-0432734196200014f02",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Bornes vérifiées par sondage (SE Peysibot Nord, deux pointes S La Brugue): présentes. Vérification partielle. M08 conformité partielle constatée. G1 pas de NC identifiée."
+  },
+  {
+    "slug": "entreprise-courrian-gaillan-en-medoc52105372025-09-0432734196200014f03",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Plan 2024 (non à jour) semble respecter distances 10m/20m. Sur place visuellement distances respectées. Pas d'indice instabilité. Axe amélioration: distances à faire figurer sur plan. M08 conformité visuelle avec réserve documentaire. G1 (pas de NC physique)."
+  },
+  {
+    "slug": "entreprise-courrian-gaillan-en-medoc52105372025-09-0432734196200014f04",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Peysibot Sud remis en état (berges sinueuses, pentes <30°). Peysibot Nord: berge Sud non remise en état (merlon maintenu pour accès, exploitation terminée mais sans remise en état). Principe remise en état à l'avancée non respecté. Plan phasage non suivi. M14 NC physique: berges exploitation terminée non remises en état. G3 NC technique (remise en état non coordonnée à exploitation). secteur = carrières."
+  },
+  {
+    "slug": "entreprise-courrian-gaillan-en-medoc52105372025-09-0432734196200014f05",
+    "domains": [
+      "D12_ADMIN",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M09_PAC",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dossier demande prolongation 15 ans (fév 2024) incomplet: manque justificatifs dérive, historique plaintes, bilan environnemental, diagnostic évolutions. Coupe rase à La Brugue réalisée début 2024 avant prolongation accordée = risque administratif. M09 PAC incomplet. M14 coupe rase constatée sur parcelle non autorisée. G3 NC administrative/technique (exploitation précipitée sur parcelle non encore autorisée)."
+  },
+  {
+    "slug": "entreprise-courrian-gaillan-en-medoc52105372025-09-0432734196200014f06",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun prélèvement eau ni consommation (extraction pelle mécanique sans rabattement nappe). AM sécheresse 30 juin 2023 non applicable. M08 conformité (prescription inapplicable). G1."
+  },
+  {
+    "slug": "entreprise-deldossi1000814432025-04-1730539058500084f01",
+    "domains": [
+      "D07_RETENTION",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Volumes distribués 2024: 1612 m3. Stockage total 57,77T < 250T. Non soumis rubrique 4734. Registre entrées/sorties tenu. M08 conformité classement/documentation. G1."
+  },
+  {
+    "slug": "entreprise-deldossi1000814432025-04-1730539058500084f02",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Contrôle périodique 04/02/2024: 4 NCM + 5 ANC. Visite complémentaire 23/01/2025: NCM persiste (manque 2e PI DN100 à moins de 100m). M07 contrôle réalisé mais NC persistante. M14 PI manquant physiquement. G4 NCM persistante (hydrant réglementaire absent = risque incendie). T4 stagnation (NCM non levée entre contrôle 2024 et visite complémentaire 2025)."
+  },
+  {
+    "slug": "entreprise-deldossi1000814432025-04-1730539058500084f03",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pompiers peuvent accéder facilement à la station. M08 conformité accès secours. G1."
+  },
+  {
+    "slug": "entreprise-deldossi1000814432025-04-1730539058500084f04",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Rapport vérif élec 14/04/2025: documents manquants dans dossier technique. Observation candélabre/liaison équipotentielle déjà mentionnée en 2024, non levée. M07 vérification réalisée avec observations. M14 NC élec non levée. G2 NC formelle (document manquant, liaison équipotentielle à corriger). T4 stagnation (observation 2024 reconduite 2025)."
+  },
+  {
+    "slug": "entreprise-deldossi1000814432025-04-1730539058500084f05",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Site maintenu en bon état de propreté. M08 conformité totale. G1."
+  },
+  {
+    "slug": "entreprise-deldossi1000814432025-04-1730539058500084f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "PI n°59: débit 45 m3/h à 1 bar (non conforme, doit être 60 m3/h). Deuxième PI manquant. Exploitant cherche solution (réseau agriculture 11 bars). M14 constat PI non conforme physiquement + 2e PI absent. G4 deux NC majeures incendie actives (PI sous-débit + PI manquant). T4 stagnation (NCM identifiée contrôle 2024, non résolue lors inspection)."
+  },
+  {
+    "slug": "entreprise-deldossi1000814432025-04-1730539058500084f07",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consignes présentes au niveau aire distribution mais absentes au poste dépotage. M14 absence consignes poste dépotage. G3 NC technique (consignes sécurité manquantes zone critique)."
+  },
+  {
+    "slug": "entreprise-deldossi1000814432025-04-1730539058500084f08",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Dispositif arrêt urgence présent à proximité appareil. Mais demande attestation bon fonctionnement à transmettre à IIC. M08 conformité sur présence dispositif + demande attestation. G1 (dispositif présent). Note: demande attestation crée légère incertitude mais constat physique OK."
+  },
+  {
+    "slug": "entreprise-deldossi1000814432025-04-1730539058500084f09",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence dispositif communication permettant alerter immédiatement personne surveillance (obligatoire libre-service sans surveillance). M14 équipement absent. G3 NC technique (dispositif sécurité critique absent). Menace MED si pas de réponse."
+  },
+  {
+    "slug": "entreprise-deldossi1000814432025-04-1730539058500084f10",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bordure trottoir périphérique dirigeant eaux pluie non souillées vers fossé. Aucun avaloir à moins de 5m des appareils distribution. M08 conformité totale. G1."
+  },
+  {
+    "slug": "entreprise-deldossi1000814432025-04-1730539058500084f11",
+    "domains": [
+      "D07_RETENTION",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Débourbeur-séparateur présent, flotteur obturateur aperçu mais bon fonctionnement non vérifié par IIC. M07 vérification incomplète. M14 constat incertitude fonctionnement obturateur. G2 NC formelle (dispositif présent, fonctionnement non démontré)."
+  },
+  {
+    "slug": "entreprise-deldossi1000814432025-04-1730539058500084f12",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucune fissure apparente constatée sur aires dépotage/distribution. M08 conformité terrain totale. G1."
+  },
+  {
+    "slug": "entreprise-deldossi1000814432025-04-1730539058500084f13",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "BSD curage débourbeur (14/10/2024) présent mais code élimination D13 incorrect (étape intermédiaire, pas final). M14 BSD mal rempli. M01 document inexact. G2 NC documentaire formelle (BSD avec code erroné)."
+  },
+  {
+    "slug": "envie2e-aquitaine-saint-loubes-1-chemin-de-bel-air52139152022-12-0648222277500033f01",
+    "domains": [
+      "D08_DECHETS",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Volume DEEE dépasse volume autorisé (2000m3 vs 1317m3) mais dans le volume PAC oct 2022 (2780m3). Activité démantèlement PV (rubrique 2711) constatée. Ligne délaminage en test. M14 volume dépassement AP en vigueur constaté. M17 PAC en cours d'instruction. G3 NC technique (dépassement volume autorisé actuel, même si conforme PAC en cours)."
+  },
+  {
+    "slug": "envie2e-aquitaine-saint-loubes-1-chemin-de-bel-air52139152022-12-0648222277500033f02",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Stockage PV le long limite propriété Sud/voie accès non conforme au plan de stockages du PAC. Surstock dû à ligne délaminage non opérationnelle. Manque personnel pour déplacement. M14 constat terrain: stockage non conforme au plan. G2 NC formelle/organisationnelle (plan stockage non respecté, pas d'impact environnemental direct)."
+  },
+  {
+    "slug": "envie2e-aquitaine-saint-loubes-1-chemin-de-bel-air52139152022-12-0648222277500033f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Dernières analyses rejets aqueux: avril 2017. Paramètres manquants (DCO, DBO5, phénols, Cr6+, cyanures, AOX, arsenic). Fréquence semestrielle non respectée. Même écart constaté lors inspection 2019. M07 surveillance non réalisée depuis 5 ans. M06 récidive (même NC qu'inspection 2019). G3 NC technique significative (absence surveillance prolongée). T4 stagnation (même NC depuis 2019)."
+  }
+]

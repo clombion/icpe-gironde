@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tableau des décisions — Audit ICPE</title>
+<meta name="description" content="Vue tabulaire de toutes les décisions de revue d'audit des coordonnées ICPE.">
+
+<meta http-equiv="Content-Security-Policy"
+      content="default-src 'none';
+               script-src 'self';
+               style-src 'self' 'unsafe-inline';
+               img-src 'self' data:;
+               connect-src 'self' https://api.github.com https://raw.githubusercontent.com;
+               font-src 'self' data:;">
+
+<link rel="stylesheet" href="../shared/tokens.css?v=11">
+<link rel="stylesheet" href="style.css?v=11">
+</head>
+<body class="table-page">
+
+<header class="masthead">
+  <div class="masthead__topline">
+    <div>
+      <div class="masthead__label">Cahier d'enquête</div>
+      <h1 class="masthead__title">Tableau des décisions</h1>
+    </div>
+    <a class="masthead__home" href="./">← retour à l'audit</a>
+  </div>
+</header>
+
+<div class="filter-bar" id="filter-bar">
+  <label>
+    <span class="filter-bar__label">Verdict</span>
+    <select id="filter-verdict">
+      <option value="">tous</option>
+      <option value="garder_stored">garder</option>
+      <option value="utiliser_geocoded">géocodé</option>
+      <option value="placer_manuellement">manuel</option>
+      <option value="terrain">terrain</option>
+      <option value="non_revu">non revu</option>
+    </select>
+  </label>
+  <label>
+    <span class="filter-bar__label">Groupe</span>
+    <select id="filter-group">
+      <option value="">tous</option>
+      <option value="reserves">reserves</option>
+      <option value="grand">grand</option>
+      <option value="petit">petit</option>
+    </select>
+  </label>
+  <label>
+    <span class="filter-bar__label">Reviewer</span>
+    <select id="filter-reviewer">
+      <option value="">tous</option>
+    </select>
+  </label>
+  <label>
+    <span class="filter-bar__label">Recherche</span>
+    <input type="text" id="filter-search" placeholder="nom, commune, id…">
+  </label>
+  <button class="export-btn" id="btn-export-csv" type="button">Exporter CSV</button>
+</div>
+
+<div class="table-container" id="table-container">
+  <table class="decisions-table" id="decisions-table">
+    <thead>
+      <tr>
+        <th data-col="id_icpe">id_icpe</th>
+        <th data-col="nom_complet">nom_complet</th>
+        <th data-col="commune">commune</th>
+        <th data-col="audit_class">audit_class</th>
+        <th data-col="verdict">verdict</th>
+        <th data-col="reviewer">reviewer</th>
+        <th data-col="distance">distance (m)</th>
+        <th data-col="note">note</th>
+        <th data-col="pertinent">pertinent</th>
+      </tr>
+    </thead>
+    <tbody id="decisions-tbody"></tbody>
+  </table>
+  <p class="table-empty" id="table-empty" hidden>
+    Aucune revue soumise pour le moment. Les décisions apparaissent ici au
+    fur et à mesure que les enquêteurs exportent et commitent leurs buckets.
+    <a href="./">Retour à l'audit</a>.
+  </p>
+  <p class="table-empty" id="table-no-match" hidden>
+    Aucun résultat pour ces filtres.
+  </p>
+</div>
+
+<footer class="table-footer">
+  <p>
+    Données : <a href="https://www.georisques.gouv.fr/" target="_blank" rel="noopener">Géorisques</a>,
+    <a href="https://adresse.data.gouv.fr/" target="_blank" rel="noopener">BAN</a>,
+    <a href="https://opencagedata.com/" target="_blank" rel="noopener">OpenCage</a>,
+    <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© contributeurs OpenStreetMap</a>.
+  </p>
+</footer>
+
+<script src="../shared/util.js?v=11"></script>
+<script src="lib.js?v=11"></script>
+<script src="table.js?v=11"></script>
+</body>
+</html>

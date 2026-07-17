@@ -1,0 +1,41 @@
+{
+  "document_date": "2024-09-26",
+  "document_title": "automotive-cells-company-se1000264772024-09-2688463858600047f01",
+  "codes": [
+    {
+      "description": "Les activités constatées correspondent globalement aux rubriques déclarées, à l'exception d'une rubrique dont le seuil d'activité n'a pas pu être précisé.",
+      "excerpts": [
+        "Les natures et niveaux d'activité indiqués par l'exploitant et constatés lors de l'inspection sont cohérents avec les rubriques déclarées, à l'exception possible du travail mécanique des métaux (rubrique 2560), dont l'exploitant n'a pas pu préciser le niveau d'activité."
+      ],
+      "valence": "mixed",
+      "code": "Cohérence rubriques ICPE déclarées"
+    },
+    {
+      "description": "La charge d'accumulateurs dans le contexte de la R&D en fabrication de batteries ne correspond pas au profil standard de la rubrique 2925.",
+      "excerpts": [
+        "l'activité de charge des accumulateurs fait partie soit de l'activité de fabrication de ces batteries, soit de tests à fins de recherche et développement. Ces usages sont sensiblement différents de ce qui est généralement désigné comme « atelier de charge de batteries »."
+      ],
+      "valence": "neutral",
+      "code": "Activité atypique mal classifiée"
+    },
+    {
+      "description": "L'inspecteur signale à l'exploitant qu'il doit vérifier si ses produits relèvent des rubriques 4xxx de la nomenclature ICPE.",
+      "excerpts": [
+        "il appartient à l'exploitant, le cas échéant, d'identifier les produits qui pourraient soumettre son activité aux rubriques 4xxx de la nomenclature."
+      ],
+      "valence": "neutral",
+      "code": "Rubrique 4xxx produits chimiques"
+    },
+    {
+      "description": "L'exploitant est mis en demeure de se positionner sous un mois sur le classement de son activité sous la rubrique 2560.",
+      "excerpts": [
+        "L'exploitant se positionne, sous un mois, quant au classement sous la rubrique ICPE 2560 « travail mécanique des métaux »."
+      ],
+      "valence": "neutral",
+      "code": "Positionnement rubrique demandé"
+    }
+  ],
+  "document_summary": "Première inspection d'Automotive Cells Company (fabricant de batteries pour véhicules électriques) portant sur la conformité du classement ICPE ; les rubriques sont globalement cohérentes mais l'activité de charge de batteries en contexte R&D est atypique et une rubrique (2560) reste à clarifier.",
+  "surprises": "Il s'agit d'un site de fabrication de batteries pour véhicules électriques — secteur émergent dont les activités ne correspondent pas toujours aux catégories ICPE préexistantes, ce qui crée des zones grises de classement.",
+  "tensions": "La rubrique 2925 (charge d'accumulateurs) est déclarée mais l'activité réelle (R&D, fabrication) ne correspond pas au profil prévu par la réglementation — tension entre innovation industrielle et cadre normatif fixe."
+}

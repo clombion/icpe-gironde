@@ -1,0 +1,33 @@
+{
+  "document_date": "2022-06-03",
+  "document_title": "bibliotheque-meriadeck-bordeaux52070742022-06-0391195064000019f18",
+  "codes": [
+    {
+      "description": "Le manuel d'exploitation ne contient pas la justification de la stratégie de traitement biocide ponctuel choisie, comme l'exige la réglementation.",
+      "excerpts": [
+        "la justification de la stratégie de traitement n'est pas décrite dans le document consulté « manuel d'exploitation » ni dans aucun autre document."
+      ],
+      "valence": "negative",
+      "code": "Stratégie traitement biocide injustifiée"
+    },
+    {
+      "description": "L'installation utilise des injections ponctuelles de biocides comme traitement préventif contre la légionelle, mais sans documentation justificative.",
+      "excerpts": [
+        "Le traitement préventif prévoit bien des injections ponctuelles de biocides"
+      ],
+      "valence": "mixed",
+      "code": "Biocides ponctuels en traitement préventif"
+    },
+    {
+      "description": "La réglementation exige que l'exploitant justifie que le traitement choisi est le mieux adapté et le moins impactant pour l'environnement.",
+      "excerpts": [
+        "En cas d'utilisation d'injections ponctuelles de biocide(s) en traitement préventif, l'exploitant justifie que cette stratégie de traitement est la mieux adaptée à son installation et la moins impactante pour l'environnement."
+      ],
+      "valence": "neutral",
+      "code": "Justification stratégie environnementale"
+    }
+  ],
+  "document_summary": "L'inspection de la bibliothèque Mériadeck sur la gestion de la tour aéroréfrigérante constate que les injections ponctuelles de biocides utilisées en traitement préventif ne sont pas justifiées documentairement dans le manuel d'exploitation, contrairement aux exigences réglementaires.",
+  "surprises": "",
+  "tensions": "La pratique de traitement (biocides ponctuels) semble en place et fonctionnelle, mais l'absence de justification documentaire crée une non-conformité formelle — l'acte est réalisé mais non démontré."
+}

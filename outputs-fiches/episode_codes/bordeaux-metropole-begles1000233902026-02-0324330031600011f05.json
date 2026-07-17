@@ -1,0 +1,42 @@
+{
+  "document_date": "2026-02-03",
+  "document_title": "bordeaux-metropole-begles1000233902026-02-0324330031600011f05",
+  "codes": [
+    {
+      "description": "Suite à l'inspection de 2023, l'exploitant a mis en place un registre de suivi des déchets tenu à jour et utilise désormais l'application Track déchets.",
+      "excerpts": [
+        "l'exploitant dispose d'un registre de suivi des déchets tenu à jour",
+        "l'exploitant utilise dorénavant \"Track déchets\"."
+      ],
+      "valence": "positive",
+      "code": "Registre déchets mis en place"
+    },
+    {
+      "description": "Les bordereaux de suivi de déchets sont incomplètes : ils manquent le nom de l'éliminateur final, la quantité éliminée et la signature de l'éliminateur.",
+      "excerpts": [
+        "sur les bordereaux d'élimination de déchets, ne figurent pas le nom de l'éliminateur final, la quantité de déchets éliminés ainsi que la signature de l'éliminateur final."
+      ],
+      "valence": "negative",
+      "code": "BSD incomplets signature manquante"
+    },
+    {
+      "description": "Passage d'une absence totale de registre déchets (2023) à un registre tenu avec Track déchets (2026), montrant une amélioration progressive de la conformité.",
+      "excerpts": [
+        "Lors de l'inspection, du 27/06/2023, l'inspection des installations classées précisait : que l'exploitant a indiqué ne pas disposer de registre des déchets."
+      ],
+      "valence": "mixed",
+      "code": "Progression entre inspections"
+    },
+    {
+      "description": "L'inspection demande à l'exploitant de compléter les BSD avec les informations manquantes pour assurer la traçabilité complète de l'élimination.",
+      "excerpts": [
+        "Il convient de faire compléter les bordeaux de suivi de déchets par : - le nom de l'éliminateur final ; - la quantité de déchets éliminés ; - la signature de l'éliminateur final."
+      ],
+      "valence": "neutral",
+      "code": "Complétude des BSD exigée"
+    }
+  ],
+  "document_summary": "Entre l'inspection de 2023 (absence de registre déchets) et celle de 2026, la déchetterie de Bordeaux Métropole Bègles a progressé en adoptant Track déchets, mais les BSD générés restent incomplets faute de mentions obligatoires sur l'éliminateur final.",
+  "surprises": "L'usage de l'application Track déchets préconisée par l'inspection illustre un mode de guidance réglementaire qui recommande des outils numériques spécifiques.",
+  "tensions": "La conformité est partielle : l'outil est en place mais mal utilisé — les champs obligatoires ne sont pas remplis, ce qui vide la traçabilité de son sens."
+}

@@ -1,0 +1,25 @@
+{
+  "document_date": "2022-06-07",
+  "document_title": "sarl-moulin-du-caouley52008782022-06-0732368394600012f12",
+  "document_summary": "La fiche contrôle la gestion des poissons morts de la pisciculture Moulin du Caouley. L'exploitant dispose d'une enceinte réfrigérée extérieure pour le stockage et un équarrisseur passe une fois par semaine pour l'enlèvement.",
+  "surprises": "",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "Les poissons morts sont stockés dans une enceinte réfrigérée étanche et enlevés hebdomadairement par un équarrisseur, conformément à la réglementation.",
+      "excerpts": [
+        "Présence d'une enceinte réfrigérée à l'extérieur du site: Passage de l'équarrisseur une fois par semaine."
+      ],
+      "valence": "positive",
+      "code": "Gestion conforme des poissons morts"
+    },
+    {
+      "description": "La prescription impose le retrait des poissons morts des bassins et leur stockage réfrigéré en attente d'enlèvement ou de destruction selon la réglementation.",
+      "excerpts": [
+        "Les poissons morts sont retirés des bassins et stockés dans une enceinte étanche à température réfrigérée positive ou négative en attente de leur enlèvement ou de leur destruction selon les modalités prévues par la réglementation en vigueur."
+      ],
+      "valence": "neutral",
+      "code": "Collecte et élimination des sous-produits animaux"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+fichier,nom_original,alias,definition
+rapports-inspection.csv,(calculé),id_icpe,Identifiant de l'installation classée (codeAiot sans zéros de tête). Clé de jointure avec liste-icpe-gironde_enrichi.csv.
+rapports-inspection.csv,(calculé),nom_complet,Libellé désambiguïsé de l'installation (copié depuis liste-icpe-gironde_enrichi.csv au moment du téléchargement).
+rapports-inspection.csv,(calculé),siret,SIRET de l'exploitant (copié depuis liste-icpe-gironde_enrichi.csv). Vide si non renseigné dans la source.
+rapports-inspection.csv,dateInspection,date_inspection,"Date de l'inspection (format YYYY-MM-DD), jointe depuis inspection.csv via identifiantFichier. Vide si absente dans la source."
+rapports-inspection.csv,identifiant,identifiant_fichier,Identifiant opaque du fichier côté Géorisques. Clé d'unicité du fichier PDF.
+rapports-inspection.csv,type,type_fichier,Type de document selon Géorisques. Toujours 'Rapport d'inspection publiable' dans ce CSV.
+rapports-inspection.csv,nom,nom_fichier_source,Nom du fichier tel que fourni par Géorisques (non utilisé pour le stockage local).
+rapports-inspection.csv,(calculé),nom_fichier_local,Nom de fichier local après sanitisation : {slug_nom_complet}_{id_icpe}_{date}_{siret}.pdf avec fallbacks nosiret / nodate. Deux lignes peuvent partager le même nom quand un identifiant est référencé par plusieurs installations (dedup par identifiant).
+rapports-inspection.csv,(calculé),url_source_georisques,URL canonique du PDF côté Géorisques (webappReport). Utilisée par le script pour le téléchargement.
+rapports-inspection.csv,(calculé),url_pages,URL GitHub Pages du PDF local post-push. S'ouvre directement dans le navigateur quand on clique.
+rapports-inspection.csv,(calculé),statut_telechargement,"Statut du dernier téléchargement : 'ok' (téléchargé cette fois-ci), 'skip' (déjà présent), 'fail_404' (absent côté source, durable), 'fail_transitoire' (timeout/5xx/réseau, à retenter)."
+rapports-inspection.csv,(calculé),taille_octets,Taille du fichier PDF local en octets (stat() après écriture). Vide si pas téléchargé.
+liste-icpe-gironde_enrichi.csv,(calculé),nb_rapports_inspection,Nombre de rapports d'inspection publiables téléchargés avec succès pour cette installation (écrit par telecharger_rapports_inspection.py). Seuls les statuts 'ok' et 'skip' comptent. Valeur 0 si aucun rapport téléchargé ou installation sans inspection publiable.
+liste-icpe-gironde_enrichi.csv,ident,id_icpe,"Identifiant unique de l'installation classée (codeAIOT Géorisques, sans les zéros de tête). Clé de jointure stable entre exports."
+liste-icpe-gironde_enrichi.csv,libelle,nom_original,Raison sociale de l'installation telle que saisie dans Géorisques. Peut être ambigu : plusieurs installations peuvent partager le même libellé.
+liste-icpe-gironde_enrichi.csv,(calculé),structure,"Nom de la structure ou organisation mère, calculé à partir du libellé original. Si le libellé contient un séparateur ' - ' (hors cas MAIRIE), partie avant le séparateur ; sinon libellé entier."
+liste-icpe-gironde_enrichi.csv,(calculé),etablissement,"Sous-nom identifiant l'établissement spécifique quand le libellé est ambigu ou composite. Vide quand le libellé est déjà unique. Calculé à partir du libellé, de la commune et de l'adresse de l'export bulk Géorisques."
+liste-icpe-gironde_enrichi.csv,(calculé),nom_complet,"Nom complet désambiguïsé pour affichage et analyse. Garanti unique dans le jeu de données. Concaténation de structure et établissement avec un suffixe (#1, #2, …) en tout dernier recours."
+liste-icpe-gironde_enrichi.csv,insee,code_insee_commune,"Code INSEE de la commune d'implantation (5 chiffres, ex : 33063 = Bordeaux)."
+liste-icpe-gironde_enrichi.csv,(calculé),nom_commune,"Nom de la commune d'implantation, résolu depuis le code INSEE via geo.api.gouv.fr (source : IGN Admin Express). Vide si le code INSEE est manquant ou ne correspond à aucune commune référencée en Gironde."
+liste-icpe-gironde_enrichi.csv,(calculé),epci_siren,Numéro SIREN de l'EPCI (Établissement Public de Coopération Intercommunale) auquel la commune appartient. Résolu depuis le code INSEE via geo.api.gouv.fr. Vide si la commune n'est rattachée à aucun EPCI référencé.
+liste-icpe-gironde_enrichi.csv,(calculé),epci_nom,"Nom de l'EPCI (Établissement Public de Coopération Intercommunale) auquel la commune appartient (ex : 'Bordeaux Métropole', 'CA du Libournais'). Résolu via geo.api.gouv.fr depuis le code INSEE."
+liste-icpe-gironde_enrichi.csv,Geo Point,coordonnees_lat_lon,"Latitude et longitude de l'installation (WGS84), au format 'lat, lon'."
+liste-icpe-gironde_enrichi.csv,Geo Shape,geometrie_geojson,"Géométrie de l'installation au format GeoJSON (type Point), utilisable directement pour la cartographie."
+liste-icpe-gironde_enrichi.csv,gid,id_ligne_export,Identifiant séquentiel de la ligne dans l'export data.gouv.fr (1 à 2888). Non stable entre deux exports — utiliser id_icpe pour les jointures.
+liste-icpe-gironde_enrichi.csv,siret,siret,Numéro SIRET de l'exploitant (14 chiffres). Vide si non renseigné (283 lignes sans SIRET). Un même SIRET peut couvrir plusieurs installations ICPE distinctes.
+liste-icpe-gironde_enrichi.csv,regime,regime_icpe,"Régime ICPE en vigueur : AUTORISATION, ENREGISTREMENT, AUTRE, NON_ICPE. Détermine le niveau de contrôle administratif."
+liste-icpe-gironde_enrichi.csv,cat_seveso,categorie_seveso,"Catégorie Seveso : NON_SEVESO, SEUIL_BAS, SEUIL_HAUT. Indique le niveau de risque technologique majeur."
+liste-icpe-gironde_enrichi.csv,priorite_nationale,priorite_nationale,"TRUE si l'installation est identifiée comme priorité nationale d'inspection, FALSE sinon."
+liste-icpe-gironde_enrichi.csv,fiche,url_fiche_georisques,"URL de la fiche publique Géorisques détaillant l'installation (inspections, arrêtés, rubriques)."
+liste-icpe-gironde_enrichi.csv,bovins,elevage_bovins,"TRUE si l'installation comprend un élevage bovin déclaré, FALSE sinon."
+liste-icpe-gironde_enrichi.csv,porcs,elevage_porcs,"TRUE si l'installation comprend un élevage porcin déclaré, FALSE sinon."
+liste-icpe-gironde_enrichi.csv,volailles,elevage_volailles,"TRUE si l'installation comprend un élevage de volailles déclaré, FALSE sinon."
+liste-icpe-gironde_enrichi.csv,carriere,activite_carriere,"TRUE si l'installation est une carrière (extraction de matériaux), FALSE sinon."
+liste-icpe-gironde_enrichi.csv,eolienne,activite_eolienne,"TRUE si l'installation est un parc éolien ou une éolienne classée, FALSE sinon."
+liste-icpe-gironde_enrichi.csv,industrie,activite_industrielle,"TRUE si l'installation a une activité industrielle déclarée, FALSE sinon."
+liste-icpe-gironde_enrichi.csv,ied,directive_ied,"TRUE si l'installation relève de la directive IED (Industrial Emissions Directive, 2010/75/UE) imposant les MTD, FALSE sinon."
+liste-icpe-gironde_enrichi.csv,activite_principale,code_naf_division,"Code NAF division (niveau 2 chiffres) de l'activité principale. Ex : 11 = fabrication de boissons, 46 = commerce de gros, 38 = collecte/traitement des déchets. Vide pour 978 lignes."
+liste-icpe-gironde_enrichi.csv,cdate,date_enregistrement,Date d'enregistrement dans l'export data.gouv.fr (ISO 8601). La colonne mdate de la source était un doublon strict et a été droppée.
+liste-icpe-gironde_enrichi.csv,année,annee_enregistrement,Année extraite de la date d'enregistrement (2025 ou 2026).
+coordonnees-audit-full.csv,(calculé),audit_class,"Classe d'écart attribuée par l'audit (ladder priorité-ordonnée). Valeurs : null_island, outside_gironde, wrong_commune, address_unresolvable_isolated (BAN ne trouve pas l'adresse ET le reverse ne confirme pas la commune), address_unresolvable_commune_ok (BAN ne trouve pas l'adresse mais le reverse confirme la commune — basse priorité), address_imprecise (BAN matche au niveau commune ou locality), very_severe (≥2km), severe (500-2km), suspicious (100-500m), minor (25-100m), ok."
+coordonnees-audit-full.csv,(calculé),audit_group,"Groupe de revue : reserves (cas critiques pour les réserves naturelles), grand (≥500m ou structurel), petit (25-500m). Vide pour les lignes ok non concernées par les réserves."
+coordonnees-audit-full.csv,(calculé),forward_distance_m,Distance haversine en mètres entre les coordonnées enregistrées (Géorisques) et les coordonnées géocodées par BAN à partir de l'adresse postale. Vide si BAN n'a pas pu géocoder.
+coordonnees-audit-full.csv,(calculé),forward_score,Score de confiance BAN (0.0 à 1.0) pour le géocodage forward de l'adresse. Sous 0.4 = adresse non résolue.
+coordonnees-audit-full.csv,(calculé),forward_type,"Précision du géocodage BAN forward : housenumber (le plus précis), street, locality (commune), municipality."
+coordonnees-audit-full.csv,(calculé),forward_label,Adresse normalisée renvoyée par BAN forward (ex : '15 Rue de la République 33000 Bordeaux').
+coordonnees-audit-full.csv,(calculé),forward_citycode,Code INSEE de la commune où BAN forward place l'adresse. Doit correspondre à codeInsee si l'audit est cohérent.
+coordonnees-audit-full.csv,(calculé),forward_lat,Latitude WGS84 du point géocodé par BAN forward.
+coordonnees-audit-full.csv,(calculé),forward_lon,Longitude WGS84 du point géocodé par BAN forward.
+coordonnees-audit-full.csv,(calculé),forward_error,Message d'erreur si BAN forward a échoué pour cette ligne. Vide en cas de succès.
+coordonnees-audit-full.csv,(calculé),reverse_citycode,Code INSEE de la commune renvoyé par BAN reverse pour les coordonnées enregistrées. Différence avec codeInsee = signal wrong_commune.
+coordonnees-audit-full.csv,(calculé),reverse_label,Adresse renvoyée par BAN reverse pour les coordonnées enregistrées. Sert d'indication 'qu'est-ce qu'il y a vraiment là'.
+coordonnees-audit-full.csv,(calculé),pip_in_commune,Tristate true/false/empty : le point enregistré est-il à l'intérieur du polygone de la commune déclarée ? Empty si la commune n'est pas dans gironde-communes.geojson.
+coordonnees-audit-full.csv,(calculé),sentinel_flags,"Liste séparée par des virgules des sentinelles offline déclenchées : null_island, outside_gironde, commune_centroid, duplicate_coords."
+coordonnees-audit-full.csv,(calculé),stored_in_reserve,"Nom de la réserve naturelle qui contient les coordonnées enregistrées, ou 'none' si à l'extérieur de toute réserve."
+coordonnees-audit-full.csv,(calculé),geocoded_in_reserve,"Nom de la réserve naturelle qui contient les coordonnées géocodées par BAN, ou 'none'."
+coordonnees-audit-full.csv,(calculé),stored_reserve_distance_m,"Distance en mètres entre le point enregistré et la limite de la réserve la plus proche. Négative si à l'intérieur d'une réserve, positive sinon."
+coordonnees-audit-full.csv,(calculé),geocoded_reserve_distance_m,Distance en mètres entre le point géocodé par BAN et la limite de la réserve la plus proche. Même convention de signe que stored_reserve_distance_m.
+coordonnees-audit-full.csv,(calculé),reserve_ambiguous,TRUE si stored_in_reserve != geocoded_in_reserve. Cas critique : la réponse à 'ce site est-il dans une réserve ?' dépend de quel point on regarde.
+coordonnees-audit-full.csv,(calculé),reserve_boundary_proximity,TRUE si l'un des deux points (enregistré ou géocodé) est à moins de 200m d'une limite de réserve. Cas frontaliers à inspecter même si reserve_ambiguous = FALSE.
+rapports-inspection.csv,(calculé),url_markdown,URL GitHub Pages de la version markdown du rapport (rapports-inspection-markdown/{basename}.md). Écrite par extract_rapports_markdown.py. Vide si l'extraction a échoué (voir _erreurs.log dans rapports-inspection-markdown/).
+fiches.parquet,(calculé),fiche_id,Identifiant unique de la fiche : {source_pdf_stem}_f{num} ou {source_pdf_stem}_prose.
+fiches.parquet,(calculé),fiche_num,"Numéro de la fiche (1, 2, ...). Null pour les rapports sans fiches structurées."
+fiches.parquet,(calculé),titre,Titre de la fiche de constat. Null pour les prose rows.
+fiches.parquet,(calculé),theme,"Thème(s) de la fiche (vocabulaire semi-fermé DREAL, séparés par virgule). Null si absent."
+fiches.parquet,(calculé),reference_reglementaire,"Référence réglementaire citée dans la fiche (arrêté, article de code)."
+fiches.parquet,(calculé),deja_controle,"Point de contrôle déjà contrôlé lors d'une inspection précédente : Oui, Non, Sans Objet."
+fiches.parquet,(calculé),prescription,"Texte de la prescription contrôlée (souvent multi-ligne, copie de l'article)."
+fiches.parquet,(calculé),constats_body,Corps des constats de la fiche — observations de l'inspecteur sur le terrain.
+fiches.parquet,(calculé),type_suite,"Type de suites proposées (vocabulaire semi-fermé : Sans suite, Observation, Mise en demeure, etc.)."
+fiches.parquet,(calculé),proposition_suite,Texte détaillé de la proposition de suites.
+fiches.parquet,(calculé),sub_section,Heading de la sous-section contenant cette fiche (ex. '2-4) Fiches de constats').
+fiches.parquet,(calculé),body,Corps complet de la fiche (tous champs labélisés) ou texte complet du markdown pour les prose rows.
+fiches.parquet,(calculé),body_chars,Longueur du champ body en caractères.
+fiches.parquet,(calculé),regions,"Régions visuelles (page 1-based + bbox en points PDF). JSON array, null pour prose rows."
+fiches.parquet,(calculé),source_pdf,Nom du fichier PDF source.
+fiches.parquet,(calculé),source_md,Nom du fichier markdown correspondant.
+fiches.parquet,(calculé),extraction_method,"Chemin d'extraction : dreal_parser, pymupdf4llm_generic, ocr_then_*, failed."
+fiches.parquet,(calculé),id_icpe,"Identifiant ICPE (codeAiot normalisé, sans zéros de tête)."
+fiches.parquet,(calculé),siret,SIRET de l'exploitant (14 chiffres) ou chaîne vide.
+fiches.parquet,(calculé),nom_complet,Libellé désambiguïsé de l'installation.
+fiches.parquet,(calculé),date_inspection,Date de l'inspection (YYYY-MM-DD) ou chaîne vide.
+fiches.parquet,(calculé),identifiant_fichier,Identifiant opaque du fichier côté Géorisques.
+fiches.parquet,(calculé),url_source_georisques,URL canonique du PDF côté Géorisques.
+fiches.parquet,(calculé),url_pages,URL GitHub Pages du PDF.
+fiches.parquet,(calculé),url_markdown,URL GitHub Pages du markdown. Null si absent.
+fiches.parquet,(calculé),nom_commune,Nom de la commune de l'installation (jointure enrichi).
+fiches.parquet,(calculé),code_insee_commune,Code INSEE de la commune.
+fiches.parquet,(calculé),epci_nom,Nom de l'EPCI.
+fiches.parquet,(calculé),epci_siren,SIREN de l'EPCI.
+fiches.parquet,(calculé),regime_icpe,"Régime ICPE normalisé (AUTORISATION, ENREGISTREMENT, AUTRE, NON_ICPE)."
+fiches.parquet,(calculé),categorie_seveso,"Catégorie Seveso normalisée (NON_SEVESO, SEUIL_BAS, SEUIL_HAUT, ou vide)."

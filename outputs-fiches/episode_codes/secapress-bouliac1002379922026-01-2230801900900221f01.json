@@ -1,0 +1,42 @@
+{
+  "document_date": "2026-01-22",
+  "document_title": "secapress-bouliac1002379922026-01-2230801900900221f01",
+  "codes": [
+    {
+      "description": "Depuis la création de la rubrique 1978 en 2020, l'exploitant n'a pas effectué la déclaration d'antériorité requise, constituant une non-conformité administrative malgré la continuité de l'activité.",
+      "excerpts": [
+        "L'exploitant n'a toutefois pas procédé à sa demande d'antériorité pour la rubrique 1978. Ceci constitue une non-conformité susceptible de conduire à des suites administratives."
+      ],
+      "valence": "negative",
+      "code": "Nouvelle rubrique non déclarée"
+    },
+    {
+      "description": "La création de la rubrique 1978 par décret de 2019 illustre comment l'évolution réglementaire peut soumettre une activité existante à une nouvelle obligation déclarative sans que l'exploitant n'ait modifié ses pratiques.",
+      "excerpts": [
+        "Depuis le 1er janvier 2020, l'activité de nettoyage à sec est également soumise à déclaration au titre de la rubrique 1978 (bénéfice de l'antériorité suite à la création de la rubrique par le décret n°2019-1096 du 28/10/19)."
+      ],
+      "valence": "neutral",
+      "code": "Évolution nomenclature ICPE"
+    },
+    {
+      "description": "L'activité de nettoyage à sec relève simultanément de deux rubriques (2345.2 et 1978), montrant la complexité de la nomenclature pour les petits établissements.",
+      "excerpts": [
+        "Un récépissé de déclaration au titre de la rubrique 2345.2 avait été délivré à l'exploitant le 21 janvier 1999.",
+        "Depuis le 1er janvier 2020, l'activité de nettoyage à sec est également soumise à déclaration au titre de la rubrique 1978"
+      ],
+      "valence": "neutral",
+      "code": "Double classement même activité"
+    },
+    {
+      "description": "L'inspection fixe un délai de 15 jours pour que l'exploitant procède à la déclaration et transmette le récépissé, signalant la facilité administrative attendue de la démarche.",
+      "excerpts": [
+        "L'exploitant procède à la déclaration de son installation au titre de la rubrique 1978 et transmet le récépissé à l'inspection sous 15 jours."
+      ],
+      "valence": "neutral",
+      "code": "Délai court de régularisation"
+    }
+  ],
+  "document_summary": "Inspection d'un pressing (Secapress, Bouliac) portant sur l'absence de déclaration au titre de la rubrique 1978 créée en 2020 pour les installations utilisant des solvants organiques : l'activité existait déjà sous la rubrique 2345.2 mais le changement réglementaire n'a pas été suivi d'une demande d'antériorité. Une régularisation sous 15 jours est demandée.",
+  "surprises": "Un pressing actif depuis au moins 1999 se retrouve en non-conformité non par changement d'activité mais par évolution de la nomenclature réglementaire — la mise à jour du cadre légal génère des écarts passifs chez des exploitants qui n'ont rien changé.",
+  "tensions": "L'exploitant bénéficiait d'une antériorité potentielle mais n'a pas effectué la demande administrative correspondante, créant un écart formel sans enjeu environnemental nouveau."
+}

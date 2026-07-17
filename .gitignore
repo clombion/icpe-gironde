@@ -1,0 +1,22 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Python caches (from scripts/)
+__pycache__/
+*.pyc
+*.pyo
+
+# Raw data staging from the prep scripts
+carte/tmp/
+
+# Audit pipeline cache (BAN responses, regeneratable)
+données-georisques/audit/.cache/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Artefacts locaux non versionnés (corpus régénérable, staging temporaire)
+local/

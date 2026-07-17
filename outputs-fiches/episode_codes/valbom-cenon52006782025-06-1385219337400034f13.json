@@ -1,0 +1,41 @@
+{
+  "document_date": "2025-06-13",
+  "document_title": "valbom-cenon52006782025-06-1385219337400034f13",
+  "codes": [
+    {
+      "description": "Des bouteilles de méthane sont entreposées sans surveillance dans un espace non sécurisé, contrairement aux bouteilles d'autres gaz stockées de façon sécurisée dans la zone ATEX adjacente.",
+      "excerpts": [
+        "la présence de bouteilles de méthane entreposées sans surveillance dans un espace non sécurisé, à quelques mètres d'une zone ATEX où sont stockées de manière sécurisée d'autres bouteilles de gaz."
+      ],
+      "valence": "negative",
+      "code": "Bouteilles gaz inflammable non sécurisées"
+    },
+    {
+      "description": "La proximité entre les bouteilles non sécurisées et une zone ATEX active accroît le risque d'inflammation en cas de fuite, illustrant un danger lié à la coexistence de niveaux de gestion inégaux.",
+      "excerpts": [
+        "à quelques mètres d'une zone ATEX où sont stockées de manière sécurisée d'autres bouteilles de gaz."
+      ],
+      "valence": "negative",
+      "code": "Proximité zone ATEX non respectée"
+    },
+    {
+      "description": "L'inspection demande une photographie des bouteilles déplacées comme preuve documentaire de la mise en sécurité, mode de vérification rapide adapté à un écart de terrain simple.",
+      "excerpts": [
+        "Transmettre une photographie des bouteilles déplacées."
+      ],
+      "valence": "neutral",
+      "code": "Preuve photographique demandée"
+    },
+    {
+      "description": "Au-delà du déplacement physique des bouteilles, l'inspection demande un renforcement des consignes relatives aux dangers des gaz inflammables sous pression, indiquant un problème de culture sécurité.",
+      "excerpts": [
+        "Il est demandé à l'exploitant de mettre en sécurité les bouteilles de méthane et de renforcer les consignes concernant la prise en compte des dangers liés au gaz inflammables sous pression."
+      ],
+      "valence": "neutral",
+      "code": "Renforcement consignes gaz inflammable"
+    }
+  ],
+  "document_summary": "Inspection du site Valbom (Cenon) : des bouteilles de méthane sont trouvées non sécurisées à quelques mètres d'une zone ATEX où d'autres bouteilles de gaz sont, elles, correctement stockées. L'inspection demande le déplacement des bouteilles, une photographie de preuve et le renforcement des consignes.",
+  "surprises": "Le fait que certaines bouteilles de gaz soient correctement stockées dans la zone ATEX mais que d'autres (méthane) soient laissées sans surveillance à côté révèle une gestion incohérente et sélective des risques liés aux gaz sous pression.",
+  "tensions": "La coexistence sur le même site d'un stockage conforme (zone ATEX) et d'un stockage non conforme (bouteilles méthane à proximité) illustre une attention disparate aux risques — conformité partielle qui peut donner une fausse impression de sécurité globale."
+}

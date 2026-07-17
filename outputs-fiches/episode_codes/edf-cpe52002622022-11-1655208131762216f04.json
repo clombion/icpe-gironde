@@ -1,0 +1,58 @@
+{
+  "document_date": "2022-11-16",
+  "document_title": "edf-cpe52002622022-11-1655208131762216f04",
+  "document_summary": "Inspection d'un ancien site EDF (type centrale de production) faisant l'objet d'une surveillance piézométrique des eaux souterraines. L'inspection constate une conformité globale sur les paramètres chimiques mais relève des dépassements pour le pH, la conductivité et l'arsenic sur certains piézomètres, ainsi qu'un piézomètre bouché hors service.",
+  "surprises": "Des traces de chlorures de vinyle sont détectées sur deux piézomètres (PzT5 et Pz29), indiquant une dégradation biologique ou une contamination ancienne aux COHV.",
+  "tensions": "L'inspection propose d'intégrer dans l'arrêté préfectoral des dispositions sur l'état des ouvrages, révélant un vide réglementaire : la surveillance est prescrite mais le maintien en état des outils de surveillance ne l'est pas explicitement.",
+  "codes": [
+    {
+      "description": "L'exploitant réalise une surveillance trimestrielle des eaux souterraines via un réseau de piézomètres conformément à l'arrêté préfectoral.",
+      "excerpts": [
+        "L'exploitant a transmis les surveillances trimestrielles 2022 de la qualité des eaux souterraines réalisés sur le réseau piézométrique du site."
+      ],
+      "valence": "positive",
+      "code": "Surveillance piézométrique eaux souterraines"
+    },
+    {
+      "description": "Le piézomètre Pz22 est bouché à 1,37 m, rendant impossible tout prélèvement pertinent et créant une lacune dans la couverture du réseau.",
+      "excerpts": [
+        "l'ouvrage Pz22 est bouché à 1,37 m et de ce fait, aucun prélèvement des eaux souterraines pertinents ne peut être effectué."
+      ],
+      "valence": "negative",
+      "code": "Piézomètre inopérant bouché"
+    },
+    {
+      "description": "Des dépassements des valeurs de référence sont détectés pour le pH et la conductivité sur plusieurs piézomètres, bien que les polluants organiques et métaux lourds restent conformes.",
+      "excerpts": [
+        "sur Pz21 et Pz23bis des dépassements pour le pH",
+        "sur PzT5, PzT8, PzD4, PzD13, Pz20 et Pz30, des dépassements pour la conductivité (seuil haut)"
+      ],
+      "valence": "negative",
+      "code": "Dépassements ponctuels pH et conductivité"
+    },
+    {
+      "description": "Des traces de chlorures de vinyle sont quantifiées sur deux piézomètres, signalant une pollution historique aux composés organohalogénés volatils.",
+      "excerpts": [
+        "Des traces de chlorures de vinyle sont quantifiées sur les PzT5 et Pz29."
+      ],
+      "valence": "negative",
+      "code": "Contamination COHV résiduelle"
+    },
+    {
+      "description": "Malgré les dépassements ponctuels, l'inspection constate l'absence d'évolution notable de la pollution, suggérant une situation stabilisée.",
+      "excerpts": [
+        "Pas d'évolution notable de la pollution des eaux souterraines au droit du site."
+      ],
+      "valence": "mixed",
+      "code": "Stabilité pollution sans évolution notable"
+    },
+    {
+      "description": "L'inspection propose d'amender l'arrêté de réhabilitation pour y intégrer des dispositions sur l'état des ouvrages de surveillance et leur mise en sécurité.",
+      "excerpts": [
+        "L'inspection des installations classées propose de compléter les prescriptions de l'arrêté de réhabilitation pour y intégrer des dispositions sur l'état des ouvrages et sur leur mise en sécurité au terme des travaux de dépollution."
+      ],
+      "valence": "neutral",
+      "code": "Proposition compléter arrêté préfectoral"
+    }
+  ]
+}

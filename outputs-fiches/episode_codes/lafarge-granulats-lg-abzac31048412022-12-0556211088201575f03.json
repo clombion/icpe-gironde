@@ -1,0 +1,49 @@
+{
+  "document_date": "2022-12-05",
+  "document_title": "lafarge-granulats-lg-abzac31048412022-12-0556211088201575f03",
+  "codes": [
+    {
+      "description": "La mise en place de la clôture périmétrique a débuté côté route départementale mais reste incomplète, notamment sur la limite Est.",
+      "excerpts": [
+        "il a été constaté que la pose de la clôture a bien commencée le long de la route départementale (RD 17E1). [...] La limite Est n'a pas encore été travaillée."
+      ],
+      "valence": "mixed",
+      "code": "Clôture en cours d'installation"
+    },
+    {
+      "description": "Les zones écologiquement sensibles ont été matérialisées par des piquets à l'extrémité rouge pendant la phase de défrichement, conformément aux exigences de l'arrêté.",
+      "excerpts": [
+        "Le balisage des zones sensibles a consisté à matérialiser les zones par des piquets à l'extrémité rouge pendant la phase de défrichement."
+      ],
+      "valence": "positive",
+      "code": "Balisage zones sensibles réalisé"
+    },
+    {
+      "description": "L'exploitant a sélectionné un bureau d'études spécialisé en écologie pour coordonner les opérations de défrichement, répondant aux exigences de l'article 3.1 de l'arrêté.",
+      "excerpts": [
+        "l'exploitant déclare que le bureau d'étude Simethis (expert en écologie) a été sélectionné pour le suivi environnemental et a coordonné les opérations de défrichement."
+      ],
+      "valence": "positive",
+      "code": "Expert écologue mandaté"
+    },
+    {
+      "description": "L'inspection demande à l'exploitant de documenter formellement le respect des mesures d'évitement définies dans l'arrêté d'autorisation.",
+      "excerpts": [
+        "Il est demandé à l'exploitant de justifier le respect des mesures d'évitement définies à l'article 3.1.2 de l'arrêté préfectoral d'autorisation."
+      ],
+      "valence": "neutral",
+      "code": "Justification mesures d'évitement attendue"
+    },
+    {
+      "description": "L'arrêté impose la présence d'une rétention mobile pour les ravitaillements en bord à bord afin de prévenir les déversements accidentels d'hydrocarbures.",
+      "excerpts": [
+        "Une rétention mobile destinée à recueillir les éventuels déversements d'huiles ou hydrocarbures lors des ravitaillements en bord à bord est disponible sur le site dès le début de l'exploitation."
+      ],
+      "valence": "positive",
+      "code": "Rétention hydrocarbures ravitaillement"
+    }
+  ],
+  "document_summary": "Inspection de démarrage d'une carrière Lafarge à Abzac contrôlant la mise en place des premières mesures environnementales avant exploitation : clôture, balisage écologique et sélection d'un écologue. La clôture est partiellement installée et l'écologue est désigné, mais des justificatifs documentaires restent à fournir.",
+  "surprises": "",
+  "tensions": "La clôture est requise avant le début de l'exploitation selon l'arrêté, mais l'inspection constate que seule une partie est installée (limite Est non faite) : tension entre conformité formelle et réalité de terrain au démarrage d'un chantier."
+}

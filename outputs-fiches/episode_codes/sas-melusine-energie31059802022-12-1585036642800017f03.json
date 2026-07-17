@@ -1,0 +1,25 @@
+{
+  "document_date": "2022-12-15",
+  "document_title": "sas-melusine-energie31059802022-12-1585036642800017f03",
+  "document_summary": "La fiche contrôle la détection incendie dans les locaux techniques de l'unité de méthanisation SAS Mélusine Énergie. Le local épuration est conforme à la prescription imposant la présence d'un détecteur de fumée dans chaque local technique.",
+  "surprises": "",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "Le local épuration de l'unité de méthanisation est équipé d'un détecteur de fumée conformément à la prescription applicable à chaque local technique.",
+      "excerpts": [
+        "Conforme pour le local épuration."
+      ],
+      "valence": "positive",
+      "code": "Conformité détection incendie local technique"
+    },
+    {
+      "description": "La prescription exige qu'un détecteur de fumée soit installé dans chaque local technique de l'installation.",
+      "excerpts": [
+        "Chaque local technique est équipé d'un détecteur de fumée"
+      ],
+      "valence": "neutral",
+      "code": "Détecteurs de fumée locaux techniques"
+    }
+  ]
+}

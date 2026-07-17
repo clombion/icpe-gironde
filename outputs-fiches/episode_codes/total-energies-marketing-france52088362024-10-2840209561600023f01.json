@@ -1,0 +1,33 @@
+{
+  "document_date": "2024-10-28",
+  "document_title": "total-energies-marketing-france52088362024-10-2840209561600023f01",
+  "codes": [
+    {
+      "description": "Le volume annuel délivré (1 400 m³ en 2023) est très inférieur au seuil de l'enregistrement (20 000 m³), ce qui peut justifier un classement réglementaire moins contraignant.",
+      "excerpts": [
+        "L'exploitant a indiqué que le volume annuel de carburant délivré, pour l'année 2023, est de 1400 m3 ce qui est nettement inférieur au seuil de l'enregistrement (20 000 m3)."
+      ],
+      "valence": "positive",
+      "code": "Volume carburant sous seuil enregistrement"
+    },
+    {
+      "description": "La prescription impose la tenue d'un registre des entrées/sorties de liquides inflammables et la capacité à fournir une estimation des stocks et un bilan par catégorie, accessible aux services de secours et à l'inspection.",
+      "excerpts": [
+        "L'exploitant est en mesure de fournir une estimation des stocks ainsi qu'un bilan quantités réceptionnées, quantités délivrées pour chaque catégorie de liquides inflammables détenus, auxquels est annexé un plan général des stockages."
+      ],
+      "valence": "neutral",
+      "code": "Registre stocks et flux exigé"
+    },
+    {
+      "description": "Les informations sur les stocks et flux doivent être tenues à disposition non seulement de l'inspection mais aussi des services d'incendie et de secours et de l'organisme de contrôles périodiques, soulignant le rôle opérationnel de ce registre.",
+      "excerpts": [
+        "Cette information est tenue à la disposition des services d'incendie et de secours, de l'inspection des installations classées et de l'organisme de contrôles périodiques."
+      ],
+      "valence": "neutral",
+      "code": "Partage d'information urgence"
+    }
+  ],
+  "document_summary": "Inspection d'un dépôt de carburant Total Energies Marketing France portant sur le registre des stocks et flux de liquides inflammables : le volume annuel délivré est très nettement en dessous du seuil d'enregistrement, ce qui peut influencer le régime applicable. La prescription rappelle les obligations documentaires de traçabilité des stocks.",
+  "surprises": "Le volume très faible (1 400 m³ vs seuil de 20 000 m³) suggère qu'il s'agit d'une petite station-service ou d'un dépôt secondaire — le contrôle d'un si petit site par la DREAL est notable.",
+  "tensions": ""
+}

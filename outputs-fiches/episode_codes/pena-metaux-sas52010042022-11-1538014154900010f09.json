@@ -1,0 +1,41 @@
+{
+  "document_date": "2022-11-15",
+  "document_title": "pena-metaux-sas52010042022-11-1538014154900010f09",
+  "codes": [
+    {
+      "description": "Les résultats de surveillance des rejets aqueux n'ont plus été transmis via GIDAF depuis novembre 2021, constituant un manquement continu sur plusieurs trimestres.",
+      "excerpts": [
+        "La dernière transmission de résultats de surveillance des rejets aqueux par l'exploitant par le biais du site Internet appelé GIDAF a été réalisée le 25 novembre 2021 [...] Depuis, aucune des campagnes trimestrielles et semestrielles [...] n'a fait l'objet d'une transmission des résultats par GIDAF."
+      ],
+      "valence": "negative",
+      "code": "Transmission GIDAF interrompue"
+    },
+    {
+      "description": "La campagne du 1er trimestre 2022 n'a pas du tout été réalisée, révélant une défaillance dans le programme de surveillance lui-même et pas seulement dans sa transmission.",
+      "excerpts": [
+        "campagne du 1er trimestre 2022 : non réalisée (inspection informée par courriel du 18 novembre 2022)"
+      ],
+      "valence": "negative",
+      "code": "Campagne mesure non réalisée"
+    },
+    {
+      "description": "Les résultats disponibles n'ont été transmis qu'après demande explicite de l'inspection, révélant une autosurveillance passive qui n'alerte pas proactivement l'autorité.",
+      "excerpts": [
+        "campagne du 4ème trimestre 2021 réalisée le 3 novembre : transmission des résultats par courriel du 21 septembre 2022 sur demande de l'inspection"
+      ],
+      "valence": "negative",
+      "code": "Transmission résultats à la demande seulement"
+    },
+    {
+      "description": "L'inspection propose une mise en demeure sous 3 mois pour forcer l'exploitant à respecter ses obligations de transmission des données de surveillance des rejets.",
+      "excerpts": [
+        "L'inspection propose à Mme la Préfète de mettre en demeure l'exploitant de respecter les dispositions relatives à la transmission des résultats de la surveillance des rejets aqueux sous 3 mois."
+      ],
+      "valence": "negative",
+      "code": "Mise en demeure proposée transmission"
+    }
+  ],
+  "document_summary": "Inspection de Pena Métaux SAS révélant une rupture systématique dans la transmission des données de surveillance des rejets aqueux via la plateforme GIDAF depuis fin 2021 — avec en plus une campagne non réalisée au 1er trimestre 2022. L'inspection propose une mise en demeure.",
+  "surprises": "",
+  "tensions": "Tension entre l'existence d'un outil numérique dédié (GIDAF) censé automatiser la transmission, et la désinvolture de l'exploitant qui ne l'utilise pas et ne transmet les données que sous la pression de l'inspection."
+}

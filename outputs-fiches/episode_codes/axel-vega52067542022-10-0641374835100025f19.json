@@ -1,0 +1,33 @@
+{
+  "document_date": "2022-10-06",
+  "document_title": "axel-vega52067542022-10-0641374835100025f19",
+  "codes": [
+    {
+      "description": "L'exploitant ne dispose d'aucun système de traçabilité pour les déchets produits, notamment les bidons vidés.",
+      "excerpts": [
+        "L'exploitant ne dispose d'aucune traçabilité en ce qui concerne la destruction des déchets produits et notamment des bidons vidés de 20 litres."
+      ],
+      "valence": "negative",
+      "code": "Absence traçabilité déchets"
+    },
+    {
+      "description": "Suite à la non-conformité, l'inspection demande à l'exploitant de mettre en place une stratégie de traçabilité des déchets produits.",
+      "excerpts": [
+        "L'exploitant met en place une stratégie de traçabilité des déchets produits par son installation (bidons vides...)."
+      ],
+      "valence": "neutral",
+      "code": "Stratégie traçabilité à mettre en place"
+    },
+    {
+      "description": "La réglementation impose à l'exploitant de s'assurer que les déchets sont éliminés dans des installations régulièrement autorisées.",
+      "excerpts": [
+        "L'exploitant élimine ou fait éliminer les déchets produits dans des conditions propres à garantir les intérêts visés à l'article L511-1 du code de l'environnement. Il s'assure que les installations utilisées pour cette élimination sont régulièrement autorisées à cet effet."
+      ],
+      "valence": "neutral",
+      "code": "Obligation filière agréée déchets"
+    }
+  ],
+  "document_summary": "L'inspection d'Axel Vega révèle une absence totale de traçabilité pour les déchets produits (notamment bidons vidés de 20 litres) ; l'exploitant est invité à mettre en place une stratégie de suivi conforme à la réglementation.",
+  "surprises": "",
+  "tensions": ""
+}

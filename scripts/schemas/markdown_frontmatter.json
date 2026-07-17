@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ijba.fr/projet-icpe/schemas/markdown_frontmatter.json",
+  "title": "Front matter YAML des rapports d'inspection en markdown",
+  "description": "Schéma strict du bloc front matter YAML placé en tête de chaque fichier markdown extrait d'un rapport d'inspection ICPE. Toutes les clés listées sont obligatoires. Aucune clé supplémentaire n'est autorisée : le front matter sert de contrat déterministe entre l'extracteur et les outils aval.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "source_pdf",
+    "source_sha256",
+    "source_bytes",
+    "id_icpe",
+    "nom_complet",
+    "siret",
+    "date_inspection",
+    "identifiant_fichier",
+    "url_source_georisques",
+    "url_pages",
+    "extraction_method",
+    "extraction_version",
+    "extracted_at"
+  ],
+  "properties": {
+    "source_pdf": {
+      "type": "string",
+      "pattern": "^[^/]+\\.pdf$",
+      "description": "Nom du PDF source (basename, sans chemin). Doit matcher un fichier de rapports-inspection/."
+    },
+    "source_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$",
+      "description": "SHA-256 hex du PDF source au moment de l'extraction. Permet de détecter un changement silencieux du PDF ou une corruption en aval."
+    },
+    "source_bytes": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Taille en octets du PDF source au moment de l'extraction. Redondant avec sha256 mais utile pour auditer à l'œil."
+    },
+    "id_icpe": {
+      "type": "string",
+      "pattern": "^[0-9]+$",
+      "description": "Identifiant ICPE (codeAiot sans zéros de tête). Copié depuis la ligne correspondante de rapports-inspection.csv."
+    },
+    "nom_complet": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Libellé désambiguïsé de l'installation au moment de l'extraction. Copié depuis rapports-inspection.csv."
+    },
+    "siret": {
+      "type": "string",
+      "pattern": "^([0-9]{14})?$",
+      "description": "SIRET de l'exploitant (14 chiffres) ou chaîne vide si non renseigné dans la source."
+    },
+    "date_inspection": {
+      "type": "string",
+      "pattern": "^([0-9]{4}-[0-9]{2}-[0-9]{2})?$",
+      "description": "Date de l'inspection au format ISO YYYY-MM-DD, ou chaîne vide si absente de la source."
+    },
+    "identifiant_fichier": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Identifiant opaque du fichier côté Géorisques. Clé d'unicité du PDF source."
+    },
+    "url_source_georisques": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://www\\.georisques\\.gouv\\.fr/webappReport/ws/installations/inspection/",
+      "description": "URL canonique du PDF côté Géorisques."
+    },
+    "url_pages": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "description": "URL GitHub Pages du PDF local post-push."
+    },
+    "extraction_method": {
+      "type": "string",
+      "enum": [
+        "dreal_parser",
+        "pymupdf4llm_generic",
+        "ocr_then_dreal_parser",
+        "ocr_then_pymupdf4llm",
+        "failed"
+      ],
+      "description": "Chemin d'extraction effectivement emprunté. 'dreal_parser' : PDF texte reconnu comme gabarit DREAL, parsé en sections. 'pymupdf4llm_generic' : PDF texte mais gabarit non reconnu, conversion générique. 'ocr_then_*' : scan sans couche texte, OCR ocrmypdf appliqué en amont, puis routé vers le parser correspondant. 'failed' : extraction impossible (corruption, format non supporté), le markdown ne contient que le front matter et une note d'erreur."
+    },
+    "extraction_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "description": "Version sémantique de l'extracteur au moment du run. À incrémenter dès qu'un changement d'algo invaliderait les snapshots (nouvelle règle de parsing, nouveau format de front matter, changement d'OCR)."
+    },
+    "extracted_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp ISO 8601 (précision seconde) du moment où ce markdown a été écrit."
+    }
+  }
+}

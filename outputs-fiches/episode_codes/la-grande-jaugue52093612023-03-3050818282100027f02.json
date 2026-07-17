@@ -1,0 +1,49 @@
+{
+  "document_date": "2023-03-30",
+  "document_title": "la-grande-jaugue52093612023-03-3050818282100027f02",
+  "codes": [
+    {
+      "description": "L'inspection remet en cause la validité du bassin de lixiviats comme réserve d'eau d'extinction, soulevant une question sur la comptabilisation des volumes disponibles.",
+      "excerpts": [
+        "L'inspection émet des réserves sur le fait que le bassin de lixiviats puisse être considéré comme réserve d'eau d'extinction incendie"
+      ],
+      "valence": "negative",
+      "code": "Volume réserve incendie contesté"
+    },
+    {
+      "description": "Le dispositif incendie ne peut être considéré conforme qu'après vérification concrète par le SDIS via des essais sur place, soulignant un rôle actif du service de secours dans la validation.",
+      "excerpts": [
+        "demande à l'exploitant de se rapprocher du SDIS (Capitaine Marchal au GOP) pour vérifier que ce système convient au SDIS en réalisant des essais sur place"
+      ],
+      "valence": "neutral",
+      "code": "Validation SDIS requise"
+    },
+    {
+      "description": "Des volumes contradictoires ont été déclarés pour le bassin pompier selon les interlocuteurs et les documents, révélant un manque de fiabilité dans la documentation de l'exploitant.",
+      "excerpts": [
+        "L'exploitant indique avoir un bassin pompier de 200m3 (300m3 indiqué dans le courrier adressé au SDIS du 13/11/2020)"
+      ],
+      "valence": "negative",
+      "code": "Incohérence données déclarées"
+    },
+    {
+      "description": "L'inspection demande à l'exploitant de confirmer si la réserve est automatiquement réalimentée, soulevant un doute sur la disponibilité effective du volume en cas d'incendie.",
+      "excerpts": [
+        "L'exploitant doit par ailleurs indiquer si la réserve est automatiquement réalimentée. Le cas échéant, s'il est possible de la réalimenter afin de garantir les volumes annoncés."
+      ],
+      "valence": "negative",
+      "code": "Réalimentation réserve non garantie"
+    },
+    {
+      "description": "Le point contrôlé constitue un suivi d'une prescription antérieure, inscrivant cette inspection dans une continuité de contrôle sur plusieurs années.",
+      "excerpts": [
+        "FSMD 2 de l'inspection précédente : La D9A indique quant à elle un besoin en rétention de 1900m3."
+      ],
+      "valence": "neutral",
+      "code": "Conformité FSMD précédent"
+    }
+  ],
+  "document_summary": "Cette fiche porte sur la vérification de la conformité de la réserve d'eau pour l'extinction d'incendie d'une installation de stockage de déchets. L'inspection valide partiellement la solution présentée par l'exploitant mais émet des réserves sur la comptabilisation du bassin de lixiviats et demande une validation par le SDIS avec essais sur place.",
+  "surprises": "L'utilisation d'un bassin de lixiviats (eaux de décharge potentiellement polluées) comme réserve d'eau d'extinction incendie est une solution peu conventionnelle qui suscite des interrogations légitimes de la part de l'inspection.",
+  "tensions": "Tension entre la nécessité opérationnelle de disposer d'un volume suffisant (jusqu'à 1900m3 selon D9A) et la solution proposée par l'exploitant qui cumule des volumes hétérogènes (bassin pompier + lixiviats) dont la pertinence opérationnelle est douteuse."
+}

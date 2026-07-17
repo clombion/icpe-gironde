@@ -1,0 +1,49 @@
+{
+  "document_date": "2023-10-20",
+  "document_title": "maison-de-retraite-terre-negre1000322432023-10-2078183755400018f02",
+  "codes": [
+    {
+      "description": "La problématique de l'absence de déclaration ICPE a été identifiée fin 2021 par l'exploitant lui-même, soit après plusieurs années d'exploitation non déclarée.",
+      "excerpts": [
+        "l'exploitant a indiqué que la problématique associée à l'absence de déclaration a été identifiée fin 2021."
+      ],
+      "valence": "negative",
+      "code": "Absence déclaration détectée tardivement"
+    },
+    {
+      "description": "L'exploitant a pris l'initiative de commander un audit de conformité avant toute injonction de l'inspection, ce qui témoigne d'une démarche proactive de mise en conformité.",
+      "excerpts": [
+        "Un audit de conformité a été commandé auprès d'un organisme de contrôle le 30 décembre 2021 pour évaluer les mises en conformités nécessaires et procéder à la régularisation administrative."
+      ],
+      "valence": "positive",
+      "code": "Audit conformité auto-commandé"
+    },
+    {
+      "description": "L'audit révèle des non-conformités à la fois documentaires (manque de consignes, registres) et techniques (dispositif de sécurité gaz), nécessitant un plan d'action structuré.",
+      "excerpts": [
+        "Le rapport d'audit a été reçu le 1er juillet 2022 et fait état de plusieurs non-conformités (documentaires et techniques)."
+      ],
+      "valence": "negative",
+      "code": "Non-conformités documentaires et techniques"
+    },
+    {
+      "description": "L'inspection observe la mise en place d'une seconde vanne automatique asservie à la détection gaz dans la chaufferie, comme action corrective technique.",
+      "excerpts": [
+        "L'inspection a notamment pu constater l'installation d'une seconde vanne automatique asservie à la détection gaz au sein de la chaufferie"
+      ],
+      "valence": "positive",
+      "code": "Vanne sécurité gaz installée"
+    },
+    {
+      "description": "Le contrôle périodique réglementaire ne peut être réalisé qu'après régularisation administrative, créant un enchaînement de prérequis que l'exploitant doit satisfaire dans l'ordre.",
+      "excerpts": [
+        "Après régularisation de sa situation administrative, l'exploitant réalise le contrôle périodique de l'installation dans les 3 mois suivant sa déclaration et communique le rapport de contrôle à l'inspection."
+      ],
+      "valence": "neutral",
+      "code": "Contrôle périodique conditionné déclaration"
+    }
+  ],
+  "document_summary": "Inspection d'une maison de retraite qui a découvert fin 2021 qu'elle n'avait pas déclaré son installation ICPE (chaufferie). L'exploitant a engagé proactivement un audit et un plan de mise en conformité. L'inspection constate des progrès concrets et attend la finalisation de la déclaration pour déclencher le contrôle périodique.",
+  "surprises": "Le fait qu'une maison de retraite soit en situation d'exploitation ICPE non déclarée depuis une durée inconnue, et que ce soit l'exploitant lui-même qui l'ait détecté, illustre la méconnaissance du droit ICPE dans le secteur médico-social.",
+  "tensions": "Tension entre la démarche proactive et de bonne foi de l'exploitant (qui s'est auto-signalé et a commandé un audit) et l'obligation réglementaire qui reste de régulariser formellement avant de pouvoir obtenir la validation du contrôle périodique."
+}

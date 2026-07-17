@@ -1,0 +1,33 @@
+{
+  "document_date": "2024-08-27",
+  "document_title": "edf-sei-guyane1000339992024-08-2755208131790191f02",
+  "document_summary": "L'inspection constate l'absence d'attestation de garanties financières pour une carrière exploitée par EDF SEI en Guyane, en violation de l'obligation légale applicable aux carrières dont le changement d'exploitant est soumis à autorisation préfectorale.",
+  "surprises": "Une carrière exploitée par EDF (producteur d'énergie) en Guyane — contexte inhabituel qui illustre la diversité des sites ICPE.",
+  "tensions": "",
+  "codes": [
+    {
+      "description": "L'exploitant n'a pas fourni l'attestation de garanties financières obligatoire pour les carrières dont la mise en activité y est subordonnée.",
+      "excerpts": [
+        "L'attestation de garanties financières n'a pas été fournie."
+      ],
+      "valence": "negative",
+      "code": "Absence garanties financières"
+    },
+    {
+      "description": "Le constat est lapidaire et sans ambiguïté : la prescription n'est pas respectée, sans nuance ni circonstance atténuante.",
+      "excerpts": [
+        "La prescription n'est pas respectée"
+      ],
+      "valence": "negative",
+      "code": "Non-conformité explicitement déclarée"
+    },
+    {
+      "description": "La prescription vise spécifiquement les carrières parmi les catégories d'installations soumises à garanties financières obligatoires.",
+      "excerpts": [
+        "Les installations dont la mise en activité est subordonnée à l'existence de garanties financières et dont le changement d'exploitant est soumis à autorisation préfectorale sont : 2° Les carrières"
+      ],
+      "valence": "neutral",
+      "code": "Obligation propre aux carrières"
+    }
+  ]
+}

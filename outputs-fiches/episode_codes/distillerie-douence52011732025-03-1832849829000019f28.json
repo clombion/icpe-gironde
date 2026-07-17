@@ -1,0 +1,41 @@
+{
+  "document_date": "2025-03-18",
+  "document_title": "distillerie-douence52011732025-03-1832849829000019f28",
+  "document_summary": "L'inspection vérifie la conformité des installations électriques d'une distillerie qui a récemment installé des panneaux photovoltaïques, et constate que des anomalies persistent malgré un suivi documenté des actions correctives, avec des limites d'intervention non couvertes dans les rapports de contrôle.",
+  "surprises": "L'exploitant dispose de fiches d'anomalies bien renseignées permettant de tracer les levées de non-conformités — un système de gestion documentaire mature pour un site de cette taille.",
+  "tensions": "Les rapports de vérification identifient des limites d'intervention (zones non vérifiées) sans que des contrôles complémentaires aient été menés — une conformité partielle potentiellement masquée par des rapports positifs sur les zones accessibles.",
+  "codes": [
+    {
+      "description": "Les rapports de vérification électrique font état d'anomalies de priorité 1, dont certaines récurrentes, signalant un risque d'incendie persistant dans les installations électriques.",
+      "excerpts": [
+        "Le compte-rendu Q19 met en avant 11 anomalies de priorité 1, dont 2 récurrentes, et indique que le risque d'incendie est présent"
+      ],
+      "valence": "negative",
+      "code": "Anomalies électriques récurrentes"
+    },
+    {
+      "description": "L'exploitant tient des fiches d'anomalies complétées permettant de tracer les actions menées et la levée des non-conformités, démontrant une démarche de suivi structurée.",
+      "excerpts": [
+        "Les fiches d'anomalies ont été constatées complétées, permettant de tracer les actions menées et la levée des non-conformités"
+      ],
+      "valence": "positive",
+      "code": "Suivi documenté actions correctives"
+    },
+    {
+      "description": "Le rapport de vérification électrique identifie des zones nécessitant des vérifications complémentaires qui n'ont pas été réalisées, laissant des incertitudes sur l'état réel de l'installation.",
+      "excerpts": [
+        "Les limites d'intervention de ce rapport indiquent la nécessité de réaliser des vérifications complémentaires, non menées"
+      ],
+      "valence": "negative",
+      "code": "Limites d'intervention contrôle non couvertes"
+    },
+    {
+      "description": "Une vérification par thermographie infrarouge est réalisée annuellement en complément des contrôles classiques, constituant une méthode de détection proactive des anomalies.",
+      "excerpts": [
+        "Le rapport de vérification des installations électriques par thermographie infrarouge du 04/06/2024, réalisé par l'Apave, a également été transmis"
+      ],
+      "valence": "positive",
+      "code": "Thermographie infrarouge installations électriques"
+    }
+  ]
+}

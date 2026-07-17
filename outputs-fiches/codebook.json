@@ -1,0 +1,157 @@
+{
+  "version": "v5",
+  "date": "2026-04-12",
+  "corpus": "ICPE Gironde — fiches d'inspection DREAL",
+  "method": "Inductive thematic analysis (Braun & Clarke) with iterative taxonomy stress-testing",
+  "stats": {
+    "fiches_coded_inductively": 146,
+    "fiches_stress_tested": 12000,
+    "taxonomy_iterations": 5,
+    "hunter_skeptic_validated": 659,
+    "hunter_skeptic_error_rate": 0.111,
+    "final_M15_rate": 0.0
+  },
+  "axes": [
+    {
+      "id": "axe1",
+      "name": "Domaine technique",
+      "description": "De quoi parle la fiche — le sujet technique du constat",
+      "multi_label": true,
+      "codes": [
+        {"id": "D01_INCENDIE", "name": "Incendie et moyens de lutte", "description": "Incendie, désenfumage, détection, POI, RIA, exercices, moyens de lutte, mousse, sprinklage"},
+        {"id": "D02_ATEX", "name": "Atmosphères explosives", "description": "Zonage ATEX, DRPCE, certification matériels, ventilation zones explosives"},
+        {"id": "D03_SEVESO", "name": "Risque majeur", "description": "Étude de dangers, effets domino, MMR/SIL, SMS, PPRT, zones d'effet"},
+        {"id": "D04_EAUX", "name": "Eaux et milieu aquatique", "description": "Rejets aqueux, eaux pluviales, eaux souterraines, piézomètres, MES/DCO/DBO5, milieu récepteur, prélèvements, forages, PFAS dans les eaux"},
+        {"id": "D05_AIR_BRUIT", "name": "Air, bruit et émissions", "description": "Rejets atmosphériques, poussières, COV, solvants, bruit, odeurs, GES/ETS/quotas carbone, dioxines/furanes"},
+        {"id": "D06_SOLS", "name": "Sols et pollution", "description": "Pollution sols, contamination historique, diagnostic, réhabilitation, ALUR, CASIAS, SUP, PFAS dans les sols"},
+        {"id": "D07_RETENTION", "name": "Rétention et confinement", "description": "Rétention, confinement liquides, cuves, stockage produits dangereux, séparateurs hydrocarbures"},
+        {"id": "D08_DECHETS", "name": "Déchets et filières", "description": "Registre déchets, BSD, DAP, VHU, DEEE, filières, éco-organisme, transfert transfrontalier, terres excavées/RNDTS"},
+        {"id": "D09_BIODIVERSITE", "name": "Biodiversité", "description": "Espèces protégées, continuité écologique, ERC, chiroptères, défrichement, espèces invasives"},
+        {"id": "D10_ELECTRIQUE_ESP", "name": "Électrique et équipements sous pression", "description": "Installations électriques, vérification, ESP (chaudières, réservoirs, compresseurs), AM 20/11/2017, protection foudre"},
+        {"id": "D11_SECURITE", "name": "Sécurité des personnes", "description": "Clôture, accès, signalisation, formation, EPI, co-activité/plan de prévention, consignes d'urgence"},
+        {"id": "D12_ADMIN", "name": "Situation administrative", "description": "Nomenclature ICPE, déclaration, classement, régime, PAC, changement exploitant, antériorité"},
+        {"id": "D13_CESSATION", "name": "Cessation d'activité", "description": "Sites abandonnés/orphelins, liquidation, mise en sécurité post-fermeture, déclassement, urbanisme post-ICPE"},
+        {"id": "D14_RISQUE_BIO", "name": "Risque biologique", "description": "Légionelles, TAR, sous-produits animaux"},
+        {"id": "D15_SECTEUR", "name": "Domaines sectoriels", "description": "Sous-tags: methanisation, carrieres, elevage, pressing, froid_frigorigenes, amiante, photovoltaique, agroalimentaire, portuaire, pyrotechnique, cogeneration, entrepot_logistique, pisciculture, silo_cereales"},
+        {"id": "D16_AUTRE", "name": "Autre domaine", "description": "Domaine ne rentrant dans aucune catégorie"}
+      ]
+    },
+    {
+      "id": "axe2",
+      "name": "Mécanisme réglementaire",
+      "description": "Comment le système fonctionne — le type de constat ou d'action réglementaire. Classifier sur constats_body uniquement.",
+      "multi_label": true,
+      "codes": [
+        {"id": "M01_DOCUMENTATION", "name": "Documentation", "description": "Absence OU obsolescence de preuve documentaire, registres, attestations, plans, transmission"},
+        {"id": "M02_MESURE", "name": "Qualité de la mesure", "description": "Protocole inadéquat, représentativité, fréquence, paramètres non mesurés, délai réglementaire non respecté"},
+        {"id": "M03_REPORTING", "name": "Reporting numérique", "description": "GEREP, Trackdéchets, GIDAF"},
+        {"id": "M04_MISE_EN_DEMEURE", "name": "Mise en demeure", "description": "APMD, levée, non-respect"},
+        {"id": "M05_SANCTION", "name": "Sanction", "description": "Astreinte, amende, consignation, liquidation, travaux d'office, PV"},
+        {"id": "M06_RECIDIVE", "name": "Récidive", "description": "Même NC entre inspections successives"},
+        {"id": "M07_CONTROLE", "name": "Contrôle périodique", "description": "Vérification organisme agréé, contre-visite, autosurveillance, thermographie, revue MMR/GMAO"},
+        {"id": "M08_CONFORMITE", "name": "Conformité constatée", "description": "Conformité, levée de MED, validation positive, NC résolue, absence d'écart"},
+        {"id": "M09_PAC", "name": "Porter-à-connaissance", "description": "Notification modification, étude de dangers, arrêté complémentaire, PCA"},
+        {"id": "M10_GARANTIES", "name": "Garanties financières", "description": "Cautionnement, provisions pour remise en état"},
+        {"id": "M11_INCIDENT", "name": "Incident", "description": "Déclaration incident/accident, rapport circonstancié, perte de MMR, REX"},
+        {"id": "M12_IED_MTD", "name": "IED/MTD", "description": "Meilleures techniques disponibles, BREF, NEA-MTD, OTNOC, réexamen/bilan décennal"},
+        {"id": "M14_CONSTAT_TECHNIQUE", "name": "Constat technique terrain", "description": "NC technique directement observée sur site — état physique dégradé, distances non respectées, équipement absent/hors service/inopérant"},
+        {"id": "M15_AUTRE", "name": "Autre mécanisme", "description": "Dernier recours uniquement"},
+        {"id": "M17_CLASSIFICATION", "name": "Classification nomenclature", "description": "Vérification de seuil/classement ICPE, détermination de rubrique, positionnement vis-à-vis d'un régime"},
+        {"id": "M19_CESSATION", "name": "Obligations post-cessation", "description": "R512-39-1, mise en sécurité site abandonné, ATTES SECUR, mémoire du site"}
+      ],
+      "modifiers": [
+        {"id": "m_DELAI", "name": "Délai correctif", "description": "Délai imposé (15j, 1 mois, 3 mois, urgence 48h). Accompagne un autre M."},
+        {"id": "m_MENACE", "name": "Avertissement conditionnel", "description": "Précurseur de M04. 'À défaut, mise en demeure'."}
+      ]
+    },
+    {
+      "id": "axe3",
+      "name": "Dynamique relationnelle",
+      "description": "Pourquoi ça persiste ou se résout — la dimension humaine/institutionnelle",
+      "multi_label": false,
+      "default": "R13_NEUTRE_CONFORME ou R14_NEUTRE_NC",
+      "codes": [
+        {"id": "R01_PROACTIF", "name": "Exploitant proactif", "description": "Correction spontanée, audit auto-commandé, anticipation"},
+        {"id": "R02_PROMESSE", "name": "Promesse sans preuve", "description": "Engagement verbal/écrit vers action FUTURE non vérifiable. Pas pour les comptes-rendus factuels."},
+        {"id": "R03_FACADE", "name": "Façade de conformité", "description": "Dispositif installé mais non fonctionnel, registre tenu mais données fausses"},
+        {"id": "R04_MECONNAISSANCE", "name": "Méconnaissance", "description": "Exploitant invoque ignorance de la règle"},
+        {"id": "R05_VIDE_FACTUEL", "name": "Vide factuel", "description": "Exploitant physiquement absent, site sans interlocuteur"},
+        {"id": "R06_VIDE_JURIDIQUE", "name": "Vide juridique", "description": "Dissolution, liquidation judiciaire, procédure collective"},
+        {"id": "R07_CONTRAINTE_TECHNIQUE", "name": "Contrainte technique", "description": "Impossibilité technique, substitution REACH"},
+        {"id": "R08_CONTRAINTE_ECONOMIQUE", "name": "Contrainte économique", "description": "Coût chiffré comme frein"},
+        {"id": "R09_BLOCAGE_TIERS", "name": "Blocage tiers", "description": "Bailleur, éco-organisme défaillant, infrastructure publique, outil admin défaillant"},
+        {"id": "R10_TENSION", "name": "Tension entre acteurs", "description": "Conflit données, diagnostic contesté"},
+        {"id": "R11_PENAL", "name": "Dimension pénale", "description": "PV procureur, menaces/violences, exploitation illégale"},
+        {"id": "R12_PRAGMATISME", "name": "Pragmatisme inspection", "description": "Souplesse, mesure compensatoire acceptée, modulation"},
+        {"id": "R13_NEUTRE_CONFORME", "name": "Neutre conforme", "description": "Conformité factuelle, défaut"},
+        {"id": "R14_NEUTRE_NC", "name": "Neutre non-conforme", "description": "NC factuelle sans dynamique notable, défaut"},
+        {"id": "R15_AUTRE", "name": "Autre dynamique", "description": "Inclassable"}
+      ]
+    },
+    {
+      "id": "axe4a",
+      "name": "Acteur principal",
+      "description": "Qui est le sujet de l'action dans le constat",
+      "multi_label": false,
+      "codes": [
+        {"id": "A01_EXPLOITANT", "name": "Exploitant"},
+        {"id": "A02_INSPECTION", "name": "Inspection ICPE (DREAL/DDPP/UD)"},
+        {"id": "A03_PREFET", "name": "Préfet"},
+        {"id": "A04_SDIS", "name": "SDIS"},
+        {"id": "A05_ORGANISME", "name": "Organisme agréé de contrôle"},
+        {"id": "A06_BET", "name": "Bureau d'études"},
+        {"id": "A07_ECO_ORGANISME", "name": "Éco-organisme"},
+        {"id": "A08_COLLECTIVITE", "name": "Collectivité (mairie, EPCI)"},
+        {"id": "A09_ADEME", "name": "ADEME"},
+        {"id": "A10_JUSTICE", "name": "Justice (procureur, tribunal)"},
+        {"id": "A11_PROPRIETAIRE", "name": "Propriétaire foncier / bailleur"},
+        {"id": "A12_TIERS", "name": "Tiers (voisin, INERIS, DREETS)"},
+        {"id": "A13_AUTRE", "name": "Autre acteur"}
+      ]
+    },
+    {
+      "id": "axe4b",
+      "name": "Stade procédural",
+      "description": "Où en est-on dans le cycle d'inspection. Classifier sur constats_body.",
+      "multi_label": false,
+      "codes": [
+        {"id": "S01_CONSTAT", "name": "Constat", "description": "Observation terrain"},
+        {"id": "S02_INJONCTION", "name": "Injonction", "description": "Demande formelle avec délai"},
+        {"id": "S03_CORRECTION", "name": "Correction", "description": "Action corrective en cours/réalisée"},
+        {"id": "S04_VERIFICATION", "name": "Vérification", "description": "Contre-visite, post-correction"},
+        {"id": "S05_ESCALADE", "name": "Escalade", "description": "Passage au niveau coercitif supérieur"},
+        {"id": "S06_CLOTURE", "name": "Clôture", "description": "Levée MED, fin procédure"},
+        {"id": "S07_AUTRE", "name": "Autre stade"}
+      ]
+    },
+    {
+      "id": "axe5",
+      "name": "Gravité",
+      "description": "Niveau de risque et d'urgence. G3 avant G2: NC physique = G3 minimum.",
+      "multi_label": false,
+      "codes": [
+        {"id": "G1_OBSERVATION", "name": "Observation", "description": "Conforme, aucun enjeu"},
+        {"id": "G2_ECART_MINEUR", "name": "Écart mineur", "description": "NC PUREMENT documentaire/formelle sans dimension physique"},
+        {"id": "G3_ECART_SIGNIFICATIF", "name": "Écart significatif", "description": "NC technique avec risque potentiel. Hors service, dégradé, non fonctionnel, distance violée, dispositif absent"},
+        {"id": "G4_RISQUE_AVERE", "name": "Risque avéré", "description": "Danger identifié, action rapide nécessaire. MED active + NC technique, dépassement VLE"},
+        {"id": "G5_URGENCE", "name": "Urgence", "description": "Risque imminent. Délai 48h, pollution en cours, perte de MMR"},
+        {"id": "G6_INCIDENT", "name": "Incident survenu", "description": "Incendie, déversement, mortalité piscicole, contamination"}
+      ]
+    },
+    {
+      "id": "axe6",
+      "name": "Trajectoire temporelle",
+      "description": "Direction de la conformité dans le temps. T1 = défaut quand aucun historique mentionné.",
+      "multi_label": false,
+      "codes": [
+        {"id": "T1_PREMIER", "name": "Premier constat", "description": "Pas d'historique mentionné"},
+        {"id": "T2_SUIVI", "name": "Suivi", "description": "Suivi explicite d'un constat antérieur"},
+        {"id": "T3_AMELIORATION", "name": "Amélioration", "description": "Correction constatée depuis dernière inspection"},
+        {"id": "T4_STAGNATION", "name": "Stagnation", "description": "Même constat, aucune évolution"},
+        {"id": "T5_AGGRAVATION", "name": "Aggravation", "description": "Situation empire"},
+        {"id": "T6_ACCUMULATION", "name": "Accumulation", "description": "Nouvelles NC + anciennes non résolues"},
+        {"id": "T7_CHRONIQUE", "name": "Chronique", "description": "Persistance >3 ans ou >2 inspections"}
+      ]
+    }
+  ]
+}

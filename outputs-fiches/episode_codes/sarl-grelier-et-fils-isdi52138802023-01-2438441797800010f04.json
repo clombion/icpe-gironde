@@ -1,0 +1,49 @@
+{
+  "document_date": "2023-01-24",
+  "document_title": "sarl-grelier-et-fils-isdi52138802023-01-2438441797800010f04",
+  "document_summary": "L'inspection d'une ISDI (Installation de Stockage de Déchets Inertes) révèle des documents d'acceptation préalable (DAP) incomplets et non systématiquement demandés à tous les producteurs de déchets. L'exploitant dispose de trois mois pour régulariser l'ensemble des DAP et y inclure toutes les informations requises.",
+  "surprises": "Le formulaire type de DAP fourni par la procédure officielle ne prévoit pas lui-même toutes les informations requises par l'arrêté du 12/12/2014, révélant une inadéquation entre l'outil administratif et la réglementation.",
+  "tensions": "L'exploitant a établi un DAP pour au moins un producteur (COLAS FRANCE), mais celui-ci est incomplet. Pour un autre (CAPRARO), aucun DAP n'existe malgré un apport de déchets documenté — tension entre pratique partielle et obligation systématique.",
+  "codes": [
+    {
+      "description": "Le document d'acceptation préalable présenté ne renseigne pas la quantité de déchets ni l'origine exacte, contrairement aux exigences de l'arrêté du 12/12/2014.",
+      "excerpts": [
+        "Il ne renseigne pas la quantité de déchets concernés ainsi que l'origine exacte du déchet."
+      ],
+      "valence": "negative",
+      "code": "DAP incomplets — informations manquantes"
+    },
+    {
+      "description": "Des déchets ont été admis sur le site sans qu'un document d'acceptation préalable ait été établi, en violation de l'obligation de traçabilité à l'entrée.",
+      "excerpts": [
+        "les documents d'acceptation préalable ne sont pas demandés à l'ensemble des clients apportant des déchets au sein de l'installation. A titre d'exemple, le producteur CAPRARO ne dispose pas de DAP."
+      ],
+      "valence": "negative",
+      "code": "DAP absents pour certains producteurs"
+    },
+    {
+      "description": "La prescription détaille les informations obligatoires devant figurer dans le DAP (identité du producteur, transporteurs, code déchet, quantité) pour assurer la traçabilité de la filière.",
+      "excerpts": [
+        "l'exploitant demande au producteur des déchets un document préalable indiquant : le nom et les coordonnées du producteur des déchets et, le cas échéant, son numéro SIRET ; [...] le libellé ainsi que le code à six chiffres des déchets [...] ; la quantité de déchets concernée en tonnes."
+      ],
+      "valence": "neutral",
+      "code": "Traçabilité réglementaire des déchets inertes"
+    },
+    {
+      "description": "Le formulaire type officiel de DAP ne prévoit pas toutes les informations requises par le texte réglementaire, créant une source d'incomplétude structurelle pour les exploitants.",
+      "excerpts": [
+        "Ces informations ne sont pas prévues par le formulaire type de DAP joint à la procédure d'acceptation préalable."
+      ],
+      "valence": "neutral",
+      "code": "Inadéquation outil administratif / réglementation"
+    },
+    {
+      "description": "L'inspection accorde trois mois à l'exploitant pour mettre en conformité l'ensemble de sa documentation d'acceptation préalable.",
+      "excerpts": [
+        "Il est demandé à l'exploitant, sous un délai de trois mois : - de compléter les documents d'acceptation préalable en renseignant l'ensemble des informations requises"
+      ],
+      "valence": "neutral",
+      "code": "Délai de régularisation documentaire"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+---
+source_pdf: "ELLIPSE-PYROTECHNIE-Pujols-sur-Ciron_3106993_2022-02-25_80990344600023.pdf"
+source_sha256: "a78e6817c96077f26487ce5a84d1229bba1c5ae2af9b86a62a65aea1fd232c84"
+source_bytes: 72909
+id_icpe: "3106993"
+nom_complet: "ELLIPSE PYROTECHNIE — Pujols-sur-Ciron"
+siret: "80990344600023"
+date_inspection: "2022-02-25"
+identifiant_fichier: "LDk7E4DIrdmlvQqngdcWtnhCzaIniIa4"
+url_source_georisques: "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/LDk7E4DIrdmlvQqngdcWtnhCzaIniIa4"
+url_pages: "https://bononlouis-del.github.io/Les-ICPE-en-r-serve-naturelle-nationale/rapports-inspection/ELLIPSE-PYROTECHNIE-Pujols-sur-Ciron_3106993_2022-02-25_80990344600023.pdf"
+extraction_method: "dreal_parser"
+extraction_version: "0.2.0"
+extracted_at: "2026-04-09T09:39:06"
+---
+
+# Rapport d'inspection — ELLIPSE PYROTECHNIE 23 allée de migelane 33650 Saucats
+
+**Visite d'inspection** : 25/02/2022
+
+## 1) Contexte
+
+Le présent rapport rend compte de l’inspection réalisée le 25/02/2022 dans l'établissement ELLIPSE
+PYROTECHNIE implanté 23 allée de migelane 33650 Saucats. Cette partie « Contexte et constats »
+est publiée sur le site Géorisques (https://www.georisques.gouv.fr/).
+Les informations relatives à l'établissement sont les suivantes :
+•
+ELLIPSE PYROTECHNIE
+•
+23 allée de migelane 33650 Saucats
+•
+Code AIOT dans GUN : 0005211587
+•
+Régime : Non classé
+•
+Statut Seveso : Non Seveso
+•
+Non IED - MTD
+Ellipse Pyrotechnie est une entreprise spécialisée dans l’organisation de spectacles pyrotechniques
+dont le siège social est basé à SAUCATS. M. Juy a indiqué être le gérant de deux sociétés : Ellipse
+Événements et Ellipse Pyrotechnie, toutes deux basées à Saucats. La société Ellipse Événements est
+spécialisée dans l’organisation événementielle professionnelle. La société Ellipse Pyrotechnie
+propose des prestations de spectacles pyrotechniques. Elle intervient notamment en sous-traitance
+de la société Ellipse Événements.
+Les artifices de divertissement sont fournis par UKOBA à Lyon. Ellipse pyrotechnie commande ses
+artifices de divertissement à UKOBA situé à Lyon à travers un groupement dénommé Pyrolevel
+(regroupement de 5 à 6 sociétés) et n'effectue pas de commandes à l’étranger.
+
+## 2) Constats
+
+### 2-1) Introduction
+
+Le respect de la réglementation relative aux installations classées pour la protection de
+l’environnement relève de la responsabilité de l’exploitant. Le contrôle des prescriptions réalisé ne
+se veut pas exhaustif, mais centré sur les principaux enjeux recensés et à ce titre, ne constitue pas un
+examen de conformité de l’administration à l'ensemble des dispositions qui sont applicables à
+l’exploitant. Les constats relevés par l’Inspection des installations classées portent sur les
+installations dans leur état au moment du contrôle.
+A chaque point de contrôle est associée une fiche de constat qui comprend notamment les
+informations suivantes :
+•
+le nom donné au point de contrôle
+•
+la référence réglementaire de la prescription contrôlée
+•
+si le point de contrôle est la suite d'un contrôle antérieur, les suites retenues lors de la
+précédente visite
+•
+la prescription contrôlée
+•
+à l'issue du contrôle :
+•
+le constat établi par l'Inspection des installations classées
+•
+les observations éventuelles
+•
+le type de suites proposées (voir ci-dessous)
+•
+le cas échéant la proposition de suites de l'Inspection des installations classées à
+Madame la Préfète; il peut par exemple s'agir d'une lettre de suite préfectorale, d'une
+mise en demeure, d'une sanction, d'une levée de suspension, ...
+Il existe trois types de suites :
+•
+«  avec suites  administratives  »  : les non-conformités  relevées  conduisent  à  proposer  à
+Madame la Préfète, conformément aux articles L.171-7 et L.171-8 du code de l’environnement,
+des suites administratives. Dans certains cas, des prescriptions complémentaires peuvent
+aussi être proposées
+•
+« susceptible de suites administratives » : lorsqu'il n'est pas possible en fin d'inspection de
+statuer sur la conformité, ou pour des faits n’engageant pas la sécurité et dont le retour à la
+conformité peut être rapide, l’exploitant doit transmettre à l’Inspection des installations
+classées dans un délai court les justificatifs de conformité. Dans le cas contraire, il sera
+proposé à Madame la Préfète, conformément aux articles L.171-7 et L.171-8 du code de
+l’environnement, des suites administratives.
+•
+« sans suite administrative ».
+
+### 2-2) Bilan synthétique des fiches de constats
+
+Les fiches de constats disponibles en partie 2-4 fournissent les informations de façon exhaustive
+pour chaque point de contrôle. Leur synthèse est la suivante :
+Les fiches de constats suivantes ne font pas l'objet de propositions de suites administratives :
+
+Nom du point de
+contrôle
+Référence
+réglementaire
+Si le point de contrôle
+provient d'une
+précédente inspection :
+suite(s) qui avai(ent) été
+donnée(s)
+Autre information
+vérification situation
+administrative
+Code de
+l’environnement du
+09/12/2015, article R
+512-47
+/
+Sans objet
+
+### 2-3) Ce qu'il faut retenir des fiches de constats
+
+cf fiche de constat
+
+### 2-4) Fiches de constats
+
+Nom du point de contrôle : vérification situation administrative
+Référence réglementaire : Code de l’environnement du 09/12/2015, article R 512-47
+Thème(s) : Risques accidentels, incendie
+Prescription contrôlée :
+Rubrique 4220 de la nomenclature ICPE :
+Produits explosifs (stockage de), à l exclusion des produits explosifs présents dans les espaces de
+‟
+vente des établissements recevant du public.
+La quantité équivalente totale de matière active1 susceptible d être présente dans l installation
+‟
+‟
+étant :
+1. Supérieure ou égale à 500 kg ………..A
+2. Supérieure ou égale à 100 kg, mais inférieure à 500 kg …………..E
+3. Supérieure ou égale à 30 kg mais inférieure à 100 kg lorsque seuls des produits classés en division
+de risque 1.3 et 1.4 sont stockés dans l installation …...DC.
+‟
+4. Inférieure à 100 kg dans les autres cas ………….DC
+Nota :
+1 Les produits explosifs sont classés en divisions de risque et en groupes de compatibilité définis
+par arrêté ministériel.
+La « quantité équivalente totale de matière active » est établie selon la formule : A + B + C/3 + D/5
++ E + F/3.
+A représentant la quantité relative aux produits classés en division de risque 1.1 ainsi que tous les
+produits lorsque ceux-ci ne sont pas en emballages fermés conformes aux dispositions
+réglementaires en matière de transport.
+B, C, D, E, F représentant respectivement les quantités relatives aux produits classés en division de
+risque 1.2, 1.3, 1.4, 1.5 et 1.6 lorsque ceux-ci sont en emballages fermés conformes aux dispositions
+réglementaires en matière de transport.
+Constats :
+L'inspection des installations classées (IIC) a inspecté le hangar de stockage de 250 m2 que loue
+l'exploitant à l'adresse 23 allée de migelane 33650 Saucats, ainsi que les 2 containers présents sur
+le parking. Aucun stockage d'artifices de divertissement relevant de la rubrique 4220 de la
+nomenclature des ICPE n'était présent.
+Type de suites proposées : Sans suite
+Proposition de suites : Sans objet
