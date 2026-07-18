@@ -1,0 +1,315 @@
+{
+  "total_audited": 34,
+  "errors_found": 33,
+  "corrections": [
+    {
+      "slug": "o-i-france-sas52013752022-11-2533903070200130f03",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "Corps du constat porte sur l'interpretation reglementaire de la dilution des rejets (prevue ou non par l'AP) et l'incertitude de mesure associee, aucun equipement degrade ou hors service n'est decrit -- NC purement documentaire/reglementaire, pas de dimension physique."
+    },
+    {
+      "slug": "o-i-france-sas52013752022-11-2533903070200130f03",
+      "field": "stage",
+      "hunter_value": "S05",
+      "corrected_value": "S02",
+      "reason": "La demande formulee ('formuler dans un delai de 30 jours une demande') est une injonction avec delai, pas une escalade -- aucun projet de sanction/MED nouveau n'est introduit sur ce point precis."
+    },
+    {
+      "slug": "o-i-france-sas52013752023-06-0933903070200130f08",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R02",
+      "reason": "\"L'exploitant a indique qu'il allait corriger ce point\" est un engagement verbal pour une action FUTURE non verifiee au moment de l'inspection -- signal R02 explicite, pas une correction spontanee (R01) puisque la correction n'a pas encore eu lieu et repond a un constat de l'inspecteur."
+    },
+    {
+      "slug": "o-i-france-sas52013752023-06-0933903070200130f08",
+      "field": "stage",
+      "hunter_value": "S03",
+      "corrected_value": "S02",
+      "reason": "La procedure corrigee n'a pas encore ete transmise (demande a un mois) -- c'est une injonction, pas une correction en cours/realisee."
+    },
+    {
+      "slug": "o-i-france-sas52013752023-06-0933903070200130f08",
+      "field": "trajectory",
+      "hunter_value": "T3",
+      "corrected_value": "T1",
+      "reason": "Aucun historique d'inspection anterieure n'est mentionne sur ce point precis (lacune de la procedure TAR) -- premier constat, pas une amelioration par rapport a un etat anterieur documente."
+    },
+    {
+      "slug": "o-i-france-sas52013752023-06-0933903070200130f15",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Le second prelevement suite a flore interferente devait etre 'immediat' selon la prescription (action a mener normee) et n'a ete realise qu'un mois plus tard sans justification -- controle/mesure non realise dans le delai requis = signal G3 explicite de la taxonomie, coherent avec le traitement de la fiche jumelle f11 sur le meme fait."
+    },
+    {
+      "slug": "o-i-france-sas52013752023-06-0933903070200130f15",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Le texte etablit clairement le non-respect du delai de reprelevement immediat prevu par la prescription, signal G3 sans ambiguite."
+    },
+    {
+      "slug": "o-i-france-sas52013752023-06-0933903070200130f19",
+      "field": "dynamic",
+      "hunter_value": "R02",
+      "corrected_value": "R14",
+      "reason": "\"L'exploitant... a indique que ce dispositif etait entretenu regulierement\" est un compte-rendu factuel sur une pratique existante, pas un engagement pour une action future -- ne pas confondre avec R02 (regle explicite de la taxonomie: affirmation factuelle non verifiable = R13/R14, pas R02)."
+    },
+    {
+      "slug": "o-i-france-sas52013752025-10-0833903070200130f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M02",
+        "M14"
+      ],
+      "corrected_value": [
+        "M02"
+      ],
+      "reason": "Aucun constat physique observe sur site n'est decrit -- le point porte entierement sur la qualite methodologique de la campagne de mesures (representativite, source non imputable aux installations fixes) qui releve de M02_MESURE ; M14 (constat technique direct) n'est pas justifie ici."
+    },
+    {
+      "slug": "nunes52140022022-09-2284046799700010f01",
+      "field": "actor",
+      "hunter_value": "A02",
+      "corrected_value": "A11",
+      "reason": "Le texte designe explicitement 'le proprietaire du site, M. Nunes' comme acteur central (refus d'acces, declarations sur la vente du terrain) -- A11_PROPRIETAIRE est l'acteur principal de la fiche, pas l'inspection."
+    },
+    {
+      "slug": "nunez-hernandez-ex-france-auto-pieces52075222022-12-0638253391700029f01",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "Aucune declaration de l'exploitant n'apparait dans le corps du constat (aucune invocation d'ignorance/meconnaissance) -- le texte est une observation factuelle pure de l'inspection (VHU dans l'herbe, absence d'enregistrement). Le motif R04 du Hunter n'a pas de support textuel."
+    },
+    {
+      "slug": "o-i-france-sas52013752024-11-1533903070200130f01",
+      "field": "dynamic",
+      "hunter_value": "R02",
+      "corrected_value": "R14",
+      "reason": "Le texte ne rapporte aucun engagement de l'exploitant pour une action future -- la demande de 'complements de reponse dans un delai de deux mois' emane entierement de l'inspection, sans citation d'un engagement de l'exploitant. Pas de signal R02."
+    },
+    {
+      "slug": "o-i-france-sas52013752024-11-1533903070200130f09",
+      "field": "dynamic",
+      "hunter_value": "R02",
+      "corrected_value": "R14",
+      "reason": "\"L'exploitant a indique que ce zonage avait ete mis a jour\" est un compte-rendu factuel sur une action passee (non un engagement futur), meme si non prouve documentairement -- ne pas confondre avec R02 (regle explicite de la taxonomie)."
+    },
+    {
+      "slug": "o-i-france-sas52013752022-09-0233903070200130f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Delai numerique present dans le corps ('confirmer dans un delai de 30 jours') mais absent des modificateurs Hunter."
+    },
+    {
+      "slug": "o-i-france-sas52013752022-11-2533903070200130f06",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "m_MENACE",
+        "m_DELAI"
+      ],
+      "reason": "Delai numerique present ('sous un mois' pour le respect des VLE) mais absent des modificateurs Hunter."
+    },
+    {
+      "slug": "o-i-france-sas52013752022-11-2533903070200130f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "m_MENACE",
+        "m_DELAI"
+      ],
+      "reason": "Delai numerique present ('sous un delai' pour le CO, 'sous 15 jours' pour les remarques) mais absent des modificateurs Hunter."
+    },
+    {
+      "slug": "o-i-france-sas52013752023-02-1433903070200130f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "m_MENACE",
+        "m_DELAI"
+      ],
+      "reason": "Delais numeriques presents ('delai de 15 jours', 'sous 2 mois') mais absents des modificateurs Hunter."
+    },
+    {
+      "slug": "o-i-france-sas52013752023-06-0933903070200130f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "m_MENACE",
+        "m_DELAI"
+      ],
+      "reason": "Delai numerique present ('delai d'un mois sans quoi... MED') mais absent des modificateurs Hunter."
+    },
+    {
+      "slug": "o-i-france-sas52013752023-06-0933903070200130f23",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Delai numerique present et rappele comme obligation en cours ('delai de 9 mois') mais absent des modificateurs Hunter."
+    },
+    {
+      "slug": "o-i-france-sas52013752023-11-2433903070200130f06",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "m_MENACE",
+        "m_DELAI"
+      ],
+      "reason": "Delai numerique present ('transmettre cette mise a jour dans un delai de trois mois') mais absent des modificateurs Hunter."
+    },
+    {
+      "slug": "o-i-france-sas52013752024-06-2833903070200130f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Plusieurs delais numeriques presents (15 jours, 1 mois) mais absents des modificateurs Hunter."
+    },
+    {
+      "slug": "o-i-france-sas52013752024-11-1533903070200130f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "m_MENACE",
+        "m_DELAI"
+      ],
+      "reason": "Delais numeriques presents ('delai de 3 mois', 'delai de 15 jours', 'delai maximum d'un mois') mais absents des modificateurs Hunter."
+    },
+    {
+      "slug": "o-i-france-sas52013752024-11-1533903070200130f10",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "m_MENACE",
+        "m_DELAI"
+      ],
+      "reason": "Delais numeriques presents ('delai de 3 mois' pour l'inventaire, 'delai de 15 jours' pour les observations) mais absents des modificateurs Hunter."
+    },
+    {
+      "slug": "occamat-delair31034632025-05-12nosiretf01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "m_MENACE",
+        "m_DELAI"
+      ],
+      "reason": "Delai numerique present ('regulariser sa situation administrative sous un delai de trois mois') mais absent des modificateurs Hunter."
+    },
+    {
+      "slug": "occamat-delair31034632025-05-12nosiretf02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "m_MENACE",
+        "m_DELAI"
+      ],
+      "reason": "Delai numerique present ('respecter, sous un delai de six mois') mais absent des modificateurs Hunter."
+    },
+    {
+      "slug": "nouryon-pulp-performance-chemicals52002572025-12-03454200882000651dgys1f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "m_MENACE",
+        "m_DELAI"
+      ],
+      "reason": "Delais numeriques presents ('delai de 1 mois', '15 jours pour transmettre ses observations') mais absents des modificateurs Hunter."
+    },
+    {
+      "slug": "nunez-hernandez-ex-france-auto-pieces52075222024-02-2038253391700029f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Delai numerique present ('transmettre une attestation... sous trois mois') mais absent des modificateurs Hunter."
+    },
+    {
+      "slug": "olikrom1000577612025-04-2980487875900021f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Aucun delai numerique dans le corps du constat -- la demande (mise en place de retentions) n'est assortie d'aucune echeance chiffree."
+    },
+    {
+      "slug": "olikrom1000577612025-04-2980487875900021f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Aucun delai numerique dans le corps du constat -- la demande (plan de zones, signalisation ATEX) n'est assortie d'aucune echeance chiffree."
+    },
+    {
+      "slug": "olikrom1000577612025-04-2980487875900021f13",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Aucun delai numerique dans le corps du constat -- la demande (justificatif d'autorisation, plan des reseaux) n'est assortie d'aucune echeance chiffree."
+    },
+    {
+      "slug": "olikrom1000577612025-04-2980487875900021f15",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Aucun delai numerique dans le corps du constat -- la demande (recuperation des BSD) n'est assortie d'aucune echeance chiffree."
+    },
+    {
+      "slug": "o-i-france-sas52013752025-11-2733903070200130f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Aucun delai correctif chiffre dans le corps -- seule une transmission trimestrielle recurrente est demandee, ce n'est pas un delai correctif ponctuel."
+    },
+    {
+      "slug": "o-i-france-sas52013752025-11-2733903070200130f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Aucun delai numerique dans le corps du constat."
+    }
+  ],
+  "false_positive_rate": 0.223,
+  "error_patterns": "Systematic m_DELAI/S02_INJONCTION mismatch: 14 records had a numeric deadline explicitly stated in constats_body ('delai de X jours/mois', 'sous X mois') but were missing the m_DELAI modifier (mostly MED/astreinte-escalation fiches where the modifier was likely dropped because the fiche's stage was S05/S03/S04 rather than S02 -- m_DELAI is independent of stage and should be applied whenever the body carries an explicit deadline, regardless of stage). Conversely, 6 records (4 in olikrom, 2 in o-i-france 2025-11-27) had m_DELAI applied with no numeric deadline anywhere in constats_body -- the Hunter appears to default to m_DELAI whenever a 'Demande a formuler' section exists, even when that demande carries no explicit chiffered echeance. R02 over-attribution (error type 8): 3 records used R02 for a factual, unverifiable statement about a PAST action ('l'exploitant a indique que X etait deja fait/entretenu') rather than a genuine future commitment; one record used R02 despite no exploitant statement being present in the text at all (a pure inspection-issued demande was mistagged as an exploitant promise). One clear hallucination: a reasoning string on a nunez-hernandez fiche invoked an exploitant explanation ('en train de vendre') that appears nowhere in that fiche's corpus text -- the text is a silent factual observation with no exploitant statement, so R04 had no support and was corrected to R14. One actor mistag: a fiche naming an explicit 'proprietaire' (not an operating exploitant) as the person refusing site access was tagged actor=A02_INSPECTION instead of A11_PROPRIETAIRE. One gravity/stage pair on a dilution-methodology NC was inflated to G3/S05 (escalade) despite no physical equipment degradation being described and no new sanction being proposed on that specific point -- corrected to G2/S02 (purely regulatory/documentary injonction with a delai). One G2->G3 gravity correction for consistency: a fiche about a delayed legionella re-sampling (required to be immediate) was under-graded G2 despite matching the taxonomy's explicit 'controle/mesure non realise' G3 signal, while its near-duplicate sibling fiche describing the same underlying fact was correctly graded G3. One mechanism over-label: M14 was added alongside M02 on a noise-complaint fiche where the entire constat is about measurement-campaign methodology/attribution, with no physical NC directly observed on site.",
+  "verdict": "Hunter output is solid on the dominant M08/M14/M01 mechanism calls and on gravity for physically-described NCs, but shows a clear systematic miss on the m_DELAI modifier (applied independently of stage, and sometimes applied without textual support) and a recurring conflation of R02 with factual-but-unverified past-tense exploitant statements. 29/130 records (22%) required at least one field correction; most corrections are modifier-only (m_DELAI add/remove) and do not change the record's overall NC narrative. No invalid/malformed codes were found. All 130 slugs present exactly once in final-51.json with all required fields populated."
+}

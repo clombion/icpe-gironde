@@ -1,0 +1,229 @@
+{
+  "total_audited": 56,
+  "errors_found": 24,
+  "corrections": [
+    {
+      "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f12",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f13",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "sabena-technics-bod-sas52010082025-02-0648770604600025f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "sabena-technics-bod-sas52010082025-02-0648770604600025f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "m_MENACE"
+      ],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "sabena-technics-bod-sas52010082025-02-0648770604600025f06",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "sabena-technics-bod-sas52010082025-02-0648770604600025f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "sabena-technics-bod-sas52010082025-02-0648770604600025f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "m_MENACE"
+      ],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "sabliere-de-saint-jean-d-illac52063412024-04-0251368023100018f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "sabliere-de-saint-jean-d-illac52063412024-04-0251368023100018f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "sabliere-de-saint-jean-d-illac52063412024-04-0251368023100018f08",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "sabliere-de-saint-jean-d-illac52063412024-04-0251368023100018f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "safary-4x4-langon52085152023-02-2334002066800018f02",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Relecture du corpus confirme l'absence de non-conformité formelle (pas de section Demande) malgré l'absence des plaques d'immatriculation ; la masse facturée est jugée cohérente. Classification M08/G1 confirmée, l'incertitude relevée par Hunter ne remet pas en cause le sens de la classification."
+    },
+    {
+      "slug": "safety-kleen-france-sarl52114552025-05-1548011152500071f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "safety-kleen-france-sarl52114552025-05-1548011152500071f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "safety-kleen-france-sarl52114552025-05-1548011152500071f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "safety-kleen-france-sarl52114552025-05-1548011152500071f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "safety-kleen-france-sarl52114552025-05-1548011152500071f10",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "saft-sas52005922024-11-2138370387300083f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "saft-sas52005922025-07-2538370387300083f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "saft-sas52005922025-07-2538370387300083f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "saft-sas52005922025-07-2538370387300083f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "saft-sas52005922025-07-2538370387300083f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    },
+    {
+      "slug": "saft-sas52005922025-07-2538370387300083f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans constats_body (ni jours/mois/date précise) — la demande formulée ne comporte pas d'échéance chiffrée, seulement une formulation générale (\"prochaine révision\", \"dans les meilleurs délais\", \"dès réception\")."
+    }
+  ],
+  "false_positive_rate": 0.185,
+  "error_patterns": "Dominant error: m_DELAI modifier applied to S02_INJONCTION records without any numeric deadline in constats_body (no 'sous X jours/mois' or explicit date). Hunter over-applied m_DELAI to essentially every formal demand, including vague formulations like 'a l'occasion de la prochaine revision', 'dans les meilleurs delais', 'des reception', or open-ended requests to 'justifier'/'transmettre' without any stated timeframe. Checked all 39 S02_INJONCTION+m_DELAI records lacking a delay signal in Hunter's own reasoning text against the corpus; confirmed 23 true false positives (delay absent) and 16 true positives where the reasoning simply omitted a delay that was present in the body (e.g. 'delai d'un mois', 'sous 3 mois', 'avant fin 2024', a specific calendar date). No instances of the R10_TENSION/unfulfilled-promise pattern were found — R10_TENSION is not used anywhere in this batch (0 occurrences), so that systematic error type does not apply here. Spot-check of 20 high-confidence records and full re-read of both medium-confidence records found no other errors: no false M08, no false M14, no gravity or trajectory mistakes (T1_PREMIER records were grepped for prior-inspection language with no hits), no missed multi-label, no over-aggressive M17, no wrong R code, and no R02 over-attribution (all 4 R02_PROMESSE records genuinely describe unverified future commitments, not factual reports).",
+  "verdict": "Good overall quality (structurally 100% valid — no invalid codes, no joined single-value fields, no modifiers misplaced in mechanisms, all required fields present on all 130 records). The one systematic issue is m_DELAI over-application on ~35% of S02_INJONCTION records (23/62), consistent with the known batch pattern; corrected in final-58.json. No M15_AUTRE usage. All other axes (domain, dynamic, actor, stage, gravity, trajectory) held up under spot-check and targeted re-reads."
+}

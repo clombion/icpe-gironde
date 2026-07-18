@@ -1,0 +1,374 @@
+{
+  "total_audited": 130,
+  "errors_found": 52,
+  "records_corrected": 39,
+  "corrections": [
+    {
+      "slug": "pfa-logistic-sci52003342023-04-0485311714100012f01",
+      "field": "mechanisms",
+      "hunter_value": ["M01", "m_MENACE"],
+      "corrected_value": ["M01"],
+      "reason": "m_MENACE is a modifier, not a mechanism (STRICT code-validity rule) — moved to modifiers."
+    },
+    {
+      "slug": "pfa-logistic-sci52003342023-04-0485311714100012f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_MENACE", "m_DELAI"],
+      "reason": "Text imposes 'dans un délai maximal de 15 jours' and 'dans un délai maximal d'1 mois', and states the exploitant 's'expose à des suites administratives de type mise en demeure' if not corrected — both a corrective deadline and a conditional MED threat are present in constats_body but Hunter left modifiers empty."
+    },
+    {
+      "slug": "pfa-logistic-sci52003342023-04-0485311714100012f03",
+      "field": "mechanisms",
+      "hunter_value": ["M14", "M07", "m_MENACE"],
+      "corrected_value": ["M14", "M07"],
+      "reason": "m_MENACE moved from mechanisms to modifiers (STRICT rule)."
+    },
+    {
+      "slug": "pfa-logistic-sci52003342023-04-0485311714100012f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_MENACE", "m_DELAI"],
+      "reason": "Explicit deadlines ('délai de 3 mois', 'délai de 2 mois') and 'l'exploitant s'expose à des suites administratives de type mise en demeure' in constats_body."
+    },
+    {
+      "slug": "pfa-logistic-sci52003342023-04-0485311714100012f04",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Constats body contains a formal demand with a numeric delay ('L'exploitant informe l'inspection dans un délai de 15 jours des actions prises') — this is S02_INJONCTION by definition, not a plain S01_CONSTAT."
+    },
+    {
+      "slug": "pfa-logistic-sci52003342023-04-0485311714100012f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Corrective deadline of 15 jours imposed on the exploitant."
+    },
+    {
+      "slug": "pfa-logistic-sci52003342023-04-0485311714100012f05",
+      "field": "mechanisms",
+      "hunter_value": ["M01", "m_MENACE"],
+      "corrected_value": ["M01"],
+      "reason": "m_MENACE moved from mechanisms to modifiers (STRICT rule)."
+    },
+    {
+      "slug": "pfa-logistic-sci52003342023-04-0485311714100012f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_MENACE", "m_DELAI"],
+      "reason": "'sous un mois' deadline for PDI update + 'expose l'exploitant à des suites administratives de type mise en demeure' in constats_body."
+    },
+    {
+      "slug": "pfa-logistic-sci52003342023-04-0485311714100012f06",
+      "field": "mechanisms",
+      "hunter_value": ["M14", "M07", "m_MENACE"],
+      "corrected_value": ["M14", "M07"],
+      "reason": "m_MENACE moved from mechanisms to modifiers (STRICT rule)."
+    },
+    {
+      "slug": "pfa-logistic-sci52003342023-04-0485311714100012f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_MENACE", "m_DELAI"],
+      "reason": "Deadlines ('délai maximal d'un mois' for échéancier, 'sous 6 mois' for actions effectives) + 'l'absence de réalisation des actions expose l'exploitant à des suites administratives de type mise en demeure'."
+    },
+    {
+      "slug": "pfa-logistic-sci52003342023-04-0485311714100012f07",
+      "field": "mechanisms",
+      "hunter_value": ["M14", "m_MENACE"],
+      "corrected_value": ["M14"],
+      "reason": "m_MENACE moved from mechanisms to modifiers (STRICT rule)."
+    },
+    {
+      "slug": "pfa-logistic-sci52003342023-04-0485311714100012f07",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Formal demand with numeric delay ('délai maximal de 15 jours') — S02_INJONCTION, not S01."
+    },
+    {
+      "slug": "pfa-logistic-sci52003342023-04-0485311714100012f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_MENACE", "m_DELAI"],
+      "reason": "15-day deadline plus 'peut conduire à des sanctions administratives de type mise en demeure' in constats_body."
+    },
+    {
+      "slug": "pfa-logistic-sci52003342023-04-0485311714100012f08",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Formal demand with numeric delay ('délai maximal de 15 jours') — S02_INJONCTION, not S01."
+    },
+    {
+      "slug": "pfa-logistic-sci52003342023-04-0485311714100012f08",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "15-day corrective deadline imposed."
+    },
+    {
+      "slug": "pfa-logistic-sci52003342023-04-0485311714100012f09",
+      "field": "mechanisms",
+      "hunter_value": ["M01", "m_MENACE"],
+      "corrected_value": ["M01"],
+      "reason": "m_MENACE moved from mechanisms to modifiers (STRICT rule)."
+    },
+    {
+      "slug": "pfa-logistic-sci52003342023-04-0485311714100012f09",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_MENACE", "m_DELAI"],
+      "reason": "'sous un délai d'un mois' + date cap 30/06/2023, plus 'en l'absence de transmission...s'expose à des suites administratives de type mise en demeure'."
+    },
+    {
+      "slug": "picoty-aquitaine-ex-jossomme31047552022-10-2738391132800037f05",
+      "field": "mechanisms",
+      "hunter_value": ["M07", "m_MENACE"],
+      "corrected_value": ["M07"],
+      "reason": "m_MENACE moved from mechanisms to modifiers (STRICT rule)."
+    },
+    {
+      "slug": "picoty-aquitaine-ex-jossomme31047552022-10-2738391132800037f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_MENACE", "m_DELAI"],
+      "reason": "'dans un délai de 3 mois' + 'passé ce délai, l'inspection proposera une mise en demeure' — corrective deadline plus explicit conditional MED threat."
+    },
+    {
+      "slug": "picoty-aquitaine1000320282023-10-1732938260000024f05",
+      "field": "mechanisms",
+      "hunter_value": ["M07", "m_MENACE"],
+      "corrected_value": ["M07"],
+      "reason": "m_MENACE moved from mechanisms to modifiers (STRICT rule)."
+    },
+    {
+      "slug": "picoty-aquitaine1000320282023-10-1732938260000024f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_MENACE", "m_DELAI"],
+      "reason": "'délai maximal de 3 mois' + 'passé ce délai, l'inspection proposera au Préfet de mettre en demeure la société'."
+    },
+    {
+      "slug": "picoty-aquitaine1000320282023-10-1732938260000024f10",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "MED proposal to the Préfet sets a 2-month compliance delay ('dans un délai de deux mois') — accompanies the already-assigned M04."
+    },
+    {
+      "slug": "picoty-aquitaine1000320282023-10-1732938260000024f12",
+      "field": "dynamic",
+      "hunter_value": "R02",
+      "corrected_value": "R14",
+      "reason": "'L'exploitant justifie, dans un délai d'un mois, que...' is the inspector's injunction, not a future commitment made by the exploitant — R02 requires an exploitant-initiated promise. Reclassified as a factual/procedural NC (R14_NEUTRE_NC)."
+    },
+    {
+      "slug": "picoty-aquitaine1000320282023-10-1732938260000024f12",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "1-month deadline for the exploitant to justify separator sizing."
+    },
+    {
+      "slug": "piscine-du-pinsan1000481772024-05-2821330162500017f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'Dans un délais de 3 mois, l'exploitant s'assure de corriger ces non-conformités.'"
+    },
+    {
+      "slug": "piscine-du-pinsan1000481772024-05-2821330162500017f12",
+      "field": "dynamic",
+      "hunter_value": "R02",
+      "corrected_value": "R14",
+      "reason": "'L'exploitant a déclaré que les 3 chaudières ne peuvent techniquement pas fonctionner ensemble' is a present-tense factual/technical claim, not an unverifiable future commitment — matches the taxonomy's explicit counter-example for R02 misuse."
+    },
+    {
+      "slug": "piscine-du-pinsan1000481772025-03-2021330162500017f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "New demand: 'Dans un délai de 15 jours, l'exploitant précise...ce plan devra être à jour dans un délai de 1 mois.'"
+    },
+    {
+      "slug": "piscine-judaique1000361462023-12-1221330063500017f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'L'exploitant s'assure de corriger...sous un mois' (corrective deadline for the gas shut-off cabinet)."
+    },
+    {
+      "slug": "piscine-judaique1000361462023-12-1221330063500017f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'Plan d'action pour assurer le retour à la conformité dans un délai de un an.'"
+    },
+    {
+      "slug": "piscine-judaique1000361462023-12-1221330063500017f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Same one-year corrective delay as f05 (both driven by the same contrôle périodique NCM)."
+    },
+    {
+      "slug": "piscine-judaique1000361462023-12-1221330063500017f09",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'L'exploitant transmet les justificatifs de contrôle...dans un délai de 1 mois.'"
+    },
+    {
+      "slug": "plaine-de-garonne-energies31034022023-03-0882874073800020f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'L'exploitant déposera à l'inspection son PMS corrigé dans un délai qui n'excédera pas 15 jours.'"
+    },
+    {
+      "slug": "plaine-de-garonne-energies31034022023-03-0882874073800020f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Same 15-day PMS correction deadline as f01."
+    },
+    {
+      "slug": "plaine-de-garonne-energies31034022023-03-0882874073800020f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Medium-confidence record re-verified against corpus: 'L'exploitant déposera...ses PMS et PDS corrigés à minima deux mois avant le démarrage de l'appareil biomasse' — genuine corrective deadline."
+    },
+    {
+      "slug": "plaine-de-garonne-energies31034022023-03-0882874073800020f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'L'exploitant transmettra sous 15 jours à l'inspection un document contractuel...'"
+    },
+    {
+      "slug": "plaine-de-garonne-energies31034022023-03-0882874073800020f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Same 15-day PMS correction deadline as f01/f02."
+    },
+    {
+      "slug": "plaine-de-garonne-energies31034022025-09-1182874073800020f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'Rectification des vitesses d'éjection des chaudières 6, 8 et du moteur sous 6 mois.'"
+    },
+    {
+      "slug": "polyprocess31025892024-06-1144182700300035f06",
+      "field": "mechanisms",
+      "hunter_value": ["M01", "m_MENACE"],
+      "corrected_value": ["M01"],
+      "reason": "m_MENACE moved from mechanisms to modifiers (STRICT rule)."
+    },
+    {
+      "slug": "polyprocess31025892024-06-1144182700300035f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_MENACE", "m_DELAI"],
+      "reason": "'délai de 2 mois' + 'à défaut de transmission des éléments demandés dans les délais, l'inspection proposera...' (conditional MED threat)."
+    },
+    {
+      "slug": "polyprocess31025892024-06-1144182700300035f10",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'les dispositions prises pour l'appliquer correctement, sous un délai de 15 jours.'"
+    },
+    {
+      "slug": "polyprocess31025892024-06-1144182700300035f11",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'Il est attendu, sous un délai de deux mois, que l'exploitant apporte les dispositions et décisions prises concernant le stockage des peroxydes organiques.'"
+    },
+    {
+      "slug": "polyprocess31025892024-06-1144182700300035f14",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'L'exploitant prend les dispositions nécessaires...au maximum pour le 11 septembre 2024' — explicit date-bound corrective deadline accompanying the M04/APMD proposal."
+    },
+    {
+      "slug": "pomona-passionfroid52087032022-10-0655204499201715f10",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'Il est demandé à l'exploitant d'établir, sous 15 jours, la liste...' plus a second 1-month deadline for ESP conformity demonstration."
+    },
+    {
+      "slug": "pomona-passionfroid52087032022-12-2755204499201715f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_MENACE", "m_DELAI"],
+      "reason": "'L'exploitant transmettra...sous un mois, le compte-rendu d'achèvement du chantier' + 'à défaut de transmission des compléments attendus, l'exploitant s'expose à des suites administratives telles que mentionnées plus haut' — new conditional MED threat beyond the already-active M04, not previously flagged by Hunter at all."
+    },
+    {
+      "slug": "pot-au-pin-energie52007092024-02-0181226358000019f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'L'exploitant, sous un délais de 15 jours: précise...justifie...'"
+    },
+    {
+      "slug": "pot-au-pin-energie52007092024-02-0181226358000019f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Cascading deadlines of 1/3/7 months for CH4 clarification, corrective study and (conditionally) a further report."
+    },
+    {
+      "slug": "pot-au-pin-energie52007092024-02-0181226358000019f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'...dans un délais de 3 mois' for soupape inspection following the vanne-coupure fix."
+    },
+    {
+      "slug": "pot-au-pin-energie52007092024-02-0181226358000019f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'transmise à l'inspection...sous 1 mois' for the soupape tarage verification."
+    },
+    {
+      "slug": "pot-au-pin-energie52007092024-02-0181226358000019f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'L'exploitant, dans un délais de trois mois:...' — corrective plan for the cable/torchère incident."
+    },
+    {
+      "slug": "pot-au-pin-energie52007092024-02-0181226358000019f08",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'L'exploitant, dans un délais de trois mois, justifie:...' (débitmètres, maintenance, capteurs, sédimentation)."
+    },
+    {
+      "slug": "pot-au-pin-energie52007092024-02-0181226358000019f09",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'L'exploitant met en place des panneaux visibles délimitant les zones ATEX du site dans un délais de trois mois.'"
+    },
+    {
+      "slug": "pot-au-pin-energie52007092024-02-0181226358000019f10",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'L'exploitant fournit, dans un délais de trois mois, une attestation de calibration des détecteurs...'"
+    }
+  ],
+  "false_positive_rate": 0.30,
+  "error_patterns": "One dominant systematic pattern accounts for 47 of 52 corrections: Hunter never populated the `modifiers` array (0/130 records had a non-empty modifiers field). Nine records put m_MENACE inside `mechanisms` instead — a STRICT code-validity violation, corrected by relocation. The other 29 modifier corrections are net-new: constats_body frequently contains an explicit numeric corrective deadline ('dans un délai de X jours/mois/an', 'sous X mois') and/or a conditional threat of mise en demeure ('s'expose à des suites administratives de type mise en demeure', 'passé ce délai, l'inspection proposera...') that Hunter's reasoning sometimes even paraphrases in prose ('Menace MED', 'délai 2 mois') without setting the corresponding modifier code. This confirms and extends the batch-generic pattern flagged for audit: m_DELAI was undershot everywhere (0 uses on 38 eligible records) rather than overshot. Three records (pfa-logistic f04/f07/f08) had a formal demand-with-delay in constats_body but were staged S01_CONSTAT instead of S02_INJONCTION, a secondary consequence of the same missed-delay blind spot. Two records showed the specific R02 over-attribution failure mode named in the audit brief: 'délai...l'exploitant justifie/précise' phrasing was read as an exploitant promise when it was actually the inspector's injunction (picoty-aquitaine ...f12) or a present-tense factual/technical claim rather than a future commitment (piscine-du-pinsan ...f12) — both reclassified R02→R14. No instances of the other flagged pattern (R10_TENSION misused for unfulfilled-promise cases) were found — R10 was never used in this batch. No false M08, no missed multi-label, no over-aggressive M17, and no gravity/trajectory errors were found in the 20-record high-confidence spot-check or in the ~45 records read directly against local/corpus-all during this audit.",
+  "verdict": "Hunter's substantive classification (domains, mechanisms, gravity, trajectory, dynamic, stage) is accurate and well-reasoned across the batch — the axis-1/axis-2 multi-labeling, G3-before-G2 physical-NC heuristic, and T-axis history tracking are all applied correctly, including in chained follow-up fiches (piscine-du-pinsan, polyprocess, picoty) that require reconciling prior-inspection context with current-visit resolution. The one real defect is structural and total: the `modifiers` axis was not used at all, which is a systematic omission rather than scattered misjudgment — every fix in this batch traces back to either relocating a misplaced m_MENACE or adding a missing m_DELAI/m_MENACE that the constats_body text supports unambiguously. After correction, modifiers are populated on 39/130 records (30%), consistent with how often this corpus states an explicit corrective deadline or a conditional MED threat. Batch is sound post-correction."
+}

@@ -1,0 +1,310 @@
+{
+  "total_audited": 130,
+  "errors_found": 33,
+  "corrections": [
+    {
+      "slug": "sanofi-winthrop-industrie52002512022-06-1677566225700101f09",
+      "field": "mechanisms",
+      "hunter_value": "M01_DOCUMENTATION, M14_CONSTAT_TECHNIQUE",
+      "corrected_value": "M01_DOCUMENTATION",
+      "reason": "Risque non évalué dans l'AMR est une lacune d'analyse documentaire, pas un constat physique sur site. M14 incohérent avec la gravité G2 déjà assignée (NC physique = G3 minimum)."
+    },
+    {
+      "slug": "sanofi-winthrop-industrie52002512024-02-0177566225700101f02",
+      "field": "mechanisms",
+      "hunter_value": "M07_CONTROLE, M14_CONSTAT_TECHNIQUE",
+      "corrected_value": "M07_CONTROLE",
+      "reason": "Défaut d'exercices ESI complets par équipier est une NC de contrôle/entraînement périodique, pas un constat technique physique."
+    },
+    {
+      "slug": "sanofi-winthrop-industrie52002512024-02-0177566225700101f04",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "Aucun délai chiffré dans le constat -- demande de justification sans échéance."
+    },
+    {
+      "slug": "sanofi-winthrop-industrie52002512024-02-0177566225700101f08",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "Aucun délai chiffré -- demande méthodologique sans échéance."
+    },
+    {
+      "slug": "sanofi-winthrop-industrie52002512024-02-0177566225700101f11",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "\"À l'occasion du prochain contrôle périodique\" est une condition, pas un délai chiffré."
+    },
+    {
+      "slug": "sanofi-winthrop-industrie52002512024-02-0177566225700101f12",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "Aucun délai chiffré -- demande de justification du dépassement MES sans échéance."
+    },
+    {
+      "slug": "sanofi-winthrop-industrie52002512024-06-1977566225700101f03",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "Aucun délai chiffré -- demande de positionnement administratif sans échéance dans le constat."
+    },
+    {
+      "slug": "sanofi-winthrop-industrie52002512024-06-1977566225700101f04",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "Aucun délai chiffré dans le constat (le délai de 3 mois du bloc Prescription est du boilerplate réglementaire, hors périmètre de classification)."
+    },
+    {
+      "slug": "sanofi-winthrop-industrie52002512024-06-1977566225700101f08",
+      "field": "mechanisms",
+      "hunter_value": "M09_PAC, M08_CONFORMITE",
+      "corrected_value": "M09_PAC",
+      "reason": "Constat purement contextuel (existence d'un AP local renvoyant aux points suivants) -- aucune vérification de conformité n'est faite dans cette fiche."
+    },
+    {
+      "slug": "sanofi-winthrop-industrie52002512024-06-1977566225700101f09",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "Aucun délai chiffré dans le constat lui-même."
+    },
+    {
+      "slug": "sanofi-winthrop-industrie52002512025-03-1377566225700101f08",
+      "field": "mechanisms",
+      "hunter_value": "M09_PAC, M14_CONSTAT_TECHNIQUE",
+      "corrected_value": "M09_PAC, M08_CONFORMITE",
+      "reason": "Mise en sécurité constatée sur site = vérification positive (conformité), pas une NC technique. Faux M14."
+    },
+    {
+      "slug": "sanofi-winthrop-industrie52002512025-03-1377566225700101f12",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "Aucun délai chiffré dans le constat -- demandes de transmission de synthèses sans échéance."
+    },
+    {
+      "slug": "sarl-acti-froid-331000335982023-11-2939827562800038f01",
+      "field": "gravity",
+      "hunter_value": "G4",
+      "corrected_value": "G3",
+      "reason": "NC purement administrative (absence de récépissé de déclaration), sans NC technique concomitante. Incohérent avec des cas jumeaux du même lot (aquitaine-materiaux f01, labarthe f01) notés G3 pour un schéma identique."
+    },
+    {
+      "slug": "sarl-acti-froid-331000335982023-11-2939827562800038f09",
+      "field": "mechanisms",
+      "hunter_value": "M14_CONSTAT_TECHNIQUE",
+      "corrected_value": "M01_DOCUMENTATION",
+      "reason": "Vignettes de marquage absentes du site mais disponibles dans les véhicules -- absence de marquage réglementaire, pas un défaut technique observé. Incohérent avec G2 déjà assigné."
+    },
+    {
+      "slug": "sarl-acti-froid-331000335982023-11-2939827562800038f09",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "Aucun délai chiffré -- demande de transmission d'une photo sans échéance."
+    },
+    {
+      "slug": "sarl-chateau-cap-de-faugeres533211362022-09-2651898537900016f01",
+      "field": "actor",
+      "hunter_value": "A02_INSPECTION",
+      "corrected_value": "A01_EXPLOITANT",
+      "reason": "Le constat porte sur la situation administrative (déclarations ICPE) de l'exploitant lui-même, pas sur une action de l'inspection."
+    },
+    {
+      "slug": "sarl-grelier-et-fils-isdi52138802023-01-2438441797800010f14",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "\"Il appartient à l'exploitant de transmettre, sous un délai de trois mois, un descriptif\" est une demande formelle avec délai chiffré -- incohérent avec m_DELAI déjà présent mais stage S01_CONSTAT."
+    },
+    {
+      "slug": "sarl-grelier-et-fils-isdi52138802023-01-2438441797800010f14",
+      "field": "actor",
+      "hunter_value": "A02_INSPECTION",
+      "corrected_value": "A01_EXPLOITANT",
+      "reason": "La demande est explicitement adressée à l'exploitant."
+    },
+    {
+      "slug": "sarl-grelier-fils52123752024-11-2538441797800010f01",
+      "field": "domains",
+      "hunter_value": "D10_GARANTIES, D15_SECTEUR",
+      "corrected_value": "D12_ADMIN, D15_SECTEUR",
+      "reason": "STRICT code validity: 'D10_GARANTIES' n'existe pas dans la taxonomie (axe 1 = D01-D16, D10 = D10_ELECTRIQUE_ESP). Domaine correct D12_ADMIN."
+    },
+    {
+      "slug": "sarl-grelier-fils52123752024-11-2538441797800010f01",
+      "field": "mechanisms",
+      "hunter_value": "M08_CONFORMITE",
+      "corrected_value": "M08_CONFORMITE, M10_GARANTIES",
+      "reason": "Le mécanisme M10_GARANTIES (axe 2) porte l'information de garanties financières que Hunter avait erronément codée comme domaine."
+    },
+    {
+      "slug": "sarl-grelier-fils52123752024-11-2538441797800010f03",
+      "field": "mechanisms",
+      "hunter_value": "M14_CONSTAT_TECHNIQUE",
+      "corrected_value": "M01_DOCUMENTATION",
+      "reason": "Extraction et remise en état conformes -- pas de NC physique. Le seul point en attente est un document (plan d'action de reboisement) à produire."
+    },
+    {
+      "slug": "sarl-grelier-fils52123752024-11-2538441797800010f03",
+      "field": "dynamic",
+      "hunter_value": "R14_NEUTRE_NC",
+      "corrected_value": "R08_CONTRAINTE_ECONOMIQUE",
+      "reason": "Le retard de phase 2 est explicitement imputé par l'exploitant aux 'faibles ventes de matériaux' -- signal R08 manqué (défaut R14 appliqué à tort)."
+    },
+    {
+      "slug": "sarl-grelier-fils52123752024-11-2538441797800010f03",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "\"Dès la fin de la phase 2\" est une condition, pas un délai chiffré."
+    },
+    {
+      "slug": "sarl-grelier-fils52123752024-11-2538441797800010f06",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "Aucun délai chiffré -- rappel de continuer les prélèvements sans échéance."
+    },
+    {
+      "slug": "sarl-grelier-fils52123752024-11-2538441797800010f07",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "Aucun délai chiffré dans le constat."
+    },
+    {
+      "slug": "sarl-grelier-fils52123752024-11-2538441797800010f08",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "\"Il est demandé à l'exploitant de transmettre le compte-rendu\" est une demande formelle -- incohérent avec m_DELAI déjà présent mais stage S01_CONSTAT."
+    },
+    {
+      "slug": "sarl-grelier-fils52123752024-11-2538441797800010f08",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "\"Dès réception\" n'est pas un délai chiffré."
+    },
+    {
+      "slug": "sarl-les-pierres-de-frontenac-frontenac-4-route-du-moulin-a-vent52036262022-12-0145070130500028f03",
+      "field": "mechanisms",
+      "hunter_value": "M14_CONSTAT_TECHNIQUE",
+      "corrected_value": "M01_DOCUMENTATION",
+      "reason": "Extraction conforme visuellement -- l'impossibilité de vérifier vient de l'absence de plan à jour (même cause que le constat n°2, déjà M01), pas d'une NC physique observée."
+    },
+    {
+      "slug": "sarl-les-pierres-de-frontenac-frontenac-4-route-du-moulin-a-vent52036262022-12-0145070130500028f04",
+      "field": "mechanisms",
+      "hunter_value": "M14_CONSTAT_TECHNIQUE",
+      "corrected_value": "M08_CONFORMITE",
+      "reason": "Le texte affirme explicitement \"ce point ne fait pas l'objet d'une non-conformité\" -- M14 est une fausse NC technique (False M14)."
+    },
+    {
+      "slug": "sarl-les-pierres-de-frontenac-frontenac-4-route-du-moulin-a-vent52036262022-12-0145070130500028f04",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "Conséquence de la correction de mécanisme : pas de NC constatée, simple rappel avec échéance de notification."
+    },
+    {
+      "slug": "sarl-les-pierres-de-frontenac-frontenac-4-route-du-moulin-a-vent52036262022-12-0145070130500028f07",
+      "field": "mechanisms",
+      "hunter_value": "M14_CONSTAT_TECHNIQUE",
+      "corrected_value": "M14_CONSTAT_TECHNIQUE, M01_DOCUMENTATION",
+      "reason": "Missed multi-label: la limite \"ne semble pas clôturée\" (incertitude physique, M14) ET l'impossibilité de vérifier faute de plan à jour (M01, lien constat 2) sont toutes deux présentes."
+    },
+    {
+      "slug": "sarl-les-pierres-de-frontenac-frontenac-4-route-du-moulin-a-vent52036262022-12-0145070130500028f07",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Dispositif potentiellement absent (clôture) = G3 minimum, incohérent avec M14 et G2 simultanés."
+    },
+    {
+      "slug": "sarl-les-pierres-de-frontenac-frontenac-4-route-du-moulin-a-vent52036262025-06-2045070130500028f01",
+      "field": "domains",
+      "hunter_value": "D15_SECTEUR, D10_GARANTIES",
+      "corrected_value": "D15_SECTEUR, D12_ADMIN",
+      "reason": "STRICT code validity: 'D10_GARANTIES' n'existe pas dans la taxonomie. Domaine correct D12_ADMIN."
+    },
+    {
+      "slug": "sarl-les-pierres-de-frontenac-frontenac-4-route-du-moulin-a-vent52036262025-06-2045070130500028f01",
+      "field": "mechanisms",
+      "hunter_value": "M08_CONFORMITE",
+      "corrected_value": "M08_CONFORMITE, M10_GARANTIES",
+      "reason": "Ajout du mécanisme M10_GARANTIES (axe 2), erronément codé comme domaine par Hunter."
+    },
+    {
+      "slug": "sarl-les-pierres-de-frontenac-frontenac-4-route-du-moulin-a-vent52036262025-06-2045070130500028f02",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "Aucun délai chiffré -- demande d'étude d'impact et de calendrier sans échéance."
+    },
+    {
+      "slug": "sarl-les-pierres-de-frontenac-frontenac-4-route-du-moulin-a-vent52036262025-06-2045070130500028f04",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "\"À l'occasion de la fin de la phase 1\" est une condition, pas un délai chiffré."
+    },
+    {
+      "slug": "sarl-les-pierres-de-frontenac-frontenac-4-route-du-moulin-a-vent52036262025-06-2045070130500028f07",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "Aucun délai chiffré -- demande de clarification sans échéance."
+    },
+    {
+      "slug": "sarl-les-pierres-de-frontenac-frontenac-bignon52095902022-12-0145070130500036f02",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Bornes non localisées sur le terrain (pas seulement absence documentaire) = NC physique, G3 minimum, incohérent avec M14 et G2 simultanés."
+    },
+    {
+      "slug": "sarl-les-pierres-de-frontenac-frontenac-bignon52095902022-12-0145070130500036f04",
+      "field": "mechanisms",
+      "hunter_value": "M04_MISE_EN_DEMEURE, M14_CONSTAT_TECHNIQUE",
+      "corrected_value": "M04_MISE_EN_DEMEURE, M09_PAC",
+      "reason": "Le constat actuel porte sur l'absence de réponse à une demande de compléments PAC (aucune campagne de concassage depuis, confirmé conforme sur le plan physique) -- pas de NC technique dans ce constat, M14 reflète l'historique 2021 hors périmètre de classification."
+    },
+    {
+      "slug": "sarl-les-pierres-de-frontenac-frontenac-bignon52095902022-12-0145070130500036f11",
+      "field": "dynamic",
+      "hunter_value": "R10_TENSION",
+      "corrected_value": "R14_NEUTRE_NC",
+      "reason": "Pattern systémique 'promesse non tenue' classée R10_TENSION à tort : le PAC de l'exploitant ne conteste ni n'argumente, il est simplement silencieux sur la fermeture de l'accès Est -- absence de tension exprimée, NC factuelle persistante."
+    },
+    {
+      "slug": "sarl-les-pierres-de-frontenac-frontenac-bignon52095902023-11-1645070130500036f02",
+      "field": "dynamic",
+      "hunter_value": "R10_TENSION",
+      "corrected_value": "R07_CONTRAINTE_TECHNIQUE",
+      "reason": "L'exploitant justifie le maintien de l'accès Est par des contraintes techniques concrètes explicites (ponts non dimensionnés, terrain de trial, habitations) -- R07 plus précis que R10 générique."
+    },
+    {
+      "slug": "sarl-les-pierres-de-frontenac-frontenac-bignon52095902023-11-1645070130500036f05",
+      "field": "dynamic",
+      "hunter_value": "R14_NEUTRE_NC",
+      "corrected_value": "R02_PROMESSE",
+      "reason": "Engagement explicite sur action future (\"utiliserait le prochain passage du géomètre, d'ici la fin de l'année 2023\") non encore réalisé -- R02 manqué, défaut R14 appliqué à tort."
+    },
+    {
+      "slug": "sarl-les-pierres-de-frontenac-frontenac-bignon52095902023-11-1645070130500036f05",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Borne non localisée sur le terrain = NC physique, G3 minimum, incohérent avec M14 et G2 simultanés."
+    }
+  ],
+  "false_positive_rate": 0.25,
+  "error_patterns": "Trois familles d'erreurs dominent, toutes systémiques plutôt qu'isolées. (1) m_DELAI sur-appliqué : 20 des 42 fiches S02_INJONCTION+m_DELAI de ce batch n'avaient aucun délai chiffré dans le constat -- Hunter applique m_DELAI dès qu'une 'Demande à formuler' existe, même quand l'échéance est absente ou purement conditionnelle ('dès la fin de la phase X', 'à l'occasion de...', 'dès réception'). Le bloc Prescription (boilerplate réglementaire, hors périmètre de classification) contient parfois un délai qui ne doit pas être reporté sur le constat. (2) M14_CONSTAT_TECHNIQUE incohérent avec G2 : 8 fiches combinaient un mécanisme physique (M14) avec une gravité purement documentaire (G2) -- violation directe de la règle 'G3 AVANT G2 : NC physique = G3 minimum'. Selon les cas, la correction porte soit sur le mécanisme (M14 -> M01/M08 quand le constat est en réalité documentaire ou conforme), soit sur la gravité (G2 -> G3 quand un dispositif physique est réellement absent/incertain). Un cas notable : une fiche où le texte affirme explicitement 'ce point ne fait pas l'objet d'une non-conformité' était pourtant taguée M14 (False M14 caractérisé). (3) R10_TENSION sur-appliqué pour 'promesse non tenue' : sur 3 fiches R10_TENSION du même dossier (accès carrière non sécurisé, portail Est), une seule montrait un véritable désaccord/contestation exprimé (R10 confirmé) ; les deux autres étaient soit une simple non-conformité persistante sans tension exprimée (-> R14), soit une justification par contrainte technique concrète (-> R07). Erreurs ponctuelles additionnelles : deux codes de domaine invalides ('D10_GARANTIES', hors taxonomie -- corrigé en D12_ADMIN + ajout du mécanisme M10_GARANTIES manquant), deux inversions stage/modifier (m_DELAI présent mais stage resté S01_CONSTAT au lieu de S02_INJONCTION alors qu'une demande formelle avec délai existait), une gravité G4 sur-appliquée par analogie erronée avec des fiches MED+NC-technique alors que la NC était purement administrative (incohérence avec des cas jumeaux du même lot notés G3), un acteur mal attribué (A02_INSPECTION au lieu de A01_EXPLOITANT quand le constat concerne la situation de l'exploitant), et deux cas de R02_PROMESSE manqué (engagement explicite sur action future taggé R14 par défaut).",
+  "verdict": "Qualité globale correcte sur les axes structurels (domaines, acteurs, stades hors les cas relevés, trajectoire) mais taux de correction élevé (25.4%, au-dessus de la cible <15%) tiré par un usage mécanique de m_DELAI non filtré par la présence réelle d'une échéance chiffrée, et par une désynchronisation ponctuelle entre mécanisme M14 et gravité G2 qui aurait dû s'auto-signaler via la règle 'G3 AVANT G2'. Aucune fausse M08 caractérisée n'a été trouvée en dehors d'un cas frontière (contexte administratif pur mal étiqueté conformité). Recommandation pour les prochains batches Hunter : n'appliquer m_DELAI que si un nombre ou une date calendaire explicite figure dans constats_body (hors bloc Prescription), et vérifier systématiquement qu'un mécanisme M14 s'accompagne d'une gravité G3 minimum avant émission."
+}

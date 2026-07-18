@@ -1,0 +1,311 @@
+{
+  "total_audited": 130,
+  "errors_found": 43,
+  "corrections": [
+    {
+      "slug": "reda52010112023-01-1230975560100015f05",
+      "field": "modifiers",
+      "hunter_value": ["m_MENACE"],
+      "corrected_value": ["m_MENACE", "m_DELAI"],
+      "reason": "Constats body demande explicitement 'sous 6 mois' de doter les installations d'une DAI — délai correctif numérique présent, m_DELAI omis."
+    },
+    {
+      "slug": "reda52010112023-01-1230975560100015f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Demande 'sous 6 mois' de réaliser l'analyse Ni/CN manquante — délai correctif numérique présent, m_DELAI omis."
+    },
+    {
+      "slug": "reda52010112023-01-1230975560100015f07",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai (6 mois) et menace de suite administrative = S02_INJONCTION, pas simple constat."
+    },
+    {
+      "slug": "regie-de-l-eau-bordeaux-metropole-eysines-lieu-dit-cantinolle52127402025-05-2789513467400020f09",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Demande formelle : mesure GE à réaliser 'dans un délai de 3 mois' si absente — m_DELAI omis."
+    },
+    {
+      "slug": "regie-de-l-eau-bordeaux-metropole-eysines-lieu-dit-cantinolle52127402025-05-2789513467400020f09",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai numérique = S02_INJONCTION."
+    },
+    {
+      "slug": "regie-de-l-eau-bordeaux-metropole-ex-lyonnaise-des-eaux52061872023-02-2089513467400020f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "MED proposée 'dans un délai de 6 mois' pour revoir la conception du rejet — délai correctif numérique présent, m_DELAI omis."
+    },
+    {
+      "slug": "regie-de-l-eau-bordeaux-metropole-ex-lyonnaise-des-eaux52061872023-02-2089513467400020f04",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai numérique (MED proposée) = S02_INJONCTION."
+    },
+    {
+      "slug": "regie-de-l-eau-bordeaux-metropole-ex-lyonnaise-des-eaux52061872023-02-2089513467400020f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Demande de transmettre 'sous 2 mois' un mode opératoire corrigé — m_DELAI omis."
+    },
+    {
+      "slug": "regie-de-l-eau-bordeaux-metropole-ex-lyonnaise-des-eaux52061872023-02-2089513467400020f05",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai numérique = S02_INJONCTION."
+    },
+    {
+      "slug": "regie-de-l-eau-de-bordeaux-metropole52093162026-02-2781748866100056f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Demande de transmettre les attestations de formation 'sous 1 mois' — m_DELAI omis."
+    },
+    {
+      "slug": "regie-de-l-eau-de-bordeaux-metropole52093162026-02-2781748866100056f01",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai numérique = S02_INJONCTION."
+    },
+    {
+      "slug": "regie-de-l-eau-de-bordeaux-metropole52093162026-02-2781748866100056f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'Sous un délai de 1 mois, l'exploitant indique...' — m_DELAI omis."
+    },
+    {
+      "slug": "regie-de-l-eau-de-bordeaux-metropole52093162026-02-2781748866100056f04",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai numérique = S02_INJONCTION."
+    },
+    {
+      "slug": "regie-de-l-eau-de-bordeaux-metropole52093162026-02-2781748866100056f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "'Sous un délai de 1 mois, l'exploitant met à jour...' — m_DELAI omis."
+    },
+    {
+      "slug": "regie-de-l-eau-de-bordeaux-metropole52093162026-02-2781748866100056f05",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai numérique = S02_INJONCTION."
+    },
+    {
+      "slug": "reinhart-jean52087892024-08-1949356240900018f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Exploitant dispose d'un 'délai de 2 mois' pour transmettre le justificatif de lancement du dossier de cessation — m_DELAI omis."
+    },
+    {
+      "slug": "reinhart-jean52087892024-08-1949356240900018f01",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai numérique = S02_INJONCTION."
+    },
+    {
+      "slug": "rexel-france-argan31023952024-02-1330930461605851f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Mise à jour de l'état des stocks à transmettre 'sous 15 jours' — m_DELAI omis."
+    },
+    {
+      "slug": "rexel-france-argan31023952024-02-1330930461605851f01",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai numérique = S02_INJONCTION."
+    },
+    {
+      "slug": "rexel-france-argan31023952024-02-1330930461605851f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Justificatifs à transmettre 'sous 15 jours', remplacement des bandes 'sous 1 mois' — m_DELAI omis."
+    },
+    {
+      "slug": "rexel-france-argan31023952024-02-1330930461605851f04",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai numérique = S02_INJONCTION."
+    },
+    {
+      "slug": "rexel-france-argan31023952024-02-1330930461605851f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Débit des poteaux extérieurs à justifier 'sous 1 mois' — m_DELAI omis."
+    },
+    {
+      "slug": "rexel-france-argan31023952024-02-1330930461605851f06",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai numérique = S02_INJONCTION."
+    },
+    {
+      "slug": "rexel-france-argan31023952024-02-1330930461605851f10",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Remise en état 'sous 1 mois', justificatifs 'sous 2 mois' (MED proposée) — m_DELAI omis."
+    },
+    {
+      "slug": "rexel-france-argan31023952024-02-1330930461605851f10",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai numérique (MED proposée) = S02_INJONCTION."
+    },
+    {
+      "slug": "rexel-france-argan31023952025-03-2030930461605851f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Porter-à-connaissance à transmettre 'sous 2 mois' — m_DELAI omis."
+    },
+    {
+      "slug": "rexel-france-argan31023952025-03-2030930461605851f02",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai numérique = S02_INJONCTION."
+    },
+    {
+      "slug": "rey-passage-sarl52088182025-03-2041940149200030f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Déclaration de cessation à effectuer 'dans un délai de 3 mois' — m_DELAI omis."
+    },
+    {
+      "slug": "rey-passage-sarl52088182025-03-2041940149200030f01",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai numérique = S02_INJONCTION."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312023-01-0341817902400058f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Actions correctives sur la fuite demandées 'sous 15 jours' — m_DELAI omis."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312023-01-0341817902400058f03",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai numérique, situation G5 (pollution active) = S02_INJONCTION."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312023-01-0341817902400058f04",
+      "field": "modifiers",
+      "hunter_value": ["m_MENACE"],
+      "corrected_value": ["m_MENACE", "m_DELAI"],
+      "reason": "Mise en conformité demandée 'au plus tard sous 3 mois' — délai correctif numérique présent, m_DELAI omis."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312023-01-0341817902400058f05",
+      "field": "modifiers",
+      "hunter_value": ["m_MENACE"],
+      "corrected_value": ["m_MENACE", "m_DELAI"],
+      "reason": "Mise en conformité 'au plus tard sous 3 mois', PAC à formaliser 'sous un mois' — m_DELAI omis."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312023-01-0341817902400058f05",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délais numériques et menace de MED = S02_INJONCTION, pas simple constat."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312023-01-0341817902400058f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Rapport de contrôle électrique généralisé demandé 'sous 6 mois' — m_DELAI omis (stage S03 conservé, correction déjà partiellement engagée)."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312023-01-0341817902400058f08",
+      "field": "modifiers",
+      "hunter_value": ["m_MENACE"],
+      "corrected_value": ["m_MENACE", "m_DELAI"],
+      "reason": "Travaux de renforcement coupe-feu bâtiment 1 demandés 'sous 6 mois' — m_DELAI omis (stage S03 conservé, correction bâtiment 8 déjà réalisée)."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312023-01-0341817902400058f09",
+      "field": "modifiers",
+      "hunter_value": ["m_MENACE"],
+      "corrected_value": ["m_MENACE", "m_DELAI"],
+      "reason": "Mesures de débit ventilation demandées 'au plus [tard] sous 6 mois' — m_DELAI omis."
+    },
+    {
+      "slug": "quincaillerie-guy-lego1000167562025-10-0746420279500017f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Levée des 2 NC majeures exigée 'avant le 3 juin 2026' — délai correctif à date fixe présent, m_DELAI omis."
+    },
+    {
+      "slug": "quincaillerie-guy-lego1000167562025-10-0746420279500017f07",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec échéance fixée = S02_INJONCTION."
+    },
+    {
+      "slug": "quincaillerie-guy-lego1000167562025-10-0746420279500017f07",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T2",
+      "reason": "Le corps du constat référence explicitement 'la précédente inspection du 17 février 2025' et fait le suivi de sa demande — T2_SUIVI, pas T1 (par défaut, absence d'historique)."
+    },
+    {
+      "slug": "r-a-l-diagnostics52117652023-04-0444926140300041f09",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Remise en état des installations électriques demandée 'dans un délai d'un mois' — m_DELAI omis."
+    },
+    {
+      "slug": "r-a-l-diagnostics52117652023-04-0444926140300041f09",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai numérique = S02_INJONCTION."
+    },
+    {
+      "slug": "quincaillerie-guy-lego1000167562025-02-1746420279500017f07",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T2",
+      "reason": "Constats_body fusionne explicitement 'Constat du 25 mars 2024' et 'Constat du 17 février 2025' (suivi du plan des réseaux demandé) — T2_SUIVI, pas T1. Les 7 autres fiches du même rapport (structure identique à 2 constats) utilisent T3/T4/T7 ; seule celle-ci était restée à T1 par erreur."
+    }
+  ],
+  "false_positive_rate": 0.18,
+  "error_patterns": "Erreur systématique unique et dominante : le modificateur m_DELAI n'a été appliqué à AUCUN des 130 enregistrements du batch, alors que la section 'Demande à formuler à l'exploitant'/'Observations' de constats_body contient un délai correctif chiffré (sous X jours/mois, délai de X mois, échéance à date fixe) dans au moins 23 fiches (~18%). Dans la majorité de ces cas, le stage était également resté à S01_CONSTAT alors que la présence d'une demande formelle assortie d'un délai correspond à la définition même de S02_INJONCTION ('Demande formelle avec délai') — 18 corrections stage S01→S02. Deux cas de trajectoire T1 par défaut alors que constats_body référence explicitement une inspection précédente (T2_SUIVI) ont aussi été corrigés, dont un où les 7 fiches sœurs du même rapport (structure à '2 constats' fusionnés) utilisaient correctement T3/T4/T7. Les autres axes de vérification (usage de R10_TENSION — un seul cas, un vrai conflit de données factuel, pas un abus 'promesse non tenue' ; usage de M17 — tous les cas vérifiés relèvent bien d'une détermination de seuil/rubrique ; gravité G2 vs G3 sur NC M14 mineures/signalétiques — cohérent ; R02 sur promesses futures — cohérent, pas de sur-attribution sur des constats factuels) n'ont révélé aucune erreur significative. Aucun code hors taxonomie, aucun champ manquant, aucune valeur multiple sur un champ mono-label détectés (validation STRICT déjà conforme sur le hunter brut)."
+,
+  "verdict": "Qualité Hunter globalement bonne sur le fond (choix de mécanisme, domaine, acteur, gravité tous corrects dans l'échantillon audité) mais faille systématique et récurrente sur le modificateur m_DELAI, totalement absent du batch malgré sa présence attendue dans ~15-20% des fiches (cohérent avec le taux observé dans les autres batches déjà audités, où m_DELAI accompagne ~1700/2200 stages S02+). Corrigé : 23 ajouts de m_DELAI, 18 remontées de stage S01→S02, 2 corrections de trajectoire T1→T2. 24/130 fiches modifiées (18.5%), sous la cible <15% de peu mais justifié par un biais Hunter concentré et bien identifié plutôt que dispersé. final-56.json validé conforme (130/130 slugs, aucune erreur de validation)."
+}

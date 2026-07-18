@@ -1,0 +1,639 @@
+{
+  "total_audited": 31,
+  "errors_found": 90,
+  "corrections": [
+    {
+      "slug": "pena-environnement52011832024-07-1738014135800024f10",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Corpus confirms purely documentary gap (date d'intervention manquante) -- no ambiguity, M01+M07/G2 correct."
+    },
+    {
+      "slug": "pena-metaux-sas52010042022-11-1538014154900010f04",
+      "field": "mechanisms",
+      "hunter_value": "[\"M01\", \"M09\"]",
+      "corrected_value": "[\"M09\"]",
+      "reason": "Le carnet de rondes n'a pas été consulté par manque de temps de l'inspection, pas parce que l'exploitant ne le détient pas -- M01 (absence documentaire imputable à l'exploitant) est une fausse attribution. Seul M09 (PAC à venir sur les modalités de surveillance) est étayé par le texte."
+    },
+    {
+      "slug": "pena-metaux-sas52010042022-11-1538014154900010f04",
+      "field": "dynamic",
+      "hunter_value": "R13",
+      "corrected_value": "R02",
+      "reason": "\"L'exploitant a rappelé à l'inspection sa volonté de revoir les modalités de surveillance\" = engagement verbal sur une action FUTURE non vérifiable au jour de l'inspection -- signal R02_PROMESSE explicite, pas R13 neutre."
+    },
+    {
+      "slug": "pena-metaux-sas52010042022-11-1538014154900010f04",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "\"L'inspection demande à l'exploitant de transmettre sous 3 mois un dossier de porter à connaissance\" -- délai numérique explicite absent des modifiers Hunter."
+    },
+    {
+      "slug": "pena-metaux-sas52010042022-11-1538014154900010f04",
+      "field": "modifiers",
+      "hunter_value": "[\"m_DELAI\"]",
+      "corrected_value": "[\"m_DELAI\", \"m_MENACE\"]",
+      "reason": "\"A défaut, l'inspection proposera à Mme la Préfète une sanction administrative\" -- avertissement conditionnel explicite, non capturé par Hunter."
+    },
+    {
+      "slug": "pena-metaux-sas52010042022-11-1538014154900010f15",
+      "field": "mechanisms",
+      "hunter_value": "[\"M01\"]",
+      "corrected_value": "[\"M01\", \"M06\"]",
+      "reason": "Le texte cite explicitement \"FSMD 5 de la précédente inspection du 21 septembre 2021 : le cadre 11 ... n'est pas correctement renseigné\" -- même NC (cadre 11 BSD) entre deux inspections successives = M06_RECIDIVE, manqué par Hunter (multi-label axe 2)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042022-11-1538014154900010f15",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Contexte de récidive confirmé par le texte, lève l'ambiguïté initiale du Hunter."
+    },
+    {
+      "slug": "pena-metaux-sas52010042023-09-0638014154900010f19",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "\"transmettre sous 15 jours les justificatifs ... et sous 3 mois le rapport de vérification Q18\" -- délais numériques explicites, modifiers Hunter vide."
+    },
+    {
+      "slug": "pena-metaux-sas52010042023-09-0638014154900010f19",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Corpus confirme sans ambiguïté le contenu du constat (Q18/Q19, observations non levées)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042024-07-0838014154900010f03",
+      "field": "stage",
+      "hunter_value": "S04",
+      "corrected_value": "S03",
+      "reason": "Le texte décrit une modification d'autorisation en cours d'instruction (\"la modification sera actée par arrêté préfectoral complémentaire, lorsque l'instruction ... sera finalisée\"), pas une contre-visite post-correction (S04) -- S03_CORRECTION (action corrective/administrative en cours) est plus fidèle."
+    },
+    {
+      "slug": "pena-metaux-sas52010042025-12-0338014154900010f03",
+      "field": "mechanisms",
+      "hunter_value": "[\"M14\"]",
+      "corrected_value": "[\"M01\"]",
+      "reason": "\"l'inspection n'observe pas de dépassement significatif ... néanmoins la visite ne s'étant pas tenue de manière inopinée ce point ne peut être clôturé\" -- aucune NC physique constatée ; le point reste ouvert faute de justificatif probant (documentaire), pas M14 (Erreur type 2 : Faux M14)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042025-12-0338014154900010f03",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "NC purement documentaire/procédurale (absence de justification probante), sans dimension physique constatée -- G3 était surestimé."
+    },
+    {
+      "slug": "pena-metaux-sas52010042025-12-0338014154900010f03",
+      "field": "trajectory",
+      "hunter_value": "T4",
+      "corrected_value": "T3",
+      "reason": "\"des améliorations notables ont été mises en place\" (plan de contingence, appli de suivi) -- le texte décrit une amélioration constatée, pas une stagnation (T4)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042025-12-0338014154900010f03",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "\"pendant 6 mois, l'exploitant transmet ... l'état des stocks réalisé hebdomadairement\" -- délai numérique explicite."
+    },
+    {
+      "slug": "pena-metaux-sas52010042025-12-0338014154900010f03",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Lecture complète du corpus lève l'ambiguïté du Hunter."
+    },
+    {
+      "slug": "perez-conde-tp31068492022-08-1749407243200011f02",
+      "field": "mechanisms",
+      "hunter_value": "[\"M08\"]",
+      "corrected_value": "[\"M14\"]",
+      "reason": "Erreur type 1 (Faux M08) : le texte contient une injonction réelle (\"L'inspection demande à l'exploitant sous 15 jours de trier les derniers déchets indésirables\"), pas une conformité pure -- M14 (NC physique -- indésirables non triés) remplace M08."
+    },
+    {
+      "slug": "perez-conde-tp31068492022-08-1749407243200011f02",
+      "field": "gravity",
+      "hunter_value": "G1",
+      "corrected_value": "G3",
+      "reason": "Règle \"G3 AVANT G2 : NC physique = G3 minimum\" -- présence physique d'indésirables sur la plateforme, même mineure."
+    },
+    {
+      "slug": "perez-conde-tp31068492022-08-1749407243200011f02",
+      "field": "stage",
+      "hunter_value": "S04",
+      "corrected_value": "S02",
+      "reason": "Nouvelle injonction assortie d'un délai chiffré, pas une contre-visite (S04)."
+    },
+    {
+      "slug": "perez-conde-tp31068492022-08-1749407243200011f02",
+      "field": "dynamic",
+      "hunter_value": "R13",
+      "corrected_value": "R14",
+      "reason": "NC factuelle constatée, pas une conformité (R13)."
+    },
+    {
+      "slug": "perez-conde-tp31068492022-08-1749407243200011f02",
+      "field": "trajectory",
+      "hunter_value": "T3",
+      "corrected_value": "T1",
+      "reason": "Aucun historique antérieur mentionné dans le texte pour ce point de contrôle -- T3 (amélioration) n'est pas étayé."
+    },
+    {
+      "slug": "perez-conde-tp31068492022-08-1749407243200011f02",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "\"sous 15 jours de trier les derniers déchets indésirables\" -- délai numérique explicite."
+    },
+    {
+      "slug": "perez-conde-tp31068492022-08-1749407243200011f02",
+      "field": "modifiers",
+      "hunter_value": "[\"m_DELAI\"]",
+      "corrected_value": "[\"m_DELAI\", \"m_MENACE\"]",
+      "reason": "\"L'inspection pourra proposer des sanctions à l'issue d'une prochaine inspection en cas de manquement répété\" -- avertissement conditionnel explicite."
+    },
+    {
+      "slug": "perez-conde-tp31068492022-08-1749407243200011f02",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Erreur claire et texte non ambigu une fois relu."
+    },
+    {
+      "slug": "pernat-smj52065882024-02-0180795911900015f02",
+      "field": "stage",
+      "hunter_value": "S03",
+      "corrected_value": "S04",
+      "reason": "L'inspection vérifie sur le terrain une correction annoncée lors d'une inspection antérieure (contre-visite) -- S04_VERIFICATION, pas S03 (action corrective en cours)."
+    },
+    {
+      "slug": "pernat-smj52065882024-02-0180795911900015f02",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "Aucune non-conformité n'est constatée sur la partie vérifiée ; seule une partie du bâtiment n'a pas pu être contrôlée pour des raisons d'accessibilité -- ce n'est pas une NC documentaire (G2), simplement une vérification incomplète sans écart identifié."
+    },
+    {
+      "slug": "pernat-smj52065882024-02-0180795911900015f02",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Lecture complète du corpus lève l'ambiguïté."
+    },
+    {
+      "slug": "pernat-smj52065882024-02-0180795911900015f06",
+      "field": "actor",
+      "hunter_value": "A05",
+      "corrected_value": "A01",
+      "reason": "L'obligation de fournir les documents manquants (plan des locaux, liste installations sécurité) incombe à l'exploitant, pas à l'organisme agréé APAVE qui a réalisé le rapport -- A05 était une mauvaise attribution d'acteur."
+    },
+    {
+      "slug": "pernat-smj52065882024-02-0180795911900015f06",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R02",
+      "reason": "\"il a déclaré qu'il s'assurera que tous les documents nécessaires soient fournis\" -- engagement verbal sur une action FUTURE non vérifiable, R02_PROMESSE explicite (Erreur type 7 : mauvais code R)."
+    },
+    {
+      "slug": "pernat-smj52065882024-02-0180795911900015f06",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "\"transmettre le rapport ... dans un délai maximal d'un mois après la réalisation dudit contrôle\" -- délai numérique explicite."
+    },
+    {
+      "slug": "pernat-smj52065882024-02-0180795911900015f06",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Lecture complète du corpus lève l'ambiguïté."
+    },
+    {
+      "slug": "pernat-smj52065882024-02-0180795911900015f10",
+      "field": "mechanisms",
+      "hunter_value": "[\"M08\"]",
+      "corrected_value": "[\"M08\", \"M01\"]",
+      "reason": "Une demande substantielle existe (\"L'exploitant vérifie que le volume de rétention ... et transmet ... sous la forme d'un porter à connaissance le cas échéant\") -- multi-label manqué : M01 (vérification/mise à jour documentaire du calcul de rétention) en complément de M08."
+    },
+    {
+      "slug": "pernat-smj52065882025-01-1480795911900015f08",
+      "field": "actor",
+      "hunter_value": "A05",
+      "corrected_value": "A01",
+      "reason": "L'obligation de s'assurer du bon référentiel AMPG et de transmettre le prochain rapport incombe à l'exploitant, pas à l'organisme agréé (APAVE) qui a réalisé la mesure -- A05 était une mauvaise attribution."
+    },
+    {
+      "slug": "pernat-smj52065882025-01-1480795911900015f08",
+      "field": "stage",
+      "hunter_value": "S04",
+      "corrected_value": "S02",
+      "reason": "L'inspection formule une injonction pour la prochaine campagne de mesure (rapport 2025 à transmettre selon le bon AMPG) -- ce n'est pas une contre-visite post-correction (S04)."
+    },
+    {
+      "slug": "pernat-smj52065882025-01-1480795911900015f08",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Lecture complète du corpus lève l'ambiguïté."
+    },
+    {
+      "slug": "pernat-smj52065882025-01-1480795911900015f09",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Corpus confirme le contenu du constat (liste ESP non vérifiée par manque de temps, statut déclaration LUNE) -- tags Hunter corrects."
+    },
+    {
+      "slug": "pena-environnement52011832023-02-1038014135800024f08",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-environnement52011832023-02-1038014135800024f10",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-environnement52011832024-07-1738014135800024f04",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-environnement52011832024-07-1738014135800024f05",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-environnement52011832024-07-1738014135800024f06",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-environnement52011832024-07-1738014135800024f12",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-environnement52011832024-07-1738014135800024f14",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-environnement52011832024-07-1738014135800024f15",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-environnement52011832024-07-1738014135800024f16",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-environnement52011832024-07-1738014135800024f17",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-environnement52011832024-07-1738014135800024f18",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042022-11-1538014154900010f05",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042022-11-1538014154900010f06",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042022-11-1538014154900010f14",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042022-11-1538014154900010f16",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042022-11-1538014154900010f17",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042022-11-1538014154900010f18",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042022-11-1538014154900010f20",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042022-11-1538014154900010f21",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042023-09-0638014154900010f01",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042023-09-0638014154900010f03",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042023-09-0638014154900010f07",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042023-09-0638014154900010f11",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042023-09-0638014154900010f14",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042023-09-0638014154900010f15",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042023-09-0638014154900010f17",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042023-09-0638014154900010f18",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042023-09-0638014154900010f20",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042024-07-0838014154900010f04",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042024-07-0838014154900010f05",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042024-07-0838014154900010f06",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042024-07-0838014154900010f07",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042024-07-0838014154900010f08",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042024-07-0838014154900010f09",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042024-07-0838014154900010f10",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042024-07-0838014154900010f14",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042024-11-0838014154900010f02",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042024-11-0838014154900010f06",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042025-12-0338014154900010f04",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042025-12-0338014154900010f05",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042025-12-0338014154900010f08",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042025-12-0338014154900010f09",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "penaud-mickael-et-nicky31067702022-11-0480343684900019f01",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pernat-smj52065882024-02-0180795911900015f09",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pernat-smj52065882025-01-1480795911900015f02",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_DELAI\"]",
+      "reason": "Délai numérique explicite ('sous X jours/mois') présent dans constats_body et non repéré par le Hunter (pattern systématique de ce batch)."
+    },
+    {
+      "slug": "pena-environnement52011832025-12-1038014135800024f01",
+      "field": "modifiers",
+      "hunter_value": "[\"m_DELAI\"]",
+      "corrected_value": "[]",
+      "reason": "Le délai chiffré cité n'apparaît que dans le bloc Prescription (conditions d'un arrêté antérieur/boilerplate), pas dans constats_body ; la demande du jour est \"de manière immédiate\" sans délai chiffré propre -- m_DELAI retiré (pattern systématique inverse de ce batch)."
+    },
+    {
+      "slug": "pena-environnement52011832025-12-1038014135800024f03",
+      "field": "modifiers",
+      "hunter_value": "[\"m_DELAI\"]",
+      "corrected_value": "[]",
+      "reason": "Le délai chiffré cité n'apparaît que dans le bloc Prescription (conditions d'un arrêté antérieur/boilerplate), pas dans constats_body ; la demande du jour est \"de manière immédiate\" sans délai chiffré propre -- m_DELAI retiré (pattern systématique inverse de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042023-09-0638014154900010f06",
+      "field": "modifiers",
+      "hunter_value": "[\"m_DELAI\"]",
+      "corrected_value": "[]",
+      "reason": "Le délai chiffré cité n'apparaît que dans le bloc Prescription (conditions d'un arrêté antérieur/boilerplate), pas dans constats_body ; la demande du jour est \"de manière immédiate\" sans délai chiffré propre -- m_DELAI retiré (pattern systématique inverse de ce batch)."
+    },
+    {
+      "slug": "perez-conde-tp31068492022-08-1749407243200011f01",
+      "field": "modifiers",
+      "hunter_value": "[\"m_DELAI\"]",
+      "corrected_value": "[]",
+      "reason": "Le délai chiffré cité n'apparaît que dans le bloc Prescription (conditions d'un arrêté antérieur/boilerplate), pas dans constats_body ; la demande du jour est \"de manière immédiate\" sans délai chiffré propre -- m_DELAI retiré (pattern systématique inverse de ce batch)."
+    },
+    {
+      "slug": "pena-metaux-sas52010042022-11-1538014154900010f03",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[\"m_MENACE\"]",
+      "reason": "Avertissement conditionnel explicite (\"À défaut ... une sanction pourra être proposée\" / \"Si les dépassements ne sont pas résorbés ... une 3ème liquidation\") présent dans constats_body, non repéré par le Hunter."
+    },
+    {
+      "slug": "pena-metaux-sas52010042022-11-1538014154900010f05",
+      "field": "modifiers",
+      "hunter_value": "[\"m_DELAI\"]",
+      "corrected_value": "[\"m_DELAI\", \"m_MENACE\"]",
+      "reason": "Avertissement conditionnel explicite (\"À défaut ... une sanction pourra être proposée\" / \"Si les dépassements ne sont pas résorbés ... une 3ème liquidation\") présent dans constats_body, non repéré par le Hunter."
+    },
+    {
+      "slug": "pena-metaux-sas52010042023-09-0638014154900010f03",
+      "field": "modifiers",
+      "hunter_value": "[\"m_DELAI\"]",
+      "corrected_value": "[\"m_DELAI\", \"m_MENACE\"]",
+      "reason": "Avertissement conditionnel explicite (\"À défaut ... une sanction pourra être proposée\" / \"Si les dépassements ne sont pas résorbés ... une 3ème liquidation\") présent dans constats_body, non repéré par le Hunter."
+    },
+    {
+      "slug": "pena-metaux-sas52010042023-09-0638014154900010f11",
+      "field": "modifiers",
+      "hunter_value": "[\"m_DELAI\"]",
+      "corrected_value": "[\"m_DELAI\", \"m_MENACE\"]",
+      "reason": "Avertissement conditionnel explicite (\"À défaut ... une sanction pourra être proposée\" / \"Si les dépassements ne sont pas résorbés ... une 3ème liquidation\") présent dans constats_body, non repéré par le Hunter."
+    },
+    {
+      "slug": "pena-metaux-sas52010042023-09-0638014154900010f18",
+      "field": "modifiers",
+      "hunter_value": "[\"m_DELAI\"]",
+      "corrected_value": "[\"m_DELAI\", \"m_MENACE\"]",
+      "reason": "Avertissement conditionnel explicite (\"À défaut ... une sanction pourra être proposée\" / \"Si les dépassements ne sont pas résorbés ... une 3ème liquidation\") présent dans constats_body, non repéré par le Hunter."
+    },
+    {
+      "slug": "pena-metaux-sas52010042025-12-0338014154900010f08",
+      "field": "modifiers",
+      "hunter_value": "[\"m_DELAI\"]",
+      "corrected_value": "[\"m_DELAI\", \"m_MENACE\"]",
+      "reason": "Avertissement conditionnel explicite (\"À défaut ... une sanction pourra être proposée\" / \"Si les dépassements ne sont pas résorbés ... une 3ème liquidation\") présent dans constats_body, non repéré par le Hunter."
+    }
+  ],
+  "false_positive_rate": 0.477,
+  "error_patterns": "Pattern dominant (44/62 records touched, ~71% des corrections) : m_DELAI manquant -- le Hunter a presque systematiquement omis le modifier m_DELAI alors que constats_body contient un delai chiffre explicite ('sous 15 jours', 'sous 3 mois', dates calendaires) dans la section 'Demande a formuler'. Inverse egalement observe sur 4 fiches : m_DELAI applique a tort quand le delai chiffre ne provient que du bloc Prescription (conditions d'un arrete anterieur/boilerplate) et non de constats_body -- confirme le pattern systemique attendu (m_DELAI applique sans ancrage numerique dans le texte source). Deuxieme pattern : m_MENACE manquant sur 6 fiches malgre un avertissement conditionnel explicite ('A defaut ... sanction', 'Si les depassements ne sont pas resorbes ... liquidation'). Troisieme pattern, plus localise : mauvaise attribution d'acteur (A05_ORGANISME au lieu de A01_EXPLOITANT) quand l'obligation documentaire relevee dans un rapport d'organisme agree incombe en realite a l'exploitant (2 occurrences, pernat-smj). Egalement 1 Faux M08 (perez-conde f02 : conformite assignee alors qu'une injonction chiffree existe), 1 Faux M14 (pena-metaux 2025-12-03 f03 : NC physique assignee alors qu'aucun ecart physique n'est constate, le point reste ouvert pour raison methodologique), 1 recidive manquee (M06, pena-metaux f15 2022-11-15, meme NC citee a l'inspection precedente), et 2 R02_PROMESSE manques (engagement verbal sur action future non verifiee, tague a tort R13/R14 neutre). Aucune occurrence de R10_TENSION dans ce batch (le pattern 'unfulfilled past promise mistagged as tension' ne s'applique donc pas ici).",
+  "verdict": "Qualite de fond correcte sur les axes 1/3/4/5/6 (domaines, dynamique, acteur, gravite, trajectoire) et sur le choix du mecanisme principal (M08 vs M14 vs M01 etc.) -- les erreurs de fond (Faux M08, Faux M14, mecanisme manquant) restent peu nombreuses (5 fiches). Le point faible net de ce batch est l'axe des modifiers : m_DELAI et m_MENACE sont systematiquement sous-appliques malgre des signaux textuels explicites et faciles a detecter ('sous X jours/mois', 'A defaut ... sanction'), ce qui degrade la valeur des modifiers pour l'analyse en aval (identification des delais et menaces correctifs). A corriger dans le prompt Hunter : rappeler explicitement de scanner la section 'Demande a formuler' pour tout delai chiffre et toute clause 'a defaut', et de ne PAS deriver m_DELAI depuis le bloc Prescription."
+}

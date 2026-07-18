@@ -1,0 +1,2363 @@
+[
+  {
+    "slug": "saft-sas52005922025-11-1938370387300083f14",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION",
+      "M07_CONTROLE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Rapport BV avis Non satisfaisant, défauts multiples (prises de terre, parafoudres, distances), aucune action corrective depuis 2024. ARF/ETE obsolètes (2018/2011), site modifié. Proposition formelle d'arrêté de mise en demeure jointe au rapport (procédure contradictoire 15j, pas un délai correctif). G4: MED proposée + NC technique physique constatée. T4: NC signalée en 2024, toujours non résolue."
+  },
+  {
+    "slug": "saft-sas52005922025-11-1938370387300083f15",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Résultats de la dernière campagne de surveillance eaux souterraines non consultables lors de l'inspection. Demande de transmission de l'évaluation trimestrielle. NC purement documentaire (résultats non transmis). T2: suivi explicite de la précédente inspection."
+  },
+  {
+    "slug": "sageaux-gerard52130962023-02-1643242105500018f01",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Tumulus de brûlage de déchets constaté en 2022 a disparu, aucune trace d'activité récente. Observations: tiret. NC résolue. T3: correction constatée depuis dernière inspection."
+  },
+  {
+    "slug": "sageaux-gerard52130962023-02-1643242105500018f02",
+    "domains": [
+      "D08_DECHETS",
+      "D06_SOLS",
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M19_CESSATION",
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Cessation d'activité sans notification, diagnostic de pollution des sols absent (L.512-7-6), déchets résiduels présents (bois 80m3, plastiques, pneus). MED antérieure (27/06/2022). Risque pollution sols non exclu. G4: MED active + NC technique (déchets présents, sol potentiellement pollué). T2: suivi de MED."
+  },
+  {
+    "slug": "sagne-cuisines52059992022-10-2587810454600014f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M05_SANCTION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Travaux de mise en conformité des ouvrants de désenfumage non débutés. Astreinte 50€/j depuis 08/09/2022 active. Exploitant engage un BET et promet signature en novembre. G4: astreinte active + NC technique (absence ouvrants désenfumage). T4: NC perdure depuis MED 2018. R02: engagement verbal sur date future non vérifiable."
+  },
+  {
+    "slug": "sagne-cuisines52059992022-10-2587810454600014f02",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "MED respectée sur ce point: formations personnel réalisées en sept 2021 et oct 2022, exercice d'évacuation avec SDIS fait, manipulations extincteurs sur feux réels confirmées. T3: NC de 2021 résolue."
+  },
+  {
+    "slug": "sagne-cuisines52059992022-10-2587810454600014f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Rapport de mesures chaudière non présenté en séance; mesures atelier fabrication non réalisées (décalées volontairement). NC passible de sanctions. G3: mesures réglementaires non réalisées = contrôle non réalisé avec risque potentiel. T2: suivi inspection précédente."
+  },
+  {
+    "slug": "sagne-cuisines52059992022-10-2587810454600014f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Conditions de stockage (zones ZA/ZB) non conformes aux modélisations de flux thermiques: pas d'allées matérialisées en ZB, stockage sur rack au lieu de masse en ZA. NC susceptible de sanctions. G3: NC technique avec risque potentiel incendie (conditions stockage non conformes modélisation). T1: pas d'historique mentionné sur ce point."
+  },
+  {
+    "slug": "sagne-cuisines52059992022-10-2587810454600014f05",
+    "domains": [
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Pas de plan de zonage ATEX, absence de vérification adéquation matériel. NC passible de sanctions. Exploitant signe devis BET pour réalisation. T2: suivi de constat 2021 (exploitant avait dit ne pas avoir de zonage)."
+  },
+  {
+    "slug": "sagne-cuisines52059992022-10-2587810454600014f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "2 poteaux incendie manquants sur 3 requis, pas d'attestation débit poteau présent, pas d'estimation besoins en eau. Certification APSAD N4 en cours mais pas finalisée. G4: NC technique (poteaux absents) + contexte MED antérieure. T4: même constat depuis inspection précédente (manque 2 poteaux déjà noté)."
+  },
+  {
+    "slug": "sagne-cuisines52059992023-04-1387810454600014f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Travaux ouvrants désenfumage finalisés au 28/02/2023 confirmés. Liquidation totale astreinte proposée. MED et astreinte levées. T3: correction constatée."
+  },
+  {
+    "slug": "sagne-cuisines52059992023-04-1387810454600014f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Mesures chaudière conformes (rapport transmis) mais aucune mesure atelier fabrication réalisée, exploitant ne connaît pas le point de rejet. NC passible de suites administratives. T4: même NC qu'en 2022 (mesures atelier toujours manquantes)."
+  },
+  {
+    "slug": "sagne-cuisines52059992023-04-1387810454600014f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Exploitant revenu aux conditions de stockage initiales (ZA/ZB conformes), mur coupe-feu 2h justifié. NC résolue. T3: correction constatée depuis 2022."
+  },
+  {
+    "slug": "sagne-cuisines52059992023-04-1387810454600014f04",
+    "domains": [
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Rapport zonage ATEX transmis (01/2023), actions en cours mais pas finalisées: matérialisation zonage et adéquation matériel non conformes. Exploitant présente plan d'actions, délai 6 mois prescrit. R02: engagement sur plan d'actions futur. T2: suivi de 2022."
+  },
+  {
+    "slug": "sagne-cuisines52059992023-04-1387810454600014f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Certification APSAD N4 obtenue, extincteurs/RIA vérifiés et remplacés, poteau incendie débit justifié — améliorations réelles vs 2022. Mais l'exploitant n'était pas en mesure de préciser le volume d'eau réellement présent dans les bassins et le calcul du besoin en eau (713 au lieu de 510 m3/h) était erroné: écart documentaire actif avec demande formelle sous 30 jours (confirmation calcul + volume bassins), donc NC et non conformité. G2: écart purement documentaire (justification manquante, pas de dimension physique constatée). T3: amélioration nette sur les autres points malgré ce résidu."
+  },
+  {
+    "slug": "saica-pack-france52004062023-03-2863203998800092f01",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "2 zones de confinement au lieu de 3 (zone Est absente), volumes exacts inconnus, vanne pirate ouverte permettant rejet direct au milieu. Le texte prévient explicitement l'exploitant qu'à défaut d'action il est exposé à des suites de type mise en demeure (m_MENACE, précurseur de M04). G4: absence confinement eau incendie + vanne pirate ouverte = danger identifié. T1: pas d'historique."
+  },
+  {
+    "slug": "saica-pack-france52004062023-03-2863203998800092f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Poteaux 4 et 5 débit insuffisant mais non valorisés dans la défense incendie du site, donc pas d'exigence réglementaire. Conforme. Observation: aucune."
+  },
+  {
+    "slug": "saica-pack-france52004062023-03-2863203998800092f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Réserve 900m3 sprinklage et deux réserves souples 240/360m3 présentes aux emplacements APC. Raccordements pompiers positionnés hors effets thermiques. Conforme."
+  },
+  {
+    "slug": "saica-pack-france52004062023-03-2863203998800092f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Groupe motopompe: maintenance annuelle faite mais rapport note mauvais état fouloir/arbre (corrosion), fuite garnitures. La fuite ne remet pas en cause la disponibilité selon rapport mais état dégradé. Inspection appelle attention sur fixations/boulonnerie. G3: équipement critique dégradé (corrosion, fuite). Essais hebdomadaires OK, no anomalie récente."
+  },
+  {
+    "slug": "saica-pack-france52004062023-03-2863203998800092f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Extincteurs avec agents appropriés, contrôle <1 an, extincteurs sur roue 50kg déployés. Conforme."
+  },
+  {
+    "slug": "saica-pack-france52004062023-03-2863203998800092f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Zones stockage matérialisées, stockages dans limites, absence stockage zone 4 confirmée. Conforme."
+  },
+  {
+    "slug": "saica-pack-france52004062023-03-2863203998800092f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Flocage sur charpente et éléments métalliques constaté, certificat coupe-feu porte transmis. Conforme."
+  },
+  {
+    "slug": "saica-pack-france52004062023-03-2863203998800092f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Cantons et exutoires désenfumage: conformité non déterminable lors de l'inspection. NC potentielle susceptible de suites. G3: incertitude sur dispositif de sécurité incendie (désenfumage). Demande justificatifs 15j."
+  },
+  {
+    "slug": "saica-pack-france52004062023-03-2863203998800092f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Porte coupe-feu n°15 ne peut pas se fermer complètement lors du test (convoyeur bloque). Le texte qualifie explicitement ce point de non-conformité susceptible de conduire à une mise en demeure (m_MENACE). G4: équipement de sécurité incendie inopérant (porte CF non fonctionnelle)."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-03-0738802115600079f01",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan formation opérateurs silos consulté, responsable silos formé INERIS, compagnonnage avant travail seul. Les éléments apportés n'appellent pas d'observation complémentaire. D15 sous-tag: silo_cereales."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-03-0738802115600079f02",
+    "domains": [
+      "D02_ATEX",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Procédures permis feu et gestion co-activité présentées, analyse risques avant intervention montrée. Inspection sans remarque supplémentaire."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-03-0738802115600079f03",
+    "domains": [
+      "D02_ATEX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Contrôles annuels débits aspiration prévus mais résultats non présentables. Le texte indique explicitement que l'absence de transmission expose l'exploitant à des suites administratives de type mise en demeure (m_MENACE). G3: contrôle non justifié sur EIPS silo. D15 sous-tag: silo_cereales."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-03-0738802115600079f04",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Bandes non propagatrices de flamme indiquées, capteurs contrôlés annuellement. Mais justificatifs à transmettre. NC documentaire uniquement. D15 sous-tag: silo_cereales."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-03-0738802115600079f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Q18: absences/inadaptations protections contre surintensités, DDR non testés, continuité zone ATEX non vérifiée. 67% actions soldées mais lacunes persistantes. Le texte indique deux fois explicitement une exposition à des suites de type mise en demeure en cas de non-transmission (m_MENACE). G3: NC technique électrique avec risque incendie/explosion."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-03-0738802115600079f06",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant n'utilise plus les as de carreaux interdits. Conforme. D15 sous-tag: silo_cereales."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-03-0738802115600079f07",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Cellules G15 (graines) et T61 (tourteaux) maintenues vides pour transilage d'urgence. Conforme. D15 sous-tag: silo_cereales."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-03-0738802115600079f08",
+    "domains": [
+      "D02_ATEX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Ventilateurs non fonctionnels lors Q18. Exploitant dit asservissement contrôlé annuellement mais non vérifié à l'inspection. G3: incertitude sur efficacité aspiration anti-ATEX (n'a pas pu préciser). D15 sous-tag: silo_cereales."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-03-0738802115600079f09",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Particule chaude détectée sur TL1 lors inspection, bande arrêtée, levée de doute réalisée, maintenance contactée. Pas de feu. Exploitant transmet fiche alerte et OT. R01: gestion proactive de l'alarme. G3: événement de détection particule chaude = incident potentiel. D15 sous-tag: silo_cereales."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-03-0738802115600079f10",
+    "domains": [
+      "D02_ATEX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant n'a pas su préciser les plages de fonctionnement de l'opacimètre. La détection doit arrêter manutention avant LIE. Procédure de test inadéquate. G3: EIPS silo dont le seuil de déclenchement est inconnu = risque ATEX. Demande sans délai numérique explicite dans le texte (pas de m_DELAI). D15 sous-tag: silo_cereales."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f01",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Rétention eaux incendie assurée par bassin mais document ne démontre pas adéquation volume D9A. Vanne puits relevage condamnée mais étanchéité à justifier. Exposé à sanctions. G4: absence justification dimensionnement rétention eaux incendie + MED antérieure (APMD 28/01/2019). T2: suivi MED 2019."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Qualité eaux exutoire non vérifiée mais eaux en sortie traitement visualisées, aucune pollution apparente. Conforme de facto. Confidence medium car exutoire non directement contrôlé."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "Dépassements VLE multiples (DCO, MES, DBO5, NGL, Ptot) pouvant atteindre double VLE sur jan2022-mar2023. BRM défaillant, filière clarificateur insuffisante. MED non respectée, amende administrative proposée. G4: MED active + dépassements VLE confirmés. T7: non-conformité depuis 2020+ (>3 ans)."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT",
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "5 incidents détaillés sur 2022-2023: BRM colmaté, perte étanchéité membrane BRM, dépassements récurrents DBO5/DCO/MES. 26 dépassements journaliers DCO, 33 MES. Problème technique structurel. G4: dépassements VLE confirmés multiples + MED. T7: problème depuis 2022+ multiple incidents."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Incohérences entre contrôle calage tiers et autosurveillance exploitant (MES, Ptot). Contrôle inopiné novembre 2022 révèle NC non déclarées. Dérive mesure suspectée. Bilan à transmettre sous 3 mois (m_DELAI); le texte prévient explicitement d'une exposition à des suites de type mise en demeure (m_MENACE). G3: qualité autosurveillance compromise, risque de sous-déclaration de NC."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "medium",
+    "reasoning": "Eaux pluviales: nombreux dépassements en 2022 mais conformes depuis début 2023 (sauf pics isolés). Débourbeurs supplémentaires mis en place. MED semble respectée sur ce point. Programme d'actions complémentaires à transmettre. G2: NC documentaire résiduelle (programme actions). T3: amélioration constatée."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Points de prélèvement présents et accessibles. Conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "La température et le débit sont relevés manuellement alors qu'une mesure en continu est requise réglementairement — écart de méthode de mesure (fréquence/protocole), non un état physique dégradé. G2: écart documentaire/méthodologique sans dimension physique."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f09",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M03_REPORTING",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "6 mois enregistrés à zéro dans GIDAF pour hydrocarbures totaux. Exploitant doit confirmer sous-détection ou justifier. NC documentaire/reporting. G2: écart purement déclaratif."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f10",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "GIDAF correctement renseigné. Note: veiller à reporter commentaires journaliers dans onglet synthèse. Conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f11",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Dossier de sécurité transmis post-inspection mais nécessite mise à jour (exutoires finaux, by-pass, mode traitement obsolètes). NC documentaire. G2."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f12",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Méthodologie suivi/gestion indisponibilités transmise post-inspection. Référence aux dépassements VLE. NC documentaire. G2."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f13",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Inspection demande information en cas de NC persistant plusieurs mois (au-delà GIDAF). NC procédurale sans dimension physique directe. G2."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f14",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Extension STEP avec BRM réalisée mais n'a pas conduit au retour conformité (cf. fiches VLE). PAC puis extension effectuée mais objectifs non atteints. G3: NC technique persistante malgré travaux. T2: suivi PAC et extension."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f15",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Délai respecté et constaté lors inspection 08/10/2019 (régularisation point rejet effluents aqueux). Conforme. T3: correction constatée."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f16",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M12_IED_MTD",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Dossier réexamen IED: compléments demandés (positionnement BREF CWW/LVOC, dérogation NEA-MTD phosphore, justification rendement épuratoire). NC documentaire IED. G2."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f17",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Nouveau système refroidissement en place et fonctionnel. Conforme. T3: correction constatée."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f18",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Echantillonneur réfrigéré absent sur filière eaux pluviales (présent seulement sur eaux industrielles). NC. G2: écart technique formel (équipement absent mais sans risque immédiat). T2: suivi demande de 2020."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "QAL2 chaudière biomasse conforme (test variabilité satisfaisant). APMD du 10/08/2020 respectée sur ce point. Constatation initiale: QAL2 poussière défaillant en 2022. T3: NC résolue."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "Dépassements VLE poussières chaudière biomasse depuis 2020. Mai-sept 2024: dépassements persistants poussières et CO (max 1183 mg/Nm3 CO). Vibreurs ajoutés mais NC non résolue. MED proposée. G4: MED + dépassements VLE confirmés continus. T7: non-conformité depuis 2020 (>4 ans)."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Consommation hexane conforme 2022 et 2023. 2024: surconsommations isolées juillet-août (tuyauterie) mais résultats septembre conformes, moyenne annuelle conforme. Demande maintien conformité. T3: amélioration vs 2020-2021 dépassements."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f04",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Vanne guillotine justifiée étanche (même si non revérifiée ce jour). MED 2019 respectée sur ce point. T3: correction constatée."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f05",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Exploitant ne dispose pas des 474m3 rétention eaux incendie requis. Solution temporaire identifiée mais pas en place. MED proposée. G4: absence rétention eaux incendie + MED. T4: même NC depuis 2023 (dimensionnement insuffisant)."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M05_SANCTION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "VLE eaux process et pluviales toujours non respectées (juin-sept 2024, dépassements x2 VLE). Retard sur planning retour conformité. Astreinte 500€/j proposée (différée 3 mois). G4: MED active + dépassements VLE confirmés. T7: NC depuis 2020+ (>4 ans)."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Zéros dans GIDAF pour HCT confirmés comme sous-seuil de détection. NC précédente résolue. T3: correction constatée."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M12_IED_MTD",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Dossier réexamen IED: compléments demandés en 2023 (délai de 3 mois alors donné) ont été transmis le 29/01/2024 sous forme de nouveau dossier de réexamen, actuellement en instruction hors inspection. Constat du jour ne comporte pas de nouvelle demande avec délai — action corrective effectuée, en cours d'instruction. NC documentaire IED. G2. T2: suivi dossier réexamen."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f09",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Echantillonneur réfrigéré filière EP bien installé mais groupe froid hors service depuis 2 semaines (pièce en commande). NC technique temporaire. Post-inspection: groupe froid remplacé (courriel 05/11/2024). G2: équipement défaillant temporairement. T4: après résolution 2023 (f18), NC réapparaît."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f10",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Validation autosurveillance 2023 (VPA): aucun écart significatif constaté. Exploitant a mené recherche mais n'a pas identifié cause. NC précédente (dérive mesure) résolue. T3."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f11",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Bandes E2/E3 analysées et conformes norme ISO340. NC précédente (justificatifs manquants) résolue. T3. D15 silo_cereales."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f12",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Rapport 09/2024 révèle risques courants vagabonds. Exploitant transmet attestation travaux levée écarts 18/10/2024. NC résolue. T3: correction constatée après plusieurs demandes."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f13",
+    "domains": [
+      "D02_ATEX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Opacimètre galerie graines: toujours impossible de préciser les plages déclenchement (LIE). Depuis 2023: opacimètre ne permet pas réglage fin. Exploitant cherche technologie mais pas trouvée. G3: EIPS dont seuil non verifiable = risque ATEX persistant. T4: même NC depuis 2023. D15 silo_cereales."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f14",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Consommation hexane 2022 et 2023 conforme. Résultats 2024 conformes sur sept. NC précédente résolue. T3."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f15",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Flip-flap dépotage hexane: maintenance préventive niveau 3 réalisée (27/02/2023, joint remplacé). NC précédente (3 ans sans maintenance niveau 3) résolue. T3."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f16",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M09_PAC",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Asservissement mise en sécurité atelier hexane sur détection feu + 50% LIE mis en place mais boucle de sécurité non testée complète. PAC demandé pour modification AP. G3: EIPS majeur non testé. T2: suivi depuis 2023."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f17",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Legionella pneumophila 6200 ufc/L (juin 2024), deux dépassements consécutifs >1000 ufc/L (juin + août). Actions curatives réalisées. Echangeur fuite à l'origine. Dépassements consécutifs = b du II article 26 AM. Analyses sept/oct 2024 <100 ufc/L. G4: double dépassement consécutif légionelles = danger identifié. T1 pas d'historique antérieur."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M05_SANCTION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "Eaux de process: VLE non respectées jan-mars 2025 (multiples dépassements x2 VLE DCO, MES, DBO5, Ptotal). Astreinte 500€/j notifiée 27/01/2025. Liquidation partielle proposée (80j x 250€ = 20 000€). G4: astreinte active + dépassements VLE confirmés. T7: NC depuis 2019 (>6 ans)."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M05_SANCTION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "Eaux pluviales susceptibles d'être polluées: VLE non respectées jan-mars 2025 (multiples dépassements x2 VLE DCO, MES, DBO5). Astreinte active 250€/j. Liquidation partielle 20 000€ proposée. G4: astreinte active + dépassements VLE confirmés. T7: NC depuis 2019+ (>6 ans)."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M11_INCIDENT"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Présence de poussières importantes côté EST bâtiment granulation tourteaux (desserrage cadre filtre 2j avant). Exploitant a réparé dès découverte, nettoyage prévu. G3: émission poussières accidentelle significative. R01: réaction corrective immédiate. T1."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Phosphore total eaux process: VLE 2 mg/L non respectée (>10% dépassements en fév/mars 2025 dont max 3,18 mg/L). MED proposée. G4: MED + dépassements VLE confirmés. T1: contrainte IED MTD nouvelle (applicable depuis 01/01/2025)."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Consommation eaux souterraines 2024 légèrement au-dessus limite autorisée (<1%). Exploitant a mené actions réduction. G2: dépassement marginal (<1%) sans dimension physique significative. Invitation à poursuivre efforts."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan égouts non à jour lors inspection suite travaux STEP. Post-inspection (24/04/2025): plan mis à jour transmis. G2: NC documentaire résolue rapidement."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Registre journalier prélèvements eau présent. Conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "2023: seuil vigilance Garonne atteint, pas de seuil nappes. 2024: aucun seuil atteint. Conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f15",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Bilan économies eau 5 ans transmis: 31 804,5 m3 réduits (-21% depuis 2019). Conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f16",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Etude technico-économique réalisée mais solution TAR SAIPOL jugée trop coûteuse sans justification formelle. Post-inspection: exploitant transmet mise à jour ETE. G2: NC documentaire (justification économique insuffisante). T1."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f17",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Déclaration GEREP annuelle consommations eau faite. Conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M05_SANCTION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "Chaudière biomasse: 100% NC jan 2025 (poussières max 823 mg/Nm3 pour VLE 20). Electofiltre dégradé découvert juin 2025. APMD 13/01/2025. Astreinte proposée (différée 3 mois). G4: MED active + dépassements massifs VLE. T7: NC depuis 2019 (>6 ans)."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f02",
+    "domains": [
+      "D02_ATEX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Opacimètre galerie graines: toujours impossible de préciser plages déclenchement LIE (depuis 2023). Exploitant décide de remplacer par analyseur poussière, PAC prévu. G3: EIPS silo non testable. T4: NC stagnante depuis 2023. D15 silo_cereales."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f03",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "APMD 13/01/2025 sur rétention 474m3: exploitant a mis en place rétention temporaire 500m3 (conformité partielle). Mais étude dimensionnement transmise insuffisante (hypothèses non justifiées). Plan d'action juin 2028 trop long. G3: MED partiellement respectée mais dimensionnement final non établi. T3: amélioration (rétention temporaire) mais pas complète."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Chaudières déclarées (télédéclaration R.515-114). Conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Chaudière biomasse classe 2910-A, suivi mensuel consommations coques conforme. Description opérationnelle sans NC."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Expression volumes gaz (Nm3, 273K, 101kPa) et concentrations conforme aux conditions prescrites. Conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f07",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Mesures SO2/NOX/poussières/CO conformes en 2024 et 2023, aucun écart déclaré ni demande formulée dans cette fiche. La réserve méthodologique sur le régime non nominal de la chaudière est traitée et fait l'objet d'une demande formelle distincte (cf. fiche dédiée régime de mesure). Conformité constatée sur ce point précis."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f08",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "HAP: 0 mg/Nm3 en 2024 et 2023. Conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f09",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "COVNM (COVT 0,58 mg/Nm3 en 2024, 0,11 en 2023) conformes (VLE 50 mg/Nm3). Conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f10",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "HCl et HF conformes (0,0094 et 0,25 mg/Nm3 vs VLE 10 et 5 mg/Nm3). Conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f11",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Dioxines-furanes: 0 ng I-TEQ/Nm3. Conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f12",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Métaux (As+Se+Te, Pb, somme) conformes en 2024 et 2023. Conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f13",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Procédure dérive rejets atmosphériques (DALKIA): ne prévoit pas arrêt/réduction si dispositif non rétabli dans 24h ni notification inspection dans 48h. G2: lacune procédure sans dimension physique immédiate."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f14",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Cendres non épandues: collectées et utilisées pour engrais. Pas d'obligation de séparation des flux. Conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f15",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Procédures d'arrêt et de démarrage chaudière biomasse disponibles. Conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f16",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Mesures annuelles par SOCOTEC conformes mais effectuées à régime non nominal (25T/h vs 36T/h). Représentativité insuffisante. NC méthodologique. G2: écart purement méthodologique."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f17",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "HCl, HF et dioxines non mesurés en 2023 (fréquence annuelle requise). Justifié par APC 2021 (biennale) mais AP va être modifié. NC formelle fréquence contrôle. G2."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f18",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "PAC ajout chaudière gaz 11,8 MW transmis. Modification non substantielle (R.181-46). AP complémentaire proposé. Procédure administrative conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f19",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "PAC remplacement DT transmis. Modification non substantielle. AP donnant acte proposé. Procédure conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f20",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "PFAS dans émulseurs, remplacement système déluge prévu 2027-2028. Plan d'action substitution PFAS demandé en fonction des dates d'interdiction réglementaires du PFOA — aucun délai numérique fixé par l'inspection pour la remise du plan lui-même. G3: NC technique (émulseurs PFAS, quantité insuffisante) avec risque environnemental potentiel."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f21",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Atelier extraction hexane: stock émulseurs insuffisant (PFAS interdits à vente, non remplacés), système déluge eau/mousse inopérant en cas incendie. MED proposée. G4: installation non correctement protégée = danger identifié."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "EDD mise à jour transmise (sept 2024) mais corps EDD ne reprend pas les bons seuils méthanol (seulement annexe). POI pas encore mis à jour (prévu nov 2024, test déc 2024). MED proposée. G3: EDD/POI incohérents sur scénario toxique. T2: suivi depuis 2020."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "EDD mise à jour manque scénario toxique HCl et mélange incompatible soude/HCl (unique poste dépotage). MED proposée. G4: MED + NC technique EDD (scénarios toxiques absents). T2: suivi depuis 2020."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f03",
+    "domains": [
+      "D03_SEVESO",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Rétention atelier estérification: effets toxiques HCl sortent du site. Compartimentage cuvettes refusé par exploitant (pas de zones effets feux hors site) mais zone effets toxiques dépassent limites. MED proposée. G4: MED + risque zones effets toxiques hors site. T2: suivi depuis 2021."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Autosurveillance jan2023-sept2024: 2 dépassements sur 7 mesures DBO5/DCO. Exploitant a nettoyé réseaux et mis en place contrôle mensuel débourbeurs. NC rare vs historique. T3: amélioration substantielle vs 2020."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Programme surveillance réservoir méthylate: visites hors exploitation prévues tous les 7 ans (conforme). Rapport CETIM sur dégradations soudures à transmettre. G2: NC documentaire résiduelle (rapport CETIM manquant). T3: plan de surveillance mis à jour."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f06",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Etat initial réservoir 1601 mis à jour (09/06/2022) avec nature produits et calorifuge. NC résolue. T3."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f07",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Afin de contrôler la soudure robe-fond, l'exploitant a décalorifugé le bac et transmis par courriel du 5/11/2024 la procédure de suivi de la verticalité. Demande de transmission de la fiche de visite annuelle modifiée formulée sans délai numérique explicite. G2: NC documentaire résiduelle. T3: amélioration progressive."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f08",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Etat initial tuyauterie méthanol (DT96) transmis 17/12/2021. NC résolue. Instruction approfondie possible lors prochaine inspection. T3."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f09",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Plan inspection tuyauterie DT96 transmis. NC résolue. T3."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f10",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Fiche de surveillance des rétentions créée pour répondre au constat 2021 (amélioration). Mais une fissure traversant toute la hauteur du muret de rétention (jugée à tort CONFORME dans la fiche) nécessite une investigation complémentaire, et de la mousse au point de jonction mur/sol menace l'étanchéité à terme. Demande formelle d'un plan d'action sous 3 mois (m_DELAI). G3: NC technique avec risque potentiel sur l'intégrité de la rétention (fissure pleine hauteur)."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f12",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Sol rétention atelier estérification: fissures et trous constatés (matériaux non adaptés à action physico-chimique). Rebouchages résines attaquées par ester. MED proposée. G4: MED + rétention physiquement dégradée (fissures, sol non étanche). T4: même NC depuis 2021."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f13",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Coulures d'ester constatées le long capacité B110 hors rétention, sol non imperméabilisé souillé. MED proposée. G4: MED + débordement rétention constaté (sol souillé). T4: NC persistante depuis 2021."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f14",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Fuite HCl 33% détectée lors inspection (bride mal resserrée après maintenance). Contenue dans rétention bac HCl. Colmatée le jour. Exploitant sensibilise aux bonnes pratiques de serrage, rondes 1/quart. G3: fuite produit dangereux (HCl) constatée. R01: réaction immédiate."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f15",
+    "domains": [
+      "D03_SEVESO",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Postes dépotage soude et HCl non séparés, mesures organisationnelles (securibox) insuffisantes pour exclure mélange incompatible. MED proposée. G4: MED + risque mélange soude/HCl non maîtrisé techniquement. T2: suivi depuis 2021."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f16",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Bilan COV méthanol (1,71t COV 2023) présenté à demande, mais pas transmis annuellement comme requis. G2: NC documentaire (transmission non systématique)."
+  },
+  {
+    "slug": "sanofi-winthrop-industrie52002512022-06-1677566225700101f01",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Liste personnes référentes (dont personnel Sanofi) bien documentée dans procédures. Conforme."
+  },
+  {
+    "slug": "sanofi-winthrop-industrie52002512022-06-1677566225700101f02",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Attestations formation sous-traitants société SUR L'AIR (3 techniciens) non présentées (gérées par ENGIE). NC susceptible de sanctions. G2: NC documentaire sur formations."
+  },
+  {
+    "slug": "sanofi-winthrop-industrie52002512022-06-1677566225700101f03",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Documents formation techniciens Engie habilités prélèvements: modalités prélèvement non clairement couvertes dans module formation. G2: NC documentaire/formelle formation."
+  },
+  {
+    "slug": "sanofi-winthrop-industrie52002512022-06-1677566225700101f04",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Procédures fonctionnement saisonnier définies et suivies par Engie. Conforme."
+  },
+  {
+    "slug": "sanofi-winthrop-industrie52002512022-06-1677566225700101f05",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Redémarrage 15/04/2022 après désinfection 13/04. Prélèvements dans délai réglementaire. Résultats Lp <1000 ufc/L. Conforme."
+  },
+  {
+    "slug": "sanofi-winthrop-industrie52002512022-06-1677566225700101f06",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "AMR révisée annuellement par APAVE (dernier rapport 18/06/2021, prochaine révision 17/06/2022). Conforme."
+  },
+  {
+    "slug": "sanofi-winthrop-industrie52002512022-06-1677566225700101f07",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Contenu AMR conforme, situations à risque bien reportées et suivies annuellement. Conforme."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f09",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Document plan de continuité sécheresse consulté, volumes de référence évalués par l'exploitant (forage 570 m3/j, eau BM 0 m3/j). Aucune NC formulée, aucune demande. Conformité constatée sur le volet calcul des volumes de référence."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f10",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Chaudière biomasse couvre 90% des prélèvements forage — exemption sécheresse applicable en l'état. Inspection signale une vigilance conditionnelle (si chaudière gaz secours activée). Aucune NC ni demande formulée. Conformité actuelle constatée, risque futur conditionnel non constitutif de NC."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f11",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Les niveaux d'alerte renforcée/crise ne sont jamais atteints sur les masses d'eau concernées. La disposition n'est jamais entrée en vigueur. Rappel informatif des obligations — aucune NC, aucune demande."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f12",
+    "domains": [
+      "D04_EAUX",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "AP complémentaire du 30/05/2023 encadre les réductions d'eau; constat factuel de l'existence du cadre réglementaire. Aucune NC ni demande dans le body du constat — description du dispositif en place."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f13",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Document AIC 5 consulté, Garonne en vigilance sécheresse depuis 11/08/2023. Rappel informatif des règles à respecter, aucune NC ni demande formulée — le document a été consulté sans qu'aucune absence ou obsolescence ne soit relevée, donc pas de signal M01. Constat factuel d'un dispositif réglementaire en vigueur, cohérent avec les fiches voisines du même type (f09-f12)."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f14",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Plan de continuité d'activité transmis par courriel le 7/09/2023, présenté à l'inspection, 'n'appelle pas d'observation complémentaire'. Conformité explicite. T3: action corrective réalisée suite à l'injonction de l'AP de fournir un plan sous 3 mois."
+  },
+  {
+    "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f11",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Inspection 2021 avait constaté programme PM2I avec dates 2020 obsolètes (FSMD 6). Constats du jour 2024: programme mis à jour (07/10/2024), visites de routine bacs RC1601/RC1602 réalisées le 21/10/2024 dans les temps. NC résolue. T3: correction constatée depuis l'inspection 2021."
+  }
+]

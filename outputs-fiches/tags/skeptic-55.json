@@ -1,0 +1,162 @@
+{
+  "total_audited": 30,
+  "errors_found": 17,
+  "corrections": [
+    {
+      "slug": "pot-au-pin-energie52007092025-05-22812263580000192vapmaf03",
+      "field": "mechanisms",
+      "hunter_value": "M14, M01",
+      "corrected_value": "M01",
+      "reason": "Absence de traçabilité des refus de prise en charge dans un registre est une lacune purement documentaire (colonnes manquantes), pas un constat physique terrain. M14 retiré (error type: False M14)."
+    },
+    {
+      "slug": "pot-au-pin-energie52007092025-05-22812263580000192vapmaf03",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(none)",
+      "reason": "Aucun délai chiffré dans la demande formulée (pas de 'sous X jours/mois'). m_DELAI appliqué sans base textuelle."
+    },
+    {
+      "slug": "pot-au-pin-energie52007092025-05-22812263580000192vapmaf05",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(none)",
+      "reason": "La demande sur l'information préalable des matières externes ne comporte aucun délai chiffré dans le texte."
+    },
+    {
+      "slug": "pot-au-pin-energie52007092025-05-2281226358000019a8hdqaf05",
+      "field": "mechanisms",
+      "hunter_value": "M14",
+      "corrected_value": "M07",
+      "reason": "Groupe électrogène fonctionnel en mode manuel, inspection invite seulement à envisager un système automatique — aucune NC physique établie ('hors service'/'dégradé' absents du texte). M14 mal appliqué (error type: False M14); recadré en M07 comme signal de vérification/amélioration d'équipement de secours."
+    },
+    {
+      "slug": "pressing-du-bourg1002397392025-05-2880078770700036f10",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(none)",
+      "reason": "Demande de transmission de l'attestation de formation sans délai chiffré dans le texte."
+    },
+    {
+      "slug": "pressing-eclair52088152025-01-2449044911300011f01",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(none)",
+      "reason": "Demande de formalisation de la cessation d'activité (notification + ATTES SECUR) sans délai chiffré dans le corps du constat."
+    },
+    {
+      "slug": "pressing-ocean-cleaner-s1000785152025-01-2450945842800018f03",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(none)",
+      "reason": "Simple demande de précision du solvant principal, aucun délai chiffré dans le texte."
+    },
+    {
+      "slug": "pressing-pacaris1000603592025-07-1051819311500020f02",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(none)",
+      "reason": "Demande de notification de cessation (Cerfa + ATTES SECUR) sans délai chiffré propre au constat ; le seul délai du dossier est le délai légal générique de préavis (Prescription, hors périmètre de classification)."
+    },
+    {
+      "slug": "prod-composites-piscine1000510872024-12-1751509229400039f01",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(none)",
+      "reason": "Les '15 jours' du texte sont le délai de la procédure contradictoire sur le projet de mise en demeure, pas un délai correctif imposé sur la demande de régularisation elle-même."
+    },
+    {
+      "slug": "prod-composites-piscine1000510872024-12-1751509229400039f02",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(none)",
+      "reason": "Demande de limiter les émanations de solvants, aucun délai chiffré dans le texte."
+    },
+    {
+      "slug": "psd-ex-carpenter-sa-ex-intermousse52000032023-01-1338133197400034f07",
+      "field": "stage",
+      "hunter_value": "S04",
+      "corrected_value": "S02",
+      "reason": "Le texte contient une demande formelle avec délai chiffré ('confirmer... dans un délai de 30 jours'), typique de S02_INJONCTION, plutôt que S04_VERIFICATION (pas de contre-visite décrite)."
+    },
+    {
+      "slug": "psd-ex-carpenter-sa-ex-intermousse52000032023-01-1338133197400034f07",
+      "field": "modifiers",
+      "hunter_value": "(none)",
+      "corrected_value": "m_DELAI",
+      "reason": "Délai chiffré présent dans le texte ('délai de 30 jours') mais omis par le Hunter — cas inverse du pattern systématique (m_DELAI manquant alors qu'un délai numérique existe)."
+    },
+    {
+      "slug": "psd-ex-carpenter-sa-ex-intermousse52000032023-01-1338133197400034f09",
+      "field": "mechanisms",
+      "hunter_value": "M14, M02",
+      "corrected_value": "M14",
+      "reason": "Dépassement d'émergence mesuré (15,5 dB vs 5 dB) est un constat technique direct ; aucun signal d'inadéquation méthodologique (protocole, représentativité, fréquence) dans le texte pour justifier M02. Ajout non justifié par le reasoning original lui-même."
+    },
+    {
+      "slug": "psd-ex-carpenter-sa-ex-intermousse52000032024-09-2438133197400034f07",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Le texte affirme explicitement l'absence d'équipement de retenue des granulés ('aucun autre équipement... n'était en place') — dispositif absent, donc G3 minimum selon l'heuristique de gravité, pas G2 (error type: wrong gravity)."
+    },
+    {
+      "slug": "psd-ex-carpenter-sa-ex-intermousse52000032024-09-2438133197400034f07",
+      "field": "domains",
+      "hunter_value": "D04, D09",
+      "corrected_value": "D04",
+      "reason": "Aucun signal de biodiversité (espèces protégées, continuité écologique, défrichement) dans le texte ; le risque décrit est un rejet vers les eaux de ruissellement (D04). D09 non justifié."
+    },
+    {
+      "slug": "querandeau-production52011902022-06-0995036494300015f03",
+      "field": "trajectory",
+      "hunter_value": "T2",
+      "corrected_value": "T1",
+      "reason": "Le renvoi au rapport de 2021 concerne l'étanchéification des rétentions (déjà réalisée), pas les craquelures de l'enrobé, introduites pour la première fois ici ('En revanche...'). C'est le rapport suivant (17/10/2023) qui reprend cette NC comme T4 stagnation, confirmant que ce constat-ci est le point d'origine (T1)."
+    },
+    {
+      "slug": "querandeau-production52011902023-10-1795036494300015f05",
+      "field": "dynamic",
+      "hunter_value": "R09",
+      "corrected_value": "R07",
+      "reason": "Le niveau élevé de la Jalle est un obstacle physique/naturel empêchant le prélèvement, pas un tiers organisationnel (mairie, bailleur, éco-organisme) au sens de R09_BLOCAGE_TIERS. R07_CONTRAINTE_TECHNIQUE est le code approprié pour une impossibilité technique/environnementale."
+    },
+    {
+      "slug": "querandeau-production52011902023-10-1795036494300015f06",
+      "field": "dynamic",
+      "hunter_value": "R02",
+      "corrected_value": "R14",
+      "reason": "L'exploitant 'étudie' la mise en œuvre d'un SME — énoncé factuel sans engagement explicite ni échéance chiffrée. Ne correspond pas au signal R02 ('s'engage à' + action future). R02 over-attribution (error type 8)."
+    },
+    {
+      "slug": "querandeau-production52011902023-10-1795036494300015f06",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S01",
+      "reason": "Aucune section 'Demande à formuler' dans le texte : simple observation/rappel pour mémoire, pas de demande formelle. S02 non justifié."
+    },
+    {
+      "slug": "querandeau-production52011902024-10-0395036494300015f04",
+      "field": "dynamic",
+      "hunter_value": "R02",
+      "corrected_value": "R14",
+      "reason": "SME à l'étude, procédures en cours de rédaction — énoncé factuel sans promesse explicite ni échéance. R02 over-attribution (error type 8), même schéma que le constat homologue du 17/10/2023."
+    },
+    {
+      "slug": "querandeau-production52011902024-10-0395036494300015f04",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S01",
+      "reason": "Aucune section 'Demande à formuler' dans le texte : observation seule, pas d'injonction formelle."
+    },
+    {
+      "slug": "querandeau-production52011902025-05-1595036494300015f08",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Gouttière de l'atelier de traitement du bois non installée malgré devis signé — dispositif physique absent constaté sur site, donc G3 minimum (error type: wrong gravity), et non G2 malgré le caractère globalement en amélioration du dossier (SME conforme)."
+    }
+  ],
+  "false_positive_rate": 0.13,
+  "error_patterns": "Le pattern dominant (10 des 22 corrections, ~45%) est le modificateur m_DELAI appliqué sans délai chiffré présent dans le texte du constat — souvent parce que la Prescription (boilerplate réglementaire, hors périmètre de classification) ou une procédure contradictoire ('sous 15 jours pour observations sur le projet d'arrêté') contiennent un chiffre qui a probablement contaminé la classification, alors que la demande substantielle elle-même n'a pas d'échéance. Un cas inverse existe aussi (délai de 30 jours présent mais m_DELAI omis), confirmant qu'il s'agit d'un défaut de lecture précise du champ Demande plutôt que d'un biais systématique dans un seul sens. Deuxième pattern : deux cas de R02_PROMESSE appliqués à des énoncés factuels ('l'exploitant étudie...') sans engagement explicite ni délai — ce sont des variantes du R02 over-attribution documenté dans les heuristiques (à distinguer d'un compte rendu factuel), qui entraînaient aussi un stage S02 erroné en l'absence de toute section 'Demande à formuler' dans le texte. Troisième pattern : sous-estimation de gravité (G2 au lieu de G3) quand le texte affirme explicitement l'absence d'un dispositif physique ('aucun équipement... n'était en place', gouttière non installée) — l'heuristique 'dispositif absent → G3 minimum' n'a pas été appliquée de façon cohérente sur tous les mécanismes M14. Le pattern R10_TENSION pour 'promesse non tenue' n'a pas été trouvé (aucune occurrence de R10 dans ce batch). Deux corrections isolées : un M02 ajouté sans justification textuelle (mesure physique correctement réalisée, pas de doute méthodologique), et une trajectoire T2 attribuée à un constat qui est en réalité la première mention de la NC (le suivi de 2021 portait sur un autre point du même paragraphe)."
+}

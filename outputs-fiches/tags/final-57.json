@@ -1,0 +1,2460 @@
+[
+  {
+    "slug": "ringmerit-epsilon52115312025-11-2741817902400058f02",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Panneaux photovoltaïques et câbles positionnés hors des bandes de protection des murs coupe-feu séparatifs, dispositifs de sécurité restent accessibles — conformité constatée, aucune demande formulée."
+  },
+  {
+    "slug": "ringmerit-epsilon52115312025-11-2741817902400058f03",
+    "domains": [
+      "D02",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "DRPCE mis à jour pour le bâtiment M13 en 2021 — aucune zone à atmosphère explosive identifiée sur l'installation photovoltaïque M13. Conformité constatée, aucune demande formulée."
+  },
+  {
+    "slug": "ringmerit-epsilon52115312025-11-2741817902400058f04",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procès-verbal de réception garantissant la pose du procédé photovoltaïque selon l'avis technique CCFAT (classement BroofT3) non fourni à l'inspection malgré le caractère de résistance au feu déclaré conservé par l'exploitant — document manquant."
+  },
+  {
+    "slug": "ringmerit-epsilon52115312025-11-2741817902400058f05",
+    "domains": [
+      "D01",
+      "D11",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Signalisation du site jugée correctement répartie, mais le plan schématique des centrales avec protocole pompier reste à apposer à proximité des coupures d'urgence — affichage réglementaire manquant."
+  },
+  {
+    "slug": "ringmerit-epsilon52115312025-11-2741817902400058f06",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun report d'alarme sur site ne permet de détecter un événement anormal pouvant conduire à un départ de feu sur l'installation photovoltaïque, malgré la supervision à distance existante — dispositif d'alerte local absent."
+  },
+  {
+    "slug": "ringmerit-epsilon52115312025-11-2741817902400058f07",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Attestation de conformité CONSUEL du raccordement électrique de l'installation photovoltaïque non consultée lors de l'inspection — document manquant malgré des attestations de vérification électrique Q19 sans anomalie."
+  },
+  {
+    "slug": "ringmerit-epsilon52115312025-11-2741817902400058f08",
+    "domains": [
+      "D10",
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de dispositif de coupure en toiture au plus près des panneaux photovoltaïques signalée par l'exploitant, et fonction du voyant lumineux constaté au poste de transformation non vérifiable en inspection — incertitude sur la conformité des dispositifs de coupure."
+  },
+  {
+    "slug": "ringmerit-epsilon52115312025-11-2741817902400058f09",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Local technique abritant les onduleurs de la centrale d'injection ne présente pas la résistance au feu REI60 requise ; l'éloignement de plus de 10 mètres invoqué par l'exploitant place la zone sous le seuil des effets domino mais dans la zone des effets thermiques irréversibles. Aucune demande formelle consignée dans le constat."
+  },
+  {
+    "slug": "ringmerit-epsilon52115312025-11-2741817902400058f10",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation photovoltaïque ne dispose pas de batterie d'accumulateurs électriques — prescription relative au stockage batterie sans objet, conformité par absence d'installation concernée."
+  },
+  {
+    "slug": "ringmerit-epsilon52115312025-11-2741817902400058f11",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Documentation technique des connecteurs électriques (MC4-Evo2) fournie, conforme à la norme IEC 62852:2014 relative aux systèmes photovoltaïques. Conformité constatée."
+  },
+  {
+    "slug": "ringmerit-epsilon52115312025-11-2741817902400058f12",
+    "domains": [
+      "D01",
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cheminement des câbles de courant continu en extérieur vérifié par sondage lors de la visite de terrain — respect constaté de la prescription relative aux zones à risques d'incendie."
+  },
+  {
+    "slug": "ringmerit-epsilon52115312025-11-2741817902400058f13",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan de défense incendie (PDI) cadre du site daté de mars 2022, non actualisé malgré la création du bâtiment M13 et l'arrivée d'un nouvel acteur (URBASOLAR) à intégrer — mise à jour en cours mais non finalisée, document non transmis."
+  },
+  {
+    "slug": "ringmerit-epsilon52115312025-11-2741817902400058f14",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mise à jour de l'analyse du risque foudre (ARF) et de l'étude technique pour le bâtiment M13 réalisée en novembre 2025, mais des travaux de mise en conformité identifiés par cette étude restent à réaliser — NC physique sur la protection contre la foudre."
+  },
+  {
+    "slug": "ringmerit-epsilon52115312025-11-2741817902400058f15",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport de contrôle des débits des poteaux incendie (SUEZ, 26 février 2025) consulté lors de l'inspection — chaque poteau délivre un débit supérieur à 60 m³/h sous 1 bar en simultané, répondant aux besoins en eau identifiés. Conformité constatée."
+  },
+  {
+    "slug": "ringmerit-epsilon52115312025-11-2741817902400058f16",
+    "domains": [
+      "D07",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Bassins de rétention nettoyés en juillet 2025 suite au précédent constat, vérifié sur site lors de l'inspection — amélioration constatée par rapport à l'inspection antérieure."
+  },
+  {
+    "slug": "rivot-jean-michel52063312025-08-1130069489000041f01",
+    "domains": [
+      "D06",
+      "D13"
+    ],
+    "mechanisms": [
+      "M19",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Site VHU en cours de réhabilitation — diagnostic de pollution sols requis, état du site post-cessation à documenter. Obligations post-cessation R512-39-1 et constat terrain d'un site en cours de mise en sécurité."
+  },
+  {
+    "slug": "rodiere52013642025-06-1745720041800020f01",
+    "domains": [
+      "D07",
+      "D04"
+    ],
+    "mechanisms": [
+      "M01",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle périodique station-service rubrique 1435 (APAVE) a mis en évidence 2 non-conformités mineures purement documentaires : absence d'affichage du rapport de contrôle près de la bouche de dépotage et absence de présentation des fiches de suivi de nettoyage du décanteur-séparateur d'hydrocarbures ; vidange et contrôle d'étanchéité par ailleurs attestés. NC documentaire, l'exploitant procède sous un mois à la vidange et l'entretien."
+  },
+  {
+    "slug": "roxel-france52012502023-03-1338412505000029f01",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dépôt d'un dossier de porter-à-connaissance (PAC) pour l'évolution d'activité du malaxeur du bâtiment CIP — fiche de contexte, les points spécifiques sont analysés dans les fiches suivantes."
+  },
+  {
+    "slug": "roxel-france52012502023-03-1338412505000029f02",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consignes de sécurité du local n°9 et du bâtiment CIP ne mentionnent pas l'interdiction de fonctionnement simultané des malaxeurs des locaux n°4 et n°9, requise pour supprimer le risque d'effet domino identifié dans l'Étude de Sécurité du Travail — mise à jour des consignes demandée (Obs 1)."
+  },
+  {
+    "slug": "roxel-france52012502023-03-1338412505000029f03",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Confirmation demandée sur la compatibilité des produits chimiques stockés dans le local n°6 (notamment absence de contact entre perchlorate d'ammonium et liquide inflammable) — observation de vérification documentaire."
+  },
+  {
+    "slug": "roxel-france52012502023-03-1338412505000029f04",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Limites de timbrage du bâtiment CIP obsolètes depuis le transfert d'activité de coulée par canule vers le bâtiment RMV2 en 2017 — quantités désormais actualisées dans le cadre de l'évolution envisagée au malaxeur LabRAM."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f01",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dépôt d'un dossier de porter-à-connaissance (PAC) pour l'évolution d'activité du malaxeur du bâtiment CIP — fiche de contexte, les points spécifiques sont analysés dans les fiches suivantes."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f02",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consignes de sécurité du local n°9 et du bâtiment CIP ne mentionnent pas l'interdiction de fonctionnement simultané des malaxeurs des locaux n°4 et n°9, requise pour supprimer le risque d'effet domino identifié dans l'Étude de Sécurité du Travail — mise à jour des consignes demandée."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f03",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Vérification de la validité des formations/habilitations des intervenants extérieurs — modèle de plan de prévention modifié fin 2022 pour intégrer un tableau de suivi des habilitations, mais non appliqué aux plans de prévention 2023 signés avant cette date (hors personnel GIE). Suivi d'une observation de mai 2022."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f04",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Analyse des risques liés à la sous-traitance sur équipements MMR — modèle d'ordre de travail modifié intégrant les risques et parades identifiés, présenté à l'inspection mais pas encore déployé sur site. Suivi d'observations de mai 2022."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f05",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Vérifications avant remise en exploitation et conservation des permis de travail sur équipements MMR — modèle d'ordre de travail modifié présenté (encart vérifications/clôture) mais non encore déployé sur site ; traçabilité assurée via GMAO plutôt que conservation papier. Suivi d'observations de mai 2022."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f06",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Notice de réexamen quinquennal de l'étude de dangers transmise par l'exploitant, concluant à la nécessité d'une simple mise à jour — obligation de réexamen satisfaite."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f07",
+    "domains": [
+      "D03",
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mise à l'arrêt de plusieurs bâtiments pyrotechniques (D39, Y35, D27, D28 notamment) non déclarée au Préfet, bâtiment D39 toujours répertorié pyrotechnique dans l'EDD et le POI malgré son statut, signalisation NFPA absente à Y32 — cinq observations demandent la régularisation administrative et la mise en sécurité effective des bâtiments arrêtés."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f08",
+    "domains": [
+      "D12",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M09",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Six bâtiments mis à l'arrêt et deux bâtiments mis en service depuis 2017 sans porter-à-connaissance préalable au Préfet — deux observations demandent la régularisation formelle de ces changements et la modification de l'organisation pour garantir la déclaration préalable des futures modifications notables."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f09",
+    "domains": [
+      "D03",
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M09",
+      "M17"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Timbrage de quinze bâtiments pyrotechniques et quantité autorisée du malaxeur RMV2 modifiés sans information préalable du Préfet ; incohérence de classification (division de risque 1.2 pour le transport contre 1.3 pour le stockage) relevée sur les colis du bâtiment RMS. Trois observations demandent régularisation et justification."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f10",
+    "domains": [
+      "D01",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Inventaire des dispositifs de détection/sprinklage incendie par bâtiment selon l'EDD 2022 — situation des bâtiments HIV et CBA non précisée dans l'étude, incertitude sur leur couverture en détection incendie."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f11",
+    "domains": [
+      "D01",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dispositifs de confinement des eaux d'extinction incendie recensés par bâtiment selon l'EDD 2022 — absence de rétention au bâtiment HCD justifiée par l'usage de mousse extinctrice et le transfert du stockage de produits inflammables vers le bâtiment HIV. Conformité constatée."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f12",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "L'exploitant indique que les bâtiments concernés ont été désamiantés, conformément à l'exigence d'absence d'amiante. Conformité déclarée."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f13",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Programme de vérification des tuyauteries formalisé et remis à l'inspection — aucune action supplémentaire identifiée par rapport au programme existant. Conformité constatée."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f14",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M12"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Notice de réexamen de l'étude de dangers analysant les meilleures techniques disponibles (MTD) et les fiches BADORIS de l'INERIS, concluant à la disposition des techniques et moyens adaptés. Deux observations invitent à approfondir le benchmarking, sans caractère contraignant."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f15",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Choix des mesures de maîtrise des risques (MMR) parmi les barrières de sécurité listées au chapitre 15 de l'EDD, analyse formalisée et annexée à l'EDD. Conformité constatée."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f16",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Retrait de deux mesures de maîtrise des risques (limiteur de puissance, noyage) de la liste car non adéquates au phénomène dangereux concerné, sans remise en cause des conclusions de l'EDD ni du suivi en service. Conformité constatée."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f17",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "L'annexe 7 de l'étude de dangers 2022 répond aux exigences de l'annexe II.1.6 de l'arrêté ministériel du 26 mai 2014 relatif aux mesures de maîtrise des risques. Conformité constatée."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f18",
+    "domains": [
+      "D01",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Étude des produits de décomposition en cas d'incendie jointe à l'étude de dangers mise à jour, réalisée en référence au projet de guide méthodologique professionnel. Conformité constatée, avec engagement de réexamen une fois le guide définitif validé."
+  },
+  {
+    "slug": "roxel-france52012502023-04-0638412505000029f19",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R09",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mise à jour du plan d'opération interne (POI) commun de la plateforme gérée par un tiers exploitant (ArianeGroup) — Roxel n'est pas en mesure de connaître l'état d'avancement des dispositions requises et doit solliciter formellement ce tiers. R09 : blocage lié à un tiers gestionnaire du POI commun."
+  },
+  {
+    "slug": "roxel-france52012502024-03-0738412505000029f01",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "MMR identification SEVESO pyrotechnique — liste des MMR incomplète ou non à jour, vérifications périodiques non documentées. Suivi explicite d'une inspection antérieure."
+  },
+  {
+    "slug": "roxel-france52012502024-03-0738412505000029f02",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Consigne générale de sécurité du bâtiment CIP mise à jour — l'inspection constate la présence de la mention d'interdiction de fonctionnement simultané des locaux n°4 et n°9, demandée lors de l'inspection du 13/03/2023. Correction vérifiée, aucune demande formulée."
+  },
+  {
+    "slug": "roxel-france52012502024-03-0738412505000029f03",
+    "domains": [
+      "D02",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aluminium poudre transvasement ATEX — modes opératoires non conformes ou insuffisants pour le transvasement de poudre d'aluminium en zone ATEX, écarts documentaires et techniques."
+  },
+  {
+    "slug": "roxel-france52012502024-03-0738412505000029f04",
+    "domains": [
+      "D02",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Poudre aluminium transvasement ATEX — NC physiques observées (écarts modes opératoires) et documentaires (procédures incomplètes) pour transvasement poudre ATEX."
+  },
+  {
+    "slug": "roxel-france52012502024-03-0738412505000029f05",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Stockage peroxydes organiques CBA — température de stockage OK mais formation personnel incomplète et justificatifs insuffisants. NC documentaire et technique partielle."
+  },
+  {
+    "slug": "roxel-france52012502024-03-0738412505000029f06",
+    "domains": [
+      "D03",
+      "D08",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Peroxyde déversement procédure — BSD absents pour déchets peroxydes, affichage manquant, procédure de déversement accidentel incomplète. NC documentaire et physique."
+  },
+  {
+    "slug": "roxel-france52012502024-09-1738412505000029f01",
+    "domains": [
+      "D01",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réserves eau H1/H2 SEVESO — volume 500m³ non justifié, 3 pompes dont pompe secours hors service, débit 530m³/h vs 750m³/h requis. NC physique majeure sur moyen de défense incendie."
+  },
+  {
+    "slug": "roxel-france52012502024-09-1738412505000029f02",
+    "domains": [
+      "D01",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Détection incendie bâtiment HEC — type de détecteurs non précisés par l'exploitant, incertitude sur la nature et la conformité des équipements de détection."
+  },
+  {
+    "slug": "roxel-france52012502024-09-1738412505000029f03",
+    "domains": [
+      "D01",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Vérifications périodiques détection incendie multi-bâtiments SEVESO — détecteur HS bâtiment 33, sirènes non audibles HEC, détecteurs non vérifiés HIV, centrale dysfonctionnante. Multiples NC physiques sur système détection."
+  },
+  {
+    "slug": "roxel-france52012502024-09-1738412505000029f04",
+    "domains": [
+      "D01",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vérification annuelle borne incendie BI298 — rapport de vérification fourni mais incomplet (manque pression à 60m³/h, débit 1 bar, débit maximal). NC documentaire/contrôle."
+  },
+  {
+    "slug": "roxel-france52012502024-09-1738412505000029f05",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Timbrage bâtiment RMS — état des stocks logiciel non cohérent avec quantités réelles constatées lors de comptage par l'inspection. NC physique sur respect du timbrage pyrotechnique."
+  },
+  {
+    "slug": "roxel-france52012502024-09-1738412505000029f06",
+    "domains": [
+      "D10",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Liste ESP incomplète — dates de contrôle manquantes, accumulateurs et bouteilles gaz extincteur non listés pour vérifications périodiques, incohérences colonne REGL 4 ans."
+  },
+  {
+    "slug": "roxel-france52012502024-09-1738412505000029f07",
+    "domains": [
+      "D10",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "ESP ballon air comprimé 200L conforme — rapport DEKRA présenté sans observation, équipement maintenu."
+  },
+  {
+    "slug": "roxel-france52012502024-09-1738412505000029f08",
+    "domains": [
+      "D10",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Périodicité inspections périodiques ESP incohérente — exploitant déclare 3 ans mais document liste ESP applique 4 ans. Incohérence documentaire à corriger."
+  },
+  {
+    "slug": "roxel-france52012502024-09-1738412505000029f09",
+    "domains": [
+      "D10",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Périodicité requalifications périodiques ESP incohérente — exploitant déclare 9 ans mais document ESP indique 10 ans. Incohérence documentaire."
+  },
+  {
+    "slug": "roxel-france52012502024-09-1738412505000029f10",
+    "domains": [
+      "D10",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "ESP ballon air comprimé 200L en bon état — constat visuel favorable lors de la visite."
+  },
+  {
+    "slug": "roxel-france52012502024-09-1738412505000029f11",
+    "domains": [
+      "D10",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Soupape ESP ballon — soupape réglée à PS OK mais dispositif de contrôle non vérifié. Incertitude technique sur la complétude de l'équipement de sécurité."
+  },
+  {
+    "slug": "roxel-france52012502024-09-1738412505000029f12",
+    "domains": [
+      "D10",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence marquage requalification périodique ESP conforme — ESP de 2019 pas encore soumis à requalification, prochaine prévue 2029 conformément aux délais réglementaires."
+  },
+  {
+    "slug": "roxel-france52012502024-09-1738412505000029f13",
+    "domains": [
+      "D01",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Attestation conformité et vérification semestrielle extinction automatique — entreprises non certifiées CNPP, rapport semestriel manquant HEC/S, buses bâtiment H s'écoulent difficilement sans action corrective. NC physique et documentaire."
+  },
+  {
+    "slug": "roxel-france52012502024-09-1738412505000029f14",
+    "domains": [
+      "D04",
+      "D07",
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Indicateurs cuve enterrée eaux noyage HS — deux indicateurs (fuites et niveau haut) sur cuve récupération eaux noyage ED2 ne fonctionnaient pas le jour de la visite. NC physique directement observée."
+  },
+  {
+    "slug": "roxel-france52012502025-06-0538412505000029f01",
+    "domains": [
+      "D03",
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "POI version mars 2024 — incohérence entre sommaire (fiche G12 bouteille gaz) et contenu (fiche G12 fuite réseau gaz). Demande de mise en cohérence."
+  },
+  {
+    "slug": "roxel-france52012502025-06-0538412505000029f02",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exercice POI 2025 — défaut dans chaîne d'alerte constaté (exploitant arrivé en salle POI dans le dernier tiers), demandes confidentielles formulées. NC opérationnelle lors de l'exercice."
+  },
+  {
+    "slug": "roxel-france52012502025-06-0538412505000029f03",
+    "domains": [
+      "D03",
+      "D11",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Formations POI personnel et sous-traitants — fiche H1 existante, formations GIE pour personnel sous-traitant. IIC n'a pas vérifié le suivi effectif — pas de demande formulée."
+  },
+  {
+    "slug": "roxel-france52012502025-06-0538412505000029f04",
+    "domains": [
+      "D03",
+      "D11",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pompiers internes permanents — présents avec véhicules. Observation que l'électricien d'astreinte n'a été appelé qu'à 7h41 (tardivement). Demande de bonne pratique sans injonction formelle."
+  },
+  {
+    "slug": "roxel-france52012502025-06-0538412505000029f05",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fiches missions POI — DOI identifié comme directeur Arianegroup alors que zone peut concerner Roxel. Observation sans injonction formelle, NC formelle documentaire."
+  },
+  {
+    "slug": "roxel-france52012502025-06-0538412505000029f06",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PPI/sirène POI — fiche B1 indique que DOI peut déclencher le PPI (inexact : peut déclencher la sirène PPI). Correction demandée pour mise en cohérence avec réalité réglementaire."
+  },
+  {
+    "slug": "roxel-france52012502025-06-0538412505000029f07",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fiches réflexes par bâtiment — présentes au PC Crise et camion d'intervention. Conformité constatée sur ce point de contrôle POI."
+  },
+  {
+    "slug": "roxel-france52012502025-06-0538412505000029f08",
+    "domains": [
+      "D03",
+      "D11",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Évacuation personnel et interface DOI lors exercice — bien menée lors de l'exercice 2025, inspection constate l'efficacité. Conformité opérationnelle."
+  },
+  {
+    "slug": "roxel-france52012502025-06-0538412505000029f09",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Accueil secours extérieurs lors exercice — personne en charge présente au PC sécurité, action jugée efficace par IIC. Conformité constatée."
+  },
+  {
+    "slug": "roxel-france52012502025-06-0538412505000029f10",
+    "domains": [
+      "D03",
+      "D04",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Moyens atténuation hors site POI — barrage flottant Jalle mis en place lors exercice (7h52→8h03). Observation: site forestier mérite des moyens d'atténuation hors site en cas d'incendie interne. Demande non contraignante."
+  },
+  {
+    "slug": "roxel-france52012502025-06-0538412505000029f11",
+    "domains": [
+      "D03",
+      "D04",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fiche F10 prélèvements APAVE non mise en œuvre lors exercice — aucun contact pris avec APAVE, responsable de la décision non identifié dans POI. NC opérationnelle documentaire."
+  },
+  {
+    "slug": "roxel-france52012502025-06-0538412505000029f12",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fiche F11 remise en état — numéro d'astreinte prestataire présent. Conformité constatée sur ce point de contrôle POI."
+  },
+  {
+    "slug": "roxel-france52012502025-06-0538412505000029f13",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "État des stocks correctement tenu — conformité constatée, cf partie confidentielle."
+  },
+  {
+    "slug": "roxel-france52012502025-06-1338412505000029f01",
+    "domains": [
+      "D03",
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Utilités GE autonomie — capacité cuves fuel GE non justifiée pour durée annoncée, puissance/nombre GE à justifier pour maintien en sécurité ou mise à l'arrêt. NC technique sur fiabilité des utilités SEVESO."
+  },
+  {
+    "slug": "roxel-france52012502025-06-1338412505000029f02",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure perte utilité électrique manquante — pas de procédure spécifique coupure électrique, mode dégradé décrit dans EST non synthétisé. NC documentaire formelle."
+  },
+  {
+    "slug": "roxel-france52012502025-06-1338412505000029f03",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Maintien en sécurité coupure énergie assuré — conformité constatée, cf partie confidentielle."
+  },
+  {
+    "slug": "roxel-france52012502025-06-1338412505000029f04",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consignes d'exploitation sécurité — cf partie confidentielle, pas de demande formulée."
+  },
+  {
+    "slug": "roxel-france52012502025-06-1338412505000029f05",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Arrêt sécurisé en cas de défaillance GE — exploitant déclare capable de stopper en sécurité. Conformité déclarée, cf partie confidentielle."
+  },
+  {
+    "slug": "roxel-france52012502025-06-1338412505000029f06",
+    "domains": [
+      "D03",
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Tests mensuels GE et contacteurs annuels — traçabilité absente pour tests mensuels GE et pour vérification annuelle contacteurs. NC documentaire sur maintenance utilités SEVESO."
+  },
+  {
+    "slug": "roxel-france52012502025-06-1338412505000029f07",
+    "domains": [
+      "D03",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "GE autonomie 48h MMR malaxeur — cuves fuel permettent maintien en sécurité pendant durée requise. Conformité constatée."
+  },
+  {
+    "slug": "roxel-france52012502025-06-1338412505000029f08",
+    "domains": [
+      "D03",
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle isolement alternateur GE2 non réalisé, rapports essai/maintenance/visites GE5 2025 manquants — cf partie confidentielle. NC documentaire sur maintenance GE SEVESO."
+  },
+  {
+    "slug": "royal-canin-france1000014492023-10-2538082488800206f01",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M17",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Déclassement rubrique 1510 entrepôt Royal Canin — suivi stocks organisé (mail quotidien, pilotage approvisionnements), mais quelques dépassements 500t constatés. MED active pour non-conformité AM 11/04/2017. Exploitant proactif mais dépassements constituent NC. Levée conditionnelle sous 30j. T2 car suivi explicite vérification déclassement."
+  },
+  {
+    "slug": "royal-canin-france1000014492023-10-2538082488800206f02",
+    "domains": [
+      "D13",
+      "D12"
+    ],
+    "mechanisms": [
+      "M19"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cessation administrative rubrique 1510 déposée le 2 décembre 2022 pour déclassement ICPE de l'entrepôt — l'exploitant s'engage à produire l'attestation de mise en sécurité lors de la libération du site (locataire). R02 : engagement futur non vérifiable au moment de l'inspection, aucun délai chiffré consigné dans ce constat."
+  },
+  {
+    "slug": "royal-canin-france1000014492023-10-2538082488800206f03",
+    "domains": [
+      "D13",
+      "D12"
+    ],
+    "mechanisms": [
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R09",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "MED AM 11/04/2017 entrepôt — décision de déclassement plutôt que mise en conformité prise avec propriétaire. Levée conditionnelle au déclassement effectif. R09 car bailleur a influencé la décision."
+  },
+  {
+    "slug": "royal-canin-france1000014492024-05-0738082488800206f01",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Levée MED rubrique 1510 Royal Canin — stocks sous 500t depuis fin 2023, organisation pérenne maintenue, MED mai 2022 peut être levée. Exploitant proactif. T3 amélioration depuis inspection précédente."
+  },
+  {
+    "slug": "royal-canin-france1000014492024-05-0738082488800206f02",
+    "domains": [
+      "D13"
+    ],
+    "mechanisms": [
+      "M19",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Attestation mise en sécurité R512-66-1 non présentée — cessation administrative déposée déc. 2022, ATTES SECUR pas encore fournie à l'inspection. Délai 2 mois imposé."
+  },
+  {
+    "slug": "sabas-eurl1000084592022-11-0253095926100021f01",
+    "domains": [
+      "D08",
+      "D06",
+      "D12"
+    ],
+    "mechanisms": [
+      "M17",
+      "M05",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R11",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "SABAS exploitation illégale rubrique 2718 déchets dangereux sans autorisation — >1t déchets dangereux, GRV non identifiés extérieur, faux BSD suspectés, déversements HC sol non imperméabilisé. PV transmis Procureure + OCLAESP. G4 car MED active conditionnelle + multiples NC techniques concomitantes. R11 exploitation illégale/pénal."
+  },
+  {
+    "slug": "sabas-eurl1000084592024-11-1453095926100021f01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M17",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Vérification SABAS 2024 — local fermé, quelques bidons déclarés vides, ne relève plus de la rubrique 2718. Situation sortie des seuils de classement. T3 amélioration par rapport à 2022."
+  },
+  {
+    "slug": "sabas-eurl1000084592024-11-1453095926100021f02",
+    "domains": [
+      "D08",
+      "D12"
+    ],
+    "mechanisms": [
+      "M03",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R06",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "SABAS Trackdéchets — 9 BSDD non finalisés (7t déchets dangereux VDLV), élimination dans filière non autorisée avouée, endettement et dépôt de bilan imminent. R06 liquidation imminente/procédure collective. T2 suivi inspection 2022."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-02-0848770604600025f01",
+    "domains": [
+      "D04",
+      "D06"
+    ],
+    "mechanisms": [
+      "M11",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G5",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Incident émulseur — fuite ~20m³ réseau sprinklage enterré, produit moussant dans Magudas identifié, pollution sols/eaux souterraines probable. Rapport d'incident non transmis, investigations requises. G5 pollution probable en cours lors de la visite."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-02-0848770604600025f02",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan réseaux aqueux non à jour depuis 2005 — hangar HH créé il y a 3 ans non intégré, réseaux modifiés non documentés, exutoire K?L non identifié. NC documentaire majeure."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-02-0848770604600025f03",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Points rejet pirates Magudas — 3 exutoires non répertoriés dans AP donnant dans Magudas, zones de collecte inconnues. Rejets existants déjà non conformes (Zn, fluoranthène). NC physique terrain."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-02-0848770604600025f04",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réseau émulseur sprinklage vide/fuyard — 20m³ émulseurs perdus, cuves vides, réseau consigné, sprinklage mousse inopérant. Mesures compensatoires non définies. G4 moyen de lutte incendie principal hors service sans mesure compensatoire formalisée."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-02-0848770604600025f05",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mesures compensatoires réseau émulseur non définies — exploitant n'a pas anticipé, s'engage à rédiger formulaire N100 et définir mesures compensatoires. R02 engagement verbal futur. G4 car sprinklage mousse HS sans compensation formalisée."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f01",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plan Zn remplacement éléments zingués — 200k€ investis en 2022, remplacement en cours jusqu'à 2028 conformément au programme. Inspection constate mise en oeuvre des dispositions nécessaires. T3 amélioration depuis inspection 2022."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f02",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M04",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Rejets aqueux dépassements récurrents Zn/fluoranthène/nonylphénols — dépassements VLE confirmés pour 2021 et 2022 sur 3 émissaires, actions insuffisantes. APMD proposé. T4 stagnation car mêmes dépassements qu'en 2021. G4 dépassements VLE confirmés récurrents + APMD."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f03",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Programme surveillance rejets aqueux soldé — programme adapté vu conforme dans rapport LPL 2022. Point levé depuis inspection 2022."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f04",
+    "domains": [
+      "D06"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "COHV eaux souterraines — teneurs hors-site dépassent objectifs dépollution (PCE/TCE/chlorure vinyle), dépollution terminée 2019 mais objectifs non atteints. Actions complémentaires requises. T2 suivi explicite dépollution depuis 2014."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f05",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Gaz incompatibles réseau ventilation TS — mélange acide/chrome réseau aspiration non démontré conforme, NC persistante depuis inspection 2022. APMD proposé. T4 stagnation."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f06",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "VLE rejets atmosphériques TS conformes — 3 lignes séparées, aucun dépassement VLE en 2022. Conformité constatée."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f07",
+    "domains": [
+      "D01",
+      "D05"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Asservissement ventilation TS à détection incendie — asservissement réalisé et justificatifs transmis. Mais contrôle périodique annuel requis non encore programmé. NC sur vérification périodique."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f08",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Protection foudre NC persistantes — travaux non finalisés (80%), vérification complète jamais réalisée, NC matérielles existantes. APMD proposé 6 mois. T4 stagnation depuis inspection 2022."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f09",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T7",
+    "confidence": "high",
+    "reasoning": "Sprinklage NC persistantes depuis 2012 — GMP B1 HS actions non programmées, conformité référentiel jamais justifiée depuis 2012, fuite tresse B2, fuites vannes, émulseurs. APMD proposé. T7 NC notifiée depuis 2012 (>10 ans)."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f10",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "RIA/PIA défauts multiples — pression insuffisante, anomalies matérielles (fuites, éléments cassés), corrections non commandées dans SAP. NC physiques sur moyens de lutte incendie. T2 suivi inspection mars 2022."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f11",
+    "domains": [
+      "D07",
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "PM2I vérifications quinquennales overdue — installations PM2I recensées avec APAVE, états initiaux établis, mais vérifications quinquennales auraient dû être faites depuis 2013. Planifiées avril 2023. T2 suivi depuis inspection 2022."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f12",
+    "domains": [
+      "D01",
+      "D07"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Confinement eaux extinction — secours pompes de relevage absent (inverseur OK mais GE mobile non livré), organisation non mise en place. NC persistante depuis inspection 2022. APMD proposé 6 mois. T4 stagnation."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f13",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Désenfumage — vérification prévue 09/03, ouvrants en façade sans affichage requis, POI ne contient pas les éléments prescrits dans APC 06/01/2023. NC documentaire et physique (affichage absent)."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f14",
+    "domains": [
+      "D01",
+      "D11"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Mesures EDD multi-points — passages câbles murs REI120 non rebouchés, porte EI30 au lieu EI120, détection incendie HH partiellement fonctionnelle, bennes déchets trop proches HH. Multiples NC physiques terrain. T2 suivi inspection 2022."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f15",
+    "domains": [
+      "D01",
+      "D11"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "POI non mis à jour conformément à APC 06/01/2023, exercice POI commun dernier datant de sept. 2019. NC documentaire persistante. T4 stagnation — même NC depuis 2022."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f16",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Mesure compensatoire émulseur respectée — pompiers connaissent la consigne (camion interne émulseur pour toute levée de doute). Point soldé depuis inspection feb. 2023. T3 amélioration."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f17",
+    "domains": [
+      "D01",
+      "D09"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Arrêt définitif réseau émulseur envisagé — si arrêt définitif: mise à jour EDD, mesures compensatoires pérennes, positionnement SDIS/assureur requis via PAC. Délai 3 mois sinon mise en demeure."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f18",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Piézomètre capot ouvert — capot non fermé, risque de contamination du forage de surveillance des eaux souterraines. NC physique directement observée."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f19",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rejet orangé exutoire non identifié donnant dans fossé → Magudas — effluents couleur rouge-orangé, irisations, sédiments colorés, origine inconnue. NC physique terrain avec potentiel pollution milieu naturel."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-02-0948770604600025f01",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Compatibilité gaz TS MED levée — audit SIMETS 28/04/2023 conclut séparation efficace, réseaux compatibles. Point MED levé. Recommandation renommage non mise en oeuvre (demande résiduelle). T3 amélioration."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-02-0948770604600025f02",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Protection foudre — vérification complète 18/04/2023 réalisée, travaux mise en conformité faits. Mais bâtiment HH vérifications périodiques non justifiées, nouvelle cabine peinture S7 à intégrer. Levée MED suspendue à rapport vérification complète final."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-02-0948770604600025f03",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Sprinklage réparations 2023 — travaux réalisés, soupape de sécurité en attente remplacement (remise en automatique prévue fin mars 2024). Référentiel conception établi. Levée MED suspendue à justification remise en service automatique."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-02-0948770604600025f04",
+    "domains": [
+      "D01",
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "GE groupe électrogène mobile installé — GE mis en place bâtiment MA avec inverseur de source, procédure de démarrage établie. Point MED levé. T3 amélioration."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-02-0948770604600025f05",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "RIA/PIA contrôle — rapports déc. 2023 et janv. 2024 présentés avec observations. Exploitant n'a pas justifié actions correctives en cours d'inspection (justifié post-inspection). NC sur traçabilité GMAO des actions correctives."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-02-0948770604600025f06",
+    "domains": [
+      "D01",
+      "D05"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Asservissement extracteurs air TS incendie — test 10/11/2023: CTA OK mais extracteurs non asservis. Intervention programmée février 2024. NC résiduelle sur asservissement partiel."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-02-0948770604600025f07",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Désenfumage MED levée — rapport vérification 28/03/2023 présenté, consigne ouvrants intégrée au POI v.19. Point soldé. T3 amélioration."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-02-0948770604600025f08",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Murs REI/porte/détection HC,HF,HG — rebouchages et porte EI120 réalisés, détection HD/HH conformes. Mais DOE bâtiments HC, HF, HG en cours de finalisation — demande transmission. NC documentaire résiduelle."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-02-0948770604600025f09",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "POI actualisé et exercice 2023 réalisé — POI v.19 du 22/01/2024 avec nouvelles consignes GE/désenfumage. Exercice 01/12/2023 avec SDIS/SSLIA. MED levée sur ce point. T3 amélioration."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-02-0948770604600025f10",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Rejet orangé fossé nord exutoire — léger écoulement, irisations, fossé couleur orange, origine non justifiée par exploitant. Hypothèse: raccordement local incendie motopompes. NC physique terrain persistante depuis inspection 02/2023."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-04-1048770604600025f01",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Plan réseaux lacunaire — légende vannes absente, anciens rejets non identifiés comme hors service, traitements amont aéroport non représentés. NC documentaire persistante depuis 2023."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-04-1048770604600025f02",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R09",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Effluents voisins Airbus/Dassault sans convention — collecteur émissaire n°5 reçoit effluents aéroport/Dassault/Airbus sans convention, nature effluents inconnue, responsabilité SABENA engagée. R09 tiers bloquant (voisins sans convention)."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-04-1048770604600025f03",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R09",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vanne isolement Magudas — vanne connue de l'aéroport mais sans accès direct. Convention à établir pour gestion vanne en cas de pollution accidentelle amont. R09 tiers (aéroport) sans accès à la vanne sur site SABENA."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-04-1048770604600025f04",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R09",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Débourbeur-déshuileur amont émissaire n°5 entretien non justifié — équipement exploité sur site aéroport, SABENA responsable mais ne peut justifier entretien. R09 tiers (aéroport) exploitant l'équipement."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-04-1048770604600025f05",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R09",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Traitement amont effluents polluables non justifié — systèmes de traitement amont non reflétés sur plan réseaux, bon entretien non démontrable. R09 tiers aéroport/voisins."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-04-1048770604600025f06",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Points rejet non AP avec écoulement — 6 points anciens liés à station d'épuration historique avec écoulements actifs, non conformes aux points AP 2014. Condamnation/démantèlement requis. T4 persistance des rejets non autorisés."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-04-1048770604600025f07",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "VLE rappel responsabilité — prescription rappelée à l'exploitant pour confirmer responsabilité des rejets milieu. Contrôle inopiné possible. Pas de demande formulée — conformité factuelle."
+  }
+]

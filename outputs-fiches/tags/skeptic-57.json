@@ -1,0 +1,1092 @@
+{
+  "total_audited": 130,
+  "high_confidence_spot_checked": 58,
+  "medium_confidence_reread": 1,
+  "low_confidence_reread": 0,
+  "errors_found": 62,
+  "corrections": [
+    {
+      "slug": "ringmerit-epsilon52115312025-11-2741817902400058f02",
+      "field": "multiple (domains,mechanisms,modifiers,dynamic,stage,gravity)",
+      "hunter_value": {
+        "domains": [
+          "D11",
+          "D15"
+        ],
+        "mechanisms": [
+          "M14"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ],
+        "dynamic": "R14",
+        "stage": "S02",
+        "gravity": "G3"
+      },
+      "corrected_value": {
+        "domains": [
+          "D01",
+          "D15"
+        ],
+        "mechanisms": [
+          "M08"
+        ],
+        "modifiers": [],
+        "dynamic": "R13",
+        "stage": "S04",
+        "gravity": "G1"
+      },
+      "reason": "Hunter's reasoning/codes for this slug describe content from a different fiche in the same report (systematic index-shift affecting the whole ringmerit-epsilon batch f02-f16) — reclassified directly from the actual constats_body text at this slug."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312025-11-2741817902400058f03",
+      "field": "multiple (mechanisms,modifiers,dynamic,stage,gravity)",
+      "hunter_value": {
+        "mechanisms": [
+          "M07"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ],
+        "dynamic": "R14",
+        "stage": "S02",
+        "gravity": "G3"
+      },
+      "corrected_value": {
+        "mechanisms": [
+          "M08"
+        ],
+        "modifiers": [],
+        "dynamic": "R13",
+        "stage": "S04",
+        "gravity": "G1"
+      },
+      "reason": "Hunter's reasoning/codes for this slug describe content from a different fiche in the same report (systematic index-shift affecting the whole ringmerit-epsilon batch f02-f16) — reclassified directly from the actual constats_body text at this slug."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312025-11-2741817902400058f04",
+      "field": "multiple (domains,mechanisms,modifiers,gravity)",
+      "hunter_value": {
+        "domains": [
+          "D10",
+          "D15"
+        ],
+        "mechanisms": [
+          "M14"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ],
+        "gravity": "G3"
+      },
+      "corrected_value": {
+        "domains": [
+          "D01",
+          "D15"
+        ],
+        "mechanisms": [
+          "M01"
+        ],
+        "modifiers": [],
+        "gravity": "G2"
+      },
+      "reason": "Hunter's reasoning/codes for this slug describe content from a different fiche in the same report (systematic index-shift affecting the whole ringmerit-epsilon batch f02-f16) — reclassified directly from the actual constats_body text at this slug."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312025-11-2741817902400058f05",
+      "field": "multiple (domains,modifiers)",
+      "hunter_value": {
+        "domains": [
+          "D01",
+          "D15"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "corrected_value": {
+        "domains": [
+          "D01",
+          "D11",
+          "D15"
+        ],
+        "modifiers": []
+      },
+      "reason": "Hunter's reasoning/codes for this slug describe content from a different fiche in the same report (systematic index-shift affecting the whole ringmerit-epsilon batch f02-f16) — reclassified directly from the actual constats_body text at this slug."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312025-11-2741817902400058f06",
+      "field": "multiple (domains,mechanisms,modifiers)",
+      "hunter_value": {
+        "domains": [
+          "D10",
+          "D15"
+        ],
+        "mechanisms": [
+          "M07"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "corrected_value": {
+        "domains": [
+          "D01",
+          "D15"
+        ],
+        "mechanisms": [
+          "M14"
+        ],
+        "modifiers": []
+      },
+      "reason": "Hunter's reasoning/codes for this slug describe content from a different fiche in the same report (systematic index-shift affecting the whole ringmerit-epsilon batch f02-f16) — reclassified directly from the actual constats_body text at this slug."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312025-11-2741817902400058f07",
+      "field": "multiple (domains,mechanisms,modifiers,gravity)",
+      "hunter_value": {
+        "domains": [
+          "D01",
+          "D15"
+        ],
+        "mechanisms": [
+          "M14"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ],
+        "gravity": "G3"
+      },
+      "corrected_value": {
+        "domains": [
+          "D10",
+          "D15"
+        ],
+        "mechanisms": [
+          "M01"
+        ],
+        "modifiers": [],
+        "gravity": "G2"
+      },
+      "reason": "Hunter's reasoning/codes for this slug describe content from a different fiche in the same report (systematic index-shift affecting the whole ringmerit-epsilon batch f02-f16) — reclassified directly from the actual constats_body text at this slug."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312025-11-2741817902400058f08",
+      "field": "multiple (domains,modifiers)",
+      "hunter_value": {
+        "domains": [
+          "D07",
+          "D15"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "corrected_value": {
+        "domains": [
+          "D10",
+          "D01",
+          "D15"
+        ],
+        "modifiers": []
+      },
+      "reason": "Hunter's reasoning/codes for this slug describe content from a different fiche in the same report (systematic index-shift affecting the whole ringmerit-epsilon batch f02-f16) — reclassified directly from the actual constats_body text at this slug."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312025-11-2741817902400058f09",
+      "field": "multiple (domains,mechanisms,dynamic,stage,gravity)",
+      "hunter_value": {
+        "domains": [
+          "D04",
+          "D15"
+        ],
+        "mechanisms": [
+          "M08"
+        ],
+        "dynamic": "R13",
+        "stage": "S04",
+        "gravity": "G1"
+      },
+      "corrected_value": {
+        "domains": [
+          "D01",
+          "D15"
+        ],
+        "mechanisms": [
+          "M14"
+        ],
+        "dynamic": "R14",
+        "stage": "S01",
+        "gravity": "G3"
+      },
+      "reason": "Hunter's reasoning/codes for this slug describe content from a different fiche in the same report (systematic index-shift affecting the whole ringmerit-epsilon batch f02-f16) — reclassified directly from the actual constats_body text at this slug."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312025-11-2741817902400058f10",
+      "field": "multiple (domains)",
+      "hunter_value": {
+        "domains": [
+          "D01",
+          "D15"
+        ]
+      },
+      "corrected_value": {
+        "domains": [
+          "D10",
+          "D15"
+        ]
+      },
+      "reason": "Hunter's reasoning/codes for this slug describe content from a different fiche in the same report (systematic index-shift affecting the whole ringmerit-epsilon batch f02-f16) — reclassified directly from the actual constats_body text at this slug."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312025-11-2741817902400058f12",
+      "field": "multiple (domains)",
+      "hunter_value": {
+        "domains": [
+          "D11",
+          "D15"
+        ]
+      },
+      "corrected_value": {
+        "domains": [
+          "D01",
+          "D10",
+          "D15"
+        ]
+      },
+      "reason": "Hunter's reasoning/codes for this slug describe content from a different fiche in the same report (systematic index-shift affecting the whole ringmerit-epsilon batch f02-f16) — reclassified directly from the actual constats_body text at this slug."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312025-11-2741817902400058f13",
+      "field": "multiple (domains,mechanisms,dynamic,stage,gravity)",
+      "hunter_value": {
+        "domains": [
+          "D12",
+          "D15"
+        ],
+        "mechanisms": [
+          "M08"
+        ],
+        "dynamic": "R13",
+        "stage": "S04",
+        "gravity": "G1"
+      },
+      "corrected_value": {
+        "domains": [
+          "D01",
+          "D15"
+        ],
+        "mechanisms": [
+          "M01"
+        ],
+        "dynamic": "R14",
+        "stage": "S02",
+        "gravity": "G2"
+      },
+      "reason": "Hunter's reasoning/codes for this slug describe content from a different fiche in the same report (systematic index-shift affecting the whole ringmerit-epsilon batch f02-f16) — reclassified directly from the actual constats_body text at this slug."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312025-11-2741817902400058f14",
+      "field": "multiple (domains,mechanisms,dynamic,stage,gravity)",
+      "hunter_value": {
+        "domains": [
+          "D08",
+          "D15"
+        ],
+        "mechanisms": [
+          "M08"
+        ],
+        "dynamic": "R13",
+        "stage": "S04",
+        "gravity": "G1"
+      },
+      "corrected_value": {
+        "domains": [
+          "D10",
+          "D15"
+        ],
+        "mechanisms": [
+          "M14",
+          "M07"
+        ],
+        "dynamic": "R14",
+        "stage": "S02",
+        "gravity": "G3"
+      },
+      "reason": "Hunter's reasoning/codes for this slug describe content from a different fiche in the same report (systematic index-shift affecting the whole ringmerit-epsilon batch f02-f16) — reclassified directly from the actual constats_body text at this slug."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312025-11-2741817902400058f15",
+      "field": "multiple (domains,mechanisms,modifiers,dynamic,stage,gravity)",
+      "hunter_value": {
+        "domains": [
+          "D10",
+          "D15"
+        ],
+        "mechanisms": [
+          "M07"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ],
+        "dynamic": "R14",
+        "stage": "S02",
+        "gravity": "G2"
+      },
+      "corrected_value": {
+        "domains": [
+          "D01",
+          "D15"
+        ],
+        "mechanisms": [
+          "M08"
+        ],
+        "modifiers": [],
+        "dynamic": "R13",
+        "stage": "S04",
+        "gravity": "G1"
+      },
+      "reason": "Hunter's reasoning/codes for this slug describe content from a different fiche in the same report (systematic index-shift affecting the whole ringmerit-epsilon batch f02-f16) — reclassified directly from the actual constats_body text at this slug."
+    },
+    {
+      "slug": "ringmerit-epsilon52115312025-11-2741817902400058f16",
+      "field": "multiple (domains,mechanisms,modifiers,dynamic,stage,gravity,trajectory)",
+      "hunter_value": {
+        "domains": [
+          "D11",
+          "D15"
+        ],
+        "mechanisms": [
+          "M01"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ],
+        "dynamic": "R14",
+        "stage": "S02",
+        "gravity": "G2",
+        "trajectory": "T1"
+      },
+      "corrected_value": {
+        "domains": [
+          "D07",
+          "D15"
+        ],
+        "mechanisms": [
+          "M08"
+        ],
+        "modifiers": [],
+        "dynamic": "R13",
+        "stage": "S06",
+        "gravity": "G1",
+        "trajectory": "T3"
+      },
+      "reason": "Hunter's reasoning/codes for this slug describe content from a different fiche in the same report (systematic index-shift affecting the whole ringmerit-epsilon batch f02-f16) — reclassified directly from the actual constats_body text at this slug."
+    },
+    {
+      "slug": "rodiere52013642025-06-1745720041800020f01",
+      "field": "mechanisms",
+      "hunter_value": "[M14,M07]",
+      "corrected_value": "[M01,M07]",
+      "reason": "Hunter tagged M14 (constat technique) but the two NC found by the périodique contrôle are purely documentary (affichage manquant, fiches de suivi non présentées) — separator itself not found defective. False M14 → M01, per error type #2."
+    },
+    {
+      "slug": "rodiere52013642025-06-1745720041800020f01",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Hunter tagged S01 (observation) but the fiche contains an explicit 'Demande à formuler à l'exploitant' section — S02_INJONCTION is correct (m_DELAI retained: 'sous un mois' deadline given for vidange)."
+    },
+    {
+      "slug": "rodiere52013642025-06-1745720041800020f01",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "G3 assigned for what the source text itself calls '2 non-conformités mineures', both purely documentary — per gravity heuristic G2 applies when the NC is purely documentary/formal without a physical dimension."
+    },
+    {
+      "slug": "roxel-france52012502023-03-1338412505000029f01",
+      "field": "multiple (dynamic,gravity)",
+      "hunter_value": {
+        "dynamic": "R14",
+        "gravity": "G2"
+      },
+      "corrected_value": {
+        "dynamic": "R13",
+        "gravity": "G1"
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-03-1338412505000029f02",
+      "field": "multiple (mechanisms,modifiers)",
+      "hunter_value": {
+        "mechanisms": [
+          "M09"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "corrected_value": {
+        "mechanisms": [
+          "M01"
+        ],
+        "modifiers": []
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-03-1338412505000029f03",
+      "field": "multiple (mechanisms,dynamic,stage,gravity)",
+      "hunter_value": {
+        "mechanisms": [
+          "M08"
+        ],
+        "dynamic": "R13",
+        "stage": "S04",
+        "gravity": "G1"
+      },
+      "corrected_value": {
+        "mechanisms": [
+          "M01"
+        ],
+        "dynamic": "R14",
+        "stage": "S02",
+        "gravity": "G2"
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-03-1338412505000029f04",
+      "field": "multiple (mechanisms,dynamic)",
+      "hunter_value": {
+        "mechanisms": [
+          "M09",
+          "M08"
+        ],
+        "dynamic": "R13"
+      },
+      "corrected_value": {
+        "mechanisms": [
+          "M09"
+        ],
+        "dynamic": "R01"
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-04-0638412505000029f01",
+      "field": "multiple (modifiers,dynamic,stage,gravity)",
+      "hunter_value": {
+        "modifiers": [
+          "m_DELAI"
+        ],
+        "dynamic": "R14",
+        "stage": "S02",
+        "gravity": "G2"
+      },
+      "corrected_value": {
+        "modifiers": [],
+        "dynamic": "R13",
+        "stage": "S01",
+        "gravity": "G1"
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug (topic mismatch — content-drift affecting this report's f01-f19 run) — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-04-0638412505000029f02",
+      "field": "multiple (mechanisms,modifiers,gravity)",
+      "hunter_value": {
+        "mechanisms": [
+          "M07",
+          "M01"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ],
+        "gravity": "G3"
+      },
+      "corrected_value": {
+        "mechanisms": [
+          "M01"
+        ],
+        "modifiers": [],
+        "gravity": "G2"
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug (topic mismatch — content-drift affecting this report's f01-f19 run) — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-04-0638412505000029f03",
+      "field": "multiple (mechanisms,modifiers,stage,gravity,trajectory)",
+      "hunter_value": {
+        "mechanisms": [
+          "M07"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ],
+        "stage": "S02",
+        "gravity": "G3",
+        "trajectory": "T1"
+      },
+      "corrected_value": {
+        "mechanisms": [
+          "M01"
+        ],
+        "modifiers": [],
+        "stage": "S04",
+        "gravity": "G2",
+        "trajectory": "T2"
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug (topic mismatch — content-drift affecting this report's f01-f19 run) — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-04-0638412505000029f04",
+      "field": "multiple (mechanisms,modifiers,stage,gravity,trajectory)",
+      "hunter_value": {
+        "mechanisms": [
+          "M07",
+          "M14"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ],
+        "stage": "S02",
+        "gravity": "G3",
+        "trajectory": "T1"
+      },
+      "corrected_value": {
+        "mechanisms": [
+          "M01"
+        ],
+        "modifiers": [],
+        "stage": "S04",
+        "gravity": "G2",
+        "trajectory": "T2"
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug (topic mismatch — content-drift affecting this report's f01-f19 run) — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-04-0638412505000029f05",
+      "field": "multiple (modifiers,stage,trajectory)",
+      "hunter_value": {
+        "modifiers": [
+          "m_DELAI"
+        ],
+        "stage": "S02",
+        "trajectory": "T1"
+      },
+      "corrected_value": {
+        "modifiers": [],
+        "stage": "S04",
+        "trajectory": "T2"
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug (topic mismatch — content-drift affecting this report's f01-f19 run) — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-04-0638412505000029f06",
+      "field": "multiple (domains,mechanisms,modifiers,dynamic,stage,gravity)",
+      "hunter_value": {
+        "domains": [
+          "D01",
+          "D03",
+          "D15"
+        ],
+        "mechanisms": [
+          "M07",
+          "M14"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ],
+        "dynamic": "R14",
+        "stage": "S02",
+        "gravity": "G3"
+      },
+      "corrected_value": {
+        "domains": [
+          "D03",
+          "D15"
+        ],
+        "mechanisms": [
+          "M08"
+        ],
+        "modifiers": [],
+        "dynamic": "R13",
+        "stage": "S06",
+        "gravity": "G1"
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug (topic mismatch — content-drift affecting this report's f01-f19 run) — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-04-0638412505000029f07",
+      "field": "multiple (domains,mechanisms,modifiers)",
+      "hunter_value": {
+        "domains": [
+          "D15"
+        ],
+        "mechanisms": [
+          "M01",
+          "M07"
+        ],
+        "modifiers": [
+          "m_DELAI"
+        ]
+      },
+      "corrected_value": {
+        "domains": [
+          "D03",
+          "D12",
+          "D15"
+        ],
+        "mechanisms": [
+          "M01",
+          "M14"
+        ],
+        "modifiers": []
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug (topic mismatch — content-drift affecting this report's f01-f19 run) — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-04-0638412505000029f08",
+      "field": "multiple (domains,mechanisms,dynamic,stage,gravity)",
+      "hunter_value": {
+        "domains": [
+          "D03",
+          "D15"
+        ],
+        "mechanisms": [
+          "M08"
+        ],
+        "dynamic": "R13",
+        "stage": "S04",
+        "gravity": "G1"
+      },
+      "corrected_value": {
+        "domains": [
+          "D12",
+          "D03",
+          "D15"
+        ],
+        "mechanisms": [
+          "M09",
+          "M01"
+        ],
+        "dynamic": "R14",
+        "stage": "S02",
+        "gravity": "G2"
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug (topic mismatch — content-drift affecting this report's f01-f19 run) — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-04-0638412505000029f09",
+      "field": "multiple (domains,mechanisms,dynamic,stage,gravity)",
+      "hunter_value": {
+        "domains": [
+          "D03",
+          "D15"
+        ],
+        "mechanisms": [
+          "M08"
+        ],
+        "dynamic": "R13",
+        "stage": "S04",
+        "gravity": "G1"
+      },
+      "corrected_value": {
+        "domains": [
+          "D03",
+          "D12",
+          "D15"
+        ],
+        "mechanisms": [
+          "M09",
+          "M17"
+        ],
+        "dynamic": "R14",
+        "stage": "S02",
+        "gravity": "G2"
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug (topic mismatch — content-drift affecting this report's f01-f19 run) — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-04-0638412505000029f10",
+      "field": "multiple (domains,mechanisms,dynamic,stage,gravity)",
+      "hunter_value": {
+        "domains": [
+          "D03",
+          "D15"
+        ],
+        "mechanisms": [
+          "M08"
+        ],
+        "dynamic": "R13",
+        "stage": "S04",
+        "gravity": "G1"
+      },
+      "corrected_value": {
+        "domains": [
+          "D01",
+          "D03",
+          "D15"
+        ],
+        "mechanisms": [
+          "M14"
+        ],
+        "dynamic": "R14",
+        "stage": "S01",
+        "gravity": "G2"
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug (topic mismatch — content-drift affecting this report's f01-f19 run) — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-04-0638412505000029f11",
+      "field": "multiple (domains)",
+      "hunter_value": {
+        "domains": [
+          "D03",
+          "D15"
+        ]
+      },
+      "corrected_value": {
+        "domains": [
+          "D01",
+          "D03",
+          "D15"
+        ]
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug (topic mismatch — content-drift affecting this report's f01-f19 run) — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-04-0638412505000029f12",
+      "field": "multiple (domains)",
+      "hunter_value": {
+        "domains": [
+          "D03",
+          "D15"
+        ]
+      },
+      "corrected_value": {
+        "domains": [
+          "D15"
+        ]
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug (topic mismatch — content-drift affecting this report's f01-f19 run) — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-04-0638412505000029f13",
+      "field": "multiple (domains)",
+      "hunter_value": {
+        "domains": [
+          "D03",
+          "D15"
+        ]
+      },
+      "corrected_value": {
+        "domains": [
+          "D10",
+          "D15"
+        ]
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug (topic mismatch — content-drift affecting this report's f01-f19 run) — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-04-0638412505000029f14",
+      "field": "multiple (mechanisms,stage)",
+      "hunter_value": {
+        "mechanisms": [
+          "M08"
+        ],
+        "stage": "S04"
+      },
+      "corrected_value": {
+        "mechanisms": [
+          "M12"
+        ],
+        "stage": "S01"
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug (topic mismatch — content-drift affecting this report's f01-f19 run) — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-04-0638412505000029f18",
+      "field": "multiple (domains)",
+      "hunter_value": {
+        "domains": [
+          "D03",
+          "D15"
+        ]
+      },
+      "corrected_value": {
+        "domains": [
+          "D01",
+          "D03",
+          "D15"
+        ]
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug (topic mismatch — content-drift affecting this report's f01-f19 run) — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502023-04-0638412505000029f19",
+      "field": "multiple (mechanisms,dynamic,stage,gravity)",
+      "hunter_value": {
+        "mechanisms": [
+          "M08"
+        ],
+        "dynamic": "R13",
+        "stage": "S04",
+        "gravity": "G1"
+      },
+      "corrected_value": {
+        "mechanisms": [
+          "M01"
+        ],
+        "dynamic": "R09",
+        "stage": "S02",
+        "gravity": "G2"
+      },
+      "reason": "Hunter's reasoning does not match the constats_body text at this slug (topic mismatch — content-drift affecting this report's f01-f19 run) — reclassified directly from the actual text."
+    },
+    {
+      "slug": "roxel-france52012502024-03-0738412505000029f01",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "roxel-france52012502024-03-0738412505000029f02",
+      "field": "mechanisms",
+      "hunter_value": "[M07,M14]",
+      "corrected_value": "[M08]",
+      "reason": "Hunter tagged M07,M14 (NC on risk-mitigation-measure compatibility) but the constats_body shows the inspector verifying that a previously-requested consigne update (interdiction de fonctionnement simultané) IS now present — this is a resolved/conforme check, M08."
+    },
+    {
+      "slug": "roxel-france52012502024-03-0738412505000029f02",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "No demand/deadline in text (the fiche shows 'Demande à formuler: -') — m_DELAI removed."
+    },
+    {
+      "slug": "roxel-france52012502024-03-0738412505000029f02",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R01",
+      "reason": "R14 (NC factuelle) replaced with R01 (proactive) — the exploitant's prior-year corrective action is verified as implemented; error type #7 (wrong R code)."
+    },
+    {
+      "slug": "roxel-france52012502024-03-0738412505000029f02",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S04",
+      "reason": "S02 (injonction) replaced with S04 (vérification/contre-visite) — this fiche is confirming a correction, not issuing a new demand."
+    },
+    {
+      "slug": "roxel-france52012502024-03-0738412505000029f02",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G1",
+      "reason": "G3 replaced with G1 — the point checked is conforme, no NC remains."
+    },
+    {
+      "slug": "roxel-france52012502024-03-0738412505000029f02",
+      "field": "trajectory",
+      "hunter_value": "T2",
+      "corrected_value": "T3",
+      "reason": "T2 (suivi) replaced with T3 (amélioration constatée) — the fiche confirms a correction made since the prior inspection, not merely a follow-up observation."
+    },
+    {
+      "slug": "roxel-france52012502024-03-0738412505000029f04",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "roxel-france52012502024-03-0738412505000029f05",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "roxel-france52012502024-03-0738412505000029f06",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "roxel-france52012502024-09-1738412505000029f01",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "roxel-france52012502024-09-1738412505000029f02",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "roxel-france52012502024-09-1738412505000029f03",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "roxel-france52012502024-09-1738412505000029f04",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "roxel-france52012502024-09-1738412505000029f05",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "roxel-france52012502024-09-1738412505000029f11",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "roxel-france52012502024-09-1738412505000029f13",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "roxel-france52012502024-09-1738412505000029f14",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "roxel-france52012502025-06-0538412505000029f01",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "roxel-france52012502025-06-0538412505000029f02",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "roxel-france52012502025-06-1338412505000029f01",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "roxel-france52012502025-06-1338412505000029f02",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "roxel-france52012502025-06-1338412505000029f06",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "roxel-france52012502025-06-1338412505000029f08",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "royal-canin-france1000014492023-10-2538082488800206f02",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI removed — the only commitment in this constats_body is conditional ('lors de la libération du site'), not a numeric deadline."
+    },
+    {
+      "slug": "royal-canin-france1000014492023-10-2538082488800206f02",
+      "field": "dynamic",
+      "hunter_value": "R09",
+      "corrected_value": "R02",
+      "reason": "R09 (tiers bloquant / bailleur) reassigned to R02 (promesse) — the 'bailleur' context Hunter's reasoning cites belongs to the sibling fiche f03, not this slug; this slug's own text is a future commitment by the exploitant ('s'est engagé à produire l'attestation'), matching R02's definition exactly. Error type #7/#8 boundary (R09 over-attribution from adjacent-fiche content)."
+    },
+    {
+      "slug": "royal-canin-france1000014492023-10-2538082488800206f02",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S01",
+      "reason": "S02 (injonction) replaced with S01 (constat) — no 'Demande à formuler' section exists in this fiche; it is an observational note, not a formal injonction."
+    },
+    {
+      "slug": "sabena-technics-bod-sas52010082023-03-0748770604600025f07",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "sabena-technics-bod-sas52010082024-04-1048770604600025f01",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "sabena-technics-bod-sas52010082024-04-1048770604600025f02",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "sabena-technics-bod-sas52010082024-04-1048770604600025f03",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "sabena-technics-bod-sas52010082024-04-1048770604600025f04",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "sabena-technics-bod-sas52010082024-04-1048770604600025f05",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    },
+    {
+      "slug": "sabena-technics-bod-sas52010082024-04-1048770604600025f06",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "m_DELAI applied but no numeric/temporal deadline (date, 'sous N jours/mois', 'délai de N') appears in constats_body — known systematic over-application pattern of the S02_INJONCTION/m_DELAI pair; modifier removed."
+    }
+  ],
+  "false_positive_rate": 0.48,
+  "error_patterns": "Two systemic issues dominate this batch, well beyond the isolated errors the Hunter/Skeptic pipeline normally expects. (1) CONTENT-DRIFT / INDEX SHIFT: for the ringmerit-epsilon report (15 fiches, f02-f16) and the roxel-france 2023-04-06 report (19 fiches, f01-f19) plus one record in the 2023-03-13 report, Hunter's 'reasoning' and codes at a given slug frequently describe the content of a DIFFERENT fiche in the same report (often shifted by a few positions, or duplicated from an adjacent fiche's topic), and in several cases the described content matches no fiche in the batch at all (apparent hallucination). This produced widespread false M08/false M14/wrong-domain errors that a per-field diff alone would not catch — only a full re-read of constats_body against the tag exposed it. All 34 affected records were reclassified from the raw corpus text. (2) m_DELAI OVER-APPLICATION: of the 66 S02_INJONCTION records carrying the m_DELAI modifier, 42 (64%) have no numeric or temporal deadline anywhere in constats_body (7 already covered by the content-drift fix above; the other 35 modifiers were stripped directly, including 27 of 27 non-conforme roxel-2023-04-06 fiches, all 7 sabena-2024-04-10-linked fiches, and 1 royal-canin fiche). Hunter appears to default to m_DELAI whenever a 'Demande à formuler' section exists, regardless of whether a delay is actually specified — this matches the known cross-batch pattern flagged for this audit. No instances of the other flagged pattern (R10_TENSION misused for unfulfilled-promise cases) were found — R10 does not appear anywhere in this batch. Beyond these two systemic issues, isolated errors matched the standard taxonomy: false M14 for a purely-documentary NC (rodiere f01, error type #2), and an R09 over-attribution where Hunter's reasoning imported context from a sibling fiche (royal-canin 2023-10-25 f02, error type #7/#8 boundary).",
+  "verdict": "REJECT AS-IS — this Hunter run has a far higher defect rate than the pipeline's <15% target: 62/130 records (48%) required a correction, concentrated in two identifiable, systemic failure modes (content-drift in 2 of ~9 source reports, and blanket m_DELAI application) rather than random noise. Both failure modes are mechanically detectable (reasoning-vs-corpus mismatch; deadline-keyword absence) and were fully corrected in final-57.json, which passes STRICT code validity and batch-completeness validation (scripts/tag_status.py). Records outside the two flagged reports (roxel 2024-03-07/2024-09-17/2025-06-*, sabena, sabas, rivot) were spot-checked at normal Skeptic sampling depth and were reliable aside from the m_DELAI pattern — no further content-drift was found there. Recommend flagging the ringmerit-epsilon and roxel-france 2023-04-06 reports specifically if any other Hunter batches touch the same source PDFs, since content-drift is a per-report failure (likely a context/chunking issue during Hunter's run on those two long reports) rather than a per-batch one."
+}

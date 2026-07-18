@@ -1,0 +1,2478 @@
+[
+  {
+    "slug": "nouryon-pulp-performance-chemicals52002572025-12-03454200882000651dgys1f08",
+    "domains": [
+      "D03_SEVESO",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Inspection des documents de maintenance (visites, interventions) sur équipements de maîtrise des procédés. Rapport FRVI24033237 conseillait remplacement batteries, rapport 10363664 confirme le remplacement effectué. Aucune action nécessaire restante. Conformité constatée sur tous les documents consultés. G1 car aucun écart."
+  },
+  {
+    "slug": "nouryon-pulp-performance-chemicals52002572025-12-03454200882000651dgys1f09",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14",
+      "M06"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G4",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Trois inspections successives: constat initial de détérioration béton rétention (M14), travaux demandés mais non réalisés puis béton dégradé davantage (M06 récidive), projet MED proposé. Constat du jour: travaux réalisés pendant phase contradictoire, MED abandonnée. L'exploitant avait promis des travaux sans les réaliser (R02 façade→ finalement corrections). G4 car MED active + NC technique (béton non étanche) durant phase intermédiaire. T3 car résolution constatée."
+  },
+  {
+    "slug": "nouryon-pulp-performance-chemicals52002572025-12-0345420088200065njcbzof01",
+    "domains": [
+      "D05_AIR_BRUIT",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Inspection du découpage en sous-installations SEQE. L'hydrogène ne relève pas du benchmark hydrogène selon le texte réglementaire. L'établissement est découpé correctement en sous-installations avec méthodes alternatives. Conformité factuelle constatée sans écart. G1."
+  },
+  {
+    "slug": "nouryon-pulp-performance-chemicals52002572025-12-0345420088200065njcbzof02",
+    "domains": [
+      "D05_AIR_BRUIT",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M01",
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PMS transmis en version projet incomplet: formules de calcul insuffisamment expliquées, onglets E et G non justifiés, double comptage chaleur non démontré, ALC draft incomplet. NC documentaire/méthodologique (M01 documents non complets, M02 qualité méthodologique du PMS). Demande de compléter PMS et ALC avant dépôt. G2 car purement documentaire/formel. T1 premier constat sur ce point."
+  },
+  {
+    "slug": "nunes52140022022-09-2284046799700010f01",
+    "domains": [
+      "D08_DECHETS",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A11",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Refus d'accès par propriétaire. Depuis la route: seul un VHU visible, faible quantité déchets. Inspection ne peut attester que le site relève des ICPE. Vérification de classement/seuil (M17). Courrier mairie prévu. G2 car situation peu claire mais aucune NC grave constatée. T1."
+  },
+  {
+    "slug": "nunez-hernandez-ex-france-auto-pieces52075222022-12-0638253391700029f01",
+    "domains": [
+      "D08_DECHETS",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "VHU dans l'herbe sans aire imperméabilisée ni moyens incendie, près de cours d'eau. Pas d'enregistrement préfectoral pour rubrique 2712-1 (seuil 100m², 3000m² constatés). NC physique (absence aire imperméabilisée, stockage non conforme) = M14. Absence enregistrement = M17. Exploitant invoque sa situation en train de vendre = R04 méconnaissance. G3 car équipements absents (aire étanche) avec risque environnemental potentiel (Dronne/ruisseau proches)."
+  },
+  {
+    "slug": "nunez-hernandez-ex-france-auto-pieces52075222022-12-0638253391700029f02",
+    "domains": [
+      "D08_DECHETS",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence d'agrément préfectoral pour centre VHU (obligation en plus de l'enregistrement). NC administrative/documentaire pure. Demande régularisation ou cessation sous 3 mois. G2 documentaire."
+  },
+  {
+    "slug": "nunez-hernandez-ex-france-auto-pieces52075222024-02-2038253391700029f01",
+    "domains": [
+      "D08_DECHETS",
+      "D13_CESSATION",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M19",
+      "M04",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "MED du 21/06/2023 non totalement respectée: déchets résiduels (pneus, jantes, gravats), pas de notification cessation, pas de dossier cessation, pas de diagnostic sols. ATTES SECUR et ATTES MEMOIRE exigées. M19 (obligations post-cessation R512-46-25), M04 (MED active non levée), M01 (documents cessation/diagnostic absents). G4 car MED active non levée + NC matérielle (déchets et pollution sols potentielle). T4 situation stagnante malgré MED."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-0233903070200130f01",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Programme maintenance TAR non détaillable (responsables absents). GMAO déployée progressivement. Exploitant s'engage à inclure TAR/STEP dans GMAO et programme révision annuel. M07 (vérification/maintenance). Demande confirmation sous 30 jours. R02 car engagements verbaux sans preuve immédiate. G2 documentaire/organisationnel."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-0233903070200130f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Dépassements récurrents VLE rejets aqueux (température, MES, HCT, DBO5, DCO, phénol) sur 12 mois glissants, STEP saturée en boues, un bassin complètement obstrué. NC physique observée (bassin obstrué). Projet MED proposé. Actions prévues mais efficacité non démontrée. G4 car MED proposée + NC technique (STEP dégradée). T4 dépassements récurrents malgré investissements annoncés."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-0233903070200130f03",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun document désignant nommément le responsable surveillance TAR. NC documentaire formelle. Demande de fourniture sous 30 jours. G2 purement documentaire."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-0233903070200130f04",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Formations TAR datant de 2018, renouvellement prévu fin 2022/début 2023. Attestations présentées mais pour le seul plan de formation 2018. Exploitant s'engage à renouveler. M07 (vérification périodique formation). G2 documentaire/organisationnel. T1."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-0233903070200130f05",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01",
+      "M07"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "AMR TAR date de 2018 (dépassement périodicité 2 ans). Pas de plan d'action confirmé suite AMR. Projet MED pour mise à jour AMR. NC technique non réalisée (contrôle/analyse périodique non effectué). G3 car contrôle non réalisé constitue signal G3 selon taxonomie. T4 stagnation (pas de mise à jour depuis 2018)."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-0233903070200130f06",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Manuel d'exploitation fourni avec toutes les procédures. Analyse légionelles réalisée le 16/08 après nettoyage 12/08. Conformité constatée. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-0233903070200130f07",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Manuel d'exploitation fourni détaillant traitement préventif, produits, efficacité. Conformité constatée sans remarque. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-0233903070200130f08",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant n'a pas pu confirmer le nettoyage préventif annuel de la TAR. Manuel mentionne ce nettoyage. Demande de confirmation et document attestant du dernier nettoyage sous 30 jours. M07 (vérification périodique). M01 (absence document). G2 documentaire."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-0233903070200130f09",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Manuel identifie paramètres de suivi hebdomadaires/mensuels et traitements correctifs. Prélèvements mensuels Legionella pneumophila réalisés. Conformité constatée. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-0233903070200130f10",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M11",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dépassement 100 000 UFC/L en août 2022. Actions curatives et nettoyage réalisés, résultats conformes post-nettoyage. Mais rapport global d'incident non encore transmis (délai 2 mois), vérification par organisme indépendant sous 6 mois non encore faite. M11 (rapport incident). M01 (document à transmettre). Exploitant s'engage à transmettre (R02). G3 car incident légionelles significatif."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-0233903070200130f11",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Carnet de suivi TAR non consulté (responsable absent). NC documentaire. Demande de transmission sous 30 jours. M01. G2."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-0233903070200130f12",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M03",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun bilan annuel 2021 analyses TAR transmis à l'inspection. M03 (reporting/transmission) et M01 (absence document). Demande transmission bilan 2021 sous 30 jours. G2 documentaire."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-0233903070200130f13",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "EPI affichés au niveau de la tour, personnels disposent des équipements. Conformité constatée. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-0233903070200130f14",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Site non accessible aux étrangers. Zone TAR protégée par cordon de sécurité. Conformité constatée. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-2633903070200130f01",
+    "domains": [
+      "D05_AIR_BRUIT",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M02",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Méthode de comptabilisation tonnages verre (PMS SEQE) - pas de justification d'impossibilité technique/financière pour la méthode la plus exacte (pesée en continu automatisée). Écart méthodologique M02. Demande évaluation sous 1 mois. G2 documentaire/méthodologique."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-2633903070200130f02",
+    "domains": [
+      "D05_AIR_BRUIT",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle par sondage: seul verre coloré < 2,5L déclaré, aucun écart constaté sur inventaire, stock laboratoire et ligne production 23. Conformité factuelle. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-2633903070200130f03",
+    "domains": [
+      "D05_AIR_BRUIT",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle par sondage schéma de fonctionnement PMS: aucun écart relevé. Modification four 2023 ne nécessite pas mise à jour PMS/PDS. Conformité constatée. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-2633903070200130f04",
+    "domains": [
+      "D05_AIR_BRUIT",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle métrologique appareils pesée bouteilles (balances 04099G et 04102G): aucun écart constaté. Conformité. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-2633903070200130f05",
+    "domains": [
+      "D05_AIR_BRUIT",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Facteur d'émission calcaire: analyses trimestrielles par labo accrédité ISO 17025 confirmé. Aucun écart. Conformité. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-2633903070200130f06",
+    "domains": [
+      "D05_AIR_BRUIT",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle par sondage fréquences analyses et résultats facteur émission calcaire: aucun écart. Conformité. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-2633903070200130f07",
+    "domains": [
+      "D05_AIR_BRUIT",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01",
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PDS mentionne 3 appareils pesée mais calcaire et carbonate pesés avec le même appareil. Vérification mensuelle non réalisée entre 31 mai et 28 juillet 2022 (2 mois d'écart). NC méthodologique (M02) et documentaire (M01). Demande PDS corrigé et explications sous 1 mois. G2 documentaire/méthodologique."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-09-2633903070200130f08",
+    "domains": [
+      "D05_AIR_BRUIT",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Facteur émission fuel lourd: analyses mensuelles par labo indépendant accrédité ISO 17025. Résultats vérifiés par sondage: aucun écart. Conformité. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-11-2533903070200130f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M05",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Dépassements VLE NOx confirmés en mars, mai et octobre 2022 malgré délai astreinte échu le 28/03/2022. Liquidation partielle astreinte proposée jusqu'à fin octobre 2022. M05 (astreinte = sanction), M04 (MED active non respectée). G4 car MED active + NC technique (dépassements VLE confirmés). T4 stagnation malgré mesures."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-11-2533903070200130f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M05",
+      "M04",
+      "M06"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T7",
+    "confidence": "high",
+    "reasoning": "Dépassements HCl récurrents: mai 2021, décembre 2021, mai 2022. MED du 28/01/2022 non respectée (dépassement encore en mai 2022). Projet amende 5000€. Malgré actions, source HCl non identifiée. M05 amende proposée, M04 MED non respectée, M06 récidive. G4 car MED active + dépassements VLE confirmés. T7 chronique (dépassements depuis 2021 sur plusieurs campagnes)."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-11-2533903070200130f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M04",
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "medium",
+    "reasoning": "Dilution des rejets atmosphériques sans autorisation dans l'AP. NC perdure. Demande formulation demande sous 30 jours. M04 (MED active sur ce point). M09 (PAC nécessaire pour régulariser dilution). G3 car NC technique sur système de traitement/mesure. T4 NC persistante."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-11-2533903070200130f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "1007h d'indisponibilité systèmes traitement rejets en 2022 (limite 250h/an). Incident sur DéNOx (fissure cuve ammoniacale). Nouvel incident: fuite double peau cuve ammoniacale, exploitant différant changement. M14 (équipements dégradés: fuite double peau), M04 (MED active, délai 12 mois). Exploitant promet de gérer lors maintenance 2023 (R02). G4 car MED active + équipement dégradé (fuite double peau cuve). T4 stagnation."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-11-2533903070200130f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Polluants visés par MED mesurés lors campagnes mai et octobre 2022. MED respectée sur ce point. Conformité constatée. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-11-2533903070200130f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dépassements poussières et débit de rejet sur les 2 conduits lors mesures octobre 2022. Exploitant sans explications. Raisons inexpliquées, pas d'actions correctives. Projet MED proposé. M14 (NC technique observée lors mesure sur site). G4 car MED proposée + dépassements VLE confirmés. T1 premier constat sur ces dépassements-là (distinct MED NOx antérieure)."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-11-2533903070200130f07",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Autosurveillance août-octobre 2022: nombreux dépassements NOx et CO en concentration journalière et mensuelle. Actions correctives insuffisantes. Projet MED pour CO. M14 (NC technique constante sur VLE). G4 car MED active + dépassements multiples. T4 stagnation."
+  },
+  {
+    "slug": "o-i-france-sas52013752022-11-2533903070200130f08",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "AMR mise à jour le 07/10/2022 (suite MED). Plan d'action transmis mais incomplet: certaines actions non planifiées ou sans échéance. MED du 24/10/2022 pas encore levée. Exploitant s'engage à compléter (R02). M04 (MED active), M01 (plan d'action incomplet). G3 car contrôles non entièrement réalisés. T3 amélioration partielle (AMR enfin mise à jour)."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-02-1433903070200130f01",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M11",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déclenchement POI le 14/02/2023 non signalé à l'inspection (alertée par préfecture/SDIS). Incident STEP concomitant avec rejet eau non traitée. Rapport incident à transmettre sous 15 jours. M11 (déclaration incident non faite), M01 (rapport à remettre). G4 car incident grave (POI déclenché, impact environnemental potentiel). T1."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-02-1433903070200130f02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "POI datant de 2017, en cours de mise à jour. Pas d'exercice annuel avec SDIS confirmé. POI ne prend pas en compte modifications Froneri (ammoniac). Demande confirmation exercice et mise à jour POI sous 15j/2 mois. M07 (exercice périodique non confirmé), M01 (POI non à jour). G3 car contrôle non réalisé (exercice). T4 stagnation (POI non mis à jour depuis 2017)."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-02-1433903070200130f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réserve eau incendie (840m³) insuffisante pour couvrir les 960m³ requis. Lors de l'incident, château d'eau s'est retrouvé vide. Groupe électrogène non correctement connecté au réseau incendie. NC technique physique (volume insuffisant, connexion incorrecte groupe). Projet MED proposé. M14 (NC physique sur équipements critiques). G4 car MED proposée + NC sécurité incendie critique."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-02-1433903070200130f04",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "EDD 2003: connexion groupe électrogène défaillante (révélée par incident), alarme possiblement connectée au transformateur défaillant, pas de réserve mousse suffisante pour coulées de verre. NC physiques multiples révélées par l'incident. Projet MED. M14 (équipements inopérants révélés). G4 car MED proposée + défaillances sécurité critiques constatées."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-02-1433903070200130f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vérification thermographie installations électriques réalisée mais rapport non fourni (contexte incident). Demande rapport vérification sous 15 jours. M07 (vérification périodique), M01 (document non fourni). G3 car incident électrique grave (fonte jeux de barre) et rapport manquant."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-02-1433903070200130f06",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure mise en sécurité non consultée lors de l'inspection (incident en cours). Demande de détailler la procédure sous 15 jours et confirmer prise en compte défaillance jeux de barres. M01 (procédure non consultée/incomplète). G2 documentaire."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-02-2133903070200130f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M11",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Incendie 21/02/2023 non signalé à l'inspection (alertée par préfecture/SDIS). Fiche incendie transmise le 22/02 mais incomplète (cause non identifiée, eaux extinction non tracées, analyse causes insuffisante). M11 (déclaration incident tardive/incomplète), M01 (rapport incomplet). G4 car incident réel (incendie survenu). T1."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-02-2133903070200130f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T5",
+    "confidence": "high",
+    "reasoning": "Accumulation d'incidents (TAR dépassements légionelles août/sept 2022, VLE rejets, accident mortel jan 2023, POI déclenchement fev 2023, incendie fev 2023). SME dont l'effectivité est remise en question. Effectifs HSE réduits. Projet AP complémentaire pour audit SME externe. M07 (révision SME), M04 (AP complémentaire proposé). G3 car accumulation écarts organisationnels. T5 aggravation (succession d'incidents)."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-02-2133903070200130f03",
+    "domains": [
+      "D04_EAUX",
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M03",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Aucune donnée surveillance rejets aqueux, eaux souterraines, légionelles transmise depuis septembre 2022. GIDAF non renseigné. M03 (reporting GIDAF absent), M01 (données non transmises). G2 documentaire. T4 stagnation (non transmission persistante)."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M03",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Données GIDAF transmises avec retard (6 mois en bloc), mois août/sept 2022 manquants. Dépassements multiples (température max en mars 2023 jusqu'à 83.7°C, volume max, DCO, DBO5, pH). MED du 24/10/2022 non respectée sur température. Projet amende administrative. M03 (GIDAF non respecté), M14 (STEP dégradée physiquement). G4 car MED active non respectée + NC techniques. T4 dépassements récurrents depuis 2022."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f02",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Attestation taux entraînement vésiculaire non fournie (dévésiculeur installé avant 2005 non démontré). M01 (document absent). Demande fourniture sous 15 jours. G2 documentaire."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f03",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Document désignant nommément personnes en charge TAR transmis lors de l'inspection. NC levée (point de contrôle de septembre 2022). T3 amélioration. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f04",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Attestations formations TAR 2020 fournies pour les 3 personnes désignées. Contenu formation conforme. NC levée par rapport à inspection 2022. T3 amélioration. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f05",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M07",
+      "M04"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R07",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "AMR mise à jour (07/10/2022) mais plan d'actions incomplet: nombreuses actions non réalisées, échéances dépassées. Exploitant invoque réflexion sur remplacement TAR et attente prestataire (R07 contrainte technique/organisationnelle). Menace MED. M07 (actions AMR non mises en œuvre), M04 (sous MED). G3 car contrôles non réalisés selon plan AMR. T4 stagnation malgré MED."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f06",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Plan d'entretien TAR non mis à jour suite AMR. Exploitant confie au prestataire (R02 promesse). M01 (document non à jour), M04 (sous MED). G2 documentaire. T4 stagnation."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f07",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Plan de surveillance TAR non mis à jour suite AMR. Exploitant confie au prestataire (R02). M01 (document non à jour), M04 (sous MED). G2 documentaire. T4 stagnation."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f08",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Procédures TAR en place mais procédure dépassement >100 000 UFC/L ne mentionne pas vérification organisme extérieur dans 6 mois. Exploitant indique spontanément corriger (R01). M01 (document incomplet). G2 documentaire. T3 amélioration partielle."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f09",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Carnet de suivi TAR à nouveau non fourni lors de l'inspection (même NC qu'en 2022). Maintenance TAR dans GMAO confirmée mais date dernier nettoyage impossible à confirmer. M01 (carnet non fourni), M07 (vérification périodique non documentée). G2 documentaire. T4 même NC récurrente."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f10",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Actions curatives lors dépassements août et septembre 2022 (>100 000 UFC/L): conformes aux prescriptions. Conformité constatée. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f11",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Dépassement 05/09/2022: prélèvement de vérification potentiellement tardif, exploitant ne peut justifier respect délai <1 semaine. Prélèvement 03/10 non conclusif (flore interférente), prélèvement suivant seulement 03/11 sans justification. M07 (protocole suivi insuffisant), M01 (documents non fournis). G3 car contrôle non réalisé dans délai réglementaire. T4 récurrence problème documentation."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f12",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "medium",
+    "reasoning": "Mesures tous les 15 jours post-dépassement non documentées (seuls prélèvements mensuels fournis). Exploitant affirme avoir fait mais sans preuve. M07 (fréquence surveillance non justifiée), M01 (rapports manquants). G2 documentaire. T4."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f13",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Plans d'entretien et surveillance non mis à jour pour intégrer les facteurs de risques à l'origine des dépassements d'août/septembre 2022. M01 (documents non mis à jour). G2 documentaire. T4."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f14",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M11",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Rapport incident dépassement août 2022 transmis. Rapport incident dépassement septembre 2022 non transmis. M11 (rapport incident manquant), M01. G2 documentaire. T4."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f15",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Prélèvement 03/10 avec flore interférente, prélèvement suivant seulement le 03/11 (soit ~1 mois). Délai entre prélèvements anormalement long au regard de l'obligation de prélèvement immédiat. Exploitant ne justifie pas. M07 (protocole surveillance non respecté). G2 documentaire/procédural. T4."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f16",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Prélèvement 03/11/2022 suite flore interférente 03/10: résultat conforme. Conformité constatée. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f17",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M03",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Bilan annuel 2022 analyses TAR non transmis. M03 (reporting), M01 (document absent). G2 documentaire. T4 même NC qu'en 2022 (bilan 2021 demandé alors)."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f18",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rejets d'air TAR non effectués au droit d'une prise d'air ni d'ouvrants. Conformité constatée. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f19",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Bon état dévésiculeur non vérifié lors visite. Exploitant indique entretien régulier sans pouvoir le prouver. Demande document probant sous 1 mois. M07 (vérification périodique), M01. G2 documentaire."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f20",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Sol local stockage produits traitement TAR étanche, inspecté par sondage: aucun écart. Conformité. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f21",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Même constat que septembre 2022: site non accessible aux étrangers, TAR protégée par cordon. T2 suivi explicite constat antérieur. Conformité maintenue. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f22",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "EPI disponibles mais validité non précisée par exploitant. Vérification récente par prestataire selon exploitant. Demande confirmation validité et rapport vérification sous 1 mois. M07 (vérification périodique EPI), M01. G2 documentaire."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-06-0933903070200130f23",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A05",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Audit SME externe réalisé le 23/03/2023 (AP complémentaire suite inspection 21/02/2023). Audit révèle NC et points sensibles. Plan d'actions transmis mais uniquement sur points NC, pas sur points sensibles. PS4 (plan contrôle air obsolète), PS6 (défaut mesures risque incendie), PS19 (actions NC dépassées). Exploitant confirme suivi et réalisation dans délais. M07 (audit SME = vérification), M04 (AP complémentaire en cours). G3 car actions non réalisées malgré échéances. T3 amélioration partielle (audit réalisé)."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-11-2433903070200130f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M05",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Mesures juin 2023 avec systèmes indisponibles: dépassements NOx conduit 1. Mesures inopiné août 2023 avec systèmes opérationnels: conformes. Liquidation totale astreinte proposée (01/11/2022 au 02/08/2023). M05 (liquidation astreinte), M04 (MED active levée). G1 car conformité constatée au jour. T3 amélioration (retour conformité)."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-11-2433903070200130f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M05",
+      "M04",
+      "M06"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T5",
+    "confidence": "high",
+    "reasoning": "Dépassements poussières en juin 2023 (jusqu'à 20x VLE), et encore en août 2023 malgré électrofiltre réparé. Actions correctives insuffisantes. Projet astreinte 50€/j. M05 (astreinte proposée), M04 (MED active), M06 (récidive dépassements poussières depuis MED 2022). G4 car MED active + dépassements VLE confirmés. T5 aggravation (dépassements augmentent)."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-11-2433903070200130f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Dépassements multiples polluants atmosphériques en juin 2023 (HCl, métaux, COV, plomb). HCl encore en dépassement contrôle inopiné août 2023 (même NC que 2022). M14 (NC technique sur émissions), M04 (sous MED/astreinte). G4 car NC technique persistante sous MED. T4 stagnation sur HCl."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-11-2433903070200130f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04",
+      "M06"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Autosurveillance jan-oct 2023: nombreux dépassements NOx, CO, poussières sur tout l'année, liés aux indisponibilités électrofiltre. Exploitant sans explication pour dépassements CO. Données autosurveillance incorrectes sur certaines lignes. M14 (NC technique continue sur VLE), M04 (sous MED/astreinte), M06 (récidive). G4 car MED active + dépassements. T4 stagnation."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-11-2433903070200130f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M05",
+      "M04",
+      "M06"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T5",
+    "confidence": "high",
+    "reasoning": "Indisponibilité 1888h en 2023 (limite 250h/an). Constaté aussi en 2021, 2022. Exploitant n'a pas commandé vis à temps, puis tardivement. Projet amende 10 000€. M05 (amende proposée), M04 (MED active), M06 (récidive dépassement limite indisponibilité). G4 car MED active + NC technique (indisponibilité systèmes). T5 aggravation (1051h en 2022 → 1888h en 2023)."
+  },
+  {
+    "slug": "o-i-france-sas52013752023-11-2433903070200130f06",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01",
+      "M04"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "EDD mise à jour non transmise alors que modifications four 2 en exploitation depuis mars 2023. Exploitant indique finalisation imminente mais non reçue à date rapport. Projet MED proposé. M01 (EDD non transmise), M04 (MED proposée). Exploitant promet transmission (R02). G3 car maîtrise risques non démontrée pour modifications en service. T4 retard persistant."
+  },
+  {
+    "slug": "o-i-france-sas52013752024-06-2833903070200130f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04",
+      "M06"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Autosurveillance nov 2023-mai 2024: dépassements récurrents NOx, CO, poussières. Mois d'avril 2024: dépassements massifs poussières et CO liés à arrêt four 1 et incompatibilité température/électrofiltre. Exploitant sans explications sur plusieurs dépassements CO. M14 (NC technique continue), M04 (MED/astreinte), M06 (récidive). G4 car MED active + dépassements. T4 stagnation."
+  },
+  {
+    "slug": "o-i-france-sas52013752024-06-2833903070200130f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14",
+      "M05",
+      "M06"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Mesures périodiques avril 2024: dépassements poussières, HCl, SO2, métaux. Exploitant sans explications formelles. Projet astreinte 50€/j différé 3 mois. M14 (NC technique mesures tierces), M05 (astreinte), M06 (récidive dépassements). G4 car MED active + NC technique. T4 stagnation."
+  },
+  {
+    "slug": "o-i-france-sas52013752024-06-2833903070200130f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "medium",
+    "reasoning": "Indisponibilité 201,8h en 2024 au jour de l'inspection. Nombreuses pannes documentées. Dépassement prévu lors maintenance annuelle juillet. Exploitation note que seuil n'est pas encore dépassé en juin 2024. M14 (pannes répétées équipements traitement). G3 car équipements dégradés (vis voilées, pannes compresseur DeNOx). T3 amélioration partielle (mieux qu'en 2023)."
+  },
+  {
+    "slug": "o-i-france-sas52013752024-06-2833903070200130f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M03",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Données GIDAF jan-avr 2024 non saisies. Dépassements récurrents température, DCO, DBO5, MES, pH sur mai 2023-mai 2024. Principalement liés à TAR insuffisante et boues STEP. Actions en cours (améliorations STEP depuis mi-avr 2024, projet remplacement TAR). M03 (GIDAF non renseigné), M14 (STEP/TAR physiquement insuffisants). G3 car NC technique mais amélioration engagée. T3 amélioration en cours."
+  },
+  {
+    "slug": "o-i-france-sas52013752024-11-1533903070200130f01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M09",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "EDD mise à jour transmise en mai 2024 (résolution MED 2023). Certains points en suspens abordés en inspection, compléments demandés sous 2 mois. M09 (PAC/mise à jour EDD), M01 (compléments manquants). Exploitant transmet, compléments promis (R02). G2 documentaire (EDD transmise mais incompléte). T3 amélioration (EDD finalement transmise)."
+  },
+  {
+    "slug": "o-i-france-sas52013752024-11-1533903070200130f02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Pas d'exercice POI en 2024 (attente mise à jour EDD/POI). Exercice prévu en 2025 avec pompiers. Peridicité annuelle non respectée. M07 (exercice périodique non réalisé). Exploitant s'engage (R02). G2 documentaire/organisationnel. T4 stagnation (ni 2023 ni 2024)."
+  },
+  {
+    "slug": "o-i-france-sas52013752024-11-1533903070200130f03",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Vérification visuelle août 2024: parafoudres manquants, NC constatées. Aucune mise en conformité réalisée depuis (devis en attente). Délai 1 mois prescrit par AM non respecté. Projet MED proposé. M14 (équipements protection foudre absents/non conformes), M04 (MED proposée). G4 car MED proposée + NC technique sur protection foudre. T4 stagnation (NC identifiée en 2023 mais non corrigée)."
+  },
+  {
+    "slug": "o-i-france-sas52013752024-11-1533903070200130f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Certificats APSAD Q7 détection incendie sans dysfonctionnement mais 'rapports spécifiques' complémentaires non consultés. NC incertaine. Demande rapport détaillé sous 1 mois. M07 (vérification périodique), M01 (rapport complet absent). G2 documentaire."
+  },
+  {
+    "slug": "o-i-france-sas52013752024-11-1533903070200130f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R07",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Vérification désenfumage 2023: 4 équipements non fonctionnels + 59 avec travaux à prévoir. Travaux retardés (toiture amiantée, nécessite entreprise spécialisée). Aucune remise en état réalisée. R07 contrainte technique (amiante). M14 (équipements désenfumage non fonctionnels). G3 car équipements hors service. T4 stagnation (NC connue depuis 2023)."
+  },
+  {
+    "slug": "o-i-france-sas52013752024-11-1533903070200130f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "RIA n°121 toujours endommagé ('inutilisable'), non réparé depuis vérification oct 2023. Pas de couverture double jet pour certaines zones. Extincteurs >10 ans présents sans justification. M14 (RIA hors service/endommagé), M07 (vérification périodique). G3 car RIA hors service (signal clair G3)."
+  },
+  {
+    "slug": "o-i-france-sas52013752024-11-1533903070200130f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport vérification poteaux/bouches incendie 13/11/2024: bon état général sauf un poteau inaccessible. Fuites réseau incendie signalées en août 2024, diagnostic en cours, plan d'action non encore défini. M14 (réseau incendie avec fuites, état incertain). G3 car équipement physique dégradé (fuites réseau incendie). T1."
+  },
+  {
+    "slug": "o-i-france-sas52013752024-11-1533903070200130f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "EDD mise à jour (mai 2024) indique déficit 100m³ sur besoin eau incendie 1440m³. Calcul prend en compte moyens non reliés au réseau. Besoin non couvert à 100%. M14 (NC physique sur volume disponible). G3 car volume insuffisant pour extinction incendie. T1."
+  },
+  {
+    "slug": "o-i-france-sas52013752024-11-1533903070200130f09",
+    "domains": [
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "EDD mai 2024 mentionne zonage ATEX de 2017. Exploitant indique mise à jour réalisée suite modifications 2022 mais ne peut fournir le document. M01 (document ATEX mis à jour non disponible). Exploitant promet transmission (R02). G2 documentaire."
+  },
+  {
+    "slug": "o-i-france-sas52013752024-11-1533903070200130f10",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M01",
+      "M04"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Liste ESP fournie mais incomplète: canalisations oxygène Linde absentes, régime surveillance manquant, dates inspection non renseignées pour tous. Ne répond pas aux exigences AM 20/11/2017. Projet MED. M01 (liste ESP incomplète), M04 (MED proposée). G3 car absence de suivi équipements sous pression (risque potentiel). T1."
+  },
+  {
+    "slug": "o-i-france-sas52013752025-10-0833903070200130f01",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M04",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "MED 26/03/2025 pour protection foudre. Travaux partiels réalisés (dossier ouvrages exécutés 20/05/2025). Mais parafoudres type 1 manquants toujours non confirmés comme installés. Vérification complète prévue d'ici fin 2025. M04 (MED active), M07 (vérification complète à réaliser). Exploitant promet vérification (R02). G3 car NC sur protection foudre (équipements partiellement absents). T3 amélioration partielle."
+  },
+  {
+    "slug": "o-i-france-sas52013752025-10-0833903070200130f02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M01",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "MED 26/03/2025 pour liste ESP. Inventaire réalisé et télédéclarations faites. Liste transmise mais incomplète (régime surveillance absent, dates manquantes pour certains ESP). Travail en cours avec bureau d'études, liste conforme attendue fin 2025. M01 (liste incomplète), M04 (MED active). Exploitant en train de compléter (R02). G2 documentaire. T3 amélioration partielle."
+  },
+  {
+    "slug": "o-i-france-sas52013752025-10-0833903070200130f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [],
+    "dynamic": "R12",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Signalement nuisances sonores riveraine depuis >1 an. Campagne mesures mars-avril 2025: dépassement émergence 1,5 dB au point riveraine mais non imputable aux installations fixes. Source sonore indéterminée identifiée. Inspection considère nuisances réelles mais mesures ne montrent pas NC formelle. Demande nouvelle campagne indépendante. M02 (qualité méthodologique de la campagne remise en cause). Inspection fait preuve de souplesse (R12). G2 car écart potentiel mais non confirmé."
+  },
+  {
+    "slug": "o-i-france-sas52013752025-11-2733903070200130f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Projet modifications installations porté à connaissance le 18/07/2025 (arrêt définitif four 1 envisagé, ajout ligne four 2, évolution traitements). Points clarifiés lors inspection. Projet AP préfectoral sera transmis. M09 (PAC conforme à la procédure). Conformité procédurale. G1."
+  },
+  {
+    "slug": "o-i-france-sas52013752025-11-2733903070200130f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R09",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Dépassements poussières en fév, avr, mai, juin, juil 2025 et SO2 en juin 2025. Liés à dysfonctionnements électrofiltre. Exploitant conteste pertinence correction O2 (four oxygène seul). Inspection accepte discussion réglementation mais dépassements actuels persistent. M14 (NC technique VLE), M04 (sous MED/astreinte active). Problème technique lié à four à oxygène (R09 outil/système défaillant). G4 car MED active + NC VLE. T4 stagnation chronique."
+  },
+  {
+    "slug": "o-i-france-sas52013752025-11-2733903070200130f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M05",
+      "M04",
+      "M06"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T7",
+    "confidence": "high",
+    "reasoning": "Indisponibilité 657,8h en 2024 (limite 250h), principalement 456h maintenance/changement vis électrofiltre juillet 2024. Constaté depuis au moins 2021 (2021: NC, 2022: 1051h, 2023: 1888h, 2024: 657h). Projet amende 10 000€. M05 (amende proposée), M04 (MED active), M06 (récidive). G4. T7 chronique (>3 ans, >2 inspections)."
+  },
+  {
+    "slug": "o-i-france-sas52013752025-11-2733903070200130f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04",
+      "M06"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Mesures périodiques 2e semestre 2024: dépassement poussières (71,9 vs 20 mg/Nm3). 1er semestre 2025: dépassements formaldéhyde+phénol, COVT, SO2. 2e semestre 2025: dépassement plomb et poussières (même concentration brute dépasse VLE). M14 (NC technique mesures tierces), M04 (MED/astreinte), M06 (récidive). G4. T4 stagnation."
+  },
+  {
+    "slug": "o-i-france-sas52013752025-11-2733903070200130f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Dépassements rejets aqueux jan-sept 2025: AOX, DBO5, DCO, pH, MES, température. Amélioration globale notée (circuit fermé, STEP améliorée). NC liées à incidents production (grèves, pannes racleur). DCO soluble persistante depuis mise en circuit fermé. Améliorations constatées mais problèmes résiduels. M14 (NC technique sur STEP/rejets). G3 car NC technique avec risque potentiel mais amélioration en cours. T3 amélioration globale."
+  },
+  {
+    "slug": "occamat-delair31034632023-08-30nosiretf01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M17"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "OCCAMAT n'exerce plus d'activité ICPE. Activités transférées à EURO DEMOLITION SYSTEM (site mitoyen). Zone reprise par MASSE ENVIRONNEMENT (bennes vides, sans activité ICPE). Situation factuelle constatée. M17 (vérification classement: site hors ICPE désormais). G2 car NC formelle à régulariser (notification cessation absente)."
+  },
+  {
+    "slug": "occamat-delair31034632023-08-30nosiretf02",
+    "domains": [
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M19"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "OCCAMAT n'a pas notifié cessation activités (R.512-66-1). Demande notification sous 3 mois via CERFA. M19 (obligations post-cessation: notification obligatoire). G2 documentaire/formel."
+  },
+  {
+    "slug": "occamat-delair31034632025-05-12nosiretf01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M17",
+      "M14"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R04",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T5",
+    "confidence": "high",
+    "reasoning": "Activités concassage et transit reprises. Concasseur mobile utilisé 428 kW (déclaré <200 kW, seuil enregistrement 200 kW). Activité exercée sans enregistrement requis. Localisation en zone N (PLU) incompatible avec activité. Projet MED. M17 (classement ICPE non respecté), M14 (activité illégale physiquement constatée sur site). Exploitant semble méconnaître/ignorer les seuils (R04). G3 car NC technique physique (activité non conforme aux seuils déclarés). T5 aggravation (cessation 2023 → reprise illégale 2025)."
+  },
+  {
+    "slug": "occamat-delair31034632025-05-12nosiretf02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07",
+      "M04"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R04",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Campagne concassage réalisée début mai 2025 sans mesures bruit alors qu'obligation triennale. Même gérant que EURO DEMOLITION SYSTEMS où même rappel avait été fait. Mesures 2024 (EURO DEMOLITION) insuffisantes car hors campagne concassage. Projet MED bruit. M07 (surveillance sonore non réalisée), M04 (MED proposée). G3 car contrôle non réalisé. T4 stagnation (même NC récurrente)."
+  },
+  {
+    "slug": "occamat-delair31034632025-05-12nosiretf03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Conditions stockage tas matériaux inertes: correctement stabilisé, pas d'émissions poussières. Végétation en écran nord. Pas de fillers stockés. Conformité constatée. G1."
+  },
+  {
+    "slug": "occamat-delair31034632026-02-06nosiretf01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M04",
+      "M05",
+      "M06"
+    ],
+    "modifiers": [],
+    "dynamic": "R11",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T5",
+    "confidence": "high",
+    "reasoning": "MED du 22/07/2025 non respectée. Activité concassage illégale toujours en cours (455 kW, sans enregistrement). Aucune demande d'enregistrement déposée. Suspension d'activité proposée. PV adressé au Procureur. M04 (MED non respectée), M05 (PV/sanction pénale), M06 (récidive après MED). R11 (PV Procureur). G4 car MED active + activité illégale confirmée. T5 aggravation (MED non respectée)."
+  },
+  {
+    "slug": "occamat-delair31034632026-02-06nosiretf02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M04",
+      "M05",
+      "M06"
+    ],
+    "modifiers": [],
+    "dynamic": "R11",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T5",
+    "confidence": "high",
+    "reasoning": "MED 22/07/2025 pour mesures bruit non respectée. Campagne concassage en cours lors inspection mais aucune mesure planifiée ni réalisée. Suspension activité et PV Procureur proposés. M04 (MED non respectée), M05 (PV), M06 (récidive). R11 (PV). G4 car MED active non respectée. T5 aggravation."
+  },
+  {
+    "slug": "olikrom1000577612025-04-2980487875900021f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "OLIKROM déclarée rubrique 2640 (preuve dépôt INFMF5MI2). Document de positionnement vis-à-vis AM présenté. Conformité administrative constatée. G1."
+  },
+  {
+    "slug": "olikrom1000577612025-04-2980487875900021f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation implantée à plus de 5 m des limites d'établissement. Acquisition parcelle voisine notée. Conformité constatée. G1."
+  },
+  {
+    "slug": "olikrom1000577612025-04-2980487875900021f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Atelier: structure béton/parpaings/bac acier non justifiée en termes résistance au feu. Local produits chimiques sans porte séparative avec atelier. Produits finis H225 (inflammables) stockés dans même espace. Propriétés REI non documentées. M14 (NC physique: absence porte séparative), M01 (justificatifs résistance feu absents). G3 car équipement physique absent (porte séparative REI) avec risque incendie potentiel."
+  },
+  {
+    "slug": "olikrom1000577612025-04-2980487875900021f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "2 trappes désenfumage en toiture. Dernière vérification juin 2024. Conformité constatée. G1."
+  },
+  {
+    "slug": "olikrom1000577612025-04-2980487875900021f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vérification installations électriques APAVE 25/10/2024. Défauts enregistrés dans système qualité pour suivi. Conformité constatée. G1."
+  },
+  {
+    "slug": "olikrom1000577612025-04-2980487875900021f06",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Sol atelier et local produits chimiques en béton surfacé avec siphon en point bas. Conformité constatée. G1."
+  },
+  {
+    "slug": "olikrom1000577612025-04-2980487875900021f07",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cuve production sans rétention. Partie produits finis et matières premières stockés hors rétention. Vanne coupure réseau non présentée. M14 (NC physique: absence rétention sur cuve et stockages). G3 car dispositif absent (rétention) avec produits dangereux (inflammables H225)."
+  },
+  {
+    "slug": "olikrom1000577612025-04-2980487875900021f08",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Site clôturé sur tout périmètre avec télésurveillance. Conformité constatée. G1."
+  },
+  {
+    "slug": "olikrom1000577612025-04-2980487875900021f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Inventaire matières et état stocks tous les 6 mois. Registre avec plan général des stockages déclaré. Conformité factuelle mentionnée (inventaire régulier). G1."
+  },
+  {
+    "slug": "olikrom1000577612025-04-2980487875900021f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Extincteurs périodiquement vérifiés, double détection incendie 24h/24 (contrôlée APAVE 29/03/2024). Poteaux incendie à 120-150m. Conformité constatée. G1."
+  },
+  {
+    "slug": "olikrom1000577612025-04-2980487875900021f11",
+    "domains": [
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Zone ATEX délimitée autour installation mais signalétique ATEX absente. Plan d'évacuation ne représente pas zone ATEX. Compatibilité équipements dans zone ATEX non justifiée. M14 (NC physique: signalisation ATEX absente), M01 (plan zones dangers incomplet). G3 car signalisation ATEX absente (dispositif absent) avec risque explosion."
+  },
+  {
+    "slug": "olikrom1000577612025-04-2980487875900021f12",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consommation eau tertiaire (sanitaires). Facture mars-octobre 2024: 160 m³. Circuits refroidissement ouverts > 10 m³/j absents. Conformité constatée. G1."
+  },
+  {
+    "slug": "olikrom1000577612025-04-2980487875900021f13",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Rejets uniquement sanitaires. Vanne coupure réseau non présentée. Plan réseaux absent. Autorisation déversement réseau public non présentée. M01 (documents absents: autorisation, plan réseaux). G2 documentaire."
+  },
+  {
+    "slug": "olikrom1000577612025-04-2980487875900021f14",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Hotte aspirante avec point rejet en toiture. Contrôlée périodiquement par APAVE. Conformité constatée. G1."
+  },
+  {
+    "slug": "olikrom1000577612025-04-2980487875900021f15",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre déchets inspecté: certains BSD non retournés après traitement (exemple BSD août 2024 pâteux non halogénés). M01 (BSD manquants/incomplets). G2 documentaire."
+  },
+  {
+    "slug": "oneaygue-ex-quartus-logistique31049192022-10-1288478570000011f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Quantités stockées conformes à l'état des stocks (120,9t rubrique 1510). Inspection constate absence produits dangereux en dehors liste. Locataire Rhenus signale potentielle rubrique 4718 jusqu'à 15t mais non atteint. Conformité constatée sur ce point avec avertissement préventif. G1."
+  },
+  {
+    "slug": "oneaygue-ex-quartus-logistique31049192022-10-1288478570000011f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cellule 2: stockage en masse (îlots) non prévu au dossier. Conditions stockage non respectées (mode stockage modifié). Impact sur risques non démontré. M14 (NC physique: mode stockage non autorisé). G3 car configuration physique non conforme aux conditions autorisées. T1."
+  },
+  {
+    "slug": "oneaygue-ex-quartus-logistique31049192022-10-1288478570000011f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14",
+      "M17"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "3 cuves GPL enterrées de 3,2t chacune (9,6t total) au lieu du maximum prévu au dossier. Quantité maximale rubrique 4718 dépassée. Exploitant ne peut expliquer la différence. M14 (NC physique: quantité gaz inflammable dépassant seuil autorisé), M17 (classement/seuil dépassé). G3 car dépassement quantité gaz dangereux."
+  },
+  {
+    "slug": "oneaygue-ex-quartus-logistique31049192022-10-1288478570000011f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun document attestant du caractère coupe-feu des murs (attestation degré CF) fourni. Inspection visuelle sans NC constatée mais sans preuve documentaire. M01 (attestations CF absentes). G2 documentaire."
+  },
+  {
+    "slug": "oneaygue-ex-quartus-logistique31049192022-10-1288478570000011f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14",
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cellules 3, 4, 5: véhicules circulant et stationnant à l'intérieur (locataire messagerie), bureaux algecos en cellule 5. Activité non autorisée (co-activité dans cellules stockage 1510). NC physique sur conditions d'exploitation. M14 (NC physique: co-activité non autorisée), M09 (PAC nécessaire pour autoriser ou cessation). G3 car activité non autorisée modifiant risques."
+  },
+  {
+    "slug": "oneaygue-ex-quartus-logistique31049192022-10-1288478570000011f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exutoires fumées avec commandes manuelles (aux issues) et automatiques (140-180°C, après sprinklage 68°C). Consigne d'usage conforme. Conformité constatée. G1."
+  },
+  {
+    "slug": "oneaygue-ex-quartus-logistique31049192022-10-1288478570000011f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Système extinction automatique = détection automatique. Rapport vérification semestrielle ne mentionne pas compatibilité avec produits stockés. NC potentielle dépendant des précisions exploitant. M07 (vérification semestrielle ok mais incomplète), M01 (rapport incomplet). G2 documentaire."
+  },
+  {
+    "slug": "oneaygue-ex-quartus-logistique31049192022-10-1288478570000011f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Système extinction automatique vérifié semestriellement mais rapport ne mentionne pas adaptation aux produits stockés. NC potentielle. M07 (vérification ok mais incomplète), M01 (rapport incomplet). G2 documentaire."
+  },
+  {
+    "slug": "oneaygue-ex-quartus-logistique31049192022-10-1288478570000011f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Un RIA obstrué par stockages: difficilement manœuvrable et inutilisable. Exploitant a informé le locataire et demandé déplacement sans délai (R01 correction spontanée en cours). M14 (RIA physiquement inutilisable). G3 car RIA hors service/inaccessible."
+  },
+  {
+    "slug": "oneaygue-ex-quartus-logistique31049192022-10-1288478570000011f10",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Formation maniement extincteurs/RIA: seul Rhenus a formation planifiée (09/12/2022). Autres locataires (<1 an) sans confirmation. NC potentielle. M07 (formation périodique non confirmée). G2 organisationnel/documentaire. T1."
+  }
+]

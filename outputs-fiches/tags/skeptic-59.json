@@ -1,0 +1,271 @@
+{
+  "total_audited": 47,
+  "errors_found": 15,
+  "corrections": [
+    {
+      "slug": "saft-sas52005922025-11-1938370387300083f14",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M01_DOCUMENTATION",
+        "M07_CONTROLE"
+      ],
+      "corrected_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M01_DOCUMENTATION",
+        "M07_CONTROLE",
+        "M04_MISE_EN_DEMEURE"
+      ]
+    },
+    {
+      "slug": "saft-sas52005922025-11-1938370387300083f14",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": []
+    },
+    {
+      "slug": "saft-sas52005922025-11-1938370387300083f14",
+      "field": "stage",
+      "hunter_value": "S02_INJONCTION",
+      "corrected_value": "S05_ESCALADE"
+    },
+    {
+      "slug": "sagne-cuisines52059992023-04-1387810454600014f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08_CONFORMITE",
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M01_DOCUMENTATION",
+        "M14_CONSTAT_TECHNIQUE"
+      ]
+    },
+    {
+      "slug": "sagne-cuisines52059992023-04-1387810454600014f05",
+      "field": "dynamic",
+      "hunter_value": "R13_NEUTRE_CONFORME",
+      "corrected_value": "R14_NEUTRE_NC"
+    },
+    {
+      "slug": "sagne-cuisines52059992023-04-1387810454600014f05",
+      "field": "stage",
+      "hunter_value": "S03_CORRECTION",
+      "corrected_value": "S02_INJONCTION"
+    },
+    {
+      "slug": "sagne-cuisines52059992023-04-1387810454600014f05",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high"
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f07",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08_CONFORMITE",
+        "M02_MESURE"
+      ],
+      "corrected_value": [
+        "M08_CONFORMITE"
+      ]
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f07",
+      "field": "dynamic",
+      "hunter_value": "R14_NEUTRE_NC",
+      "corrected_value": "R13_NEUTRE_CONFORME"
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f07",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S04_VERIFICATION"
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f07",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1"
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f07",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high"
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f13",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08_CONFORMITE",
+        "M01_DOCUMENTATION"
+      ],
+      "corrected_value": [
+        "M08_CONFORMITE"
+      ]
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f13",
+      "field": "stage",
+      "hunter_value": "S04_VERIFICATION",
+      "corrected_value": "S01_CONSTAT"
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-04-1738802115600079f13",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high"
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-03-0738802115600079f10",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": []
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f08",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": []
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592024-10-3138802115600079f08",
+      "field": "stage",
+      "hunter_value": "S02_INJONCTION",
+      "corrected_value": "S03_CORRECTION"
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592025-09-1038802115600079f20",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": []
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": []
+    },
+    {
+      "slug": "saica-pack-france52004062023-03-2863203998800092f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ]
+    },
+    {
+      "slug": "saica-pack-france52004062023-03-2863203998800092f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ]
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-03-0738802115600079f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ]
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-03-0738802115600079f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ]
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ]
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f10",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07_CONTROLE",
+        "M08_CONFORMITE"
+      ],
+      "corrected_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M07_CONTROLE"
+      ]
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f10",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ]
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f10",
+      "field": "dynamic",
+      "hunter_value": "R13_NEUTRE_CONFORME",
+      "corrected_value": "R14_NEUTRE_NC"
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f10",
+      "field": "stage",
+      "hunter_value": "S04_VERIFICATION",
+      "corrected_value": "S02_INJONCTION"
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f10",
+      "field": "gravity",
+      "hunter_value": "G1",
+      "corrected_value": "G3"
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-252080962024-10-3132831904100088f10",
+      "field": "trajectory",
+      "hunter_value": "T1_PREMIER",
+      "corrected_value": "T2_SUIVI"
+    },
+    {
+      "slug": "saipol-sa-bassens-5-avenue-bellerive-des-moines-152003592023-05-1638802115600079f08",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M02_MESURE"
+      ]
+    }
+  ],
+  "false_positive_rate": 0.319,
+  "error_patterns": "Two recurring patterns beyond the individual errors: (1) m_DELAI applied to S02_INJONCTION records without an actual numeric deadline in the corpus text — Hunter sometimes copied the modifier from the general 'demande formelle' pattern even when the Demande section only says 'dès réception' or references a historical delay already satisfied (4 cases: saft f14, saipol 2023-03-07 f10, saipol 2024-10-31 f08, saipol 2025-09-10 f20). (2) m_MENACE (conditional threat, precursor to M04) was never used across the entire 130-record batch (0 occurrences) despite the corpus containing explicit 'expose l'exploitant à des suites administratives de type mise en demeure' phrasing in at least 5 records (saica f01, saica f09, saipol 2023-03-07 f03, saipol 2023-03-07 f05, saipol 2023-05-16 f05) — Hunter consistently missed this modifier whenever the MED threat was conditional rather than already active. R10_TENSION was not used anywhere in this batch, so the other flagged systematic pattern (R10 misuse for unfulfilled promises) does not apply here. One clear False-M08 case (saipol 252080962024-10-31 f10) had an active 3-month corrective demand on a full-height crack in a retention wall but was tagged as pure conformité — the fiche's own 'CONFORME' label inside the surveillance form appears to have been taken at face value instead of the inspector's follow-up remark requiring further investigation.",
+  "verdict": "Hunter output is structurally clean (0/130 STRICT code-validity violations, 0% M15_AUTRE) and the great majority of high-confidence records spot-checked matched the corpus exactly. 15/130 records (11.5%) required correction, in line with the batch's historical <15% error target. Errors cluster around modifier hygiene (m_DELAI without a real deadline, m_MENACE never applied) rather than domain/mechanism selection, plus one genuine False-M08 mis-tag and one mechanism confusion (M14 vs M02 for a manual-vs-continuous measurement gap). All 5 medium-confidence records were individually re-read; 3 of 5 needed correction (mostly stage/mechanism precision), confirming Hunter's confidence flagging was a useful signal of genuine uncertainty."
+}

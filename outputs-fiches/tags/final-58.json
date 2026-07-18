@@ -1,0 +1,2367 @@
+[
+  {
+    "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: autosurveillance GIDAF consultée, périodicité respectée, conformité aux VLE des 3 rejets constatée sur 2013-2024. Pas de demande formulée. M08 clair."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: dépassements de VLE/flux sur fluoranthène et zinc aux points de rejet, plusieurs en juin 2023. Étude non exploitée pour quantifier bruit de fond attribuable aux eaux météorites. Convention de rejet en cours. Demande formulée avec délai. Historique des inspections précédentes mentionné. G3 car dépassements VLE en cours malgré plan de remplacement."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M09_PAC"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: exutoire fossé nord non identifié dans AP; analyses PFAS engagées mais résultats pas encore disponibles. Exploitant engagé à transmettre résultats + plan d'action. Demande PAC. G3 car rejet potentiellement pollué non maîtrisé, point de rejet non identifié."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f04",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: inventaire PFAS réalisé, seul émulseur TRIDOL identifié. Demande de mise à jour du POI pour formaliser interdiction de rejet des eaux d'extinction vers le milieu. NC formelle/documentaire: le POI n'est pas encore à jour. G2 car purement documentaire."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: 3 campagnes de mesures PFAS réalisées conformément aux dispositions réglementaires sur chacun des 3 points de rejets. Pas de demande. M08 conforme."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A05_ORGANISME",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: prélèvement par labo agréé LPL, analyse par AL-WEST AGROLAB accrédité COFRAC. Conforme aux exigences d'agrément/accréditation. Pas de demande."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: limites de quantification 2ug/l (AOF) et 100 ng/l (PFAS) respectées. Pas de demande. Conforme."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: ensemble des paramètres obligatoires pris en compte, prélèvements sur 24h sans rupture d'activité. Pas de demande. Conformité méthodologique."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f09",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M03_REPORTING",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: GIDAF renseigné mais plusieurs PFAS détectés au-delà des LQ sur les 3 points de rejets (PFBA, PFPeA, PFHxA, PFOS). Exploitant ne parvient pas à expliquer présence. Demande d'investigations sous 3 mois. G3 car rejets PFAS non expliqués dans le milieu."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f10",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: description opérationnelle des installations de peinture et de dégraissage, des systèmes de captation et extraction. Pas de NC identifiée dans ce point. Descriptif purement factuel."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f11",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: démarrage manuel des systèmes d'extraction dans les cabines, dispositions permettant de limiter les émissions de COV. Pas de demande. Conforme."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f12",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: PGS 2023 peinture aboutit à part d'émissions diffuses négative (-33%) non représentative; émissions dégraissage (7310 kg) dépassent EAC (5237 kg). Méthodologie à revoir. Demande de révision et justification. G3 car dépassement EAC quantifié."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f13",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: PGS établi annuellement mais méthodologie détermination émissions diffuses à revoir (cf. point 12). Demande de révision méthodologie. NC documentaire/méthodologique liée au point 12."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f14",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: dernier rapport contrôle combustion consulté, aucune NC aux VLE constatée. Prochain contrôle avant novembre 2024. Conforme."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f15",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: vérification complète foudre réalisée le 08/04/2024, rapport transmis, point MED levé. ARF/ETF aire S7 réalisées. Mais nouveaux travaux protection nécessaires suite à la vérification. Demande résiduelle justification travaux. Levée partielle de MED avec NC résiduelle sur travaux à réaliser. G3 car travaux de protection encore à réaliser."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082024-06-0448770604600025f16",
+    "domains": [
+      "D01_INCENDIE",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: soupape remplacée, installation sprinkler remise en service automatique constatée. Point MED levé. Mais fuite réseau émulseur 2023 → diagnostic pollution sols/eaux souterraines engagé (5 nouveaux piézomètres posés). Demande transmission conclusions diagnostic. G3 car pollution PFAS potentielle dans le sol suite à fuite émulseur."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082025-02-0648770604600025f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R09_BLOCAGE_TIERS",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: réseau EP actualisé, convention de rejet projet transmis à ADBM/Dassault mais pas de retour à la date d'inspection. SABENA pessimiste. Plan des réseaux mis à jour. SABENA seul responsable de l'émissaire. Demande relancer co-signataires. Blocage tiers (ADBM/Dassault) clairement mentionné. G3 car gestion émissaire multi-contributeurs non formalisée."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082025-02-0648770604600025f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R09_BLOCAGE_TIERS",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: gestion vanne guillotine d'isolement intégrée dans projet convention (avancement décrit au point précédent). NC documentaire/organisationnelle dépendante de la signature convention. Cf point précédent. G2 car purement documentaire (convention non signée)."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082025-02-0648770604600025f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M09_PAC"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: inspection télévisuelle réalisée mais sans conclusion argumentée sur suites à donner. Plusieurs émissaires non identifiés dans l'AP débouchant dans le Magudas. Fossé nord doit être intégré au programme de surveillance. Demande analyse détaillée + PAC sous 1 puis 3 mois. G3 car rejets non encadrés dans l'AP, potentiellement polluants."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082025-02-0648770604600025f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: dépassements récurrents 2024 sur Zn/fluoranthène/nonylphénol/phosphore sur plusieurs émissaires. Méthodologie bruit de fond non adaptée. Paramètres art. 4.3.9.1 non contrôlés pour émissaire 5 en fév. et mai 2024. Menace suites administratives explicite. NC persistantes malgré tentatives. T4 car mêmes NC récurrentes sans mesures correctives adéquates."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082025-02-0648770604600025f05",
+    "domains": [
+      "D06_SOLS",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A06_BET",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: diagnostic environnemental PFAS complet (sols, eaux souterraines, eaux superficielles, sédiments Magudas). Forte augmentation PFAS en aval du point de rejet du fossé nord. Fuite réseau émulseur et contamination sols. Recommandation urgente d'arrêter écoulement PFAS fossé nord. Bureau d'étude recommande mesure d'urgence. APC complémentaire en préparation. G4 car risque avéré de contamination PFAS dans le milieu récepteur."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082025-02-0648770604600025f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: investigations menées sur PFAS dans produits chimiques. Exploitant ne parvient pas à expliquer les écarts AOF/PFAS. PFOS/PFOA présents mais non utilisés. Émulseur TRIDOL contient PFHxA visé par REACH (interdiction à partir 04/2026). Demande informer inspection sur dispositions retenues. G3 car PFAS inexpliqués dans les rejets, réglementation REACH imminente."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082025-02-0648770604600025f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: un des deux groupes motopompe du réseau émulseur non opérationnel (démontage branche réseau). GRV sans rétention constaté à l'entrée du local sprinklage. Niveau émulseur inférieur à la moitié des cuves, exploitant ne peut pas justifier du niveau requis. G4 car installation sprinklage partiellement inopérante + volume émulseur insuffisant non justifié."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082025-02-0648770604600025f08",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: liste ESP transmise, informations complètes, suivi à jour, aucune date dépassée. Dossiers ESP consultés par sondage sans commentaire. Soupapes inaccessibles non examinées (signal d'incertitude mais pas de NC). Conforme."
+  },
+  {
+    "slug": "sabena-technics-bod-sas52010082025-02-0648770604600025f09",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: 30 certificats Q18 transmis, 16 concluent que l'installation peut entraîner risques incendie/explosion. 58 observations relevées en 2024, plan d'action en cours, 14 prioritaires levées. Menace suites administratives type MED. G3 car installations électriques avec risques incendie/explosion identifiés non tous résolus."
+  },
+  {
+    "slug": "sabliere-de-saint-jean-d-illac52063412024-04-0251368023100018f01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: absence de télédéclaration GEREP sur les 3 dernières années. Exploitant invoque changement de responsable et perte d'accès (méconnaissance). Demande de saisie données 2024, menace MED en cas de nouvel écart. D15_SECTEUR carrieres pertinent mais carrière = D12 suffisant ici. NC purement documentaire."
+  },
+  {
+    "slug": "sabliere-de-saint-jean-d-illac52063412024-04-0251368023100018f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: acte de cautionnement ZURICH transmis, montant 877 438€, couvrant juin 2023-juin 2025. Conforme."
+  },
+  {
+    "slug": "sabliere-de-saint-jean-d-illac52063412024-04-0251368023100018f03",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: plan d'exploitation mis à jour mais courbes de niveau et pentes de berges/digues méritent d'être explicitées pour apprécier stabilité. Demande d'inclure ces éléments à la prochaine révision. NC documentaire/formelle sur le plan."
+  },
+  {
+    "slug": "sabliere-de-saint-jean-d-illac52063412024-04-0251368023100018f04",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: procédure d'acceptation préalable en place pour déchets inertes, contrôles de conformité par analyses consultées sans commentaire. Conforme."
+  },
+  {
+    "slug": "sabliere-de-saint-jean-d-illac52063412024-04-0251368023100018f05",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: déclaration RNDTS en place mais arrêtée à janvier 2024 alors que fréquence 7 jours après réception. Registre interne à jour. Demande d'organisation respectant la fréquence de télédéclaration. NC purement documentaire/reporting."
+  },
+  {
+    "slug": "sabliere-de-saint-jean-d-illac52063412024-04-0251368023100018f06",
+    "domains": [
+      "D09_BIODIVERSITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: digue de séparation entre plan d'eau extraction et plan d'eau à remblayer en cours de construction, mise en place définitive prévue septembre 2024. Zones d'évitement pas encore concernées. Contrôle ultérieur prévu. G3 car dispositif physique de protection zones d'évitement (Drosera) non encore en place."
+  },
+  {
+    "slug": "sabliere-de-saint-jean-d-illac52063412024-04-0251368023100018f07",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: déshuileur-débourbeur en panne (clapet en panne). Mesure compensatoire en place mais solution pérenne absente. Devis présenté pour remplacement. G3 car équipement de traitement des eaux hors service, mesure compensatoire temporaire seulement."
+  },
+  {
+    "slug": "sabliere-de-saint-jean-d-illac52063412024-04-0251368023100018f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: suivi qualité eaux réalisé en juin et décembre mais périodes de contrôle peuvent ne pas être représentatives des hautes et basses eaux. Demande justification choix des dates de prélèvement. NC sur représentativité méthodologique."
+  },
+  {
+    "slug": "sabliere-de-saint-jean-d-illac52063412024-04-0251368023100018f09",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: campagne broyage pas encore réalisée, bon de commande pour mesures air transmis. Mais devis prévoit plaquettes au lieu de jauges prescrites par l'AM. Demande justification mise en place de jauges. NC documentaire/formelle sur le dispositif de surveillance prévu."
+  },
+  {
+    "slug": "sabliere-de-saint-jean-d-illac52063412024-04-0251368023100018f10",
+    "domains": [
+      "D09_BIODIVERSITE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: suivi naturaliste pas encore lancé car digue en cours de construction. Exploitant a réalisé un quart d'heure environnement Drosera. Contrôle ultérieur. NC documentaire car suivi non encore démarré."
+  },
+  {
+    "slug": "safary-4x4-langon52085152023-02-2334002066800018f01",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: inspection constate que plus aucun VHU ni rebut ferraille stocké sur site. Site désormais utilisé comme parking. Levée constatée de la NC. MED antérieure sur VHU levée."
+  },
+  {
+    "slug": "safary-4x4-langon52085152023-02-2334002066800018f02",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: bordereau DECONS transmis pour VHU enlevés (17t platin + 23t platin VHU). Plaques immatriculation absentes mais masse facturée compatible avec nombre de VHU. Conformité partielle."
+  },
+  {
+    "slug": "safary-4x4-langon52085152023-02-2334002066800018f03",
+    "domains": [
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M19_CESSATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: exploitant a radié son activité au répertoire des métiers le 31/12/2019 mais cela ne constitue pas une notification de cessation ICPE. Courrier 02/2022 peut valoir notification mais documents requis (diagnostic sols, etc.) non transmis. NC documentaire sur procédure de cessation."
+  },
+  {
+    "slug": "safary-4x4-langon52085152023-02-2334002066800018f04",
+    "domains": [
+      "D13_CESSATION",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M19_CESSATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: zone interdite d'accès sur parking, présence de deux regards correspondant à des cuves enterrées dans la zone. Nature et contenu des cuves non connu. Demande identification sous 15 jours. G3 car cuves enterrées de nature inconnue = risque potentiel de pollution."
+  },
+  {
+    "slug": "safary-4x4-langon52085152023-02-2334002066800018f05",
+    "domains": [
+      "D06_SOLS",
+      "D13_CESSATION"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M19_CESSATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: aucun diagnostic sol ni éléments permettant d'écarter risque de pollution par activité VHU transmis. Menace de SUP si absent sous 3 mois. G3 car absence de diagnostic sur site potentiellement pollué par activité VHU."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552022-10-1248011152500071f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: exploitant a refait le plan des réseaux, présente les différents circuits (EP toiture infiltrées, EP polluées pompées traitées, purge condensats, eaux sanitaires). Description conforme à la prescription. Pas de demande."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552022-10-1248011152500071f02",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: clôtures refaites, portail fermé à clé, locaux fermés à clé en l'absence de personnel. Conformité constatée."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552022-10-1248011152500071f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: exploitant prévoit d'entreposer uniquement produits lessiviels à l'intérieur (combustibles/inflammables dehors). NC sur désenfumage maintenue jusqu'à réalisation. Demande sous 30 jours déplacer combustibles/inflammables sur dalle extérieure. G3 car stockage produits inflammables sans dispositif adéquat de désenfumage dans le bâtiment."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552022-10-1248011152500071f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: étude dimensionnement moyens extinction feu liquides inflammables non réalisée, moyens non mis en place. Réserve sable vide, pas de pelle. Demande étude sous 3 mois. G3 car moyens de lutte incendie inadaptés (absence moyens extinction liquides inflammables)."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552022-10-1248011152500071f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A05_ORGANISME",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: rapport vérification installations électriques APAVE du 22/08/2022, 2 anomalies mineures (BAES et prise à changer). Demande mise en oeuvre mesures correctives sous 15 jours et transmission justificatifs. G2 car NC purement documentaire/minor."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552022-10-1248011152500071f06",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: produits sans rétention à l'intérieur, GRV extérieurs sans rétention, bac rétention dépassé par vanne pied GRV. Site sans bassin de confinement eaux d'extinction. Plusieurs NC physiques constatées. G3 car absence rétention sur plusieurs stockages + pas de bassin confinement eaux incendie."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552022-10-1248011152500071f07",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: inventaire mensuel septembre 2022 présenté, produits correctement identifiés, zones d'entreposage clairement repérées. Conforme."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552022-10-1248011152500071f08",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: extraction Trackdéchets présentée pour sept-oct 2022. Pas de remarque de l'inspection. Conforme."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552022-10-1248011152500071f09",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: étude prévention risque inondation non transmise. Exploitant a testé évacuation déchets en cas d'inondation, sans succès. Envisage solutions (container ancré, bacs rétention 1m, racks intérieurs). Demande étude sous 3 mois + mise en oeuvre. G3 car risque inondation non maîtrisé avec produits dangereux sur site zone PPRI."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552022-10-1248011152500071f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: exploitant prévoit d'entreposer à l'extérieur tous produits combustibles/inflammables. Demande déplacement sous 1 mois. NC bâtiment non conforme aux exigences comportement au feu. G3 car produits combustibles/inflammables toujours dans bâtiment non conforme au feu."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552025-05-1548011152500071f01",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: site non propre, déchets plastiques disséminés à l'arrière du bungalow stockage produits chimiques. Rétentions encombrées. Demande évacuation déchets + photos. G2 car NC housekeeping sans dimension physique de risque majeur."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552025-05-1548011152500071f02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A05_ORGANISME",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: rapport APAVE du 28/11/2024 présente 4 NC dont 2 récurrentes. Devis signé pour travaux électriques. Demande rapport d'intervention levant toutes les NC. T4 car NC récurrentes (2 sur 4)."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552025-05-1548011152500071f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: extincteurs dans le bungalow stockage produits chimiques contrôlés en 2023 et 2022 (donc retard). Rapport DESAUTEL liste les extincteurs BUNGALOW PRODUITS DANGEREUX à remplacer. G3 car extincteurs de zone dangereuse périmés."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552025-05-1548011152500071f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: exercice évacuation incendie du 06/02/2025 et compte-rendu déversement accidentel présentés. Formation maniement extincteurs le 13 juin. Conforme."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552025-05-1548011152500071f05",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: état des matières stockées transmis mais daté de février 2025. Demande état mis à jour (mai-juin 2025). NC documentaire: document obsolète."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552025-05-1548011152500071f06",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: PAC transmis en mai 2023 avec moyens prévention inondation, dimensionnement rétention, moyens défense incendie. Projet déménagement motivant révision du PAC. Proposition de lever la MED de 2022. Levée MED partielle (3 points soldés)."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552025-05-1548011152500071f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R07_CONTRAINTE_TECHNIQUE",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: MED 2023 sur comportement au feu / désenfumage non levée. Exploitant n'a pas mis en place bungalow coupe-feu ni mis en conformité le bâtiment. Refus mairie (PPRI) bloque les travaux. Impossible techniquement/administrativement. Projet déménagement. Mesures transitoires demandées. G4 car MED active sur risque incendie + NC persistante. Contrainte technique/administrative bloquante clairement mentionnée."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552025-05-1548011152500071f08",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: rétentions encombrées (encombrants, eau dans les bungalows), traces infiltration EP, GRV lessiviels extérieurs sans rétention, bidons dans conteneur sans rétention, joint étanchéité défectueux. Proposition MED. G3 car multiple NC physiques de rétention constatées."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552025-05-1548011152500071f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: site non équipé de détection automatique de départ d'incendie ni de report d'alarme. Proposition MED sur ce point. G4 car absence détection automatique incendie dans zone de stockage combustibles/inflammables = risque incendie sans alerte."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552025-05-1548011152500071f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R07_CONTRAINTE_TECHNIQUE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: bâtiments/locaux non conformes aux exigences de sécurité incendie (absence matériaux A1, murs extérieurs non REI 15, mur séparatif EST non REI 120). Projet déménagement motivé par coût travaux (~200 000€). Mesures transitoires demandées. Proposition MED. G4 car non-conformité constructive majeure avec incendie comme risque principal."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552025-10-1748011152500071f01",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: joint réparé, stockages sur rétention, procédure nettoyage bacs transmise (check hebdomadaire), registre suivi en place (intervention le 21/10/2025). NC du point 8 de mai 2025 levée. Certaines rétentions encore avec eaux météoriques/lessiviels mais procédure en place."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552025-10-1748011152500071f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: rapport DESAUTEL du 05/09/2025 justifiant remplacement extincteurs bungalow produits chimiques. Nouvelle mise en place constatée sur site. NC point 3 mai 2025 levée."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552025-10-1748011152500071f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M09_PAC"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: PAC transmis (v1 sept. + v2 oct. 2025) avec étude risque incendie et mesures transitoires. PDI mis à jour. Armoire coupe-feu prévue (devis signé), bungalow coupe-feu prévu, détections fumées/intrusion/caméras thermiques vus. Réserve incendie 120m3 remplie à moitié. NC point 10 de mai 2025 levée. Mais travaux encore en cours. Demandes résiduelles. G3 car mesures transitoires encore partielles."
+  },
+  {
+    "slug": "safety-kleen-france-sarl52114552025-10-1748011152500071f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: PAC transmis (v1 + v2) soldant les points de la MED d'août 2025 (évaluation risques incendie, mesures transitoires, remplacement joint). Proposition de lever MED du 27/08/2025. En outre formation chefs d'agence ICPE et check-list qualité en place."
+  },
+  {
+    "slug": "safran-additive-manufacturing-campus31051402023-05-1581525577300021f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: 2 postes RIA sans bidon 50L émulseur AFFF absents (écart 1). Plan locaux avec dangers par bâtiment mais pas par local. 4 poteaux PI présents et conformes. Débit simultané 2 PI non démontré (écart 3). Pression dynamique PI non vérifiée (écart 2). Plan portes coupe-feu non présenté (obs 6). Alarmes sonores/visuelles non testées. G3 car plusieurs NC sur moyens incendie (RIA sans émulseur, débit PI non justifié)."
+  },
+  {
+    "slug": "safran-additive-manufacturing-campus31051402023-05-1581525577300021f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: rejets évent titane non mesurés (inactivité salle). Exploitant n'a pas pu confirmer si volumes gaz rapportés aux conditions normalisées et teneur O2 de 3%. Demande précision sous 2 mois. NC méthodologique sur représentativité des mesures."
+  },
+  {
+    "slug": "safran-additive-manufacturing-campus31051402023-05-1581525577300021f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: durées de mesures s'étalent de 30 à 120 min (certaines dépassent 30 min prescrite). Demande justification sous 2 mois. NC méthodologique sur durées de mesures."
+  },
+  {
+    "slug": "safran-additive-manufacturing-campus31051402026-02-2481525577300021f01",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: outil REACHING pour inventaire produits chimiques avec FDS intégrées, déployé niveau groupe SAFRAN, actualisé via Quick FDS, emplacements de stockage précisés. Conforme."
+  },
+  {
+    "slug": "safran-additive-manufacturing-campus31051402026-02-2481525577300021f02",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: FDS de 2 produits contrôlées par sondage (HCl 35% et DECOLNET), disponibles dans REACHING, rédigées en français, mises à jour 2023 et 2025. EPI disponibles. Conforme."
+  },
+  {
+    "slug": "safran-additive-manufacturing-campus31051402026-02-2481525577300021f03",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: produits en attente dans zone dédiée grillagée fermée à clé, tous sur rétention. Liquides inflammables en armoire spécifique avec rétention adaptée. Vérification par sondage 2 produits sur rétention. Pas de demande. Conforme."
+  },
+  {
+    "slug": "safran-additive-manufacturing-campus31051402026-02-2481525577300021f04",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: produits atelier TTS répartis sur rétention par type, consignes de stockage affichées, acide chlorhydrique dans armoire dédiée fermée à clé par type de produit. Pas de demande. Conforme."
+  },
+  {
+    "slug": "safran-additive-manufacturing-campus31051402026-02-2481525577300021f05",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: état des stocks en temps réel présenté depuis l'outil de gestion. Conforme."
+  },
+  {
+    "slug": "safran-ceramics31002232023-08-1844051305900087f01",
+    "domains": [
+      "D14_RISQUE_BIO",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: 2 TAR hybrides JAEGGI de 1 MW chacune. Régime déclaration maintenu. Fonctionnement humide sans génération d'aérosols selon études citées. Exploitant a fourni dossier DRIEE 2015 de déclassement d'un TAR identique. Demande PAC pour déclassement. Classification/déclassement rubrique 2921 en jeu. G2 car question administrative de classement (pas de NC physique)."
+  },
+  {
+    "slug": "safran-ceramics31002232025-01-1044051305900087f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: PAC déclassement TAR hybrides (n°23-2807 du 06/06/2023) déposé. Points suivants du rapport analysent ce dossier. Procédure administrative en cours. G2 car procédure documentaire/administrative."
+  },
+  {
+    "slug": "safran-ceramics31002232025-01-1044051305900087f02",
+    "domains": [
+      "D14_RISQUE_BIO",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: dossier démontre que les TAR hybrides ne répondent pas au libellé rubrique 2921 (refroidissement par humidification des échangeurs, pas par dispersion d'eau dans flux d'air). Mode sec et humide sans génération d'aérosols. Argument technique pour déclassement. G2 car enjeu purement administratif de classement."
+  },
+  {
+    "slug": "safran-ceramics31002232025-01-1044051305900087f03",
+    "domains": [
+      "D14_RISQUE_BIO",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A06_BET",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: étude IAST sur distribution taille particules aérosols amont/aval TAR hybride JAEGGI. Conclusion: tour non source significative d'aérosols. Référence différente des TAR de l'exploitant mais Jaegi a certifié l'équivalence post-inspection. Argument technique pour déclassement."
+  },
+  {
+    "slug": "safran-ceramics31002232025-01-1044051305900087f04",
+    "domains": [
+      "D14_RISQUE_BIO",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A06_BET",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: rapport DMT: aucun entraînement de gouttelettes d'eau mis en évidence en mode humide. Confirmation technique absence d'aérosols."
+  },
+  {
+    "slug": "safran-ceramics31002232025-01-1044051305900087f05",
+    "domains": [
+      "D14_RISQUE_BIO",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: conclusion finale: systèmes hybrides Safran Ceramics ne répondent pas au libellé rubrique 2921. Refroidissement pas 'par dispersion d'eau dans flux d'air'. Deux études IAST et DMT montrent absence aérosols. Demande déclassement. G2 car enjeu purement administratif."
+  },
+  {
+    "slug": "saft-sas52005922023-01-1038370387300083f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: fréquences de mesures autosurveillance respectées. Résultats décembre 2022 non disponibles mais demande de transmission GIDAF une fois disponibles. Observation mineure sans NC formelle."
+  },
+  {
+    "slug": "saft-sas52005922023-01-1038370387300083f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: surveillance métaux (Ni, Cd, Cu, Li, Fe) conforme. Site non concerné cyanures/chrome hexavalent. Baisse quantités Cd/Ni due à actions réduction à la source. Conforme."
+  },
+  {
+    "slug": "saft-sas52005922023-01-1038370387300083f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Corps: GIDAF correctement renseigné. Dépassements commentés sauf dépassement Ni avril 2022 non commenté. Quasi-conforme, un dépassement non commenté."
+  },
+  {
+    "slug": "saft-sas52005922023-01-1038370387300083f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A05_ORGANISME",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: contrôles de calage bi-annuels réalisés par organismes tiers IRH/Eurofins. Contrôle 12/2021 sans mesure NGL compensé par mesure de septembre. Fréquence trimestrielle respectée. Conforme."
+  },
+  {
+    "slug": "saft-sas52005922023-01-1038370387300083f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: dépassements VLE azote global déclarés GIDAF (2040-2190-1680 mg/l vs VLE 50 mg/l si flux >50 kg/j). Exploitant n'a transmis que l'étude environnementale sans éléments technico-économiques complets. Menace suites administratives. G3 car dépassements VLE azote très significatifs (40x VLE)."
+  },
+  {
+    "slug": "saft-sas52005922023-01-1038370387300083f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: dépassements VLE débit journalier en 2021-2022 (3 dates), débit moyen mensuel conforme. Bassin confinement borgne empêche rejet direct. Pas de risque environnemental immédiat selon inspection. Demande aménagement arrêté ou retour conformité sous 3 mois. Menace suites administratives. G3 car dépassement VLE débit reconnu."
+  },
+  {
+    "slug": "saft-sas52005922023-01-1038370387300083f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: dépassements VLE Ni en 2020, 2021 (multiple), 2022. Plan d'actions déployé mais dernier équipement non fonctionnel le jour de l'inspection. Dépassement Ni non commenté en avril 2022. Récidive depuis 2020 = M06. G3 car NC récurrente en nickel malgré plan d'actions."
+  },
+  {
+    "slug": "saft-sas52005922023-01-1038370387300083f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: mesures sans pluviométrie démontrent que le système traite les effluents sans dilution pluviométrique. Conformité à la prescription d'interdiction de dilution. Conforme."
+  },
+  {
+    "slug": "saft-sas52005922023-01-1038370387300083f09",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: surveillance RSDE maintenue (Cd, Ni, Cu quotidien/mensuel, Hg, chloroalcane abandonné sur accord). Conforme."
+  },
+  {
+    "slug": "saft-sas52005922023-01-1038370387300083f10",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: surveillance annuelle Hg/Zn/Cr/Pb/fluoranthène et trimestrielle Ni/Cd. VLE respectées. Nonylphénol < LQ → possibilité abandon surveillance. Conforme."
+  },
+  {
+    "slug": "saft-sas52005922023-01-1038370387300083f11",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: système de télésurveillance du compteur eau publique hors service depuis quelques temps. Exploitant n'a pas accès aux données et ne peut pas préciser les volumes quotidiens. Demande relevés manuels quotidiens sous 15 jours. Menace MED. G2 car NC purement documentaire/technique sur suivi consommation eau."
+  },
+  {
+    "slug": "saft-sas52005922023-01-1038370387300083f12",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: forage non exploité mais non comblé (utilisé pour ré-injection barrière hydraulique). Exploitant ne peut pas justifier niveaux d'eaux consommés. Demande relevé consommation sous 1 mois. NC documentaire."
+  },
+  {
+    "slug": "saft-sas52005922023-01-1038370387300083f13",
+    "domains": [
+      "D11_SECURITE",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: deltas entre inventaire papier et stockages réels (exploitation ne peut pas vérifier a posteriori). Plan général stockages non complet (chapiteau non représenté, ~45t de déchets dangereux). Répétition de l'écart de l'inspection précédente. Demande complétion plan sous 15 jours. T4 car même NC répétée d'inspection en inspection."
+  },
+  {
+    "slug": "saft-sas52005922023-01-1038370387300083f14",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: lors des arrêts techniques, rubrique 4510 peut dépasser le seuil autorisé (103t → jusqu'à 152t). Impact sur règle cumul Seveso. Exploitant demande aménagement classement. Menace suites administratives. G2 car NC de classement sans dimension physique directe."
+  },
+  {
+    "slug": "saft-sas52005922023-09-0838370387300083f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: SAFT non soumis à la rubrique spécifique AM PFAS mais a réalisé recensement produits PFAS et pré-campagne d'analyse (33 ng/L < limite DCE). Prélèvements non conformes à la note AM (pas de blanc). Résultats indicatifs. Engagement campagne complète avant 28/03/2024. G2 car méthodologie pré-campagne non conforme mais résultats en dessous des seuils."
+  },
+  {
+    "slug": "saft-sas52005922023-09-0838370387300083f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: exploitant a obtenu accord informel du gestionnaire pour débits supérieurs mais convention de rejet non encore actualisée. Demande transmission convention actualisée dans les meilleurs délais. NC documentaire: accord obtenu mais non formalisé."
+  },
+  {
+    "slug": "saft-sas52005922023-09-0838370387300083f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: cuve floculation installée et fonctionnelle. Mais nouveaux dépassements VLE Ni et Cd en août 2023 (01/08 rapport d'incident transmis). Origine: installation récupération hydroxydes métalliques. NC récurrente malgré plan d'actions. Menace suites administratives. M06 car mêmes polluants déjà NC inspection précédente."
+  },
+  {
+    "slug": "saft-sas52005922023-09-0838370387300083f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: demande aménagement VLE azote total formulée mais étude technico-économique insuffisamment développée (études 2014/2018 vieilles, seul traitement biologique étudié). Rapport SARPI ThinkTech non encore disponible. Dépassements VLE azote persistants (40x VLE). Demande approfondissement sous délai."
+  },
+  {
+    "slug": "saft-sas52005922023-09-0838370387300083f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: télé-relevé prélèvements eau de nouveau opérationnel. Registre des jours antérieurs consulté sans remarque. NC de janvier 2023 sur télésurveillance levée."
+  },
+  {
+    "slug": "saft-sas52005922023-09-0838370387300083f06",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: exploitant demande aménagement tableau classement pour distinguer situation lors des arrêts techniques (4441 dilué → 4510 mais règle cumul toujours <1). Inspection prend acte, intégration dans prochain AP modificatif. G2 car ajustement de classement administratif."
+  },
+  {
+    "slug": "saft-sas52005922023-09-0838370387300083f07",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: POI mis à jour version 2022 incluant fiche réflexe fuite NH3 au bunker et plan installations incluant chapiteau. Points demandés en mars 2022 traités. Conforme."
+  },
+  {
+    "slug": "saft-sas52005922023-09-0838370387300083f08",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: registre exercices ESI sur rideau d'eau bunker ammoniac ne permet pas de constater exercice annuel pour chaque ESI. Demande justification sous 1 mois. Menace suites administratives. G3 car MMR (rideau d'eau NH3) non testé régulièrement = risque sur capacité d'intervention."
+  },
+  {
+    "slug": "saft-sas52005922024-01-2938370387300083f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A05_ORGANISME",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: inspection présente lors installation matériel SGS pour prélèvement INERIS (bioessais in vitro). Méthodologie conforme (tuyau téflon neuf, blanc réalisé, paramétrage débitmètre). Prélèvement débuté sans problème. Conforme."
+  },
+  {
+    "slug": "saft-sas52005922024-01-2938370387300083f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: registre suivi station consulté, compteur en sortie relevé (2287045 m3). Logiciel pilotage station consulté avec pH, volumes journaliers. Conforme."
+  },
+  {
+    "slug": "saft-sas52005922024-01-2938370387300083f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: débit relevé 154 m3 à 15h, débit annoncé 114 m3/h. Station rejette en moyenne 300-400 m3/j selon conducteur. Descriptif factuel de l'autosurveillance. Pas de NC."
+  },
+  {
+    "slug": "saft-sas52005922024-11-2138370387300083f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: autosurveillance réalisée, contrat IRH, tableau synthèse à jour mais absence de programme de surveillance formalisé fixant règles de périodicité par paramètre. Demande de compléter les outils de suivi. NC documentaire/formelle."
+  },
+  {
+    "slug": "saft-sas52005922024-11-2138370387300083f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: dépassements VLE Cd persistants tout au long de 2024 (chaque mois), VLE Ni ponctuellement. Plan d'actions lancé avec analyse pluridisciplinaire. Branche FINEC raccordée directement à KROFTA sans SAPEC découverte. Actions correctives prévues mais pas encore toutes en place. Proposition MED. Récurrence depuis 2020. G3 car NC VLE métaux récurrente avec origines partiellement identifiées."
+  },
+  {
+    "slug": "saft-sas52005922024-11-2138370387300083f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: VLE azote global dépassée de façon massive et récurrente (561 mg/L à 2019 mg/L vs VLE 50 mg/L, soit jusqu'à 40x VLE). Depuis 2022, dépassements persistants. Rapport technico-économique SARPI non disponible. Proposition MED. Récurrence pluri-annuelle. G4 car dépassements VLE azote massifs et récurrents avec proposition MED."
+  },
+  {
+    "slug": "saft-sas52005922024-11-2138370387300083f04",
+    "domains": [
+      "D07_RETENTION",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: bassin de confinement non maintenu vide (niveau >70 cm sur 2,2 m). Eaux évacuées progressivement vers KROFTA. Engagement de disponibilité 600 m3 non respecté. Demande dispositions sous 1 mois. G3 car bassin confinement indisponible = perte de capacité de rétention en cas d'incident."
+  },
+  {
+    "slug": "saft-sas52005922024-11-2138370387300083f05",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: rétention imprégnation NT contient produits incompatibles (acide nitrate cobalt + soude). Alarme niveau sans test formalisé. Produits chimiques stockés à même le sol. Murette NEC cassée par endroit. Certains réseaux non orientés vers SAPEC. G3 car multiples NC physiques de rétention avec incompatibilité chimique."
+  },
+  {
+    "slug": "saft-sas52005922024-11-2138370387300083f06",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: 3 BESS installés, aménagement conforme à l'APC. Exercice incendie mené (sans SDIS). POI en cours de mise à jour. Alarmes testées mais rapport non transmis. Récolement APC indiqué mais non transmis. Demandes de documents sous 1 mois. G2 car NC documentaires (récolement, rapport test alarmes, POI non transmis)."
+  },
+  {
+    "slug": "saft-sas52005922025-07-2538370387300083f01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: groupes électrogènes présents et testés mais liste des installations sauvegardées non clairement établie. POI à compléter. NC organisationnelle/documentaire sur la gestion des utilités et mise en sécurité en cas de coupure électrique. G2 car lacune documentaire/organisationnelle sans NC physique immédiate."
+  },
+  {
+    "slug": "saft-sas52005922025-07-2538370387300083f02",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: consigne noyage réacteurs dissolution présente mais simulation révèle besoin de clarification (bouton à identifier). Personnel connaît la consigne mais n'a jamais été exercé à sa mise en oeuvre. G3 car barrière de sécurité critique (noyage pour prévention nuage toxique) non testée."
+  },
+  {
+    "slug": "saft-sas52005922025-07-2538370387300083f03",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: systèmes de détection incendie/gaz avec batteries de secours. Mode fonctionnement sur batterie contrôlé périodiquement. Rapports de contrôle des détections non consultés lors de l'inspection. Demande transmission rapports. NC documentaire: non consultation rapports."
+  },
+  {
+    "slug": "saft-sas52005922025-07-2538370387300083f04",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: temps fonctionnement sur batteries estimé 24-48h sans vérifications opérationnelles. Temps fonctionnement groupes électrogènes non indiqué. Niveau carburant non consultable, appoint non tracé. Organisation en cas de perte électricité >48h à développer. G3 car autonomie des systèmes de sécurité non démontrée."
+  },
+  {
+    "slug": "saft-sas52005922025-07-2538370387300083f05",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: groupes électrogènes testés tous les lundis, vu les cahiers de suivi. Batteries de secours contrôlées périodiquement. Pas de demande sur ce point. Conforme."
+  },
+  {
+    "slug": "saft-sas52005922025-07-2538370387300083f06",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: POI mis à jour le 17/01/2025, nouvelle mise à jour en cours. 4 exercices POI par an. Dernier exercice 25/06/2025 (incendie bât.14) avec compte-rendu présenté. Conforme sur exercices."
+  },
+  {
+    "slug": "saft-sas52005922025-07-2538370387300083f07",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: stratégie prélèvements environnementaux en cas d'accident en cours de définition (scénarios, facteurs d'émissions). Bureau d'étude pour conséquences fumées toxiques. Mais définition opérationnelle et formation du personnel à mener. POI à mettre à jour. NC documentaire/organisationnelle sur les prélèvements environnementaux en cas d'accident."
+  },
+  {
+    "slug": "saft-sas52005922025-07-2538370387300083f08",
+    "domains": [
+      "D04_EAUX",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: barrière hydraulique arrêtée en octobre 2024. Campagnes surveillance eaux souterraines réalisées en oct. 2024, fév. 2025 et juin 2025. Pas de rebond observé. Piézomètres Pz11/Pz12 exclus, renivellement recommandé. Demande poursuite surveillance et justification renivellement. G2 car surveillance post-arrêt barrière en cours sans anomalie."
+  },
+  {
+    "slug": "saft-sas52005922025-11-1938370387300083f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: 2 chaudières 5,8 MW (total >5 MW, mises en service 2021) non renseignées dans le recueil données installations moyennes de combustion (INERIS). Délai déclaration dépassé. Demande déclaration sous 1 mois. NC documentaire."
+  },
+  {
+    "slug": "saft-sas52005922025-11-1938370387300083f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: chaudières fonctionnent au gaz naturel alimentation réseau de ville. Conforme aux combustibles autorisés rubrique 2910-A."
+  },
+  {
+    "slug": "saft-sas52005922025-11-1938370387300083f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A05_ORGANISME",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: teneur O2 mesurée 3,9% chaudière 1 et 3,4% chaudière 2 (proche des 3%). Concentrations exprimées en conditions normalisées à 3% O2. Conforme."
+  },
+  {
+    "slug": "saft-sas52005922025-11-1938370387300083f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A05_ORGANISME",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: rapport APAVE du 11/06/2025: CO=14-18 mg/m3 et NOx=74-76 mg/m3 pour les 2 chaudières. VLE respectées (NOx <100, CO prescrit). Conforme."
+  },
+  {
+    "slug": "saft-sas52005922025-11-1938370387300083f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: PPA agglomération bordelaise version approuvée 23/07/2024 n'amène pas de dispositions renforcées. Conforme."
+  },
+  {
+    "slug": "saft-sas52005922025-11-1938370387300083f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A05_ORGANISME",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: bureau APAVE agréé jusqu'au 30/06/2028. Mesures réalisées en juin 2025 et mai 2023. Périodicité 2 ans respectée. Conforme."
+  },
+  {
+    "slug": "saft-sas52005922025-11-1938370387300083f07",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A05_ORGANISME",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: mesures effectuées selon dispositions AM 11/03/2010. Pas d'écart à la norme dans le rapport APAVE. Conforme."
+  },
+  {
+    "slug": "saft-sas52005922025-11-1938370387300083f08",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A05_ORGANISME",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: résultats conformes aux VLE. Pas de remarque particulière."
+  },
+  {
+    "slug": "saft-sas52005922025-11-1938370387300083f09",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: chaudières sans système de traitement des gaz de combustion. Prescription ne s'applique donc pas. Factuel, pas de NC."
+  },
+  {
+    "slug": "saft-sas52005922025-11-1938370387300083f10",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: livret de chaufferie consulté (contrôles 72h tracés). Rapports mesures combustion COMETI d'août 2025 consultés. Pas de remarque particulière."
+  },
+  {
+    "slug": "saft-sas52005922025-11-1938370387300083f11",
+    "domains": [
+      "D05_AIR_BRUIT",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: local chaufferie non équipé de détection automatique d'incendie (NC majeure selon AM). Alarme dureté eau non levée lors de la ronde. Vannes coupure gaz conformes, extincteurs présents, détection gaz présente et asservie à coupure gaz. G3 car absence détection incendie locale chaufferie = NC majeure identifiée."
+  },
+  {
+    "slug": "saft-sas52005922025-11-1938370387300083f12",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A05_ORGANISME",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: rapport contrôle efficacité énergétique APAVE du 11/06/2025 consulté. Contrôle réalisé simultanément aux mesures rejets atmosphériques. Pas de remarque particulière."
+  },
+  {
+    "slug": "saft-sas52005922025-11-1938370387300083f13",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A05_ORGANISME",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: vérification quadriennale électrique BV (08/2025): 187 observations dont 16 majeures sur de nombreux bâtiments/postes HT. Plusieurs Q18 indiquant risques incendie/explosion. 30 observations corrigées depuis le contrôle. Historique: seulement 30-50% des observations majeures traitées ces 3 dernières années → récidive. Thermographie: 4 échauffements priorité 1. Menace MED. G3 car installations électriques avec risques incendie/explosion identifiés, nombreuses récurrences."
+  }
+]

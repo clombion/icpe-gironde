@@ -1,0 +1,836 @@
+{
+  "total_audited": 43,
+  "errors_found": 36,
+  "corrections": [
+    {
+      "slug": "oneaygue-ex-quartus-logistique31049192024-10-1688478570000011f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08"
+      ],
+      "corrected_value": [
+        "M01"
+      ],
+      "reason": "Etat des stocks incomplet: palettes d'aerosols inflammables absentes de l'inventaire presente, et aucun seuil d'alerte de depassement integre a l'outil. Ecart documentaire sur l'exhaustivite/fiabilite de l'etat des stocks (M01), pas une conformite (Demande a formuler non vide). G2 purement documentaire."
+    },
+    {
+      "slug": "oneaygue-ex-quartus-logistique31049192024-10-1688478570000011f02",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Etat des stocks incomplet: palettes d'aerosols inflammables absentes de l'inventaire presente, et aucun seuil d'alerte de depassement integre a l'outil. Ecart documentaire sur l'exhaustivite/fiabilite de l'etat des stocks (M01), pas une conformite (Demande a formuler non vide). G2 purement documentaire."
+    },
+    {
+      "slug": "oneaygue-ex-quartus-logistique31049192024-10-1688478570000011f02",
+      "field": "gravity",
+      "hunter_value": "G1",
+      "corrected_value": "G2",
+      "reason": "Etat des stocks incomplet: palettes d'aerosols inflammables absentes de l'inventaire presente, et aucun seuil d'alerte de depassement integre a l'outil. Ecart documentaire sur l'exhaustivite/fiabilite de l'etat des stocks (M01), pas une conformite (Demande a formuler non vide). G2 purement documentaire."
+    },
+    {
+      "slug": "oneaygue-ex-quartus-logistique31049192024-10-1688478570000011f03",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Surfaces d'ilotage cellule 2 non respectees (allee utilisee pour stockage) et futs >30L sans retention en cellule 5 non autorisee pour liquides inflammables = NC physique (M14). Demande a formuler explicite -> S02."
+    },
+    {
+      "slug": "oneaygue-ex-quartus-logistique31049192024-10-1688478570000011f07",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M01",
+        "M14"
+      ],
+      "corrected_value": [
+        "M01"
+      ],
+      "reason": "CGA ne peut presenter aucun justificatif de formation, COQUELLE presente des attestations partielles = absence de preuve documentaire (M01), pas un constat physique. Aucun delai chiffre dans le corps mais menace explicite de MED en cas de non-transmission -> m_MENACE (pas m_DELAI). G2 purement documentaire."
+    },
+    {
+      "slug": "oneaygue-ex-quartus-logistique31049192024-10-1688478570000011f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_MENACE"
+      ],
+      "reason": "CGA ne peut presenter aucun justificatif de formation, COQUELLE presente des attestations partielles = absence de preuve documentaire (M01), pas un constat physique. Aucun delai chiffre dans le corps mais menace explicite de MED en cas de non-transmission -> m_MENACE (pas m_DELAI). G2 purement documentaire."
+    },
+    {
+      "slug": "oneaygue-ex-quartus-logistique31049192024-10-1688478570000011f07",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "CGA ne peut presenter aucun justificatif de formation, COQUELLE presente des attestations partielles = absence de preuve documentaire (M01), pas un constat physique. Aucun delai chiffre dans le corps mais menace explicite de MED en cas de non-transmission -> m_MENACE (pas m_DELAI). G2 purement documentaire."
+    },
+    {
+      "slug": "oneaygue-ex-quartus-logistique31049192024-10-1688478570000011f09",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08"
+      ],
+      "corrected_value": [
+        "M02"
+      ],
+      "reason": "Mesures eaux souterraines 2024 non realisees/non presentees (seuls 2023 rapportes). Non-realisation de mesure reglementaire (M02), signal G3 explicite du referentiel ('non realise' controle/mesure)."
+    },
+    {
+      "slug": "oneaygue-ex-quartus-logistique31049192024-10-1688478570000011f09",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Mesures eaux souterraines 2024 non realisees/non presentees (seuls 2023 rapportes). Non-realisation de mesure reglementaire (M02), signal G3 explicite du referentiel ('non realise' controle/mesure)."
+    },
+    {
+      "slug": "oneaygue-ex-quartus-logistique31049192024-10-1688478570000011f09",
+      "field": "gravity",
+      "hunter_value": "G1",
+      "corrected_value": "G3",
+      "reason": "Mesures eaux souterraines 2024 non realisees/non presentees (seuls 2023 rapportes). Non-realisation de mesure reglementaire (M02), signal G3 explicite du referentiel ('non realise' controle/mesure)."
+    },
+    {
+      "slug": "oneaygue-ex-quartus-logistique31049192024-10-1688478570000011f12",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Bassin etanche n3 non pleinement disponible (volume d'eau residuel) et geomembrane avec soulevements importants = NC physique sur dispositif de confinement (M14). Demande a formuler explicite -> S02."
+    },
+    {
+      "slug": "oneaygue-ex-quartus-logistique31049192025-10-1788478570000011f01",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Plan de defense incendie incoherent (ordre des actions, contacts manquants, competences non justifiees) = NC documentaire sur contenu du PDI (M01). Demande a formuler etendue et detaillee -> S02."
+    },
+    {
+      "slug": "oneaygue-ex-quartus-logistique31049192026-02-2588478570000011f01",
+      "field": "actor",
+      "hunter_value": "A02",
+      "corrected_value": "A01",
+      "reason": "Verification du classement rubriques 1510/4331 et de la quantite de liquides inflammables stockes (GRV CIRON deplaces suite crues), conforme au seuil. M17 verification + M08 conformite. Acteur dominant: l'exploitant (stockage/information), pas l'inspection."
+    },
+    {
+      "slug": "orion-engineered-carbons-s-a-s52002662022-10-1846120049500012f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M01",
+        "M02"
+      ],
+      "corrected_value": [
+        "M08"
+      ],
+      "reason": "Resultats semestriels transmis dans les delais, memo inertage/refection piezometres sans remarque particuliere. Aucune 'Demande a formuler' dans le corps: signal fort de conformite (M08), pas de NC documentaire."
+    },
+    {
+      "slug": "orion-engineered-carbons-s-a-s52002662022-10-1846120049500012f05",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "Resultats semestriels transmis dans les delais, memo inertage/refection piezometres sans remarque particuliere. Aucune 'Demande a formuler' dans le corps: signal fort de conformite (M08), pas de NC documentaire."
+    },
+    {
+      "slug": "orion-engineered-carbons-s-a-s52002662023-06-2046120049500012f01",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Bassin BR4 cree hors enceinte clôturee, chaine/cadenas juges peu solides sur le portail routier = NC physique de securisation du site (M14). Demandes explicites (dispositif plus resistant, panneaux, signalisation) -> S02."
+    },
+    {
+      "slug": "orion-engineered-carbons-s-a-s52002662023-06-2046120049500012f06",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M02",
+        "M01"
+      ],
+      "corrected_value": [
+        "M08",
+        "M09"
+      ],
+      "reason": "Resultats semestriels transmis dans les delais, memorandum inertage sans remarque. Projet d'arrete prefectoral complementaire joint (M09). Aucune demande dans le corps: M08 conformite. Pas d'historique explicite -> T1."
+    },
+    {
+      "slug": "orion-engineered-carbons-s-a-s52002662023-06-2046120049500012f06",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "Resultats semestriels transmis dans les delais, memorandum inertage sans remarque. Projet d'arrete prefectoral complementaire joint (M09). Aucune demande dans le corps: M08 conformite. Pas d'historique explicite -> T1."
+    },
+    {
+      "slug": "orion-engineered-carbons-s-a-s52002662023-06-2046120049500012f06",
+      "field": "trajectory",
+      "hunter_value": "T2",
+      "corrected_value": "T1",
+      "reason": "Resultats semestriels transmis dans les delais, memorandum inertage sans remarque. Projet d'arrete prefectoral complementaire joint (M09). Aucune demande dans le corps: M08 conformite. Pas d'historique explicite -> T1."
+    },
+    {
+      "slug": "ouveo-aquitaine31072372022-09-1240944808100029f01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "M14"
+      ],
+      "corrected_value": [
+        "M17",
+        "M08"
+      ],
+      "reason": "Le controle SOCOTEC 2940 avait releve 5 NC majeures, mais l'exploitant demontre via un registre de suivi journalier verifie par l'inspection que la consommation reelle (<10kg/j) est desormais sous le seuil de classement de la rubrique 2940 (20kg/j): les NC 'sont desormais sans objet'. C'est une verification de classement (M17) confirmant la conformite du registre (M08), pas un constat technique en cours -- cloture de l'ecart -> S06, G1, T3 (amelioration/non-classement)."
+    },
+    {
+      "slug": "ouveo-aquitaine31072372022-09-1240944808100029f01",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R13",
+      "reason": "Le controle SOCOTEC 2940 avait releve 5 NC majeures, mais l'exploitant demontre via un registre de suivi journalier verifie par l'inspection que la consommation reelle (<10kg/j) est desormais sous le seuil de classement de la rubrique 2940 (20kg/j): les NC 'sont desormais sans objet'. C'est une verification de classement (M17) confirmant la conformite du registre (M08), pas un constat technique en cours -- cloture de l'ecart -> S06, G1, T3 (amelioration/non-classement)."
+    },
+    {
+      "slug": "ouveo-aquitaine31072372022-09-1240944808100029f01",
+      "field": "actor",
+      "hunter_value": "A05",
+      "corrected_value": "A01",
+      "reason": "Le controle SOCOTEC 2940 avait releve 5 NC majeures, mais l'exploitant demontre via un registre de suivi journalier verifie par l'inspection que la consommation reelle (<10kg/j) est desormais sous le seuil de classement de la rubrique 2940 (20kg/j): les NC 'sont desormais sans objet'. C'est une verification de classement (M17) confirmant la conformite du registre (M08), pas un constat technique en cours -- cloture de l'ecart -> S06, G1, T3 (amelioration/non-classement)."
+    },
+    {
+      "slug": "ouveo-aquitaine31072372022-09-1240944808100029f01",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S06",
+      "reason": "Le controle SOCOTEC 2940 avait releve 5 NC majeures, mais l'exploitant demontre via un registre de suivi journalier verifie par l'inspection que la consommation reelle (<10kg/j) est desormais sous le seuil de classement de la rubrique 2940 (20kg/j): les NC 'sont desormais sans objet'. C'est une verification de classement (M17) confirmant la conformite du registre (M08), pas un constat technique en cours -- cloture de l'ecart -> S06, G1, T3 (amelioration/non-classement)."
+    },
+    {
+      "slug": "ouveo-aquitaine31072372022-09-1240944808100029f01",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G1",
+      "reason": "Le controle SOCOTEC 2940 avait releve 5 NC majeures, mais l'exploitant demontre via un registre de suivi journalier verifie par l'inspection que la consommation reelle (<10kg/j) est desormais sous le seuil de classement de la rubrique 2940 (20kg/j): les NC 'sont desormais sans objet'. C'est une verification de classement (M17) confirmant la conformite du registre (M08), pas un constat technique en cours -- cloture de l'ecart -> S06, G1, T3 (amelioration/non-classement)."
+    },
+    {
+      "slug": "ouveo-aquitaine31072372022-09-1240944808100029f01",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T3",
+      "reason": "Le controle SOCOTEC 2940 avait releve 5 NC majeures, mais l'exploitant demontre via un registre de suivi journalier verifie par l'inspection que la consommation reelle (<10kg/j) est desormais sous le seuil de classement de la rubrique 2940 (20kg/j): les NC 'sont desormais sans objet'. C'est une verification de classement (M17) confirmant la conformite du registre (M08), pas un constat technique en cours -- cloture de l'ecart -> S06, G1, T3 (amelioration/non-classement)."
+    },
+    {
+      "slug": "ouveo-aquitaine31072372022-09-1240944808100029f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Absence de retention pour un GRV 1m3 et un fut 200L de produits basiques en zone de traitement des effluents = NC physique (M14). Demande sous 15 jours (m_DELAI) et rappel explicite de mise en demeure possible (m_MENACE)."
+    },
+    {
+      "slug": "ouveo-aquitaine31072372022-09-1240944808100029f04",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Absence de retention pour un GRV 1m3 et un fut 200L de produits basiques en zone de traitement des effluents = NC physique (M14). Demande sous 15 jours (m_DELAI) et rappel explicite de mise en demeure possible (m_MENACE)."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862024-04-2541935359400049f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14"
+      ],
+      "corrected_value": [
+        "M14",
+        "M04"
+      ],
+      "reason": "Deux aires de stockage de compost non impermeabilisees sans recueil des eaux de ruissellement (M14). L'inspection propose au Prefet une mise en demeure sous un delai d'un mois (M04, m_DELAI) -> escalade S05. MED proposee + NC technique concomitante -> G4."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862024-04-2541935359400049f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Deux aires de stockage de compost non impermeabilisees sans recueil des eaux de ruissellement (M14). L'inspection propose au Prefet une mise en demeure sous un delai d'un mois (M04, m_DELAI) -> escalade S05. MED proposee + NC technique concomitante -> G4."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862024-04-2541935359400049f03",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S05",
+      "reason": "Deux aires de stockage de compost non impermeabilisees sans recueil des eaux de ruissellement (M14). L'inspection propose au Prefet une mise en demeure sous un delai d'un mois (M04, m_DELAI) -> escalade S05. MED proposee + NC technique concomitante -> G4."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862024-04-2541935359400049f04",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14"
+      ],
+      "corrected_value": [
+        "M01",
+        "M14"
+      ],
+      "reason": "Hauteur exacte des parois legio-blocks non controlable (incertitude physique, M14) et exploitant incapable de justifier les proprietes de resistance au feu (M01). Delai de 3 mois impose pour justifier -> m_DELAI, S02."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862024-04-2541935359400049f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Hauteur exacte des parois legio-blocks non controlable (incertitude physique, M14) et exploitant incapable de justifier les proprietes de resistance au feu (M01). Delai de 3 mois impose pour justifier -> m_DELAI, S02."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862024-04-2541935359400049f04",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Hauteur exacte des parois legio-blocks non controlable (incertitude physique, M14) et exploitant incapable de justifier les proprietes de resistance au feu (M01). Delai de 3 mois impose pour justifier -> m_DELAI, S02."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862024-04-2541935359400049f09",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Niveau piezometrique absent du rapport labo (M02) et resultats GIDAF (M03) incomplets pour mars 2024. Demande avec delai d'un mois explicite -> m_DELAI, S02."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862024-04-2541935359400049f09",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Niveau piezometrique absent du rapport labo (M02) et resultats GIDAF (M03) incomplets pour mars 2024. Demande avec delai d'un mois explicite -> m_DELAI, S02."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862024-04-2541935359400049f18",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M11"
+      ],
+      "corrected_value": [
+        "M11",
+        "M08"
+      ],
+      "reason": "Incendie du 16/03/2022 declare (rapport d'accident, M11). L'inspection de 2024 constate et verifie les actions correctives mises en oeuvre depuis (Fogmaker, deplacement machines, detection thermique) -> M08 conformite des mesures correctives, T3 amelioration depuis l'incident (pas T1, deux ans d'ecart documentes)."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862024-04-2541935359400049f18",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T3",
+      "reason": "Incendie du 16/03/2022 declare (rapport d'accident, M11). L'inspection de 2024 constate et verifie les actions correctives mises en oeuvre depuis (Fogmaker, deplacement machines, detection thermique) -> M08 conformite des mesures correctives, T3 amelioration depuis l'incident (pas T1, deux ans d'ecart documentes)."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862025-09-2541935359400049f01",
+      "field": "stage",
+      "hunter_value": "S03",
+      "corrected_value": "S06",
+      "reason": "Le texte conclut explicitement que 'les dispositions de l'arrete prefectoral de mise en demeure du 14 aout 2024 sont respectees' et que les deux ecarts methodologiques anterieurs 'sont donc leves' -> cloture de la MED, S06, G1 (etat final conforme malgre des depassements ponctuels documentes pendant la periode de mise en conformite)."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862025-09-2541935359400049f01",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G1",
+      "reason": "Le texte conclut explicitement que 'les dispositions de l'arrete prefectoral de mise en demeure du 14 aout 2024 sont respectees' et que les deux ecarts methodologiques anterieurs 'sont donc leves' -> cloture de la MED, S06, G1 (etat final conforme malgre des depassements ponctuels documentes pendant la periode de mise en conformite)."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862025-09-2541935359400049f04",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S04",
+      "reason": "Suivi explicite d'un pic nitrates constate a l'inspection precedente (PZ2, 49mg/l < seuil 50mg/l): campagnes suivantes (20/43/35 mg/l) confirment le retour a la normale, verification post-remarque. M08. S04 verification, T3 amelioration."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862025-09-2541935359400049f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Le laboratoire DEKRA continue de reference une VLE NH3 erronee (50mg/m3 si flux>100g/h) malgre remarque precedente. Le texte precise explicitement 'l'ecart releve... est maintenu' = stagnation T4, pas amelioration. Delai de 3 mois -> m_DELAI, S02. M02 methodologie + M08 partiel (pas de depassement reel mesure). G2 purement documentaire/methodologique."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862025-09-2541935359400049f05",
+      "field": "dynamic",
+      "hunter_value": "R13",
+      "corrected_value": "R14",
+      "reason": "Le laboratoire DEKRA continue de reference une VLE NH3 erronee (50mg/m3 si flux>100g/h) malgre remarque precedente. Le texte precise explicitement 'l'ecart releve... est maintenu' = stagnation T4, pas amelioration. Delai de 3 mois -> m_DELAI, S02. M02 methodologie + M08 partiel (pas de depassement reel mesure). G2 purement documentaire/methodologique."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862025-09-2541935359400049f05",
+      "field": "stage",
+      "hunter_value": "S04",
+      "corrected_value": "S02",
+      "reason": "Le laboratoire DEKRA continue de reference une VLE NH3 erronee (50mg/m3 si flux>100g/h) malgre remarque precedente. Le texte precise explicitement 'l'ecart releve... est maintenu' = stagnation T4, pas amelioration. Delai de 3 mois -> m_DELAI, S02. M02 methodologie + M08 partiel (pas de depassement reel mesure). G2 purement documentaire/methodologique."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862025-09-2541935359400049f05",
+      "field": "trajectory",
+      "hunter_value": "T3",
+      "corrected_value": "T4",
+      "reason": "Le laboratoire DEKRA continue de reference une VLE NH3 erronee (50mg/m3 si flux>100g/h) malgre remarque precedente. Le texte precise explicitement 'l'ecart releve... est maintenu' = stagnation T4, pas amelioration. Delai de 3 mois -> m_DELAI, S02. M02 methodologie + M08 partiel (pas de depassement reel mesure). G2 purement documentaire/methodologique."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862025-09-2541935359400049f08",
+      "field": "domains",
+      "hunter_value": [
+        "D01",
+        "D08"
+      ],
+      "corrected_value": [
+        "D01",
+        "D08",
+        "D12"
+      ],
+      "reason": "Hauteurs de stockage et aires de compost non autorisees resolues (M08), mais reorganisation des stockages non portee a la connaissance du prefet: nouvelle NC administrative (M09/PAC) avec delai de 3 mois -> m_DELAI, S02. G2 purement administratif (le risque physique initial est resolu)."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862025-09-2541935359400049f08",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08"
+      ],
+      "corrected_value": [
+        "M08",
+        "M09"
+      ],
+      "reason": "Hauteurs de stockage et aires de compost non autorisees resolues (M08), mais reorganisation des stockages non portee a la connaissance du prefet: nouvelle NC administrative (M09/PAC) avec delai de 3 mois -> m_DELAI, S02. G2 purement administratif (le risque physique initial est resolu)."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862025-09-2541935359400049f08",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Hauteurs de stockage et aires de compost non autorisees resolues (M08), mais reorganisation des stockages non portee a la connaissance du prefet: nouvelle NC administrative (M09/PAC) avec delai de 3 mois -> m_DELAI, S02. G2 purement administratif (le risque physique initial est resolu)."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862025-09-2541935359400049f08",
+      "field": "stage",
+      "hunter_value": "S04",
+      "corrected_value": "S02",
+      "reason": "Hauteurs de stockage et aires de compost non autorisees resolues (M08), mais reorganisation des stockages non portee a la connaissance du prefet: nouvelle NC administrative (M09/PAC) avec delai de 3 mois -> m_DELAI, S02. G2 purement administratif (le risque physique initial est resolu)."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862025-09-2541935359400049f08",
+      "field": "gravity",
+      "hunter_value": "G1",
+      "corrected_value": "G2",
+      "reason": "Hauteurs de stockage et aires de compost non autorisees resolues (M08), mais reorganisation des stockages non portee a la connaissance du prefet: nouvelle NC administrative (M09/PAC) avec delai de 3 mois -> m_DELAI, S02. G2 purement administratif (le risque physique initial est resolu)."
+    },
+    {
+      "slug": "paprec-agro-ex-aes52078862025-09-2541935359400049f13",
+      "field": "stage",
+      "hunter_value": "S04",
+      "corrected_value": "S06",
+      "reason": "Onglet dates de retournement des andains ajoute dans Quanturi; le texte dit explicitement 'l'ecart... est leve'. M08, cloture de l'ecart precedent -> S06 (coherent avec les autres cloture de ce batch)."
+    },
+    {
+      "slug": "paprec-coved52048422022-09-0634340353101603f05",
+      "field": "actor",
+      "hunter_value": "A06",
+      "corrected_value": "A01",
+      "reason": "Etude acoustique ARTIFEX 2021: NC recurrente (64 pour 60dB) en limite de propriete nocturne, comme en 2020 -> T4 stagnation, M14/M02. Acteur dominant: l'exploitant (responsable de l'installation et de la surveillance), pas le bureau d'etudes qui a realise la mesure."
+    },
+    {
+      "slug": "paprec-coved52048422022-09-0634340353101603f10",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Balles de dechets stockees hors zone autorisee (risque incendie/pollution), evacuation demandee sous 1 mois -> m_DELAI, S02. M14 physique, G3."
+    },
+    {
+      "slug": "paprec-coved52048422022-09-0634340353101603f10",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Balles de dechets stockees hors zone autorisee (risque incendie/pollution), evacuation demandee sous 1 mois -> m_DELAI, S02. M14 physique, G3."
+    },
+    {
+      "slug": "paprec-coved52048422023-07-2534340353101603f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M04",
+        "M14"
+      ],
+      "corrected_value": [
+        "M04",
+        "M14",
+        "M02"
+      ],
+      "reason": "MED active (echeance depassee depuis le 08/09/2022), infiltration toujours non controlee (M14) et methodologie de prelevement non conforme -- 1 prelevement instantane au lieu de 5 minimum requis (M02). L'exploitant presente un projet concret chiffre et engage (budget alloue, devis signe) = engagement credible R02. Nouvelle demande de caracterisation ammonium/hydrocarbures sous 3 mois -> m_DELAI. Poursuite du suivi de la MED active, pas nouvelle escalade -> S02."
+    },
+    {
+      "slug": "paprec-coved52048422023-07-2534340353101603f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "MED active (echeance depassee depuis le 08/09/2022), infiltration toujours non controlee (M14) et methodologie de prelevement non conforme -- 1 prelevement instantane au lieu de 5 minimum requis (M02). L'exploitant presente un projet concret chiffre et engage (budget alloue, devis signe) = engagement credible R02. Nouvelle demande de caracterisation ammonium/hydrocarbures sous 3 mois -> m_DELAI. Poursuite du suivi de la MED active, pas nouvelle escalade -> S02."
+    },
+    {
+      "slug": "paprec-coved52048422023-07-2534340353101603f05",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R02",
+      "reason": "MED active (echeance depassee depuis le 08/09/2022), infiltration toujours non controlee (M14) et methodologie de prelevement non conforme -- 1 prelevement instantane au lieu de 5 minimum requis (M02). L'exploitant presente un projet concret chiffre et engage (budget alloue, devis signe) = engagement credible R02. Nouvelle demande de caracterisation ammonium/hydrocarbures sous 3 mois -> m_DELAI. Poursuite du suivi de la MED active, pas nouvelle escalade -> S02."
+    },
+    {
+      "slug": "paprec-coved52048422023-07-2534340353101603f05",
+      "field": "stage",
+      "hunter_value": "S05",
+      "corrected_value": "S02",
+      "reason": "MED active (echeance depassee depuis le 08/09/2022), infiltration toujours non controlee (M14) et methodologie de prelevement non conforme -- 1 prelevement instantane au lieu de 5 minimum requis (M02). L'exploitant presente un projet concret chiffre et engage (budget alloue, devis signe) = engagement credible R02. Nouvelle demande de caracterisation ammonium/hydrocarbures sous 3 mois -> m_DELAI. Poursuite du suivi de la MED active, pas nouvelle escalade -> S02."
+    },
+    {
+      "slug": "paprec-coved52048422025-10-1434340353101603f01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14"
+      ],
+      "corrected_value": [
+        "M08"
+      ],
+      "reason": "Campagne de mesure de bruit (juillet 2024) conforme (53dB, emergence 2dB diurne/nocturne), methodologie et conclusions validees par l'inspection. La 'Demande a formuler' est explicitement une observation de conformite ('la gestion du bruit... est correcte'), pas une injonction. M08 conformite, pas de NC. Texte integralement disponible (pas tronque)."
+    },
+    {
+      "slug": "paprec-coved52048422025-10-1434340353101603f01",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R13",
+      "reason": "Campagne de mesure de bruit (juillet 2024) conforme (53dB, emergence 2dB diurne/nocturne), methodologie et conclusions validees par l'inspection. La 'Demande a formuler' est explicitement une observation de conformite ('la gestion du bruit... est correcte'), pas une injonction. M08 conformite, pas de NC. Texte integralement disponible (pas tronque)."
+    },
+    {
+      "slug": "paprec-coved52048422025-10-1434340353101603f01",
+      "field": "actor",
+      "hunter_value": "A02",
+      "corrected_value": "A01",
+      "reason": "Campagne de mesure de bruit (juillet 2024) conforme (53dB, emergence 2dB diurne/nocturne), methodologie et conclusions validees par l'inspection. La 'Demande a formuler' est explicitement une observation de conformite ('la gestion du bruit... est correcte'), pas une injonction. M08 conformite, pas de NC. Texte integralement disponible (pas tronque)."
+    },
+    {
+      "slug": "paprec-coved52048422025-10-1434340353101603f01",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "Campagne de mesure de bruit (juillet 2024) conforme (53dB, emergence 2dB diurne/nocturne), methodologie et conclusions validees par l'inspection. La 'Demande a formuler' est explicitement une observation de conformite ('la gestion du bruit... est correcte'), pas une injonction. M08 conformite, pas de NC. Texte integralement disponible (pas tronque)."
+    },
+    {
+      "slug": "paprec-d3e52108492024-05-3043276414000138f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M01",
+        "M14"
+      ],
+      "corrected_value": [
+        "M01",
+        "M14",
+        "M09"
+      ],
+      "reason": "Plan des reseaux incomplet (M01) et gestion des effluents non conforme a l'AP, deja constatee lors de l'inspection precedente, delai de mise en conformite de 12 mois desormais echu -> meme constat, aucune evolution -> T4 (pas T1). Reutilisation des eaux de toiture EK199 non portee a la connaissance du prefet -> M09. Demande sous 3 mois -> m_DELAI, S02."
+    },
+    {
+      "slug": "paprec-d3e52108492024-05-3043276414000138f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Plan des reseaux incomplet (M01) et gestion des effluents non conforme a l'AP, deja constatee lors de l'inspection precedente, delai de mise en conformite de 12 mois desormais echu -> meme constat, aucune evolution -> T4 (pas T1). Reutilisation des eaux de toiture EK199 non portee a la connaissance du prefet -> M09. Demande sous 3 mois -> m_DELAI, S02."
+    },
+    {
+      "slug": "paprec-d3e52108492024-05-3043276414000138f02",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Plan des reseaux incomplet (M01) et gestion des effluents non conforme a l'AP, deja constatee lors de l'inspection precedente, delai de mise en conformite de 12 mois desormais echu -> meme constat, aucune evolution -> T4 (pas T1). Reutilisation des eaux de toiture EK199 non portee a la connaissance du prefet -> M09. Demande sous 3 mois -> m_DELAI, S02."
+    },
+    {
+      "slug": "paprec-d3e52108492024-05-3043276414000138f02",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T4",
+      "reason": "Plan des reseaux incomplet (M01) et gestion des effluents non conforme a l'AP, deja constatee lors de l'inspection precedente, delai de mise en conformite de 12 mois desormais echu -> meme constat, aucune evolution -> T4 (pas T1). Reutilisation des eaux de toiture EK199 non portee a la connaissance du prefet -> M09. Demande sous 3 mois -> m_DELAI, S02."
+    },
+    {
+      "slug": "paprec-d3e52108492024-05-3043276414000138f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M02",
+        "M07"
+      ],
+      "corrected_value": [
+        "M02",
+        "M03"
+      ],
+      "reason": "Depassement VLE zinc confirme (3,67 et 4,86 mg/l pour VLE 0,8mg/l) = G4 (signal explicite 'depassement VLE confirme'). Frequence non respectee aux points 4/6, methode debit non standardisee, resultats non saisis sur GIDAF (M03), VLE de reference obsoletes utilisees par le laboratoire. Demande sous 3 mois -> m_DELAI, S02. Nouvelles NC s'ajoutant a l'ancienne demande de methodologie non pleinement resolue -> T6 accumulation."
+    },
+    {
+      "slug": "paprec-d3e52108492024-05-3043276414000138f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Depassement VLE zinc confirme (3,67 et 4,86 mg/l pour VLE 0,8mg/l) = G4 (signal explicite 'depassement VLE confirme'). Frequence non respectee aux points 4/6, methode debit non standardisee, resultats non saisis sur GIDAF (M03), VLE de reference obsoletes utilisees par le laboratoire. Demande sous 3 mois -> m_DELAI, S02. Nouvelles NC s'ajoutant a l'ancienne demande de methodologie non pleinement resolue -> T6 accumulation."
+    },
+    {
+      "slug": "paprec-d3e52108492024-05-3043276414000138f03",
+      "field": "stage",
+      "hunter_value": "S04",
+      "corrected_value": "S02",
+      "reason": "Depassement VLE zinc confirme (3,67 et 4,86 mg/l pour VLE 0,8mg/l) = G4 (signal explicite 'depassement VLE confirme'). Frequence non respectee aux points 4/6, methode debit non standardisee, resultats non saisis sur GIDAF (M03), VLE de reference obsoletes utilisees par le laboratoire. Demande sous 3 mois -> m_DELAI, S02. Nouvelles NC s'ajoutant a l'ancienne demande de methodologie non pleinement resolue -> T6 accumulation."
+    },
+    {
+      "slug": "paprec-d3e52108492024-05-3043276414000138f03",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G4",
+      "reason": "Depassement VLE zinc confirme (3,67 et 4,86 mg/l pour VLE 0,8mg/l) = G4 (signal explicite 'depassement VLE confirme'). Frequence non respectee aux points 4/6, methode debit non standardisee, resultats non saisis sur GIDAF (M03), VLE de reference obsoletes utilisees par le laboratoire. Demande sous 3 mois -> m_DELAI, S02. Nouvelles NC s'ajoutant a l'ancienne demande de methodologie non pleinement resolue -> T6 accumulation."
+    },
+    {
+      "slug": "paprec-d3e52108492024-05-3043276414000138f03",
+      "field": "trajectory",
+      "hunter_value": "T2",
+      "corrected_value": "T6",
+      "reason": "Depassement VLE zinc confirme (3,67 et 4,86 mg/l pour VLE 0,8mg/l) = G4 (signal explicite 'depassement VLE confirme'). Frequence non respectee aux points 4/6, methode debit non standardisee, resultats non saisis sur GIDAF (M03), VLE de reference obsoletes utilisees par le laboratoire. Demande sous 3 mois -> m_DELAI, S02. Nouvelles NC s'ajoutant a l'ancienne demande de methodologie non pleinement resolue -> T6 accumulation."
+    },
+    {
+      "slug": "paprec-d3e52108492024-05-3043276414000138f04",
+      "field": "actor",
+      "hunter_value": "A05",
+      "corrected_value": "A01",
+      "reason": "Anomalies arsenic/plomb amont non liees a l'activite; prestation octobre 2023 non conforme a l'offre APAVE (parametres non analyses, M02); rapport sans interpretation ni sens d'ecoulement. Demande de completude formulee (sans delai chiffre) -> S02. Acteur dominant: l'exploitant (suivi environnemental), pas l'organisme."
+    },
+    {
+      "slug": "paprec-d3e52108492024-05-3043276414000138f04",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Anomalies arsenic/plomb amont non liees a l'activite; prestation octobre 2023 non conforme a l'offre APAVE (parametres non analyses, M02); rapport sans interpretation ni sens d'ecoulement. Demande de completude formulee (sans delai chiffre) -> S02. Acteur dominant: l'exploitant (suivi environnemental), pas l'organisme."
+    },
+    {
+      "slug": "paprec-d3e52108492024-05-3043276414000138f08",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08",
+        "M14"
+      ],
+      "corrected_value": [
+        "M08",
+        "M14",
+        "M01"
+      ],
+      "reason": "Poteaux/extincteurs/RIA/PIA verifies et resolus (M08), mais nouvelle NC physique majeure: les bunkers de stockage de piles EK195/231 ne sont pas munis de systeme d'extinction automatique requis par l'AP (M14, dispositif absent = G3 minimum), et le dossier PAC justifiant la suffisance reste a completer (M01). Demande sous 3 mois -> m_DELAI, S02. Amelioration des points anciens + nouvelle NC -> T6."
+    },
+    {
+      "slug": "paprec-d3e52108492024-05-3043276414000138f08",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Poteaux/extincteurs/RIA/PIA verifies et resolus (M08), mais nouvelle NC physique majeure: les bunkers de stockage de piles EK195/231 ne sont pas munis de systeme d'extinction automatique requis par l'AP (M14, dispositif absent = G3 minimum), et le dossier PAC justifiant la suffisance reste a completer (M01). Demande sous 3 mois -> m_DELAI, S02. Amelioration des points anciens + nouvelle NC -> T6."
+    },
+    {
+      "slug": "paprec-d3e52108492024-05-3043276414000138f08",
+      "field": "stage",
+      "hunter_value": "S04",
+      "corrected_value": "S02",
+      "reason": "Poteaux/extincteurs/RIA/PIA verifies et resolus (M08), mais nouvelle NC physique majeure: les bunkers de stockage de piles EK195/231 ne sont pas munis de systeme d'extinction automatique requis par l'AP (M14, dispositif absent = G3 minimum), et le dossier PAC justifiant la suffisance reste a completer (M01). Demande sous 3 mois -> m_DELAI, S02. Amelioration des points anciens + nouvelle NC -> T6."
+    },
+    {
+      "slug": "paprec-d3e52108492024-05-3043276414000138f08",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Poteaux/extincteurs/RIA/PIA verifies et resolus (M08), mais nouvelle NC physique majeure: les bunkers de stockage de piles EK195/231 ne sont pas munis de systeme d'extinction automatique requis par l'AP (M14, dispositif absent = G3 minimum), et le dossier PAC justifiant la suffisance reste a completer (M01). Demande sous 3 mois -> m_DELAI, S02. Amelioration des points anciens + nouvelle NC -> T6."
+    },
+    {
+      "slug": "paprec-d3e52108492024-05-3043276414000138f08",
+      "field": "trajectory",
+      "hunter_value": "T3",
+      "corrected_value": "T6",
+      "reason": "Poteaux/extincteurs/RIA/PIA verifies et resolus (M08), mais nouvelle NC physique majeure: les bunkers de stockage de piles EK195/231 ne sont pas munis de systeme d'extinction automatique requis par l'AP (M14, dispositif absent = G3 minimum), et le dossier PAC justifiant la suffisance reste a completer (M01). Demande sous 3 mois -> m_DELAI, S02. Amelioration des points anciens + nouvelle NC -> T6."
+    },
+    {
+      "slug": "paprec-d3e52108492024-05-3043276414000138f11",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Systeme de regle installe mais volume maximal de remplissage a preserver non determine par l'exploitant; vannes desormais accessibles/signalees (amelioration partielle). Demande de completion sous 3 mois -> m_DELAI (manquant chez Hunter). M14 physique, G3, S02 (deja correct), T2 suivi."
+    },
+    {
+      "slug": "paprec-d3e52108492025-01-2843276414000138f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14"
+      ],
+      "corrected_value": [
+        "M14",
+        "M02"
+      ],
+      "reason": "Depassements ammoniac/mercure toujours observes en 2024 (mercure et ammoniac au-dela des VLE a plusieurs echeances) = depassement VLE confirme -> G4. L'exploitant affirme un remplacement bimensuel de la resine piegeuse alors que les bons d'intervention attestent d'un remplacement mensuel (contradiction declaratif/preuve documentaire) = facade R03, pas simple promesse R02. Delais d'un mois et six mois explicites -> m_DELAI."
+    },
+    {
+      "slug": "paprec-d3e52108492025-01-2843276414000138f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Depassements ammoniac/mercure toujours observes en 2024 (mercure et ammoniac au-dela des VLE a plusieurs echeances) = depassement VLE confirme -> G4. L'exploitant affirme un remplacement bimensuel de la resine piegeuse alors que les bons d'intervention attestent d'un remplacement mensuel (contradiction declaratif/preuve documentaire) = facade R03, pas simple promesse R02. Delais d'un mois et six mois explicites -> m_DELAI."
+    },
+    {
+      "slug": "paprec-d3e52108492025-01-2843276414000138f03",
+      "field": "dynamic",
+      "hunter_value": "R02",
+      "corrected_value": "R03",
+      "reason": "Depassements ammoniac/mercure toujours observes en 2024 (mercure et ammoniac au-dela des VLE a plusieurs echeances) = depassement VLE confirme -> G4. L'exploitant affirme un remplacement bimensuel de la resine piegeuse alors que les bons d'intervention attestent d'un remplacement mensuel (contradiction declaratif/preuve documentaire) = facade R03, pas simple promesse R02. Delais d'un mois et six mois explicites -> m_DELAI."
+    },
+    {
+      "slug": "paprec-d3e52108492025-01-2843276414000138f03",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G4",
+      "reason": "Depassements ammoniac/mercure toujours observes en 2024 (mercure et ammoniac au-dela des VLE a plusieurs echeances) = depassement VLE confirme -> G4. L'exploitant affirme un remplacement bimensuel de la resine piegeuse alors que les bons d'intervention attestent d'un remplacement mensuel (contradiction declaratif/preuve documentaire) = facade R03, pas simple promesse R02. Delais d'un mois et six mois explicites -> m_DELAI."
+    },
+    {
+      "slug": "paprec-d3e52108492025-01-2843276414000138f06",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "M01"
+      ],
+      "corrected_value": [
+        "M14",
+        "M07",
+        "M01"
+      ],
+      "reason": "Debit d'eau incendie insuffisant mesure (70 m3/h dispo pour 180 m3/h requis sur EK199/231) = NC physique directe (M14), pas seulement documentaire. Desaccord persistant sur la necessite de proteger l'Algeco (l'exploitant estime que ce n'est pas necessaire, l'inspection le conteste) = R10 tension. Delai de 3 mois -> m_DELAI. Debit insuffisant = dispositif de securite deficient -> G3."
+    },
+    {
+      "slug": "paprec-d3e52108492025-01-2843276414000138f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Debit d'eau incendie insuffisant mesure (70 m3/h dispo pour 180 m3/h requis sur EK199/231) = NC physique directe (M14), pas seulement documentaire. Desaccord persistant sur la necessite de proteger l'Algeco (l'exploitant estime que ce n'est pas necessaire, l'inspection le conteste) = R10 tension. Delai de 3 mois -> m_DELAI. Debit insuffisant = dispositif de securite deficient -> G3."
+    },
+    {
+      "slug": "paprec-d3e52108492025-01-2843276414000138f06",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R10",
+      "reason": "Debit d'eau incendie insuffisant mesure (70 m3/h dispo pour 180 m3/h requis sur EK199/231) = NC physique directe (M14), pas seulement documentaire. Desaccord persistant sur la necessite de proteger l'Algeco (l'exploitant estime que ce n'est pas necessaire, l'inspection le conteste) = R10 tension. Delai de 3 mois -> m_DELAI. Debit insuffisant = dispositif de securite deficient -> G3."
+    },
+    {
+      "slug": "paprec-d3e52108492025-01-2843276414000138f06",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Debit d'eau incendie insuffisant mesure (70 m3/h dispo pour 180 m3/h requis sur EK199/231) = NC physique directe (M14), pas seulement documentaire. Desaccord persistant sur la necessite de proteger l'Algeco (l'exploitant estime que ce n'est pas necessaire, l'inspection le conteste) = R10 tension. Delai de 3 mois -> m_DELAI. Debit insuffisant = dispositif de securite deficient -> G3."
+    },
+    {
+      "slug": "paprec-d3e52108492025-01-2843276414000138f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Absence persistante de systeme de detection incendie dans les bunkers de piles au lithium, deja demande a l'issue de l'inspection precedente = meme constat, aucune evolution -> T4 (pas simple suivi T2). Delai de 6 mois explicite -> m_DELAI."
+    },
+    {
+      "slug": "paprec-d3e52108492025-01-2843276414000138f07",
+      "field": "trajectory",
+      "hunter_value": "T2",
+      "corrected_value": "T4",
+      "reason": "Absence persistante de systeme de detection incendie dans les bunkers de piles au lithium, deja demande a l'issue de l'inspection precedente = meme constat, aucune evolution -> T4 (pas simple suivi T2). Delai de 6 mois explicite -> m_DELAI."
+    },
+    {
+      "slug": "pena-environnement52011832023-02-1038014135800024f01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M02"
+      ],
+      "corrected_value": [
+        "M02",
+        "M04"
+      ],
+      "reason": "L'autosurveillance des tunnels de fermentation reste incomplete malgre plusieurs echanges (schema flux d'air incomplet, mesures debit non aboutissant); le constat s'inscrit dans le cadre d'une mise en demeure active du 1er mars 2022 non pleinement respectee (M04). L'inspection propose au Prefet une nouvelle prescription (etude + calendrier de mise en conformite) = escalade S05. MED active + NC technique concomitante -> G4. Meme constat (autosurveillance non validable) reitere -> T4."
+    },
+    {
+      "slug": "pena-environnement52011832023-02-1038014135800024f01",
+      "field": "actor",
+      "hunter_value": "A06",
+      "corrected_value": "A01",
+      "reason": "L'autosurveillance des tunnels de fermentation reste incomplete malgre plusieurs echanges (schema flux d'air incomplet, mesures debit non aboutissant); le constat s'inscrit dans le cadre d'une mise en demeure active du 1er mars 2022 non pleinement respectee (M04). L'inspection propose au Prefet une nouvelle prescription (etude + calendrier de mise en conformite) = escalade S05. MED active + NC technique concomitante -> G4. Meme constat (autosurveillance non validable) reitere -> T4."
+    },
+    {
+      "slug": "pena-environnement52011832023-02-1038014135800024f01",
+      "field": "stage",
+      "hunter_value": "S04",
+      "corrected_value": "S05",
+      "reason": "L'autosurveillance des tunnels de fermentation reste incomplete malgre plusieurs echanges (schema flux d'air incomplet, mesures debit non aboutissant); le constat s'inscrit dans le cadre d'une mise en demeure active du 1er mars 2022 non pleinement respectee (M04). L'inspection propose au Prefet une nouvelle prescription (etude + calendrier de mise en conformite) = escalade S05. MED active + NC technique concomitante -> G4. Meme constat (autosurveillance non validable) reitere -> T4."
+    },
+    {
+      "slug": "pena-environnement52011832023-02-1038014135800024f01",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G4",
+      "reason": "L'autosurveillance des tunnels de fermentation reste incomplete malgre plusieurs echanges (schema flux d'air incomplet, mesures debit non aboutissant); le constat s'inscrit dans le cadre d'une mise en demeure active du 1er mars 2022 non pleinement respectee (M04). L'inspection propose au Prefet une nouvelle prescription (etude + calendrier de mise en conformite) = escalade S05. MED active + NC technique concomitante -> G4. Meme constat (autosurveillance non validable) reitere -> T4."
+    },
+    {
+      "slug": "pena-environnement52011832023-02-1038014135800024f01",
+      "field": "trajectory",
+      "hunter_value": "T2",
+      "corrected_value": "T4",
+      "reason": "L'autosurveillance des tunnels de fermentation reste incomplete malgre plusieurs echanges (schema flux d'air incomplet, mesures debit non aboutissant); le constat s'inscrit dans le cadre d'une mise en demeure active du 1er mars 2022 non pleinement respectee (M04). L'inspection propose au Prefet une nouvelle prescription (etude + calendrier de mise en conformite) = escalade S05. MED active + NC technique concomitante -> G4. Meme constat (autosurveillance non validable) reitere -> T4."
+    },
+    {
+      "slug": "pena-environnement52011832023-02-1038014135800024f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M02",
+        "M01"
+      ],
+      "corrected_value": [
+        "M02",
+        "M01",
+        "M04",
+        "M05"
+      ],
+      "reason": "Non-conformite objet d'une mise en demeure (25/06/2021) constatee persistante 'au dela des delais fixes' (M04); l'inspection propose au Prefet une astreinte journaliere progressive (M05, escalade S05). La prescription initiale du bilan de reference date de 2008 -> persistance >3 ans, signal explicite T7 chronique. MED active + non-conformite -> G4."
+    },
+    {
+      "slug": "pena-environnement52011832023-02-1038014135800024f05",
+      "field": "stage",
+      "hunter_value": "S04",
+      "corrected_value": "S05",
+      "reason": "Non-conformite objet d'une mise en demeure (25/06/2021) constatee persistante 'au dela des delais fixes' (M04); l'inspection propose au Prefet une astreinte journaliere progressive (M05, escalade S05). La prescription initiale du bilan de reference date de 2008 -> persistance >3 ans, signal explicite T7 chronique. MED active + non-conformite -> G4."
+    },
+    {
+      "slug": "pena-environnement52011832023-02-1038014135800024f05",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G4",
+      "reason": "Non-conformite objet d'une mise en demeure (25/06/2021) constatee persistante 'au dela des delais fixes' (M04); l'inspection propose au Prefet une astreinte journaliere progressive (M05, escalade S05). La prescription initiale du bilan de reference date de 2008 -> persistance >3 ans, signal explicite T7 chronique. MED active + non-conformite -> G4."
+    },
+    {
+      "slug": "pena-environnement52011832023-02-1038014135800024f05",
+      "field": "trajectory",
+      "hunter_value": "T2",
+      "corrected_value": "T7",
+      "reason": "Non-conformite objet d'une mise en demeure (25/06/2021) constatee persistante 'au dela des delais fixes' (M04); l'inspection propose au Prefet une astreinte journaliere progressive (M05, escalade S05). La prescription initiale du bilan de reference date de 2008 -> persistance >3 ans, signal explicite T7 chronique. MED active + non-conformite -> G4."
+    }
+  ],
+  "false_positive_rate": 0.84,
+  "error_patterns": "Trois motifs systematiques dominent les corrections: (1) m_DELAI manquant — le corps du constat contient un delai chiffre explicite ('sous 15 jours', 'sous un/trois/six mois') mais Hunter omet le modificateur dans une majorite des injonctions relevees (quartus f04/f09/2025-09 f05/f08, coved 2022 f10, d3e f02/f03/f08/f11/2025-01 f03/f06/f07, ouveo f04). (2) stade S01 au lieu de S02 — Hunter classe en simple 'observation' des fiches qui contiennent pourtant une section 'Demande a formuler a l'exploitant' explicite (quartus 2024-10 f02/f03/f09/f12, quartus 2025-10 f01, orion 2023-06 f01): la presence d'une demande formelle, chiffree ou non, doit se traduire par S02, pas S01. (3) gravite sous-estimee sur depassement de VLE confirme ou dispositif de securite absent — le referentiel liste explicitement 'depassement VLE confirme' et 'dispositif absent' comme signaux G4/G3, mais Hunter retient G2/G3 sur plusieurs fiches ou un depassement chiffre est documente (d3e 2024-05 f03: zinc x5-6 la VLE tague G2 -> G4; d3e 2025-01 f03: ammoniac/mercure toujours au-dela des VLE tague G3 -> G4; pena f01/f05: mise en demeure active + non-conformite technique tague G2/G3 -> G4). Motif secondaire: fausses conformites/fausses NC issues d'un 'corps tronque' presume par Hunter alors que le texte integral est disponible et tranche clairement (paprec-coved 2025-10 f01: M14 -> M08, le bruit est conforme et l'inspection le dit explicitement; ouveo f01: M07+M14 -> M17+M08, les 5 NC majeures sont devenues 'sans objet' suite au declassement de la rubrique 2940; quartus 2024-10 f02/f09: M08 attribue a tort alors qu'une demande d'exploitant est formulee sur un ecart d'inventaire ou une mesure non realisee). Les deux motifs demandes explicitement (R10 pour promesse non tenue, paire S02/m_DELAI sans delai chiffre) ont ete verifies sur l'ensemble du batch: l'unique usage de R10 (paprec-coved 2022-09 f09) correspond a une contestation reelle et documentee, pas a une promesse non tenue mal etiquetee ; les cas S02 sans m_DELAI releves par le controle automatique se sont averes corrects (delai explicitement absent du corps, ex. 'sans delai' ou simple demande sans echeance).",
+  "verdict": "Qualite globale correcte sur le fond (mecanismes/domaines majoritairement bien identifies, aucun M15, codes tous valides), mais taux de correction eleve sur l'echantillon audite (36/43 fiches modifiees, soit 84%) et sur le batch complet (36/130, ~28%, au-dessus de la cible <15%). L'essentiel des corrections porte sur des champs secondaires mais operationnellement importants (m_DELAI, stade S01/S02, gravite) plutot que sur le mecanisme principal, ce qui suggere un Hunter globalement fiable sur l'axe 2 mais insuffisamment attentif aux delais chiffres et a la distinction observation/injonction. A surveiller sur les prochains batches: verifier systematiquement la presence d'un delai chiffre dans toute section 'Demande a formuler', et ne pas presumer un corps tronque sans le verifier."
+}
