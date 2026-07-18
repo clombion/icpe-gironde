@@ -78,6 +78,38 @@
   .intro code { background: var(--paper-3); padding: 1px 5px; border-radius: 4px; }
   .kbd { font-family: 'IBM Plex Mono', monospace; font-size: 12px; border: 1px solid var(--rule-soft);
          border-bottom-width: 2px; border-radius: 4px; padding: 1px 5px; }
+
+  /* help icon on each axis */
+  .field-label .info {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 15px; height: 15px; margin-left: 6px; border-radius: 50%;
+    border: 1px solid var(--rule-soft); font-size: 10px; cursor: help;
+    color: var(--ink-soft); font-style: normal; letter-spacing: 0; vertical-align: middle;
+  }
+  .field-label .info:hover { border-color: var(--rust); color: var(--rust); }
+
+  /* instant floating tooltip (better than native title for many options) */
+  #tip {
+    position: fixed; z-index: 50; max-width: 320px; pointer-events: none;
+    background: var(--ink); color: var(--paper); font-size: 12.5px; line-height: 1.4;
+    padding: 7px 10px; border-radius: 7px; box-shadow: 0 4px 16px rgba(0,0,0,.25);
+    opacity: 0; transition: opacity .08s; }
+  #tip.on { opacity: 1; }
+  #tip b { color: #fff; }
+
+  /* task help modal */
+  #help-btn { font-weight: 600; }
+  .modal-bg { position: fixed; inset: 0; background: rgba(0,0,0,.45); z-index: 60;
+    display: flex; align-items: center; justify-content: center; padding: 20px; }
+  .modal { background: var(--paper); color: var(--ink); max-width: 620px; max-height: 85vh;
+    overflow: auto; border-radius: 12px; padding: 26px 30px; border: 1px solid var(--rule-soft); }
+  .modal h2 { font-family: 'Fraunces', serif; margin-top: 0; }
+  .modal h3 { font-family: 'Fraunces', serif; font-size: 16px; margin: 18px 0 4px; }
+  .modal p, .modal li { font-size: 14.5px; }
+  .modal code { background: var(--paper-3); padding: 1px 5px; border-radius: 4px;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; }
+  .modal .close { float: right; cursor: pointer; border: 1px solid var(--rule-soft);
+    background: none; color: var(--ink); border-radius: 7px; padding: 6px 12px; font: inherit; }
 </style>
 </head>
 <body>
@@ -91,9 +123,11 @@
   <button id="export">Exporter JSON</button>
   <button id="import">Importer</button>
   <input type="file" id="file" accept="application/json" hidden>
+  <button id="help-btn" title="Aide sur la tâche">? Aide</button>
   <button id="theme" title="Thème clair/sombre">◐</button>
 </header>
 
+<div id="tip"></div>
 <div id="app"></div>
 
 <div class="intro" id="intro">
@@ -144,10 +178,12 @@ function render() {
     const multi = AXES_MULTI.includes(field);
     const val = cur[field] ?? (multi ? [] : null);
     const pressed = (o) => multi ? (val || []).includes(o) : val === o;
+    const axisHelp = esc((DATA.axis_help || {})[field] || "");
     return `<div class="axis" data-field="${field}">
-      <div class="field-label">${AXIS_TITLE[field]}${multi ? " (multi)" : ""}</div>
+      <div class="field-label">${AXIS_TITLE[field]}${multi ? " (multi)" : ""}<i class="info" data-help="${axisHelp}">ⓘ</i></div>
       <div class="opts">${opts.map(o =>
         `<button class="opt" data-opt="${o}" aria-pressed="${pressed(o)}"
+          data-help="${esc((DATA.labels[o]||"") + " — " + ((DATA.code_help||{})[o]||""))}"
           >${o}<span class="lbl">${(DATA.labels[o]||"").slice(0,22)}</span></button>`).join("")}</div>
     </div>`;
   };
@@ -240,6 +276,70 @@ document.getElementById("theme").onclick = () => {
 };
 if (localStorage.getItem("icpe-validation:theme") === "dark")
   document.documentElement.setAttribute("data-theme", "dark");
+
+// floating tooltip on any [data-help] element
+const tip = document.getElementById("tip");
+document.addEventListener("mouseover", e => {
+  const el = e.target.closest("[data-help]");
+  if (!el || !el.getAttribute("data-help")) return;
+  tip.textContent = el.getAttribute("data-help");
+  tip.classList.add("on"); moveTip(e);
+});
+document.addEventListener("mousemove", e => { if (tip.classList.contains("on")) moveTip(e); });
+document.addEventListener("mouseout", e => {
+  if (e.target.closest("[data-help]")) tip.classList.remove("on");
+});
+function moveTip(e) {
+  const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = e.clientX + pad, y = e.clientY + pad;
+  if (x + w > innerWidth) x = e.clientX - w - pad;
+  if (y + h > innerHeight) y = e.clientY - h - pad;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+
+// task help modal
+const HELP_HTML = `
+  <button class="close" id="help-close">Fermer ✕</button>
+  <h2>Valider les tags à l'aveugle</h2>
+  <p>Un modèle a classé ~10 500 fiches d'inspection ICPE sur 6 axes. Cette page mesure
+  <b>à quel point ces tags sont justes</b>, en les comparant à ton jugement d'expert·e sur un
+  échantillon de 100 fiches.</p>
+  <h3>À l'aveugle, exprès</h3>
+  <p>Le tag choisi par le modèle <b>ne t'est jamais montré</b>. Si tu le voyais, tu aurais tendance à
+  le confirmer, ce qui fausserait la mesure. Tu lis la fiche, tu choisis chaque axe selon ton propre
+  jugement. La comparaison au modèle se fait plus tard, hors interface.</p>
+  <h3>Comment faire</h3>
+  <ol>
+    <li>Mets tes initiales dans <b>Relecteur·rice</b> (elles nomment ton fichier de sortie).</li>
+    <li>Lis les <b>Constats</b> (et la Prescription) de la fiche.</li>
+    <li>Pour chaque axe, clique le code qui correspond. <b>Survole un code</b> pour lire sa définition,
+    et le <b>ⓘ</b> d'un axe pour comprendre l'axe. La <b>gravité</b> est le minimum requis ; les axes
+    <i>domaine</i>, <i>mécanisme</i> et <i>modificateurs</i> acceptent plusieurs codes.</li>
+    <li><span class="kbd" style="border:1px solid #8886;padding:1px 5px;border-radius:4px">Entrée</span>
+    (ou « Valider ») enregistre et passe à la suivante ;
+    <span class="kbd" style="border:1px solid #8886;padding:1px 5px;border-radius:4px">←</span>
+    <span class="kbd" style="border:1px solid #8886;padding:1px 5px;border-radius:4px">→</span> pour naviguer.</li>
+    <li>À la fin, <b>Exporte le JSON</b> et transmets-le. Ton travail est sauvegardé dans le navigateur
+    au fur et à mesure — tu peux fermer et reprendre.</li>
+  </ol>
+  <p style="color:var(--ink-soft);font-size:13px">Il n'y a pas de « bonne » réponse imposée : c'est
+  précisément le désaccord entre experts qui mesure la part subjective de chaque axe.</p>`;
+
+function openHelp() {
+  const bg = document.createElement("div");
+  bg.className = "modal-bg"; bg.id = "help-modal";
+  bg.innerHTML = `<div class="modal">${HELP_HTML}</div>`;
+  bg.onclick = e => { if (e.target === bg || e.target.id === "help-close") bg.remove(); };
+  document.body.appendChild(bg);
+}
+document.getElementById("help-btn").onclick = openHelp;
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") { const m = document.getElementById("help-modal"); if (m) m.remove(); }
+});
+if (!localStorage.getItem("icpe-validation:seen-help")) {
+  localStorage.setItem("icpe-validation:seen-help", "1");
+  setTimeout(openHelp, 400);
+}
 
 load();
 </script>

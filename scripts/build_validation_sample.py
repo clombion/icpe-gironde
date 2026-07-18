@@ -53,22 +53,28 @@ AXIS_FIELD_TO_ID = {
 }
 
 
-def load_axes() -> tuple[dict[str, list[str]], dict[str, str]]:
-    """(codes valides par champ, code→libellé) depuis le codebook."""
+def load_axes() -> tuple[dict, dict, dict, dict]:
+    """(codes par champ, code→libellé, code→définition, champ→définition d'axe)."""
     cb = json.loads(CODEBOOK.read_text(encoding="utf-8"))
     by_id = {ax["id"]: ax for ax in cb["axes"]}
     options: dict[str, list[str]] = {}
     labels: dict[str, str] = {}
+    code_help: dict[str, str] = {}
+    axis_help: dict[str, str] = {}
     for field, axis_id in AXIS_FIELD_TO_ID.items():
         axis = by_id[axis_id]
         options[field] = [c["id"].split("_")[0] for c in axis["codes"]]
+        axis_help[field] = axis.get("description", "")
         for c in axis["codes"]:
-            labels[c["id"].split("_")[0]] = c["name"]
-    # modifiers (axe2)
+            short = c["id"].split("_")[0]
+            labels[short] = c["name"]
+            code_help[short] = c.get("description", "")
+    axis_help["modifiers"] = "Nuances qui accompagnent un mécanisme, jamais seules."
     options["modifiers"] = [m["id"] for m in by_id["axe2"].get("modifiers", [])]
     for m in by_id["axe2"].get("modifiers", []):
         labels[m["id"]] = m["name"]
-    return options, labels
+        code_help[m["id"]] = m.get("description", "")
+    return options, labels, code_help, axis_help
 
 
 def confidence_rank(conf: str) -> int:
@@ -126,7 +132,7 @@ def main() -> int:
         rng.shuffle(rest)
         pick_from(rest, args.n - len(chosen))
 
-    options, labels = load_axes()
+    options, labels, code_help, axis_help = load_axes()
     items = []
     for r in sorted(chosen.values(), key=lambda r: r["fiche_id"]):
         items.append({
@@ -161,6 +167,8 @@ def main() -> int:
         "multi_axes": ["domains", "mechanisms", "modifiers"],
         "options": options,
         "labels": labels,
+        "code_help": code_help,
+        "axis_help": axis_help,
         "strata": strata,
         "items": items,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
