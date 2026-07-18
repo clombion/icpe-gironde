@@ -1,0 +1,149 @@
+{
+  "total_audited": 30,
+  "errors_found": 20,
+  "corrections": [
+    {
+      "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492024-04-1141096483700083f13",
+      "field": "stage,trajectory",
+      "hunter_value": "S04_VERIFICATION / T3_AMELIORATION",
+      "corrected_value": "S02_INJONCTION / T4_STAGNATION",
+      "reason": "La demande sur l'approvisionnement en azote, déjà soulevée lors des inspections précédentes, reste sans réponse de l'exploitant ('n'a pas apporté de réponse sur ce point') avec un délai de 3 mois relancé. C'est une injonction active sur un point non résolu depuis plusieurs inspections, pas la vérification d'une correction déjà réalisée."
+    },
+    {
+      "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f08",
+      "field": "mechanisms",
+      "hunter_value": "M14_CONSTAT_TECHNIQUE",
+      "corrected_value": "M01_DOCUMENTATION",
+      "reason": "'Nécessité de vérifier l'exactitude des numéros de téléphone affichés' est une inexactitude documentaire potentielle (contenu d'un affichage/procédure), pas un constat technique physique."
+    },
+    {
+      "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f13",
+      "field": "mechanisms,dynamic,stage",
+      "hunter_value": "M08_CONFORMITE / R13_NEUTRE_CONFORME / S01_CONSTAT",
+      "corrected_value": "M01_DOCUMENTATION / R14_NEUTRE_NC / S02_INJONCTION",
+      "reason": "Fausse conformité (erreur type 1). Le texte indique clairement 'le POI ne présente pas de cartographies sur les autres installations notamment les tuyauteries', avec une demande formelle sous 3 mois. Le Hunter s'est focalisé sur le point conforme (moyens de lutte incendie) et a manqué la NC documentaire."
+    },
+    {
+      "slug": "veynat-s-a-r-l52013652024-06-2830135172200014f02",
+      "field": "mechanisms,stage",
+      "hunter_value": "M14_CONSTAT_TECHNIQUE seul / S01_CONSTAT",
+      "corrected_value": "M14_CONSTAT_TECHNIQUE + M01_DOCUMENTATION / S02_INJONCTION",
+      "reason": "Pattern (b): délais numériques explicites présents dans le texte ('Sous un délai de 15 jours', 'Sous un délai de 1 mois') mais stage laissé en S01_CONSTAT sans m_DELAI. Multi-label manqué: la demande porte aussi sur des documents absents (FDS, plan des réseaux, attestations de curage) = M01."
+    },
+    {
+      "slug": "walor-bordeaux52057842025-06-1292217392700018f01",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Vérifié contre le corpus: aucune demande formulée, texte purement informatif (remplacement d'équipement déjà réalisé et surveillé). Classification M08/G1/S01/R13 confirmée."
+    },
+    {
+      "slug": "walor-bordeaux52057842025-06-1292217392700018f07",
+      "field": "stage",
+      "hunter_value": "S02_INJONCTION",
+      "corrected_value": "S01_CONSTAT",
+      "reason": "Pattern (b) inverse: aucune 'Demande à formuler' ni délai numérique dans le texte. Le constat ('l'inspection n'a donc pas été en mesure de vérifier la mise en œuvre effective du programme de maintenance') est une simple observation/limite de contrôle, pas une injonction formelle."
+    },
+    {
+      "slug": "wine-s-link-france31051092023-07-3184821897000012f10",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Vérifié contre le corpus: incertitude sur l'emplacement/existence du séparateur d'hydrocarbures, délais explicites (15 jours puis 2 mois conditionnel). Classification M14/G3/S02/m_DELAI confirmée."
+    },
+    {
+      "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492023-09-2841096483700083f01",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Pattern (b): le texte contient trois demandes formelles numérotées (DEMANDE 1/2/3), dont 'DEMANDE 1: ... sous 15 jours' — délai numérique explicite manqué par le Hunter."
+    },
+    {
+      "slug": "walor-bordeaux52057842022-10-2592217392700018f03",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[m_DELAI]",
+      "reason": "Pattern (b): 'L'exploitant transmet un plan d'actions étayé avec des délais de mise en œuvre sous un mois' — délai numérique explicite manqué par le Hunter."
+    },
+    {
+      "slug": "videau-philippe-ex-dlb31017872025-11-03nosiretf01",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[m_MENACE]",
+      "reason": "Pattern (c): 'Une amende...sera prise si les déchets ne sont pas évacués sous trois mois' est un avertissement conditionnel explicite, manqué par le Hunter."
+    },
+    {
+      "slug": "videau-philippe-ex-dlb31017872025-11-03nosiretf02",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[m_MENACE]",
+      "reason": "Pattern (c): même clause d'amende conditionnelle reprise dans cette fiche jumelle."
+    },
+    {
+      "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f10",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[m_DELAI, m_MENACE]",
+      "reason": "Pattern (c): 'L'absence de réalisation des actions suscitées expose l'exploitant à des suites administratives de type mise en demeure' est un avertissement conditionnel explicite, précurseur de MED, manqué par le Hunter."
+    },
+    {
+      "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f11",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[m_DELAI, m_MENACE]",
+      "reason": "Pattern (c): même formule d'avertissement conditionnel ('expose l'exploitant à des suites administratives de type mise en demeure') que la fiche précédente."
+    },
+    {
+      "slug": "warning52085722024-02-2656201377100687f01",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[m_DELAI, m_MENACE]",
+      "reason": "Pattern (c): 'En l'absence de réponse ou en cas de stockage supérieur à 500 tonnes...des suites administratives, de type mise en demeure, pourront être prises' est un avertissement conditionnel explicite."
+    },
+    {
+      "slug": "warning52085722024-11-2056201377100687f01",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[m_DELAI, m_MENACE]",
+      "reason": "Pattern (c): 'Faute de transmission, il sera considéré que l'activité relève toujours de la rubrique 1510...un projet de mise en demeure est proposé' est un avertissement conditionnel explicite."
+    },
+    {
+      "slug": "winterstein-francois-parempuyre-99-b-rue-des-palus-11002950572025-07-0289299917800015f01",
+      "field": "mechanisms,modifiers",
+      "hunter_value": "M04+M14+M11_INCIDENT / [m_DELAI]",
+      "corrected_value": "M04+M14+M05_SANCTION / [m_DELAI, m_MENACE]",
+      "reason": "'Procès verbal adressé à Monsieur le Procureur' relève de M05_SANCTION (PV explicitement listé sous M05 dans la taxonomie), pas de M11_INCIDENT (déclaration d'incident/accident par l'exploitant, absente ici). Pattern (c): 'en cas d'absence de retrait des VHU, un tel dossier sera réclamé et des sanctions financières seront prises' est un avertissement conditionnel manqué."
+    },
+    {
+      "slug": "winterstein-francois-parempuyre-99-b-rue-des-palus-21002962942025-07-0289299917800015f01",
+      "field": "mechanisms,modifiers",
+      "hunter_value": "M04+M14 / [m_DELAI]",
+      "corrected_value": "M04+M14+M05_SANCTION / [m_DELAI, m_MENACE]",
+      "reason": "Multi-label manqué: même procès-verbal au Procureur que la fiche jumelle f01 (M05_SANCTION). Pattern (c): 'en cas d'absence de retrait des VHU un tel dossier pour[ra] être réclamé' est un avertissement conditionnel manqué."
+    },
+    {
+      "slug": "winterstein-james1002894952025-04-09nosiretf01",
+      "field": "mechanisms",
+      "hunter_value": "M14+M11_INCIDENT",
+      "corrected_value": "M14+M05_SANCTION",
+      "reason": "'Un procès-verbal est transmis en ce sens à monsieur le Procureur' relève de M05_SANCTION (PV), pas de M11_INCIDENT."
+    },
+    {
+      "slug": "winterstein-james1002894952025-04-09nosiretf02",
+      "field": "mechanisms",
+      "hunter_value": "M14+M11_INCIDENT",
+      "corrected_value": "M14+M05_SANCTION",
+      "reason": "Même erreur que la fiche jumelle f01: 'procès verbal de constatations est transmis au procureur' relève de M05_SANCTION, pas de M11_INCIDENT."
+    },
+    {
+      "slug": "world-fuel-services52060722023-02-2881944141100017f01",
+      "field": "stage,modifiers",
+      "hunter_value": "S02_INJONCTION / [m_DELAI]",
+      "corrected_value": "S01_CONSTAT / []",
+      "reason": "Pattern (b) inverse: aucun délai numérique ni demande formelle explicite dans le texte ('L'exploitant prend les dispositions nécessaires afin de se mettre en conformité' est une observation générale, pas une injonction chiffrée)."
+    }
+  ],
+  "false_positive_rate": 0.67,
+  "error_patterns": "Audit ciblé sur les 7 fiches medium-confidence (relecture intégrale du corpus) plus un échantillon de 23 fiches high-confidence choisies pour couvrir les trois patterns systématiques signalés en consigne, plus une vérification structurelle automatisée (grep) de tout le batch pour ces mêmes patterns. Résultats: (1) pattern R10_TENSION mal appliqué à une 'promesse non tenue' — non trouvé sur ce batch (l'unique R10_TENSION du batch est un vrai cas de diagnostic contesté, conservé tel quel) ; en revanche un cas voisin est apparu ailleurs: un point non résolu depuis les inspections précédentes classé T3_AMELIORATION au lieu de T4_STAGNATION (vermilion f13 2024-04-11) — même famille d'erreur (sous-évaluation d'un engagement non tenu), mais sur l'axe trajectoire plutôt que R. (2) pattern S02_INJONCTION/m_DELAI: le Hunter sous-utilise systématiquement S02 quand un délai numérique explicite ('sous X jours/mois', 'DEMANDE N: ... sous 15 jours') est présent dans le texte mais que le corps du constat commence par des points conformes (S01/S04 pris par défaut) — 5 corrections dans ce sens (vermilion f01 2023-09-28, veynat f02, walor f03 2022-10-25). À l'inverse, S02/m_DELAI est parfois appliqué par excès de prudence quand aucune demande chiffrée n'existe réellement dans le texte (walor f07 2025-06-12, world-fuel f01 2023-02-28) — 2 corrections. (3) pattern m_MENACE: le Hunter manque systématiquement m_MENACE quand le texte contient un avertissement conditionnel explicite ('expose l'exploitant à des suites administratives de type mise en demeure', 'en l'absence de réponse...pourront être prises', 'Faute de transmission...un projet de mise en demeure est proposé', 'sera prise si...ne sont pas évacués') — 9 corrections, la plus fréquente erreur du batch. Erreur additionnelle non listée dans les 8 types mais récurrente: confusion M11_INCIDENT / M05_SANCTION quand un procès-verbal ('PV') est transmis au Procureur — le PV est explicitement listé sous M05 dans la taxonomie, alors que M11 est réservé aux déclarations d'incident/accident par l'exploitant ; 3 corrections sur les fiches VHU illégaux (winterstein-francois, winterstein-james x2), avec un cas de multi-label manqué en prime (winterstein-francois f02).",
+  "verdict": "Qualité globale correcte sur le fond (aucun M15, domaines/mécanismes principaux et gravité/dynamique majoritairement bien posés, 0 code invalide selon les règles STRICT), mais deux modificateurs (m_DELAI, m_MENACE) et le stade S02_INJONCTION sont appliqués de façon incohérente autour des délais et avertissements conditionnels explicites — c'est la source dominante des 20 corrections. Le taux d'erreur élevé (67%) reflète un audit volontairement approfondi (100% des medium + échantillon élargi + vérification systématique par grep des 3 patterns connus sur tout le batch), pas une dégradation générale de la qualité: la plupart des corrections sont des ajustements de modificateur/stade à confiance haute plutôt que des erreurs de fond sur domaine/mécanisme principal. Deux fiches medium-confidence ont été confirmées sans correction (confiance relevée à high). Le batch final-80.json est prêt à intégrer."
+}

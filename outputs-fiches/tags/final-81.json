@@ -1,0 +1,2069 @@
+[
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f09",
+    "domains": [
+      "D07",
+      "D04"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre contrôle manuel présent mais ne permet pas de déterminer le volume libre ; fréquence mensuelle non conforme (hebdomadaire requise). M07 (contrôle périodique non conforme) + M01 (registre insuffisant/non conforme). NC purement documentaire/formelle → G2."
+  },
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f10",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Test débit poteaux incendie réalisé individuellement, mais test en simultané non effectué. Résultats incomplets : pression de mesure non précisée. M07 (vérification périodique incomplète). Équipement de lutte incendie dont la conformité n'est pas démontrée → risque potentiel → G3."
+  },
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f11",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant ne possède pas d'émulseur sur site (dispositif absent). NC physique constatée : absence de réserve d'émulseurs obligatoire. M14 (équipement absent). G3 minimum pour absence dispositif incendie requis."
+  },
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f12",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M09",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PAC déposé pour modification pompes (336→462t). Travaux en cours lors visite, nouvelles cuves en place. Inspection ne dispose pas des informations techniques attestant le verrouillage électrique. M09 (PAC en cours d'instruction) + M01 (attestation technique manquante). G2 car lacune documentaire, travaux physiques en cours."
+  },
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f13",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "RIA avec étiquette de vérification janvier 2025 (contrôle récent) mais fuite importante constatée lors mise en eau. M07 (contrôle périodique réalisé mais NC détectée) + M14 (fuite = état physique dégradé). G3 : équipement de lutte incendie non fonctionnel."
+  },
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f14",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Boitier détection fuite cuve double enveloppe non fonctionnel : pas de LEDs, bouton test inopérant. M14 (équipement hors service). G3 : système de détection inopérant sur stockage hydrocarbures."
+  },
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f15",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant n'a pas pu fournir la liste des équipements sous pression (art. 6 III AM 20/11/2017). M01 (absence document réglementaire). NC purement documentaire → G2."
+  },
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f16",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Compresseur en retard d'inspection périodique ET de requalification périodique. Point intégré à l'arrêté préfectoral de mise en demeure (APMD). M07 (contrôles périodiques en retard) + M04 (MED active). G4 : MED active + NC technique sur ESP."
+  },
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f17",
+    "domains": [
+      "D08",
+      "D06"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Code déchet 17 05 04 utilisé sur BSD pour terres polluées hydrocarbures (1700 mg/kg HCT C10-C40) : code non conforme selon inspection. Documents BSD transmis mais codification erronée. M01 (documentation non conforme/erronée). NC documentaire → G2."
+  },
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f18",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Analyses rejets (pH 8.5, indice hydrocarbure <0.064 mg/l) conformes aux VLE de l'AM 19/12/2008. Pas de demande formulée. M08 (conformité constatée). G1."
+  },
+  {
+    "slug": "world-fuel-services52060722026-01-1581944141100017f01",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Rapports contrôles APAVE supplémentaires du 6/10/2025 attestent levée de l'ensemble des NC majeures (rubriques 1434-1a, 4734.2c, 4734.1c). Constat soldé. M08 (conformité) + M04 (levée MED). T3 (correction constatée). G1."
+  },
+  {
+    "slug": "world-fuel-services52060722026-01-1581944141100017f02",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Rénovation complète installations électriques réalisée (constatée sur terrain), mais DOE absent + visite initiale de vérification non encore réalisée. MED 7/7/2025 partiellement satisfaite. Exploitant en attente DOE et a planifié visite. M07 (vérification initiale non faite) + M01 (DOE manquant). R02 : exploitant s'est engagé à transmettre DOE dès disponibilité. G3 : installation électrique sans vérification initiale."
+  },
+  {
+    "slug": "world-fuel-services52060722026-01-1581944141100017f03",
+    "domains": [
+      "D01",
+      "D11"
+    ],
+    "mechanisms": [
+      "M08",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Caméras thermographiques mises en place, contrats télésurveillance et maintenance justifiés, attestation formation responsable fournie. APMD soldée sur ce point. M08 + M04 (levée MED). T3 (correction constatée). G1."
+  },
+  {
+    "slug": "world-fuel-services52060722026-01-1581944141100017f04",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R09",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Convention SSLIA établie mais non signée. Article 6 (conditions financières) en discussion tripartite (WFS, TotalEnergies, SA ADBM). Réunion prévue 29/01/2026. MED partiellement satisfaite. M09 (PAC/convention non finalisée). R09 : tiers (SA ADBM) bloquant la signature. G3 : absence convention lutte incendie avec SSLIA."
+  },
+  {
+    "slug": "world-fuel-services52060722026-01-1581944141100017f05",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "POI mis à jour 03/07/2025 mais non visé par tous acteurs. Exercice POI réalisé 03/10/2025 avec axes d'amélioration (chaîne alerte interne, évacuation poids lourds). M07 (exercice POI réalisé avec NC relevées) + M01 (visa formalisé manquant). NC organisationnelles/documentaires → G2."
+  },
+  {
+    "slug": "world-fuel-services52060722026-01-1581944141100017f06",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Compresseur évacué du site. Visite terrain : aucun ESP présent. MED soldée. M08 + M04 (levée MED). T3 (correction constatée). G1."
+  },
+  {
+    "slug": "world-fuel-services52060722026-01-1581944141100017f07",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas de NC constatée sur rétention lors de la visite. M08 (conformité). G1."
+  },
+  {
+    "slug": "world-fuel-services52060722026-01-1581944141100017f08",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Test annuel séparateur hydrocarbures désormais formalisé et tracé. Vérification hebdomadaire état propreté + vérification mensuelle fonctionnement détection. Levée du constat de mai 2025. M08 (conformité constatée). T3 (correction constatée). G1."
+  },
+  {
+    "slug": "world-fuel-services52060722026-01-1581944141100017f09",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R06",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Même constat qu'en mai 2025 : cuve épandage sans sonde, contrôle mensuel (non hebdomadaire), dernier relevé indique seulement 'vide' sans valeur chiffrée. M07 (périodicité contrôle non respectée) + M14 (registre ne permet pas de démontrer volume libre). MED proposée si non-réalisation. T4 (même constat, aucune évolution). G3 : dispositif de contrôle non opérant."
+  },
+  {
+    "slug": "world-fuel-services52060722026-01-1581944141100017f10",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R09",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Essais débit poteaux incendie en simultané toujours non réalisés. Aéroport ne dispose pas du matériel nécessaire. Exploitant s'engage à faire intervenir prestataire externe. M07 (vérification périodique non réalisée). R09 : aéroport (tiers) bloquant matériel. T4 (même constat qu'en mai 2025). G3 : équipements incendie non vérifiés."
+  },
+  {
+    "slug": "world-fuel-services52060722026-01-1581944141100017f11",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Émulseur toujours absent. Exploitant renonce à l'aménagement et s'engage à mettre en place une réserve de 1m³ dans les plus brefs délais. MED proposée si non-réalisation. M14 (dispositif absent). R02 : engagement verbal/écrit sans preuve à ce stade. T4 (même absence qu'en mai 2025). G3 : dispositif de lutte incendie absent."
+  },
+  {
+    "slug": "world-fuel-services52060722026-01-1581944141100017f12",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M09",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Configuration réelle pompes (1 seul ensemble 2 pompes chargement + 2 pompes déchargement autonomes) ne correspond pas au PAC d'octobre 2024 (2x2 pompes avec verrouillage). Incohérence empêche vision claire du débit maximal au titre rubrique 1434. M09 (dossier modification non conforme à la réalité) + M14 (constat d'incertitude technique sur débit). G3 : incohérence classification réglementaire avec risque dépassement seuil."
+  },
+  {
+    "slug": "world-fuel-services52060722026-01-1581944141100017f13",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14",
+      "M06"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "2ème essai mise en eau du même RIA : fuite à nouveau constatée, identique à l'inspection de mai 2025. NC récidiviste. M07 (contrôle périodique ne garantit pas le bon fonctionnement) + M14 (fuite = état dégradé) + M06 (même NC entre deux inspections). T4/stagnation. G4 : équipement incendie non fonctionnel + menace MED."
+  },
+  {
+    "slug": "world-fuel-services52060722026-01-1581944141100017f14",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Fiche technique fabricant confirme la double enveloppe (NC documentaire de mai 2025 levée). L'exploitant s'assure du bon fonctionnement de la détection de fuite, sans incertitude ni NC relevée au jour de l'inspection. M08 (conformité constatée, documentation fournie). Aucune demande formulée. S04 (contre-visite confirmant la correction). G1."
+  },
+  {
+    "slug": "world-fuel-services52060722026-01-1581944141100017f15",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plus d'ESP sur site. Visite terrain confirme absence de tout ESP. Constat soldé. M08 (conformité). T3 (correction constatée). G1."
+  },
+  {
+    "slug": "world-fuel-services52060722026-01-1581944141100017f16",
+    "domains": [
+      "D08",
+      "D06"
+    ],
+    "mechanisms": [
+      "M01",
+      "M06"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Exploitant toujours incapable de fournir justifications sur code déchet 17 05 04 ni destination finale terres polluées (malgré demande mai 2025). M01 (documentation non fournie, non-justifiée) + M06 (même NC entre deux inspections). T4 (stagnation). G3 : déchets dangereux dont la traçabilité est non établie."
+  },
+  {
+    "slug": "xeros-environnement-bordeaux52136962023-08-1878868999000018f01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M17"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Puissance effective 688 kW (>200 kW seuil enregistrement) alors que déclaration pour régime déclaration (<200 kW). Situation administrative irrégulière. M17 (mauvais classement de régime). G3 : exploitation en régime inférieur au requis."
+  },
+  {
+    "slug": "xeros-environnement-bordeaux52136962023-08-1878868999000018f02",
+    "domains": [
+      "D05",
+      "D11"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan exploitation absent (pas de plan affiché à l'entrée). Rapport mesures bruit transmis après visite (partiellement respecté). M01 (plan absent). NC documentaire/formelle → G2."
+  },
+  {
+    "slug": "xeros-environnement-bordeaux52136962023-08-1878868999000018f03",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucune délimitation physique avec activités de tiers (Guyenne Environnement) le jour de l'inspection. Clôture absente. M14 (absence dispositif physique). G3 : absence clôture = dispositif sécurité absent."
+  },
+  {
+    "slug": "xeros-environnement-bordeaux52136962023-08-1878868999000018f04",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport vérification électrique Bureau Veritas (26/05/2023) mentionne des écarts du rapport précédent (juin 2022). VGP chargeuse et pelle mentionnent anomalies (défauts d'étanchéité flexibles). Devis correctif transmis. M07 (vérifications réalisées avec NC relevées) + M14 (anomalies physiques = défauts étanchéité). G3 : anomalies physiques sur équipements."
+  },
+  {
+    "slug": "xeros-environnement-bordeaux52136962023-08-1878868999000018f05",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M01",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Extincteurs présents, registre sécurité visé par Eurofeu, mais rapport maintenance non fourni à l'inspection. M01 (rapport maintenance non consulté) + M07 (maintenance faite mais documentation incomplète). NC documentaire → G2."
+  },
+  {
+    "slug": "xeros-environnement-bordeaux52136962023-08-1878868999000018f06",
+    "domains": [
+      "D05",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de dispositif de protection des stockages contre les émissions/envols de poussières. Début de travaux merlon visible côté sud, réseau asperseurs en cours. M14 (absence dispositif protection poussières). G3 : absence protection → envols poussières constatés."
+  },
+  {
+    "slug": "xeros-environnement-bordeaux52136962023-08-1878868999000018f07",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport Socotec (17/09/2023) : mesure non-conforme sur 1 point des 4 mesurés (à proximité de l'engin croque-béton). Mesures réalisées tardivement (pas avant inspection). M02 (mesure réalisée, résultat non conforme). G3 : dépassement seuil bruit constaté."
+  },
+  {
+    "slug": "xeros-environnement-bordeaux52136962024-08-0678868999000018f01",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M08",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Dossier demande enregistrement déposé 20/02/2024 et complété 22/07/2024. Dossier estimé complet et régulier. MED levable sur ce point. M08 + M04 (levée partielle MED). T3. G1."
+  },
+  {
+    "slug": "xeros-environnement-bordeaux52136962024-08-0678868999000018f02",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Réseau asperseurs en bon fonctionnement, merlon paysager réalisé partie ouest. Plan d'action satisfait la prescription MED sur ce point. M08 + M04. T3. G1."
+  },
+  {
+    "slug": "xeros-environnement-bordeaux52136962024-08-0678868999000018f03",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Rapport retombées poussières Socotec (24/10/2023) : résultats 3-13 g/m²/mois inférieurs à la VL de 30 g/m²/mois. Pas de nouvelle plainte. MED levée sur ce point. M08 + M04. T3. G1."
+  },
+  {
+    "slug": "xeros-environnement-saint-jean-d-illac52130452023-05-1678868999000018f01",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Clôture non intègre : ouverture en raison d'une manœuvre de chargeur selon l'exploitant. M14 (intégrité physique clôture non assurée). G3 : clôture non intègre = accès libre aux installations."
+  },
+  {
+    "slug": "xeros-environnement-saint-jean-d-illac52130452023-05-1678868999000018f02",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pelles à plus de 20m des clôtures. Concasseur absent ce jour mais positionné >20m quand présent. Prescription respectée. M08. G1."
+  },
+  {
+    "slug": "xeros-environnement-saint-jean-d-illac52130452023-05-1678868999000018f03",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Eaux pluviales non utilisées pour arrosage pistes (pompage eau dont volume inconnu). Prescription non respectée. M14 (pratique opérationnelle non conforme à la prescription). NC comportementale/opérationnelle sans impact physique direct constaté → G2. Incertitude sur la gravité réelle."
+  },
+  {
+    "slug": "xeros-environnement-saint-jean-d-illac52130452023-05-1678868999000018f04",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M01",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T7",
+    "confidence": "high",
+    "reasoning": "Forage sans numéro BRGM depuis la précédente inspection de 2016 (>7 ans). Relevés débitmètre non communiqués. Numéro finalement attribué a posteriori mais relevés absents. M01 (relevés débitmètre non fournis) + M07 (suivi débitmètre non documenté). T7 : numéro BRGM demandé depuis 2016. G2 : NC documentaire."
+  },
+  {
+    "slug": "xeros-environnement-saint-jean-d-illac52130452023-05-1678868999000018f05",
+    "domains": [
+      "D04",
+      "D07"
+    ],
+    "mechanisms": [
+      "M14",
+      "M06"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T7",
+    "confidence": "high",
+    "reasoning": "Absence vanne d'isolement du réseau de collecte eaux polluées. Schéma consulté confirme absence. Déjà constaté lors inspection 2016. M14 (équipement absent) + M06 (récidive constatée). T7 : même NC depuis 2016 (>7 ans). G3 : absence dispositif isolement = risque pollution."
+  },
+  {
+    "slug": "xeros-environnement-saint-jean-d-illac52130452023-05-1678868999000018f06",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Analyses rejets aqueux manquent DCO et HCT. Fréquence mensuelle (requis par AM) non respectée. M02 (paramètres manquants + fréquence insuffisante). G3 : surveillance incomplète sur rejet milieu naturel."
+  },
+  {
+    "slug": "xeros-environnement-saint-jean-d-illac52130452023-05-1678868999000018f07",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport mesures bruit Socotec mars 2023 : mesures conformes à la réglementation. M08. G1."
+  },
+  {
+    "slug": "xeros-environnement-saint-jean-d-illac52130452023-05-1678868999000018f08",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport retombées atmosphériques Socotec mars 2023 sans remarques. Rappel fréquence trimestrielle et bilan annuel. M08 (conformité constatée, pas de demande formelle). G1."
+  },
+  {
+    "slug": "xeros-environnement-saint-jean-d-illac52130452024-06-2578868999000018f01",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08",
+      "M02"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "MED levée pour fréquence (analyses mensuelles réalisées). Deux dépassements MES constatés (114 mg/L déc. 2023, 41 mg/L avr. 2024, VL 35 mg/L), exploitant impute à méthodologie labo. Inspection ne propose pas de suite administrative. M08 (conformité fréquence) + M02 (dépassements MES = qualité méthodologique/résultats). G2 : dépassements documentés mais sans suite."
+  },
+  {
+    "slug": "xeros-environnement-saint-jean-d-illac52130452024-06-2578868999000018f02",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Relevé débitmètre juin 2024 : 180 m³ consommés contre 600 m³ autorisés. Prescription respectée. M08. G1."
+  },
+  {
+    "slug": "xeros-environnement-saint-jean-d-illac52130452024-06-2578868999000018f03",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Intégrité clôture assurée sur l'ensemble du périmètre. Correction constatée depuis 2023. M08. T3. G1."
+  },
+  {
+    "slug": "xeros-environnement-saint-jean-d-illac52130452024-06-2578868999000018f04",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Dispositif arrosage brumisateurs en place et bon fonctionnement. Prescription respectée. M08. T3. G1."
+  },
+  {
+    "slug": "xeros-environnement-saint-jean-d-illac52130452024-06-2578868999000018f05",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08",
+      "M01"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Vanne isolement en place (correction depuis 2023). Mais consigne d'utilisation de la vanne manquante. M08 (vanne présente = NC physique résolue) + M01 (consigne manquante). T3 partielle. G2 : lacune documentaire résiduelle."
+  },
+  {
+    "slug": "xeros-environnement-saint-jean-d-illac52130452024-06-2578868999000018f06",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T7",
+    "confidence": "high",
+    "reasoning": "Surveillance retombées poussières non réalisée depuis mars 2023 (>15 mois) alors que fréquence trimestrielle requise par AM. M02 (surveillance non réalisée). T7 : arrêt >3 trimestres de surveillance obligatoire. G3 : surveillance discontinue sur rejet atmosphérique."
+  },
+  {
+    "slug": "yara-france52002592022-10-2462204242200866f01",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Date mise en service SI procédé déclarée 01/01/2021 dans ALC, mais essais de fabrication (émetteurs GES) ont débuté en 2020. Modification requise dans fichier ALC onglet B+C. M01 (déclaration ALC erronée = document incorrect). NC documentaire/formelle → G2."
+  },
+  {
+    "slug": "yara-france52002592022-10-2462204242200866f02",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Date mise en service SI chaleur mesurable déclarée 01/01/2020 alors que l'installation fonctionne depuis des années (délibérément non déclarée par simplification). M01 (déclaration ALC incorrecte/incomplète). NC documentaire → G2."
+  },
+  {
+    "slug": "yara-france52002592022-10-2462204242200866f03",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Schéma de procédé PMS v11 onglet C section II doit être modifié (chaudière auxiliaire mal positionnée dans périmètre SI acide nitrique, flux chaleur manquant). M01 (document technique inexact). NC documentaire → G2."
+  },
+  {
+    "slug": "yara-france52002592022-10-2462204242200866f04",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PMS onglet D liste incorrectement 2 appareils (Bouilleur nitrate solution, nitrate de calcium) comme parties utilisées par plus d'une SI alors qu'ils ne concernent qu'une seule SI. M01 (erreur dans PMS). NC documentaire → G2."
+  },
+  {
+    "slug": "yara-france52002592022-10-2462204242200866f05",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PMS et ALC 2021 ne distinguent pas l'apport de combustible dédié à la SI acide nitrique vs SI chaleur mesurable (lors arrêts à chaud). M01 (méthode de surveillance non documentée dans PMS). NC documentaire → G2."
+  },
+  {
+    "slug": "yara-france52002592022-10-2462204242200866f06",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Méthode 1 choisie pour chaleurs mesurables mais possibilité de mesurer chaleur condensats non analysée. M02 (méthode de mesure incomplète/non optimale, source données 4.5.d non déclarée). NC méthodologique → G2."
+  },
+  {
+    "slug": "yara-france52002592022-10-2462204242200866f07",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Source données de la chaleur consommée (ligne 201 onglet E) non explicitée dans PMS. Méthode de détermination n'a pas pu être explicitée à l'inspection. M01 (absence documentation méthode surveillance dans PMS). NC documentaire → G2."
+  },
+  {
+    "slug": "yara-france52002592022-10-2462204242200866f08",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PMS déclare source 4.4.b pour tonnage acide nitrique (niveau réputé plus exact) mais case I75 cochée 'faux' (contradiction). Exploitant n'a pas pu produire éléments de preuve lors inspection. M01 (document auto-contradictoire, preuves absentes). NC documentaire → G2."
+  },
+  {
+    "slug": "yara-france52002592023-01-2462204242200866f01",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "POI V12 examiné. Exercice inopine 7h00 : 2 écarts (justification temps intervention + appropriation procédure urgence) + 18 observations (axes amélioration documentaires). M07 (exercice POI réalisé avec NC). NC organisationnelles/documentaires principales → G2."
+  },
+  {
+    "slug": "yara-france52002592023-04-1962204242200866f01",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Test MMR 205 (détection fuite N2O atelier nitrique) lors arrêt bisannuel. Résultat conforme aux attendus de sécurité. M08 (conformité) + M07 (test MMR réalisé). G1."
+  },
+  {
+    "slug": "yara-france52002592023-05-1762204242200866f01",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Procédure gestion de modification analysée en annexe confidentielle. Corps du constat très court, sans NC ni demande formulée. M08 (conformité implicite). G1. Confidence medium car corps minimal et annexe confidentielle non accessible."
+  },
+  {
+    "slug": "yara-france52002592023-08-1062204242200866f01",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Thermomètre bras déchargement illisible (jugé non nécessaire par l'exploitant) et téléphone bungalow non fonctionnel (pas d'appel vers salle commande). L'exploitant a pris les dispositions pour le réparer sous 1 mois. M14 (équipements physiques hors service/inopérants). R02 : engagement de l'exploitant à réparer sous un délai chiffré, action future non vérifiée au jour de l'inspection. G3 : équipements de sécurité/communication défaillants sur installation SEVESO."
+  },
+  {
+    "slug": "yara-france52002592023-08-1062204242200866f02",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure AGRI-20120 : niveaux MMR 106 (30.63 m dans EDD) vs procédure (29.8 m) et MMR 116 (30.63 m dans EDD) vs procédure (30.055 m) : incohérences entre procédure et EDD. Corps du constat largement altéré par caractères parasites mais incohérence documentaire principale identifiable. M01 (incohérence documentation MMR). G2 : NC documentaire sur procédure MMR."
+  },
+  {
+    "slug": "yara-france52002592023-08-1062204242200866f03",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Check-list AGRI-20121 connexion navire : arrêt urgence testé avec succès premier navire mois d'août. Fréquence surveillance amarres toutes les 4h respectée. Points document examinés. M08 (conformité constatée). G1. Confidence medium : corps partiellement parasité par caractères."
+  },
+  {
+    "slug": "yara-france52002592023-08-1062204242200866f04",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Check-list déconnexion AGRI-20122 (livraison 05/08/2023) : date absente sur la case prévue à cet effet. M01 (document de traçabilité incomplet). NC documentaire → G2."
+  },
+  {
+    "slug": "yara-france52002592023-08-1062204242200866f05",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R12",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Essais du bras de chargement réalisés plus de 48h avant l'arrivée du navire (contrairement à la procédure AGRI-20120 §5), mais l'inspection juge les raisons recevables (tempête) tout en notant que cela reste un écart de fait. Temps de fermeture de la vanne MOV 11116 mesuré à 12s, conforme. M07 (contrôle réalisé avec déviation de procédure). R12 : souplesse de l'inspection, justification contextuelle acceptée. G2 : écart procédural sans dimension physique."
+  },
+  {
+    "slug": "yara-france52002592023-08-1062204242200866f06",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fiche AGRI-21056 relevés horaires du 05/08/2023 avec annotations difficilement lisibles. Document de traçabilité réglementaire doit être lisible par tiers. M01 (document de traçabilité non conforme/illisible). NC documentaire → G2."
+  },
+  {
+    "slug": "yara-france52002592023-08-1062204242200866f07",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bras entretenu : tests MMR, essais bras, visite Actemium bisannuelle. Rapport AMMD-DD-VJ-013 : 3 travaux curatifs priorité forte réalisés (tracés dans rapport AMMD-DD-VJ-026). M08 + M07 (contrôle maintenance conforme). G1."
+  },
+  {
+    "slug": "yara-france52002592024-05-1762204242200866f01",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure AGRI-20415 gestion shunts/by-pass approuvée 24/04/2024. Règles claires, limites d'accès définies, mesures compensatoires requises. Pas de demande formulée. M08 (conformité). G1."
+  },
+  {
+    "slug": "yara-france52002592024-05-1762204242200866f02",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Gestion shunts via AGRI-20415 intégrée au SGS et SMI. Pas de demande formulée. M08 (conformité procédure documentée). G1."
+  },
+  {
+    "slug": "yara-france52002592024-05-1762204242200866f03",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Audits conformité annuels par prestataire externe + audits internes mensuels sur shunts. Fiche audit 20/03/2024 : 1 NC corrigée au 22/03/2024. M08 + M07. R01 : amélioration continue proactive (audits internes mensuels). G1."
+  },
+  {
+    "slug": "yara-france52002592024-05-1762204242200866f04",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fiches shunt consultées : case MMR non remplie sur fiche centrale incendie (oubli). Fiche MMR arrêt bisannuel signée sans HSE ni directeur (non-respect circuit signature). Shift connector non mentionné dans procédure. M01 (incomplétude/erreurs documentation shunts) + M14 (constat incertitude sur procédure MMR). G2 : lacunes documentaires sur procédures sécurité critiques."
+  },
+  {
+    "slug": "yara-france52002592024-05-1762204242200866f05",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Traçabilité shunts via shift connector + GMAO (mention by-pass en rouge sur écran contrôle). Pas de demande formulée. M08 (conformité traçabilité). G1."
+  },
+  {
+    "slug": "yara-france52002592024-05-1762204242200866f06",
+    "domains": [
+      "D03",
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Formation personnels shunts par compagnonnage, habilitations définies. Pas de demande. M08 (conformité formation). G1."
+  },
+  {
+    "slug": "yara-france52002592025-04-0762204242200866f01",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Test MMR 206 (détection température haute toiles brûleur) lors arrêt bisannuel. Résultat conforme. Quelques observations sur justification de certaines parties du test. M08 + M07. G1. Confidence medium : détail en annexe confidentielle."
+  },
+  {
+    "slug": "yara-france52002592025-05-0662204242200866f01",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Sources électricité secours présentes. Observations sur onduleurs et puissance GE 800kVA. Corps très court avec renvoi partie confidentielle. M08 (conformité constatée). G1. Confidence medium : annexe confidentielle."
+  },
+  {
+    "slug": "yara-france52002592025-05-0662204242200866f02",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Stratégie perte électricité en place. Corps très court avec renvoi partie confidentielle. M08. G1. Confidence medium."
+  },
+  {
+    "slug": "yara-france52002592025-05-0662204242200866f03",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Liste équipements secourus présente mais incomplète (salle contrôle SNCC absente). M01 (document incomplet). NC documentaire → G2. Confidence medium : détail en partie confidentielle."
+  },
+  {
+    "slug": "yara-france52002592025-05-0662204242200866f04",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Procédure perte alimentation électrique en place. Observations sur exercice POI avec thématique perte utilité. M08 (conformité procédure). G1. Confidence medium : partie confidentielle."
+  },
+  {
+    "slug": "yara-france52002592025-05-0662204242200866f05",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Équipements sécurité maintenus en bon état pendant perte alimentation. Observations sur justification volumes carburant GE. M08. G1. Confidence medium : partie confidentielle."
+  },
+  {
+    "slug": "yara-france52002592025-05-0662204242200866f06",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Présence équipements secours (GE et onduleurs) constatée sur site. Conforme au schéma de principe. M08. G1. Confidence medium : partie confidentielle."
+  },
+  {
+    "slug": "yara-france52002592025-05-0662204242200866f07",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "MMR pour la plupart à sécurité positive. Traitement adapté pour celles non positives. Observation sur vannes PERC en cas de perte alimentation. M08 + M07. G1. Confidence medium : partie confidentielle."
+  },
+  {
+    "slug": "yara-france52002592025-05-0662204242200866f08",
+    "domains": [
+      "D03",
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Suivi maintenance GE par sondage. Tuyauterie corrodée au niveau du GE 800kVA observée (dégradation physique sur équipement de secours électrique). Opérations 'restant à faire' dans les rapports de maintenance 2024 non vérifiées comme réalisées. M07 (maintenance réalisée mais lacunes) + M14 (tuyauterie corrodée = état physique dégradé). G3 : équipement de secours électrique avec dégradation physique constatée (heuristique G3 avant G2). Confidence medium : partie confidentielle."
+  },
+  {
+    "slug": "yara-france52002592025-08-2962204242200866f01",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Transmetteurs température sur bras de déchargement pas encore en place (engagement exploitant pris en nov. 2023 de remplacer thermomètre illisible par transmetteurs). Délai 3 mois. M14 (équipement prescrit non installé). R02 : exploitant s'est engagé en nov. 2023 mais n'a pas exécuté. T4 : même NC qu'inspection 2023. G3 : absence instrumentation sur installation SEVESO."
+  },
+  {
+    "slug": "yara-france52002592025-08-2962204242200866f02",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Incohérence toujours présente entre procédure AGRI-20120 et annexe 4 EDD sur niveaux MMR 106 et 116. M01 (incohérence persistante documentation). T4 : même NC qu'inspection 2023. G2 : NC documentaire sur procédure SEVESO."
+  },
+  {
+    "slug": "yara-france52002592025-08-2962204242200866f03",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Check-list 20121 modifiée en cohérence avec procédure AGRI-20120. Fréquence rondes formalisée toutes les heures. Réponse ne suscite pas de remarque. M08. T3. G1."
+  },
+  {
+    "slug": "yara-france52002592025-08-2962204242200866f04",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Obs 8 (date absente sur fiche déconnexion) : réponse exploitant prise en compte, pas de remarque. M08. T3. G1."
+  },
+  {
+    "slug": "yara-france52002592025-08-2962204242200866f05",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Check-list 20123 modifiée conformément aux obs 9 (cohérence avec pratiques terrain pour MOV 11201). Evolution constatée. M08. T3. G1."
+  },
+  {
+    "slug": "yara-france52002592025-08-2962204242200866f06",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Fiches relevés horaires AGRI-21056 du 26/08/2025 : annotations lisibles. OBS 10 soldée. M08. T3. G1."
+  },
+  {
+    "slug": "yara-france52002592025-08-2962204242200866f07",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M11"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G6",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Incident 26/08/2025 : déconnexion PERC lors déchargement ammoniac. Un blessé (urgence absolue, brûlure ammoniac liquide). Analyse en cours. M11 (déclaration incident/accident, rapport circonstancié en cours). G6 : événement accidentel survenu avec victime."
+  },
+  {
+    "slug": "yara-france52002592025-09-1262204242200866f01",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consommations eau industrielle BM, forage, AEP respectent les limitations fixées par AP 08/07/2014. Volumes annuels vérifiés 2017-2023. M08. G1."
+  },
+  {
+    "slug": "yara-france52002592025-09-1262204242200866f02",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plans réseaux alimentation (09/09/2025) et égouts (31/01/2024) consultés. Points de rejets internes et externes non nommément indiqués, disconnecteurs/compteurs absents, rendu visuel améliorable. M01 (plans incomplets). NC documentaire → G2."
+  },
+  {
+    "slug": "yara-france52002592025-09-1262204242200866f03",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre informatique relevés compteurs eau consulté. Pas de remarque. M08. G1."
+  },
+  {
+    "slug": "yara-france52002592025-09-1262204242200866f04",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mesures sécheresse (AP 30/05/2023) déjà en place à tout moment. Seule réduction possible = arrêt production. M08 (conformité). G1."
+  },
+  {
+    "slug": "yara-france52002592025-09-1262204242200866f05",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bilan économies eau sur 5 dernières années bien remis. M08. G1."
+  },
+  {
+    "slug": "yara-france52002592025-09-1262204242200866f06",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PCA eau réalisé mais incomplet : ne distingue pas activités production (eau nécessaire) des activités sécurité industrielle (TAR refroidissement réservoir ammoniac). M01 (PCA incomplet). NC documentaire → G2."
+  },
+  {
+    "slug": "yara-france52002592025-09-1262204242200866f07",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08",
+      "M02"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "ETE analyse des exemptions (art. 3.2 et 3.3 AM 30/06/2023). IIC diverge sur art. 3.2 (économies non pérennes) mais valide art. 3.3 (recyclage >20%). Actions économie eau mises en place. M08 (conformité partielle, exemption 3.3 valide) + M02 (méthode calcul 3.2 discutée). G2 : divergence méthodologique sans NC avérée."
+  },
+  {
+    "slug": "yara-france52002592025-09-1262204242200866f08",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déclaration GEREP eau correcte, résultats concordant avec ETE. M08. G1."
+  },
+  {
+    "slug": "yara-france52002592025-09-1262204242200866f09",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M02",
+      "M03"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Surveillance GIDAF lacunaire : hydrocarbures non mesurés selon norme (COT utilisé à la place), température rejets non suivie (requise par MTD AM 04/11/2024), eaux pluviales hydrocarbures non mesurées. Module gestion eau GIDAF absent. M02 (méthodes surveillance inadéquates) + M03 (reporting GIDAF incomplet). NC documentaire/reporting → G2."
+  },
+  {
+    "slug": "yara-france52002592025-11-1262204242200866f01",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Périmètre PM2I : seul bac cryogénique soumis. Bac enrobant H401 >10m³ potentiellement soumis mais critère exclusion DT90 applicable (viscosité). M08 (conformité périmètre). G1. Confidence medium : précisions fournies après inspection."
+  },
+  {
+    "slug": "yara-france52002592025-11-1262204242200866f02",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "État initial bac cryogénique 51V03 incomplet : réparations du fond (réalisées lors construction) non intégrées au dossier état initial (requis par guide DT97). M01 (dossier état initial incomplet). NC documentaire → G2."
+  },
+  {
+    "slug": "yara-france52002592025-11-1262204242200866f03",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Première visite exploitation bac cryogénique novembre 2024 réalisée. Relevés altimétriques effectués mais sans analyse d'évolution par rapport à état initial (repères différents, incomparables) et sans critère d'acceptabilité défini. M07 (inspection réalisée mais suivi tassements incomplet) + M14 (incertitude : impossibilité de démontrer absence de tassement anormal). G2 : lacune méthodologique sur suivi PM2I."
+  },
+  {
+    "slug": "yara-france52002592025-11-1262204242200866f04",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Suivi tuyauteries PM2I selon approche enveloppe. Corps très court avec renvoi partie confidentielle. M08 (conformité). G1. Confidence medium : partie confidentielle."
+  },
+  {
+    "slug": "zinq52010712023-01-2633420102700011f01",
+    "domains": [
+      "D02"
+    ],
+    "mechanisms": [
+      "M08",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Déplacement des derniers équipements en dehors des zones ATEX réalisé. Boîtiers et prises électriques réseau gaz dévoyés hors ATEX. NC de l'inspection précédente levée. M08 + M04. T3. G1."
+  },
+  {
+    "slug": "zinq52010712023-01-2633420102700011f02",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Rapport contrôle rejets atmosphériques DEKRA du 09/01/2023 en attente (contrôle réalisé mais rapport non encore disponible). Rapport précédent (18/01/2022) sans dépassement. M01 (rapport non transmis/disponible lors de l'inspection). NC documentaire → G2. T2 : suivi contrôle annuel."
+  },
+  {
+    "slug": "zinq52010712023-01-2633420102700011f03",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Teneurs Zn dans rejets : 142, 42.5, 138 µg/l → toutes conformes à la VLE de 2 mg/l. M08. T3 (amélioration depuis travaux 2018). G1."
+  },
+  {
+    "slug": "zinq52010712023-01-2633420102700011f04",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant ne connaît pas les modalités d'entretien des modules d'aspiration dans l'étang (défense incendie). Ne sait pas si essais périodiques réalisés. M07 (contrôle périodique de moyens incendie non documenté/inconnu). R04 : exploitant invoque méconnaissance de l'entretien. G3 : dispositif de défense incendie dont la disponibilité n'est pas assurée."
+  },
+  {
+    "slug": "zinq52010712023-01-2633420102700011f05",
+    "domains": [
+      "D02"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Renouvellement air local four 35 fois/heure confirmé (absence accumulation gaz). Batteries de secours installées 26/10/2022 pour alimentation coupure gaz sur détection CH4. PV essai sans anomalie. M08 + M07. T3. G1."
+  },
+  {
+    "slug": "zinq52010712023-01-2633420102700011f06",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Registres déchets 2021 et 2022 mis à jour avec tous items réglementaires. NC 2022 soldée. M08. T3. G1."
+  },
+  {
+    "slug": "zinq52010712023-01-2633420102700011f07",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vérification foudre DEKRA 26/03/2022 : pas de NC identifiées. Installation protection foudre correctement maintenue. Compteurs impacts foudre à 0. M08 + M07. G1."
+  },
+  {
+    "slug": "zinq52010712023-01-2633420102700011f08",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "3 sondes détection point bas rétentions testées (contrôle mensuel interne). Test en direct par inspection (plongée sonde dans GRV eau) : alarme reçue sur téléphone astreinte et direction. Conforme. M08 + M07. G1."
+  },
+  {
+    "slug": "zinq52010712023-01-2633420102700011f09",
+    "domains": [
+      "D02",
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mise à la terre tuyauterie gaz four de fusion constatée par sondage. Conforme. M08. G1."
+  },
+  {
+    "slug": "zinq52010712023-01-2633420102700011f10",
+    "domains": [
+      "D11",
+      "D07"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure arrêt technique P-MDP présentée et remplie pour arrêt 2022. Mais vérification bains TS (absence fuites/déformations) absente au redémarrage dans procédure. M07 (procédure arrêt technique existante mais incomplète) + M14 (incertitude sur état bains TS au redémarrage). G2 : lacune procédurale sans dimension physique actuellement constatée."
+  },
+  {
+    "slug": "zinq52010712023-01-2633420102700011f11",
+    "domains": [
+      "D12"
+    ],
+    "mechanisms": [
+      "M12"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réexamen IED/BREF FMP à transmettre avant 04/11/2023. Exploitant en cours de chiffrage (DEKRA, SOCOTEC). M12 (MTD/BREF : dossier réexamen non encore transmis). NC administrative → G2."
+  }
+]

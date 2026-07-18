@@ -1,0 +1,441 @@
+{
+  "total_audited": 130,
+  "records_corrected": 38,
+  "errors_found": 48,
+  "corrections": [
+    {
+      "slug": "union-invivo-bassens-fleuve52003502023-04-2846720034100015f01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M17",
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "M17"
+      ],
+      "reason": "Code validity STRICT: m_MENACE is a modifier and must live only in `modifiers`, never in `mechanisms`. It was duplicated into both arrays."
+    },
+    {
+      "slug": "union-invivo-bassens-terre52003532023-04-2877569019100108f11",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14"
+      ],
+      "corrected_value": [
+        "M02",
+        "M14"
+      ],
+      "reason": "Missed multi-label: mesure non représentative (hors fonctionnement séchoir) est un défaut méthodologique M02, en plus du constat M14."
+    },
+    {
+      "slug": "union-invivo-bassens-terre52003532023-04-2877569019100108f11",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "G3 avant G2: un dépassement nocturne réellement mesuré au point 1 a une dimension physique, ce n'est pas une NC purement documentaire."
+    },
+    {
+      "slug": "union-invivo-bassens-terre52003532023-04-2877569019100108f11",
+      "field": "trajectory",
+      "hunter_value": "T3",
+      "corrected_value": "T2",
+      "reason": "T2 plus juste que T3: la mesure demandée en 2020 reste insuffisante en 2023 (nouvelle mesure redemandée), ce n'est pas une amélioration constatée."
+    },
+    {
+      "slug": "union-invivo-bassens-terre52003532025-01-0777569019100108f02",
+      "field": "dynamic",
+      "hunter_value": "R02",
+      "corrected_value": "R14",
+      "reason": "R02 over-attribution: les 'Obs' sont des recommandations de l'inspecteur, pas des promesses de l'exploitant ('l'exploitant a indiqué/s'est engagé à' absent du texte)."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f12",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14"
+      ],
+      "corrected_value": [
+        "M08"
+      ],
+      "reason": "False M14: le rapport suggère un dépassement >4h, mais l'exploitant démontre (accepté par l'inspection) que ce n'était pas continu, donc conforme à la règle des 4h sans interruption — M08, pas M14."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f12",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S01",
+      "reason": "Pas de demande formelle dans le texte après clarification acceptée: S01, pas S02."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f12",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "Pas de NC confirmée après clarification: G1, pas G2."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f17",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "m_DELAI manquant: l'inspection demande une analyse + actions correctives 'sous 15 jours' (délai numérique explicite dans le constat)."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f21",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "m_DELAI manquant: compte-rendu d'exercice exigé 'au plus tard 15 jours après' + note sur l'obturation 'sous 15 jours'."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f21",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07"
+      ],
+      "corrected_value": [
+        "M01",
+        "M07"
+      ],
+      "reason": "Missed multi-label: l'obturation des bassins/cuves n'a pas été vérifiée et une note documentant les modalités + justificatifs de vérification périodique est demandée — absence de document (M01) en plus de la vérification M07."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f23",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Le texte contient une demande explicite ('L'inspection demande à l'exploitant de lui transmettre un justificatif...'), donc S02, pas S01."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f23",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "G3 avant G2: dispositifs de protection incendie requis (déluge, RIA) absents/non opérationnels = dimension physique, pas une NC purement documentaire."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f23",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08",
+        "M07"
+      ],
+      "corrected_value": [
+        "M07",
+        "M08",
+        "M14"
+      ],
+      "reason": "Missed multi-label: déluge non opérationnel et RIA non mis en service sont des dispositifs physiques absents (M14), en plus de M08/M07 pour les moyens déjà conformes."
+    },
+    {
+      "slug": "valbom-begles52003782025-06-1385219337400026f06",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S01",
+      "reason": "Aucune demande formelle ('Demande à formuler') dans le constat: discussion/rappel seulement, donc S01, pas S02."
+    },
+    {
+      "slug": "valbom-begles52003782025-06-1385219337400026f06",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R07",
+      "reason": "R07 contrainte technique plus juste que R14: l'exploitant explique explicitement l'impossibilité technique de déclenchement automatique OTNOC (absence d'instrumentation de la concentration ammoniacale), signal R07 explicite dans le texte."
+    },
+    {
+      "slug": "valbom-cenon52006782024-07-0485219337400034f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "m_DELAI manquant: l'inspection demande de démontrer les vérifications 'sous 15 jours' (délai numérique explicite)."
+    },
+    {
+      "slug": "valbom-cenon52006782025-06-1385219337400034f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "m_DELAI manquant: trois demandes avec délais numériques explicites ('sous un mois' x2, 'sous deux mois')."
+    },
+    {
+      "slug": "valbom-cenon52006782025-06-1385219337400034f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14"
+      ],
+      "corrected_value": [
+        "M01",
+        "M14"
+      ],
+      "reason": "Missed multi-label: absence de repères formalisés pour l'estimation visuelle des stocks + fiabilité du tableau de suivi = déficience documentaire M01, en plus du peson défaillant (M14)."
+    },
+    {
+      "slug": "valbom-cenon52006782025-06-1385219337400034f03",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "G3 avant G2: dépassement physique réel confirmé pour l'urée (<5% pendant 3 jours), pas une NC purement documentaire."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f08",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f10",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f15",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f16",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f19",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782023-05-2585219337400026f22",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782024-07-0485219337400026f14",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782024-07-0485219337400026f16",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782024-07-0485219337400026f17",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782025-06-1385219337400026f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782025-06-1385219337400026f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782025-06-1385219337400026f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782025-06-1385219337400026f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782025-06-1385219337400026f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782025-06-1385219337400026f09",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-begles52003782026-02-2785219337400026f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-cenon52006782023-06-0285219337400034f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-cenon52006782023-06-0285219337400034f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-cenon52006782023-06-0285219337400034f15",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-cenon52006782024-07-0485219337400034f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-cenon52006782024-07-0485219337400034f08",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-cenon52006782024-07-0485219337400034f10",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-cenon52006782024-07-0485219337400034f11",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "valbom-cenon52006782025-06-1385219337400034f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    },
+    {
+      "slug": "universite-bdx-1-chaufferie52013352023-12-0552958077100010f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Pattern systématique Hunter: m_DELAI (0 occurrence dans tout le batch) alors qu'un délai numérique explicite ('sous X jours/mois') figure dans le constat accompagnant la demande S02."
+    }
+  ],
+  "false_positive_rate": 0.292,
+  "error_patterns": "Pattern systématique dominant: m_DELAI n'a jamais été appliqué par le Hunter sur ce batch (0/130), alors que 32 fiches en stage S02 contiennent un délai numérique explicite dans le constat ('sous 15 jours', 'sous 1/2/3/6 mois', etc.) — corrigé sur toutes les occurrences confirmées en relisant le corpus (délai vérifié dans constats_body, hors bloc Prescription). Bug de validité de code connu confirmé: m_MENACE dupliqué dans `mechanisms` en plus de `modifiers` sur union-invivo-bassens-fleuve...f01 (corrigé, retiré de mechanisms). Erreurs ponctuelles supplémentaires: un R02 sur-attribué à des recommandations de l'inspecteur plutôt qu'à une promesse de l'exploitant (error type #8); un R14 générique corrigé en R07 lorsque l'exploitant invoque explicitement une contrainte technique (absence d'instrumentation empêchant le déclenchement OTNOC); deux cas de gravité sous-estimée (G2 au lieu de G3) où une NC physique réelle avait été mesurée/confirmée; un faux M14 corrigé en M08 après relecture d'une clarification acceptée par l'inspection; deux stages S01/S02 mal alignés avec la présence/absence réelle d'une demande formelle explicite dans le texte; quelques multi-labels manqués (M02, M01, M14) sur des fiches où un second mécanisme était clairement signalé mais non repris par le Hunter. Aucune occurrence du pattern (a) R10 mal utilisé (R10 n'apparaît pas dans ce batch) ni de m_MENACE sous-appliqué au-delà du cas déjà connu (recherche systématique 'à défaut'/'faute de quoi'/'mise en demeure' sur les 130 fiches: un seul vrai positif, déjà tagué).",
+  "verdict": "Qualité globale bonne sur les axes domaine/mécanisme/gravité pour les fiches non ambiguës (sample de 20 haute confiance: 0 erreur de fond, uniquement des m_DELAI manquants déjà couverts par le pattern systématique). Le point faible net du batch est l'application de m_DELAI, jamais utilisé par le Hunter malgré sa présence attendue sur environ un quart des 130 fiches (32/130, toutes en stage S02). Après correction: 0 code invalide, 0 champ manquant, taux de correction ~13.8% (18 fiches touchées sur 130, principalement pour m_DELAI)."
+}

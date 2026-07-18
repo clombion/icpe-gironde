@@ -1,0 +1,37 @@
+{
+  "total_audited": 36,
+  "errors_found": 4,
+  "corrections": [
+    {
+      "slug": "world-fuel-services52060722026-01-1581944141100017f14",
+      "field": "mechanisms",
+      "hunter_value": "[\"M08\", \"M14\"]",
+      "corrected_value": "[\"M08\"]",
+      "reason": "False M14: fiche technique du fabricant présentée confirme la double enveloppe (NC de mai 2025 levée), l'exploitant s'assure du bon fonctionnement de la détection de fuite sans incertitude ni écart relevé au jour de l'inspection. Pas de demande formulée. Corrections annexes sur ce même slug: gravity G2->G1, stage S03->S04 (contre-visite confirmant la correction, pas action en cours)."
+    },
+    {
+      "slug": "yara-france52002592023-08-1062204242200866f01",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R02",
+      "reason": "L'exploitant a pris les dispositions pour réparer le téléphone bungalow non fonctionnel sous 1 mois: engagement explicite sur action future avec délai chiffré, non vérifiable au jour de l'inspection. Signal R02 classique manqué par le Hunter."
+    },
+    {
+      "slug": "yara-france52002592023-08-1062204242200866f05",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R12",
+      "reason": "Essai bras réalisé hors délai procédural (>48h avant navire), mais l'inspection juge explicitement la raison recevable (tempête) tout en notant l'écart de fait: souplesse de l'inspection acceptant une justification contextuelle = R12_PRAGMATISME, pas une NC neutre. Correction annexe sur ce même slug: mechanisms [\"M07\",\"M14\"] -> [\"M07\"] (le M14 reposait sur une incertitude de fermeture de vanne finalement confirmée conforme à 12s, donc pas de constat technique physique résiduel)."
+    },
+    {
+      "slug": "yara-france52002592025-05-0662204242200866f08",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Tuyauterie corrodée observée sur le groupe électrogène de secours 800kVA (dégradation physique directement constatée sur équipement de sécurité). La règle \"G3 avant G2\" de la taxonomie s'applique dès qu'un élément est décrit comme dégradé; le raisonnement du Hunter lui-même reconnaissait \"G3 justifié\" avant de retenir G2 par prudence — correction alignée sur l'heuristique explicite."
+    }
+  ],
+  "false_positive_rate": 0.11,
+  "error_patterns": "Sur ce batch, aucune occurrence de R10_TENSION mal attribué (le code n'apparaît pas dans le Hunter output), et le couple S02/m_DELAI est cohérent avec la présence/absence de délai chiffré dans le texte (vérifié par grep sur tout le batch). m_MENACE est correctement appliqué partout où un conditionnel de type mise en demeure existe (\"à défaut\", \"faute de quoi\", \"expose à des suites administratives de type mise en demeure\"); les occurrences de \"à défaut\"/\"faute de quoi\" non taguées m_MENACE se sont révélées être du texte réglementaire boilerplate (Prescription) ou des règles administratives sans lien avec une MED, donc correctement laissées non taguées. Les erreurs réelles trouvées sont plus fines: (1) un cas de False M14 sur une NC documentaire déjà résolue (fiche technique produite, plus d'incertitude) faussement maintenue comme constat technique avec un stade S03 au lieu de S04; (2) deux cas de dynamique R14 par défaut alors que le texte portait un signal clair R02 (engagement futur chiffré) ou R12 (souplesse de l'inspection face à une justification acceptée); (3) un cas où le Hunter a lui-même identifié dans son raisonnement que G3 était justifié par la règle \"G3 avant G2\" mais a quand même choisi G2 par prudence — la règle STRICT de gravité n'a pas été appliquée malgré une reconnaissance explicite dans le raisonnement.",
+  "verdict": "Bonne qualité globale (taux d'erreur ~11%, dans la cible <15%). Aucun code hors taxonomie, aucun champ mono-valeur avec valeur jointe, aucun modificateur mal placé dans mechanisms. Les erreurs trouvées sont des erreurs de jugement fin (dynamique R02/R12 vs R14 par défaut, gravité G2 vs G3 sur la règle explicite) plutôt que des erreurs structurelles ou de validité de code. Le M15_AUTRE est resté à 0% comme sur les batches précédents."
+}

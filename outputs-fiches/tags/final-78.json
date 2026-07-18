@@ -1,0 +1,2392 @@
+[
+  {
+    "slug": "union-invivo-bassens-fleuve52003502023-04-2846720034100015f01",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M17"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant n'a pas déclaré la présence de substances classées rubrique 4110 (phosphine/phostoxin). Constat technique sur classement ICPE manquant + menace de mise en demeure explicite. M17 (vérification de seuil rubrique 4110) + m_MENACE (exposition aux suites administratives type MED mentionnée). G3 car NC réglementaire sur classement avec produit toxicité aiguë cat.1 sur site."
+  },
+  {
+    "slug": "union-invivo-bassens-fleuve52003502023-04-2846720034100015f02",
+    "domains": [
+      "D11",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Correspondant sécurité nommément désigné, suivi formations 2022-2023 présenté, formation individuelle consultée, participation commission technique nationale. Tous les éléments consultés conformes, aucune demande formulée. M08 conformité."
+  },
+  {
+    "slug": "union-invivo-bassens-fleuve52003502023-04-2846720034100015f03",
+    "domains": [
+      "D11",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédures maintenance GMAO consultées et conformes, procédure incidents consultée, contrôles préventifs datés d'avril 2023 conformes, ronde maintenance vérifiée par sondage. Aucune demande formulée. M08 conformité."
+  },
+  {
+    "slug": "union-invivo-bassens-fleuve52003502023-04-2846720034100015f04",
+    "domains": [
+      "D11",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R12",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Permis feu présent et fonctionnel. Modèle 2016 utilisé au lieu 2022 mais inspection accepte de finir les carnets à souche car seule modification = logo. Pragmatisme explicite de l'inspection (R12). Aucune demande. M08 conformité."
+  },
+  {
+    "slug": "union-invivo-bassens-fleuve52003502023-04-2846720034100015f05",
+    "domains": [
+      "D15",
+      "D02"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Équipements conçus pour respecter arrêtés silos avec asservissements à sécurité positive. Contrôles suivis élévateurs 2022 présentés (deux fois par an). Asservissements font l'objet de contrôle. Aucune demande. M08 conformité."
+  },
+  {
+    "slug": "union-invivo-bassens-fleuve52003502023-04-2846720034100015f06",
+    "domains": [
+      "D15",
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Transporteurs à bandes non propagatrices de flamme vérifiés, garantie 7 ans clarifiée (s'applique à résistance mécanique non à propriété anti-propagation), exploitant confirme par mail absence de dégradation. Aucune demande. M08 conformité."
+  },
+  {
+    "slug": "union-invivo-bassens-fleuve52003502023-04-2846720034100015f07",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Constat 2020: absence contrôle continuité liaisons équipotentielles. Constat 2023: rapport DEKRA 2022 sans écart, Q18 conclut absence risque incendie/explosion, 3 observations corrigées. NC résolue, T3 amélioration. M08 (conformité constatée) + M07 (vérification organisme agréé DEKRA réalisée)."
+  },
+  {
+    "slug": "union-invivo-bassens-fleuve52003502023-04-2846720034100015f08",
+    "domains": [
+      "D15",
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant dispose d'une liste des équipements formant barrières de sécurité. Choix documenté de ne pas intégrer asservissements (sécurité positive justifiée). Aucune demande formulée. M08 conformité."
+  },
+  {
+    "slug": "union-invivo-bassens-fleuve52003502023-04-2846720034100015f09",
+    "domains": [
+      "D15",
+      "D02"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport mesures aérauliques RAS, problèmes découverts pendant campagne réparés immédiatement (ex. décolmatage réparé pendant visite). Vérificateur salue le sérieux. R01 proactivité exploitant. M08 conformité + M07 mesures réalisées par organisme."
+  },
+  {
+    "slug": "union-invivo-bassens-fleuve52003502025-02-0646720034100015f01",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08",
+      "M17"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Exploitant a répondu par courrier sur classement rubrique 4110: produit solide (Bag Blankets) stocké côté terre, quantité 81.6 kg < seuil 200 kg DC. Réponse n'appelle pas de remarques. M08 (conformité constatée) + M17 (vérification seuil rubrique 4110 résolue). T3 amélioration suite à constat f01 2023."
+  },
+  {
+    "slug": "union-invivo-bassens-fleuve52003502025-02-0646720034100015f02",
+    "domains": [
+      "D15",
+      "D01"
+    ],
+    "mechanisms": [
+      "M11"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Incendie du 06/01/2025 (embrasement poussières d'oléagineux, 3 gaines à remplacer, POI activé, SDIS intervenu). Rapport d'incident transmis le 20/01/2025. Demande de fiche BARPI. M11 déclaration incident. G3 car incident survenu avec dommages matériels (3 gaines à remplacer) mais maîtrisé sans impact environnemental."
+  },
+  {
+    "slug": "union-invivo-bassens-fleuve52003502025-02-0646720034100015f03",
+    "domains": [
+      "D15",
+      "D02"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Élévateur Saipol sans point d'aspiration à la jetée ni asservissement au système d'aspiration. NC physique observée. Exploitant s'engage à mettre en place procédure contrôle intensité (R02 promesse). Demandes obs formulées. M14 constat technique (absence dispositif physique requis). G3 car dispositif de prévention ATEX absent."
+  },
+  {
+    "slug": "union-invivo-bassens-fleuve52003502025-02-0646720034100015f04",
+    "domains": [
+      "D15",
+      "D03"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle interne élévateur sans procédure écrite (M01 absence document), deuxième visite incomplète sur contrôle (M14 NC physique sur vérification barrières sécurité), bon de travail manquant pour opération 07/03/2024, procédure nettoyage absente, nettoyage incomplet (pied seulement). G3 car déficiences dans maintien barrières sécurité élévateur (contexte post-incendie). Multiples écarts."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532023-04-2877569019100108f01",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M09",
+      "M19"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant n'a pas porté à connaissance le projet de chargement de bois (M09 PAC). Silos plats à l'arrêt non déclarés, question cessation partielle posée (M19 obligations post-cessation partielle R512-39-1). Demandes formelles formulées sous délai. G3 car modifications non déclarées sur site autorisé."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532023-04-2877569019100108f02",
+    "domains": [
+      "D11",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Documents identiques au site Fleuve: correspondant sécurité nommément désigné, formations présentées, participation commission technique nationale. Même constat de conformité. M08."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532023-04-2877569019100108f03",
+    "domains": [
+      "D11",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédures maintenance GMAO, consignes incidents, qualification matériel, contrôles préventifs consultés et conformes. Ronde maintenance vérifiée par sondage, document numérique remplace cahier. Aucune demande. M08."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532023-04-2877569019100108f04",
+    "domains": [
+      "D11",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R12",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Permis feu présent. Modèle 2016 utilisé mais acceptable (seul logo différent). Pragmatisme inspection. Aucune demande. M08 conformité."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532023-04-2877569019100108f05",
+    "domains": [
+      "D15",
+      "D02"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Équipements asservissements à sécurité positive, contrôles suivis élévateurs 2022 présentés. Aucune demande. M08 conformité."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532023-04-2877569019100108f06",
+    "domains": [
+      "D15",
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Sangles côté terre vérifiées, tableau indique certaines sangles de 2001/2011, mais exploitant confirme par mail absence de dégradation propriété anti-flamme. Même raisonnement que f06 côté Fleuve. Aucune demande. M08 conformité. Medium car sangles datant de 2001/2011 mentionnées sans suivi individualisé."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532023-04-2877569019100108f07",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapports DEKRA vérification installations électriques 2022 pour silos 1,2,3,4,5,6,7 présentés. Aucun écart électricité statique. Retard DEKRA dû à départ retraite contrôleur, planning transmis. Conformité constatée. M08 + M07."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532023-04-2877569019100108f08",
+    "domains": [
+      "D15",
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Constat 2020: événements précurseurs non signalés. Constat 2023: nombre incidents déclarés fortement augmenté depuis 2021, rondes maintenance mises en place, revue de direction présentée. NC résolue. T3 amélioration. M08 conformité."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532023-04-2877569019100108f09",
+    "domains": [
+      "D04",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Constat 2020: exploitant n'a pas pu fournir mesure rejets eaux. Constat 2023: contrôle qualité eaux pluviales réalisé, rejets conformes aux VLE. NC résolue. T3. M08 conformité."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532023-04-2877569019100108f10",
+    "domains": [
+      "D07",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Constat 2020: curage débourbeur-déshuileur non réalisé dans délais. Constat 2023: BSD du 9/12/2022 justifiant bonne évacuation boues séparateur. NC résolue. T3. M08 conformité."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532023-04-2877569019100108f11",
+    "domains": [
+      "D05",
+      "D15"
+    ],
+    "mechanisms": [
+      "M02",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Bruit: mesure 2023 réalisée hors fonctionnement du séchoir (non représentative, M02 protocole inadéquat) et montre malgré tout un dépassement nocturne mesuré au point 1 (M14, NC physique confirmée, pas seulement documentaire). G3 minimum car dépassement réel mesuré (règle G3 avant G2). T2 car le problème resté ouvert (nouvelle mesure redemandée) plutôt qu'une amélioration constatée."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532023-04-2877569019100108f12",
+    "domains": [
+      "D15",
+      "D02"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Présence de poussière constatée sur dessus local RDC silo 3. Post-inspection, exploitant transmet photo justifiant nettoyage. R01 proactivité (correction spontanée post-inspection sans demande formelle). M14 constat terrain (poussière observée). G2 car poussière = NC technique mais de faible ampleur, corrigée immédiatement."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532024-06-1077569019100108f01",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M09",
+      "M19"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi constat 2023: PAC bois transmis et acté par donné acte 31/08/2023. Activité bois non réalisée (pas rentable). Silos plats: exploitant temporise décision réhabilitation/destruction. Demande d'information avant travaux. M09 (PAC réalisé) + M19 (silos plats à l'arrêt, décision en attente). T3 car PAC régularisé. G2 car décision silos plats encore pendante (purement administrative)."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532024-06-1077569019100108f02",
+    "domains": [
+      "D10",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi constat 2023: rapports DEKRA 2024 pour tous les silos (silo 4/séchoirs, silos 3/5, silo 6, silos 1/2/7) tous sans écart. NC levée. T3 amélioration. M08 + M07."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532024-06-1077569019100108f03",
+    "domains": [
+      "D15",
+      "D03"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Capteur 3 cellule 34 silo 3 affiche -3276.8°C (dysfonctionnement). Capteurs 1 et 2 à 34.7°C depuis 21/05/2024 sans alerte opérateur ni mise à l'arrêt du silo. NC technique directement observée: anomalie non détectée pendant 3 semaines. Exploitant répare le soir même (R01). M14 constat technique. G3 car défaillance système de surveillance température silo céréales (risque fermentation/dégagement gaz)."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532024-06-1077569019100108f04",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exercice POI non réalisé en 2023, mais exercice réalisé le 20/06/2024 avec SDIS33. Demande d'assurer un exercice POI annuel. M14 (constat: non-réalisation exercice POI en 2023). G2 car NC organisationnelle (absence exercice annuel) sans dimension physique immédiate."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532024-06-1077569019100108f05",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Feuilles d'émargement exercice extincteurs/RIA février 2024 présentées, registre de sécurité à jour. Personnel entraîné périodiquement. M08 conformité + M07 vérification. Aucune demande."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532024-06-1077569019100108f06",
+    "domains": [
+      "D01",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre sécurité, fiche relevé vérification annuelle poteaux/bouches incendie, rapport DESAUTEL 30/01/2024 présentés. Poteaux 17793 et 7789 testés simultanément, débit > 60 m3/h. Conformes. M08 + M07."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532024-06-1077569019100108f07",
+    "domains": [
+      "D07",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Insecticides stockés sur capacité de rétention conforme. Constat de conformité sans demande. M08."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532025-01-0777569019100108f01",
+    "domains": [
+      "D15",
+      "D01"
+    ],
+    "mechanisms": [
+      "M11"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Incendie du 24/12/2024 (déport de bande non détecté, embrasement filtre FIL02, feu 5m2 bande transporteuse, POI activé, SDIS intervenu). Rapport d'incident transmis le 03/01/2025. M11 déclaration incident. G3 car incendie survenu avec dommages matériels, maîtrisé, sans impact environnemental."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532025-01-0777569019100108f02",
+    "domains": [
+      "D15",
+      "D11"
+    ],
+    "mechanisms": [
+      "M08",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Mode opératoire incident globalement suivi mais POI déclenché tardivement (~40 min) et fiche 9 du schéma d'alerte POI incohérente avec la pratique terrain. M08 (suivi globalement respecté) + M01 (schéma/documents POI à mettre en cohérence). Les 3 recommandations sont formulées par l'inspection (\"Obs: l'exploitant pourra utilement...\"), pas des engagements de l'exploitant: R14 neutre NC, pas R02 (pas de promesse de l'exploitant dans le texte)."
+  },
+  {
+    "slug": "union-invivo-bassens-terre52003532025-01-0777569019100108f03",
+    "domains": [
+      "D15",
+      "D03"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Filtres BAM: rapport identifie filtre comme Fil03 au lieu de FIL02 (M01 incohérence documentaire). Capteurs déport bande: déplacés sans procédure objective, procédure vérification absente (M01 absence procédure écrite), position trop proche bout bande ayant empêché déclenchement lors incident. M14 constat technique sur positionnement capteurs. G3 car défaillance capteurs sécurité directement liée à l'incendie du 24/12."
+  },
+  {
+    "slug": "universite-bdx-1-chaufferie52013352023-12-0552958077100010f01",
+    "domains": [
+      "D12",
+      "D10"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déclaration mentionne 16.583 MW mais inspecteur ne constate que 3 chaudières (15.36 MW). Cogénération 1.2 MW + chaudière 23 kW dans périmètre mais documents de contrôle ne les mentionnent pas. Incertitude sur périmètre déclaré. Demande documents contrôle cogénération sous 3 mois. M14 constat d'incertitude (n'a pas pu préciser périmètre exact). G2 car NC documentaire/déclarative."
+  },
+  {
+    "slug": "universite-bdx-1-chaufferie52013352023-12-0552958077100010f02",
+    "domains": [
+      "D10",
+      "D12"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Rapport contrôle périodique 13/07/2022 par Sermet/Manergy présenté avec plusieurs NC. Exploitant a réalisé travaux et mise en conformité (rejets atmosphériques vérifiés). Mais rapport complémentaire post-correction pas encore transmis. Demande sous 3 mois. M07 contrôle réalisé + M08 NC partiellement résolues. G2 car rapport complémentaire manquant = NC documentaire. T3 car travaux réalisés."
+  },
+  {
+    "slug": "universite-bdx-1-chaufferie52013352023-12-0552958077100010f03",
+    "domains": [
+      "D05",
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "VLE NOx respectées pour 3 chaudières (149, 148, 131 mg/Nm3 pour VLE 150). M08 conformité."
+  },
+  {
+    "slug": "universite-bdx-1-chaufferie52013352023-12-0552958077100010f04",
+    "domains": [
+      "D05",
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dernier rapport analyse rejets atmosphériques daté 05/12/2022. Pour installations > 5MW, mesure tous les 2 ans donc conforme (moins de 2 ans). M08 conformité. Aucune demande formulée."
+  },
+  {
+    "slug": "universite-bdx-1-chaufferie52013352023-12-0552958077100010f05",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dispositif de coupure extérieur bien en place. M08 conformité constatée. Aucune demande."
+  },
+  {
+    "slug": "universite-bdx-1-chaufferie52013352023-12-0552958077100010f06",
+    "domains": [
+      "D10",
+      "D02"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "2 électrovannes asservies à capteurs détection gaz, test boucles 11/10/2022 conforme (fermeture automatique à 50% LIE). M08 + M07. Aucune demande."
+  },
+  {
+    "slug": "universite-bdx-1-chaufferie52013352023-12-0552958077100010f07",
+    "domains": [
+      "D01",
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "5 extincteurs ABC vérifiés octobre 2023 + plan des locaux. Autres points non contrôlés par inspecteur. M08 conformité partielle. Medium car inspection partielle."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f01",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi inspection juin 2022: mode opératoire relève compteur impacts foudre mis à jour, ordre de travail résolution anomalies rapport 17/12/2021 créé. Inspection 2023: suivi travaux présenté, tous écarts résolus. Levée des écarts constatés. M08 conformité. T3 amélioration."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f02",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Rapport bruit 2022 sans émergences évaluées (mesures en période arrêt UVE, non représentatives). Inspection demande nouvelle étude sous 3 mois. Exploitant s'engage (R02). M07 contrôle insuffisant méthodologiquement. G2 NC documentaire/méthodologique. T2 suivi constat antérieur 2022."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f03",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M14",
+      "M03"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Dépassements MES et COT en 2022 persistants. Écart entre rapport laboratoire et GIDAF (33 mg/L vs 9.2 mg/L pour MES). Rapport d'analyse sans comparaison VLE ni méthode prélèvement. M14 (NC technique: dépassement VLE MES observé) + M03 (GIDAF mal renseigné). G3 car dépassement VLE confirmé + incohérence déclaration. T2 suivi constat 2022."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f04",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Caméras contrôle déchets entrants en bon fonctionnement constaté en salle de quart. M08 conformité. Aucune demande."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f05",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08",
+      "M03"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "BSD Trackdéchets REFIOM/boues filtration correctement renseignés. Aucune remarque. M08 + M03 conformité."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f06",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08",
+      "M03"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre national renseigné quotidiennement, extraits présentés complets et corrects pour OM/tri/DAA. Trackdéchets déchets dangereux conforme, déversement RNDTS automatique. Aucune remarque. M08 + M03."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f07",
+    "domains": [
+      "D01",
+      "D08"
+    ],
+    "mechanisms": [
+      "M14",
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R09",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Zone stockage amont: débordements notables alvéoles au-delà capacités autorisées, déluge non opérationnel jusqu'en octobre 2023, stockage aluminium dans zone amont, RIA partiellement fonctionnels. PAC non déposé pour modifications notables. M14 (NC physique: débordements > capacités autorisées, protection incendie incomplète) + M09 (PAC absent). R09 exploitant invoque difficultés éco-organisme CITEO (tiers bloquant). G4 car MED implicite proposée + NC technique sur stockage avec risque incendie (modélisations DDAE non respectées)."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f08",
+    "domains": [
+      "D01",
+      "D08"
+    ],
+    "mechanisms": [
+      "M14",
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R09",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Zone stockage aval: 742 balles plastique vs 468 dans modélisation, balles stockées hors alvéoles, rangées dépassant mur coupe-feu, alvéoles non conformes aux hypothèses de calcul flux thermiques. Risques accrus incendie non étudiés. M14 (NC physique: stockage non conforme aux conditions d'autorisation) + M09 (PAC demandé). G4 car risque incendie avéré avec conditions stockage hors hypothèses modélisation."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f09",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M12"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Travaux amélioration traitement fumées planifiés 2e semestre 2023 pour nouvelles VLE décembre 2023. Retard dû faillite fournisseur (raison externe). Aucun commentaire inspection car VLE pas encore en vigueur. M08 + M12 (MTD/BREF en cours de mise en oeuvre). G1 car conformité actuelle, transition en cours."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f10",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Porte quai bas stockage amont restée ouverte pendant toute la durée inspection, accessible directement depuis voie publique. NC physique observée sur sécurité accès. M14 constat terrain. G3 car accès non sécurisé à zone manœuvre engins/stockage déchets. T2 car demande formulée lors inspection précédente 2022."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f11",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R12",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant indique prescription incompatible avec mode fonctionnement (fosse 4 jours), fosse bien en dépression lors fonctionnement fours, portes fermées soirs/week-end. Absence plaintes odeurs. Inspection accepte et propose modification AP. R12 pragmatisme inspection. M08 conformité de fait. G1."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f12",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Anomalie SO2 >4h en novembre 2022 (rapport d'activité) mais l'exploitant démontre le jour de l'inspection que les 4h30 se sont produites en 3 phases distinctes non consécutives. La prescription limite la durée à 4h SANS INTERRUPTION: l'explication lève donc la NC apparente. M08 conformité (après clarification acceptée), pas M14. Pas de demande formelle constatée: S01."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f13",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M12"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport APAVE mai 2023: conformité rejets atmosphériques sur tous paramètres VLE actuelles. Vitesses et débits conformes. Nouvelles VLE BREF WI partiellement atteintes. M08 + M12 (BREF/MTD en cours). Aucune demande."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f14",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "4 dépassements journaliers NOx (x3) HF (x1) en 2022, chacun avec cause identifiée et action corrective. Programmes maintenance en place. Pas de demande particulière. M08 conformité globale avec dépassements ponctuels gérés."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f15",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Schéma réseaux en cours d'actualisation suite travaux centre de tri. Exploitant prévoit fin 2023 mais inspection demande délai max 2 mois. M01 document non mis à jour. G2 NC documentaire."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f16",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Point de rejet RE2 créé (constaté), bassin 300m3 remplacé par cuve enterrée Rigofill de capacité identique. PAC demandé sous 1 mois pour acter modification. M09 PAC en cours. G2 modification sans PAC = NC administrative."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f17",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "476 t gâteaux filtration 2022 vs 351 t en 2021 vs AP à 300 t annuelles. Exploitant sans explication. Dépassement quantité autorisée AP pour gâteaux filtration (déchets dangereux). M14 constat technique (dépassement quantitatif déchets dangereux). G3 car dépassement seuil autorisé déchet dangereux. Medium car exploitant n'a pas d'explication identifiée."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f18",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consignes disponibles sur GED + classeur papier. Modes opératoires urgence UVE/CDT vérifiés par sondage. Aucune remarque. M08 conformité."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f19",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fiche formation non complètement renseignée pour agent intérimaire vérifié par sondage. NC procédure formation personnel temporaire. M14 constat terrain (rubriques vides). G2 NC organisationnelle sans dimension physique immédiate."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f20",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Système autorisation travail informatisé vérifié par sondage sur autorisation 25/05/2023. Permis feu complet et conforme. M08 + M07. Aucune réaction."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f21",
+    "domains": [
+      "D04",
+      "D01"
+    ],
+    "mechanisms": [
+      "M01",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Batardeaux présents mais exercice pas encore réalisé (prévu juin). Sujet obturation bassins non vérifié. Demande compte-rendu exercice sous 15j + note modalités obturation. M07 vérification périodique non encore réalisée. R02 exercice promis. G2 NC procédurale (exercice non encore fait, obturation non vérifiée). Medium car exercice planifié proche."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f22",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Compte-rendu maintenance détection incendie CDT conclut: 'détection automatique partiellement fonctionnelle, certains détecteurs ne fonctionnent plus correctement, un éventuel incendie pourrait ne pas être détecté.' Nombre important de défaillances récurrentes. Dispositifs mis hors service. M14 constat technique (équipements hors service/inopérants). G4 car système détection incendie partiellement hors service sur site incinération déchets + MED potentielle mentionnée."
+  },
+  {
+    "slug": "valbom-begles52003782023-05-2585219337400026f23",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Moyens défense incendie globalement présents (canons, RIA, extincteurs, bornes, réserve 1200m3) mais le déluge en zone de stockage amont n'est pas encore opérationnel (jusqu'en octobre 2023) et la mise en service des derniers RIA reste à réaliser — dispositifs de protection incendie requis absents/non fonctionnels (M14, G3 minimum car dimension physique). 'L'inspection demande à l'exploitant de lui transmettre un justificatif de mise en service...' est une demande formelle explicite: S02, pas S01. M08 + M07 pour les moyens déjà conformes."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f01",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Rapport APAVE octobre 2023: conformité émissions sonores en limite de propriété et ZER. NC levée. T3 amélioration depuis inspections 2022 et 2023. M08 conformité constatée."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f02",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T5",
+    "confidence": "high",
+    "reasoning": "Depuis décembre 2023 (nouvelles VLE IED): dépassements MEST, Ni, Zn confirmés. Nouvelles VLE non respectées. Filtres GEH mis en place mais résultats insuffisants. Inspection propose MED sous 3 mois. M14 (NC technique: dépassements VLE confirmés) + M04 (proposition MED). G4 risque avéré (dépassements VLE effluents aqueux + MED proposée). T5 aggravation (entréeen vigueur nouvelles VLE met l'exploitant en NC alors que précédemment conforme)."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f03",
+    "domains": [
+      "D01",
+      "D08"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Dossier PAC transmis décembre 2023 pour modifications zones exploitation CDT amont. Modélisations flux thermiques fournies. Mais inspection identifie éléments manquants (propagation par structure métallo-textile). Demande modélisations complémentaires sous 3 mois. M09 PAC en cours d'instruction. R02 exploitant s'engage sur visibilisation hauteurs et déports. T3 car situation travaux terminée et PAC déposé."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f04",
+    "domains": [
+      "D01",
+      "D08"
+    ],
+    "mechanisms": [
+      "M09",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "PAC décembre 2023 pour zone aval CDT. Modélisations nouvelles zones fournies mais configuration 2 = propagation vers process et flux sortant hors périmètre. Inspection demande description précise modalités stockage sous 1 mois. M09 + M14 (configurations avec propagation identifiées). G3 car stockage non conforme à certaines configurations avec risque propagation incendie. T3 car PAC déposé et études réalisées."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f05",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T5",
+    "confidence": "high",
+    "reasoning": "Porte restée fermée lors inspection mais lors CSS quelques jours plus tard (9 juillet) de nouveau ouverte 2h+, accessible depuis voie publique. NC récidiviste malgré demande 2023. Inspection propose MED. M14 + M04 (MED proposée). G4 MED proposée + NC récidiviste. T5 aggravation (NC persistante malgré correction temporaire)."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f06",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plan des réseaux à jour transmis par courrier 4 juillet 2023. NC levée. T3. M08 conformité."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f07",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M09",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "PAC décembre 2023 décrit remplacement bassin 300m3 par cuve Rigofill capacité identique avec limiteur débit. Inspection propose d'acter modification. T3 régularisation. M09 + M08."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f08",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08",
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "476 t gâteaux 2023 (en baisse depuis 2020, moyenne 693t/an 2012-2022). Exploitant demande modification AP à 500 t. Inspection propose d'acter augmentation seuil. NC résolue administrativement. M08 + M09. T3."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f09",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Nouvelle charte intérim créée, systématisée à chaque intérimaire selon exploitant. NC levée. T3. M08 conformité constatée."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f10",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Courrier 4 juillet 2023: origine problèmes identifiée (vieillissement CDT entièrement remplacé, atmosphère contraignante UVE). Programme maintenance préventive renforcé. Tableau suivi opérations correctives 2023 transmis. Pas de commentaire inspection. M08. T3."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f11",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Certificat mise en service RIA zone amont CDT transmis. NC levée. M08. T3."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f12",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Suivi continu mercure constaté en salle de quart, en place depuis juin 2021. Conforme. M08 + M07."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f13",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PCB type dioxine surveillance mensuelle confirmée, PBDD/PBDF dans rapports semestriels SOCOTEC juin 2024. Conforme. M08 + M07."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f14",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M14",
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant ne peut pas restituer les émissions des périodes OTNOC de manière spécifique. Paramétrage outil inadapté. Demande mise en place surveillance OTNOC sous 2 mois. M14 (NC technique: surveillance insuffisante) + M02 (méthode de mesure inadaptée pour distinguer périodes OTNOC). G3 car absence de surveillance réglementaire sur périodes de dysfonctionnement."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f15",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M12"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan gestion OTNOC transmis avec 60 défaillances documentées, causes/conséquences/fréquences/actions documentées. Répond à prescription. M08 + M12. Aucune demande."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f16",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Plan maintenance préventive équipements critiques non abordé. Actions OTNOC sans lien avec émissions polluants. Demande liste équipements critiques + plan maintenance + dates dernières opérations. M14 (NC: plan maintenance absent/incomplet) + M07 (vérification périodique équipements critiques non justifiée). G3. T2 suivi f14."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f17",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R07",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T5",
+    "confidence": "high",
+    "reasoning": "Dépassements VLE H1 2024: ligne 1 (7 dont 4 mercure jusqu'à 25 g/m3 pour VLE 5), ligne 2 (7 dont 3 mercure), ligne 3 (26 dont 6 mercure jusqu'à 17.4 g/m3). Amélioration observée mai-juin. M14 NC technique (dépassements VLE confirmés). R07 exploitant invoque contrainte technique (faillite installateur, système de mesure inadapté). G3 car dépassements multiples mais amélioration en cours. T5 aggravation depuis entrée nouvelles VLE décembre 2023."
+  },
+  {
+    "slug": "valbom-begles52003782024-07-0485219337400026f18",
+    "domains": [
+      "D05",
+      "D12"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PAC décembre 2023 comprend demande adaptation VLE flux métaux lourds atmosphériques. Inspection refuse: demande = dérogation AM 12 janvier 2021 non validable. M09 PAC en cours d'instruction mais refusé sur ce point. G2 NC administrative (demande de dérogation non acceptable)."
+  },
+  {
+    "slug": "valbom-begles52003782025-06-1385219337400026f01",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Porte motorisée installée et fermée lors inspection. Mais barrière accès camions UVE enfoncée par camion quelques minutes avant inspection (événement fréquent selon exploitant). Demande réparation sous 15j + consigne sensibilisation prestataires. M14 constat terrain (barrière physiquement endommagée). G3 accès non sécurisé pendant événement. T2 suivi historique porte ouverte."
+  },
+  {
+    "slug": "valbom-begles52003782025-06-1385219337400026f02",
+    "domains": [
+      "D01",
+      "D08"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Alvéole 8: déport 2m non respecté (2 balles en bordure haut de quai juste au-dessus déchets bas de quai). Absence marquage hauteur 5m dans les alvéoles. NC physique observée sur site. M14 constat terrain (non-respect déport de sécurité physique requis). G3 car non-respect conditions de stockage fixées après modélisation incendie. T2 suivi PAC."
+  },
+  {
+    "slug": "valbom-begles52003782025-06-1385219337400026f03",
+    "domains": [
+      "D01",
+      "D08"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Nombreux déchets présents dans coursives autour des bandes transporteuses. NC de nettoyage constatée. Exploitant indique renforcer consigne. M14 constat terrain (déchets dans coursives = accumulation combustibles). G2 car NC d'entretien sans danger immédiat identifié."
+  },
+  {
+    "slug": "valbom-begles52003782025-06-1385219337400026f04",
+    "domains": [
+      "D01",
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Balles zone aval ne débordent pas alvéole moyenne. Alvéoles 1-4 conformes. Résidus plastique alvéole tampon expliqués (polypropylène faible cohésion, rapidement recyclés). M08 conformité constatée. T3 amélioration depuis 2023."
+  },
+  {
+    "slug": "valbom-begles52003782025-06-1385219337400026f05",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "PAC transmis avril 2025 pour révision VLE Zn et MES. Inspection juge dossier insuffisamment étayé (VLE Zn uniquement basée sur moyenne eau REUT, VLE MES non justifiée). Montants/rapports études non transmis. Demande nouvelle proposition étayée sous 3 mois. M09 PAC insuffisant. G2 NC administrative (PAC incomplet). T2 suivi problème VLE."
+  },
+  {
+    "slug": "valbom-begles52003782025-06-1385219337400026f06",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R07",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "medium",
+    "reasoning": "Incident du 27-28 mars 2025 (dilution solution ammoniacale, dépassement VLE NOx). L'exploitant explique ne pas pouvoir qualifier l'incident de période OTNOC car la concentration de la solution ammoniacale n'est pas instrumentée — impossibilité technique de déclenchement automatique (R07), et non une simple absence de dynamique (R14). Le texte ne contient aucune demande formelle ('il est rappelé' n'est pas une injonction): S01, pas S02. M14 (lacune du système de suivi OTNOC)."
+  },
+  {
+    "slug": "valbom-begles52003782025-06-1385219337400026f07",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R07",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Plan maintenance fourni mais trop complexe pour juger adéquation avec criticité. Exploitant ne peut présenter rapport d'évaluation émissions périodes OTNOC. Outil informatique ne permet pas d'éditer ces rapports. Travail engagé avec prestataire sans perspective d'aboutir. M14 + M07. R07 contrainte technique (outil informatique). T4 stagnation depuis inspection 2024 sur même problème OTNOC."
+  },
+  {
+    "slug": "valbom-begles52003782025-06-1385219337400026f08",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R12",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vitesse éjection fumées généralement 13-17 m/s, minima 12 m/s. Incident 28 mars 2025: vitesse < 10 m/s sur cheminée four 2 de 2h-8h mais stratégie rationnelle (réduction régime pour limiter NOx). Inspection juge justification satisfaisante. R12 pragmatisme. M08 conformité générale avec dérogation raisonnée."
+  },
+  {
+    "slug": "valbom-begles52003782025-06-1385219337400026f09",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bâtiment fours enfumé lors visite, limitant visibilité, forte odeur, affectant légèrement capacité respiratoire. Exploitant identifie: étanchéité ligne 3 défaillante, maintenance prévue. M14 constat terrain physique (fumées dans bâtiment = défaillance étanchéité). G3 car impact sur conditions travail et émissions diffuses non contrôlées."
+  },
+  {
+    "slug": "valbom-begles52003782026-02-2785219337400026f01",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "FDS conformes, formations chimiques, notices simplifiées postées, ammoniac vérifié par sondage (FDS 11/02/2025 complète). Mais certaines FDS antérieures à 2020 (avant CLP). Demande mise à jour sous 2 mois. M08 globalement conforme + M01 (FDS obsolètes). G2 NC documentaire (FDS non mises à jour au format CLP)."
+  },
+  {
+    "slug": "valbom-begles52003782026-02-2785219337400026f02",
+    "domains": [
+      "D11",
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Zone stockage ammoniac fermée, affichage FDS simplifiée, extincteur poudre + RIA proximité, détecteur ammoniac en place, zone dépotage avec mode opératoire, EPI complets lors dépotage observé, opérateurs réagissent correctement. M08 conformité constatée."
+  },
+  {
+    "slug": "valbom-begles52003782026-02-2785219337400026f03",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cuve ammoniac 40m3 sur rétention béton étanche ≥ 40m3. Zone dépotage sur rétention reliée au bassin eaux pluviales. M08 conformité rétention constatée."
+  },
+  {
+    "slug": "valbom-begles52003782026-02-2785219337400026f04",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cuve ammoniac local dédié, zone dépotage dédiée à ce seul produit = pas de risque erreur dépotage. M08 conformité produits incompatibles non associés à même rétention."
+  },
+  {
+    "slug": "valbom-begles52003782026-02-2785219337400026f05",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fichier liste produits chimiques par poste de travail avec FDS, quantités max, conditionnements disponible. Conforme, pas de commentaire inspection. M08."
+  },
+  {
+    "slug": "valbom-cenon52006782023-06-0285219337400034f01",
+    "domains": [
+      "D13",
+      "D06"
+    ],
+    "mechanisms": [
+      "M19",
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Cessation partielle jardins partagés demandée en 2022. Exploitant a transmis demande modification périmètre ICPE + cessation partielle (M19). Répond aux demandes inspection. Nouveau périmètre acté lors prochain APC. M09 + M19. T3. G2 car modification administrative en cours de régularisation."
+  },
+  {
+    "slug": "valbom-cenon52006782023-06-0285219337400034f02",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Fiche méthode gestion approvisionnements déchets mise à jour 22/07/2022 transmise, incluant gestion modes dégradés. Répond à demande inspection. M08 conformité. T3."
+  },
+  {
+    "slug": "valbom-cenon52006782023-06-0285219337400034f03",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Étude implantation piézomètres en cours, objectif décembre 2023. Sens d'écoulement nappe non confirmé. Inspection demande résultats étude + révision garanties financières. M07 (vérification surveillance eaux souterraines en cours). R02 exploitant s'engage sur étude. G3 car risque contamination souterraine non confirmé (fosse déchets sans contrôle étanchéité ni piézomètre aval). T2 suivi demande 2022."
+  },
+  {
+    "slug": "valbom-cenon52006782023-06-0285219337400034f04",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Citerne 460m3 présente et bon niveau remplissage constaté. 2 canons fosse présents. Rapport DESAUTEL vérification transmis. NC levée. T3. M08 conformité."
+  },
+  {
+    "slug": "valbom-cenon52006782023-06-0285219337400034f05",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Rapport APAVE décembre 2022: 57 observations récurrentes. Q18 conclut risques incendie/explosion pour dangers déjà signalés. 8 NC prioritaires. Aucune mesure corrective en 4 mois. MED potentielle mentionnée. M14 (NC techniques électriques récurrentes) + M07 (vérifications réalisées mais NC non levées). G3 car Q18 conclut risques incendie/explosion. T4 stagnation (NC récurrentes depuis vérification précédente)."
+  },
+  {
+    "slug": "valbom-cenon52006782023-06-0285219337400034f06",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "16.1 t PSR + 33.2 t cendres stockées. Exploitant ne peut quantifier précisément la capacité maximale de stockage. Demande chiffre précis + procédures situations dégradées. M01 (absence quantification précise capacité stockage). G2 NC documentaire/administrative."
+  },
+  {
+    "slug": "valbom-cenon52006782023-06-0285219337400034f07",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport exploitation 2022: 26371 t mâchefers, 2072+923 t REFIOM+PSR, 125765 t OM. Tous dans quantités autorisées. M08 conformité."
+  },
+  {
+    "slug": "valbom-cenon52006782023-06-0285219337400034f08",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapports SOCOTEC vitesse éjection 15.9-17.8 m/s L1, 18-19.7 m/s L2 (> 12 m/s requis). M08 + M07. Conformes."
+  },
+  {
+    "slug": "valbom-cenon52006782023-06-0285219337400034f09",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapports SOCOTEC décembre 2022 conformes VLE pour toutes lignes. Dépassements continus HS = 1h poussières + 1h HCl en cumul annuel. Conformes. M08 + M07."
+  },
+  {
+    "slug": "valbom-cenon52006782023-06-0285219337400034f10",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapports SOCOTEC décembre 2022 conformes VLE métaux lourds toutes lignes. M08 + M07. Conformes."
+  },
+  {
+    "slug": "valbom-cenon52006782023-06-0285219337400034f11",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "PCDD/PCDF: augmentation concentrations L1/L2 en 2022 (défaut tuyauterie filtres à manches), résolue lors arrêt technique 2022. Résultats conformes. T3. M08 + M07."
+  },
+  {
+    "slug": "valbom-cenon52006782023-06-0285219337400034f12",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R12",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fosse en dépression lors fonctionnement fours, portes fermées soirs/week-end, absence plaintes odeurs. Inspection propose modification prescription AP. R12 pragmatisme. M08 conformité de fait."
+  },
+  {
+    "slug": "valbom-cenon52006782023-06-0285219337400034f13",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08",
+      "M03"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "BSD Trackdéchets (cendres, PSR, boues décantation) correctement renseignés pour Cenon. Aucune remarque. M08 + M03."
+  },
+  {
+    "slug": "valbom-cenon52006782023-06-0285219337400034f14",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08",
+      "M03"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre national renseigné quotidiennement, extraits présentés complets et corrects. Trackdéchets déchets dangereux conforme. Aucune remarque. M08 + M03."
+  },
+  {
+    "slug": "valbom-cenon52006782023-06-0285219337400034f15",
+    "domains": [
+      "D05",
+      "D12"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "AP ne prescrit pas de VLE en flux journaliers. Inspection demande éléments pour fixer ces flux (ERS à jour, résultats autosurveillance). M01 absence document (VLE flux non définies). G2 NC documentaire/réglementaire."
+  },
+  {
+    "slug": "valbom-cenon52006782024-07-0485219337400034f01",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "3ème piézomètre installé en aval (étude hydrogéologique 2023). Premières analyses incluant 3 piézomètres: valeur significative en plomb au piézomètre amont (Pz1). M07 (vérification eaux souterraines maintenant en place) + M14 (constat plomb amont). G3 car contamination plomb identifiée en amont. T3 amélioration sur dispositif surveillance."
+  },
+  {
+    "slug": "valbom-cenon52006782024-07-0485219337400034f02",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "medium",
+    "reasoning": "Rapport DESAUTEL 4/06/2024 et bon intervention 19/03/2024 transmis listant opérations réalisées. Mais ne font pas apparaître distinctement les vérifications demandées (réserve 460m3 + équipements alimentés). Demande démonstration sous 15j. M07 vérifications incomplètes dans documentation. G2 NC documentaire (vérifications non tracées distinctement). T2 suivi demande 2023. Medium car vérifications probablement réalisées mais non tracées."
+  },
+  {
+    "slug": "valbom-cenon52006782024-07-0485219337400034f03",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Q18 2023 concluant sur absence d'observation et que les installations électriques ne peuvent entraîner de risques incendie/explosion. Toutes 57 observations levées. NC résolue. T3. M08 + M07."
+  },
+  {
+    "slug": "valbom-cenon52006782024-07-0485219337400034f04",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Exploitant a fourni calcul précis volume fosse et capacité stockage. Répondaux demandes. M08. T3."
+  },
+  {
+    "slug": "valbom-cenon52006782024-07-0485219337400034f05",
+    "domains": [
+      "D05",
+      "D12"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "ERS transmise (13/11/2013) basée sur VLE 2006/2010 non sur VLE 2022 plus restrictives. VLE flux proposées ne peuvent être retenues. Demande proposition mise à jour sous 1 mois. M01 document obsolète (ERS et VLE flux non mises à jour). G2 NC documentaire. T2 suivi f15 2023."
+  },
+  {
+    "slug": "valbom-cenon52006782024-07-0485219337400034f06",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Suivi continu mercure constaté en salle de quart depuis juin 2021. Conforme. M08 + M07."
+  },
+  {
+    "slug": "valbom-cenon52006782024-07-0485219337400034f07",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PCB type dioxines surveillance mensuelle confirmée, PBDD/PBDF dans rapports SOCOTEC mai 2024 pour 2 lignes. Conforme. M08 + M07."
+  },
+  {
+    "slug": "valbom-cenon52006782024-07-0485219337400034f08",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M14",
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant ne peut restituer émissions périodes OTNOC de façon spécifique. Paramétrage outil inadapté. Demande surveillance OTNOC + moyen restitution sous 2 mois. M14 NC technique + M02 méthode surveillance inadaptée. G3."
+  },
+  {
+    "slug": "valbom-cenon52006782024-07-0485219337400034f09",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M12"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan gestion OTNOC transmis avec 60 défaillances documentées. Répond à prescription. M08 + M12."
+  },
+  {
+    "slug": "valbom-cenon52006782024-07-0485219337400034f10",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Plan maintenance préventive équipements critiques non abordé. Actions OTNOC sans lien émissions. M14 + M07. G3. T2 suivi f08."
+  },
+  {
+    "slug": "valbom-cenon52006782024-07-0485219337400034f11",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M14",
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "H1 2024: L1 2 dépassements (HCl, CO), L2 5 dépassements (NOx, mercure, CO x3). Méthode prélèvement SOCOTEC mai 2024 non conforme (3 échantillons ponctuels vs mesure continue 24h). Manque synthèse causes/actions. M14 (dépassements VLE + méthode) + M02 (protocole prélèvement inadapté). G3."
+  },
+  {
+    "slug": "valbom-cenon52006782025-06-1385219337400034f01",
+    "domains": [
+      "D05",
+      "D12"
+    ],
+    "mechanisms": [
+      "M01",
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "AP ne précise toujours pas les flux limites en journaliers. Inspection propose approche de calcul basée sur concentrations maximales observées depuis mars 2023. Demande proposition sous 2 mois. M01 (absence VLE flux dans AP) + M09 (modification AP nécessaire). G2 NC administrative documentaire. T2 suivi f15/2023 et f05/2024."
+  },
+  {
+    "slug": "valbom-cenon52006782025-06-1385219337400034f02",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Rapport activité 2024: dépassements VLE totalisant 4h30 et 2h30 sur l'année (chacun justifié). Principaux = NOx liés à bouchage réacteur ammoniacal, solution en cours (modification arrêt technique juin 2025). Suivi en salle supervision: tous paramètres conformes. M08 + M07. T3 amélioration."
+  },
+  {
+    "slug": "valbom-cenon52006782025-06-1385219337400034f03",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Peson bicarbonate défaillant depuis 3 mois (dérive +45t, M14 équipement de mesurage hors service) et tableau de suivi/mises en forme conditionnelles peu fiables + estimation visuelle sans repère formalisé pour OM/mâchefers (M01, absence de repères/documentation fiable). Dépassement confirmé (<5% sur 3 jours) pour l'urée: NC physique réelle, G3 minimum (règle G3 avant G2), pas seulement G2. Trois demandes formelles avec délais numériques explicites ('sous un mois', 'sous deux mois', 'sous un mois'): m_DELAI manquant."
+  },
+  {
+    "slug": "valbom-cenon52006782025-06-1385219337400034f04",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "60% OM Bordeaux Métropole, 30% syndicats communes voisines, 10% DIB. >99% origine girondine. Conforme. M08."
+  },
+  {
+    "slug": "valbom-cenon52006782025-06-1385219337400034f05",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "COT cendres/mâchefers < 2% depuis 2022 (< 3% requis). Légère augmentation annuelle jusqu'en avril (encrassement) résolue lors maintenance. M08 + M07."
+  },
+  {
+    "slug": "valbom-cenon52006782025-06-1385219337400034f06",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Température fours: four 1 = 951°C, four 2 = 978°C (> 850°C requis). Données mensuelles transmises sans valeur < 850°C en 2025. Brûleurs appoint gaz présents. M08 + M07. Aucune demande (sauf proposition rapport annuel)."
+  },
+  {
+    "slug": "valbom-cenon52006782025-06-1385219337400034f07",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapports 2025 (jusqu'avril): aucune valeur < 12 m/s. En salle supervision: 22.5 m/s L1, 19.6 m/s L2. Conformes. M08. Aucune demande (sauf proposition rapport annuel)."
+  }
+]

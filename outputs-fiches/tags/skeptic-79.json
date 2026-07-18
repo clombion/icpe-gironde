@@ -1,0 +1,177 @@
+{
+  "total_audited": 34,
+  "errors_found": 13,
+  "corrections": [
+    {
+      "slug": "veolia-agriculture-france52006822023-02-0131573284200515f11",
+      "field": "domains",
+      "hunter_value": ["D08_DECHETS", "D12_ADMIN"],
+      "corrected_value": ["D08_DECHETS"],
+      "reason": "D12_ADMIN non pertinent : le point ne porte que sur le tonnage/bilan d'activité compostage (D08), pas sur la situation administrative/classement ICPE."
+    },
+    {
+      "slug": "veolia-agriculture-france52006822023-02-0131573284200515f11",
+      "field": "mechanisms",
+      "hunter_value": ["M08_CONFORMITE", "M01_DOCUMENTATION"],
+      "corrected_value": ["M08_CONFORMITE"],
+      "reason": "'Ecart levé' explicite pour le tonnage. Le bilan 2022 'en cours de rédaction' au jour de l'inspection relève du calendrier annuel normal de transmission (chaque printemps), pas d'une absence documentaire fautive."
+    },
+    {
+      "slug": "veolia-agriculture-france52006822023-02-0131573284200515f11",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Aucune demande formelle ni délai chiffré dans le corps du constat ; narration factuelle uniquement."
+    },
+    {
+      "slug": "veolia-agriculture-france52006822023-02-0131573284200515f11",
+      "field": "dynamic",
+      "hunter_value": "R14_NEUTRE_NC",
+      "corrected_value": "R13_NEUTRE_CONFORME",
+      "reason": "Écart principal levé, aucune NC active : conformité factuelle, pas NC factuelle."
+    },
+    {
+      "slug": "veolia-agriculture-france52006822023-02-0131573284200515f11",
+      "field": "stage",
+      "hunter_value": "S02_INJONCTION",
+      "corrected_value": "S06_CLOTURE",
+      "reason": "'Ecart levé' = clôture du point, aucune demande formelle avec délai dans le corps du constat (pattern (b) : S02/m_DELAI appliqué sans délai numérique présent)."
+    },
+    {
+      "slug": "veolia-agriculture-france52006822023-02-0131573284200515f11",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "Aucune NC active constatée dans le corps du constat, uniquement une conformité vérifiée avec une transmission annuelle à venir dans les délais normaux."
+    },
+    {
+      "slug": "veolia-agriculture-france52006822023-02-0131573284200515f14",
+      "field": "stage",
+      "hunter_value": "S02_INJONCTION",
+      "corrected_value": "S01_CONSTAT",
+      "reason": "Pattern (b) : aucune demande formelle avec délai numérique dans le corps du constat — seulement une promesse ('vérifiera dans la mesure du possible') de l'exploitant. Le délai de 6 mois figure uniquement dans le bloc Prescription (boilerplate réglementaire), pas dans le constat lui-même. Le raisonnement du Hunter admettait déjà l'absence de demande formelle ('S02 implicite')."
+    },
+    {
+      "slug": "veolia-dechetterie52136192023-06-0146420237300294f05",
+      "field": "mechanisms",
+      "hunter_value": ["M07_CONTROLE", "M14_CONSTAT_TECHNIQUE"],
+      "corrected_value": ["M07_CONTROLE", "M01_DOCUMENTATION"],
+      "reason": "Erreur type 2 (Fausse M14) : l'anomalie électrique est déjà déclarée réparée par l'exploitant ; l'écart résiduel est l'absence de preuve documentaire de cette correction (M01), pas un constat technique direct de l'inspecteur sur site."
+    },
+    {
+      "slug": "veolia-dechetterie52136192023-06-0146420237300294f05",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "Une fois reclassé M01 (documentaire), la gravité doit suivre la règle 'G2 uniquement si NC purement documentaire' : le physique est déjà corrigé selon la déclaration de l'exploitant, il ne manque que le justificatif."
+    },
+    {
+      "slug": "veolia-unite-operationnelle-de-begles52003822024-05-2746420237300104f01",
+      "field": "mechanisms",
+      "hunter_value": ["M14_CONSTAT_TECHNIQUE", "M07_CONTROLE"],
+      "corrected_value": ["M14_CONSTAT_TECHNIQUE", "M07_CONTROLE", "M04_MISE_EN_DEMEURE"],
+      "reason": "Erreur type 5 (multi-label manqué) : le corps du constat contient une MED active explicite ('L'exploitant est mis en demeure de mettre en place un système de détection automatique d'incendie'), mécanisme M04 absent chez Hunter malgré gravity=G4 et stage=S05_ESCALADE cohérents avec une MED active."
+    },
+    {
+      "slug": "veolia-unite-operationnelle-de-begles52003822024-05-2746420237300104f03",
+      "field": "mechanisms",
+      "hunter_value": ["M14_CONSTAT_TECHNIQUE"],
+      "corrected_value": ["M14_CONSTAT_TECHNIQUE", "M04_MISE_EN_DEMEURE"],
+      "reason": "Même erreur type 5 : 'L'exploitant est mis en demeure de respecter le volume de confinement actuellement prescrit (1250 m3)' — MED active explicite dans le corps du constat, mécanisme M04 absent chez Hunter."
+    },
+    {
+      "slug": "veolia-unite-operationnelle-de-begles52003822024-05-2746420237300104f02",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Pattern (b) : la demande de justification est formulée 'dans les meilleurs délais', formulation vague sans délai numérique dans le corps du constat."
+    },
+    {
+      "slug": "veolia-unite-operationnelle-de-begles52003822024-05-2746420237300104f05",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Pattern (b) : demande de transmission du rapport ROB'INN et de précision sur les appareils non vérifiés, sans délai numérique dans le corps du constat."
+    },
+    {
+      "slug": "veolia-unite-operationnelle-de-begles52003822025-11-2746420237300104f04",
+      "field": "stage",
+      "hunter_value": "S02_INJONCTION",
+      "corrected_value": "S01_CONSTAT",
+      "reason": "Pattern (b) : narration factuelle d'un accident déjà traité et d'une réflexion en cours sur un futur PAC, aucune demande formelle avec délai dans le corps du constat."
+    },
+    {
+      "slug": "veolia-unite-operationnelle-de-begles52003822025-11-2746420237300104f04",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "Aucune NC active constatée lors de l'inspection selon le raisonnement même du Hunter ('pas de NC active constatée')."
+    },
+    {
+      "slug": "veolia-unite-operationnelle-de-begles52003822025-11-2746420237300104f06",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": ["m_DELAI", "m_MENACE"],
+      "reason": "Pattern (c) : 'À défaut, une sanction administrative (de type amende, etc.) pourra être proposée' — menace conditionnelle explicite, m_MENACE manquant chez Hunter."
+    },
+    {
+      "slug": "vermilion-rep-s-a-s-ambes52092732022-10-1341096483700075f08",
+      "field": "mechanisms",
+      "hunter_value": ["M07_CONTROLE"],
+      "corrected_value": ["M07_CONTROLE", "M01_DOCUMENTATION"],
+      "reason": "Erreur type 5 (multi-label manqué) : coche 'surveillance incendie' pas toujours correctement renseignée (M01, documentaire) en plus du défaut de formation récente à l'utilisation des extincteurs (M07)."
+    },
+    {
+      "slug": "vermilion-rep-s-a-s-ambes52092732024-08-0941096483700075f04",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Pattern (b) : la demande sur le contenu de la fiche de mesures compensatoires est formulée au conditionnel ('pourrait utilement') sans délai numérique dans le corps du constat."
+    },
+    {
+      "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f04",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Pattern (b) : demande de formalisation de la stratégie de perte d'alimentation (renvoi PC2/PC3), sans délai numérique propre à ce point dans le corps du constat."
+    },
+    {
+      "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f14",
+      "field": "mechanisms",
+      "hunter_value": ["M14_CONSTAT_TECHNIQUE"],
+      "corrected_value": ["M02_MESURE"],
+      "reason": "Erreur type 2 (Fausse M14) : résultat d'analyse laboratoire (PFHxA 897µg/l) rapporté factuellement, exploitant autorisé à poursuivre l'usage dans les conditions actuelles — pas de constat technique terrain direct de l'inspecteur."
+    },
+    {
+      "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f14",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Pattern (b) : aucune demande ni délai dans le corps du constat ; l'échéance du 10/04/2026 figure uniquement dans le bloc Prescription (transposition réglementaire PFAS), pas comme délai imposé par l'inspecteur sur ce point."
+    },
+    {
+      "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f14",
+      "field": "stage",
+      "hunter_value": "S02_INJONCTION",
+      "corrected_value": "S01_CONSTAT",
+      "reason": "Pas de demande formelle dans le corps du constat, cohérent avec le retrait de m_DELAI ci-dessus."
+    },
+    {
+      "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f14",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "Usage encore autorisé sous conditions transitoires, pas de non-conformité active constatée — point de vigilance documenté plutôt qu'écart significatif."
+    },
+    {
+      "slug": "valbom-cenon52006782025-06-1385219337400034f13",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Pattern (b) : demande de mise en sécurité des bouteilles de méthane et de transmission d'une photographie, sans délai numérique dans le corps du constat."
+    }
+  ],
+  "false_positive_rate": 0.38,
+  "error_patterns": "13 corrections substantielles sur 34 fiches auditées (14 médium/faible confiance + échantillon de 20 haute confiance). Dominante nette : pattern (b), m_DELAI/S02_INJONCTION appliqué sans délai numérique présent dans le corps du constat (8 des 13 corrections) — Hunter confond 'demande formelle' avec 'demande formelle assortie d'un délai chiffré' ; les formulations vagues ('dans les meilleurs délais', 'pourrait utilement', simple promesse orale) ou les délais figurant uniquement dans le bloc Prescription (boilerplate) sont à tort traités comme des injonctions avec délai. Deuxième pattern : mécanisme M04_MISE_EN_DEMEURE manquant quand le corps du constat contient une formule de MED active explicite ('est mis en demeure de...') alors que gravity/stage étaient déjà correctement positionnés à G4/S05 (2 cas, site veolia-unite-begles 2024-05-27). Un cas de m_MENACE manquant confirme le pattern (c) attendu (menace conditionnelle de sanction). Deux cas de fausse M14 (confondue avec M01 documentaire ou M02 mesure) confirment l'erreur type 2 du prompt Skeptic. Aucune occurrence de R10_TENSION dans le batch : le pattern (a) (R10 substitué à R14/R03/R07) ne s'applique pas ici faute d'usage. Le sous-batch vermilion-ambes 2022-10-13 (fiches procédurales EE/SGS Seveso, G2 documentaires) était globalement bien classé par le Hunter, à une exception de multi-label près (f08).",
+  "verdict": "Qualité globale bonne. Aucun code invalide, aucun champ manquant, aucune violation des règles STRICT de validité des codes détectée sur les 130 enregistrements. Le taux d'erreur substantiel constaté sur l'échantillon audité (13/34 ≈ 38%) est concentré sur un pattern systémique unique et bien identifié (m_DELAI sans délai numérique), facilement détectable et corrigé mécaniquement plutôt que révélateur d'une faiblesse de classification sémantique — les axes domaine/dynamique/acteur sont fiables. Recommandation pour les prochains batches Hunter : n'assigner m_DELAI que si un délai chiffré (nombre + jours/mois/semaines, ou date butoir) apparaît explicitement dans le corps du constat, hors bloc Prescription."
+}

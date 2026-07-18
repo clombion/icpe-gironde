@@ -1,0 +1,2399 @@
+[
+  {
+    "slug": "stockmeier-ex-quaron52007072023-07-1030125287000151f03",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "POI révisé transmis post-inspection (v4, 14/12/2022) mais n'intègre pas explicitement les mesures organisationnelles hors heures ouvrées. Multiples lacunes antérieures du POI (plan zones à risques, PPI erroné) partiellement résolues. NC résiduelle documentaire/organisationnelle sur POI SEVESO. [Skeptic] Reclassé S01/G2: suggestions non formalisées en demande, aucun délai chiffré."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072023-07-1030125287000151f04",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M09_PAC",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Stockage d'emballages vides non mentionné dans l'étude de dangers. PAC demandé suite inspection 2022. Exploitant s'engage à transmettre fin septembre 2023 mais délai initial dépassé. Mention expresse de la mise en demeure si dépassement du délai de 2 mois."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072023-07-1030125287000151f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Rapports de contrôle des équipements incendie transmis (RIA, lances, poteaux, groupe motopompe, émulseur). PIA remplacé, rideau d'eau réparé, facture transmise. Exploitant justifie que tests sont réalisés lors exercices. NC résiduelle mineure: EDD actuelle ne détaille pas les besoins en eau — purement documentaire/calcul."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072023-07-1030125287000151f06",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "MED du 01/12/2022 pour produits incompatibles associés à même rétention. Lors inspection 10/07/2023: muret construit, plan topographique transmis, acides et bases désormais dirigés vers rétentions séparées. Écart et MED explicitement levés."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072023-07-1030125287000151f07",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Déversements des bases désormais dirigés vers bassin de confinement constitué d'une membrane en polypropylène. Exploitant doit justifier la résistance aux produits basiques de cette membrane. NC technique: matériau de rétention potentiellement inadéquat non démontré."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072023-07-1030125287000151f08",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "État des stocks daté du 10/07/2023 transmis. Les quantités de produits stockés respectent les quantités autorisées. Conformité constatée."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M09_PAC",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "PAC transmis le 15/11/2023 suite à modification de la zone de stockage des emballages vides. Obligation de porter à connaissance satisfaite."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "PAC du 15/11/2023 analysé: modélisation thermique présente mais lacunaire (justification du modèle GTDLI et hypothèses non démontrées). Marquage au sol de la nouvelle zone d'emballages vides partiellement absent. Constats physiques (absence marquage) et lacunes documentaires dans l'EDD."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f03",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Étude d'incendie zone stockage mobiles inflammables transmise, conclut pas d'impact extérieur. Stratégie de lutte contre incendie à mettre à jour avant 01/01/2027 conformément arrêté du 3/10/2010. Exploitant doit solliciter recours SDIS si non autonome. NC purement documentaire/procédurale avec échéance."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f04",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "POI doit être formalisé pour inclure la disponibilité des moyens de lutte incendie et leur adéquation vis-à-vis de la stratégie définie, au plus tard 01/01/2027. NC purement documentaire — formalisation dans le POI d'un état existant."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Inspection contrôle les stockages mobiles de liquides inflammables (contenants métalliques et fusibles H225/H226). Constats factuels des caractéristiques de stockage. Pas de NC explicite constatée sur ce point — le corps décrit l'état des installations sans demande corrective dans le corps des constats (les prescriptions sont réglementaires boilerplate)."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f06",
+    "domains": [
+      "D05_AIR_BRUIT",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "5 alarmes de détection de fuite allumées sur cuves enterrées. Exploitant n'a pu justifier depuis quand ces alarmes sont déclenchées ni si fuite régulière. Déclenchements et réapprovisionnements non tracés. Absence de dispositifs de récupération de vapeurs. Problèmes physiques observés + lacunes documentaires."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan des réservoirs enterrés présent dans POI. Signalétique identifiant cuves présente aux orifices de dépotage mais non vérifiée aux évents. Demande de s'assurer de la présence de la signalétique aux évents. NC mineure d'identification physique."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f08",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Exploitant a répondu par courrier 12/12/2023 que la membrane de confinement est en polypropylène résistant aux produits basiques. Réponse à la demande de l'inspection précédente fournie."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f09",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R10_TENSION",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Contrôle visuel foudre 11/2023 relève NC (absence fusible sur TGBT). Exploitant conteste cette NC car absente lors vérification complète 11/2022. Tension entre organisme vérificateur et exploitant. NC physique potentielle (équipement foudre non conforme) contestée."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f10",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rapport contrôle électrique 19/01/2024 fait état de 7 NC. Exploitant s'était engagé en inspection à transmettre rapidement facture justifiant travaux de mise en conformité mais n'a rien envoyé. NC techniques électriques non levées + engagement non tenu."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f11",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "POI v4 (14/12/2022) a ajouté plans de défense hors activité pour chaque scénario. Ambiguïté sur l'ordre des actions (appel pompiers en 5e position) clarifiée oralement mais POI doit mieux préciser que le gardien ne fait que mise en sécurité. NC documentaire dans POI SEVESO."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f12",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Étude d'incendie transmise 12/12/2023 calcule besoins eau/émulseur mais exploitant doit justifier le taux d'application retenu (7 l/m²/min) vis-à-vis de l'annexe applicable. Stratégie lutte incendie à mettre à jour avant 01/01/2027. NC technique: calcul de besoin non validé = dimensionnement potentiellement insuffisant."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f13",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant dispose d'émulseur contenant des PFAS (Polypetrofilm). Remplacement requis avant juillet 2025. Exploitant pense ne pas être concerné par campagnes PFAS mais doit confirmer situation au regard des critères DGPR. Stock PFAS dangereux non remplacé = NC technique."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072025-06-0530125287000151f01",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant présente modalités d'alimentation électrique, utilités, stratégie en cas de perte d'utilité — partiellement conforme. NC résiduelle: durée de fonctionnement des batteries (détection incendie bâtiment stockage inflammables, boutons poussoirs alarmes) non fournie."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072025-06-0530125287000151f02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant dispose de fiches de mise en service et remise en service dans POI mais pas de procédure écrite en cas de coupure électrique (jusqu'à 48h). NC documentaire: absence de procédure de gestion de coupure électrique."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072025-06-0530125287000151f03",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Suite inspection précédente: marquage sol nouvelle zone emballages vides réalisé (conforme). APC du 27/02/2025 pris suite PAC. Mais: ancienne zone emballages vides mal délimitée (physiquement constaté) + justification valeur combustion modélisation insuffisante. Mélange amélioration + NC résiduelle physique mineure."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072025-06-0530125287000151f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Suite demandes inspection précédente sur cuves solvants enterrées: numérotation armoire alarmes mise à jour (constatée), réapprovisionnements tracés en registre, détecteurs testés semestriellement. Sur dispositifs récupération vapeurs: exploitant démontre par courrier que la réglementation applicable ne les impose pas. Toutes NC résolues."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072025-06-0530125287000151f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "NC foudre du contrôle visuel 11/2023 (absence fusible TGBT) contestée par exploitant. Prestataire BCM Foudre a reconnu que c'était une erreur et a corrigé son rapport. NC annulée par le prestataire lui-même."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072025-06-0530125287000151f06",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Suite demande précédente de lever les 7 NC électriques (rapport 01/2024). Exploitant fournit le jour de l'inspection le registre des mises en conformité réalisées depuis ce contrôle. NC levées."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072025-06-0530125287000151f07",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "GRV d'émulseur contenant du PFOA constaté physiquement. Remplacement par émulseur non fluoré prévu mais non encore réalisé. Doit porter à connaissance le protocole de changement. PFOA interdit, stock non conforme toujours présent."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072025-06-0530125287000151f08",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Obligation de communiquer à l'autorité compétente (DGPR) les stocks d'émulseur PFOA >50kg. Exploitant doit transmettre cette information s'il ne l'a pas encore fait. NC administrative/reporting."
+  },
+  {
+    "slug": "stockmeier-ex-quaron52007072025-06-0530125287000151f09",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Contrat avec APAVE pour prélèvements environnementaux post-incendie constaté. Mais exploitant doit justifier du respect de l'ensemble des prescriptions de l'article 5 de l'AM 26/05/2014 (POI SEVESO avec dispositions de prélèvements). NC documentaire partielle: conformité du contrat APAVE à vérifier vs prescription complète."
+  },
+  {
+    "slug": "storme-pruvost52086332023-06-1543351972500017f01",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M03_REPORTING",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Déclaration GEREP non faite le jour de l'inspection. Exploitant ne maîtrise pas l'outil informatique, a été accompagné par l'inspection. Déclaration est depuis à jour. S'organise pour 2024 avec accompagnement tiers. NC de reporting résolue, méconnaissance de l'outil numérique."
+  },
+  {
+    "slug": "storme-pruvost52086332023-06-1543351972500017f02",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Accès carrière sécurisé par portail, clôture périphérique, talus naturels avec pancartes danger. Fosse ceinturée de clôture avec signalisation. Conformité constatée."
+  },
+  {
+    "slug": "storme-pruvost52086332023-06-1543351972500017f03",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan de 2008 non actualisé. Profondeur d'extraction non formellement vérifiable (fosse en eau). Limites de site respectées d'après constats terrain mais plan non mis à jour. NC documentaire (plan annuel non produit). Exploitant doit s'engager à justifier profondeur et mettre à jour plan avec géomètre."
+  },
+  {
+    "slug": "storme-pruvost52086332023-06-1543351972500017f04",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Suivi de la qualité des eaux non effectué. Eaux visuellement claires mais aucune analyse réalisée. Devis demandé par exploitant. Contrôle demandé avant prochain rejet (max 3 mois). NC technique: surveillance réglementaire des rejets non mise en place = G3 (contrôle non réalisé)."
+  },
+  {
+    "slug": "stryker-spine52052942022-12-0831096730200038f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Inspection estime quantité sur site <1000L. Activité reste soumise à déclaration au titre rubrique 2564 (non 2564-A-1). Classement confirmé. Vérification de seuil de classement."
+  },
+  {
+    "slug": "stryker-spine52052942022-12-0831096730200038f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan de Gestion des Solvants transmis conformément à arrêté. Projet de recyclage à l'étude, PAC envisagé en 2023. Conformité PGS constatée, initiative proactive de réduction."
+  },
+  {
+    "slug": "stryker-spine52052942022-12-0831096730200038f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rapports conduits ne permettent pas de confirmer les bonnes caractéristiques (débit éjection gaz). Susceptible de constituer une NC conduisant à des sanctions administratives. Incertitude technique sur conformité des conduits de rejet."
+  },
+  {
+    "slug": "stryker-spine52052942022-12-0831096730200038f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Analyses conduits COV réalisées (2021 pour n°2, 2022 pour n°4 et 5), aucun dépassement VLE. Emissions diffuses 15% de la quantité totale solvants (< limite 20%). Conformité constatée."
+  },
+  {
+    "slug": "stryker-spine52052942022-12-0831096730200038f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Analyses T1 2022: rejet n°1 pH max 8,9 (VLE 8,5), rejet n°2 colorimétrie 780 mg Pt/l (VLE 100). Dépassements VLE confirmés. Susceptible de conduire à suites administratives. NC mesurée sur rejets aqueux."
+  },
+  {
+    "slug": "stryker-spine52052942022-12-0831096730200038f06",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "3 bidons de dégraissant en bâtiment B2 non placés sous rétention. Constaté physiquement lors visite terrain. NC susceptible de conduire à des suites administratives. Mise sous rétention demandée sans délai."
+  },
+  {
+    "slug": "stryker-spine52052942023-10-1231096730200038f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Analyses S2 2022: pH dépassements PC1 et PC2 (min 2,3, max 9,5), température PC2 à 54,2°C, colorimétrie à 880 mg Pt/l (récurrent depuis inspection précédente). Deuxième inspection consécutive avec dépassements VLE. Risque de suites administratives. G4: dépassements multiples et persistants sur rejets aqueux."
+  },
+  {
+    "slug": "stryker-spine52052942023-10-1231096730200038f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Portes coupe-feu conformes par sondage mais plusieurs non identifiables. Une porte présente espace libre entre mur et encadrement (caractéristiques coupe-feu insuffisantes). Exploitant n'a pu démontrer la classe de la toiture. NC physique (porte non coupe-feu) + lacune documentaire (toiture). G3 pour porte déficiente."
+  },
+  {
+    "slug": "stryker-spine52052942023-10-1231096730200038f03",
+    "domains": [
+      "D11_SECURITE",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Voie échelle Nord-Ouest conforme en dimensions et distance. Voie échelle Sud-Est non matérialisée au sol. Constat physique: voie d'accès pompiers non matérialisée = G3 (dispositif absent)."
+  },
+  {
+    "slug": "stryker-spine52052942023-10-1231096730200038f04",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Récipients produits chimiques liquides dans nouveau bâtiment non placés sous rétention. Constat visite terrain. NC de même nature qu'en 2022 (f06) mais dans nouveau bâtiment. Susceptible de conduire à suites administratives."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-btp-ex-adp52089112022-11-1649470681500011f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Suite inspection 14/04/2022: niveau sonore en limite propriété point n°2 (Sud) non conforme. Exploitant a identifié source (trommel dysfonctionnel), nettoyage/graissage réalisé. Nouveau rapport de contrôle demandé sous 3 mois pour confirmer respect des niveaux. NC sonore partiellement traitée, résultat à confirmer."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-btp-ex-adp52089112022-11-1649470681500011f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Exploitant pensait être exempté du contrôle des retombées de poussières. Inspection démontre que l'exemption ne s'applique qu'aux installations temporaires. Installation pérenne soumise à enregistrement 2515a) donc contrôle retombées obligatoire. NC technique: surveillance poussières non mise en place."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-btp-ex-adp52089112022-11-1649470681500011f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "MED du 02/10/2019 sur imperméabilisation et collecte eaux pluviales. Lors inspection 2022: travaux de mise en conformité achevés. Écart levé. Nettoyage régulier des caniveaux recommandé."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-btp-ex-adp52089112022-11-1649470681500011f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Bassin rétention EP 850m³ non équipé de dispositif de raccordement pour services de secours. NC constatée aussi par SDIS. Exploitant envisage bâche 240m³ mais emplacement non encore défini. Réserve incendie non conforme."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-btp-ex-adp52089112022-11-1649470681500011f05",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant présente base de données pour transfert vers registre national terres excavées (RNDTS), opération réalisée via outil développé au niveau national par le groupe. Conformité reporting terres excavées constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-btp-ex-adp52089112022-11-1649470681500011f06",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant met en oeuvre sortie statut déchet pour broyats bois (combustibles biomasse) mais n'a pas organisé la télédéclaration de ces flux sur le registre national déchets. NC administrative de reporting."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-btp-ex-adp52089112022-11-1649470681500011f07",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant réceptionne des terres mais ne s'est pas organisé pour procéder au contrôle de radioactivité requis. NC procédurale: contrôle réglementaire absent."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-btp-ex-adp52089112022-11-1649470681500011f08",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Aire de traitement déchets bois: aucune matérialisation pour distinguer zones et typologies (bois A/B). Exploitant indique mise en place de parois/alvéoles programmée. Constat physique: absence de délimitation des zones de stockage."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-btp-ex-adp52089112022-11-1649470681500011f09",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Dernier rapport de contrôle (17/12/2021) présenté. Paramètres correspondent à AM 26/03/2012. Rapport ne fait pas apparaître de dépassement des VLE. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732023-05-2633523048800066f01",
+    "domains": [
+      "D08_DECHETS",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Inventaire complet des déchets présents: dépassement rubrique 2718 (6t vs seuil 2t). Présence de stocks non prévus (emplacements hors plan). DIB composé majoritairement de valorisables. Demande régularisation administrative rubrique 2718 + mise à jour plan stockages/étude flux thermiques."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732023-05-2633523048800066f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Espace entre réserve incendie et stock K non imperméabilisé. Balles cartons stock K en surcapacité très proches de l'aire non imperméabilisée. En cas de fortes pluies ou incendie, eaux potentiellement polluées s'infiltreraient. NC physique: absence imperméabilisation d'une zone de collecte."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732023-05-2633523048800066f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "2 bassins 300m³ en surverse présents. Bassin de surverse bien vide le jour de l'inspection. Ballon obturateur automatique et vanne confinement manuelle présents avec consignes. Bassins visiblement propres, membrane étanchéité non endommagée. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732023-05-2633523048800066f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "BSD du curage séparateurs hydrocarbures (12/09/2022) transmis. Rien à signaler. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732023-05-2633523048800066f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R09_BLOCAGE_TIERS",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rejet dans fossé rejoignant l'Estey de Franc se fait difficilement. Eau stagne, couleur marron. Problème déjà remonté à la Police de l'Eau sans solution. Tiers bloquant (organisme entretien fossé/Police de l'Eau). Demande d'étudier solution avec organisme en charge de l'entretien."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732023-05-2633523048800066f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Analyses sept. 2022 et mai 2023 par LAEPS: résultats conformes. RSDE: surveillance pérenne cuivre/zinc/plomb arrêtée légitimement, nonylphénols/anthracène ajoutés à fréquence semestrielle. Conformité constatée. Remarque méthodologique (échantillonnage 24h) transmise."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732023-05-2633523048800066f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Fréquences d'analyses (2 fois par an) respectées. Ancienne NC (ECART 1 — non-respect fréquence) levée. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732023-05-2633523048800066f08",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "PV vérification périodique Q18 et Q19 installations électriques par BUREAU VERITAS (06/01/2023). Aucune NC ou anomalie. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732023-05-2633523048800066f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Détection incendie fonctionnelle mais rapport vérification semestrielle (28/11/2022) indique que la centrale doit être remplacée. Murs coupe-feu vérifiés conformes (2h, en bon état). Stocks hors des lieux prévus dans plan stockages. NC technique: centrale détection à remplacer = G3."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732023-05-2633523048800066f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Bâche fusible présente sur convoyeur encoffré broyeur. Rampe d'extinction avec têtes aspersion (activation manuelle) présente. Inspection visuelle avant broyage. Anciens écarts (ECART 4, DEM 8, DEM 9) levés. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732023-05-2633523048800066f11",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rapport contrôle visuel 10/2021 sans observation. Rapport contrôle complet biennal 10/2022 mentionne 2 anomalies + 1 point non vérifié (inaccessible). Demande justificatifs levée anomalies et vérification du point inaccessible. NC documentaire (levée anomalies non justifiée)."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732023-05-2633523048800066f12",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rapport vérification extincteurs DESAUTEL (04/2022) présenté. Vérification 2023 en cours, registre sécurité mentionne anomalie sur RIA n°1 (diffuseur à remplacer). Bâche souple incendie 180m³ présente mais non équipée de colonne d'aspiration avec 2 raccords pompiers requis. Aires de stationnement engins pompiers insuffisantes. NC physique sur bâche incendie et RIA."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732023-05-2633523048800066f13",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "3 derniers exercices POI transmis, EPI formée. Courriel invitant SDIS à visite mais pas à exercice commun annuel. Prescription exacte: invitation à exercice commun, pas simple visite. NC documentaire/organisationnelle mineure."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732023-05-2633523048800066f14",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Balles cartons au Sud dépassent de manière importante les dimensions de la case d'entreposage. Autres aires d'entreposage non prévues sur plan. Renvoi au point de contrôle n°1. NC physique de surstockage en dehors des zones prévues."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732026-02-2733523048800066f01",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "FDS à jour regroupées dans classeur, formation aux risques chimiques dispensée. Mais attestations de formation non encore transmises à l'inspection. NC documentaire: justificatifs formation non fournis."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732026-02-2733523048800066f02",
+    "domains": [
+      "D07_RETENTION",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Produits dangereux en conteneurs OK. Mais fût de graisse (~100L) dans bâtiment de tri sans rétention et sans consigne de déversement accidentel. Affichage pictos CLP souvent absent. NC physique: fût sans rétention = G3."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732026-02-2733523048800066f03",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rétention conteneur huiles vidangées remplie (440L). Nécessite vidange et vérifications récurrentes. Fût de graisse bâtiment tri sans rétention (renvoi point précédent). NC physique: rétention pleine = non fonctionnelle."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732026-02-2733523048800066f04",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Aucun produit incompatible identifié sur le site. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-begles52003732026-02-2733523048800066f05",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "État des stocks de produits chimiques non présentable le jour de la visite. Document doit être disponible en permanence, y compris lors de contrôle inopiné. NC documentaire: état des stocks non tenu à jour disponible."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f01",
+    "domains": [
+      "D11_SECURITE",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Voies engins libres lors inspection inopinée, en particulier devant atelier polystyrène et hangar métaux précieux. Écart levé explicitement."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f02",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "2 armoires métalliques dédiées services secours avec plans zones/dangers/voies engins/vannes confinement constatées. 3e armoire prévue à l'entrée PL. Ancienne FSMD 11 en cours de résolution. Conformité constatée avec progrès."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Rapports vérification annuelle extincteurs et RIA/PEI transmis (07/2022). Anomalies relevées sur extincteurs et RIA. Test PI simultané: débit cumulé OK (139m³/h) mais un PEI à 46m³/h (< 60 requis). Demande de contact avec GOP SDIS. Anomalies sur équipements incendie + débit insuffisant d'un PEI."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Extincteurs en nombre et nature adaptés aux risques. 5 extincteurs classe D dans bâtiment déchets métalliques/huile de coupe. Facilement accessibles. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Bac à sable bien déplacé à l'entrée du bâtiment déchets métalliques. Pelles présentes. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Test simultané hydrant privé+public: débit global 139m³/h OK globalement mais débit unitaire minimal (60m³/h) non respecté pour un PEI (46m³/h). RIA facilement accessibles. RIA supplémentaire en attente. NC technique: débit insuffisant d'un PEI."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Vannes confinement signalées. Bassins plutôt propres sans odeur (amélioration vs inspection précédente). Mais avaloir à entrée déchetterie boueux malgré nettoyage récent. Demande curage réseaux collecte eaux. NC mineure entretien réseau."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f08",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M09_PAC",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "APC 30/09/2021 acte modifications. Mais le jour de l'inspection: différences constatées (armoire DD supplémentaire, GRV DD hors zone, bennes diverses en dehors plan). Modifications à venir nombreuses. Exploitant prévoit déposer PAC début 2023. NC physique: installations ne correspondent pas aux plans actés."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f09",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Rapport contrôle complet foudre Bureau Veritas (19/10/2022): 2 anomalies dont une récurrente depuis 2020 (liaison équipotentielle RIA zone DIS). NC identique à inspection précédente = stagnation. Demande levée sous 15 jours."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f10",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Programme d'actions du dossier de récolement de l'AP passé en revue. Toutes les actions prévues ont été réalisées. Conformité totale constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f11",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Broyage bois arrêté depuis début novembre 2022, transféré à Saint-Jean-d'Illac. Système brumisation présent mais sans objet actuel. Activité modifiée, situation actuelle hors NC. Observation sans demande formelle."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f12",
+    "domains": [
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Mesures 2022 piézomètres transmises. Conductivité aval erratique (150-1500 µS/cm vs 300 amont). PZ24 aval avec arsenic 0,075 mg/l (divisé par 2 en 8 ans). Réseau de surveillance insuffisant (1 piézomètre amont seulement). Demande remise en service 2e piézomètre amont. NC technique: surveillance incomplète, anomalie conductivité aval."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f13",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Rapport campagne mesures sonores APAVE (10-11/10/2022). Résultats en limite de propriété conformes. Zone industrielle sans habitation à proximité. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f14",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Zones d'entreposage plutôt faiblement remplies. Capacités autorisées respectées notamment rubrique 2714. Ancienne FSMD 5 levée. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f15",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Site entier visualisé: hangar tri/entreposage DIB et local polystyrène. Hauteurs maximales respectées. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f16",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Signalisation et identification des différents déchets insuffisantes. Zones et conteneurs (GRV, fûts) non identifiés ou pas de manière compréhensible. NC de même nature que FSMD 6 de 2020. Demande identification claire sous 1 mois."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f17",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Case DIB en déchetterie assez vide. Pas de mélange important de valorisables. Personne dédiée au déchargement des artisans en déchetterie. Situation améliorée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f18",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "FSMD 8 et 9 (résistance au feu locaux combustibles) de l'inspection 2020 renvoyées sans résolution vers PAC 08/2021 mais non trouvées dans ce PAC. Demande clarification dispositions applicables (AP vs AM) et justificatifs résistance au feu hangar et local polystyrène. FSMD 10 (mur séparation bureaux): écart levé. NC sur résistance au feu non résolue depuis 2020."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f19",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Mur béton endommagé niveau zone de tri du hangar refait en légo bloc béton. OBS 4 de 2020 résolue. Écart levé explicitement."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f20",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Caméras thermiques présentes (tout-venant, DIB). Audit APSAD prévu: installation détection linéaire/triple IR dans local polystyrène et hangar métaux + centrale. Proposition signée CEMIS (07/2022). Demande justificatifs mise en oeuvre sous 3 mois. Local polystyrène et hangar métaux sans détection incendie installée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482023-07-1270198020300049f01",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03_REPORTING",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R09_BLOCAGE_TIERS",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Trackdéchets utilisé depuis 2022, registres non dangereux conformes. Mais DEEE dangereux: éco-organismes (Ecosystem/Ecologic) n'émettent pas de BSD sous Trackdéchets. Suivi de certains DD via Trackdéchets non réalisé. Tiers (éco-organismes) bloquant pour la conformité Trackdéchets."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482023-07-1270198020300049f02",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [],
+    "dynamic": "R09_BLOCAGE_TIERS",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "RNDTS alimenté par Trackdéchets mais informations incomplètes du fait de l'absence de BSD éco-organismes. NC RNDTS liée à la même cause que f01: éco-organismes ne déversant pas dans Trackdéchets."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482023-07-1270198020300049f03",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Informations Trackdéchets déversées pour renseigner le RNDTS. Conformité du lien Trackdéchets-RNDTS constatée (pour les déchets couverts)."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482023-07-1270198020300049f04",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant non concerné par terres excavées (TEX) actuellement. Disposition AP applicable en cas d'admission future mais pas pertinente à date."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482023-07-1270198020300049f05",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Aucune excavation de terres/sédiments sur emprise foncière. Non concerné par les dispositions. Conformité par inapplicabilité."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482023-07-1270198020300049f06",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Suivi massique DD réalisé mensuellement. Inventaire DD et DIS à jour. Quantités DD bien en deçà des seuils autorisés. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482023-07-1270198020300049f07",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M09_PAC"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Au vu des tonnages rubriques 2791/2794 dans l'AP, installation devrait être classée IED (3532). Activité réelle en dessous de 75t/j selon exploitant. Demande PAC précisant niveau réel d'activités pour garantir que les activités sont en deçà du seuil IED 3532. NC de classification administrative."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482023-07-1270198020300049f08",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Registres déchets: admissions 10 08 09 (scories non ferreux) mais aucune sortie tracée et pas de déchets physiquement présents. Visiblement erreur de code déchet (métaux non ferreux). Demande régularisation codes déchets et mise à jour FIP/CAP. NC documentaire registre."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482023-07-1270198020300049f09",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Portique détection radioactivité implanté à l'entrée. Contrôle annuel réalisé (BERTHOLD 11/2021 et 12/2022). Voyant vert, portique fonctionnel. Détecteur portatif présent et contrôlé. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482023-07-1270198020300049f10",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "FIP analysées valides pour la plupart mais item manquant (informations processus production). Pas de FIP/CAP avec société MONNAIE DE PARIS pour déchets chromiques. Exploitant ne s'acquitte pas de ses obligations de vérification préalable à l'admission. NC documentaire: FIP/CAP incomplets ou absents."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482023-07-1270198020300049f11",
+    "domains": [
+      "D07_RETENTION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Sans FDS des déchets chimiques (MONNAIE DE PARIS) et sans CAP valide, exploitant ne peut pas distinguer acides/bases lors du stockage en armoires DIS à rétention commune. Risque d'incompatibilité chimique réelle et non maîtrisée = G4: danger identifié (réaction chimique potentielle entre produits incompatibles dans même rétention)."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482023-07-1270198020300049f12",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Pas de déchets amiante identifiés en déchetterie. Exploitant refuse pour l'instant les déchets amiante (absence personnel formé). Déchets amiante liée en transit: traçabilité BSDA sous Trackdéchets. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482023-07-1270198020300049f13",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Entreposages déchets réalisés sur aires imperméabilisées. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482023-07-1270198020300049f14",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Pas d'écarts de tri au niveau des alvéoles de la déchetterie professionnelle ni des zones d'entreposage. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482024-05-3070198020300049f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Détection incendie centrale + caméras thermiques présentes. Mais absence d'extincteur sur zone réception DNDAE (présence 2 GRV 1000L eau à la place). Boîtier réarmement DENFC côté polystyrène difficilement accessible (objets devant). NC physique: équipement incendie inaccessible + substitution extincteur non validée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482024-05-3070198020300049f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Vérifications annuelles extincteurs/RIA/PI présentées. Système détection incendie réceptionné (CEMIS, 03/01/2024). Test PI simultané: débit 139m³/h insuffisant par rapport aux 150m³/h requis (AP). Exploitant ne peut démontrer la disponibilité du débit requis. NC sur débit eau défense incendie persistante."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482024-05-3070198020300049f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Bassins rétention 730 et 320m³ dimensionnés correctement (D9A + pluie décennale). Justificatifs présentés. Bassins vides le jour de la visite. Conformité constatée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482024-05-3070198020300049f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "DENFC présents mais surface utile d'ouverture non fournie. Boîtier réarmement côté polystyrène difficilement accessible (objets devant). NC physique: équipement de désenfumage inaccessible + conformité surface utile non démontrée."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482024-05-3070198020300049f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Contrôle annuel BUREAU VERITAS 25/01/2024 présenté. Actions correctives réalisées selon exploitant mais aucune trace écrite fournie le jour de la visite. NC documentaire: absence de justificatifs des travaux correctifs."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482024-05-3070198020300049f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Travaux mise en conformité murs coupe-feu 2h finalisés et réceptionnés. Mégablocs béton 4m autour des stocks combustibles. Rapport CERIB (20/12/2023) atteste EI 240. MED levée car dispositions du seul arrêté MED (alvéoles extérieures) respectées."
+  },
+  {
+    "slug": "suez-rv-sud-ouest-pessac52083482024-05-3070198020300049f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant ne peut démontrer les dispositions constructives de réaction et résistance au feu pour cellule polystyrène. Zone métaux: murs coupe-feu béton en mauvais état. NC physique: murs coupe-feu dégradés + conformité résistance au feu non démontrée pour polystyrène."
+  },
+  {
+    "slug": "svp-utilitaires-ex-marin52140272022-11-0982108248400014f01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M05_SANCTION"
+    ],
+    "modifiers": [],
+    "dynamic": "R11_PENAL",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Dossier agrément centre VHU incomplet (5 manquements). MED 04/09/2019 non respectée (exploitant n'a jamais interrompu l'activité). Astreinte administrative. Information au Procureur de la République (délit pénal: gestion déchets sans agrément). Situation persistante malgré MED et astreinte."
+  },
+  {
+    "slug": "svp-utilitaires-ex-marin52140272022-11-0982108248400014f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Rapport mesures bruit SOCOTEC (04/03/2022) transmis: site respecte prescriptions en termes d'émissions sonores. Point levé de la MED 19/10/2020 et du 4e point de l'arrêté d'astreinte 16/02/2022."
+  },
+  {
+    "slug": "svp-utilitaires-ex-marin52140272022-11-0982108248400014f03",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Machine récupération/stockage fluides frigorigènes physiquement constatée lors inspection. Facture d'achat fournie. NC précédente levée."
+  },
+  {
+    "slug": "svp-utilitaires-ex-marin52140272022-11-0982108248400014f04",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Bac récupération verre constaté physiquement. Bac dédié éléments plastiques (pare-chocs, tableaux de bord) présent. NC et points MED/astreinte levés."
+  },
+  {
+    "slug": "svp-utilitaires-ex-marin52140272022-11-0982108248400014f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Facture OSIS (22/02/2022) de pompage et nettoyage séparateur hydrocarbures transmise post-inspection. Écart précédent levé."
+  },
+  {
+    "slug": "svp-utilitaires-ex-marin52140272022-11-0982108248400014f06",
+    "domains": [
+      "D11_SECURITE",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Plan fourni avec positionnement extincteurs et zone stockage produits dangereux. Plan doit être disponible à tout instant (rappel). Point associé MED 19/10/2020 levé."
+  },
+  {
+    "slug": "svp-utilitaires-ex-marin52140272022-11-0982108248400014f07",
+    "domains": [
+      "D08_DECHETS",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M05_SANCTION"
+    ],
+    "modifiers": [],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Exploitant confond attestation d'aptitude (individuelle) et attestation de capacité de l'entreprise (R.543-99). Attestation de capacité non fournie. NC ne peut être levée, inspection propose liquidation partielle de l'astreinte 16/02/2022. NC administrative persistante par méconnaissance."
+  },
+  {
+    "slug": "svp-utilitaires-ex-marin52140272022-11-0982108248400014f08",
+    "domains": [
+      "D07_RETENTION",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Zone entreposage VHU avant dépollution sur dalle sans dispositif de rétention. Exploitant ne peut indiquer collecte des eaux pluviales/écoulements. Séparateur hydrocarbures semble ne recevoir que eaux toiture. NC persistante (MED 2020, astreinte 2022). Liquidation partielle astreinte proposée. G4: liquides polluants VHU sans rétention confirmée."
+  },
+  {
+    "slug": "svp-utilitaires-ex-marin52140272022-11-0982108248400014f09",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Nouvelles analyses non réalisées. Travaux de déviation des eaux vers cuve béton réalisés par l'exploitant lui-même, sans garantie d'étanchéité ni de dimensionnement adéquat. Cuve semble sous-dimensionnée. NC technique sur traitement des eaux pluviales."
+  },
+  {
+    "slug": "svp-utilitaires-ex-marin52140272022-11-0982108248400014f10",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Lors visite inspection: tous les liquides sur rétention. Écart levé explicitement."
+  },
+  {
+    "slug": "syndic-coprop-res-camponac1000337842023-11-0838177400900017f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Récépissé déclaration initiale présenté. Suite à inspection, déclaration mise à jour le 10/11 au regard des installations actuelles (NCM3 du contrôle périodique levée). NC de déclaration administrative résolue."
+  },
+  {
+    "slug": "syndic-coprop-res-camponac1000337842023-11-0838177400900017f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Contrôle périodique APAVE (11/07/2023): 4 NCM (absence pressostat, détection incendie, déclaration, BSD) + 12 ANC. APAVE a pris acte des actions prévues mais sans délais engagés. Contrôle complémentaire requis avant 17/07/2024. NC multiples sur équipements de sécurité."
+  },
+  {
+    "slug": "syndic-coprop-res-camponac1000337842023-11-0838177400900017f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Mesures rejets atmosphériques du 01/04/2022: conformes aux VLE (NOx 150 mg/Nm³, CO 100 mg/Nm³). Conformité constatée."
+  },
+  {
+    "slug": "syndic-coprop-res-camponac1000337842023-11-0838177400900017f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Mesures 01/04/2022 réalisées et transmises. Prochaines mesures à renouveler en 2025. Conformité du calendrier de mesures constatée."
+  },
+  {
+    "slug": "syndic-coprop-res-camponac1000337842023-11-0838177400900017f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Vanne de coupure extérieure présente. Absence de pressostat identifiée comme NCM1 lors contrôle périodique. Exploitant s'engage à faire intervenir DALKIA après fin de la période de chauffe (printemps 2024). NC physique: équipement de sécurité absent."
+  },
+  {
+    "slug": "syndic-coprop-res-camponac1000337842023-11-0838177400900017f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rapport efficacité énergétique APAVE (01/04/2022): puissance nominale installation supérieure de >20% à la puissance de référence (surdimensionnement). Exploitant ne peut expliquer les mesures prises. NC technique/documentaire: surdimensionnement non géré."
+  },
+  {
+    "slug": "syndic-coprop-res-camponac1000337842023-11-0838177400900017f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Détecteurs gaz présents mais pas de système de détection incendie en place (NCM2 contrôle périodique). Exploitant s'engage à l'installer après fin période de chauffe (printemps 2024). Applicable depuis 01/07/2024. NC physique: absence détection incendie requise."
+  },
+  {
+    "slug": "syndic-coprop-res-camponac1000337842025-06-0438177400900017f01",
+    "domains": [
+      "D01_INCENDIE",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Contrôle complémentaire APAVE (26/05/2025) acte levée des 4 NCM. Pressostat et détecteurs gaz/incendie présents et constatés. MED 04/12/2024 peut être levée. Autres NC résiduelles identifiées (contrôle électrique, plan détection, rapport contrôle systèmes) à lever sous 1 mois."
+  },
+  {
+    "slug": "syndic-coprop-res-longchamp-20001000349912023-12-1237749798700018f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Installation de puissance <2 MW (3 appareils 460kW chacun, non raccordables techniquement/économiquement à cheminée commune). Inspection conclut que l'installation n'est pas soumise à la réglementation ICPE au titre de la rubrique 2910. Déclaration de 2020 effectuée mais installation hors champ."
+  }
+]

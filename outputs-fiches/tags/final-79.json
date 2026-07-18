@@ -1,0 +1,2406 @@
+[
+  {
+    "slug": "valbom-cenon52006782025-06-1385219337400034f08",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bilan d'activité mentionne 17h30 d'indisponibilité analyseur sans explication ni détail des périodes. Demande de transmission d'informations justificatives + intégration aux futurs rapports. NC documentaire (absence de justificatif), pas de dimension physique relevée lors de la visite terrain (aucune corrosion/usure constatée). G2 car NC purement documentaire/reporting."
+  },
+  {
+    "slug": "valbom-cenon52006782025-06-1385219337400034f09",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Mâchefers, REFIOM et PSR entreposés séparément dans espaces à l'abri des intempéries, stockages dans silos dédiés. Pas de demande formulée. Conformité constatée."
+  },
+  {
+    "slug": "valbom-cenon52006782025-06-1385219337400034f10",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Plomb détecté T4 2023 uniquement sur piézomètre amont lors de première analyse. Résultats suivants sans anomalie (rapport APAVE 11/06/2025). 'Ce sujet n'appelle plus de remarque.' NC résolue, trajectoire amélioration car problème initial est maintenant résolu."
+  },
+  {
+    "slug": "valbom-cenon52006782025-06-1385219337400034f11",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "39 NC dont 13 récurrentes relevées par APAVE 09/2024. Exploitant a transmis fiches d'ordres de travaux levant réserves Q18/Q19 (01/2025). 13 NC récurrentes traitées entre 10/2024 et 06/2025. Organisation jugée satisfaisante. Demande de transmission prochain rapport. Conformité en cours mais NC encore partielles (7 nouvelles subsistent). G2 car résiduel documentaire. T3 car correction massive réalisée."
+  },
+  {
+    "slug": "valbom-cenon52006782025-06-1385219337400034f12",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Constat terrain: zone sous les manches à air non correctement entretenue, nombreux déchets (laine de verre) et amas de poussières au sol et sur rambardes. Observation physique directe. G3 car constat technique physique (déchets et poussières accumulation dans zone de maintenance). Délai 15 jours imposé."
+  },
+  {
+    "slug": "valbom-cenon52006782025-06-1385219337400034f13",
+    "domains": [
+      "D02_ATEX",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bouteilles de méthane entreposées sans surveillance près d'une zone ATEX. Demande de mise en sécurité et de transmission d'une photographie, sans délai numérique dans le corps du constat. m_DELAI retiré (aucun délai chiffré), S02_INJONCTION maintenu (demande explicite formulée). G3 car risque physique réel (gaz inflammable non sécurisé)."
+  },
+  {
+    "slug": "valbom-cenon52006782025-06-1385219337400034f14",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R07_CONTRAINTE_TECHNIQUE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fuite d'eau du système de traitement mâchefers, flaques de plusieurs mètres carrées entravant la circulation. Exploitant justifie difficulté d'entretien par caractère corrosif. Constat physique direct, dimension technique (fuite active, entrave circulation). G3 car fuite physique active avec potentiel polluant. R07 car exploitant invoque contrainte technique (corrosivité)."
+  },
+  {
+    "slug": "valbom-cenon52006782025-06-1385219337400034f15",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Conduite en buée à ~3m du sol en pied de cheminée identifiée lors visite terrain. Émissaire non caractérisé (substance, concentration, flux inconnues). Constat physique direct d'un émissaire atmosphérique non réglementairement couvert. G3 car émissaire non mesuré avec incertitude sur nature polluante."
+  },
+  {
+    "slug": "valbom-cenon52006782026-02-2785219337400034f01",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "FDS centralisées dans outil informatique partagé, fiches simplifiées affichées dans local. Opérateur interrogé sait trouver les FDS. Pas de demande formulée. Conformité constatée."
+  },
+  {
+    "slug": "valbom-cenon52006782026-02-2785219337400034f02",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "FDS parcourues par sondage sans mesure particulière. Mesures générales en place: pompes, fiches de prévention, absorbants, isolement réseau EP lors dépotages. Pas de demande. Conformité opérationnelle."
+  },
+  {
+    "slug": "valbom-cenon52006782026-02-2785219337400034f03",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Entreposages produits chimiques (local huiles, laboratoire, bâche chaudière) associés à rétentions correctement dimensionnées. Pas de demande. Conformité constatée."
+  },
+  {
+    "slug": "valbom-cenon52006782026-02-2785219337400034f04",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Local huiles: aucune incompatibilité, tableau affiché. Laboratoire: armoire avec diversité de produits chimiques dont organisation ne semble pas répondre à logique de compatibilités. Constat terrain d'un rangement potentiellement non conforme. G3 car risque physique potentiel d'incompatibilité chimique (même si petits volumes)."
+  },
+  {
+    "slug": "valbom-cenon52006782026-02-2785219337400034f05",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consommables de maintenance et produits labo non suivis formellement. Fût de 200L à l'état visuel très dégradé (forte corrosion), produit non utilisé depuis plusieurs années. Double NC: absence de suivi documentaire (M01) + constat physique terrain d'un fût corrodé (M14). G3 car fût dégradé physiquement."
+  },
+  {
+    "slug": "valo-331000550332024-09-0490005343000014f01",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchets de menuiserie, polystyrène, huiles alimentaires. Quantités présentes en deçà des quantités déclarées. 'Ce point n'appelle pas de remarque.' Conformité constatée."
+  },
+  {
+    "slug": "valo-331000550332024-09-0490005343000014f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun contrôle périodique réalisé depuis télédéclaration. Premier contrôle aurait dû être réalisé dans les 6 mois suivant mise en service. Délai 3 mois imposé. G3 car contrôle périodique réglementaire non réalisé (non-réalisation d'une vérification obligatoire)."
+  },
+  {
+    "slug": "valo-331000550332024-09-0490005343000014f03",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchets extérieurs stockés sur sol en terre battue non étanche, écoulements s'infiltrant dans sols. Huiles alimentaires sans système de rétention. Constats physiques directs terrain. G3 car sol non étanche et absence de rétention pour liquides."
+  },
+  {
+    "slug": "valplus-langon52079662022-10-1042361532700024f01",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Capacités autorisées bien respectées le jour de l'inspection. Note sur évolution future (PAC prévu). Pas de NC constatée sur ce point."
+  },
+  {
+    "slug": "valplus-langon52079662022-10-1042361532700024f02",
+    "domains": [
+      "D08_DECHETS",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Plan d'entreposage déchets 'toujours pas respecté': liste détaillée de positions non conformes (balles cartons sous auvent, éco-mobilier mauvais endroit, 6 bennes dans herbe, matelas à mauvaise place, etc.). T4 car précédente inspection 2021 avait déjà ces constats (mention 'FNC 1' et 'FSMD 3' de 02/2021). G3 car constat terrain de non-conformité physique de stockage avec impact flux thermiques."
+  },
+  {
+    "slug": "valplus-langon52079662022-10-1042361532700024f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Curages EP justifiés (2021 et 2022). Caniveau relativement propre. Mais: trou d'environ 0.5m² sur dalle d'imperméabilisation constaté. Bassin d'orage curé partiellement (reste boue/végétation). Constat terrain de trou physique dans dalle (M14). Délais imposés pour réparation et curage. T3 car beaucoup de NC 2021 levées (clôture réparée, curages réalisés)."
+  },
+  {
+    "slug": "valplus-langon52079662022-10-1042361532700024f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport CARSO-LSEHL prélèvement 29/12/2021: résultats conformes. Pas de remarque. Conformité analytique."
+  },
+  {
+    "slug": "valplus-langon52079662022-10-1042361532700024f05",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Bidons et fûts bien sur rétentions. Pancarte vanne de confinement avec sens de manipulation. T3 car NC 2021 sur fûts non propres et vanne non identifiée sont levées. Conformité constatée."
+  },
+  {
+    "slug": "valplus-langon52079662022-10-1042361532700024f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Courrier SDIS sur bâches souples transmis, rapport vérification poteau incendie DESAUTEL transmis. RIA et extincteurs vérifiés 26/10/2021. 'L'inspection n'a pas de remarque.' Conformité moyens incendie."
+  },
+  {
+    "slug": "valplus-langon52079662022-10-1042361532700024f07",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Clôture partie Sud réparée, pas d'autres détériorations constatées. NC 2021 levée. T3 car NC de clôture dégradée de 2021 est maintenant corrigée."
+  },
+  {
+    "slug": "veolia-agriculture-france52006822023-02-0131573284200515f01",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Clôture en place sur toute la périphérie notamment bâtiment déconditionnement. 'Ecart levé'. NC clôture endommagée de 02/2020 résolue."
+  },
+  {
+    "slug": "veolia-agriculture-france52006822023-02-0131573284200515f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M10_GARANTIES"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Exploitant a transmis montant révisé (204 363,68€) en réponse à inspection 2020. Mais attestation de constitution des garanties financières toujours non transmise. Demande d'attestation sous 1 mois. T2 car suivi de constat antérieur (ERS 2 de 02/2020). G2 car NC purement documentaire (attestation manquante)."
+  },
+  {
+    "slug": "veolia-agriculture-france52006822023-02-0131573284200515f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Volume prélevé 860m³ pour 2022, inférieur au maximum autorisé (8000m³/an). 'Ecart levé'. NC de 2020 (dépassement 2000m³/an) résolue par mesures techniques."
+  },
+  {
+    "slug": "veolia-agriculture-france52006822023-02-0131573284200515f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Exploitant a déplacé aire lavage camions, modifié grilles, mis grille sécurité, refait trottoirs/caniveaux, mis pompe rechange, changé prestataire broyage. GMAO intégré avec dates. 'Ecarts et observation levés'. R01 car correction spontanée et proactive de multiples NC 2020."
+  },
+  {
+    "slug": "veolia-agriculture-france52006822023-02-0131573284200515f05",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Registre déchets sortants manque origine du déchet, SIRET transporteur, SIRET installation destinataire. Demande mise à jour sous 1 mois. T4 car même type d'écart déjà relevé en 2020 (ERS 6). G2 car NC purement documentaire (informations manquantes registre)."
+  },
+  {
+    "slug": "veolia-agriculture-france52006822023-02-0131573284200515f06",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Hauteur stocks de composts ne dépasse pas 5m (environ 3m). 'Ecart levé'. NC 2020 (dépassement 5m) résolue."
+  },
+  {
+    "slug": "veolia-agriculture-france52006822023-02-0131573284200515f07",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Vérification APAVE 21/11/2022, 2 NC constatées, levées le 08/12/2022. Pas de demande. T3 car ERS 8 de 2020 (NC et préconisations APAVE) traité. Situation conforme."
+  },
+  {
+    "slug": "veolia-agriculture-france52006822023-02-0131573284200515f08",
+    "domains": [
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Aspiration suffisante pour déconditionnement semences, machine certifiée ATEX, panneau ATEX mis en place, évent GNR rehaussé à 2,5m. 'Ecart levé'. ERS 9 de 2020 (zones ATEX non définies) résolu. R01 car correction spontanée et complète."
+  },
+  {
+    "slug": "veolia-agriculture-france52006822023-02-0131573284200515f09",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Tracteur réparé, absence traces hydrocarbures au sol. Mais poste distribution GNR: traces visibles et aucune rétention encore mise en place. Constat physique terrain (traces + absence rétention). T3 car ERS 10 de 2020 partiellement levé (tracteur et traces sol OK) mais GNR non encore conformé. G3 car absence rétention physique pour liquide inflammable."
+  },
+  {
+    "slug": "veolia-agriculture-france52006822023-02-0131573284200515f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Extincteur mis en place dans bâtiment déconditionnement (ERS 11 levé). Mais PEI 439 non disponible selon SDIS: demande de justifier remise en service ou action corrective. Doute sur état physique du point d'eau incendie. G3 car équipement incendie (PEI) potentiellement non fonctionnel."
+  },
+  {
+    "slug": "veolia-agriculture-france52006822023-02-0131573284200515f11",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Tonnage entrant 75-80kt sous 85kt max: 'Ecart levé' explicite. Compost normé et PE dans les limites. Bilan 2022 non encore disponible relève du calendrier annuel normal de transmission (chaque printemps), pas d'une demande formelle ni d'un délai imposé dans le corps du constat. M08 seul, S06 car écart principal levé, G1 car pas de NC active, R13 car conformité factuelle."
+  },
+  {
+    "slug": "veolia-agriculture-france52006822023-02-0131573284200515f12",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Andains de compost à >8m des limites (~10m), accès dégagé. 'Ecart levé'. ERS 13 de 2020 (andains < 8m) résolu."
+  },
+  {
+    "slug": "veolia-agriculture-france52006822023-02-0131573284200515f13",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Taux d'humidité non mesuré ni reporté, dates d'arrosages non répertoriées dans document suivi de lots. Menace de mise en demeure si non conformité non levée. m_MENACE car 'une mise en demeure pourra être proposée'. T4 car ERS 14 de 2020 mentionnait déjà absence de ces informations. G2 car NC purement documentaire (informations manquantes dans registre)."
+  },
+  {
+    "slug": "veolia-agriculture-france52006822023-02-0131573284200515f14",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "medium",
+    "reasoning": "Mesure débit d'odeur non réalisée depuis 2020: exploitant indique qu'il vérifiera 'dans la mesure du possible' lors prochaine campagne été 2025. Aucune demande formelle ni délai numérique dans le corps du constat (le délai de 6 mois figure uniquement dans le bloc Prescription, boilerplate réglementaire) : S01_CONSTAT et non S02_INJONCTION. R02 car promesse d'action future non vérifiable. G3 car mesure réglementaire non réalisée. T4 car Obs 5 de 2020 déjà."
+  },
+  {
+    "slug": "veolia-agriculture-france52006822023-02-0131573284200515f15",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Rapport de contrôle dépoussiérage 25/02/2020 transmis mais répond au code du travail et non code de l'environnement: ne permet pas de conclure sur respect VLE 10mg/Nm3. Demande rapport d'analyses poussières sous 1 mois avec menace de mise en demeure. T4 car FSNC 2 de 2020 demandait déjà ce rapport. G3 car mesure de VLE non réalisée."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f01",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Site propre, aucune trace de déchets au sol ou sur aires de circulation en dehors des zones de stockage. Conformité terrain."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f02",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan des zones à risques à ajuster (réservoir GNR situé à l'extérieur mais plan le place à l'intérieur). Signalétique des risques à confirmer. NC documentaire: plan inexact. Demande plan modifié sous 1 mois. G2 car NC purement documentaire (plan à mettre à jour)."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f03",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Locaux de stockage et manipulation déchets dangereux sur rétention. Conformité terrain."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Local stockage emballages/huile usagée identifié à risque incendie: pas d'exutoire de fumée en partie haute malgré article 14 AM 26/03/2012. Constat physique terrain d'absence d'équipement de sécurité incendie. G3 car absence dispositif de désenfumage dans local à risque incendie."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport DEKRA 27/06/2022: anomalie prise électrique déclarée réparée par l'exploitant mais non justifiée documentairement. Demande le prochain rapport de contrôle pour confirmer la correction (échéance 2 mois). L'anomalie physique est déjà déclarée résolue par l'exploitant ; l'écart résiduel est l'absence de preuve documentaire de cette correction (M01), pas un constat technique direct de l'inspecteur (pas de M14). G2 car NC désormais purement documentaire (justificatif manquant)."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "6 extincteurs et 2 bouches incendie internes avec rapports de contrôle à jour (RESAUTEL 12/2022, Chronofeu 26/04/2023, débit 60m3/h). Conformité moyens lutte incendie."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f07",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plans recensant dangers et moyens d'intervention présentés. Exploitant 'a indiqué' mise en place boitier dédié (promesse). Demande de confirmation sous 1 mois. R02 car exploitant s'est engagé oralement sans preuve. G2 documentaire."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f08",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Ensemble des consignes disponibles dans bâtiment principal au niveau de l'accueil. Conformité constatée."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f09",
+    "domains": [
+      "D07_RETENTION",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réseau non équipé de moyen de sectionnement pour confinement. Exploitant a présenté bon de commande pour dispositif gonflable (R02 promesse). Demande confirmation livraison+installation sous 1 mois. G3 car absence physique du dispositif de confinement requis."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f10",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Eaux pluviales transitant par séparateur hydrocarbures. Certificat de curage 25/05/2023 présenté. Conformité."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f11",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "Aucun contrôle qualité rejets eaux de ruissellement depuis 2016. Exploitant avait identifié l'écart avant inspection et engagé mesures correctives. Prélèvement prévu en juin. Demande résultats sous 1 mois. T7 car absence depuis 2016 (>3 ans). R01 car exploitant avait identifié proactivement. G3 car mesure annuelle réglementaire non réalisée depuis 7 ans."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f12",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dernier rapport contrôle émissions sonores (21/01/2022) fait apparaître situation conforme. Conformité."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f13",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchets non dangereux déposés dans compacteurs (métal, tout-venant, carton) et alvéoles (déchets verts, gravats, bois). Signalétique appropriée. Conformité."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f14",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre déchets sortants fourni mais 'qualification du traitement final vis-à-vis de la hiérarchie des modes de traitement' non renseignée. NC documentaire: information manquante dans registre. Demande confirmation disposition prise sous 1 mois. G2 purement documentaire."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f15",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchets dangereux déposés sur chariot avec rétention, déposés dans armoire DMS ou local, stockés dans bacs sur caillebotis sur rétention. Public n'a pas accès. Conformité."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f16",
+    "domains": [
+      "D08_DECHETS",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Local emballages et armoire exclusivement stockage DD, interdictions affichées, plan stockage armoire clair. Mais plan stockage emballages+huile insuffisamment détaillé. Demande plan plus détaillé sous 1 mois. G2 purement documentaire."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f17",
+    "domains": [
+      "D08_DECHETS",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Huiles minérales stockées dans même local que emballages dangereux, bac avec jauge de niveau, huile de friture facilement identifiable. Conformité."
+  },
+  {
+    "slug": "veolia-dechetterie52136192023-06-0146420237300294f18",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03_REPORTING",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant indique renseigner Trackdéchets via service dédié mais non vérifiable sur site (pas d'accès outil). Demande explication modalités de saisie + éléments justificatifs sous 1 mois. NC documentaire/reporting non vérifiable. G2 car NC documentaire (justification non disponible)."
+  },
+  {
+    "slug": "veolia-proprete-aquitaine-pompignac52010952024-07-0246420237300104f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre de pesées mois de juin 2024 non présenté pour vérifier situation administrative sous rubrique 2716. Demande de justifier volumes transit OM sous 1 mois. Menace de mise en demeure. M17 car vérification du classement/situation administrative. G2 car NC documentaire (registre non présenté)."
+  },
+  {
+    "slug": "veolia-proprete-aquitaine-pompignac52010952024-07-0246420237300104f02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport vérification électrique SOCOTEC 16/01/2024: 23 observations. Exploitant déclare levée par E2M le 30/05/2024 sans justificatifs. Demande éléments justificatifs sous 1 mois. G3 car 23 observations potentiellement non résolues et non démontrées."
+  },
+  {
+    "slug": "veolia-proprete-aquitaine-pompignac52010952024-07-0246420237300104f03",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant déclare formation réalisée en juin 2024 sans attestations. Aucun justificatif d'exercice défense incendie ces 3 dernières années. Demande attestations formations + justificatif exercice incendie, ou organisation exercice sous 2 mois. G3 car absence justifiée d'exercice incendie (vérification non réalisée)."
+  },
+  {
+    "slug": "veolia-proprete-aquitaine-pompignac52010952024-07-0246420237300104f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Mesures de bruit non conformes lors inspection 2018 et aucun rapport réalisé ces 3 dernières années. Inspection propose mise en demeure au Préfet. T4 car même constat que 2018. S05 car escalade proposée (MED au Préfet). G3 car mesure réglementaire non réalisée depuis plusieurs années."
+  },
+  {
+    "slug": "veolia-proprete-aquitaine-pompignac52010952024-07-0246420237300104f05",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03_REPORTING",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Registre déchets sortants via Trackdéchets non présenté pour quinzaine juin 2024. Inspection considère obligations non assurées. Propose MED. T4 car même observation qu'en 2018. S05 escalade (MED proposée). G2 car NC documentaire/reporting."
+  },
+  {
+    "slug": "veolia-proprete-aquitaine-pompignac52010952024-07-0246420237300104f06",
+    "domains": [
+      "D04_EAUX",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Entreposage déchets OK. Mais curage séparateurs hydrocarbures mai 2024 sans bordereaux de suivi de déchets associés. Demande BSD curage sous 1 mois. NC documentaire (BSD manquant). G2 purement documentaire."
+  },
+  {
+    "slug": "veolia-proprete-aquitaine-pompignac52010952024-07-0246420237300104f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun rapport de mesures annuelles rejets dans l'eau présenté. Interrogation sur nature de l'exutoire. Propose MED. Demande justification points de rejet sous 1 mois + mesure sous 2 mois + saisie GIDAF. S05 escalade. G3 car mesure annuelle non réalisée avec incertitude sur exutoire."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822024-05-2746420237300104f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M07_CONTROLE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "'L'exploitant est mis en demeure de mettre en place un système de détection automatique d'incendie au niveau de la plateforme DEA' : MED active formulée dans le corps du constat, mécanisme M04 manquant chez Hunter. RIA hors service + plan non à jour (M14), rapport APAVE (M07). G4 car MED active + NC technique concomitante."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822024-05-2746420237300104f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Demande de justification des actions correctives sur RIA/détecteurs 'dans les meilleurs délais' — formulation vague, aucun délai numérique donné dans le corps du constat. m_DELAI retiré. S02_INJONCTION maintenu (demande explicite)."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822024-05-2746420237300104f03",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "'L'exploitant est mis en demeure de respecter le volume de confinement actuellement prescrit (1250 m3)' : MED active formulée dans le corps du constat, mécanisme M04 manquant chez Hunter. Volume 1194m³ vs 1250m³ requis (déficit 56m³), constat physique (M14). G4 car MED active + déficit physique de confinement."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822024-05-2746420237300104f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Ouverture permanente en partie haute bâtiments CSR et PCR pour désenfumage. Ratio communiqué après inspection: 2,6% pour les deux bâtiments (>1,98% requis). Conformité démontrée."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822024-05-2746420237300104f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Demande de transmission du rapport de visite initiale ROB'INN et précision des appareils non vérifiés, sans délai numérique dans le corps du constat. m_DELAI retiré. S02_INJONCTION maintenu (demande explicite)."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822024-10-3146420237300104f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G6",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Incendie 30/10/2024: explosion sortie granulateur, propagation en 2 minutes, ~1500m³ CSR impactés, toiture amiantée effondrée, SDIS a eu difficultés débit eau. Sprinklage arrêté car coupure électricité + absence groupe électrogène. Personnel évacué, aucun blessé. Rapport d'incident demandé, arrêté mesures d'urgence proposé. G6 car incendie réel survenu."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822024-10-3146420237300104f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Système détection DEA: bon de commande SECURITAS 01/08/2024, en attente date intervention. Débit eau incendie insuffisant: hydrants 1 et 2 sur même réseau, débit insuffisant confirmé lors de l'incendie. Pas de mesure poteau 2 lors test. MED proposée pour débit eau incendie. T2 car suivi de MED inspection 05/2024. G4 car MED active + NC technique démontrée lors incendie réel."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822024-10-3146420237300104f03",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Exploitant a recalculé volume rétention: 714m³ extérieur + 536m³ intérieur = 1250m³ total requis. Volume désormais conforme. T3 car NC de confinement 56m³ de 05/2024 est levée."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822024-10-3146420237300104f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan de défense incendie établi 07/2024 remis en séance. Plan récapitulatif à grand format manquant. Plan des réseaux et plan des stockages non joints. Demande complétion PDI sous 3 mois. G2 purement documentaire."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822025-11-2746420237300104f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Toutes les demandes de l'inspection 31/10/2024 reprises dans arrêtés préfectoraux. Points développés dans points de contrôle suivants. Constat factuel administratif."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822025-11-2746420237300104f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Apports CSR suspendus dès 31/10/2024, bâches posées sur stockage extérieur CSR, gardiennage 24h/24 mis en place jusqu'au 31/05/2025. 'Ce point n'appelle pas d'observation.' Conformité post-incendie sur mesures de mise en sécurité immédiates."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822025-11-2746420237300104f03",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Analyses déchets CSR contaminés amiante réalisées (EUROFINS 12/2024). 600t évacuées vers PSI ENVIRONNEMENT 05/2025. BSDA transmis. Zone décontaminée, mesures empoussièrement sans fibres après décontamination. Désamiantage total bâtiment prévu T1 2026. 'Ce point n'appelle pas d'observation.'"
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822025-11-2746420237300104f04",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT",
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Rapport d'accident transmis 31/10/2024. Eaux d'extinction confinées au bâtiment et absorbées par les CSR. Exploitant en réflexion sur bassin de rétention extérieur (PAC à venir le cas échéant). Aucune NC active ni demande formelle avec délai dans le corps du constat : narration factuelle d'un point déjà traité. S01_CONSTAT, G1 car pas d'écart actif constaté."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822025-11-2746420237300104f05",
+    "domains": [
+      "D01_INCENDIE",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Zone incendie interdite d'accès (chaîne + rubalise). Reste bâtiment remis en service pour tri/transit. Sprinklage/détection remis en état (3 interventions 11/2024). Contrôle hebdomadaire UXELLO. Électrique et vidéosurveillance reconstruits. Diagnostic structure 19/11/2024. Demande derniers rapports entretien sous 1 mois. G2 car NC résiduelle documentaire (rapports à transmettre)."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822025-11-2746420237300104f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Réserve 120m³ en place mais essai de mise en aspiration non réalisé, MED non levée. Demande essai sous 3 mois. 'À défaut, une sanction administrative (de type amende, etc.) pourra être proposée' : menace conditionnelle explicite, m_MENACE ajouté (manquant chez Hunter). T3 car réserve installée mais correction incomplète."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822025-11-2746420237300104f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "PDI mis à jour: plan réseaux et plan stockages joints. Vanne guillotine mise en place et conforme. Mais plan récapitulatif lisible non intégré. Demande complétion PDI sous 3 mois. T3 car beaucoup de NC PDI de 10/2024 corrigées. G2 car NC résiduelle documentaire."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822026-02-2746420237300104f01",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "FDS à jour dans classeur dédié + version informatique. Formations risques chimiques dispensées. Notices simplifiées en place stockages. FDS Neotech 37°C vérifiée complète. Pas de demande. Conformité."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822026-02-2746420237300104f02",
+    "domains": [
+      "D11_SECURITE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Stockages produits dangereux dans zone identifiée/délimitée, 3 extincteurs poudre à proximité, bac absorbant disponible, réserves de sable, produits fermés et étiquetés sur étagère ventilée. Conformité terrain."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822026-02-2746420237300104f03",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Zone stockage produits dangereux (atelier maintenance) sur rétention. Volume 2950L affiché. Rétention dimensionnée pour accueillir volumes stockés. Conformité."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822026-02-2746420237300104f04",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun produit incompatible identifié sur le site. Conformité."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822026-02-2746420237300104f05",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Liste produits chimiques avec type de conditionnement et contenance, communiquée par courriel 03/03/2026. 'N'appelle pas de remarque.' Conformité documentaire."
+  },
+  {
+    "slug": "veolia-unite-operationnelle-de-begles52003822026-02-2746420237300104f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Réserve 120m³ mise en place, essai mise en aspiration réalisé par SDIS GOP 28/01/2026 attesté. Réserve référencée base SDIS. 'Les dispositions de l'arrêté préfectoral de mise en demeure susvisé sont respectées.' MED levée. T3 car NC débit eau incendie de 10/2024 totalement résolue."
+  },
+  {
+    "slug": "veralec52083942025-09-1649246596800013f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PDI récent daté 02/07/2025, non encore testé (exercice prévu début octobre). Schémas, accueil services secours conformes. Mais absence de 'fiches réflexes' pour fonctions clefs. Demande complétion PDI sous 3 mois. G2 car NC purement documentaire (PDI incomplet)."
+  },
+  {
+    "slug": "veralec52083942025-09-1649246596800013f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plans dans PDI présents mais murs coupe-feu mal indiqués (périphérie indiquée coupe-feu alors qu'elle ne l'est pas). Emplacement réserve d'eau mal identifié. Plan des réseaux et égouts manquant. Risque de confusion sur libellé vannes. Demande corrections sous 3 mois. G3 car erreur physique dans PDI sur protection incendie réelle (murs coupe-feu incorrectement documentés)."
+  },
+  {
+    "slug": "veralec52083942025-09-1649246596800013f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Système extinction automatique (sprinkleurs thermofusibles) décrit dans PDI. Commandes désenfumage et interrupteurs centraux correctement mentionnés et conformes à la réalité. Observation mineure sur distinction interrupteur général/chaufferie. Conformité globale."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732022-10-1341096483700075f01",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Liste entreprises extérieures transmise avant visite. 4 EE présentes le jour de l'inspection bien intégrées à la liste. Pas de remarque. Conformité suivi EE."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732022-10-1341096483700075f02",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cahier des charges EE: modèle disponible pour travaux lourds, commande directe pour interventions légères sans cahier charges. Procédure HSE ne fixe pas critères de rédaction. Interventions sur MMR non identifiées comme travaux à haut risque. Observations (non demandes formelles). G2 car NC documentaire/procédurale sans dimension physique."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732022-10-1341096483700075f03",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure SGS EE disponible. Mais critères sélection basés uniquement sur coûts+passif (manque retour d'expérience dans doc). Interventions sur MMR non identifiées comme haut risque dans annexe 2. Sous-traitance rang 2-3 non traitée. Observations seulement. G2 purement documentaire/procédural."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732022-10-1341096483700075f04",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Formations accueil sécurité suivies et à jour. Module MMR présent pour EE concernées. Mais critères d'acceptation non définis (questionnaire avec 3/7 erreurs accepté sans critère clair). Observation seulement. G2 car NC procédurale sans dimension physique."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732022-10-1341096483700075f05",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Formation accueil sécurité intègre procédures d'urgence. Personnel LESCAUT interrogé connaît conduite à tenir. Mais conduite à tenir en cas d'alarme H2S, déclenchement POI, PPI non décrite dans la formation. Observations seulement. G2 purement documentaire/procédural."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732022-10-1341096483700075f06",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "EE participent aux exercices POI. Mais traçabilité de leur participation non assurée (2021 sans trace EE alors qu'elles étaient présentes). Plan de prévention LESCAUT ne rappelle pas mise en sécurité poste de travail. Observations seulement. G2 purement documentaire."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732022-10-1341096483700075f07",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plans de prévention et permis de travail examinés: encadré 'mise à disposition installation' jamais renseigné, référencement permis travail/plans de prévention absent, permis de travail ROTOK (MMR): consignation équipements non renseignée. Lors intervention MMR: remise en service MMR non tracée dans permis. G3 car NC procédurale sur gestion MMR (retour exploitation non garanti documentairement sur équipements à risque accident majeur)."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732022-10-1341096483700075f08",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Permis feu: équipements en place lors visite chantier, mais coche 'surveillance incendie' pas toujours correctement renseignée (M01) et salariés sans formation récente à la manipulation des extincteurs (M07). Double mécanisme documentaire+contrôle. G2 car NC purement procédurale/documentaire, aucune dimension physique observée."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732022-10-1341096483700075f09",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Supervision de chantiers réalisée au quotidien mais non formalisée. Réunions hebdomadaires avec CR pour chantiers importants. Observations: formalisation de l'organisation supervision (fréquence audits, ressources, enregistrement). G2 car NC purement procédurale/documentaire."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732022-10-1341096483700075f10",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Permis de travail: pavé 'clôture du permis' pas toujours correctement renseigné. Pour ROTOK sur MMR: encadrés consignations et remise en service non renseignés. NC procédurale sur validation retour exploitation après intervention sur MMR. G3 car retour exploitation équipements MMR non garanti documentairement (risque accident majeur)."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732023-04-2841096483700075f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Description situation administrative: AP 30/01/2012 rubrique 1434-2 abrogé par AP 07/05/2019 fixant batterie limite dépôt ICPE. Canalisation vers appontement relevant réglementation canalisation TMD. AP SPBA 20/01/2012 pour appontement 512. Constat factuel sur délimitation périmètres ICPE. Pas de NC."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732023-04-2841096483700075f02",
+    "domains": [
+      "D03_SEVESO",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Tuyauterie retour eaux ruissellement appontement vers bac TK1001: installation connexe. Demande d'information sur programme maintenance et résultats derniers contrôles. Observation seulement. G2 car NC documentaire (justification maintenance non transmise)."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732023-04-2841096483700075f03",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Détecteurs, arrêt urgence présents. Mais bouton arrêt d'urgence peu identifiable. Consigne VERMILION peu de lien avec organisation SPBA. Rôles et responsabilités dans chargement navire non clairement identifiés entre VERMILION et SPBA. Conventions de 2012 non intégrées dans modes opératoires. G3 car bouton arrêt urgence peu identifiable (équipement sécurité physique) + défaut coordination sur opération dangereuse."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732023-04-2841096483700075f04",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "VERMILION dispose liste MMR et fiches de vie. Tests MMRI avant/après chargement consignés. Mais: MMR identifiées dans VERMILION et SPBA différentes. Tests non coordonnés alors que contrôle-commande des deux sites couplé lors chargement. Demande plan d'action coordonné VERMILION/SPBA au 31/12/2023. G3 car coordination MMR insuffisante sur opération à risque accident majeur."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732023-04-2841096483700075f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport vérification électrique APAVE 04/2023: aucune NC électrique au niveau appontements 512. Observation: intégrer équipements électriques VERMILION dans analyse risque foudre SPBA. Conformité principale."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732024-08-0941096483700075f01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure gestion by-pass/shunts disponible. Mais tableau de gestion des by-pass non utilisé en pratique sur le dépôt. Liste MMR et EIPS peu détaillée (chaînes non précisées). Demande mise en oeuvre effective du tableau et développement liste MMR. G3 car défaut de traçabilité des by-pass sur MMR (risque accident majeur si vision globale des dérogations n'est pas assurée)."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732024-08-0941096483700075f02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Gestion shunt/by-pass intégrée au SGS du dépôt. Conformité procédurale constatée."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732024-08-0941096483700075f03",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fiches mesures compensatoires affichées en salle de contrôle. Réunions journalières avec point sur modes dégradés. Logiciel ENABLON pour suivi défaillances MMR. Bilan annuel en revue direction SGS. Conformité organisationnelle."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732024-08-0941096483700075f04",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fiche mesures compensatoires ne précise pas systématiquement MMR en mode dégradé, chaîne MMR, échéance retour normale, modalités remise en conformité, visa direction. Demande formulée ('pourrait utilement') sans délai numérique dans le corps du constat : S02_INJONCTION maintenu (demande explicite) mais m_DELAI retiré (aucun délai chiffré donné)."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732024-08-0941096483700075f05",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun shunt/by-pass en cours le jour de l'inspection. 12 événements by-pass en 2024 avec fiches correctement renseignées. Pratiques bien intégrées. Conformité."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732024-08-0941096483700075f06",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Shunts/by-pass tracés via fiches et affichage en salle. Identifiables et communicables SDIS/DREAL en cas accident. Demande utilisation tableau de gestion (renvoi PC1). Conformité principale sur traçabilité."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732024-08-0941096483700075f07",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas d'habilitation formelle by-pass car direction obligatoirement impliquée. Opérateurs formés/sensibilisés via réunions journalières. EE sensibilisées à l'accueil. Conformité organisationnelle."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732024-08-0941096483700075f08",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réserve émulseur 90m³+10m³ GRV contenant des PFAS. Exercices incendie passés avec émulseurs. Événement accidentel majeur 2007. Exploitant a engagé travail de remplacement. Demande programme remplacement sous 3 mois avant deadline juillet 2025 (interdiction PFAS mousses). G3 car PFAS présents dans émulseur avec obligation de remplacement et potentiel contamination environnementale passée."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732024-08-0941096483700075f09",
+    "domains": [
+      "D04_EAUX",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G6",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fuite 16m³ hydrocarbures nuit 19-20/05/2024 depuis canalisation retour égouttures appontement 512 (corrosion externe+interne). Pompage/nettoyage réalisé. Tronçon de 60m remplacé par inox. Tests corrosion interne. Mais 2 tronçons en fourreau sur emprise SPBA non encore remplacés, délai acceptabilité non justifié. G6 car déversement réel d'hydrocarbures (16m³) survenu."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f01",
+    "domains": [
+      "D03_SEVESO",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Schéma unifilaire électrique et schéma de principe présentés. Mais modifications sur installation électrique non mises à jour dans plans. Équipements secourus non clairement identifiés sur schéma de principe. Reports supervision des équipements de secours non tous testés. Demande mises à jour sous 3 mois. G3 car plans électriques non à jour pour site Seveso (risque non-identification MMR lors incident)."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant dispose d'une stratégie en cas de perte d'électricité mais non formalisée dans procédure adhoc. Demande formalisation précise sous 3 mois. G3 car absence procédure formalisée pour situation dégradée sur site Seveso avec risque accident majeur."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f03",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas de procédure spécifique pour perte réseau électrique. Configuration site (groupe électrogène+onduleur) permet maintien barrières sécurité en cas défaillance. Demande complétion POI avec procédure/fiche réflexe perte utilité électrique sous 3 mois. G3 car absence procédure sur scénario défaillance pour site Seveso."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f04",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consignes/actions pour s'assurer du bon relai des équipements de secours non formalisées. Demande de rédaction de la stratégie et formation du personnel (renvoi PC2/PC3), sans délai numérique donné dans le corps de ce point de contrôle. m_DELAI retiré (aucun délai chiffré propre à ce point), S02_INJONCTION maintenu (demande explicite)."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f05",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant a mis en oeuvre dispositions nécessaires au maintien en bon état équipements sécurité pendant perte alimentation électrique. Conformité (partie confidentielle)."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f06",
+    "domains": [
+      "D03_SEVESO",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Groupe électrogène et onduleur en bâtiments surélevés. Test démarrage groupe concluant. Mais exploitant n'a pu spécifier hauteurs des équipements par rapport à cote de référence PPRI. Demande information consolidée sur hauteur équipements vs PPRI sous 3 mois. G3 car incertitude sur résistance aux crues de l'alimentation de secours sur site Seveso."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f07",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Autonomie dispositifs de secours vérifiée par sondage: onduleur chargé complet, volume GNR conforme. Correct dimensionnement des dispositifs de secours. Conformité."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f08",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Maintenance onduleur, groupe électrogène, HT/BT à jour et bien suivis. Contrat dératisation depuis 2020. Mais poste d'alimentation principale non intégré au plan dératisation. Demande intégration poste alimentation principale dans plan lutte nuisibles sous 3 mois. G3 car absence protection contre nuisibles sur poste alimentation principale (risque dégradation équipement critique Seveso)."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f09",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Site non concerné par les dispositions visées (travaux de mise en conformité avant 2026 pour installations antérieures à 09/2022). Conformité."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f10",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Analyse émulseur (20 PFAS Wessling 15/01/2025): concentration PFOS 14µg/l inférieure à tolérance contamination non intentionnelle (10mg/kg). Conformité PFOS."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f11",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Analyse PFHxS dans émulseur: <2µg/l, inférieure à tolérance 0,1mg/kg pour contamination non intentionnelle. Conformité PFHxS."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f12",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Analyse PFOA dans émulseur: 18µg/l inférieure à tolérance 25µg/kg pour contamination non intentionnelle. Conformité PFOA."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f13",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Analyses PFCA C9-C14 dans émulseur: concentrations sous seuils de tolérance (25ppm pour somme C9-C14). Conformité PFCA."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-ambes52092732025-04-0341096483700075f14",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Analyse PFHxA dans l'émulseur: 897µg/l > 25 ppb. Exploitant autorisé à continuer d'utiliser l'émulseur dans ces conditions (transition réglementaire jusqu'au 10/04/2026, régime figurant en Prescription/boilerplate, pas dans le corps du constat). Aucune demande formelle ni délai propre à ce point dans le corps du constat : S01_CONSTAT, pas de modificateur. M02_MESURE (résultat d'analyse) plutôt que M14 (pas de constat technique terrain direct). G2 car pas de NC active mais point de vigilance documenté."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492022-08-1741096483700083f01",
+    "domains": [
+      "D03_SEVESO",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Post-incendie juillet 2022: vérification installations électriques APAVE conclut à absence de dégradation. MMR testées (sauf barrière C en attente redémarrage). Détecteurs H2S OK sauf 2 avec écrans usés/cassés (non impactant sur mesure). Fiches de vie MMRI mises à jour. Observations sur documents manquants pour contrôle et formation extincteurs. G2 car NC residuelles documentaires (documents manquants, écrans détecteurs)."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492022-08-1741096483700083f02",
+    "domains": [
+      "D03_SEVESO",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Inspection visuelle bacs et rétentions post-incendie (guide DT94/DT92): installations ne nécessitent pas réparations à court terme, aucune dégradation liée aux flux thermiques. Examen par sondage IIC sans constat. Aptitude au service non remise en cause. Conformité post-incendie."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492022-08-1741096483700083f03",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Inspection visuelle tuyauteries post-incendie (API 579): aucun signe de contact flamme ou dégradation. Pas de contrôle non destructif supplémentaire nécessaire. Aptitude au service non remise en cause. Conformité post-incendie."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492022-08-1741096483700083f04",
+    "domains": [
+      "D03_SEVESO",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Inspection visuelle équipements sous pression post-incendie (API 579): aucun signe de contact flamme ou dégradation. Pas d'investigations supplémentaires nécessaires. Aptitude au service non remise en cause. Conformité post-incendie."
+  }
+]

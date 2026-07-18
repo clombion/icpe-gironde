@@ -1,0 +1,235 @@
+{
+  "total_audited": 130,
+  "sampled_high_confidence_spot_check": 20,
+  "medium_low_confidence_reread": 0,
+  "errors_found": 22,
+  "field_level_corrections": 24,
+  "corrections": [
+    {
+      "slug": "stockmeier-ex-quaron52007072023-07-1030125287000151f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique/concret présent dans le corps des constats (demande formelle sans échéance chiffrée)."
+    },
+    {
+      "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique/concret présent dans le corps des constats (demande formelle sans échéance chiffrée)."
+    },
+    {
+      "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique/concret présent dans le corps des constats (demande formelle sans échéance chiffrée)."
+    },
+    {
+      "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f10",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique/concret présent dans le corps des constats (demande formelle sans échéance chiffrée)."
+    },
+    {
+      "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique/concret présent dans le corps des constats (demande formelle sans échéance chiffrée)."
+    },
+    {
+      "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f12",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique/concret présent dans le corps des constats (demande formelle sans échéance chiffrée)."
+    },
+    {
+      "slug": "stockmeier-ex-quaron52007072025-06-0530125287000151f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique/concret présent dans le corps des constats (demande formelle sans échéance chiffrée)."
+    },
+    {
+      "slug": "stockmeier-ex-quaron52007072025-06-0530125287000151f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique/concret présent dans le corps des constats (demande formelle sans échéance chiffrée)."
+    },
+    {
+      "slug": "stockmeier-ex-quaron52007072025-06-0530125287000151f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique/concret présent dans le corps des constats (demande formelle sans échéance chiffrée)."
+    },
+    {
+      "slug": "stockmeier-ex-quaron52007072025-06-0530125287000151f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique/concret présent dans le corps des constats (demande formelle sans échéance chiffrée)."
+    },
+    {
+      "slug": "stockmeier-ex-quaron52007072025-06-0530125287000151f08",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique/concret présent dans le corps des constats (demande formelle sans échéance chiffrée)."
+    },
+    {
+      "slug": "stockmeier-ex-quaron52007072025-06-0530125287000151f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique/concret présent dans le corps des constats (demande formelle sans échéance chiffrée)."
+    },
+    {
+      "slug": "suez-rv-sud-ouest-begles52003732026-02-2733523048800066f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique/concret présent dans le corps des constats (demande formelle sans échéance chiffrée)."
+    },
+    {
+      "slug": "suez-rv-sud-ouest-begles52003732026-02-2733523048800066f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique/concret présent dans le corps des constats (demande formelle sans échéance chiffrée)."
+    },
+    {
+      "slug": "suez-rv-sud-ouest-begles52003732026-02-2733523048800066f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique/concret présent dans le corps des constats (demande formelle sans échéance chiffrée)."
+    },
+    {
+      "slug": "suez-rv-sud-ouest-begles52003732026-02-2733523048800066f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique/concret présent dans le corps des constats (demande formelle sans échéance chiffrée)."
+    },
+    {
+      "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f08",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique/concret présent dans le corps des constats (demande formelle sans échéance chiffrée)."
+    },
+    {
+      "slug": "stockmeier-ex-quaron52007072023-07-1030125287000151f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai numérique dans le corps des constats."
+    },
+    {
+      "slug": "stockmeier-ex-quaron52007072023-07-1030125287000151f03",
+      "field": "stage",
+      "hunter_value": "S02_INJONCTION",
+      "corrected_value": "S01_CONSTAT",
+      "reason": "Aucune section 'Demande à formuler' formelle: le corps des constats n'utilise que des formulations suggestives ('pourrait être mis en place', 'il conviendrait de'), pas d'injonction formelle."
+    },
+    {
+      "slug": "stockmeier-ex-quaron52007072023-07-1030125287000151f03",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "Contenu purement documentaire/organisationnel (contenu du POI) sans dimension physique ni NC formellement caractérisée; G3 injustifié."
+    },
+    {
+      "slug": "stockmeier-ex-quaron52007072024-05-2730125287000151f03",
+      "field": "dynamic",
+      "hunter_value": "R02_PROMESSE",
+      "corrected_value": "R14_NEUTRE_NC",
+      "reason": "Le délai du 1er janvier 2027 est une échéance réglementaire imposée par arrêté (AM 1er juin 2015), pas un engagement volontaire de l'exploitant ('il devra donc mettre à jour'). Pas de signal 'l'exploitant s'engage à' — NC factuelle avec échéance réglementaire, pas une promesse."
+    },
+    {
+      "slug": "stryker-spine52052942023-10-1231096730200038f01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M06_RECIDIVE"
+      ],
+      "reason": "Corps des constats: 'comme à l'inspection précédente, la colorimétrie dépasse la valeur limite autorisé' — récidive explicite d'une même NC entre deux inspections successives."
+    },
+    {
+      "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f09",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07_CONTROLE",
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M07_CONTROLE",
+        "M14_CONSTAT_TECHNIQUE",
+        "M06_RECIDIVE"
+      ],
+      "reason": "Corps des constats: anomalie foudre 'la même que celle de 2020' — récidive explicite d'une même NC entre inspections successives."
+    },
+    {
+      "slug": "suez-rv-sud-ouest-pessac52083482022-11-2470198020300049f18",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M01_DOCUMENTATION"
+      ],
+      "corrected_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M01_DOCUMENTATION",
+        "M06_RECIDIVE"
+      ],
+      "reason": "Corps des constats: NC de résistance au feu (FSMD 8 et 9 de l'inspection 2020) toujours non résolue, 'l'inspection n'a pas été en mesure de retrouver ces éléments' — récidive explicite référencée dans le corps des constats (pas seulement en Prescription)."
+    }
+  ],
+  "false_positive_rate": 0.169,
+  "error_patterns": "Systematic pattern (b) dominant: Hunter attached m_DELAI to S02_INJONCTION records 17 times without any numeric or concrete deadline present in the constats body — most concentrated in the stockmeier 2024-05 and 2025-06 sub-batches (12 of 17 cases), plus 4 cases in suez-begles/pessac. m_DELAI was stripped in each case, keeping S02_INJONCTION (a formal 'Demande à formuler' still exists) except for one record (stockmeier f03 2023) which had no formal demand at all — only soft suggestive language ('pourrait', 'conviendrait') — and was downgraded to S01_CONSTAT/G2. Pattern (a) (R10_TENSION misuse) and pattern (c) (m_MENACE under-application) were checked across the full batch and found NOT to be present: the single R10_TENSION record is a genuine contested-diagnostic case, and the two 'à défaut' hits outside modifiers were false positives (one an alternative-method clause, one boilerplate MED prescription text excluded by the constats-body-only rule). One R02_PROMESSE misapplication found: a regulatory deadline imposed by arrêté ministériel was misread as an exploitant commitment (error type 8, R02 over-attribution) — corrected to R14_NEUTRE_NC. Three missed multi-label M06_RECIDIVE corrections (error type 5): explicit recurrence language in the constats body ('la même que celle de 2020', 'comme à l'inspection précédente') was captured by Hunter in T4_STAGNATION trajectory but never reflected in the M06_RECIDIVE mechanism, despite the taxonomy defining it as a distinct axis-2 signal. STRICT code-validity check (exact ids, right axis, single-value fields, all fields present) found zero violations in Hunter output.",
+  "verdict": "Good baseline quality. All 130 Hunter records were structurally valid (correct code ids, correct axis placement, all required fields present, single-valued fields respected). The audit surfaced one concentrated systematic error (m_DELAI over-application without a textual deadline, 17/130 = 13%) plus 3 missed-multilabel and 1 dynamic-misclassification corrections. Corrected-fiche rate: 22/130 = 16.9%, marginally above the <15% target, driven almost entirely by the single m_DELAI pattern concentrated in one company's later reports. No false M08, no false M14, no wrong-actor, no over-aggressive M17 findings across the sampled and full-batch pattern checks."
+}

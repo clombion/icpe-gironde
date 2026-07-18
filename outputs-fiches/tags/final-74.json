@@ -1,0 +1,2434 @@
+[
+  {
+    "slug": "syndicat-des-coproprietaires52076372022-12-1342161729100016f22",
+    "domains": [
+      "D14_RISQUE_BIO",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: délais de transmission GIDAF non respectés pour analyses Legionella. M03_REPORTING (transmission numérique GIDAF). NC purement documentaire/administrative → G2."
+  },
+  {
+    "slug": "syndicat-des-coproprietaires52076372023-06-0642161729100016f01",
+    "domains": [
+      "D14_RISQUE_BIO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: 'La liste a bien été complétée par l'exploitant.' — NC antérieure résolue. M08_CONFORMITE. G1."
+  },
+  {
+    "slug": "syndicat-des-coproprietaires52076372023-06-0642161729100016f02",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: vérification GIDAF → déclarations 2023 dans les délais. 'Le point correspondant de la mise en demeure est levé.' M08+M04 levée. G1."
+  },
+  {
+    "slug": "syndicat-des-coproprietaires52076372023-06-0642161729100016f03",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: Bureau Veritas intervenu le 15/06/2023. 'Le point objet de la mise en demeure est donc levé.' M08+M07 levée MED. Attente rapport → m_DELAI résiduel. G1."
+  },
+  {
+    "slug": "syndicat-des-coproprietaires52076372023-06-0642161729100016f04",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: 'L'exploitant a bien formalisé la procédure de fonctionnement saisonnier.' Conformité constatée. M08. G1."
+  },
+  {
+    "slug": "syndicat-des-coproprietaires52076372023-06-0642161729100016f05",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: 'La procédure d'entretien préventif... est maintenant bien formalisée.' M08. G1."
+  },
+  {
+    "slug": "syndicat-des-coproprietaires52076372023-06-0642161729100016f06",
+    "domains": [
+      "D14_RISQUE_BIO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: 'L'exploitant a bien formalisé son programme de surveillance.' M08. G1."
+  },
+  {
+    "slug": "technicentre-aquitaine52005602024-09-24nosiretf01",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R09_BLOCAGE_TIERS",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "Corps: réfection rétention non réalisée. Défaut d'étanchéité constaté depuis inspection 2021. MED proposée + NC technique physique (rétention non étanche). G4 = MED + NC technique. T7 = défaut constaté depuis 2021 (>3 ans). R09 = météo/prestataires comme freins."
+  },
+  {
+    "slug": "technicentre-aquitaine52005602024-09-24nosiretf02",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: compte-rendus de rondes et registre consultés. 'n'a pas de remarque à formuler.' M08. G1."
+  },
+  {
+    "slug": "technicentre-aquitaine52005602024-09-24nosiretf03",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: rubrique 1978-5 non déclarée. 'L'exploitation sans déclaration... est une non-conformité.' M17 (vérification rubrique applicable) + M01 (absence déclaration). G2 = NC administrative. m_DELAI 1 mois."
+  },
+  {
+    "slug": "technicentre-aquitaine52005602024-09-24nosiretf04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: stockages solvants contrôlés, 'ne présentaient pas d'anomalies visibles'. M08. G1."
+  },
+  {
+    "slug": "technicentre-aquitaine52005602024-09-24nosiretf05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: PGS indique flux émission diffuse ~10%. 'Cette valeur est conforme.' M08. G1."
+  },
+  {
+    "slug": "technicentre-aquitaine52005602024-09-24nosiretf06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: Article 1 levé (raccordement TGV terminé). Article 2 non levé — retard machine à laver, NC eau séparative persiste. MED active avec NC technique (réseau non séparatif). G3 = NC technique réseau eaux. T2 = suivi MED antérieure."
+  },
+  {
+    "slug": "technicentre-aquitaine52005602024-09-24nosiretf07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: dépassements VLE arsenic, cuivre, tétrachloroéthylène confirmés en avril et août 2024. Analyse manquante (pas de tetrachloroéthylène août). M14 (NC technique rejet dépassement) + M02 (analyse manquante). G3 = dépassements confirmés. T4 = récurrence dépassements."
+  },
+  {
+    "slug": "technicentre-aquitaine52005602024-09-24nosiretf08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: points non contrôlés — couverture anti-feu, détection incendie, plan locaux. Éléments absents non vérifiés. M01 (documents non fournis) + M07 (vérification non réalisée). G3 = équipements sécurité incendie dont présence non confirmée."
+  },
+  {
+    "slug": "technicentre-aquitaine52005602025-03-04nosiretf01",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: résine appliquée, rétention 'propre et sans fissure'. 'La mise en demeure est levée.' M08+M04 levée MED. Attente fiche produit → m_DELAI résiduel. G1."
+  },
+  {
+    "slug": "technicentre-aquitaine52005602025-09-10nosiretf01",
+    "domains": [
+      "D04_EAUX",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G5",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: incident détagage — fuite canalisation confirmée, impact eaux souterraines (hydrocarbures aromatiques, glycol en piézomètres). ~1000 litres rejetés. Travaux isolement réalisés. M11 (incident déclaré) + M14 (rupture canalisation constatée). G5 = pollution sols/eaux souterraines effective. R01 = exploitant a proactivement investigué et corrigé."
+  },
+  {
+    "slug": "technicentre-aquitaine52005602025-09-10nosiretf02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: rejet direct eaux industrielles vers milieu naturel (l'Ars) depuis fosses VHR constaté. Diagnostic assainissement révèle anomalie poste relevage, encrassement réseaux 30-50%. Mesures conservatoires prises. M14 = NC technique physique réseau. G4 = rejet direct milieu + dysfonctionnement équipement."
+  },
+  {
+    "slug": "technicentre-aquitaine52005602025-09-10nosiretf03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: avancement MED raccordement réseau. Article 1 presque levé. Article 2 — machine à laver en retard, ne recyclera pas les eaux. MED active en cours. M04. G3 = NC technique réseau persistante. T2 = suivi MED."
+  },
+  {
+    "slug": "technicentre-aquitaine52005602025-09-10nosiretf04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: dépassements récurrents arsenic, cuivre, zinc, débit en 2025 (janvier, février, mai). Réseau unitaire = débit dépassé. M14 (NC technique réseau) + M02 (mesure décembre reportée). G4 = dépassements VLE récurrents confirmés multiple paramètres. T4 = récurrence depuis 2024."
+  },
+  {
+    "slug": "technicentre-aquitaine52005602025-09-10nosiretf05",
+    "domains": [
+      "D04_EAUX",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: phases pures hydrocarbures persistantes en PZ1, PZ3, P3, P3b, P4. Arsenic présent. Dépollution en cours depuis 2010. Surveillance semestrielle assurée. M07 (surveillance piézométrique) + M14 (pollution persistante). G3 = pollution active sols/eaux souterraines. T4 = pollution chronique persistante."
+  },
+  {
+    "slug": "technicentre-aquitaine52005602025-09-10nosiretf06",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: réservoirs double-peaux installés mais 'aucun étiquetage réglementaire... n'était affiché.' M14 (absence physique étiquetage). G2 = NC formelle/documentaire (étiquetage absent, pas de risque physique direct)."
+  },
+  {
+    "slug": "technicentre-aquitaine52005602025-09-10nosiretf07",
+    "domains": [
+      "D07_RETENTION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: 'déversement conséquent de matières huileuses dans le fond de la fosse voie 26. Origine non précisée.' M14 = constat physique déversement. G3 = état physique dégradé/déversement constaté."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082022-07-0434530688000583f01",
+    "domains": [
+      "D15_SECTEUR",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: dégazage 3500 Nm3 biogaz. Inspection prévenue uniquement par mail le 1er juillet (13 jours après). NC déclaration tardive. M11 = incident/délai déclaration. G2 = NC procédurale déclaration tardive (pas de dommage physique supplémentaire)."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082022-07-0434530688000583f02",
+    "domains": [
+      "D15_SECTEUR",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G6",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: rapport d'accident détaillé — défaillance torchère (courts-circuits 42°C), dégazage biogaz ~3500 Nm3 à l'atmosphère (CH4 60%, H2S 150ppm). Événement survenu. M11 = rapport incident. G6 = incident survenu (dégazage confirmé)."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082022-11-2434530688000583f01",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: exploitant présente ses excuses pour retard d'information incident juin 2022 (aucune citation d'engagement futur dans le texte -- la justification Hunter citait une phrase absente du corpus). Nouveau directeur présent, rappel des attentes par l'inspection. Pas de 'Demande à formuler' -> signal de clôture/conformité. M11 (contexte incident) + M08 (clôture). R13 (pas de promesse vérifiable dans le texte, simples excuses). G1. S06_CLOTURE."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082022-11-2434530688000583f02",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: expertise GRDF pompe non reçue (pas d'espoir). Pièces urgence commandées/partiellement reçues. Report d'alarme mis en place. M11 + M07 (détecteurs vérifiés 26/07/2022). G2 = suivi actions correctives. T2."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082022-11-2434530688000583f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: étude odeurs confirme dépassement 5 uoE/m3 au riverain n°5. Perceptions réelles documentées sur 6 mois. M14 = NC technique mesurée confirmée. G3 = dépassement valeur limite confirmé avec impact sur tiers. m_MENACE = 'sanction sera proposée... à défaut'."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082022-11-2434530688000583f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: lits plantés de roseaux et saulaie opérationnels depuis 9/11/2022. 'Ecart partiellement levé.' Bassins provisoires en cours de démantèlement. Bassin collecte curé. M08 partiel. Demande analyse reste → m_DELAI. G2 résiduel (analyses en attente)."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082022-11-2434530688000583f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: dépassements orthophosphates en juin et septembre 2022 non expliqués. M14 = NC technique dépassement VLE confirmé. G3."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082022-11-2434530688000583f06",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: GRV sur cuvette rétention, vanne ne dépasse pas. Pas de camion eau de javel. Aire dépotage n'a pas évolué. Partiellement conforme. M08 partiel. G2 = question aire dépotage documentaire. T2."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082022-11-2434530688000583f07",
+    "domains": [
+      "D08_DECHETS",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: avaloir avec séparateur = OK. Benne DIB supprimée = OK. Mais 'T béton dégradés' encore présents. M14 = état physique dégradé (T béton). G2 = NC mineure physique (T béton dégradés sur plateforme stockage)."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f01",
+    "domains": [
+      "D12_ADMIN",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Corps: site en dessous capacités autorisées (1 digesteur sur 3), AP complémentaire intégrant l'évolution de l'activité en cours de finalisation. M08 (aucun dépassement de capacité) + M17 (positionnement vis-à-vis du régime/rubrique en cours d'évolution, AP complémentaire). G1."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f02",
+    "domains": [
+      "D15_SECTEUR",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: 2 digesteurs à l'arrêt — contrôle d'étanchéité obligatoire avant redémarrage non encore réalisé. M07 = contrôle périodique d'étanchéité requis. G3 = équipements à risque explosif non vérifiés."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f03",
+    "domains": [
+      "D15_SECTEUR",
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: émission méthane mesurée 1-1.4% instantané. Évaluation annuelle obligatoire non transmise. M02 = mesure annuelle manquante. G2 = NC mesure/reporting."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f04",
+    "domains": [
+      "D15_SECTEUR",
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: mesure annuelle biogaz réalisée. Étalonnage 05/04/2023. Biométhane 99.2%. H2S <LQ. M07 = vérification périodique à jour. G1."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f05",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: joint d'étanchéité non visualisé. Ventilation bâche présente. Exploitant incapable de justifier présence du joint. M14 = incertitude technique ('n'a pas pu préciser'). G2 = NC documentaire (justificatif absent, pas de défaut physique confirmé)."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f06",
+    "domains": [
+      "D15_SECTEUR",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: pas de raccords tuyauteries biogaz dans locaux à personnes autres que locaux autorisés. Ventilation forcée + passive en place. Canalisations calorifugées. M08. G1."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f07",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: torchère non inspectée. 2 événements torchage >6h non déclarés. Bug outil reporting (valeurs négatives). M07 (suivi torchage obligation) + M01 (documentation reporting manquante). G2 = NC reporting/suivi."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f08",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: procédure fuite biogaz existe (V0 2020) mais pas de consigne fuites effluents. M01 = absence document (consigne effluents). G2 = NC documentaire. m_MENACE = 'peuvent conduire à proposer des suites administratives de type MED'."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f09",
+    "domains": [
+      "D15_SECTEUR",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: programme maintenance incomplet (pompes relevage manquantes), vérifications en retard (capteurs niveau), gardes hydrauliques fuyardes constatées physiquement. M14 = gardes hydrauliques fuyardes (physique). M07 = contrôles en retard. G3 = gardes hydrauliques fuyardes = risque retour flamme."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f10",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: 4 personnes qualifiées astreinte identifiées. Rotations organisées jusqu'à novembre. M08. G1."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f11",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: 'L'exploitant a indiqué que la zone n'était plus utilisée.' Conformité de fait. M08. T béton précédent: mise à jour plan à venir. G1."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f12",
+    "domains": [
+      "D02_ATEX",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: zones ATEX identifiées sur plans Teams. Affichages risques globalement disponibles. Pas d'installations électriques dans rétentions. M08 partiel (alimentation secours à vérifier programme surveillance). G1."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f13",
+    "domains": [
+      "D15_SECTEUR",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: consignes démarrage évapo-concentration (V0 27/08/2020) et conduite épuration biogaz (V0 03/06/2021) présentées. M08. G1."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f14",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: opérations de nettoyage désormais interdites sur site. Problème aire dépotage résolu. M08. G1. T3."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f15",
+    "domains": [
+      "D07_RETENTION",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: pompes relevage non intégrées programme surveillance. Vanne manuelle rejet non signalée. Consigne obturation absente. M14 = dispositifs physiques non signalés/non vérifiés. G3 = dispositifs confinement non opérationnels."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f16",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: dépassement NH4+ en mars 2023 (0.6 vs 0.5 mg/l VLE). Commentaire GIDAF absent. M14 (dépassement VLE) + M03 (GIDAF non commenté). G3."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f17",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: 'La mesure en orthophosphate de mars 2023 est conforme.' M08. L'exploitant avait demandé dans un porter à connaissance de relever sa VLE orthophosphates; demande jugée non recevable par l'inspection -> M09_PAC (PAC rejeté). G1. T3 (correction depuis dépassements 2022)."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f18",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: arrêt compostage + réduction déchets verts annoncés. Étude odeur demandée après fin travaux. M01 = étude odeur non encore transmise. R02 = engagement sur plan travaux à venir. G2."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082023-07-1234530688000583f19",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: 'La liste des équipements n'a pas pu être passée en revue faute de temps.' M01 = documents non disponibles. G2."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082024-07-0434530688000583f01",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: digesteur 51B redémarré. Contrôle étanchéité BV 19/04/2024 — aucune NC. M07+M08 = contrôle réalisé conforme. Digesteur 095 pas encore redémarré, contrôle requis avant. m_DELAI résiduel. G2 = attente contrôle 095."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082024-07-0434530688000583f02",
+    "domains": [
+      "D15_SECTEUR",
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: taux méthane offgaz 0.66% en 2024, conforme seuil 1%. 'L'écart relevé lors de la précédente inspection est levé.' M08. G1. T3."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082024-07-0434530688000583f03",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: document joint d'étanchéité transmis mais 'rédigé en néerlandais... inexploitable'. Demande maintenue. M01 = document fourni mais inexploitable = absence de preuve valide. G2. T4 = même demande depuis inspection 2023."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082024-07-0434530688000583f04",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: torchère permanente présente, arrête-flamme, asservie gazomètres. Certificat conformité, pression service fournis. 'Ces éléments n'appellent pas de remarque.' Écart reportage maintenu pour outil non fiabilisé. M08 pour équipement. G1 pour cet aspect."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082024-07-0434530688000583f05",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: consigne fuite biogaz annoncée dans sommaire classeur mais absente du classeur. M01 = document manquant. G2. T4 = même écart inspection 2023. m_MENACE = 'peut conduire à proposer des suites administratives de type MED'."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082024-07-0434530688000583f06",
+    "domains": [
+      "D07_RETENTION",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: pompes relevage intégrées GMAO, arrêt à distance confirmé, pompe signalée, consigne affichée. 'l'écart relevé lors de la précédente inspection est levé.' M08. G1. T3. Vanne manuelle non surveillée → m_DELAI résiduel."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082024-07-0434530688000583f07",
+    "domains": [
+      "D15_SECTEUR",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: GMAO opérationnel. Contrôle capteurs niveau réalisé. Mais: soupapes digesteur 095 'tubes en mauvais état' + joint vanne déversement fuite. M14 = état physique dégradé (soupapes mauvais état, fuite joint). G3. T3 = amélioration globale programme, mais nouvelles NC trouvées."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082024-07-0434530688000583f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: ammonium conforme au regard nouvelle VLE. 'L'écart relevé lors de la précédente inspection est donc levé.' Dépassements orthophosphate et MES résolus. Dépassements débit journalier persistants. M08 partiel. G2 résiduel (débit vol. max dépassé). T3."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082024-07-0434530688000583f09",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: travaux encore en cours, étude odeur non réalisée. Exploitant confirme prise en compte. M01 = étude manquante. R02 = engagement verbal. G2. T4 = demande maintenue depuis 2022."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082024-07-0434530688000583f10",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M11_INCIDENT"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: expertise GRDF jamais communiquée. Pièces urgence achetées, justificatifs transmis. 'Ces justificatifs n'appellent aucune remarque.' M08+M11 clos. G1. T3."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082024-07-0434530688000583f11",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: incident tempête Domingos 7/11/2023 — excédent d'eau, eaux mélangées non traitées dans lagune. Saulaie avec difficultés de développement. Tests perméabilité en attente. M11 (incident déclaré) + M14 (végétation défaillante physiquement). G3 = NC système confinement/traitement. T1."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082025-02-2734530688000583f01",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: plan avec joint d'étanchéité transmis. 'Ces éléments n'appellent pas de remarque... L'écart relevé lors de la précédente inspection est levé.' M08. G1. T3."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082025-02-2734530688000583f02",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: outil reporting fiabilisé. 'Aucune valeur négative n'est relevée. L'écart relevé lors de la précédente inspection est donc levé.' M08. G1. T3."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082025-02-2734530688000583f03",
+    "domains": [
+      "D11_SECURITE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: procédure fuite biogaz affichée en salle de contrôle. 'L'écart relevé lors de la précédente inspection est donc levé.' M08. G1. T3."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082025-02-2734530688000583f04",
+    "domains": [
+      "D15_SECTEUR",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: réparations soupape digesteur 095 et joint vanne réalisées. Mais: 2 extincteurs CO2 'hors tolérance/manque poids', 1 détecteur gaz mobile 'carte électronique hors service', soudure soupape à prévoir. M14 = équipements physiquement défaillants. M07 = vérifications périodiques révèlent NC. G3 = équipements sécurité défectueux."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082025-02-2734530688000583f05",
+    "domains": [
+      "D07_RETENTION",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: vanne manuelle isolement intégrée GMAO, dernier contrôle 18/02/2025 sans remarque. 'L'écart relevé lors de la précédente inspection est levé.' M08. G1. T3."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082025-02-2734530688000583f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: dépassements récurrents volume journalier en 2024. Dépassements 300 m3/j max pour sept/oct/déc 2024. Dépassement orthophosphate juin 2024. M14 = NC technique dépassements VLE/volumes. G3. T4 = dépassements persistants depuis 2023."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082025-02-2734530688000583f07",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: travaux toujours en cours, fin prévue avril 2025. Étude odeur non réalisée. 'Demande formulée à l'issue des trois précédentes inspections... maintenue.' M01. R02. G2. T4 = maintenu depuis inspections 2022-2024."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082025-02-2734530688000583f08",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: perméabilité saulaie meilleure que théorique mais végétation défaillante sur une partie — problèmes d'infiltration. Plan d'action défrichage/replantation prévu. M14 = végétation non fonctionnelle (physique). G3 = capacité rétention insuffisante. T4 = problème persistant."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082025-02-2734530688000583f09",
+    "domains": [
+      "D15_SECTEUR",
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: moyenne 2024 = 0.76% (conforme 1%). Début 2025 = 0.52% légèrement supérieur au nouveau seuil 0.5% depuis 1/1/2025. Nouveau réglage en cours. M14 = dépassement léger technique. G2 = dépassement très marginal. T2 = suivi longue durée."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082025-02-2734530688000583f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: plan défense incendie transmis mais incomplet — annexes manquantes, informations sécurité manquantes (confinement eaux extinction, arrêts urgence). M01 = document incomplet. G2 = NC documentaire plan incendie."
+  },
+  {
+    "slug": "terres-d-aquitaine52062082025-02-2734530688000583f11",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: dépassement COVNM en décembre 2024 — point n°3: 16 mg/m3 pour VLE 10 mg/m3. Défaut injection chimique. M14 = dépassement VLE émissions atmosphériques constaté. M07 = mesures semestrielles. G3."
+  },
+  {
+    "slug": "terres-du-sud-la-reole52011222024-03-1438156184400022f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: stockage nitrate ammonium vérifié. Quantités sous le seuil déclaration ICPE rubrique 4702. Historique sans dépassement. Champ demande vide. M17 = vérification seuil classement. G1."
+  },
+  {
+    "slug": "testedis1000442832025-07-1651536978300029f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: contrôles périodiques quinquennaux jamais réalisés. À l'annonce inspection, commande passée. Rapport TSG: 12 NCM + 8 ANC (1435), 8 NCM + 6 ANC (4734), 7 NCM + 10 ANC (1414). M07 = contrôles périodiques en retard puis réalisés. G3 = nombreuses NCM révélées. R01 = commande pro-active à l'annonce."
+  },
+  {
+    "slug": "testedis1000442832025-07-1651536978300029f02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: arrêts urgence sans signalétique identificatrice. NCM identifiée: absence justificatif essai annuel bon fonctionnement. M07 = vérification annuelle non justifiée. M14 = absence signalétique physique. G3 = équipement sécurité critique non vérifié."
+  },
+  {
+    "slug": "testedis1000442832025-07-1651536978300029f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: absence constatée — système alarme incendie, système manuel îlot distribution, dispositif consignes sécurité, couverture anti-feu. Absence extincteurs locaux techniques. M14 = équipements physiquement absents. G3."
+  },
+  {
+    "slug": "testedis1000442832025-07-1651536978300029f04",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: 'la station ne dispose pas d'un dispositif de communication permettant d'alerter immédiatement la personne désignée.' M14 = dispositif physiquement absent. G3."
+  },
+  {
+    "slug": "testedis1000442832025-07-1651536978300029f05",
+    "domains": [
+      "D07_RETENTION",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R03_FACADE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: systèmes détection fuite coupés électriquement volontairement. À la remise tension — alarmes 2 cuves et tuyauteries déclenchées. 'possibilité d'une fuite dans les doubles enveloppes ne peut être exclue.' R03 = installations coupées pour masquer alarmes. M14 = état détecteurs défaillant. G4 = fuite possible non exclue + coupure délibérée."
+  },
+  {
+    "slug": "testedis1000442832025-07-1651536978300029f06",
+    "domains": [
+      "D07_RETENTION",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: nettoyage annuel réalisé (juin 2025). Alarme sonde niveau boues activée — boitier non réinitialisé par prestataire. Bon intervention sans info sur vérification obturateur automatique. M07 = vérification obturateur non tracée. G2 = NC procédurale entretien."
+  },
+  {
+    "slug": "tg-services31063292022-11-0744006227100026f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: activités ne relèvent plus rubrique ICPE. Mais activité concassage 160kW = rubrique 2515 non déclarée. MED précédente. M17 (classement nouvelle rubrique) + M04 (MED active). G2 = NC administrative. T2."
+  },
+  {
+    "slug": "tg-services31063292023-03-2944006227100026f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M17_CLASSIFICATION",
+      "M05_SANCTION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: déclaration 2515 toujours non déposée. Concasseur 160kW présent sur site. Conditions exploitation non conformes (défense incendie, forêt pins à proximité). Proposition astreinte administrative 50€/j. M04+M17+M05. G3 = exploitation sans autorisation persistante + risques. T4 = NC même qu'inspection précédente."
+  },
+  {
+    "slug": "tg-services31063292024-10-2944006227100026f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: télédéclaration 2515 reçue. Mais deux concasseurs sur même parcelle (TG Service + CMTP) = seuil enregistrement potentiellement dépassé. Exploitant prévoit déplacement activité. M17 = reclassement rubrique. G2. T3 = déclaration obtenue mais nouveau problème."
+  },
+  {
+    "slug": "tg-services31063292024-10-2944006227100026f02",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: 'portail à l'entrée du site censé assurer restriction d'accès... était ouvert et aucun personnel dédié.' M14 = défaut physique contrôle accès. G3 = accès libre à installation dangereuse (concassage)."
+  },
+  {
+    "slug": "thales52010432023-02-0855205902400737f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M19_CESSATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: inspection révèle aucune installation classée en fonctionnement. Chantier construction en cours. AP du 23/06/2011 considéré caduc. M17 = détermination statut ICPE actuel. M19 = fin d'activité constatée. G1 = situation régularisée de fait."
+  },
+  {
+    "slug": "tlf1000101252022-11-1550048653500015f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: dossiers déclaration des deux sociétés (TLF et EUROVIA) transmis. 'Les activités... sont donc régulièrement déclarées.' M08+M17. G1."
+  },
+  {
+    "slug": "tlf1000101252022-11-1550048653500015f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: tout le site en terre battue, stockages extérieurs non protégés des vents. Système arrosage absent en période de visite (pluvieux). Plainte mairie pour fortes poussières. M14 = état physique terrain (non stabilisé). G3 = impact tiers confirmé (plaintes)."
+  },
+  {
+    "slug": "tonnellerie-boutes52065572022-12-1338254091200062f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: stocks bois en deçà des quantités PAC 2022. Exploitant doute de la nécessité de la modification. Zones effets thermiques plus importantes dans nouveau plan. M09 = PAC modification à réviser. G2 = NC documentaire plan stockage. T2."
+  },
+  {
+    "slug": "tonnellerie-boutes52065572022-12-1338254091200062f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: rejet dans réseau municipal avec convention déversement. Tous paramètres conformes convention. M08. G1."
+  },
+  {
+    "slug": "tonnellerie-boutes52065572022-12-1338254091200062f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: 'n'avait pas pu fournir d'attestation qualité coupe-feu' — demande à un professionnel en cours. M01 = attestation manquante. G2 = NC documentaire. T2."
+  },
+  {
+    "slug": "tonnellerie-boutes52065572022-12-1338254091200062f04",
+    "domains": [
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: modification SPANESI réalisée, évent ATEX présent, détection points chauds installée. Contrôle équipotentialité réalisé mais rapport 'reste à remettre'. M07+M01 = rapport contrôle non fourni. G2. T2."
+  },
+  {
+    "slug": "tonnellerie-boutes52065572022-12-1338254091200062f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: périodicité vérifications électriques respectée. Mais 3 observations anciennes subsistent dans dernier rapport. M07 = anomalies non corrigées d'une vérification sur l'autre. G2 = NC formelle."
+  },
+  {
+    "slug": "tonnellerie-boutes52065572022-12-1338254091200062f06",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: ARF et ETF refaites 19/01/2022. PDA visuellement présents. Vérification réglementaire 6 mois post-travaux non encore réalisée. M07 = vérification post-travaux en attente. G2."
+  },
+  {
+    "slug": "tonnellerie-boutes52065572022-12-1338254091200062f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: poteau incendie sans vérification récente. Réserve eau incendie 'membrane endommagée'. 'L'exploitant ne dispose pas d'une ressource en eau d'extinction d'incendie prouvée suffisante.' MED proposée. M14 = état physique dégradé équipement incendie. M04 = MED. G4 = MED + NC technique critique incendie."
+  },
+  {
+    "slug": "tonnellerie-boutes52065572022-12-1338254091200062f08",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: rétention eaux extinction — ru non imperméabilisable (zone verte, pas maîtrise foncière). Solutions à l'étude. Vannes guillotines isolement possibles. M04 (MED précédente) + M14 (rétention non conforme physiquement). G3. T2."
+  },
+  {
+    "slug": "tonnellerie-boutes52065572022-12-1338254091200062f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: 'La réalité des travaux de réfection du mur coupe-feu a été constatée. L'attestation de la qualité coupe-feu (2h) de l'ouvrage... a été inspectée sans remarque particulière.' M08. G1. T3."
+  },
+  {
+    "slug": "tonnellerie-boutes52065572024-12-2438254091200062f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M05_SANCTION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R09_BLOCAGE_TIERS",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "Corps: MED 19/04/2023 toujours pas respectée. Acte vente parcelle signé 10/2024. Devis en cours. Proposition astreinte administrative avec différé 6 mois. M04+M05. G4 = MED active + NC critique incendie eau extinction. T7 = NC depuis inspection 2022."
+  },
+  {
+    "slug": "tonnellerie-boutes52065572024-12-2438254091200062f02",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: solutions rétention eaux extinction toujours à l'étude. Attente finalisation parcelle. M04. G3. T4."
+  },
+  {
+    "slug": "tonnellerie-boutes52065572024-12-2438254091200062f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: avis technique 22/06/2023 confirme murs REI 120. M08. G1. T3."
+  },
+  {
+    "slug": "tonnellerie-boutes52065572024-12-2438254091200062f04",
+    "domains": [
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: rapport équipotentialité consulté → conformité + observations. Corrections apportées. M08. G1. T3."
+  },
+  {
+    "slug": "tonnellerie-boutes52065572024-12-2438254091200062f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: visite remise en conformité systématique après rapport contrôle. 'Dernier rapport... ne présentait pas d'observations anciennes.' M08. G1. T3."
+  },
+  {
+    "slug": "tonnellerie-quintessence1000143662023-02-1482030081200014f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: puissance machines bois non fournie. Contrat EDF 300kW → classable ≥ déclaration rubrique 2410. Incertitude sur seuil enregistrement. M17 = vérification seuil/régime. G2 = NC administrative non encore établie précisément."
+  },
+  {
+    "slug": "tonnellerie-quintessence1000143662023-02-1482030081200014f02",
+    "domains": [
+      "D12_ADMIN",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: volume bois estimé >1000 m3 < 20000 m3 → rubrique 1532 déclaration. M17 = vérification seuil. G2 = NC administrative."
+  },
+  {
+    "slug": "tonnellerie-quintessence1000143662023-02-1482030081200014f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: sprinkler sur tous locaux couverts, extincteurs mobiles grosse capacité. Constat tracé. M08 (moyen incendie présents). G1."
+  },
+  {
+    "slug": "tonnellerie-quintessence1000143662023-11-2382030081200014f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: puissance 294kW = régime enregistrement rubrique 2410. Audit réalisé, mesures atmosphériques faites, mais dossier enregistrement toujours non déposé. MED proposée. M17+M04. G3 = exploitation sans autorisation requise. T4."
+  },
+  {
+    "slug": "tonnellerie-quintessence1000143662023-11-2382030081200014f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: volume bois >1000 m3 confirmé. Dossier déclaration 1532 déposé 20/06/2023. M08 = conformité administrative rétablie. G1."
+  },
+  {
+    "slug": "tonnellerie-sylvain52070402022-10-2032991464200023f01",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Corps: bassin confinement 800m3 mis en place, test pompe concluant. Mais vanne rejet milieu naturel à obturation manuelle → dispositif automatique requis. MED non levée sur ce point. M04+M14 (vanne manuelle non conforme exigence automatique). G3."
+  },
+  {
+    "slug": "tonnellerie-sylvain52070402022-10-2032991464200023f02",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: séparateur hydrocarbures installé, fonctionnel, entretien planifié annuellement. 'La mise en demeure... est donc respectée sur ce deuxième point.' M08. G1. T3."
+  },
+  {
+    "slug": "tonnellerie-sylvain52070402022-10-2032991464200023f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: détection incendie en place tous locaux, attestation vérification sept 2022 sans NC. MED partiellement satisfaite. Justificatif dimensionnement manquant → m_DELAI résiduel. M08+M04 partiel. G2."
+  },
+  {
+    "slug": "tonnellerie-sylvain52070402022-10-2032991464200023f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: justificatifs coupe-feu murs inexistants. Bâtiments Gbis et SDOU3 non construits. Récurrent depuis inspection 2021. M01 = attestations manquantes. G2 = NC documentaire. T2."
+  },
+  {
+    "slug": "tonnellerie-sylvain52070402022-10-2032991464200023f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Corps: ETF non mise à jour pour détecteurs incendie ajoutés. Parafoudres type III non vérifiés/présence non confirmée. Vérification 2021 et 2022 n'ont pas confirmé installation complète. MED proposée. M07+M04. G3 = équipements protection foudre potentiellement manquants sur site risque incendie. T4."
+  },
+  {
+    "slug": "tonnellerie-sylvain52070402022-10-2032991464200023f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: stocks bois à jour (dans limites). Mais 2 écarts physiques: allée 5.1m vs 5.6m requis, stockage extérieur hauteur 2.5m vs 1.7m requis. M14 = NC physique distances/hauteurs. G2 = NC significative mais sans risque immédiat majeur (stockage éloigné de tiers)."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: volume annuel 10 828 m3 carburant < seuil enregistrement 20 000 m3. M17 = vérification seuil sous le seuil. G1."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: contrôle périodique 1413 — NCM levée à contre-visite. ANC prescriptions générales transmises. M07+M08. G1. T3."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f03",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: contrôle 1414 — 5 ANC (prescriptions générales, consignes, rapports entretien). Exploitant a transmis tous les éléments requis. M07+M08. G1."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f04",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: contrôle 1435 — 3 ANC (prescriptions, certif EN 12874, décanteur). Exploitant a transmis arrêté, certif SIREMS et certif CSTB. M07+M08. G1."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f05",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: accès SDIS présent sur site. M08. G1."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f06",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Corps: rapport BV 12/03/2024 — 4 observations. Toutes corrigées (22/07 et 18/09/2024). M07+M08. G1."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f07",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: zone GNC doit faire l'objet visite initiale. 'L'exploitant n'a pas été en capacité de fournir le rapport.' M01 = document manquant. G2."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f08",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: aires distribution et dépotage 'maintenues en bon état de propreté.' M08. G1."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: disposition point 4.2 (deux appareils incendie) non applicable installation existant avant 2003 (Annexe IV). M08 = conformité par non-applicabilité. G1."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: plusieurs réserves absorbant avec moyens mise en œuvre présentes. M08. G1."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f11",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: 4 extincteurs et 2 extinctions automatiques vérifiés par sondage (étiquettes 8/10/2024). M07. G1."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f12",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: 'modes opératoires n'étaient pas présents au niveau du poste de chargement des cuves.' M01 = document absent. G2 = NC documentaire."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f13",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: 2 dispositifs arrêt urgence présents. Test bon fonctionnement 12/03/2024 confirmé. M07+M08. G1."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f14",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: fonctionnement libre-service sans surveillance sans dispositif communication d'alerte. 'Ce point est non conforme.' M14 = absence dispositif physique. G3 = absence sécurité critique libre-service."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f15",
+    "domains": [
+      "D07_RETENTION",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: 3 séparateurs hydrocarbures avec obturateurs automatiques. Distances bouches égout estimées non inférieures à 5m. M08. G1."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f16",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: 3 séparateurs hydrocarbures curés régulièrement (bons de travail 2023 et 2024 consultés). M07. G1."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f17",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: aires étanches sans fissures visibles. Mais 2 bouches carburant E85 et SP95 'abîmées suite à un accident' avec muret, bouches mal orientées. Réparation en cours de commande. M14 = état physique dégradé accident. G2 = dégâts limités, pas de fuite confirmée."
+  },
+  {
+    "slug": "total-energies-marketing-france52064502024-10-2854203492103705f18",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Corps: BSD TrackDéchets consultés pour 2023 et 2024. 'La consultation des BSD n'apporte pas de commentaires particuliers.' M08. G1."
+  }
+]

@@ -1,0 +1,178 @@
+{
+  "total_audited": 40,
+  "errors_found": 12,
+  "corrections": [
+    {
+      "slug": "societe-petroliere-du-bec-d-ambes-spba52002642022-11-0930435072100052f02",
+      "field": "dynamic",
+      "hunter_value": "R02_PROMESSE",
+      "corrected_value": "R09_BLOCAGE_TIERS",
+      "reason": "Le texte ne contient aucun engagement direct de l'exploitant ('l'exploitant a indiqué/s'est engagé à'); l'exploitant est bloqué dans l'attente de l'étude de dangers d'un tiers (Liants Distribution), transmise via l'inspection. Signal clair de blocage par un tiers, pas une promesse de l'exploitant."
+    },
+    {
+      "slug": "societe-petroliere-du-bec-d-ambes-spba52002642022-11-0930435072100052f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M01_DOCUMENTATION",
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "Le constats_body décrit uniquement l'absence de formalisation de la quantité minimale acceptable de GNR (information non tracée). Le déficit physique de la cuve n°10 (620L vs 4200L) n'apparaît que dans le bloc Prescription (Obs 15), qui doit être ignoré pour la classification du mécanisme (règle générale #1 de la taxonomie: classifier sur constats_body UNIQUEMENT). Retrait de M14_CONSTAT_TECHNIQUE."
+    },
+    {
+      "slug": "societe-petroliere-du-bec-d-ambes-spba52002642023-02-0130435072100052f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07_CONTROLE",
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M07_CONTROLE",
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "L'absence de programme de maintenance préventif formalisé pour les DHL est une lacune documentaire (M01), pas une NC physique observée sur site: le seul constat terrain visible ('aucune vanne n'était en mode local') est positif. M14_CONSTAT_TECHNIQUE n'est pas justifié par le texte visible."
+    },
+    {
+      "slug": "societe-petroliere-du-bec-d-ambes-spba52002642023-02-0130435072100052f05",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "NC purement documentaire (absence de formalisation du programme de maintenance préventif), sans dimension physique confirmée dans le constats_body visible → G2, pas G3."
+    },
+    {
+      "slug": "societe-petroliere-du-bec-d-ambes-spba52002642024-03-2830435072100052f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "La demande ('L'exploitant transmet l'étude technico-économique...') ne comporte aucun délai chiffré dans le constats_body. m_DELAI retiré (pattern systématique: m_DELAI appliqué sans échéance numérique dans le texte)."
+    },
+    {
+      "slug": "societe-petroliere-du-bec-d-ambes-spba52002642024-03-2830435072100052f09",
+      "field": "domains",
+      "hunter_value": [
+        "D01_INCENDIE",
+        "D04_EAUX"
+      ],
+      "corrected_value": [
+        "D01_INCENDIE",
+        "D08_DECHETS"
+      ],
+      "reason": "D04_EAUX retiré (le texte ne porte pas sur les rejets aqueux/eaux); D08_DECHETS ajouté car le constat porte explicitement sur les 'questions en suspens sur les filières d'élimination de ces futurs déchets' (émulseurs PFOA à échéance)."
+    },
+    {
+      "slug": "societe-petroliere-du-bec-d-ambes-spba52002642024-03-2830435072100052f09",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M08_DECHETS"
+      ],
+      "corrected_value": [
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "Code invalide 'M08_DECHETS' dans le hunter output (M08 = M08_CONFORMITE; 'déchets' est un concept de domaine = D08_DECHETS). La situation n'est pas conforme ce jour (M08_CONFORMITE inapplicable): l'échéance réglementaire (4 juillet 2025) n'est pas encore atteinte et il n'y a pas de NC physique observée (les émulseurs actuels sont encore autorisés). Le constat porte sur des questions non résolues (filières d'élimination, programme d'action à transmettre) = lacune de planification/documentation → M01_DOCUMENTATION. M14_CONSTAT_TECHNIQUE retiré, aucune NC physique directement observée sur site."
+    },
+    {
+      "slug": "societe-petroliere-du-bec-d-ambes-spba52002642024-03-2830435072100052f09",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "NC administrative/documentaire (programme d'action et filières d'élimination à préciser), aucune dimension physique dégradée observée à ce jour → G2, pas G3."
+    },
+    {
+      "slug": "societe-petroliere-du-bec-d-ambes-spba52002642024-03-2830435072100052f09",
+      "field": "confidence",
+      "hunter_value": "high",
+      "corrected_value": "medium",
+      "reason": "Ajustement de la confiance après correction du code invalide et re-classification domaine/mécanisme/gravité — le cas reste à la frontière D01/D08 et M01."
+    },
+    {
+      "slug": "societe-petroliere-du-bec-d-ambes-spba52002642024-03-2830435072100052f10",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans échéance numérique dans le texte (pattern systématique). 'L'exploitant examine les fiches de données de sécurité...' — aucun délai chiffré dans le texte."
+    },
+    {
+      "slug": "societe-petroliere-du-bec-d-ambes-spba52002642024-03-2830435072100052f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans échéance numérique dans le texte (pattern systématique). 'L'exploitant s'assure que les PFAS analysés...' — aucun délai chiffré dans le texte."
+    },
+    {
+      "slug": "societe-petroliere-du-bec-d-ambes-spba52002642024-03-2830435072100052f12",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans échéance numérique dans le texte (pattern systématique). 'L'exploitant renseigne au fil de l'eau...' — formulation explicitement sans échéance, m_DELAI incompatible avec le texte."
+    },
+    {
+      "slug": "societe-petroliere-du-bec-d-ambes-spba52002642025-02-0630435072100052f04",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M01_DOCUMENTATION"
+      ],
+      "corrected_value": [
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "La mise en œuvre de la fiche réflexe a été vérifiée positivement sur le terrain ('Il a été vérifié la bonne mise en oeuvre de ces consignes'). Le manque relevé (absence de check-list, formation non formalisée) est une lacune documentaire/traçabilité, pas une NC physique observée. M14_CONSTAT_TECHNIQUE retiré."
+    },
+    {
+      "slug": "societe-petroliere-du-bec-d-ambes-spba52002642025-02-0630435072100052f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Aucun délai chiffré dans la demande ('L'exploitant met en place une check-list...', 'formalise les actions de formation...'). m_DELAI retiré."
+    },
+    {
+      "slug": "societe-petroliere-du-bec-d-ambes-spba52002642025-02-0630435072100052f04",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "NC purement documentaire (absence de check-list et de formation formalisée), sans dimension physique → G2, pas G3."
+    },
+    {
+      "slug": "societe-petroliere-du-bec-d-ambes-spba52002642025-02-0630435072100052f10",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans échéance numérique dans le texte (pattern systématique). 'L'exploitant transmet à l'inspection les stocks d'émulseur...' — aucun délai chiffré."
+    },
+    {
+      "slug": "societe-petroliere-du-bec-d-ambes-spba52002642025-02-0630435072100052f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans échéance numérique dans le texte (pattern systématique). 'L'exploitant élimine ces émulseurs et tient informé l'inspection...' — aucun délai chiffré."
+    },
+    {
+      "slug": "syndicat-intercommunal-du-bassin-d-arcachon-siba31020692024-11-1225330643500012f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "'Il est demandé à l'exploitant de saisir sa déclaration GEREP pour l'année 2024' — aucun délai chiffré (seule l'ouverture de la plateforme en janvier 2025 est mentionnée, ce n'est pas un délai imposé). m_DELAI retiré (pattern systématique)."
+    }
+  ],
+  "false_positive_rate": 0.3,
+  "error_patterns": "Deux patterns systématiques dominent, tous deux dans le cluster societe-petroliere-du-bec-d-ambes-spba (dossier Seveso volumineux avec de nombreuses demandes formelles courtes): (1) m_DELAI sur-appliqué — Hunter attache m_DELAI au stage S02_INJONCTION par réflexe dès qu'il y a une 'Demande à formuler à l'exploitant', même quand le texte ne contient aucun délai chiffré ('sous X mois/jours', 'dans un délai de'). 9 des 18 corrections retirent m_DELAI pour cette raison (f05, f10, f11, f12 du 24-03-28; f04, f10, f11 du 25-02-06; f04 du siba 24-11-12). Ce pattern était explicitement à vérifier (pattern b de la consigne) et s'est avéré fréquent dans ce batch. (2) M14_CONSTAT_TECHNIQUE sur-appliqué à partir du bloc Prescription/Obs ou pour des lacunes purement documentaires — 3 corrections (f03 du 22-11-09, f05 du 23-02-01, f04 du 25-02-06) retirent M14 quand le constats_body ne décrit qu'une absence de formalisation/traçabilité (M01) et non une NC physique directement observée; dans un cas le signal physique provenait du bloc Prescription (Obs 15), hors périmètre de classification autorisé par la règle générale #1 de la taxonomie. Un code invalide STRICT a été trouvé et corrigé: 'M08_DECHETS' (f09 du 24-03-28), un mécanisme inventé mélangeant M08_CONFORMITE et le domaine D08_DECHETS; le fiche décrivant des questions en suspens (filières d'élimination futures, échéance réglementaire non encore atteinte) ne correspond ni à une conformité constatée ni à une NC physique — corrigé en M01_DOCUMENTATION avec D08_DECHETS ajouté au domaine. Un cas de R02_PROMESSE mal attribué a aussi été trouvé (f02 du 22-11-09): le texte décrit un blocage par l'étude de dangers d'un tiers (Liants Distribution), pas un engagement propre de l'exploitant — corrigé en R09_BLOCAGE_TIERS. Les patterns (a) R10_TENSION mal utilisé et (c) m_MENACE sous-appliqué, explicitement recherchés, ne se sont PAS matérialisés dans ce batch: aucun R10_TENSION n'apparaît dans le hunter output, et les 3 usages de m_MENACE (tremy-jimmy MED récidive, precedemment-identifiee station-service, siba astreinte) correspondent tous à des menaces conditionnelles explicites ('s'expose à', 'sous peine de', 'astreinte proposée si') correctement détectées; un cas candidat supplémentaire (siba 24-11-12 f02, mention d'astreinte) s'est avéré être une levée de MED, pas une menace, et n'a pas nécessité de correction.",
+  "verdict": "Qualité globale bonne (taux d'erreur 30% sur l'échantillon audité, concentré presque exclusivement dans le sous-corpus SPBA à fiches courtes/formulaires répétitifs). Aucune erreur de type faux M08, mauvaise trajectoire, ou label multi-manqué détectée. La quasi-totalité des corrections relève d'un seul biais récurrent (m_DELAI attaché par défaut au stage S02_INJONCTION sans vérifier la présence d'une échéance chiffrée) et d'un second biais mineur (M14_CONSTAT_TECHNIQUE choisi par réflexe Seveso/MMR même sur des lacunes purement documentaires). Le code invalide connu (M08_DECHETS) a été corrigé conformément à la règle STRICT. final-73.json contient 130 enregistrements complets, validés par scripts/tag_status.py."
+}

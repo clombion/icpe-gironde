@@ -1,0 +1,2429 @@
+[
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492022-08-1741096483700083f05",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body: réfection de la clôture constatée en cours (majorité réalisée), zone sécurisée par barrières HERAS. Travaux quasi-conformes, seule une centaine de mètres restante justifiée par problème d'approvisionnement. Demande vide — signal fort de conformité partielle mais orientée M08. Clôture périmétrique = D11. Correction en cours = S03, amélioration = T3."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492022-08-1741096483700083f06",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'Non concerné / absence de déchets produits à l'exception des déchets métalliques de clôture et des déchets verts'. Constat de non-concernement = conformité de fait. Domaine D08 (déchets). La prescription porte sur l'avenir (évacuation), pas une NC constatée dans le corps."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492022-08-1741096483700083f07",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: l'exploitant n'a pas encore apporté d'éléments de réponse sur les pistes de réflexion (REX feu de forêt, mise à jour POI). Absence de document/retour d'expérience = M01. Delai 3 mois imposé = m_DELAI. NC purement documentaire/organisationnelle = G2. D03 (risque majeur, POI) + D01 (incendie forêt)."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492023-02-0141096483700083f01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body (inspection 01/02/2023): notice de réexamen quinquennal EDD complétée répond aux exigences. 'L'instruction de la notice de réexamen peut être clôturée.' Conformité constatée après suivi depuis inspection 25/05/2022 = M08. Clôture de la procédure = S06. T3 car amélioration depuis l'inspection précédente."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492023-02-0141096483700083f02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body (inspection 01/02/2023): cartographie plus précise transmise, 'Les moyens incendie ne sont pas vulnérables au vu du scénario E2. L'EDD et le POI du dépôt VERMILION de Cazaux sont en cohérence.' Conformité explicite = M08. Suivi d'un constat antérieur résolu = T3, clôture = S06."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492023-02-0141096483700083f03",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body (01/02/2023): 'il a pu être constaté le retour à un fonctionnement conforme de la MMR C'. 'La mise en demeure du 7 juillet 2022 est respectée.' Levée de MED = M08 + M04. Conformité constatée après NC grave (MMR inopérante). MED levée = S06. T3 car situation normalisée."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492023-02-0141096483700083f04",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body (01/02/2023): 'l'exploitant a apporté des éléments de réponse satisfaisants...il a pu être constaté sur site la prise en compte des remarques de l'inspection et la correction de ces différents points dans la fiche de vie de la MMR barrière 2.' Conformité constatée après correction = M08, T3."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492023-02-0141096483700083f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body (01/02/2023): dernier rapport de vérification APAVE transmis, 'le compte rendu de vérification Q18 conclut que l'installation électrique ne peut pas entraîner des risques d'incendie ou d'explosion.' 'L'arrêté de mise en demeure du 27/05/2021 est respecté.' Levée MED + conformité = M08+M04. D10+D02 (élec + ATEX)."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492023-09-2841096483700083f01",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE",
+      "D04_EAUX",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G6",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: incident du 26/09/2023 (feu, oxydateur hors service). Le texte contient trois demandes formelles numérotées ('DEMANDE 1: Vermilion communique, sous 15 jours...', DEMANDE 2, DEMANDE 3) = demande formelle avec délai explicite = S02_INJONCTION (le Hunter avait classé S01_CONSTAT malgré ce délai numérique). M11_INCIDENT (déclaration d'incident) + M14_CONSTAT_TECHNIQUE (oxydateur hors service, dégradation constatée) conservés. G6 (incident survenu) conservé. D01+D03+D04+D06."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492023-09-2841096483700083f02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'Le scénario accidentel de l'incident du 26/09/2023 n'est à ce jour pas pris en compte dans l'étude de dangers du site.' Absence d'intégration dans EDD = M01 (document non à jour). NC documentaire/formelle sur EDD = G2. Demande d'étude = injonction documentaire."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492023-09-2841096483700083f03",
+    "domains": [
+      "D03_SEVESO",
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'il n'a pu être consulté les documents relatifs à l'entretien et à la maintenance des équipements à l'origine de l'incident.' Absence de documents consultables = M01. NC documentaire = G2. Demande de transmission attestations ESP + procédures maintenance = injonction documentaire."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492024-04-1141096483700083f01",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body: analyse foudre remise à jour en 2023, bon de travail GMAO transmis sur liaisons équipotentielles, justification arrête-flammes fournie. Demande vide (tiret). Conformité constatée sur ces points = M08. Vérification de conformité = S04. T3 (actions réalisées vs inspection précédente)."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492024-04-1141096483700083f02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A05_ORGANISME",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'le contrôleur intervenu sur les dernières vérifications foudre ne semble pas être détenteur de la certification foudre suivant référentiel F2C.' Constat technique d'incertitude sur la qualification du prestataire = M14 (indirect, incertitude sur efficacité de la vérification). NC technique potentielle sur une MMR = G3. Acteur en cause = organisme (APAVE)."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492024-04-1141096483700083f03",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'la liste se limite aux centrales et aux détection H2S et incendie. Elle n'identifie pas toutes les mesures de maitrise des risques (chaine MMR)...de plus, l'ARF précise que la centrale H2S et incendie ne sont pas protégées.' NC technique sur protection foudre des MMR = M14. MMR non protégées = G3 min. D10+D03."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492024-04-1141096483700083f04",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: étude technique foudre conclut à la nécessité de travaux (paratonnerres, conducteurs, parafoudres). 'De nombreuses connexions et protections des conducteurs sont corrodées.' État physique dégradé = M14. Équipements de protection corrodés / travaux non encore réalisés = G3. D10."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492024-04-1141096483700083f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: notice de vérification et maintenance consultée, 'le document comprend les éléments minimaux exigibles'. Demande vide (besoin potentiel de mise à jour uniquement après travaux). Conformité documentaire = M08. D10."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492024-04-1141096483700083f06",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 1 NC liaison équipotentielle bacs B1 et B6 (physique), 5 NC en avis suspendu. Absence de suivi compteur foudre = 'exploitant n'est pas en capacité de déclencher la vérification...dans le délai maximal d'un mois.' Constat technique NC physique (liaison équipotentielle) = M14. Défaut de contrôle/suivi compteur = M07. NC physique = G3."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492024-04-1141096483700083f07",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body: travaux réhabilitation réseau EP réalisés. Fiche de vie détecteur HC mise à jour. 'Les contrôles avant rejet, réalisés trimestriellement, indiquent un respect du seuil fixé en hydrocarbures.' Demande vide. Conformité constatée sur tous les points = M08. D04+D07."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492024-04-1141096483700083f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body: autosurveillance GIDAF intègre bien plomb et cuivre, 'Ces paramètres sont détectés en faible concentration régulièrement, ils sont donc conservés dans le programme de surveillance.' Demande vide. Conformité au programme de surveillance = M08. D04."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492024-04-1141096483700083f09",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body: rapport d'accident transmis, actions correctives vérifiées sur site (oxydateur remis en service janv 2024, LSHH repositionné, clapet remplacé). 'La surveillance du réseau piézométrique ne met pas en évidence d'impact sur les eaux souterraines.' Suivi incident avec correction vérifiée = M11+M08. G3 car incident grave résolu, travaux constatés. T3."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492024-04-1141096483700083f10",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body: exploitant a justifié que les phénomènes dangereux existants couvrent l'incident, 'la mise à jour de l'étude de danger n'apparait pas nécessaire.' Demande vide. Conformité justifiée = M08. D03."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492024-04-1141096483700083f11",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body: 'Les documents demandés ont déjà été adressés à l'inspection ICPE par courriel en date du 03/10/2023.' Maintenance préventive intégrée GMAO. Demande vide. Conformité = M08. D10+D03."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492024-04-1141096483700083f12",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: émulseur contient des PFAS, interdit à partir de juillet 2025. 'L'exploitant a engagé le travail sur le remplacement.' NC technique sur produit non conforme (PFAS dans émulseur) = M14. Remplacement non encore effectué = G3 (dimension physique, produit interdit non remplacé). D01+D04 (incendie + risque PFAS aqueux)."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492024-04-1141096483700083f13",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "medium",
+    "reasoning": "Constats body: études phénomènes dangereux et protection tuyauteries DCI résolues ('pas d'observation'). Mais la nécessité de sécuriser l'approvisionnement en azote, déjà soulevée lors des inspections précédentes, reste sans réponse ('L'exploitant n'a pas apporté de réponse sur ce point'). Injonction active avec délai de 3 mois sur ce point résiduel = S02_INJONCTION (pas S04, la vérification ne porte que sur les points déjà résolus). Point non résolu depuis plusieurs inspections = T4_STAGNATION (pas T3, qui ne vaut que pour les points effectivement corrigés). M08 dominant conservé car majorité du constat est conforme. G2 (assurance d'approvisionnement = organisationnel, pas de dispositif physique en défaut observé)."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492024-04-1141096483700083f14",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: débroussaillement correct. Mais 'POI de l'exploitant (révision 9 - 01/2021)...est en cours de révision.' Demande de mise à jour POI sous 3 mois. NC documentaire (POI non mis à jour vs REX été 2022) = M01. NC documentaire = G2. D01+D03."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f01",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'le document disponible sur site n'était pas la dernière version à jour.' Document POI présent mais version obsolète sur site = constat technique de non-conformité physique (document opérationnel erroné en situation d'urgence). M14 (conformité apparente inopérante). G3 car enjeu opérationnel sur dispositif de sécurité (POI Seveso). Reste du constat conforme."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f02",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'L'exploitant réalise un exercice POI par an avec la présence du SDIS. Le dernier exercice datait du 12 juin 2024...compte rendu consulté; il analyse correctement le retour d'expérience.' Demande vide (pas de demande explicite). Conformité aux exercices POI = M08. D03+D01."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f03",
+    "domains": [
+      "D11_SECURITE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: attestations de formation du personnel Vermilion OK, mais 'L'exploitant n'a pas été en capacité de fournir les justificatifs de formation des agents de sécurité du dépôt.' Absence de document justificatif = M01. NC documentaire (formation agents sécurité, prestataire externe) = G2. D11."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f04",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'disponibilité des personnels (bonne réactivité du personnel Vermilion) ainsi que la présence et le bon fonctionnement des équipements de défense incendie.' Demande vide. Conformité constatée lors exercice POI inopiné = M08. D01+D03."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f05",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: exercice POI inopiné a mis en évidence que les agents de sécurité ne maîtrisent pas la fiche mission F0, boutons urgence salle contrôle mal identifiés. NC opérationnelle constatée physiquement lors de l'exercice = M14 (dispositif présent mais non opérationnel/inopérant). G3 (dispositif de sécurité inopérant = enjeu Seveso). D03+D11."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f06",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'Le POI du dépôt de Cazaux n'aborde pas le basculement de l'organisation de gestion de crise vers le Plan Particulier d'Intervention (PPI).' Absence d'un volet dans document = M01. NC documentaire dans POI = G2. D03."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f07",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: zones regroupement correctement positionnées, plan implantation moyens secours à jour, manche à air en bon état, stratégies d'intervention vérifiées lors exercice, équipements fonctionnels. Demande vide. Conformité complète = M08. D03+D01."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f08",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: logigramme d'alerte présent et testé, moyens d'alerte opérationnels (sirène testée). Seule NC: 'nécessité de vérifier l'exactitude des numéros de téléphone affichés...et inscrits dans la procédure'. Il s'agit d'une inexactitude potentielle dans un document/affichage (numéros de téléphone), pas d'un constat physique — M01_DOCUMENTATION (obsolescence potentielle d'un document), pas M14. NC purement documentaire = G2. D03."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f09",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: plan du site à jour présent, mais 'toutes les zones d'effets identifiées dans l'étude de dangers ne sont pas reprises dans le POI.' Absence/lacune documentaire dans POI = M01. NC documentaire = G2. D03."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f10",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'Le POI intègre le risque de propagation d'un incendie sur le dépôt à la forêt et inversement. Les mesures à mettre en œuvre sont reprises dans une fiche spécifique.' Demande vide. Conformité = M08. D03+D01."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f11",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'Le POI du dépôt ne comprend pas de volet mesures post accident du type remise en état et nettoyage de l'environnement.' Absence de volet documentaire = M01. NC documentaire = G2. D03."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f12",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: données stocks exprimées en mm au lieu de volume (peu exploitable par SDIS). 'L'état des stocks n'est pas référencé dans le POI.' Absence de référencement dans POI = M01. NC documentaire = G2. D03."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f13",
+    "domains": [
+      "D01_INCENDIE",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: moyens de lutte incendie disponibles et adéquats pour le scénario bac 6 (conforme). MAIS 'le POI ne présente pas de cartographies sur les autres installations notamment les tuyauteries' — lacune documentaire identifiée dans le POI, avec demande formelle sous 3 mois d'examiner l'ajout de ces cartographies. C'est une NC documentaire (absence de cartographies dans le POI) = M01_DOCUMENTATION, pas M08 (le Hunter a manqué la NC en se focalisant sur le point conforme). Demande formelle avec délai = S02_INJONCTION (pas S01). NC factuelle = R14_NEUTRE_NC (pas R13). G2 (lacune documentaire du POI, pas de dimension physique). D03."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f14",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: liste des substances en POI présente, rapport TAWN sur stratégie prélèvements transmis, méthode conforme à l'avis DGPR. Demande vide (observation uniquement — rassembler les données). Conformité = M08. D03+D01."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f15",
+    "domains": [
+      "D03_SEVESO",
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'Le POI présente les substances recherchées, le mode de prélèvements, le matériel nécessaire, la méthode analytique...intègre les cartes avec les points de prélèvements.' Demande vide (observation non contraignante). Conformité = M08. D03+D05."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f16",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: contrat SOCOTEC en cours de contractualisation (devis signé 16/05/2025). 'Le POI n'intègre pas encore cette phase opérationnelle avec SOCOTEC.' Document POI incomplet = M01. NC documentaire = G2. D03."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f17",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'La dernière notice de réexamen...a été remis en avril 2021. Les échéances réglementaires n'étaient pas encore applicables.' Demande de rajouter la liste des produits de décomposition lors du prochain réexamen. NC documentaire future = M01. G2. D03."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f18",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'correct entretien des broussailles à l'intérieur et dans la bande des 5 m en périphérie du site.' Exploitant a programmé débroussaillement avant période estivale. Demande vide. Conformité débroussaillement = M08. D01."
+  },
+  {
+    "slug": "vermilion-rep-s-a-s-la-teste-de-buch52013492025-07-0241096483700083f19",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body: émulseur PFAS 4700L présent, mais 'L'exploitant a programmé le remplacement de son émulseur pour respecter l'échéance de décembre 2025. Il a déjà identifié son émulseur de substitution sans PFAS.' L'exploitant est en avance sur le remplacement, travail proactif sur protocole nettoyage. Démarche anticipatoire = R01. Produit encore PFAS mais plan concret = G2 (dimension documentaire/transitoire). M08 car conformité en cours d'approche. D01+D04."
+  },
+  {
+    "slug": "veynat-s-a-r-l52013652024-06-2830135172200014f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Constats body: déclarations GIDAF mois de février et mars 2024 présentent dépassements DCO et température (66-76°C pour VLE 30°C, DCO 2270-3570 mg/l). 'le jour de la visite l'exploitant indique pourtant que les effluents aqueux sont conformes.' Dépassements VLE confirmés = M14 (constat technique, mesures objectives). Reporting GIDAF incohérent = M03. T4: contexte de dépassements récurrents (déjà signalés en 2021). G3 (dépassements constatés, dimension technique)."
+  },
+  {
+    "slug": "veynat-s-a-r-l52013652024-06-2830135172200014f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Constats body: suite à plainte pour pollution, l'inspection constate des bassins de décantation non imperméabilisés et un point de rejet n°3 'non accessible facilement, recouvert de broussaille... non conforme' — NC physique = M14. La demande formelle liste aussi des documents manquants (FDS du produit de lavage, plan des réseaux, BSD/attestations de curage) = M01 (multi-label manqué par le Hunter). Délais explicites: 'Sous un délai de 15 jours' puis 'Sous un délai de 1 mois' = S02_INJONCTION + m_DELAI (le Hunter avait laissé S01_CONSTAT sans modificateur malgré des délais numériques explicites). G3 conservé (bassins non imperméabilisés, infiltration possible). D04+D07 conservés."
+  },
+  {
+    "slug": "veynat-s-a-r-l52013652024-06-2830135172200014f03",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'Le jour de l'inspection, l'effluent présent dans le premier bassin était mousseux et odorant. Il est constaté une infiltration d'un effluent potentiellement pollué dès le premier bassin.' Bassins non imperméabilisés = NC physique avec infiltration constatée = M14. G3 (infiltration effective dans sol). D04+D07."
+  },
+  {
+    "slug": "veynat-s-a-r-l52013652024-06-2830135172200014f04",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'Le dispositif d'obturation du premier bassin tampon n'est ni clairement indiqué ni facilement accessible...Aucune signalisation permettant d'indiquer sa présence et son mode de fonctionnement n'est présente. Ce point est non conforme et fait l'objet d'une mise en demeure.' MED active + NC technique (dispositif physique inaccessible/non signalisé) = G4. M14+M04. D07. Escalade = MED prise."
+  },
+  {
+    "slug": "veynat-s-a-r-l52013652025-07-1130135172200014f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R10_TENSION",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Constats body: plan réseaux transmis révèle canalisation 'shunt' des bassins vers réseau EP communal. Constat physique: 'un écoulement en provenance de l'entreprise VEYNAT au droit du regard R1...une canalisation traversant visiblement la route départementale.' L'exploitant prétend la canalisation bouchée au béton. L'inspection émet des doutes. Tension sur les données/constats = R10. NC technique physique constatée (canalisation vers EP) = M14. G3. T4 (pollution récurrente, contexte 2021-2025)."
+  },
+  {
+    "slug": "veynat-s-a-r-l52013652025-07-1130135172200014f02",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body: 'il est constaté la présence d'une entreprise spécialisée et le début des travaux d'imperméabilisation et d'agrandissement des bassins. Ce point n'appelle pas de commentaire de la part de l'inspection.' Travaux engagés spontanément = R01. Conformité en cours = M08. T3. D04+D07."
+  },
+  {
+    "slug": "veynat-s-a-r-l52013652026-02-2730135172200014f01",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: FDS organisées via outil informatique partagé, chef d'atelier connaît l'outil. Demande vide. Conformité gestion FDS = M08. D11."
+  },
+  {
+    "slug": "veynat-s-a-r-l52013652026-02-2730135172200014f02",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: FDS consultées conformes, formation annuelle dispensée. Mais 'l'exploitant n'a pas pu montrer la FDS relative au carburant Bioéthanol 95.' Absence d'une FDS = M01. NC documentaire = G2. D11."
+  },
+  {
+    "slug": "veynat-s-a-r-l52013652026-02-2730135172200014f03",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body: 'Seule une cuve de fioul est externe au sein d'une rétention maçonnée. Celle-ci était remplie d'eau le jour de l'inspection ne permettant de jouer son rôle en cas de déversement.' Rétention physiquement inopérante (pleine d'eau) = M14. G3 (rétention non fonctionnelle = risque potentiel). Mais correction immédiate le jour même par l'exploitant = R01. T3."
+  },
+  {
+    "slug": "veynat-s-a-r-l52013652026-02-2730135172200014f04",
+    "domains": [
+      "D08_DECHETS",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'une palette de 33x22kg d'acide périmé a été constatée dans le hangar...l'exploitant explique qu'il s'agit d'une erreur de commande et doit être évacué. La palette est bien sur une rétention séparée des produits alcalins.' Constat de déchet en attente d'évacuation = M14 (constat terrain de déchets présents). Rétention séparée donc risque limité = G2. D08+D07."
+  },
+  {
+    "slug": "veynat-s-a-r-l52013652026-02-2730135172200014f05",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'L'état des stocks n'est pas disponible facilement. Il repose sur l'historique des commandes et la connaissance des différents responsables...n'a pu être établi le jour de l'inspection.' Absence de document formalisé = M01. NC documentaire = G2. D11."
+  },
+  {
+    "slug": "videau-philippe-ex-dlb31017872025-11-03nosiretf01",
+    "domains": [
+      "D08_DECHETS",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE",
+      "M05_SANCTION"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T5_AGGRAVATION",
+    "confidence": "high",
+    "reasoning": "Constats body: centre VHU illégal + dépôt massif de déchets. 'Une amende...sera prise si les déchets ne sont pas évacués sous trois mois' = avertissement conditionnel (menace de sanction financière conditionnée à la non-évacuation) = m_MENACE. MED déjà prescrite (M04), constat physique massif (M14), amende conditionnelle (M05+m_MENACE). G4, T5, D08+D12 conservés."
+  },
+  {
+    "slug": "videau-philippe-ex-dlb31017872025-11-03nosiretf02",
+    "domains": [
+      "D08_DECHETS",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M05_SANCTION"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T5_AGGRAVATION",
+    "confidence": "high",
+    "reasoning": "Constats body: 'nette dégradation de la parcelle'. Même clause d'amende conditionnelle reprise: 'sera prise si les déchets ne sont pas évacués sous trois mois' = avertissement conditionnel = m_MENACE. M14+M05, G4, T5, D08+D12 conservés."
+  },
+  {
+    "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f01",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'les déchets de curage des réseaux d'eaux pluviales et des séparateurs d'hydrocarbures du site ne faisaient pas l'objet de BSD ni papiers ni sous Trackdéchets.' Absence de saisie Trackdéchets pour certains déchets = M03 (reporting numérique Trackdéchets). NC documentaire = G2. D08."
+  },
+  {
+    "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f02",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'les mouvements tracés sur le RNDTS ne sont pas exhaustifs dans la mesure où les évacuations de déchets provenant du curage des réseaux / séparateurs ne font pas l'objet de BSD.' Lacune RNDTS/Trackdéchets = M03. NC documentaire = G2. D08."
+  },
+  {
+    "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f03",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'Les registres chronologiques DD (via le RNDTS) sont renseignés sur Trackdéchets. Trackdéchets complète les données dans le RNDTS.' Demande vide (renvoi à fiche précédente). Conformité au registre = M08. D08."
+  },
+  {
+    "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f04",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'L'exploitant n'est actuellement pas concerné par cette disposition du fait de l'absence de terres excavées (TEX) et de sédiments admis au sein de son établissement actuellement.' Non-concernement = conformité de fait = M08. D08."
+  },
+  {
+    "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f05",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'A date, l'exploitant n'est pas concerné par les dispositions supra du fait qu'aucune excavation de terres et/ou de sédiments n'a eu lieu.' Non-concernement = M08. D08."
+  },
+  {
+    "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f06",
+    "domains": [
+      "D04_EAUX",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 3 séparateurs hydrocarbures présents. 'la périodicité annuelle minimale de nettoyage des séparateurs à hydrocarbures n'était pas respectée.' Dernier curage mai 2022 — périodicité non respectée = M07. NC documentaire/périodique = G2. D04+D08."
+  },
+  {
+    "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f07",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: déchets amiante rarement entreposés sur site. Collecte directement sur lieu de production. 'Absence d'amiante sur site.' Demande vide. Conformité de fait = M08. D08."
+  },
+  {
+    "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f08",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'il a été constaté le respect de prescriptions suscitées ; en outre, l'ensemble des zones d'entreposage de déchets et/ou de traitement est réalisé sur un sol imperméable.' Demande vide. Conformité = M08. D08."
+  },
+  {
+    "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f09",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: amiante entreposé temporairement dans benne métallique couverte si besoin. Absence actuelle d'amiante sur site. Demande vide. Conformité = M08. D08."
+  },
+  {
+    "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: défense incendie insuffisante (absence de poteaux incendie publics, absence de réserve incendie de 240 m³). 'L'absence de réalisation des actions suscitées expose l'exploitant à des suites administratives de type mise en demeure' = avertissement conditionnel explicite, précurseur de MED = m_MENACE (manqué par le Hunter). M14, G3, S02_INJONCTION, D01 conservés."
+  },
+  {
+    "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f11",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: absence de vanne d'isolement du bassin de confinement des eaux d'extinction incendie. 'L'absence de réalisation des actions supra expose l'exploitant à des suites administratives de type mise en demeure' = avertissement conditionnel explicite = m_MENACE. M14, G3, S02_INJONCTION, D07 conservés."
+  },
+  {
+    "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f12",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'la distance minimale des 50 mètres était respectée.' Demande vide. Conformité = M08. D08."
+  },
+  {
+    "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f13",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M10_GARANTIES"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'l'exploitant a indiqué ne pas avoir mis à jour le calcul du montant acté dans l'AP de mars 2018...la mise à jour aurait dû être présentée avant mars 2023.' Retard quinquennal de mise à jour garanties financières = M10. NC documentaire = G2. D12."
+  },
+  {
+    "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f14",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body: 22 fûts constatés lors contrôles 2022-2023, 'lors de la présente inspection, il ne restait plus que 4 fûts...les fûts restants ont été ouverts et il s'avère que le contenu de ces derniers n'était que de l'eau.' Nette amélioration, quasi-conformité = M08. T3. G1. D08."
+  },
+  {
+    "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f15",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: analyse du classement rubrique 3532 — activités examinées en détail, conclusion que l'établissement 'n'est donc pas soumis à ce jour à cette rubrique IED.' Vérification de seuil/classement ICPE = M17. Conformité = G1. D12."
+  },
+  {
+    "slug": "voila-saint-jean-d-illac52090932023-07-1138120396700066f16",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: cuves aériennes 50m3 gasoil. 'l'inspection a permis de confirmer ce point notamment du fait de l'absence de système de détection de fuite apparent au droit de ces cuves...les rétentions maçonnées disposaient d'une vanne de vidange en point bas dont il convient de s'assurer de la position fermée en toutes circonstances.' NC physique: absence détection fuite + vanne potentiellement ouverte = M14. G3 (équipement non conforme physiquement). D07."
+  },
+  {
+    "slug": "walor-bordeaux52057842022-10-2592217392700018f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'L'installation de traitement des eaux est en place depuis le 1/02/2022.' Demande vide. Conformité constatée = M08. D04."
+  },
+  {
+    "slug": "walor-bordeaux52057842022-10-2592217392700018f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: GIDAF opérationnel depuis mai 2022. Mais les valeurs quotidiennes ne sont pas renseignées (valeurs mensuelles à la place). 'les analyses mensuelles ne sont pas toujours renseignées dans l'application.' Mauvaise saisie GIDAF = M03. NC documentaire/reporting = G2. D04."
+  },
+  {
+    "slug": "walor-bordeaux52057842022-10-2592217392700018f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: dépassements récurrents VLE micropolluants (nickel, zinc, argent, fluoranthène). 'L'exploitant transmet un plan d'actions étayé avec des délais de mise en œuvre sous un mois' — délai numérique explicite manqué par le Hunter (modifiers vide). Ajout de m_DELAI. M14_CONSTAT_TECHNIQUE, G3, S02_INJONCTION conservés. D04."
+  },
+  {
+    "slug": "walor-bordeaux52057842022-10-2592217392700018f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: dépassements multiples VLE macropolluants (azote 178 mg/l vs 75, phosphore 13,5 vs 10, MES 347 vs 200, DCO 2899 vs 1500, hydrocarbures 47 vs 5). 'non-conformité susceptible de conduire à des sanctions administratives.' Dépassements mesurés = M14. G3 (dépassements importants multi-paramètres). D04."
+  },
+  {
+    "slug": "walor-bordeaux52057842022-10-2592217392700018f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: contrôle inopiné DREAL à organiser en 2022 comme mesure comparative. 'L'exploitant doit cependant programmer ce contrôle pour les autres années.' Manque de programmation du contrôle comparatif = M07. NC organisationnelle/documentaire = G2. D04."
+  },
+  {
+    "slug": "walor-bordeaux52057842022-10-2592217392700018f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'Les rejets annuels sont conformes et dans l'ordre de grandeur des années précédentes.' Demande vide. Conformité = M08. D04."
+  },
+  {
+    "slug": "walor-bordeaux52057842025-06-1292217392700018f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: seul l'émissaire de la grenailleuse Shlick n'est plus en service (ferraillée), remplacée par une nouvelle ferrailleuse WheelBrator installée en 2018 et surveillée. Aucune demande formulée, texte purement informatif. Conformité de fait = M08. D05."
+  },
+  {
+    "slug": "walor-bordeaux52057842025-06-1292217392700018f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: rejet n°1 (2022) conforme, rejet n°5 (2023) conforme, rejet n°8 (2024) conforme. Mais 'La dernière mesure [rejet n°3] a été réalisée en 2018. L'exploitant est en retard de surveillance sur ce point de rejet.' Retard de contrôle périodique = M07. NC documentaire = G2. D05."
+  },
+  {
+    "slug": "walor-bordeaux52057842025-06-1292217392700018f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: consommation eau conforme, suivi journalier assuré. 'L'exploitant est en mesure de justifier d'une réduction de prélèvement d'eau d'au moins 20% depuis 2018.' Évaluation proactive de conformité AM sécheresse produite spontanément = R01. M08. D04."
+  },
+  {
+    "slug": "walor-bordeaux52057842025-06-1292217392700018f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'un dépassement sur le paramètre MES est relevé sur la mesure d'octobre 2024 au point SREP4 à 98 mg/l pour 30 mg/l, soit supérieur à 2 x VLE.' Dépassement isolé justifié par chantier dépollution. NC mesurée = M14. G2 (contexte justifié, dépassement probablement conjoncturel). D04."
+  },
+  {
+    "slug": "walor-bordeaux52057842025-06-1292217392700018f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'Les mesures réalisées ont été réalisées en juin et octobre 2024. L'ensemble des paramètres visés est mesuré et est conforme.' Demande vide. Conformité = M08. D04."
+  },
+  {
+    "slug": "walor-bordeaux52057842025-06-1292217392700018f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Constats body: 'Sur l'année 2024, l'analyse des résultats met en évidence de multiples dépassements concernant les paramètres physico-chimiques, les macro-polluants et les micro-polluants.' Nickel > 2x VLE sur toutes les mesures mensuelles (max 44 mg/l pour VLE 5 mg/l). Dépassements multiples mesurés = M14. G3 (dépassements persistants multi-paramètres). T4 (déjà constaté en 2022, toujours en cours malgré plan d'action). D04."
+  },
+  {
+    "slug": "walor-bordeaux52057842025-06-1292217392700018f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Constats body: rapports d'entretien des séparateurs transmis post-inspection, 'n'appellent aucun commentaire de l'inspection'. Le programme de maintenance a aussi été transmis post-inspection, si bien que 'l'inspection n'a donc pas été en mesure de vérifier la mise en œuvre effective du programme de maintenance' lors de la visite. Aucune 'Demande à formuler' ni délai numérique dans le texte — simple observation/limite du contrôle, pas une injonction formelle = S01_CONSTAT (pas S02). M07_CONTROLE conservé (limite de vérification sur le programme de maintenance). G2, D04 conservés."
+  },
+  {
+    "slug": "walor-bordeaux52057842025-06-1292217392700018f08",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: vannes motorisées présentes et opérationnelles, mais 'l'exploitant n'a pas été en mesure de justifier de l'asservissement de ces vannes à la détection incendie du site, ni de la réalisation des tests annuels de fonctionnement.' Impossibilité de démontrer asservissement = M14 (incertitude technique). Absence de tests annuels = M07. G3 (dispositif de sécurité dont l'efficacité n'est pas démontrée). D04+D01."
+  },
+  {
+    "slug": "walor-bordeaux52057842025-06-1292217392700018f09",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'La visite sur site a permis de constater que l'implantation et l'organisation de l'aire déchet respectait les dispositions fixées à l'article 5.1.3.' Demande vide. Conformité = M08. D08."
+  },
+  {
+    "slug": "warning52085722024-02-2656201377100687f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: cessation notifiée de la rubrique 1510 mais activité poursuivie sans inventaire justificatif. 'En l'absence de réponse ou en cas de stockage supérieur à 500 tonnes...des suites administratives, de type mise en demeure, pourront être prises' = avertissement conditionnel explicite = m_MENACE (manqué par le Hunter). M17+M01, G2, S02_INJONCTION, D12 conservés."
+  },
+  {
+    "slug": "warning52085722024-02-2656201377100687f02",
+    "domains": [
+      "D05_AIR_BRUIT",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Constats body: nuisances sonores constatées (mesures 2021: émergence 13 dBA vs VLE 4 dBA). 'aucune mesure de ce type [pérenne] n'était prise.' Constat de NC acoustique toujours en place sans correction = M14. G2 (nuisances sonores = NC technique mais sans risque majeur immédiat). T4 (même constat depuis 2021)."
+  },
+  {
+    "slug": "warning52085722024-11-2056201377100687f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Constats body: deuxième inspection, toujours pas d'inventaire fiable transmis malgré relances. 'Faute de transmission, il sera considéré que l'activité relève toujours de la rubrique 1510...un projet de mise en demeure est proposé' = avertissement conditionnel explicite (faute de + conséquence MED) = m_MENACE (manqué par le Hunter). M17+M01, G3, S05_ESCALADE, T4, D12 conservés."
+  },
+  {
+    "slug": "warning52085722024-11-2056201377100687f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G2",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Constats body: 'aucune nouvelle mesure, autre qu'organisationnelle, n'a été déployée sur le site depuis la dernière inspection.' NC acoustique persistante sans correction effective = M14. T4 (identique depuis 2021). G2. Escalade (contexte MED projetée)."
+  },
+  {
+    "slug": "warning52085722025-10-2356201377100687f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body: état des stocks présenté (98 148 kg), racks peu remplis, surveillance périodique opérée. 'il peut donc désormais être acté que le site ne relève plus des installations classées...La mise en demeure peut ainsi être levée.' Levée MED = M08+M04. Conformité = G1. T3. D12."
+  },
+  {
+    "slug": "wine-s-link-france31051092023-07-3184821897000012f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'présence d'une mezzanine et mise en place d'un stockage de masse qui n'étaient pas prévus dans le dossier d'enregistrement initial...un seul bassin EP au lieu de deux. Ces modifications n'ont pas fait l'objet d'un porter à connaissance.' Absence de PAC pour modifications notables = M09. NC documentaire/administrative = G2. D12."
+  },
+  {
+    "slug": "wine-s-link-france31051092023-07-3184821897000012f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'L'exploitant n'a pas été en mesure de présenter les différents justificatifs des dispositions constructives lors de l'inspection.' Absence de documents justificatifs (REI, A2s1d0) = M01. NC documentaire = G2. D01."
+  },
+  {
+    "slug": "wine-s-link-france31051092023-07-3184821897000012f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'L'exploitant n'a pas été en mesure de présenter les justifications afférent au désenfumage lors de l'inspection.' Absence de justificatifs désenfumage = M01. NC documentaire = G2. D01."
+  },
+  {
+    "slug": "wine-s-link-france31051092023-07-3184821897000012f04",
+    "domains": [
+      "D11_SECURITE",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'des pots de fleurs en béton barraient une partie de la voie.' Voie engins physiquement obstruée = M14. G3 (obstruction d'une voie de secours = risque potentiel pour intervention SDIS). D11+D01."
+  },
+  {
+    "slug": "wine-s-link-france31051092023-07-3184821897000012f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'l'inspection a pu constater que le stockage en masse respectait les prescriptions...l'exploitant ne stocke aucun produit relevant de la rubrique 2662 ou 2663, ni aucun produit inflammables.' Demande vide. Conformité = M08. D01."
+  },
+  {
+    "slug": "wine-s-link-france31051092023-07-3184821897000012f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'la détection d'un incendie doit automatiquement déclencher le compartimentage...en outre, l'exploitant n'a pas été en mesure d'indiquer si l'alarme se déclenchait en cas de détection par les portes.' NC technique sur système détection/compartimentage = M14. G3 (dispositif de sécurité incendie potentiellement inopérant). D01."
+  },
+  {
+    "slug": "wine-s-link-france31051092023-07-3184821897000012f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: poteau incendie, deux réserves 120m3, aires de stationnement présents et vérifiés. 'La visite du site a permis de confirmer la présence du poteau, des deux réserves et des aires de mise en stationnement.' Demande vide. Conformité = M08. D01."
+  },
+  {
+    "slug": "wine-s-link-france31051092023-07-3184821897000012f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R09_BLOCAGE_TIERS",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: poteau débit conforme, portes coupe-feu vérifiées (mais références non correspondantes). 'la conformité des RIA n'a pas été contrôlée. L'exploitant a indiqué qu'un litige entre l'installateur et la société de maintenance était en cours.' RIA non maintenus = M07+M14. Blocage dû à litige tiers = R09. G3 (RIA non vérifiés = équipement incendie potentiellement hors service). D01."
+  },
+  {
+    "slug": "wine-s-link-france31051092023-07-3184821897000012f09",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: batardeaux manuels présents sur site. Mais 'Cette procédure n'a pas été mise en place par l'exploitant.' Absence de procédure et de formation pour mise en place batardeaux = M01. NC documentaire = G2. D04+D01."
+  },
+  {
+    "slug": "wine-s-link-france31051092023-07-3184821897000012f10",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 'L'exploitant n'a pas été en mesure...d'indiquer l'emplacement du séparateur d'hydrocarbures. Ceci est susceptible de constituer une non-conformité.' Incertitude sur l'existence/l'emplacement d'un dispositif de protection des eaux = M14 (heuristique incertitude 'n'a pas pu préciser'). Demande avec délais explicites (15 jours puis 2 mois conditionnel) = S02_INJONCTION + m_DELAI. G3 car dispositif de protection potentiellement absent. D04."
+  },
+  {
+    "slug": "wine-s-link-france31051092024-03-2884821897000012f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body: PAC déposé en février 2024, correspond bien à l état installation et permet d en apprécier les risques. Instruction distincte. Conformité = M08. T3 (régularisation de la NC PAC constatée en 2023). D12."
+  },
+  {
+    "slug": "wine-s-link-france31051092024-03-2884821897000012f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Constats body: justificatifs constructifs en majorité satisfaisants. Mais porte/fenêtre bureau quai séparant cellules 1 et 3 + fenêtre entre bureaux et cellule 3 sans justificatif tenue au feu. NC physique: éléments constructifs sans certification coupe-feu vérifiable = M14. G3 (éléments coupe-feu non démontrés). T4 (issue directe de 2023)."
+  },
+  {
+    "slug": "wine-s-link-france31051092024-03-2884821897000012f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body: documents désenfumage fournis constituent des justificatifs satisfaisants. Demande vide. Conformité = M08. T3 (résolution NC 2023). D01."
+  },
+  {
+    "slug": "wine-s-link-france31051092024-03-2884821897000012f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body: portes coupe-feu avec détecteurs fumées distincts actionnant fermeture = conformes aux critères d acceptabilité du guide inspection ICPE. Demande vide. Conformité = M08. T3. D01."
+  },
+  {
+    "slug": "winterstein-francois-parempuyre-99-b-rue-des-palus-11002950572025-07-0289299917800015f01",
+    "domains": [
+      "D08_DECHETS",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE",
+      "M05_SANCTION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R11_PENAL",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: centaine de VHU sur 9520 m2 sans enregistrement. Propos menaçants proférés envers l'inspection, repris dans un 'procès verbal adressé à Monsieur le Procureur' — un PV relève de M05_SANCTION ('PV' est listé explicitement sous M05), pas de M11_INCIDENT (qui concerne les déclarations d'incident/accident par l'exploitant, absent ici). 'En cas d'absence de retrait des VHU, un tel dossier sera réclamé et des sanctions financières seront prises' = avertissement conditionnel = m_MENACE (manqué par le Hunter). MED proposée (M04), constat terrain massif (M14). G4, T1, D08+D12 conservés."
+  },
+  {
+    "slug": "winterstein-francois-parempuyre-99-b-rue-des-palus-21002962942025-07-0289299917800015f01",
+    "domains": [
+      "D08_DECHETS",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE",
+      "M05_SANCTION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R11_PENAL",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 60-80 VHU sur 2700 m2 sans enregistrement. Mêmes propos menaçants repris dans un procès-verbal adressé au Procureur = M05_SANCTION (manqué par le Hunter, multi-label). 'En cas d'absence de retrait des VHU un tel dossier [d'enregistrement] pour[ra] être réclamé' = avertissement conditionnel = m_MENACE (manqué). MED proposée (M04), constat terrain (M14). G4, T1, D08+D12 conservés."
+  },
+  {
+    "slug": "winterstein-james1002894952025-04-09nosiretf01",
+    "domains": [
+      "D08_DECHETS",
+      "D12_ADMIN",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M05_SANCTION"
+    ],
+    "modifiers": [],
+    "dynamic": "R11_PENAL",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: 55 VHU + 72 moteurs + 200 pneus, activité illégale sans RCS ni enregistrement. 'Un procès-verbal est transmis en ce sens à monsieur le Procureur' — un PV relève de M05_SANCTION (explicitement listé sous M05), pas de M11_INCIDENT (qui concerne les déclarations d'incident/accident par l'exploitant, absent ici). Constat terrain massif = M14. R11_PENAL, G4, S05_ESCALADE, D08+D12+D06 conservés."
+  },
+  {
+    "slug": "winterstein-james1002894952025-04-09nosiretf02",
+    "domains": [
+      "D08_DECHETS",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M05_SANCTION"
+    ],
+    "modifiers": [],
+    "dynamic": "R11_PENAL",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: M. Winterstein détenteur des déchets illégaux. 'Un procès verbal de constatations est transmis au procureur de Gironde' = M05_SANCTION (PV), pas M11_INCIDENT. Pollution sols via liquides VHU, atteinte grave L.511-1. M14 (constat terrain), R11_PENAL, G4, D08+D06 conservés."
+  },
+  {
+    "slug": "world-fuel-services52060722023-02-2881944141100017f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: rapports de contrôle périodique (rubriques 1434, 4734) transmis, mentionnant des NC majeures et autres NC. 'L'exploitant a présenté lors de l'inspection le projet de réponse à l'organisme de contrôle...Observations: L'exploitant prend les dispositions nécessaires afin de se mettre en conformité.' Aucun délai numérique ni demande formelle explicite dans le texte = S01_CONSTAT (pas S02), et m_DELAI retiré (aucun délai chiffré). M07_CONTROLE (NC majeures constatées lors du contrôle périodique), G3 conservés. D12."
+  },
+  {
+    "slug": "world-fuel-services52060722023-02-2881944141100017f02",
+    "domains": [
+      "D12_ADMIN",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Constats body: MED pour utilisation réservoirs mobiles comme stockage fixe. EDD déposée mais compléments demandés, instruction en cours. MED ne peut être levée à ce stade. MED active = M04. EDD en cours sans levée MED = T4/G3. D12+D03."
+  },
+  {
+    "slug": "world-fuel-services52060722023-02-2881944141100017f03",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: exploitant capable de fournir état des stocks. Informatisé, suivi quotidien possible par cuves et par ravitailleur. Demande vide. Conformité = M08. D03."
+  },
+  {
+    "slug": "world-fuel-services52060722023-02-2881944141100017f04",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: installation dispose de plusieurs accès pour intervention SDIS. Les secours peuvent aussi intervenir de l extérieur. Demande vide. Conformité = M08. D11."
+  },
+  {
+    "slug": "world-fuel-services52060722023-02-2881944141100017f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: vérification électrique APAVE: 9 observations dont 7 récurrentes. Certains points non réalisés. Exploitant doit corriger et compléter les vérifications manquantes. NC récurrentes lors contrôle périodique + vérifications manquantes = M07. G3 (7 observations récurrentes + risque incendie/explosion mentionné). D10+D02."
+  },
+  {
+    "slug": "world-fuel-services52060722023-02-2881944141100017f06",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: essais du dispositif de coupure générale réalisés mensuellement. Registre vu. Demande vide. Conformité = M08. D10."
+  },
+  {
+    "slug": "world-fuel-services52060722023-02-2881944141100017f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: extincteur CO2 présent à proximité tableau électrique. Évacuation rapide véhicules traitée dans instruction EDD en cours. Demande vide (point traité dans EDD). Conformité partielle = M08. D01."
+  },
+  {
+    "slug": "world-fuel-services52060722023-02-2881944141100017f08",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: modes opératoires présents au niveau de chaque poste de chargement et de distribution. Demande vide. Conformité = M08. D11."
+  },
+  {
+    "slug": "world-fuel-services52060722023-02-2881944141100017f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: absorbant présent à plusieurs endroits, stocké dans bac protégé des intempéries par couvercle. Demande vide. Conformité = M08. D01."
+  },
+  {
+    "slug": "world-fuel-services52060722023-02-2881944141100017f10",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: baril FSII sans capacité de rétention individuelle. Zone équipée d une cuve de rétention enterrée de plusieurs m3. Écart classé susceptible de suite. NC physique (pas de rétention propre au produit) mais atténuée par rétention zone = M14. G2 (NC technique avec atténuant). D07."
+  },
+  {
+    "slug": "world-fuel-services52060722023-02-2881944141100017f11",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A05_ORGANISME",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: contrôle par organisme accrédité le 15 février 2023. Systèmes de détection de fuite réservoirs conformes. Demande vide. Conformité = M07+M08. D07."
+  },
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Constats body: contrôle périodique oct 2023 maintient 2 NC majeures. Exploitant n a pas transmis d éléments attestant résorption des NC. Projet arrêté MED. Contrôle périodique avec NC majeures non résolues = M07. MED projetée = M04. G3 (NC majeures persistantes). T4 (depuis 2022 les NC majeures persistent). D12."
+  },
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f02",
+    "domains": [
+      "D12_ADMIN",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body: EDD et compléments transmis. Arrêté préfectoral prescriptions spéciales transmis 3 juin 2023. AP de MED du 31 mai 2021 abrogé. Levée MED = M08+M04. T3. S06. D12+D03."
+  },
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f03",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Constats body: rapport vérif élec fév 2025: 6 anomalies dont 5 déjà signalées lors précédente vérification. Q18 conclut que installation peut entraîner risques incendie/explosion. DDR non testés, DRPCE absent/incomplet. Projet MED. NC récurrentes + risque incendie/explosion confirmé = M14+M07. G3 (risque incendie/explosion attesté par organisme). T4 (5 anomalies récurrentes). D10+D02."
+  },
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f04",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Constats body: baril FSII n est plus là. Huiles sur rétention. Mais fût AD Blue sans rétention constaté. FDS indique risque eutrophisation/nappe. NC physique (fût sans rétention) = M14. G2 (AD Blue, pas de liquide inflammable, risque modéré). T3 (FSII résolu, nouvelle NC mineure). D07."
+  },
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: aucun système de caméras thermographiques pour détection départ incendie zone stationnement. Surveillance non assurée. Devis transmis 5 mai 2025. Intégré au projet MED. Absence d équipement de sécurité incendie obligatoire = M14. MED projetée + absence physique de dispositif = G4. D01."
+  },
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: convention SSLIA pour lutte incendie non mise en place. Intégré au projet MED. La convention est au coeur de la stratégie incendie site. Absence de document contractuel obligatoire = M01. MED projetée + stratégie incendie non opérationnelle = G4. D01."
+  },
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: exploitant incapable de fournir un POI. En cours de réalisation. Intégré au projet MED. Absence totale de POI pour site Seveso/hydrocarbures = M01. MED projetée + POI absent = G4. D01."
+  },
+  {
+    "slug": "world-fuel-services52060722025-05-1981944141100017f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Constats body: boitier alarme séparateur hydrocarbures présent, led verte alimentation. Test annuel physique réalisé mais pas formalisé ni tracé. Non-formalisation du test = M07 (vérification périodique sans traçabilité). G2 (NC documentaire, équipement fonctionnel). D04."
+  }
+]

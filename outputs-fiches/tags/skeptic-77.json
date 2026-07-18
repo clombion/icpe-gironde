@@ -1,0 +1,108 @@
+{
+  "total_audited": 130,
+  "errors_found": 13,
+  "corrections": [
+    {
+      "slug": "univar52004462022-11-2956207142300262f07",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M08_CONFORMITE"
+      ],
+      "reason": "La prescription offre un critère alternatif (implantation hors zone d'effet thermique OU matériau résistant). Le bassin est en zone d'effet thermique mais constitué de géomembrane PEHD en bon état, ce qui satisfait le second critère. C'est une conformité factuelle, pas une NC technique."
+    },
+    {
+      "slug": "univar52004462022-11-2956207142300262f07",
+      "field": "dynamic",
+      "hunter_value": "R12_PRAGMATISME",
+      "corrected_value": "R13_NEUTRE_CONFORME",
+      "reason": "Conformité via critère alternatif du texte réglementaire, non une souplesse ou tolérance de l'inspection."
+    },
+    {
+      "slug": "univar52004462022-11-2956207142300262f07",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "Conformité constatée (critère alternatif satisfait), pas d'écart."
+    },
+    {
+      "slug": "unikalo-exbb-fabrication52006912024-08-2847320192900154f01",
+      "field": "dynamic",
+      "hunter_value": "R14_NEUTRE_NC",
+      "corrected_value": "R02_PROMESSE",
+      "reason": "Exploitant précise qu'un projet futur (CAMPUS) modifiera la zone et supprimera le point de rejet — engagement futur non vérifiable au moment de l'inspection, signal R02 explicite ('l'exploitant a précisé que... la zone sera modifiée')."
+    },
+    {
+      "slug": "unikalo-exbb-fabrication52006912024-08-2847320192900154f01",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Dispositif d'asservissement des vannes absent (non installé) malgré demande de l'inspection précédente — NC physique sur un dispositif de sécurité, pas purement documentaire. Correspond au signal G3 'dispositif absent'."
+    },
+    {
+      "slug": "unikalo-exbb-fabrication52006912023-02-2847320192900154f04",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "L'analyse porte entièrement sur des documents transmis (FIE, CAP, BSD) et une incohérence entre leurs paramètres/valeurs, pas sur une observation physique sur site. M14 est réservé aux NC physiques observées sur site ; ici il s'agit d'un problème de qualité/cohérence documentaire (code déchets à revoir)."
+    },
+    {
+      "slug": "unikalo-exbb-fabrication52006912023-02-2847320192900154f17",
+      "field": "dynamic",
+      "hunter_value": "R14_NEUTRE_NC",
+      "corrected_value": "R02_PROMESSE",
+      "reason": "Engagement verbal sur action future non vérifiable au moment de l'inspection : 'l'exploitant indique que ces mises en conformité seront effectives au 2nd semestre 2023'. Signal R02 explicite (promesse), pas simple constat neutre."
+    },
+    {
+      "slug": "unikalo-exbb-fabrication52006912023-02-2847320192900154f20",
+      "field": "dynamic",
+      "hunter_value": "R14_NEUTRE_NC",
+      "corrected_value": "R02_PROMESSE",
+      "reason": "Engagement verbal sur action future non vérifiable au moment de l'inspection : 'l'exploitant a précisé... ces dispositifs... le seront au plus tard au 2nd semestre 2023'. Signal R02 explicite (promesse), pas simple constat neutre."
+    },
+    {
+      "slug": "unikalo-exbb-fabrication52006912023-02-2847320192900154f10",
+      "field": "dynamic",
+      "hunter_value": "R14_NEUTRE_NC",
+      "corrected_value": "R02_PROMESSE",
+      "reason": "Engagement verbal sur action future non vérifiable au moment de l'inspection : 'la commande a été effectuée le 19/01/2023 et le test sera réalisé courant avril 2023'. Signal R02 explicite (promesse), pas simple constat neutre."
+    },
+    {
+      "slug": "univar52004462023-04-2856207142300262f03",
+      "field": "dynamic",
+      "hunter_value": "R14_NEUTRE_NC",
+      "corrected_value": "R02_PROMESSE",
+      "reason": "Exploitant 'a prévu' de créer l'état des stocks synthétique manquant — engagement futur non vérifiable, signal R02."
+    },
+    {
+      "slug": "univar52004462024-09-0556207142300262f05",
+      "field": "dynamic",
+      "hunter_value": "R14_NEUTRE_NC",
+      "corrected_value": "R02_PROMESSE",
+      "reason": "Exploitant indique que la remise en service 'devrait pouvoir être réalisée rapidement' et 'prévoit de déplacer' les canons à mousse — engagements futurs non vérifiés, signal R02."
+    },
+    {
+      "slug": "univar52004462024-09-0556207142300262f04",
+      "field": "dynamic",
+      "hunter_value": "R14_NEUTRE_NC",
+      "corrected_value": "R02_PROMESSE",
+      "reason": "Exploitant 'a indiqué à l'inspection qu'il prévoit de faire reconstruire le mur' et 's'est engagé' sur les caractéristiques REI240 — engagement futur explicite, signal R02."
+    },
+    {
+      "slug": "unikalo-charente52084552025-09-1643976532200011f03",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G6",
+      "reason": "Un incendie a réellement eu lieu (feu de poubelle maîtrisé par le SDIS/agent de sécurité) : G6_INCIDENT = 'Événement survenu. Incendie...' s'applique dès qu'un incendie survient, indépendamment de son ampleur. G3 sous-estime un événement réalisé (par opposition à un simple risque potentiel)."
+    }
+  ],
+  "false_positive_rate": 0.0769,
+  "error_patterns": "Two systematic patterns found. (1) R02_PROMESSE under-application: Hunter repeatedly tagged R14_NEUTRE_NC on records where the exploitant explicitly commits to a future, unverified action ('l'exploitant a precise/indique que...sera/seront', 'il s'est engage a', 'il prevoit de', 'il a prevu de') -- 8 of 13 corrections are this pattern, spanning both source documents (unikalo-exbb, univar). (2) Gravity under-estimation on realized incidents: a fire that actually occurred (feu de poubelle) was tagged G3 (potential-risk tier) instead of G6_INCIDENT (event-occurred tier); cross-checked against a sibling record (univar mur coupe-feu effondre) which correctly used G6 for an analogous realized-incident case, confirming Hunter's inconsistency. Isolated errors: one false M14 where the NC was purely documentary (FIE/CAP incoherence with no site observation, should be M01_DOCUMENTATION); one false NC where the record described a compliant situation under an alternative regulatory criterion (material resistance) that Hunter read as a partial NC (M14/G2) instead of conformity (M08/G1). Systematic checks per the batch instructions found: R10_TENSION was never used in this batch (0 occurrences, so the 'unfulfilled promise mistagged as tension' pattern does not manifest here); S02_INJONCTION/m_DELAI pairing was verified against numeric deadlines in Constats body and found correctly applied (apparent gaps were regex artifacts -- deadlines spelled out in words, e.g. 'sous deux mois', or deadlines quoted from the boilerplate Prescription block, which is correctly ignored per the taxonomy's constats_body-only rule); m_MENACE was checked for missed conditional 'a defaut'/'faute de quoi' MED threats across the full 130-record batch and none were found under-applied (the few 'a defaut' matches were unrelated boilerplate phrasing, not conditional threats).",
+  "verdict": "Good quality overall. Structural validity (exact code ids, single-value fields, modifiers only in modifiers array, all required fields present) was 100% clean across all 130 records -- no STRICT violations found. Substantive corrections were concentrated in one recurring dynamic-axis blind spot (R02_PROMESSE under-use) plus a small number of isolated mechanism/gravity misreads, all found via full audit of the 3 medium-confidence records and a 24-record spot-check spanning all four source documents in the batch. Error rate ~7.7% of records touched (10/130), consistent with the batch's documented <15% target."
+}

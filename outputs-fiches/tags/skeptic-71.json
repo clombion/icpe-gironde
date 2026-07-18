@@ -1,0 +1,50 @@
+{
+  "total_audited": 46,
+  "errors_found": 6,
+  "corrections": [
+    {
+      "slug": "spbl-silo-portuaire-de-bordeaux-letierce52003552023-07-1333448926700040f01",
+      "field": "mechanisms/dynamic/gravity",
+      "hunter_value": "mechanisms=[M01_DOCUMENTATION], dynamic=R14_NEUTRE_NC, gravity=G2",
+      "corrected_value": "mechanisms=[M08_CONFORMITE], dynamic=R13_NEUTRE_CONFORME, gravity=G1",
+      "reason": "Corps confidentiel, mais l'unique observation visible ('l'exploitant prend les mesures nécessaires afin que son personnel soit formé dans les délais qu'il a lui-même fixés') est un énoncé positif sans écart identifié, avec champ Demande vide — signal fort de conformité (heuristique M08) que Hunter a lu à l'envers comme une absence documentaire."
+    },
+    {
+      "slug": "soval52008592022-10-0641030351500077f08",
+      "field": "mechanisms/dynamic/stage/gravity/modifiers",
+      "hunter_value": "mechanisms=[M08_CONFORMITE], dynamic=R13_NEUTRE_CONFORME, stage=S01_CONSTAT, gravity=G1, modifiers=[]",
+      "corrected_value": "mechanisms=[M01_DOCUMENTATION], dynamic=R14_NEUTRE_NC, stage=S02_INJONCTION, gravity=G2, modifiers=[m_DELAI]",
+      "reason": "Hunter a lu la fourniture des FIPAD comme conforme mais a manqué la NC explicite : la fiche SMICVAL est périmée (>1 an) et sa version mise à jour reste incomplète (caractérisation des déchets non renseignée). L'inspection formule une injonction chiffrée ('sous 15 jours') — S01 sans délai était faux, cas typique du pattern (b) où Hunter sous-utilise S02."
+    },
+    {
+      "slug": "spbl-silo-portuaire-de-bordeaux-letierce52003552026-02-2633448926700040f02",
+      "field": "modifiers",
+      "hunter_value": "modifiers=[m_DELAI]",
+      "corrected_value": "modifiers=[]",
+      "reason": "Aucun délai chiffré dans le texte : la demande (justifier le respect de la plage de température du produit BANK, ou à défaut justifier l'absence de risque) n'est assortie d'aucune échéance numérique. m_DELAI retiré ; S02_INJONCTION conservé car la demande formelle existe indépendamment du délai."
+    },
+    {
+      "slug": "sonelog52117292024-06-0479012178400041f03",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G4",
+      "reason": "MED active (APMD du 11/01/2024) non levée, concomitante à une NC technique (détection incendie installée mais pas encore raccordée/testée au SSI). L'heuristique de gravité prescrit explicitement G4 dans ce cas ('MED active + NC technique concomitante'), pas G3."
+    },
+    {
+      "slug": "sonelog52117292024-06-0479012178400041f01",
+      "field": "mechanisms/dynamic",
+      "hunter_value": "mechanisms=[M14_CONSTAT_TECHNIQUE], dynamic=R02_PROMESSE",
+      "corrected_value": "mechanisms=[M01_DOCUMENTATION], dynamic=R14_NEUTRE_NC",
+      "reason": "L'outil défaillant sert à produire un document réglementaire (état des matières stockées) — c'est un défaut de reporting/documentation, pas un constat physique de terrain (M14 mal appliqué). Par ailleurs, la demande de finalisation émane de l'inspection ; aucun engagement futur de l'exploitant n'est cité dans ce texte, donc R02 était une sur-attribution (cf. erreur type 8)."
+    },
+    {
+      "slug": "soval52008592022-10-0641030351500077f12",
+      "field": "stage",
+      "hunter_value": "S03_CORRECTION",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "L'inspection formule une demande formelle avec délai chiffré ('sous 15 jours') pour la transmission des justificatifs d'étanchéité de la géomembrane et interdit l'exploitation du casier avant démonstration complète — c'est une injonction (S02), pas seulement une action corrective déjà en cours (S03). Hunter sous-utilise S02 (pattern b)."
+    }
+  ],
+  "false_positive_rate": 0.13,
+  "error_patterns": "6 erreurs sur 46 fiches auditées (~13%), toutes de faible portée sur des fiches déjà en limite de gravité/étape procédurale. Deux instances confirmées du pattern (b) annoncé (S02_INJONCTION sous-utilisé face à un délai chiffré présent dans le texte, et un m_DELAI attribué à tort sans délai chiffré). Une instance de gravité sous-estimée malgré la règle explicite MED active + NC technique = G4. Un cas de M14 appliqué à un défaut d'outil de reporting plutôt qu'à un constat physique de terrain (devrait être M01). Un cas de R02 sur-attribué à une demande de l'inspection sans engagement explicite de l'exploitant dans le texte. Le pattern (a) (R10_TENSION mal utilisé) est absent de ce batch : aucun R10 dans les 130 fiches Hunter. Le pattern (c) (m_MENACE sous-utilisé) a été vérifié systématiquement sur tout le batch (recherche 'à défaut', 'faute de quoi', 'sans quoi', 's'expose à des sanctions' dans constats_body) : les 7 occurrences trouvées relèvent soit du bloc Prescription (ignoré), soit d'alternatives de mise en conformité (pas de menace de MED), soit de fiches où le MED est déjà proposé/actif (M04 couvre déjà l'escalade) — aucun ajout de m_MENACE justifié dans ce batch. Structurellement, la sortie Hunter respecte déjà les règles STRICT (pas de modificateur dans mechanisms, pas de code hors taxonomie, pas de valeur jointe, tous les champs présents, formes courtes G#/T# cohérentes avec la convention du pipeline)."
+}

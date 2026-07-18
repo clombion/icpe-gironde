@@ -1,0 +1,163 @@
+{
+  "total_audited": 22,
+  "errors_found": 19,
+  "corrections": [
+    {
+      "slug": "terres-d-aquitaine52062082022-11-2434530688000583f01",
+      "field": "dynamic",
+      "hunter_value": "R02_PROMESSE",
+      "corrected_value": "R13_NEUTRE_CONFORME",
+      "reason": "Hunter's reasoning quoted 'pris conscience de la nécessité d'informer... dans les meilleurs délais' -- this sentence does not appear in the corpus body. The actual text is only an apology for a past incident plus the inspection restating its expectations; no future commitment is stated by the exploitant. Empty 'Demande à formuler' section confirms the conformity/closure heuristic. Also corrected mechanisms (+M08_CONFORMITE), gravity (G2->G1), stage (S04_VERIFICATION->S06_CLOTURE)."
+    },
+    {
+      "slug": "terres-d-aquitaine52062082022-11-2434530688000583f01",
+      "field": "mechanisms",
+      "hunter_value": "[M11_INCIDENT]",
+      "corrected_value": "[M11_INCIDENT, M08_CONFORMITE]",
+      "reason": "No outstanding demand in this record; missed multi-label for the closure signal (M08)."
+    },
+    {
+      "slug": "terres-d-aquitaine52062082022-11-2434530688000583f01",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "No NC assessed in this record's body -- it is an apology plus a reminder, not a documentary or physical non-conformity."
+    },
+    {
+      "slug": "terres-d-aquitaine52062082022-11-2434530688000583f01",
+      "field": "stage",
+      "hunter_value": "S04_VERIFICATION",
+      "corrected_value": "S06_CLOTURE",
+      "reason": "No further action requested; the fiche closes the loop on the June 2022 incident."
+    },
+    {
+      "slug": "terres-d-aquitaine52062082022-11-2434530688000583f06",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "Systematic pattern (b): the only demand in constats_body ('L'inspection demande à l'exploitant de préciser si des travaux sont toujours prévus') carries no numeric/calendar deadline."
+    },
+    {
+      "slug": "terres-d-aquitaine52062082023-07-1234530688000583f01",
+      "field": "mechanisms",
+      "hunter_value": "[M08_CONFORMITE]",
+      "corrected_value": "[M08_CONFORMITE, M17_CLASSIFICATION]",
+      "reason": "Medium-confidence record re-audited. Body discusses operating capacity relative to the authorized regime and a pending arrêté complémentaire updating the classification -- missed M17_CLASSIFICATION multi-label."
+    },
+    {
+      "slug": "terres-d-aquitaine52062082023-07-1234530688000583f02",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "Systematic pattern (b): 'contrôle d'étanchéité devra être réalisé avant le redémarrage' is conditional on a future event, not a calendar deadline. No numeric delay stated."
+    },
+    {
+      "slug": "terres-d-aquitaine52062082023-07-1234530688000583f12",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Re-read corpus: M08_CONFORMITE / G1 / R13_NEUTRE_CONFORME are well supported by the text (zones ATEX identified, no electrical installations in retentions). No error found; confidence raised."
+    },
+    {
+      "slug": "terres-d-aquitaine52062082023-07-1234530688000583f17",
+      "field": "mechanisms",
+      "hunter_value": "[M08_CONFORMITE]",
+      "corrected_value": "[M08_CONFORMITE, M09_PAC]",
+      "reason": "Missed multi-label: body explicitly discusses a porter-à-connaissance requesting a VLE increase that the inspection ruled inadmissible ('La demande n'est pas recevable') -- M09_PAC applies alongside M08."
+    },
+    {
+      "slug": "terres-d-aquitaine52062082024-07-0434530688000583f01",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "Systematic pattern (b): the demand ('un contrôle d'étanchéité doit être réalisé avant redémarrage du digesteur 095') is conditional on the restart event, not a numeric/calendar deadline."
+    },
+    {
+      "slug": "syndicat-des-coproprietaires52076372022-12-1342161729100016f22",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "Systematic pattern (b): the observation only reiterates the existing regulatory 30-day transmission rule ('il est demandé que l'exploitant respecte les délais...') -- no new corrective deadline is imposed."
+    },
+    {
+      "slug": "syndicat-des-coproprietaires52076372023-06-0642161729100016f03",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "Systematic pattern (b): 'il est demandé que l'exploitant transmette le rapport' carries no deadline."
+    },
+    {
+      "slug": "technicentre-aquitaine52005602025-09-10nosiretf02",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "Systematic pattern (b): both demands ('fournit l'analyse...', 'fournit un calendrier...') carry no numeric deadline."
+    },
+    {
+      "slug": "technicentre-aquitaine52005602025-09-10nosiretf04",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "Systematic pattern (b): the demand to transmit investigation results/action plan carries no numeric deadline."
+    },
+    {
+      "slug": "technicentre-aquitaine52005602025-09-10nosiretf06",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "Systematic pattern (b): the labeling demand carries no numeric deadline."
+    },
+    {
+      "slug": "technicentre-aquitaine52005602025-09-10nosiretf07",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "Systematic pattern (b): the demand to describe the spill origin and justify cleanup carries no numeric deadline."
+    },
+    {
+      "slug": "total-energies-marketing-france52064502024-10-2854203492103705f07",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "Systematic pattern (b): the demand to conduct the GNC zone initial visit and transmit the report carries no numeric deadline."
+    },
+    {
+      "slug": "total-energies-marketing-france52064502024-10-2854203492103705f17",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "Systematic pattern (b): the demand to transmit proof of no leak and notify end of repairs carries no numeric deadline."
+    },
+    {
+      "slug": "tonnellerie-boutes52065572022-12-1338254091200062f05",
+      "field": "trajectory",
+      "hunter_value": "T1_PREMIER",
+      "corrected_value": "T4_STAGNATION",
+      "reason": "Body states '3 observations anciennes subsistent dans le dernier rapport' -- the same anomalies persist unresolved across the Dec-2021 and Nov-2022 verification reports, which is stagnation, not a first occurrence."
+    },
+    {
+      "slug": "tonnellerie-sylvain52070402022-10-2032991464200023f04",
+      "field": "trajectory",
+      "hunter_value": "T2_SUIVI",
+      "corrected_value": "T4_STAGNATION",
+      "reason": "Body explicitly states the écart 'avait déjà été notifié lors de l'inspection précédente du 19 janvier 2021' and calls the écart type 'récurrent' -- same unresolved NC across inspections, matching T4_STAGNATION more precisely than generic T2_SUIVI."
+    },
+    {
+      "slug": "tonnellerie-boutes52065572024-12-2438254091200062f02",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[m_DELAI, m_MENACE]",
+      "reason": "Systematic pattern (c): body states 'A défaut, une astreinte pourrait également être proposée au Préfet de Gironde sur ce point' -- a conditional threat that Hunter missed."
+    },
+    {
+      "slug": "tonnellerie-sylvain52070402022-10-2032991464200023f03",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[m_DELAI, m_MENACE]",
+      "reason": "Systematic pattern (c): body states 'A défaut, des suites administratives pourront être proposées à Madame la préfète (astreinte journalière, amende administratives...)' -- a conditional threat that Hunter missed."
+    }
+  ],
+  "false_positive_rate": 0.15,
+  "error_patterns": "Audit scope: both medium-confidence records re-read against corpus (0 low-confidence records in this batch); 20 randomly sampled high-confidence records re-read against corpus; full-batch code-validity pass (0 violations, Hunter output was clean on that axis); full-batch scan for the three known systematic Hunter patterns. (a) R10_TENSION misuse: not applicable -- Hunter used R10_TENSION zero times in this batch. (b) m_DELAI modifier applied without a numeric/calendar deadline in constats_body: this was the dominant error type, found in 11 of the 75 records carrying m_DELAI (~15%). Recurring sub-patterns: conditional phrasing ('avant le redémarrage', 'dès l'achèvement des travaux') mistaken for a deadline, and reminders of a pre-existing regulatory delay (e.g. the standing 30-day GIDAF transmission rule) mistaken for a newly imposed corrective delay. Spelled-out deadlines ('sous un mois', 'sous un délai de trois mois', 'dans un délai maximal d'un an') were correctly recognized by Hunter and are NOT flagged as errors. (c) m_MENACE under-application: found 2 missed instances, both following the same shape -- an MED already active (M04), a new corrective delay set, and an explicit 'A défaut, [astreinte/suites administratives] pourraient être proposées' clause that Hunter did not tag. One hallucinated quote was also found (R02_PROMESSE justified by a sentence absent from the corpus) -- flagged as a distinct, non-systematic error. Two missed multi-label mechanisms (M17_CLASSIFICATION, M09_PAC) were found in thin/short records where a secondary administrative dimension was present alongside the dominant M08_CONFORMITE call. No false-M08, false-M14, wrong-gravity-from-physical-NC, or over-aggressive-M17 errors were found in the audited sample.",
+  "verdict": "Hunter output for batch 74 is solid on code validity (0 violations across all 130 records) and on the dominant M08/M14 conformity-vs-NC calls (0 errors found in 20 sampled high-confidence records on that axis). The recurring weakness is m_DELAI over-application without a genuine numeric deadline in the text (11 corrections), consistent with the known systematic pattern; m_MENACE remains slightly under-applied (2 misses) but far less than m_DELAI over-application. Overall quality: good, with a mechanical, easily-correctable bias on the delay modifier."
+}

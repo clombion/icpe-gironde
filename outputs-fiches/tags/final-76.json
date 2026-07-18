@@ -1,0 +1,2423 @@
+[
+  {
+    "slug": "transports-combronde31012742023-02-0241026265300141f12",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Voies échelles et aires de stationnement pompiers non matérialisées au sol — constat physique terrain. Exploitant a promis la réalisation sous 1 semaine. Demande sous 30 jours avec menace de MED. Suivi d'un constat antérieur (inspection janvier 2022)."
+  },
+  {
+    "slug": "transports-combronde31012742023-02-0241026265300141f13",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Travaux de confinement des eaux d'extinction réalisés (2450 m³ disponibles vs 2409 m³ requis). Géomembrane constatée, capacité libre. MED du 25/01/2022 soldée sur ce point. Conformité explicitement établie."
+  },
+  {
+    "slug": "transports-combronde31012742023-02-0241026265300141f14",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Essai de fermeture manuelle d'une vanne guillotine non concluant (volet tournait dans le vide). Vannes non signalées, pas de consigne d'entretien. Physique NC + documentaire. Demande sous 1 mois avec menace MED. Travaux d'automatisation en cours."
+  },
+  {
+    "slug": "transports-combronde31012742023-02-0241026265300141f15",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Aucun obstacle entravant la fermeture des portes coupe-feu constaté dans les bâtiments 1 et 2. Ecart de la précédente inspection soldé."
+  },
+  {
+    "slug": "transports-combronde31012742023-02-0241026265300141f16",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Désenfumage bât.3 conforme (attestation APAVE). Bâtiments 1 et 2 : travaux réalisés mais un canton du bâtiment 1 encore non conforme (critère 2% non atteint). NC physique résiduelle constatée. Demande de finalisation sous 1 mois avec menace MED."
+  },
+  {
+    "slug": "transports-combronde31012742023-02-0241026265300141f17",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Campagne acoustique réalisée mais incomplète: pas de mesure nocturne alors que groupes frigorifiques fonctionnent 24h/24 — conditions non représentatives. NC méthodologique (M02). Demande de complément sous 3 mois."
+  },
+  {
+    "slug": "transports-combronde31012742023-02-0241026265300141f18",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "DAI bâtiments 1 et 2 en cours d'installation (pas encore fonctionnelle à la date prévue 31/12/2022). Mise en service prévue fin février 2023. Constat physique: installation non opérationnelle. Demande certificat Q7 sous 1 mois."
+  },
+  {
+    "slug": "transports-combronde31012742023-02-0241026265300141f19",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Système sprinklage bât.3 fonctionnel: contrôle semestriel à jour (23/12/2022), certificat Q1 présenté, motopompe testée avec succès. Anomalies mineures levées. Ensemble n'appelle pas de commentaire."
+  },
+  {
+    "slug": "transports-combronde31012742023-02-0241026265300141f20",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Démonstration documentaire que le sprinklage (68-74°C) se déclenchera avant le désenfumage (140°C) pour le bâtiment 3. Conformité établie."
+  },
+  {
+    "slug": "transports-combronde31012742024-03-1941026265300141f01",
+    "domains": [
+      "D12_ADMIN",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M09_PAC",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "PAC transmis finalement lors de l'inspection (document daté 08/09/2023 jamais reçu par l'inspection). Forme incorrecte (déclaration changement d'exploitant au lieu de PAC). Demande vide (-). Situation en cours de régularisation administrative."
+  },
+  {
+    "slug": "transports-combronde31012742024-03-1941026265300141f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Rehausse mur coupe-feu bât.3 vérifiée par sondage: dépasse bien +1m de la toiture. Facture du 10/02/2023 présentée. MED 25/01/2022 et astreinte soldées sur ce point."
+  },
+  {
+    "slug": "transports-combronde31012742024-03-1941026265300141f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Porte coupe-feu EI120 avec ferme-porte installée au local transformateur bât.1, constatée lors de la visite. Facture 10/03/2023 présentée. MED et astreinte soldées."
+  },
+  {
+    "slug": "transports-combronde31012742024-03-1941026265300141f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Flocage coupe-feu 2h et portes EI120 avec fermes-portes constatés. Factures présentées (flocage 24/03/2023, portes 10/03/2023). MED et astreinte soldées."
+  },
+  {
+    "slug": "transports-combronde31012742024-03-1941026265300141f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Paratonnerre et fixations remis en place (facture 30/11/2023). Constat lors de l'inspection confirmant la mise en conformité. NC levée."
+  },
+  {
+    "slug": "transports-combronde31012742024-03-1941026265300141f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Essai de débit simultané poteaux incendie n°76 et 80: 85+100=185 m³/h sous 1 bar. Demande précédente satisfaite. Demande vide (-)."
+  },
+  {
+    "slug": "transports-combronde31012742024-03-1941026265300141f07",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Vannes guillotines: mise en service attestée, test automatique concluant, procédures transmises. Test de fermeture manuelle lors de l'inspection concluant. Demande vide (-)."
+  },
+  {
+    "slug": "transports-combronde31012742024-03-1941026265300141f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "DAI en dérangement (vesda 1103/1104) lors vérification 08/02/2024 et portes coupe-feu non fonctionnelles. Lors inspection: centrale sans dérangement mais contrôle par sondage insuffisant pour attester conformité. Demande certificat Q7 sous 30 jours. Problème récurrent depuis mise en service août 2023."
+  },
+  {
+    "slug": "transports-combronde31012742024-03-1941026265300141f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Certificat Q1 sprinklage bât.3 du 15/12/2023 présenté: système fonctionnel, compatible produits stockés. Société de maintenance présente le jour de l'inspection pour lever les observations. Demande vide (-)."
+  },
+  {
+    "slug": "transports-combronde31012742024-03-1941026265300141f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Certificat Q5 RIA du 19/08/2023 présenté: conformité établie avec uniquement des observations sur affichettes manquantes. Demande vide (-)."
+  },
+  {
+    "slug": "transports-combronde31012742024-03-1941026265300141f11",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Conditions de stockage bât.1 modifiées (6 îlots cellule Ouest, 3 cellule Est) vs prescriptions AP (5 îlots Ouest, 4 Est). NC aux prescriptions de fonctionnement — stockages ayant servi à la modélisation des flux thermiques incendie. Demande sous 30 jours."
+  },
+  {
+    "slug": "transports-combronde31012742024-03-1941026265300141f12",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Conditions de stockage bât.2 modifiées: stockage en masse au lieu de racks, produits divers au lieu de vin. NC aux prescriptions de fonctionnement. Demande sous 30 jours avec nouvelles modélisations thermiques."
+  },
+  {
+    "slug": "transports-combronde31012742024-03-1941026265300141f13",
+    "domains": [
+      "D01_INCENDIE",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Cellule Nord bât.3: stockage en masse au lieu de racks. Cellule Sud: rack simple non prévu dans l'arrêté ni dans la modélisation thermique. NC aux prescriptions. Demande sous 30 jours."
+  },
+  {
+    "slug": "transports-combronde31012742024-03-1941026265300141f14",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Porte coupe-feu bât.6000/PCF1 ne peut se fermer complètement (rail endommagé suite manutention). NC récurrente: porte non opérationnelle à 4 reprises consécutives (août 2023, jan.2024, fév.2024, jour inspection). Suites administratives possibles."
+  },
+  {
+    "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Exploitant sans moyens de lutte contre l'incendie appropriés. Pas de poteaux incendie identifiés à proximité, pas de réserve. Demande état des lieux sous 1 mois puis bon de commande réserve si nécessaire."
+  },
+  {
+    "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f02",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Rétention de la cuve de récupération encombrée (étanche mais inutilisable). Même écart constaté lors de l'inspection précédente en 2015 — récidive explicite. Demande nettoyage sous 1 mois."
+  },
+  {
+    "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f03",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Absence totale de capacité de rétention pour les eaux d'extinction d'incendie. NC physique majeure. Demande mise en place sous 6 mois."
+  },
+  {
+    "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f04",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R08_CONTRAINTE_ECONOMIQUE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "Dernier curage débourbeur du 18/11/2020 (fréquence annuelle requise). Exploitant invoque coût excessif. Même écart soulevé en 2015 avec rappel formel par courrier. Récidive chronique >3 inspections. Demande curage sous 1 mois."
+  },
+  {
+    "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Flux non mentionné dans les résultats d'analyses. NC méthodologique (paramètre manquant). Demande calcul du flux lors prochaines analyses sous 3 mois."
+  },
+  {
+    "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Dépassements DCO (455 mg/L vs 125 autorisé) et DBO5 (160 mg/L vs 30 autorisé) en mars et nov. 2021. Cr6+ et métaux manquants sur certaines analyses. Conformité en concentration rétablie en déc.2021 et fév.2022 mais paramètres incomplets persistants."
+  },
+  {
+    "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Résultats d'analyses non transmis via GIDAF (aucune saisie malgré relance inspection et nouvelles analyses nov.2022). Demande transmission GIDAF rétroactive 2020-2022 sous 1 mois."
+  },
+  {
+    "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f08",
+    "domains": [
+      "D08_DECHETS",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "VHU non dépollués stockés sur aire non imperméable (petite bande le long du bâtiment). NC physique directement constatée. Demande de ne plus stocker à cet endroit ou d'imperméabiliser."
+  },
+  {
+    "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f09",
+    "domains": [
+      "D08_DECHETS",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M06_RECIDIVE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Hauteur d'empilement de VHU largement supérieure à 3m constatée (photos). Même écart constaté en 2015. Demande sous 1 mois."
+  },
+  {
+    "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f10",
+    "domains": [
+      "D08_DECHETS",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "398 VHU traités en 2021 vs plafond 1200 VHU/an. Conforme."
+  },
+  {
+    "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f11",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Site globalement propre mais quelques coins non nettoyés (allée de sapins). NC mineure d'entretien/propreté. Demande nettoyage sous 1 mois, vérification lors de l'inspection 2023."
+  },
+  {
+    "slug": "truite-argentiere52004162025-09-1978177681000017f01",
+    "domains": [
+      "D04_EAUX",
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Débit réservé Lacanau mesuré: 190 l/s avant défeuillage, 240 l/s après — bien supérieur au minimum requis de 110 l/s. Conformité établie."
+  },
+  {
+    "slug": "transports-vandermeersch-et-vandermeersch-v-i-coutras52128122022-09-1531945696800035f01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS",
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T7_CHRONIQUE",
+    "confidence": "high",
+    "reasoning": "Exploitation centre VHU non enregistrée (rubrique 2712-1) depuis au moins 2014. ~30 VHU qualifiés hors d'usage sur 3300 m², nombreuses pièces mécaniques à même le sol sans rétention, nombreuses taches d'hydrocarbures. Porte-chars chargé vraisemblablement pour export. Demande régularisation sous 3 mois. Signalement OCLAESP et Pôle National Transferts Transfrontaliers. NC persistante depuis 2014."
+  },
+  {
+    "slug": "transports-vandermeersch-et-vandermeersch-v-i-coutras52128122023-03-1431945696800035f01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS",
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M05_SANCTION",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "MED du 30/11/2022 non respectée: activité VHU toujours exercée sans enregistrement. ~30 VHU encore présents, pièces mécaniques sans rétention, taches hydrocarbures. MED non levée. Inspection propose travaux d'office pour évacuation déchets."
+  },
+  {
+    "slug": "transports-vandermeersch-et-vandermeersch-v-i-coutras52128122023-09-1831945696800035f01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M05_SANCTION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A03_PREFET",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Travaux d'office démarrant le 18/09/2023 (AP du 20/04/2023 + AP occupation temporaire 02/05/2023). État des lieux avant démarrage: nombreux VHU, déchets dangereux et non dangereux sans rétention. Situation non résolue par l'exploitant — exécution forcée par prestataire externe."
+  },
+  {
+    "slug": "transports-vandermeersch-et-vandermeersch-v-i-coutras52128122023-09-2931945696800035f01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M05_SANCTION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A03_PREFET",
+    "stage": "S06_CLOTURE",
+    "gravity": "G3",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Après travaux d'office 18-29/09/2023: retrait complet des VHU et déchets dangereux/non dangereux. Prescription soldée. Pollution sol éventuelle signalée au Maire pour documents urbanisme."
+  },
+  {
+    "slug": "transports-vandermeersch-et-vandermeersch-v-i-coutras52128122025-04-0931945696800035f01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Inspection 10/04/2025 avant audience TA: situation inchangée depuis les travaux d'office (déchets toujours présents, absence régularisation admin). Nombreux poids lourds empiétant sur chaussée. MED 30/11/2022 et AP travaux d'office toujours valables. NC chronique depuis 2014."
+  },
+  {
+    "slug": "transports-vandermeersch-et-vandermeersch-v-i-saint-medard-de-guizieres1000034282023-03-1482338997800011f01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R05_VIDE_FACTUEL",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "MED 30/11/2022 non respectée à Saint-Médard. Inspection depuis voie publique (site clos, exploitant absent): ~20 VHU présents, pièces mécaniques à même le sol. Activité VHU toujours exercée sans enregistrement. Inspection propose travaux d'office."
+  },
+  {
+    "slug": "transports-vandermeersch-et-vandermeersch-v-i-saint-medard-de-guizieres1000034282025-04-0982338997800011f01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M04_MISE_EN_DEMEURE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4_STAGNATION",
+    "confidence": "high",
+    "reasoning": "Inspection 09/04/2025 avant audience TA: amélioration partielle depuis mars 2023 mais déchets toujours présents (conteneurs rouillés, remorque HS, bidons liquides non identifiés), absence régularisation. MED 30/11/2022 et AP travaux d'office toujours valables."
+  },
+  {
+    "slug": "u-logistique-sas52008502022-08-2381014656300178f01",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "POI en cours de mise à jour mais aucune version disponible au poste de garde (seulement consignes 2007 obsolètes). NC documentaire: POI non accessible hors bureaux direction. Demande sous 15 jours."
+  },
+  {
+    "slug": "u-logistique-sas52008502022-08-2381014656300178f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Fiche A820 du POI avec numéros des riverains (rayon 200m): ERP, industriels, particuliers, péage A62. Conforme."
+  },
+  {
+    "slug": "u-logistique-sas52008502022-08-2381014656300178f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Note de transmission d'alerte constituée de la fiche A820 et de la cartographie des effets du scénario POI. Conforme."
+  },
+  {
+    "slug": "u-logistique-sas52008502022-08-2381014656300178f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Exercice POI du 17/12/2021 réalisé mais incomplet: compte-rendu non exhaustif sur tâches du POI, vérifications non consignées (portes CF, groupes sprinkleurs non testés). POI non testé annuellement au sens réglementaire. Même écart que l'inspection précédente."
+  },
+  {
+    "slug": "u-logistique-sas52008502022-08-2381014656300178f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Exercice POI inopiné: schéma d'alerte incomplet (direction non contactée, autorités non prévenues, cellule de crise non activée, vannes de barrage non fermées). Équipiers formés évacuation mais pas aux procédures POI. NC opérationnelle constatée en situation réelle."
+  },
+  {
+    "slug": "u-logistique-sas52008502022-08-2381014656300178f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "État des stocks disponible au poste de garde avec détail par cellule et par rubrique ICPE. Plan de l'entrepôt présent. Conformité des constats d'avril 2022 traitée."
+  },
+  {
+    "slug": "u-logistique-sas52008502022-08-2381014656300178f07",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Contrôle des accès insuffisant: inspecteurs ont pénétré sans contrôle (agent garde absent de la guérite). Accès ouverts en période d'exploitation. NC susceptible de sanctions administratives."
+  },
+  {
+    "slug": "u-logistique-sas52008502022-08-2381014656300178f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Fermeture de 2 portes coupe-feu cellule K testée: RAS."
+  },
+  {
+    "slug": "u-logistique-sas52008502022-08-2381014656300178f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Porte EI120 (IS2-QL) maintenue bloquée en position ouverte (ferme-porte inopérant) pour raisons sanitaires COVID. NC physique au compartimentage. Répétition de l'écart susceptible de conduire à sanctions. Demande de remédier sans délai."
+  },
+  {
+    "slug": "u-logistique-sas52008502022-08-2381014656300178f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Démarrage motopompe B1 sprinklage testé: RAS. Essais hebdomadaires en interne enregistrés au local source."
+  },
+  {
+    "slug": "u-logistique-sas52008502022-08-2381014656300178f11",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Tracteur pour déplacement remorques disponible, 4 conducteurs formés, POI mis à jour. Mais lors exercice: premier déplacement remorque effectué à l'opposé du lieu sinistre — voies échelles proches du feu non libérées en priorité. Écart non soldé."
+  },
+  {
+    "slug": "u-logistique-sas52008502022-08-2381014656300178f12",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "PAC transmis fin juillet 2022 mais non intégré au POI disponible sur site (gestion eaux extinction cellule 2-K, effets thermiques alcools). POI obsolète. Demande mise à jour sous 1 mois."
+  },
+  {
+    "slug": "u-logistique-sas52008502024-04-2581014656300178f01",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Cellule 2-K: prescriptions AP intégrées dans POI fiche 309. Quantités/natures produits et FDS vérifiées sans remarque. Règle de cumul respectée. Bassins rétention et batardeaux inspectés sans remarque. Vérifications annuelles conformes."
+  },
+  {
+    "slug": "u-logistique-sas52008502024-04-2581014656300178f02",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Procédure d'ouverture manuelle des batardeaux intégrée dans fiche 507 du POI. Conforme."
+  },
+  {
+    "slug": "u-logistique-sas52008502024-04-2581014656300178f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Présence des limiteurs de flaque constatée lors de l'inspection. Conforme."
+  },
+  {
+    "slug": "u-logistique-sas52008502024-04-2581014656300178f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Têtes sprinklage constatées. Émulseur AFFF stocké conformément aux recommandations fabricant. Conforme."
+  },
+  {
+    "slug": "u-logistique-sas52008502024-04-2581014656300178f05",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Voie engins et aires de mise en station inspectées sans remarque. Tracteur présent et conducteur formé. Organisation conforme à fiche 507.2 du POI. Conforme."
+  },
+  {
+    "slug": "u-logistique-sas52008502024-04-2581014656300178f06",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Bassin confinement, organes d'isolement (commande manuelle, indicateur de position) et planification vérifications périodiques inspectés sans remarque. Conforme."
+  },
+  {
+    "slug": "u-logistique-sas52008502024-04-2581014656300178f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Version à jour du POI constatée au poste de garde. Conforme à la prescription de l'AP."
+  },
+  {
+    "slug": "u-logistique-sas52008502024-04-2581014656300178f08",
+    "domains": [
+      "D01_INCENDIE",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Audit de récolement de mars 2023 transmis a posteriori. Non-conformités relevées lors de l'audit levées. Conforme."
+  },
+  {
+    "slug": "u-logistique-sas52008502024-04-2581014656300178f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Nouvel exercice POI du 15/12/2022 réalisé, compte-rendu globalement satisfaisant. Répond à la demande de l'inspection d'août 2022."
+  },
+  {
+    "slug": "u-logistique-sas52008502024-04-2581014656300178f10",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Émulseur AFFF fluoré susceptible de rejets PFAS lors exercices. Réflexion en cours pour substitution (viscosité obstacle). Demande transmission nature et quantités PFAS susceptibles d'être rejetées sous 1 mois."
+  },
+  {
+    "slug": "u-logistique-sas52008502025-10-2381014656300178f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "POI version septembre 2025 disponible en version numérique et papier au poste de garde. Scénarios adaptés par cellule. Conforme."
+  },
+  {
+    "slug": "u-logistique-sas52008502025-10-2381014656300178f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Dernier exercice POI: 05/04/2024; avec SDIS: 15/12/2022. Prochain prévu novembre 2025 mais inspection en tient lieu. Périodicité limite atteinte mais pas dépassée. Reprogrammation prévue."
+  },
+  {
+    "slug": "u-logistique-sas52008502025-10-2381014656300178f03",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Formations équipiers d'intervention et d'évacuation documentées (fiches 810 et 811). Attestations vérifiées sans remarque. Conforme."
+  },
+  {
+    "slug": "u-logistique-sas52008502025-10-2381014656300178f04",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Gammes de maintenance préventive pour vannes d'isolement et batardeaux présentées. Comptes-rendus d'entretien périodique inspectés sans remarque. Conforme."
+  },
+  {
+    "slug": "u-logistique-sas52008502025-10-2381014656300178f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "POI contient fiches scénario par cellule (305-310) avec actions différenciées selon nature produits. Fiches pour événements autres (accident personne, déversement). Conforme."
+  },
+  {
+    "slug": "u-logistique-sas52008502025-10-2381014656300178f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Direction des secours définie (fiche 503), liste de succession hiérarchique (fiche 501), fiches réflexe par fonction (503-514). Organisation satisfaisante."
+  },
+  {
+    "slug": "u-logistique-sas52008502025-10-2381014656300178f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Relations avec autorités sous responsabilité QSE, fiche réflexe communication externe. Observation mineure: numéro DREAL à mettre à jour (astreinte). Demande vide sauf observation."
+  },
+  {
+    "slug": "u-logistique-sas52008502025-10-2381014656300178f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Exercice globalement satisfaisant. Un RIA hors service mais défaut connu et intervention déjà programmée. Test autre RIA concluant. Organisation et matériels conformes. Observation: POI à rendre plus précis sur conditions d'intervention particulières."
+  },
+  {
+    "slug": "u-logistique-sas52008502025-10-2381014656300178f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "3 schémas d'alerte (heures ouvrées/non, présence agent garde), messages d'alerte types incluant déclenchement prélèvements environnementaux. Schéma d'alerte bien mis en œuvre lors exercice."
+  },
+  {
+    "slug": "u-logistique-sas52008502025-10-2381014656300178f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Fiche 302 accueil secours: état des stocks et localisation matières. Intervenants visés avaient connaissance de leur rôle. Conforme."
+  },
+  {
+    "slug": "u-logistique-sas52008502025-10-2381014656300178f11",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Fiche 205 avec numéros de téléphone des entités alentour. Pas de mesures hors site supplémentaires prévues. Conforme."
+  },
+  {
+    "slug": "u-logistique-sas52008502025-10-2381014656300178f12",
+    "domains": [
+      "D01_INCENDIE",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Fiche 105 déclenchement astreinte prélèvements environnementaux. Contrat avec bureau d'études pour prélèvements et analyses. Conforme."
+  },
+  {
+    "slug": "u-logistique-sas52008502025-10-2381014656300178f13",
+    "domains": [
+      "D01_INCENDIE",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Société de pompage contractée mais son identité et coordonnées absentes du POI (annuaire externe fiche 516). Demande de préciser le rôle et coordonnées de la société dépollution."
+  },
+  {
+    "slug": "u-logistique-sas52008502025-10-2381014656300178f14",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "État des matières stockées édité lors exercice. Données en masse et volume par article/type matière. Note: données majorantes (emballages inclus). Fonctionnellement conforme mais précision à améliorer."
+  },
+  {
+    "slug": "ucva-stockage31027142022-09-1244291329900016f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "DAI installée et mise en service (PV 20/04/2022 par S2eS). Contrat maintenance semestrielle établi. Détecteurs présents dans les 4 locaux de stockage, raccordés à centrale avec report téléphone responsable. NC précédente inspection levée."
+  },
+  {
+    "slug": "ucva-stockage31027142022-09-1244291329900016f02",
+    "domains": [
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Rapport APAVE 16/03/2022 identifie NC ATEX matérielles (liaisons équipotentielles manquantes, marquages incomplets, classe température inadaptée). Exploitant prétend avoir tout levé sans justificatifs. Liaisons équipotentielles constatées visuellement mais sans attestation. Demande justificatifs d'ici fin 2022."
+  },
+  {
+    "slug": "ucva-stockage31027142022-09-1244291329900016f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Attestation AMV Génie Civil du 02/06/2021 confirmant murs coupe-feu REI240: dimensions vérifiées lors inspection. Conformité établie."
+  },
+  {
+    "slug": "ucva-stockage31027142022-09-1244291329900016f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Essais périodiques déversoirs à mousse réalisés en interne mais non tracés/consignés. PV SDIS de 2021 présenté. Demande d'un essai consigné d'ici fin 2022."
+  },
+  {
+    "slug": "ucva-stockage31027142022-09-1244291329900016f05",
+    "domains": [
+      "D01_INCENDIE",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rapports contrôle détecteurs de flamme (18/01/2022) et détection gaz chai (28/06/2022) présentés. Prochain contrôle programmé 12/10/2022 — fréquence semestrielle respectée. Conforme."
+  },
+  {
+    "slug": "ucva-stockage31027142025-02-2044291329900016f01",
+    "domains": [
+      "D01_INCENDIE",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "État des stocks: 57 800 L vins + 21 372 vol hlap spiritueux. Quelques produits de lavage (15 bidons 20L) comme seuls produits dangereux. Suivi via DAE. Conforme."
+  },
+  {
+    "slug": "ucva-stockage31027142025-02-2044291329900016f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Consommation eau: 796 m³ en 2024 et 883 m³ en 2023-2024 vs plafond 650 m³/an. Dépassement établi. Réflexion sur recyclage/économie nécessaire. Demande de justification."
+  },
+  {
+    "slug": "ucva-stockage31027142025-02-2044291329900016f03",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Séparateur d'hydrocarbures: aucune vidange depuis installation (~5 ans). Vérification visuelle périodique seulement. Volume boues non quantifiable. Demande d'entretien avec preuve à l'inspection."
+  },
+  {
+    "slug": "ucva-stockage31027142025-02-2044291329900016f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Aucune analyse des rejets aqueux au milieu naturel réalisée à ce jour. Difficulté invoquée: rejets non permanents. AP prescrit surveillance annuelle. Demande analyses conformément à AP."
+  },
+  {
+    "slug": "ucva-stockage31027142025-02-2044291329900016f05",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "~15 bidons 20L de produits de lavage dangereux (H290, H314, H400 etc.) non placés sur rétention adaptée. NC physique constatée. Demande mise en place rétention avec preuve."
+  },
+  {
+    "slug": "ucva-stockage31027142025-02-2044291329900016f06",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Pas de registre chronologique de déchets produits. Exploitant s'estime assimilable à particulier. BSD vidange cuve présenté mais registre global absent."
+  },
+  {
+    "slug": "ucva-stockage31027142025-02-2044291329900016f07",
+    "domains": [
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "medium",
+    "reasoning": "DRPCE établi courant 2024. 3 zones à risque définies avec matériel ATEX. Formations personnel (ATEX niv.0 et niv.2). Observation: date de mise à jour à indiquer sur document. Globalement conforme."
+  },
+  {
+    "slug": "ucva-stockage31027142025-02-2044291329900016f08",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Clôture incomplète: séparation non effective au niveau des bâtiments administratifs avec la distillerie UCVA voisine (2 ICPE distinctes). Pas de registre entrées/sorties. Vieilles cuveries encombrant accès réserve incendie."
+  },
+  {
+    "slug": "ucva-stockage31027142025-02-2044291329900016f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "PII présenté mais incomplet: aspects organisationnels à compléter selon REX exercices, numéro astreinte DREAL à ajouter. Confusion entre rôle exploitant et SDIS dans la rédaction."
+  },
+  {
+    "slug": "ucva-stockage31027142025-02-2044291329900016f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Poteau incendie n°140: débit mesuré 55 m³/h sous 1 bar (<60 m³/h requis). NC physique sur ressource incendie. Demande justification disponibilité débit minimum."
+  },
+  {
+    "slug": "ucva-stockage31027142025-02-2044291329900016f11",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Registre essais en eau déversoirs présenté (novembre de chaque année). Tests zones 1 et 2 avec identification visuelle (vert/bleu) — bonne pratique. Conforme."
+  },
+  {
+    "slug": "ucva-stockage31027142025-02-2044291329900016f12",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Émulseur AFFF fluorosynthétique. Essais déversoirs en eau uniquement (pas d'usage de mousse). Pas d'évènement accidentel. Substitution par version non fluorée à envisager. AM PFAS applicable uniquement si usage mousse lors exercices."
+  },
+  {
+    "slug": "ucva-stockage31027142025-02-2044291329900016f13",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Pas de registre de formations ni de compte-rendus d'exercice. Formations informelles non tracées. Manœuvre SDIS 2023 documentée par mail. Demande mise en place registre et CR d'exercices."
+  },
+  {
+    "slug": "ucva-stockage31027142025-02-2044291329900016f14",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Tableau synthétique des contrôles périodiques présenté. Par sondage: installations électriques (Q18/Q19 APAVE 2024 — aucune NC), foudre (Franklin Sud-Ouest 12/09/2024 — conformes sauf DOE manquant), détection (Eau&Feu 10/09/2024), extincteurs (09/02/2024). Conforme."
+  },
+  {
+    "slug": "ucva-stockage31027142025-02-2044291329900016f15",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rapport SSI maintenance annuelle 03/04/2024 par S2es: bon fonctionnement détection. Vérifications visuelles hebdo des cuves par personnel. Registre mensuel (cuves inox, mise à la terre, rétentions, liaisons équipotentielles, pompes, tuyaux) constaté. Conforme."
+  },
+  {
+    "slug": "ucva-stockage31027142025-02-2044291329900016f16",
+    "domains": [
+      "D01_INCENDIE",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Système DAI constaté (chai, bâtiments stockage, rétentions). 4 détecteurs vapeurs d'alcool dans chai + 1 caniveau. Centrale dédiée avec remontée alarme portable directeur. Rapport maintenance Drager 27/08/2024 présenté. Conforme."
+  },
+  {
+    "slug": "ucva-stockage31027142025-02-2044291329900016f17",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Aucune mesure acoustique réalisée depuis mise en service des installations (engagement lors de la demande d'autorisation). Dernières mesures: distillerie voisine 2012. Demande réalisation première mesure acoustique."
+  },
+  {
+    "slug": "ucva52007212022-10-1078188879700011f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G6",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Déversement effluents industriels dans la Dronne le 07/10/2022 ayant conduit à mortalité piscicole. Rapport d'incident demandé sous 2 mois. Modèle transmis. Origine organisationnelle selon exploitant."
+  },
+  {
+    "slug": "ucva52007212022-10-1078188879700011f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Plan des réseaux transmis début oct.2022 avec EU et EP, vannes sectionnement. Mais système de relevage eaux d'extinction vers bassin confinement manquant sur le plan. Demande complément sous 1 mois."
+  },
+  {
+    "slug": "ucva52007212022-10-1078188879700011f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Autosurveillance non saisie dans GIDAF depuis juillet 2022. Demande régularisation rétroactive sous 15 jours puis mensualité."
+  },
+  {
+    "slug": "ucva52007212022-10-1078188879700011f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Installations de traitement fonctionnent correctement depuis début campagne 2022-2023. Rejets conformes aux VLE jusqu'au 06/10/2022. Installation opérationnelle jusqu'au 07/10/2022 (date incident)."
+  },
+  {
+    "slug": "ucva52007212022-10-1078188879700011f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Suite incident: rejets stoppés (après-midi 07/10). Effluents stockés in situ dans cuves et méthaniseurs. Aucun dysfonctionnement identifié en installation de traitement. Mesure d'urgence conforme."
+  },
+  {
+    "slug": "ucva52007212022-10-1078188879700011f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M11_INCIDENT"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G6",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Rejet odorant coloré le 07/10/2022 avec mortalité piscicole. Au jour inspection: rejet stoppé, eau d'apparence normale. Exploitant admet l'origine de la pollution."
+  },
+  {
+    "slug": "ucva52007212022-10-1078188879700011f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Système de mesure débit: relevé semaine cumulée uniquement, débit instantané non enregistré. AP requiert enregistrement continu débits instantanés. Demande d'étude faisabilité sous 3 mois."
+  },
+  {
+    "slug": "ucva52007212022-10-1078188879700011f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Aucun suivi de la température de rejet vs milieu récepteur (élévation <3°C). Demande prélèvements amont/aval sous 3 mois."
+  },
+  {
+    "slug": "ucva52007212022-10-1078188879700011f09",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G1",
+    "trajectory": "T1_PREMIER",
+    "confidence": "medium",
+    "reasoning": "Analyses journalières conformes depuis 20/09/2022. Aucun dépassement VLE. Mais résultats du prélèvement du 07/10/2022 (date incident) pas encore analysés. Demande transmission résultats sous 15 jours."
+  },
+  {
+    "slug": "ucva52007212023-02-2378188879700011f01",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "medium",
+    "reasoning": "FSMD5 (extinction automatique) globalement soldée : débit conforme (583 l/min), motopompe et ventelles fonctionnelles. Mais un muret empêche la mousse d'atteindre les cuves 42/43 et les niveaux eau/émulseur sont sous le minimum requis : NC physique résiduelle. Demande sous deux mois (muret) et sous 15 jours (niveaux, traçabilité entretien), avec menace explicite de mise en demeure en cas de non-réalisation."
+  },
+  {
+    "slug": "ucva52007212023-02-2378188879700011f02",
+    "domains": [
+      "D07_RETENTION",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "medium",
+    "reasoning": "Nouvelles cuves aériennes double enveloppe installées et diagnostic sol sans impact significatif : ce volet est conforme. Mais l'ancienne station-service (cuves enterrées simple enveloppe, non conforme à l'AP de 1998) n'est pas encore mise à l'arrêt ni démantelée : NC physique résiduelle. Demande sous 4 mois avec menace explicite de suites de type mise en demeure en cas de non-transmission des justificatifs."
+  },
+  {
+    "slug": "ucva52007212023-02-2378188879700011f04",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Confinement eaux extinction en cours de restructuration (zone par zone). Travaux partiellement réalisés (murets, caniveaux) mais plusieurs restent à faire. Demande justification ensemble des travaux sous 6 mois + mise à jour plan réseaux + procédures d'isolement."
+  },
+  {
+    "slug": "ucva52007212023-02-2378188879700011f05",
+    "domains": [
+      "D02_ATEX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Clapets anti-explosion non fixés (constaté par sondage sur 2/8 cuves). Absence détection éthanol local compteurs alcools. Mises à la terre biogaz/méthaniseurs non attestées. Demandes multiples sous 2 mois."
+  },
+  {
+    "slug": "ucva52007212024-05-2278188879700011f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Surélévation cheminée réalisée. Mais: pas de procédure pilotage formalisée, pas de contrôles périodiques taux déconcentration (non mesurable selon exploitant), nouvelle étude odeur non réalisée. Demandes sous 2 mois (procédure) et 6 mois (étude odeur)."
+  },
+  {
+    "slug": "ucva52007212024-05-2278188879700011f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Conduit 3 (séchoir tartrate): périodicité mesures 3 ans non respectée (dernier rapport déc.2020). NC mesures NOx (161 mg/Nm3 vs VLE 100). Conduit 2: paramètre poussières non mesuré. Demande résultats campagne 2024."
+  },
+  {
+    "slug": "ucva52007212024-05-2278188879700011f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Suivi COVNM conduit 1: dernier contrôle nov.2019. Campagne 2024 doit inclure COVNM. Demande résultats avec suivi de tendance en sortie de séchoir."
+  },
+  {
+    "slug": "ucva52007212024-05-2278188879700011f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Évaluation annuelle quantités COV (transferts alcools, stockages) non réalisée en 2024. Outil de calcul disponible mais non utilisé. Étude technico-économique captation COV non lancée. Demandes sous délais prescrits."
+  },
+  {
+    "slug": "ucva52007212024-05-2278188879700011f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "GIDAF à mettre à jour (paramètres T°C, couleur manquants, périodicité DBO5/azote/phosphore). Température de rejet non enregistrée dans registre. Demande intégration paramètre température."
+  },
+  {
+    "slug": "ucva52007212024-05-2278188879700011f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Nombreux dépassements débit rejeté Dronne vs AP. Un dépassement DBO5 (fév.2024). Paramètres amont/aval Dronne incomplets. PAC déposé pour augmenter débit. Mesures globalement conformes sinon."
+  },
+  {
+    "slug": "ucva52007212024-05-2278188879700011f07",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Mesure acoustique pas réalisée à l'échéance (février 2024). Dernière mesure 2021 conforme. Demande réalisation mesure."
+  },
+  {
+    "slug": "ucva52007212024-05-2278188879700011f08",
+    "domains": [
+      "D01_INCENDIE",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Pas de registre consolidé stocks produits dangereux. Suivi alcool assuré mais non centralisé avec autres produits. Pas de plan général stockages. Demande mise en œuvre sous 2 mois."
+  },
+  {
+    "slug": "ucva52007212024-05-2278188879700011f09",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "Étude technique désenfumage ateliers et bâtiment non réalisée (délai 6 mois AP non respecté). Exploitant s'engage à lancer pour juillet 2024."
+  },
+  {
+    "slug": "ucva52007212024-05-2278188879700011f10",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1_PREMIER",
+    "confidence": "high",
+    "reasoning": "ETF de jan.2022 transmise. Vérification foudre sept.2023 conforme. ETF actualisée pas encore finalisée (BET intervenu 23 mai). Demande transmission ETF actualisée à réception."
+  },
+  {
+    "slug": "ucva52007212024-05-2278188879700011f11",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2_SUIVI",
+    "confidence": "high",
+    "reasoning": "Travaux confinement eaux extinction: globalement avancés mais inachevés (vanne d'obturation entrée site à installer). Caniveau traversant voirie constaté. Échéance fin 2024 rappelée. Demande calendrier finalisation."
+  },
+  {
+    "slug": "ucva52007212024-05-2278188879700011f12",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Travaux réseau siphoïde coupe-feu atelier distillation réalisés. Principe de l'installation expliqué lors visite. Conforme."
+  },
+  {
+    "slug": "unikalo-charente52084552023-01-1243976532200011f01",
+    "domains": [
+      "D01_INCENDIE",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "État des stocks intègre désormais matières combustibles non dangereuses. Quantités rubriques 4511, 4510, 1436, 4331 en deçà des seuils autorisés. Écart précédente inspection levé."
+  },
+  {
+    "slug": "unikalo-charente52084552023-01-1243976532200011f02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "2 poteaux incendie publics à <100m: débit simultané 120 m³/h sous 1 bar confirmé par courrier SUEZ 08/06/2022. Conforme."
+  },
+  {
+    "slug": "unikalo-charente52084552023-01-1243976532200011f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "Calcul D9 réévalué: besoin 180 m³/h. Exploitant dispose de 60 m³/h (réserve 216m³) + 120 m³/h (poteaux publics simultanés) = 180 m³/h requis. DCI conforme. MED 15/04/2022 sans objet."
+  },
+  {
+    "slug": "unikalo-charente52084552023-01-1243976532200011f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "RIA non conformes corrigés: accessibilité RIA n°3 restituée, nouveau RIA n°11 ajouté (couverture double angle RIA 7/8 garantie). Rapport Johnson Controls 27/07/2022. MED 15/04/2022 soldée."
+  },
+  {
+    "slug": "unikalo-charente52084552023-01-1243976532200011f05",
+    "domains": [
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3_AMELIORATION",
+    "confidence": "high",
+    "reasoning": "3 obturateurs gonflables installés sur canalisations EP avec coffrets de commande déportés (GSM). Asservissement automatique à la détection incendie attesté (PV test 18/10/2022: concluant). Contrôle préventif annuel mis en place. MED 15/04/2022 soldée."
+  }
+]

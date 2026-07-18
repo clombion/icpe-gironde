@@ -1,0 +1,324 @@
+{
+  "total_audited": 130,
+  "errors_found": 33,
+  "corrections": [
+    {
+      "slug": "total-energies-marketing-france52088362024-10-2840209561600023f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI requires a numeric corrective deadline in constats_body; text has a formal demande but no 'sous X jours/mois' language — Hunter pattern (b) over-application."
+    },
+    {
+      "slug": "total-energies-marketing-france52088362024-10-2840209561600023f13",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI requires a numeric corrective deadline in constats_body; text has a formal demande but no 'sous X jours/mois' language — Hunter pattern (b) over-application."
+    },
+    {
+      "slug": "total-energies-marketing-france52088362024-10-2840209561600023f17",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI requires a numeric corrective deadline in constats_body; text has a formal demande but no 'sous X jours/mois' language — Hunter pattern (b) over-application."
+    },
+    {
+      "slug": "total-marketing-france-merignac-aeroport-de-bordeaux52071012023-02-2853168044500065f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI requires a numeric corrective deadline in constats_body; text has a formal demande but no 'sous X jours/mois' language — Hunter pattern (b) over-application."
+    },
+    {
+      "slug": "total-marketing-france-merignac-aeroport-de-bordeaux52071012023-02-2853168044500065f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI requires a numeric corrective deadline in constats_body; text has a formal demande but no 'sous X jours/mois' language — Hunter pattern (b) over-application."
+    },
+    {
+      "slug": "total-marketing-france-merignac-aeroport-de-bordeaux52071012023-02-2853168044500065f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI requires a numeric corrective deadline in constats_body; text has a formal demande but no 'sous X jours/mois' language — Hunter pattern (b) over-application."
+    },
+    {
+      "slug": "total-marketing-france-merignac-aeroport-de-bordeaux52071012023-02-2853168044500065f10",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI requires a numeric corrective deadline in constats_body; text has a formal demande but no 'sous X jours/mois' language — Hunter pattern (b) over-application."
+    },
+    {
+      "slug": "total-marketing-france-merignac-aeroport-de-bordeaux52071012023-02-2853168044500065f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI requires a numeric corrective deadline in constats_body; text has a formal demande but no 'sous X jours/mois' language — Hunter pattern (b) over-application."
+    },
+    {
+      "slug": "total-marketing-france-merignac-aeroport-de-bordeaux52071012025-05-2753168044500065f12",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI requires a numeric corrective deadline in constats_body; text has a formal demande but no 'sous X jours/mois' language — Hunter pattern (b) over-application."
+    },
+    {
+      "slug": "total-marketing-france-merignac-aeroport-de-bordeaux52071012025-05-2753168044500065f14",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI requires a numeric corrective deadline in constats_body; text has a formal demande but no 'sous X jours/mois' language — Hunter pattern (b) over-application."
+    },
+    {
+      "slug": "totalenergies-proxi-sud-ouest-bordeaux1000380242024-01-2932495819802616f06",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI requires a numeric corrective deadline in constats_body; text has a formal demande but no 'sous X jours/mois' language — Hunter pattern (b) over-application."
+    },
+    {
+      "slug": "totalenergies-proxi-sud-ouest-bordeaux1000380242024-10-0832495819802616f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI requires a numeric corrective deadline in constats_body; text has a formal demande but no 'sous X jours/mois' language — Hunter pattern (b) over-application."
+    },
+    {
+      "slug": "tout-fer-metaux1000209532024-11-2290110067700011f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI requires a numeric corrective deadline in constats_body; text has a formal demande but no 'sous X jours/mois' language — Hunter pattern (b) over-application."
+    },
+    {
+      "slug": "tr-express31071192024-07-0338480188200042f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI requires a numeric corrective deadline in constats_body; text has a formal demande but no 'sous X jours/mois' language — Hunter pattern (b) over-application."
+    },
+    {
+      "slug": "tr-express31071192024-07-0338480188200042f03",
+      "field": "dynamic",
+      "hunter_value": "R02_PROMESSE",
+      "corrected_value": "R14_NEUTRE_NC",
+      "reason": "'L'exploitant a déclaré être organisé pour ne jamais stocker plus d'une tonne' is a factual claim about current practice, not a future commitment — taxonomy explicitly excludes this pattern from R02."
+    },
+    {
+      "slug": "total-marketing-france-merignac-aeroport-de-bordeaux52071012026-01-1553168044500065f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Text conditionally threatens administrative escalation (mise en demeure/astreinte) via 'à défaut'/'expose l'exploitant à des suites...de type mise en demeure' — Hunter pattern (c) under-application."
+    },
+    {
+      "slug": "total-marketing-france-merignac-aeroport-de-bordeaux52071012026-01-1553168044500065f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Text conditionally threatens administrative escalation (mise en demeure/astreinte) via 'à défaut'/'expose l'exploitant à des suites...de type mise en demeure' — Hunter pattern (c) under-application."
+    },
+    {
+      "slug": "total-marketing-france-merignac-aeroport-de-bordeaux52071012026-01-1553168044500065f06",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Text conditionally threatens administrative escalation (mise en demeure/astreinte) via 'à défaut'/'expose l'exploitant à des suites...de type mise en demeure' — Hunter pattern (c) under-application."
+    },
+    {
+      "slug": "total-marketing-france-merignac-aeroport-de-bordeaux52071012026-01-1553168044500065f08",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Text conditionally threatens administrative escalation (mise en demeure/astreinte) via 'à défaut'/'expose l'exploitant à des suites...de type mise en demeure' — Hunter pattern (c) under-application."
+    },
+    {
+      "slug": "total-marketing-france-merignac-aeroport-de-bordeaux52071012026-01-1553168044500065f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Text conditionally threatens administrative escalation (mise en demeure/astreinte) via 'à défaut'/'expose l'exploitant à des suites...de type mise en demeure' — Hunter pattern (c) under-application."
+    },
+    {
+      "slug": "total-marketing-france-merignac-aeroport-de-bordeaux52071012026-01-1553168044500065f12",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Text conditionally threatens administrative escalation (mise en demeure/astreinte) via 'à défaut'/'expose l'exploitant à des suites...de type mise en demeure' — Hunter pattern (c) under-application."
+    },
+    {
+      "slug": "tout-fer-metaux1000209532024-11-2290110067700011f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Text conditionally threatens administrative escalation (mise en demeure/astreinte) via 'à défaut'/'expose l'exploitant à des suites...de type mise en demeure' — Hunter pattern (c) under-application."
+    },
+    {
+      "slug": "transports-combronde31012742023-02-0241026265300141f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Text conditionally threatens administrative escalation (mise en demeure/astreinte) via 'à défaut'/'expose l'exploitant à des suites...de type mise en demeure' — Hunter pattern (c) under-application."
+    },
+    {
+      "slug": "transports-combronde31012742023-02-0241026265300141f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Text conditionally threatens administrative escalation (mise en demeure/astreinte) via 'à défaut'/'expose l'exploitant à des suites...de type mise en demeure' — Hunter pattern (c) under-application."
+    },
+    {
+      "slug": "transports-combronde31012742023-02-0241026265300141f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Text conditionally threatens administrative escalation (mise en demeure/astreinte) via 'à défaut'/'expose l'exploitant à des suites...de type mise en demeure' — Hunter pattern (c) under-application."
+    },
+    {
+      "slug": "total-marketing-france-merignac-aeroport-de-bordeaux52071012026-01-1553168044500065f04",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G4",
+      "reason": "MED du 1er août 2025 active et non soldée, concomitante à une NC technique (absence de sonde de niveau en continu sur la cuve Total 1) — taxonomy heuristic 'G4 si MED active + NC technique concomitante'."
+    },
+    {
+      "slug": "totalenergies-proxi-sud-ouest-bordeaux1000380242024-01-2932495819802616f05",
+      "field": "stage",
+      "hunter_value": "S02_INJONCTION",
+      "corrected_value": "S01_CONSTAT",
+      "reason": "'L'exploitant pourrait utilement identifier...' is a non-binding suggestion, not a formal injunction with deadline — S02_INJONCTION does not fit absent any formal demande/délai."
+    },
+    {
+      "slug": "transgourmet-operations31018772022-11-1743392733200737f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M08_CONFORMITE"
+      ],
+      "reason": "Text states onduleurs/coupure d'urgence inspection 'n'ont pas amené de remarque particulière' (conforme); the only ask is an informational clarification on alarm parameters, not an observed NC — False M14 (should be M08)."
+    },
+    {
+      "slug": "transgourmet-operations31018772022-11-1743392733200737f03",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "Consequence of M14->M08 correction: no NC, conformity observed."
+    },
+    {
+      "slug": "transgourmet-operations31018772022-11-1743392733200737f03",
+      "field": "dynamic",
+      "hunter_value": "R14_NEUTRE_NC",
+      "corrected_value": "R13_NEUTRE_CONFORME",
+      "reason": "Consequence of M08 conformity correction: dynamic should be R13 not R14."
+    },
+    {
+      "slug": "transgourmet-operations31018772022-11-1743392733200737f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline in text (pattern b)."
+    },
+    {
+      "slug": "transgourmet-operations31018772022-11-1743392733200737f03",
+      "field": "stage",
+      "hunter_value": "S02_INJONCTION",
+      "corrected_value": "S01_CONSTAT",
+      "reason": "Conformity finding with a residual informational note, not a formal injunction with deadline."
+    },
+    {
+      "slug": "tout-fer-metaux1000209532024-11-2290110067700011f05",
+      "field": "dynamic",
+      "hunter_value": "R14_NEUTRE_NC",
+      "corrected_value": "R13_NEUTRE_CONFORME",
+      "reason": "No NC described (déchets réceptionnés sous contrôle du personnel = conforme); inspection merely rappelle une règle suite à un signalement riverain. M08 should pair with R13, not R14."
+    }
+  ],
+  "false_positive_rate": 0.2077,
+  "error_patterns": "Batch dominated by two systematic Hunter mistakes on the modifiers axis, both matching the known Hunter patterns flagged for this project. (b) m_DELAI over-application: Hunter attached m_DELAI to S02_INJONCTION whenever a formal 'Demande a formuler' section existed, even when the text carried no numeric deadline ('sous X jours/mois') -- 14 records corrected by dropping the modifier (2 of these, totalenergies-proxi...2024-01-29f05 and transgourmet...f03, additionally needed a stage downgrade to S01_CONSTAT because the request itself was non-binding phrasing, not a real injunction). (c) m_MENACE under-application: Hunter consistently missed the modifier on records containing conditional-threat language ('a defaut', 'expose l'exploitant a des suites administratives de type mise en demeure', 'un arrete de mise en demeure sera propose') -- 10 records corrected by adding m_MENACE, concentrated in the total-marketing-france-merignac-aeroport 2026-01-15 batch (MED verification fiches) and transports-combronde. Pattern (a), R10_TENSION misused for 'unfulfilled past promise' cases, was NOT found -- the batch's single R10_TENSION record (fuits NYCOSOL, exploitant conteste le diagnostic) is a textbook genuine fit. Beyond the three flagged patterns: one False M14 (transgourmet f03, onduleurs 'sans remarque particuliere' -- conformity mislabeled as a technical NC, cascading into gravity/dynamic/modifier/stage corrections on the same record), one M08/R14 mechanism-dynamic mismatch (tout-fer-metaux f05, a preventive rappel with no NC misclassified with the NC-factuelle dynamic), one R02 over-attribution (tr-express f03, a factual claim about current organizational practice mislabeled as a future promise), and one under-graded gravity (total-marketing...2026-01-15 f04, MED active + concomitant NC technique on a missing level sensor, should have been G4 not G3).",
+  "verdict": "Good baseline classification quality -- axis 1/2 domain and mechanism labels, actor, and the overwhelming majority of gravity/trajectory/dynamic assignments held up under corpus re-reading, including all 4 Hunter medium-confidence records (2 confirmed as-is, 2 corrected). The correction volume (33 field-level fixes across 27/130 records, ~21%) is concentrated almost entirely on the modifiers axis (24 of 33 corrections are m_DELAI/m_MENACE additions or removals) rather than on domain/mechanism/gravity misclassification, meaning Hunter's substantive NC/conformity read of each fiche was usually right even when its procedural-escalation bookkeeping was off. M15_AUTRE usage: 0%, target met. No invalid or malformed codes found in Hunter output; all corrections are semantic, not schema fixes."
+}

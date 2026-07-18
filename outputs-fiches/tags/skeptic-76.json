@@ -1,0 +1,554 @@
+{
+  "total_audited": 130,
+  "errors_found": 75,
+  "corrections": [
+    {
+      "slug": "transports-combronde31012742023-02-0241026265300141f12",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "m_MENACE in mechanisms",
+      "corrected_value": "m_MENACE moved to modifiers",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go ONLY in the modifiers array, never in mechanisms."
+    },
+    {
+      "slug": "transports-combronde31012742023-02-0241026265300141f14",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "m_MENACE in mechanisms",
+      "corrected_value": "m_MENACE moved to modifiers",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go ONLY in the modifiers array, never in mechanisms."
+    },
+    {
+      "slug": "transports-combronde31012742023-02-0241026265300141f16",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "m_MENACE in mechanisms",
+      "corrected_value": "m_MENACE moved to modifiers",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go ONLY in the modifiers array, never in mechanisms."
+    },
+    {
+      "slug": "transports-combronde31012742023-02-0241026265300141f17",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "m_MENACE in mechanisms",
+      "corrected_value": "m_MENACE moved to modifiers",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go ONLY in the modifiers array, never in mechanisms."
+    },
+    {
+      "slug": "transports-combronde31012742023-02-0241026265300141f18",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "m_MENACE in mechanisms",
+      "corrected_value": "m_MENACE moved to modifiers",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go ONLY in the modifiers array, never in mechanisms."
+    },
+    {
+      "slug": "transports-combronde31012742024-03-1941026265300141f08",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "m_MENACE in mechanisms",
+      "corrected_value": "m_MENACE moved to modifiers",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go ONLY in the modifiers array, never in mechanisms."
+    },
+    {
+      "slug": "u-logistique-sas52008502022-08-2381014656300178f01",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "m_MENACE in mechanisms",
+      "corrected_value": "m_MENACE moved to modifiers",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go ONLY in the modifiers array, never in mechanisms."
+    },
+    {
+      "slug": "u-logistique-sas52008502022-08-2381014656300178f04",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "m_MENACE in mechanisms",
+      "corrected_value": "m_MENACE moved to modifiers",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go ONLY in the modifiers array, never in mechanisms."
+    },
+    {
+      "slug": "u-logistique-sas52008502022-08-2381014656300178f05",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "m_MENACE in mechanisms",
+      "corrected_value": "m_MENACE moved to modifiers",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go ONLY in the modifiers array, never in mechanisms."
+    },
+    {
+      "slug": "u-logistique-sas52008502022-08-2381014656300178f07",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "m_MENACE in mechanisms",
+      "corrected_value": "m_MENACE moved to modifiers",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go ONLY in the modifiers array, never in mechanisms."
+    },
+    {
+      "slug": "u-logistique-sas52008502022-08-2381014656300178f09",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "m_MENACE in mechanisms",
+      "corrected_value": "m_MENACE moved to modifiers",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go ONLY in the modifiers array, never in mechanisms."
+    },
+    {
+      "slug": "u-logistique-sas52008502022-08-2381014656300178f12",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "m_MENACE in mechanisms",
+      "corrected_value": "m_MENACE moved to modifiers",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go ONLY in the modifiers array, never in mechanisms."
+    },
+    {
+      "slug": "u-logistique-sas52008502024-04-2581014656300178f10",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "m_MENACE in mechanisms",
+      "corrected_value": "m_MENACE moved to modifiers",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go ONLY in the modifiers array, never in mechanisms."
+    },
+    {
+      "slug": "transports-combronde31012742023-02-0241026265300141f12",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "transports-combronde31012742023-02-0241026265300141f14",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "transports-combronde31012742023-02-0241026265300141f16",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "transports-combronde31012742023-02-0241026265300141f17",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "transports-combronde31012742023-02-0241026265300141f18",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "transports-combronde31012742024-03-1941026265300141f08",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "transports-combronde31012742024-03-1941026265300141f11",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "transports-combronde31012742024-03-1941026265300141f12",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "transports-combronde31012742024-03-1941026265300141f13",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "transports-combronde31012742024-03-1941026265300141f14",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f01",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f02",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f03",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f04",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f05",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f07",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f09",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "trastarter-tresses-recup-auto-sarl52078212022-11-0334330427500039f11",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "transports-vandermeersch-et-vandermeersch-v-i-coutras52128122022-09-1531945696800035f01",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "transports-vandermeersch-et-vandermeersch-v-i-coutras52128122025-04-0931945696800035f01",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "transports-vandermeersch-et-vandermeersch-v-i-saint-medard-de-guizieres1000034282025-04-0982338997800011f01",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "u-logistique-sas52008502022-08-2381014656300178f01",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "u-logistique-sas52008502022-08-2381014656300178f05",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "u-logistique-sas52008502022-08-2381014656300178f07",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "u-logistique-sas52008502022-08-2381014656300178f11",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "u-logistique-sas52008502022-08-2381014656300178f12",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "u-logistique-sas52008502024-04-2581014656300178f10",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "ucva-stockage31027142022-09-1244291329900016f02",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "ucva-stockage31027142022-09-1244291329900016f04",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "ucva52007212022-10-1078188879700011f01",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "ucva52007212022-10-1078188879700011f02",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "ucva52007212022-10-1078188879700011f03",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "ucva52007212022-10-1078188879700011f07",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "ucva52007212022-10-1078188879700011f08",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "ucva52007212022-10-1078188879700011f09",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f01",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f02",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f04",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f05",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "ucva52007212024-05-2278188879700011f01",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "ucva52007212024-05-2278188879700011f08",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "ucva52007212024-05-2278188879700011f11",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI absent",
+      "corrected_value": "m_DELAI added",
+      "reason": "Numeric correction deadline imposed on the exploitant in the live demand (constats_body), not just in the historical Prescription block."
+    },
+    {
+      "slug": "ucva-stockage31027142022-09-1244291329900016f04",
+      "field": "modifiers",
+      "hunter_value": "m_MENACE absent",
+      "corrected_value": "m_MENACE added",
+      "reason": "Text conditionally threatens mise en demeure / suites administratives ('a défaut', 'peut conduire a des sanctions administratives') without prior m_MENACE tag."
+    },
+    {
+      "slug": "transports-combronde31012742024-03-1941026265300141f14",
+      "field": "modifiers",
+      "hunter_value": "m_MENACE absent",
+      "corrected_value": "m_MENACE added",
+      "reason": "Text conditionally threatens mise en demeure / suites administratives ('a défaut', 'peut conduire a des sanctions administratives') without prior m_MENACE tag."
+    },
+    {
+      "slug": "ucva52007212022-10-1078188879700011f01",
+      "field": "modifiers",
+      "hunter_value": "m_MENACE absent",
+      "corrected_value": "m_MENACE added",
+      "reason": "Text conditionally threatens mise en demeure / suites administratives ('a défaut', 'peut conduire a des sanctions administratives') without prior m_MENACE tag."
+    },
+    {
+      "slug": "ucva52007212022-10-1078188879700011f02",
+      "field": "modifiers",
+      "hunter_value": "m_MENACE absent",
+      "corrected_value": "m_MENACE added",
+      "reason": "Text conditionally threatens mise en demeure / suites administratives ('a défaut', 'peut conduire a des sanctions administratives') without prior m_MENACE tag."
+    },
+    {
+      "slug": "ucva52007212022-10-1078188879700011f03",
+      "field": "modifiers",
+      "hunter_value": "m_MENACE absent",
+      "corrected_value": "m_MENACE added",
+      "reason": "Text conditionally threatens mise en demeure / suites administratives ('a défaut', 'peut conduire a des sanctions administratives') without prior m_MENACE tag."
+    },
+    {
+      "slug": "ucva52007212022-10-1078188879700011f06",
+      "field": "modifiers",
+      "hunter_value": "m_MENACE absent",
+      "corrected_value": "m_MENACE added",
+      "reason": "Text conditionally threatens mise en demeure / suites administratives ('a défaut', 'peut conduire a des sanctions administratives') without prior m_MENACE tag."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f04",
+      "field": "modifiers",
+      "hunter_value": "m_MENACE absent",
+      "corrected_value": "m_MENACE added",
+      "reason": "Text conditionally threatens mise en demeure / suites administratives ('a défaut', 'peut conduire a des sanctions administratives') without prior m_MENACE tag."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f05",
+      "field": "modifiers",
+      "hunter_value": "m_MENACE absent",
+      "corrected_value": "m_MENACE added",
+      "reason": "Text conditionally threatens mise en demeure / suites administratives ('a défaut', 'peut conduire a des sanctions administratives') without prior m_MENACE tag."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08_CONFORMITE"
+      ],
+      "corrected_value": [
+        "M08_CONFORMITE",
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "reason": "Système d'extinction principal conforme (FSMD5 soldée) mais un muret empêche la mousse d'atteindre les cuves 42/43 et les niveaux eau/émulseur sont insuffisants : NC physique résiduelle, pas seulement M08."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Demande active avec délais chiffrés (sous deux mois / sous 15 jours) et menace explicite de mise en demeure en cas de non-réalisation."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f01",
+      "field": "dynamic",
+      "hunter_value": "R13_NEUTRE_CONFORME",
+      "corrected_value": "R14_NEUTRE_NC",
+      "reason": "NC factuelle active, pas une conformité (R13)."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f01",
+      "field": "stage",
+      "hunter_value": "S06_CLOTURE",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Une demande active à délai (muret, niveaux eau/émulseur) subsiste ; ce n'est pas une clôture complète du dossier."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f01",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "NC physique (muret bloquant la répartition de mousse, niveaux insuffisants), pas une simple observation."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f01",
+      "field": "trajectory",
+      "hunter_value": "T3_AMELIORATION",
+      "corrected_value": "T2_SUIVI",
+      "reason": "Suivi de la FSMD5 : le système est globalement fonctionnel mais un point résiduel reste à corriger, pas une amélioration totalement soldée."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08_CONFORMITE"
+      ],
+      "corrected_value": [
+        "M08_CONFORMITE",
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "reason": "Nouvelles cuves aériennes double enveloppe conformes, mais les anciennes cuves enterrées simple enveloppe (non conformes à l'AP 1998) sont toujours en place et pas encore démantelées : NC physique résiduelle."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Demande active avec délai chiffré (sous 4 mois) pour la mise à l'arrêt/dépose des cuves et menace explicite de mise en demeure en cas de non-transmission des justificatifs."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f02",
+      "field": "dynamic",
+      "hunter_value": "R13_NEUTRE_CONFORME",
+      "corrected_value": "R14_NEUTRE_NC",
+      "reason": "NC factuelle active (anciennes cuves non conformes toujours en place), pas une conformité."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f02",
+      "field": "stage",
+      "hunter_value": "S06_CLOTURE",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Demande active à délai (mise à l'arrêt, dépose des cuves enterrées) : le dossier n'est pas clôturé."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f02",
+      "field": "gravity",
+      "hunter_value": "G1",
+      "corrected_value": "G3",
+      "reason": "NC physique : cuves enterrées simple enveloppe non conformes toujours présentes (dimension physique, pas seulement documentaire)."
+    },
+    {
+      "slug": "ucva52007212023-02-2378188879700011f02",
+      "field": "trajectory",
+      "hunter_value": "T3_AMELIORATION",
+      "corrected_value": "T2_SUIVI",
+      "reason": "Suivi de l'OBS2 de l'inspection précédente : nouvelles cuves installées et diagnostic sol rassurant, mais la dépose des anciennes cuves reste à réaliser."
+    }
+  ],
+  "false_positive_rate": 0.35,
+  "error_patterns": "Three systematic patterns account for nearly all corrections. (1) m_MENACE misfiled: in 13 records Hunter correctly detected a conditional mise-en-demeure threat ('conduira l'inspection a proposer... une mise en demeure', 'expose l'exploitant a des suites administratives') but placed the m_MENACE modifier inside the `mechanisms` array instead of `modifiers`, violating the STRICT code-validity rule. Confirms the known hunter-76.json defect (m_MENACE inside mechanisms) is not isolated to one record but a batch-wide placement bug. (2) m_DELAI never used: Hunter assigned zero m_DELAI modifiers across all 130 records despite the taxonomy defining it as the standard tag for an imposed correctif deadline, and despite 42 records carrying an explicit numeric deadline ('sous 30 jours', 'dans un delai de 2 mois', 'd'ici la fin de l'annee 2022', etc.) inside the live demand (constats_body/Observations), as opposed to deadlines merely narrated inside the historical Prescription block (correctly left untagged, e.g. the two vandermeersch-saint-medard records where 'delai de trois mois' only appears in the retelling of a 2022 MED, not in the current demand). (3) m_MENACE under-applied: 8 additional records contain an explicit conditional threat ('a defaut', 'peut conduire a des sanctions administratives', 'expose l'exploitant a des suites administratives de type mise en demeure') that Hunter left completely untagged (not even misplaced) — mostly concentrated in the ucva52007212022-10-10 and ucva52007212023-02-23 fiches, which reuse a standard closing sentence per non-conformity that Hunter seems to have skipped. Beyond these three patterns, two False-M08 errors were found by re-reading: ucva52007212023-02-2378188879700011f01 and ...f02 were tagged M08_CONFORMITE / S06_CLOTURE / R13_NEUTRE_CONFORME / G1-G2 even though each record's own 'Observations' section still opens an active, dated demand (respectively: muret blocking foam distribution + insufficient water/emulsifier levels; old single-wall underground tanks not yet decommissioned) with an explicit MED threat if not satisfied — the parent installation's main NC was genuinely solded, but a residual physical NC was folded into 'conforme' instead of being kept open. No instances of the R10_TENSION-for-unfulfilled-promise pattern were found (R10 is never used in this batch), and no over-aggressive M17, false M14, or R02-over-attribution errors were found in the sampled/audited records.",
+  "verdict": "Hunter's core classification (domain/mechanism selection, M08 vs M14 discrimination, gravity heuristics, actor/stage on the clearly-open or clearly-closed records) is sound: of the 20 high-confidence spot-checks and 6 medium-confidence re-reads, only 2 records needed a substantive reclassification. The batch's real weakness is modifier discipline: m_MENACE was detected but consistently misfiled, and m_DELAI was never emitted at all despite being the taxonomy's standard 'imposed deadline' tag and clearly applicable to ~32% of records. All 130 records pass STRICT code-validity after correction (exact ids, single-value fields, no mechanism in modifiers or vice versa, all fields present). final-76.json is ready for merge."
+}
