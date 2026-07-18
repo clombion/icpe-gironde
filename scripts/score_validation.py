@@ -67,6 +67,54 @@ def agreement_single(pred: list[str], truth: list[str]) -> float | None:
     return sum(1 for p, t in pairs if p == t) / len(pairs) if pairs else None
 
 
+def scenario(acc: float | None, human_agree: float | None, kappa: float | None) -> tuple[str, str]:
+    """Classe un axe en scénario post-revue et donne l'action à suivre.
+
+    Deux dimensions : hauteur du plafond humain (accord inter-annotateur) et
+    écart de la machine sous ce plafond. La justesse machine se lit toujours
+    PAR RAPPORT au plafond humain, jamais contre 100 %."""
+    if acc is None:
+        return ("indéterminé", "pas assez de fiches jugées en commun")
+    if human_agree is None or kappa is None:
+        return ("plafond inconnu (1 relecteur)",
+                "ajouter un 2e relecteur — sans plafond humain, une justesse de "
+                f"{acc*100:.0f}% n'est ni bonne ni mauvaise")
+    gap = human_agree - acc  # écart machine sous le plafond humain
+    subjective = kappa < 0.40
+    ceiling_high = kappa >= 0.60
+
+    if subjective:
+        if gap <= 0.05:
+            return ("axe subjectif — machine au plancher",
+                    "l'axe lui-même manque de vérité stable (les experts divergent) ; "
+                    "publier en signal faible avec κ divulgué, ou agréger à une échelle "
+                    "plus grossière où les humains s'accordent")
+        return ("axe subjectif ET machine en deçà",
+                "double problème : axe ambigu + erreur machine propre ; "
+                "redéfinir/clarifier le codebook de cet axe, ou l'abandonner")
+
+    if gap <= 0.05:
+        tag = "fiable — machine au plafond humain" if ceiling_high else \
+              "fiable (plafond modéré) — machine au niveau humain"
+        return (tag, "publier comme résultat ; le résiduel est le plancher subjectif, "
+                     "pas une erreur machine")
+    if gap <= 0.15:
+        return ("écart corrigeable",
+                "erreur machine que les humains ne partagent pas ; inspecter la matrice "
+                "de confusion ci-dessous, corriger le prompt, re-taguer, re-mesurer")
+    return ("cassé — erreur systématique",
+            "NE PAS publier cet axe ; écart trop large pour du bruit — bug probable de "
+            "prompt/taxonomie ou désaccord de définition machine↔humain ; investiguer")
+
+
+def confusion(pred: list[str], truth: list[str], top: int = 6) -> list[tuple[str, str, int]]:
+    """Paires (code machine, code humain, n) les plus fréquentes en désaccord."""
+    from collections import Counter
+    c = Counter((p, t) for p, t in zip(pred, truth)
+                if p is not None and t is not None and p != t)
+    return [(p, t, n) for (p, t), n in c.most_common(top)]
+
+
 def main() -> int:
     if not SAMPLE.is_file():
         print(f"[erreur] échantillon absent : {SAMPLE}", file=sys.stderr)
@@ -143,6 +191,60 @@ def main() -> int:
     else:
         lines.append("_Un seul jeu de labels : pas d'accord inter-annotateur calculable. "
                      "Ajouter un second relecteur pour mesurer le plancher subjectif par axe._")
+    lines.append("")
+
+    # Scénario + action par axe (le cœur de la décision post-revue)
+    lines.append("## Scénario par axe → action")
+    lines.append("")
+    lines.append("| Axe | Justesse machine | Plafond humain (κ) | Scénario | Action |")
+    lines.append("|---|---|---|---|---|")
+    two = len(names) >= 2
+    confusions: list[tuple[str, list]] = []
+    for field in SINGLE:
+        if two:
+            a, b = names[0], names[1]
+            la = [reviewers[a].get(f, {}).get(field) for f in covered]
+            lb = [reviewers[b].get(f, {}).get(field) for f in covered]
+            consensus = [(f, x) for f, x, y in zip(covered, la, lb) if x is not None and x == y]
+            pred = [machine[f].get(field) for f, _ in consensus]
+            truth = [x for _, x in consensus]
+            acc = agreement_single(pred, truth)
+            h_agree = agreement_single(la, lb)
+            k = cohen_kappa(la, lb)
+        else:
+            r = names[0]
+            pred = [machine[f].get(field) for f in covered]
+            truth = [reviewers[r].get(f, {}).get(field) for f in covered]
+            acc, h_agree, k = agreement_single(pred, truth), None, None
+        label, action = scenario(acc, h_agree, k)
+        acc_s = f"{acc*100:.0f}%" if acc is not None else "—"
+        ceil_s = f"{h_agree*100:.0f}% (κ={k:.2f})" if k is not None else "—"
+        lines.append(f"| {field} | {acc_s} | {ceil_s} | {label} | {action} |")
+        if two and ("corrigeable" in label or "cassé" in label or "en deçà" in label):
+            confusions.append((field, confusion(pred, truth)))
+    lines.append("")
+    lines.append("**Lecture.** Justesse machine lue par rapport au plafond humain, jamais contre 100 %. "
+                 "Seuils : écart machine↔plafond ≤ 5 pts = _fiable_ (publier) · 5–15 pts = _corrigeable_ "
+                 "(corriger le prompt, re-taguer) · > 15 pts = _cassé_ (ne pas publier, bug probable). "
+                 "Indépendamment, κ < 0.40 = _axe subjectif_ (le problème est l'axe, pas la machine : "
+                 "agréger ou redéfinir). 0 % d'écart = axe trivialement objectif (ou échantillon trop facile — "
+                 "vérifier la strate) ; 100 % d'écart = erreur systématique certaine, à investiguer avant tout.")
+    lines.append("")
+
+    # Matrices de confusion pour les axes à corriger (le « diff » exploitable)
+    if confusions:
+        lines.append("## Matrices de confusion (axes corrigeables/cassés)")
+        lines.append("")
+        for field, pairs in confusions:
+            if not pairs:
+                continue
+            lines.append(f"**{field}** — top désaccords machine → humain :")
+            lines.append("")
+            lines.append("| machine | humain | n |")
+            lines.append("|---|---|---|")
+            for p, t, n in pairs:
+                lines.append(f"| {p} | {t} | {n} |")
+            lines.append("")
 
     OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"[write] {OUT.relative_to(PROJECT_ROOT)}")
