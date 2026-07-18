@@ -149,7 +149,11 @@ La première section, **Décisions en attente**, liste les choix identifiés mai
 **Décision :** Assumé — les URLs sont régénérées par le pipeline. Conséquence documentée : tout changement de dépôt ou de compte impose une réécriture globale + reconstruction du pivot (fait le 2026-07-17 pour la migration vers `clombion/icpe-gironde`, 1 795 fichiers ; voir BUG-006).
 **Justification :** Les URLs pré-calculées évitent toute logique de construction d'URL côté client et rendent les CSV exploitables hors du site.
 
-### Artefacts régénérables dans `local/`
+### fiches.sqlite versionné, pas reconstruit en CI
+
+**Situation :** `fiches.sqlite` (~78 Mo, tags + table longue inclus) est un artefact généré par `build_sqlite.py`, qui flirte avec la limite dure GitHub de 100 Mo.
+**Décision :** Le fichier est commité directement dans le dépôt (servi tel quel par GitHub Pages), pas gitignoré ni régénéré par le workflow CI. Sa taille est stable — le corpus est complet et le tagging terminé, rien de plus ne s'y ajoute.
+**Justification :** Pages ne sert pas les fichiers LFS ; committer le binaire est le seul moyen de le servir. La taille étant figée sous la limite, la complexité d'un build-en-CI (TASK-2) n'est pas justifiée pour ce fichier. À réviser seulement si un futur enrichissement fait franchir ~90 Mo.
 
 **Situation :** Le corpus taggable (10 514 fichiers, 45 Mo) et les tranches de batch sont entièrement régénérables depuis le pivot.
 **Décision :** Ils vivent dans `local/` (gitignoré), avec `_paths.py` comme source de vérité des chemins. Les artefacts LLM payés (tags, taxonomie, codebook, prompts) restent versionnés.
