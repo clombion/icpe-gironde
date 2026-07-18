@@ -1,0 +1,468 @@
+{
+  "total_audited": 130,
+  "errors_found": 50,
+  "corrections": [
+    {
+      "slug": "groupe-nau-ex-cic52057832025-03-1351040103700039f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "groupe-nau-ex-cic52057832025-03-1351040103700039f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "groupe-nau-ex-cic52057832025-03-1351040103700039f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "groupe-nau-ex-cic52057832025-03-1351040103700039f15",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "groupe-nau-ex-cic52057832025-03-1351040103700039f18",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "guedon52007292025-03-1435199588100015f15",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "guyenne-enrobes-merignac52010142022-12-1231176775000012f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "haras-montdesir31019092024-05-2152811303800020f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "haras-montdesir31019092024-05-2152811303800020f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "haras-montdesir31019092024-05-2152811303800020f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "haras-montdesir31019092024-05-2152811303800020f10",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "haras-montdesir31019092024-05-2152811303800020f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "haras-montdesir31019092024-05-2152811303800020f14",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "haras-montdesir31019092024-05-2152811303800020f15",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "hauts-de-garonne-energies-lormont1000513342024-08-2988992293600014f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Constat S03 (correction en cours); la demande ('justifie du bon remplacement une fois les travaux réalisés') ne fixe aucun délai numérique. m_DELAI retiré."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-illats31036272025-11-0757216565201419f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-illats31036272025-11-0757216565201419f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-illats31036272025-11-0757216565201419f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-illats31036272025-11-0757216565201419f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-illats31036272025-11-0757216565201419f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-saint-michel-de-rieufret52048912024-10-1557216565201419f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "S02+m_DELAI sans délai numérique dans le corps du constat (le corpus ne mentionne aucun 'sous X jours/mois'); m_DELAI retiré."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-saint-michel-de-rieufret52048912024-10-1557216565201419f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Le seul délai numérique ('dans les 6 mois qui suivent la fin de phase') figure dans le bloc Prescription (boilerplate AP), pas dans le constat; classement axe 2 sur constats_body uniquement. m_DELAI retiré."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-saint-michel-de-rieufret52048912022-12-0957216565201419f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Le constat cite une échéance chiffrée ('Il est rappelé l'échéance du 31/03/2023') pour la déclaration GEREP 2022 non commencée; délai imposé manquant."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-ex-audoin-fils52060992023-05-3157216565202227f12",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Le constat impose un délai numérique ('mettre l'exploitant en demeure de régulariser sa situation, sous 3 mois'); délai correctif manquant."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-saint-michel-de-rieufret52048912023-10-0657216565201419f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "NC récurrente (2e année) 'susceptible de faire l'objet d'une mise en demeure sans amélioration' = avertissement conditionnel, précurseur de M04."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-saint-michel-de-rieufret52048912023-10-0657216565201419f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "'Sans amélioration constatée dès la transmission du bilan 2023, cette situation est susceptible de faire l'objet d'une mise en demeure' = avertissement conditionnel (m_MENACE)."
+    },
+    {
+      "slug": "groupe-nau-ex-cic52057832025-03-1351040103700039f08",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "M01"
+      ],
+      "corrected_value": [
+        "M01"
+      ],
+      "reason": "Le registre de nettoyage indique une fréquence mensuelle alors que la prescription exige un nettoyage hebdomadaire: NC documentaire (registre non-standard = M01), ni M08 (écart réel) ni M07 (aucun contrôle périodique audité)."
+    },
+    {
+      "slug": "groupe-nau-ex-cic52057832025-03-1351040103700039f09",
+      "field": "domains",
+      "hunter_value": [
+        "D03_SEVESO"
+      ],
+      "corrected_value": [
+        "D12_ADMIN",
+        "D03_SEVESO"
+      ],
+      "reason": "Le constat porte sur l'indisponibilité d'une étude de dangers numérique à jour; l'EDD relève de D03_SEVESO (multi-label manqué)."
+    },
+    {
+      "slug": "guedon52007292025-03-1435199588100015f01",
+      "field": "dynamic",
+      "hunter_value": "R02",
+      "corrected_value": "R04",
+      "reason": "'l'exploitant a indiqué ne pas avoir reçu la demande de compléments et pensé que la modification avait été prise en compte' = invocation d'ignorance (R04_MECONNAISSANCE), pas un engagement futur (R02)."
+    },
+    {
+      "slug": "guyenne-enrobes-merignac52010142022-12-1231176775000012f08",
+      "field": "trajectory",
+      "hunter_value": "T2",
+      "corrected_value": "T4",
+      "reason": "Même écart (vitesse/débit d'éjection) déjà constaté le 26/10/2021; 'la situation n'est toujours pas conforme à l'attendu' = T4_STAGNATION plutôt que T2."
+    },
+    {
+      "slug": "guyenne-enrobes-merignac52010142022-12-1231176775000012f08",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R10",
+      "reason": "L'exploitant conteste la validité technique des valeurs de l'AP ('valeurs maximales non atteignables à cadences normales'); conflit de diagnostic = R10_TENSION."
+    },
+    {
+      "slug": "guyenne-enrobes-merignac52010142022-12-1231176775000012f09",
+      "field": "domains",
+      "hunter_value": [
+        "D12_ADMIN"
+      ],
+      "corrected_value": [
+        "D12_ADMIN",
+        "D15_SECTEUR",
+        "D02_ATEX"
+      ],
+      "reason": "Le constat détaille un projet photovoltaïque (D15_SECTEUR/photovoltaique) et un projet de cuve GPL avec risque BLEVE (D02_ATEX); multi-label domaine manqué."
+    },
+    {
+      "slug": "guyenne-enrobes-merignac52010142022-12-1231176775000012f09",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "Échange informatif sur des projets futurs, aucun écart actuel constaté (le raisonnement Hunter dit lui-même 'Pas de NC actuelle') = G1."
+    },
+    {
+      "slug": "guyenne-environnement52087712023-05-1681490091600010f04",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M01",
+        "M14"
+      ],
+      "corrected_value": [
+        "M01"
+      ],
+      "reason": "Le seul écart est l'absence du plan du site pour le SDIS (document manquant); la bâche 120m3 est présente et satisfaisante. Aucune NC physique => M14 est un faux positif, M01 seul."
+    },
+    {
+      "slug": "guyenne-environnement52087712024-06-2581490091600010f04",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M02",
+        "M01"
+      ],
+      "corrected_value": [
+        "M02"
+      ],
+      "reason": "Fréquence annuelle non respectée + référentiel réglementaire erroné relèvent tous deux de la qualité méthodologique de la surveillance (M02 couvre 'fréquence' et 'protocole'); M01 redondant."
+    },
+    {
+      "slug": "haras-montdesir31019092024-05-2152811303800020f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08",
+        "M14"
+      ],
+      "corrected_value": [
+        "M08"
+      ],
+      "reason": "Les bâtiments actuels respectent les distances (100m/35m); les deux nouvelles unités ne sont pas encore construites => aucune NC physique observée, M14 faux positif."
+    },
+    {
+      "slug": "haras-montdesir31019092024-05-2152811303800020f02",
+      "field": "dynamic",
+      "hunter_value": "R02",
+      "corrected_value": "R14",
+      "reason": "Aucune formule d'engagement de l'exploitant dans le texte; c'est l'inspection qui note que les futurs parcs devront respecter les distances = constat factuel (R14), pas R02."
+    },
+    {
+      "slug": "haras-montdesir31019092024-05-2152811303800020f02",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G1",
+      "reason": "Toutes les installations en service respectent les distances réglementaires; aucun écart actuel réel (G3 anticipait une NC hypothétique sur une construction non réalisée) => G1."
+    },
+    {
+      "slug": "haras-montdesir31019092024-05-2152811303800020f04",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "Extincteurs récemment installés et présents; le seul écart est l'absence de traçabilité de vérification et de plans des locaux = NC purement documentaire (G2), pas de dégradation physique."
+    },
+    {
+      "slug": "haras-montdesir31019092024-05-2152811303800020f14",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "Constat factuel de l'absence de porter à connaissance pour les deux unités; aucune invocation explicite d'ignorance par l'exploitant dans le corps du constat => R14, pas R04."
+    },
+    {
+      "slug": "hauts-de-garonne-energies-lormont1000513342024-08-2988992293600014f10",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S01",
+      "reason": "Simple rappel informatif d'une échéance réglementaire à venir (01/01/2025), sans injonction ni délai imposé par l'inspection; aucun écart actuel => S01."
+    },
+    {
+      "slug": "hauts-de-garonne-energies-lormont1000513342024-08-2988992293600014f10",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "VLE actuelles respectées, aucun écart constaté (raisonnement Hunter: 'Pas de NC actuelle') => G1."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-ex-audoin-fils52060992023-05-3157216565202227f10",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M02",
+        "M01"
+      ],
+      "corrected_value": [
+        "M14",
+        "M01"
+      ],
+      "reason": "Dégradation observée (MES en nette augmentation depuis 05/2021 sur PZB/PZC sans explication ni action corrective) = constat de dégradation (M14); les analyses elles-mêmes sont transmises et méthodologiquement correctes, donc pas M02."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-ex-gsm-blanquefort52115462023-03-2857216565200577f02",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "Aucune 'Demande à formuler' présente; remblaiement dans les temps, zone Est clôturée/débroussaillée, suivi écologique conforme, discussions SAFER/commune de routine = conformité en cours (G1), pas un écart documentaire."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-ex-gsm-blanquefort52115462023-03-2857216565200577f03",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Piézomètre 2 constaté non cadenassé et aucune margelle bétonnée = dispositif de protection absent, ce que la taxonomie mappe à G3 minimum."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-ex-gsm-blanquefort52115462023-03-2857216565200577f04",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R11",
+      "reason": "'Cette situation peut révéler l'exploitation illégale d'une parcelle' (parcelle 213 hors périmètre) = signal R11_PENAL; confiance basse car formulation nuancée ('peut révéler') et pas de PV engagé."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-illats31036272025-11-0757216565201419f07",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M03",
+        "M08"
+      ],
+      "corrected_value": [
+        "M03",
+        "M08",
+        "M14"
+      ],
+      "reason": "Déchets indésirables visibles non ramassés après intempéries = NC physique observée sur site (M14), en plus de la traçabilité Trackdéchets introuvable (M03); multi-label manqué."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-illats31036272025-11-0757216565201419f07",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "La NC physique constatée (déchets visibles non ramassés) déclenche la règle G3-minimum-pour-NC-physique, au-delà de la lacune documentaire Trackdéchets."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-saint-michel-de-rieufret52048912022-12-0957216565201419f07",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "M02"
+      ],
+      "corrected_value": [
+        "M07",
+        "M02",
+        "M14"
+      ],
+      "reason": "Piézomètre APZ1 'à sec depuis 2019' = ouvrage de surveillance non fonctionnel constaté (M14), en plus de la fréquence de suivi (M07) et du protocole inadéquat (M02)."
+    },
+    {
+      "slug": "heidelberg-materials-france-granulats-saint-michel-de-rieufret52048912022-12-0957216565201419f07",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Piézomètre APZ1 à sec depuis 2019 = dispositif de surveillance non fonctionnel, ce que la taxonomie mappe à G3 minimum."
+    }
+  ],
+  "false_positive_rate": 0.3,
+  "error_patterns": "Dominant: m_DELAI sur-appliqué sur des paires S02_INJONCTION sans délai numérique dans le constat (22 retraits) — Hunter attache m_DELAI dès qu'une demande formelle existe, sans vérifier la présence d'un 'sous X jours/mois'; 2 cas inverses où un délai chiffré présent était manqué (ajouts). Secondaire: gravité sous-estimée (G2 au lieu de G3) sur dispositifs physiques absents/non fonctionnels (piézomètres non cadenassés/à sec, déchets non ramassés). Tertiaire: sur-classification anticipatoire (M14/G3/S02/R02 appliqués à des situations futures non réalisées: constructions à venir, échéances réglementaires) à ramener vers M08/G1/S01/R14. Quelques dynamiques corrigées: R02 attribué à des méconnaissances (R04) ou des constats factuels (R14), R14 neutre là où l'exploitant conteste le diagnostic (R10) ou où une exploitation illégale est évoquée (R11). Aucun usage erroné de R10 pour 'promesse passée non tenue' (R10 n'était pas utilisé par Hunter; un cas d'usage légitime a au contraire été ajouté).",
+  "verdict": "Qualité Hunter correcte sur le fond (mécanismes M et domaines majoritairement justes, M15=0). Principale faiblesse systématique: le modificateur m_DELAI, appliqué mécaniquement à toute injonction S02 sans vérifier le délai chiffré dans le constat — corrigé ici par re-lecture du corpus. Gravité fiable sauf sous-cotation récurrente des dispositifs physiques défaillants. Corrections portant sur 39 fiches distinctes."
+}
