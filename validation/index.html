@@ -9,126 +9,98 @@
 <link rel="stylesheet" href="../shared/tokens.css?v=1">
 <style>
   * { box-sizing: border-box; }
-  body {
-    margin: 0; background: var(--paper); color: var(--ink);
-    font-family: 'IBM Plex Sans', system-ui, sans-serif; line-height: 1.5;
-  }
+  body { margin: 0; background: var(--paper); color: var(--ink);
+    font-family: 'IBM Plex Sans', system-ui, sans-serif; line-height: 1.5; }
   :root[data-theme="dark"] {
     --paper: #1a1714; --paper-2: #221e19; --paper-3: #2a2520;
-    --ink: #f4efe6; --ink-soft: rgba(244,239,230,0.72);
-    --rule-soft: rgba(244,239,230,0.22);
-  }
+    --ink: #f4efe6; --ink-soft: rgba(244,239,230,0.72); --rule-soft: rgba(244,239,230,0.22); }
   code, .mono { font-family: 'IBM Plex Mono', monospace; }
 
-  header.bar {
-    position: sticky; top: 0; z-index: 10; background: var(--paper-2);
-    border-bottom: 1px solid var(--rule-soft); padding: 10px 18px;
-    display: flex; gap: 18px; align-items: center; flex-wrap: wrap;
-  }
-  header .title { font-family: 'Fraunces', serif; font-weight: 600; font-size: 18px; margin-right: auto; }
+  header.bar { position: sticky; top: 0; z-index: 10; background: var(--paper-2);
+    border-bottom: 1px solid var(--rule-soft); padding: 9px 16px;
+    display: flex; gap: 10px 14px; align-items: center; flex-wrap: wrap; }
+  header .title { font-family: 'Fraunces', serif; font-weight: 600; font-size: 17px; margin-right: auto; }
   header label { font-size: 13px; color: var(--ink-soft); }
-  header input, header button {
-    font: inherit; font-size: 13px; padding: 5px 9px;
-    border: 1px solid var(--rule-soft); border-radius: 6px;
-    background: var(--paper); color: var(--ink);
-  }
-  header button { cursor: pointer; }
+  header input, header button { font: inherit; font-size: 13px; padding: 6px 10px;
+    border: 1px solid var(--rule-soft); border-radius: 7px; background: var(--paper); color: var(--ink); }
+  header button { cursor: pointer; min-height: 38px; }
   header button:hover { background: var(--paper-3); }
   .progress { font-variant-numeric: tabular-nums; font-size: 13px; }
   .progress b { color: var(--rust); }
 
-  main { max-width: 1200px; margin: 0 auto; padding: 18px;
-         display: grid; grid-template-columns: 1fr 380px; gap: 22px; align-items: start; }
-  @media (max-width: 860px) { main { grid-template-columns: 1fr; } }
+  main { max-width: 900px; margin: 0 auto; padding: 16px; }
 
+  /* fiche context — collapsible */
   .context { background: var(--paper-2); border: 1px solid var(--rule-soft);
-             border-radius: 10px; padding: 18px 20px; }
-  .context h2 { font-family: 'Fraunces', serif; font-size: 19px; margin: 0 0 2px; }
-  .context .meta { font-size: 13px; color: var(--ink-soft); margin-bottom: 14px; }
+    border-radius: 10px; padding: 16px 18px; margin-bottom: 16px; }
+  .context h2 { font-family: 'Fraunces', serif; font-size: 18px; margin: 0 0 2px; }
+  .context .meta { font-size: 12.5px; color: var(--ink-soft); margin-bottom: 10px; }
   .context .meta .mono { color: var(--rust); }
-  .field-label { font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
-                 color: var(--ink-soft); margin: 16px 0 5px; }
+  .fl { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); margin: 12px 0 4px; }
   .body-text { white-space: pre-wrap; font-size: 15px; }
-  .body-text.prescription { font-size: 14px; color: var(--ink-soft); }
+  .body-text.prescription { font-size: 13.5px; color: var(--ink-soft); }
+  .context.collapsed .body-wrap { max-height: 4.5em; overflow: hidden;
+    -webkit-mask-image: linear-gradient(#000 60%, transparent); mask-image: linear-gradient(#000 60%, transparent); }
+  .context .toggle { margin-top: 8px; font-size: 13px; color: var(--rust); background: none;
+    border: none; cursor: pointer; padding: 0; font-family: inherit; }
 
-  .form { position: sticky; top: 72px; }
-  .axis { margin-bottom: 15px; }
-  .axis > .field-label { margin-top: 0; }
-  .opts { display: flex; flex-wrap: wrap; gap: 5px; }
-  .opt {
-    font: inherit; font-size: 12.5px; padding: 4px 8px; cursor: pointer;
-    border: 1px solid var(--rule-soft); border-radius: 6px;
-    background: var(--paper); color: var(--ink); font-family: 'IBM Plex Mono', monospace;
-  }
-  .opt:hover { border-color: var(--rust); }
-  .opt[aria-pressed="true"] { background: var(--rust); color: #fff; border-color: var(--rust); }
-  .opt .lbl { font-family: 'IBM Plex Sans', sans-serif; opacity: .75; margin-left: 5px; }
+  /* accordion of axes */
+  .sec { border: 1px solid var(--rule-soft); border-radius: 10px; margin-bottom: 9px; overflow: hidden; background: var(--paper-2); }
+  .sec.open { border-color: var(--rust); }
+  .shead { width: 100%; display: flex; align-items: center; gap: 10px; cursor: pointer;
+    background: none; border: none; color: var(--ink); font: inherit; text-align: left;
+    padding: 13px 15px; min-height: 52px; }
+  .shead:hover { background: var(--paper-3); }
+  .shead .sname { font-weight: 600; font-size: 15px; white-space: nowrap; }
+  .shead .sval { color: var(--ink-soft); font-size: 13.5px; margin-left: auto; text-align: right; }
+  .shead .sval.set { color: var(--rust); font-family: 'IBM Plex Mono', monospace; }
+  .shead .chev { color: var(--ink-soft); font-size: 12px; transition: transform .15s; }
+  .sec.open .chev { transform: rotate(90deg); }
+  .sec.done:not(.open) .sname::before { content: "✓ "; color: var(--ochre); }
 
-  .actions { margin-top: 8px; display: flex; gap: 10px; align-items: center; }
-  .actions button.primary {
-    font: inherit; font-weight: 600; padding: 9px 16px; cursor: pointer;
-    background: var(--rust); color: #fff; border: none; border-radius: 7px;
-  }
-  .actions button.ghost { background: none; border: 1px solid var(--rule-soft);
-    padding: 9px 12px; border-radius: 7px; cursor: pointer; color: var(--ink); font: inherit; }
-  .actions .hint { font-size: 12px; color: var(--ink-soft); margin-left: auto; }
-  .done-badge { color: var(--ochre); font-size: 12px; font-weight: 600; }
+  .sbody { padding: 4px 10px 12px; }
+  .saxis-help { font-size: 12.5px; color: var(--ink-soft); padding: 2px 5px 10px; }
+  .orow { width: 100%; display: block; text-align: left; cursor: pointer; font: inherit;
+    background: var(--paper); color: var(--ink); border: 1px solid var(--rule-soft);
+    border-radius: 8px; padding: 10px 13px; margin-bottom: 7px; }
+  .orow:hover { border-color: var(--rust); }
+  .orow[aria-pressed="true"] { border-color: var(--rust); background: color-mix(in srgb, var(--rust) 12%, var(--paper)); }
+  .orow[aria-pressed="true"] .ocode { color: var(--rust); }
+  .ohead { display: flex; align-items: baseline; gap: 8px; }
+  .ocode { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 14px; }
+  .oname { font-size: 14px; font-weight: 500; }
+  .odef { display: block; font-size: 12.5px; color: var(--ink-soft); margin-top: 3px; line-height: 1.4; }
+  .snext { width: 100%; margin-top: 4px; padding: 11px; font: inherit; font-weight: 600; cursor: pointer;
+    background: var(--paper-3); border: 1px solid var(--rule-soft); border-radius: 8px; color: var(--ink); }
+
+  .actions { position: sticky; bottom: 0; background: var(--paper); padding: 12px 0 4px;
+    margin-top: 6px; display: flex; gap: 10px; align-items: center; border-top: 1px solid var(--rule-soft); }
+  .actions button.primary { font: inherit; font-weight: 600; padding: 13px 18px; cursor: pointer;
+    background: var(--rust); color: #fff; border: none; border-radius: 9px; flex: 1; min-height: 48px; }
+  .actions button.primary:disabled { opacity: .5; }
+  .done-badge { color: var(--ochre); font-size: 12.5px; font-weight: 600; }
 
   .intro { max-width: 640px; margin: 40px auto; padding: 0 18px; }
   .intro h1 { font-family: 'Fraunces', serif; }
-  .intro code { background: var(--paper-3); padding: 1px 5px; border-radius: 4px; }
   .kbd { font-family: 'IBM Plex Mono', monospace; font-size: 12px; border: 1px solid var(--rule-soft);
-         border-bottom-width: 2px; border-radius: 4px; padding: 1px 5px; }
+    border-bottom-width: 2px; border-radius: 4px; padding: 1px 5px; }
 
-  /* help icon on each axis */
-  .field-label .info {
-    display: inline-flex; align-items: center; justify-content: center;
-    width: 15px; height: 15px; margin-left: 6px; border-radius: 50%;
-    border: 1px solid var(--rule-soft); font-size: 10px; cursor: help;
-    color: var(--ink-soft); font-style: normal; letter-spacing: 0; vertical-align: middle;
-  }
-  .field-label .info:hover { border-color: var(--rust); color: var(--rust); }
-
-  /* instant floating tooltip (better than native title for many options) */
-  #tip {
-    position: fixed; z-index: 50; max-width: 320px; pointer-events: none;
-    background: var(--ink); color: var(--paper); font-size: 12.5px; line-height: 1.4;
-    padding: 7px 10px; border-radius: 7px; box-shadow: 0 4px 16px rgba(0,0,0,.25);
-    opacity: 0; transition: opacity .08s; }
-  #tip.on { opacity: 1; }
-  #tip b { color: #fff; }
-
-  /* task help modal */
-  #help-btn { font-weight: 600; }
+  /* help modal */
   .modal-bg { position: fixed; inset: 0; background: rgba(0,0,0,.45); z-index: 60;
-    display: flex; align-items: center; justify-content: center; padding: 20px; }
-  .modal { background: var(--paper); color: var(--ink); max-width: 620px; max-height: 85vh;
-    overflow: auto; border-radius: 12px; padding: 26px 30px; border: 1px solid var(--rule-soft); }
+    display: flex; align-items: center; justify-content: center; padding: 18px; }
+  .modal { background: var(--paper); color: var(--ink); max-width: 620px; max-height: 86vh;
+    overflow: auto; border-radius: 12px; padding: 24px 28px; border: 1px solid var(--rule-soft); }
   .modal h2 { font-family: 'Fraunces', serif; margin-top: 0; }
-  .modal h3 { font-family: 'Fraunces', serif; font-size: 16px; margin: 18px 0 4px; }
+  .modal h3 { font-family: 'Fraunces', serif; font-size: 15px; margin: 16px 0 4px; }
   .modal p, .modal li { font-size: 14.5px; }
-  .modal code { background: var(--paper-3); padding: 1px 5px; border-radius: 4px;
-    font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; }
   .modal .close { float: right; cursor: pointer; border: 1px solid var(--rule-soft);
     background: none; color: var(--ink); border-radius: 7px; padding: 6px 12px; font: inherit; }
 
-  /* --- mobile (placé en fin de feuille pour l'emporter sur les règles de base) --- */
-  @media (max-width: 860px) {
-    .form { position: static; }                       /* pas de sticky en colonne unique */
-    .opts { gap: 8px; }                               /* écarte les codes pour éviter les mis-taps */
-    .opt { padding: 11px 13px; font-size: 14px; min-height: 44px; }  /* cible tactile 44px */
-    .opt .lbl { display: none; }                      /* le libellé passe en infobulle au tap */
-    /* le titre d'axe entier est la zone de tap pour son explication */
-    .field-label { padding: 10px 2px; margin: 10px 0 6px; cursor: pointer;
-                   display: flex; align-items: center; }
-    .field-label .info { width: 20px; height: 20px; font-size: 12px; margin-left: 8px; }
-    header.bar { padding: 8px 12px; gap: 8px 10px; }
+  @media (max-width: 620px) {
     header .title { font-size: 15px; width: 100%; margin-right: 0; }
-    header button { min-height: 40px; }
-    .context, .modal { padding-left: 16px; padding-right: 16px; }
-    #tip { font-size: 14px; }
-    #tip.on { left: 10px !important; right: 10px; max-width: none;
-              top: auto !important; bottom: 12px; text-align: center; padding: 11px 14px; }
+    main { padding: 12px; }
+    .shead { padding: 14px; min-height: 56px; }
+    .orow { padding: 12px 14px; }
   }
 </style>
 </head>
@@ -138,243 +110,214 @@
   <span class="title">Validation des tags — à l'aveugle</span>
   <label>Relecteur·rice <input id="reviewer" placeholder="ex. AB" size="6" autocomplete="off"></label>
   <span class="progress" id="progress">…</span>
-  <button id="prev" title="Précédent (←)">←</button>
-  <button id="next" title="Suivant (→)">→</button>
-  <button id="export">Exporter JSON</button>
+  <button id="prev" title="Fiche précédente (←)">←</button>
+  <button id="next" title="Fiche suivante (→)">→</button>
+  <button id="export">Exporter</button>
   <button id="import">Importer</button>
   <input type="file" id="file" accept="application/json" hidden>
-  <button id="help-btn" title="Aide sur la tâche">? Aide</button>
+  <button id="help-btn" title="Aide">? Aide</button>
   <button id="theme" title="Thème clair/sombre">◐</button>
 </header>
 
-<div id="tip"></div>
 <div id="app"></div>
-
-<div class="intro" id="intro">
-  <h1>Chargement…</h1>
-</div>
+<div class="intro" id="intro"><h1>Chargement…</h1></div>
 
 <script>
-const AXES_SINGLE = ["gravity", "dynamic", "trajectory", "stage", "actor"];
-const AXES_MULTI  = ["domains", "mechanisms", "modifiers"];
+// axis order for labelling: gravity first (required), then subject, then the rest
+const ORDER = ["gravity", "domains", "mechanisms", "dynamic", "trajectory", "stage", "actor", "modifiers"];
+const MULTI = new Set(["domains", "mechanisms", "modifiers"]);
 const AXIS_TITLE = {
-  gravity: "Gravité", dynamic: "Dynamique relationnelle", trajectory: "Trajectoire",
-  stage: "Stade procédural", actor: "Acteur principal",
-  domains: "Domaine(s) technique(s)", mechanisms: "Mécanisme(s)", modifiers: "Modificateurs",
-};
-let DATA = null, idx = 0, decisions = {};
+  gravity: "Gravité", dynamic: "Dynamique", trajectory: "Trajectoire", stage: "Stade",
+  actor: "Acteur", domains: "Domaine", mechanisms: "Mécanisme", modifiers: "Modificateurs" };
+let DATA = null, idx = 0, decisions = {}, openSec = null, ctxCollapsed = false;
 
 const storeKey = () => "icpe-validation:" + (document.getElementById("reviewer").value.trim() || "anon");
-
-function load() {
-  fetch("validation-sample.json?v=1").then(r => r.json()).then(d => {
-    DATA = d;
-    document.getElementById("reviewer").value = localStorage.getItem("icpe-validation:last-reviewer") || "";
-    restore();
-    idx = firstUnreviewed();
-    render();
-  }).catch(e => {
-    document.getElementById("intro").innerHTML = "<h1>Erreur</h1><p>Impossible de charger l'échantillon : " + e + "</p>";
-  });
-}
 function restore() { try { decisions = JSON.parse(localStorage.getItem(storeKey())) || {}; } catch { decisions = {}; } }
 function persist() { localStorage.setItem(storeKey(), JSON.stringify(decisions));
   localStorage.setItem("icpe-validation:last-reviewer", document.getElementById("reviewer").value.trim()); }
-function firstUnreviewed() {
-  const i = DATA.items.findIndex(it => !decisions[it.fiche_id]);
-  return i === -1 ? 0 : i;
+function firstUnreviewed() { const i = DATA.items.findIndex(it => decisions[it.fiche_id]?.done); return i === -1 ? 0 : i; }
+function esc(s) { return String(s ?? "").replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c])); }
+
+function load() {
+  fetch("validation-sample.json?v=2").then(r => r.json()).then(d => {
+    DATA = d;
+    document.getElementById("reviewer").value = localStorage.getItem("icpe-validation:last-reviewer") || "";
+    restore(); idx = firstUnreviewed(); render();
+    if (!localStorage.getItem("icpe-validation:seen-help")) {
+      localStorage.setItem("icpe-validation:seen-help", "1"); setTimeout(openHelp, 400);
+    }
+  }).catch(e => { document.getElementById("intro").innerHTML = "<h1>Erreur</h1><p>" + e + "</p>"; });
+}
+
+function valOf(field) { return (decisions[DATA.items[idx].fiche_id] || {})[field]; }
+function isAnswered(field) {
+  const v = valOf(field);
+  return MULTI.has(field) ? Array.isArray(v) && v.length > 0 : !!v;
+}
+function summary(field) {
+  const v = valOf(field);
+  if (MULTI.has(field)) return (v && v.length) ? v.join(" · ") : "—";
+  return v ? `${v} · ${DATA.labels[v] || ""}` : "—";
 }
 
 function render() {
   const it = DATA.items[idx];
-  const cur = decisions[it.fiche_id] || {};
+  if (!decisions[it.fiche_id]) decisions[it.fiche_id] = {};
+  // default: open first unanswered axis
+  if (openSec === null) openSec = ORDER.find(f => !isAnswered(f)) || ORDER[0];
   document.getElementById("intro").style.display = "none";
-  const rev = !!decisions[it.fiche_id];
-  document.getElementById("progress").innerHTML =
-    `fiche <b>${idx + 1}</b>/${DATA.n} · ${Object.keys(decisions).length} jugée(s)`;
 
-  const axisHtml = (field) => {
+  const answered = ORDER.filter(isAnswered).length;
+  document.getElementById("progress").innerHTML =
+    `fiche <b>${idx + 1}</b>/${DATA.n} · ${Object.values(decisions).filter(d=>d.done).length} finies · axes ${answered}/${ORDER.length}`;
+
+  const secHtml = (field) => {
+    const open = openSec === field, multi = MULTI.has(field), done = isAnswered(field);
     const opts = DATA.options[field];
-    const multi = AXES_MULTI.includes(field);
-    const val = cur[field] ?? (multi ? [] : null);
-    const pressed = (o) => multi ? (val || []).includes(o) : val === o;
-    const axisHelp = esc((DATA.axis_help || {})[field] || "");
-    return `<div class="axis" data-field="${field}">
-      <div class="field-label" data-help="${axisHelp}">${AXIS_TITLE[field]}${multi ? " (multi)" : ""}<i class="info">ⓘ</i></div>
-      <div class="opts">${opts.map(o =>
-        `<button class="opt" data-opt="${o}" aria-pressed="${pressed(o)}"
-          data-help="${esc((DATA.labels[o]||"") + " — " + ((DATA.code_help||{})[o]||""))}"
-          >${o}<span class="lbl">${(DATA.labels[o]||"").slice(0,22)}</span></button>`).join("")}</div>
-    </div>`;
+    const rows = open ? `<div class="sbody">
+        <div class="saxis-help">${esc((DATA.axis_help||{})[field]||"")}${multi ? " — plusieurs choix possibles." : ""}</div>
+        ${opts.map((o, i) => {
+          const on = multi ? (valOf(field)||[]).includes(o) : valOf(field) === o;
+          const num = (!multi && i < 9) ? `<span class="kbd" style="opacity:.5;margin-left:6px">${i+1}</span>` : "";
+          return `<button class="orow" data-field="${field}" data-opt="${o}" aria-pressed="${on}">
+            <span class="ohead"><span class="ocode">${o}</span><span class="oname">${esc(DATA.labels[o]||"")}</span>${num}</span>
+            <span class="odef">${esc((DATA.code_help||{})[o]||"")}</span></button>`;
+        }).join("")}
+        ${multi ? `<button class="snext" data-next="1">Suivant ›</button>` : ""}
+      </div>` : "";
+    return `<div class="sec ${open?"open":""} ${done?"done":""}">
+      <button class="shead" data-sec="${field}">
+        <span class="sname">${AXIS_TITLE[field]}</span>
+        <span class="sval ${done?"set":""}">${esc(summary(field))}</span>
+        <span class="chev">▸</span>
+      </button>${rows}</div>`;
   };
 
+  const allDone = ORDER.every(isAnswered), gravSet = isAnswered("gravity");
   document.getElementById("app").innerHTML = `<main>
-    <section class="context">
+    <section class="context ${ctxCollapsed?"collapsed":""}">
       <h2>${esc(it.nom || "—")}</h2>
-      <div class="meta">${esc(it.commune||"")} · ${esc(it.date||"")} · thème : ${esc(it.theme||"—")}
-        · <span class="mono">${it.fiche_id}</span></div>
-      <div class="field-label">Constats</div>
-      <div class="body-text">${esc(it.constats_body)}</div>
-      ${it.prescription ? `<div class="field-label">Prescription</div>
-        <div class="body-text prescription">${esc(it.prescription)}</div>` : ""}
-    </section>
-    <section class="form">
-      ${[...AXES_SINGLE, ...AXES_MULTI].map(axisHtml).join("")}
-      <div class="actions">
-        <button class="primary" id="submit">${rev ? "Mettre à jour" : "Valider"} & suivant</button>
-        ${rev ? '<span class="done-badge">✓ jugée</span>' : ""}
-        <span class="hint"><span class="kbd">Entrée</span> valider · <span class="kbd">←</span> <span class="kbd">→</span> naviguer</span>
+      <div class="meta">${esc(it.commune||"")} · ${esc(it.date||"")} · ${esc(it.theme||"—")} · <span class="mono">${it.fiche_id}</span></div>
+      <div class="body-wrap">
+        <div class="fl">Constats</div><div class="body-text">${esc(it.constats_body)}</div>
+        ${it.prescription ? `<div class="fl">Prescription</div><div class="body-text prescription">${esc(it.prescription)}</div>` : ""}
       </div>
+      <button class="toggle" id="ctx-toggle">${ctxCollapsed ? "▾ Déplier le texte" : "▴ Replier le texte"}</button>
     </section>
+    ${ORDER.map(secHtml).join("")}
+    <div class="actions">
+      <button class="primary" id="submit" ${gravSet?"":"disabled"}>
+        ${decisions[it.fiche_id].done ? "Mettre à jour & suivante" : "Valider la fiche & suivante"}${allDone?"":" ("+answered+"/"+ORDER.length+")"}</button>
+      ${decisions[it.fiche_id].done ? '<span class="done-badge">✓ finie</span>' : ""}
+    </div>
   </main>`;
+  wire();
+}
 
-  document.querySelectorAll(".axis").forEach(ax => {
-    const field = ax.dataset.field, multi = AXES_MULTI.includes(field);
-    ax.querySelectorAll(".opt").forEach(btn => btn.onclick = () => {
-      const o = btn.dataset.opt, d = decisions[it.fiche_id] || (decisions[it.fiche_id] = {});
-      if (multi) { d[field] = d[field] || []; const i = d[field].indexOf(o);
-        i === -1 ? d[field].push(o) : d[field].splice(i, 1);
-        btn.setAttribute("aria-pressed", d[field].includes(o));
-      } else { d[field] = (d[field] === o) ? null : o;
-        ax.querySelectorAll(".opt").forEach(b => b.setAttribute("aria-pressed", b.dataset.opt === d[field]));
-      }
-    });
+function wire() {
+  const it = DATA.items[idx];
+  document.getElementById("ctx-toggle").onclick = () => { ctxCollapsed = !ctxCollapsed; render(); };
+  document.querySelectorAll(".shead").forEach(h => h.onclick = () => {
+    const f = h.dataset.sec; openSec = (openSec === f) ? null : f; render();
+    document.querySelector(".sec.open")?.scrollIntoView({ block: "nearest", behavior: "smooth" });
   });
+  document.querySelectorAll(".orow").forEach(b => b.onclick = () => selectOpt(b.dataset.field, b.dataset.opt));
+  document.querySelector("[data-next]")?.addEventListener("click", advanceSection);
   document.getElementById("submit").onclick = submit;
+}
+
+function selectOpt(field, o) {
+  const d = decisions[DATA.items[idx].fiche_id];
+  if (MULTI.has(field)) {
+    d[field] = d[field] || []; const i = d[field].indexOf(o);
+    i === -1 ? d[field].push(o) : d[field].splice(i, 1);
+    persist(); render();               // stay open for multi-select
+  } else {
+    d[field] = (d[field] === o) ? null : o;
+    persist(); advanceSection();       // single: collapse + open next unanswered
+  }
+}
+function advanceSection() {
+  const rest = ORDER.filter(f => f !== openSec);
+  openSec = ORDER.find(f => !isAnswered(f) && f !== openSec) || null;
+  render();
+  if (openSec) document.querySelector(".sec.open")?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  else document.getElementById("submit")?.scrollIntoView({ block: "nearest", behavior: "smooth" });
 }
 
 function submit() {
   const it = DATA.items[idx], d = decisions[it.fiche_id];
-  if (!d || !d.gravity) { flash("Renseigne au moins la gravité avant de valider."); return; }
-  d.ts = Date.now(); d.reviewer = document.getElementById("reviewer").value.trim();
+  if (!isAnswered("gravity")) { openSec = "gravity"; render(); return; }
+  d.done = true; d.ts = Date.now(); d.reviewer = document.getElementById("reviewer").value.trim();
   persist();
-  if (idx < DATA.n - 1) { idx++; render(); window.scrollTo(0, 0); }
-  else { flash("Échantillon terminé — pense à exporter le JSON."); render(); }
+  if (idx < DATA.n - 1) { idx++; openSec = null; ctxCollapsed = false; render(); window.scrollTo(0,0); }
+  else render();
 }
-function flash(msg) {
-  const h = document.querySelector(".hint"); if (!h) { alert(msg); return; }
-  const old = h.innerHTML; h.textContent = msg; h.style.color = "var(--rust)";
-  setTimeout(() => { h.innerHTML = old; h.style.color = ""; }, 2600);
-}
-function esc(s) { return String(s ?? "").replace(/[&<>]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c])); }
 
 // nav + keyboard
-document.getElementById("prev").onclick = () => { if (idx > 0) { idx--; render(); window.scrollTo(0,0); } };
-document.getElementById("next").onclick = () => { if (idx < DATA.n - 1) { idx++; render(); window.scrollTo(0,0); } };
+document.getElementById("prev").onclick = () => { if (idx>0){ idx--; openSec=null; ctxCollapsed=false; render(); window.scrollTo(0,0);} };
+document.getElementById("next").onclick = () => { if (idx<DATA.n-1){ idx++; openSec=null; ctxCollapsed=false; render(); window.scrollTo(0,0);} };
 document.addEventListener("keydown", e => {
-  if (e.target.tagName === "INPUT") return;
+  if (e.target.tagName === "INPUT" || document.getElementById("help-modal")) {
+    if (e.key === "Escape") document.getElementById("help-modal")?.remove();
+    return;
+  }
   if (e.key === "ArrowLeft") document.getElementById("prev").click();
   else if (e.key === "ArrowRight") document.getElementById("next").click();
   else if (e.key === "Enter") submit();
+  else if (/^[1-9]$/.test(e.key) && openSec && !MULTI.has(openSec)) {
+    const o = DATA.options[openSec][+e.key - 1]; if (o) selectOpt(openSec, o);
+  }
 });
-document.getElementById("reviewer").onchange = () => { restore(); idx = firstUnreviewed(); render(); };
+document.getElementById("reviewer").onchange = () => { restore(); idx = firstUnreviewed(); openSec=null; render(); };
 
 // export / import
 document.getElementById("export").onclick = () => {
   const rev = document.getElementById("reviewer").value.trim() || "anon";
-  const blob = new Blob([JSON.stringify({
-    tool: "icpe-validation", version: 1, archetype: "contextual",
-    reviewer: rev, exported: new Date().toISOString(),
-    source: "validation-sample.json", sample_seed: DATA.seed,
-    total_items: DATA.n, reviewed_count: Object.keys(decisions).length,
-    decisions,
-  }, null, 1)], { type: "application/json" });
-  const a = document.createElement("a"); a.href = URL.createObjectURL(blob);
-  a.download = `validation-${rev}.json`; a.click();
+  const clean = {}; for (const [k,v] of Object.entries(decisions)) { const {done,...rest}=v; clean[k]={...rest,done:!!done}; }
+  const blob = new Blob([JSON.stringify({ tool:"icpe-validation", version:2, archetype:"contextual",
+    reviewer:rev, exported:new Date().toISOString(), source:"validation-sample.json", sample_seed:DATA.seed,
+    total_items:DATA.n, reviewed_count:Object.values(decisions).filter(d=>d.done).length, decisions:clean }, null, 1)],
+    { type:"application/json" });
+  const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download=`validation-${rev}.json`; a.click();
 };
 document.getElementById("import").onclick = () => document.getElementById("file").click();
-document.getElementById("file").onchange = (e) => {
-  const f = e.target.files[0]; if (!f) return;
-  f.text().then(t => { const d = JSON.parse(t);
-    decisions = d.decisions || d; persist(); idx = firstUnreviewed(); render();
-    flash("Importé : " + Object.keys(decisions).length + " jugements."); });
-};
-document.getElementById("theme").onclick = () => {
-  const r = document.documentElement, dark = r.getAttribute("data-theme") === "dark";
-  r.setAttribute("data-theme", dark ? "light" : "dark");
-  localStorage.setItem("icpe-validation:theme", dark ? "light" : "dark");
-};
-if (localStorage.getItem("icpe-validation:theme") === "dark")
-  document.documentElement.setAttribute("data-theme", "dark");
+document.getElementById("file").onchange = (e) => { const f=e.target.files[0]; if(!f) return;
+  f.text().then(t => { const d=JSON.parse(t); decisions=d.decisions||d; persist(); idx=firstUnreviewed(); openSec=null; render(); }); };
+document.getElementById("theme").onclick = () => { const r=document.documentElement, dark=r.getAttribute("data-theme")==="dark";
+  r.setAttribute("data-theme", dark?"light":"dark"); localStorage.setItem("icpe-validation:theme", dark?"light":"dark"); };
+if (localStorage.getItem("icpe-validation:theme") === "dark") document.documentElement.setAttribute("data-theme","dark");
 
-// floating tooltip on any [data-help] element
-const tip = document.getElementById("tip");
-document.addEventListener("mouseover", e => {
-  const el = e.target.closest("[data-help]");
-  if (!el || !el.getAttribute("data-help")) return;
-  tip.textContent = el.getAttribute("data-help");
-  tip.classList.add("on"); moveTip(e);
-});
-document.addEventListener("mousemove", e => { if (tip.classList.contains("on")) moveTip(e); });
-document.addEventListener("mouseout", e => {
-  if (e.target.closest("[data-help]")) tip.classList.remove("on");
-});
-// Touch: tap shows the definition as a transient bottom banner (hover never
-// fires on touch). Detect touch by pointerType — robust across devices, unlike
-// the (hover) media query which many phones report as hover-capable.
-// Tapping a code both selects it AND explains it; tapping an axis title explains
-// the axis. Tapping the banner dismisses it.
-let tipTimer;
-document.addEventListener("pointerup", e => {
-  if (e.pointerType !== "touch") return;   // desktop keeps hover
-  const el = e.target.closest("[data-help]");
-  if (!el || !el.getAttribute("data-help")) return;
-  tip.textContent = el.getAttribute("data-help");
-  tip.classList.add("on");
-  clearTimeout(tipTimer);
-  tipTimer = setTimeout(() => tip.classList.remove("on"), 4000);
-});
-function moveTip(e) {
-  const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
-  let x = e.clientX + pad, y = e.clientY + pad;
-  if (x + w > innerWidth) x = e.clientX - w - pad;
-  if (y + h > innerHeight) y = e.clientY - h - pad;
-  tip.style.left = x + "px"; tip.style.top = y + "px";
-}
-
-// task help modal
+// help modal
 const HELP_HTML = `
   <button class="close" id="help-close">Fermer ✕</button>
   <h2>Valider les tags à l'aveugle</h2>
   <p>Un modèle a classé ~10 500 fiches d'inspection ICPE sur 6 axes. Cette page mesure
-  <b>à quel point ces tags sont justes</b>, en les comparant à ton jugement d'expert·e sur un
-  échantillon de 100 fiches.</p>
+  <b>à quel point ces tags sont justes</b>, en les comparant à ton jugement d'expert·e sur 100 fiches.</p>
   <h3>À l'aveugle, exprès</h3>
-  <p>Le tag choisi par le modèle <b>ne t'est jamais montré</b>. Si tu le voyais, tu aurais tendance à
-  le confirmer, ce qui fausserait la mesure. Tu lis la fiche, tu choisis chaque axe selon ton propre
-  jugement. La comparaison au modèle se fait plus tard, hors interface.</p>
+  <p>Le tag choisi par le modèle <b>ne t'est jamais montré</b> : tu le confirmerais sans le vouloir, ce qui
+  fausserait la mesure. Tu lis la fiche, tu juges chaque axe toi-même.</p>
   <h3>Comment faire</h3>
   <ol>
-    <li>Mets tes initiales dans <b>Relecteur·rice</b> (elles nomment ton fichier de sortie).</li>
-    <li>Lis les <b>Constats</b> (et la Prescription) de la fiche.</li>
-    <li>Pour chaque axe, clique le code qui correspond. <b>Survole un code</b> pour lire sa définition,
-    et le <b>ⓘ</b> d'un axe pour comprendre l'axe. La <b>gravité</b> est le minimum requis ; les axes
-    <i>domaine</i>, <i>mécanisme</i> et <i>modificateurs</i> acceptent plusieurs codes.</li>
-    <li><span class="kbd" style="border:1px solid #8886;padding:1px 5px;border-radius:4px">Entrée</span>
-    (ou « Valider ») enregistre et passe à la suivante ;
-    <span class="kbd" style="border:1px solid #8886;padding:1px 5px;border-radius:4px">←</span>
-    <span class="kbd" style="border:1px solid #8886;padding:1px 5px;border-radius:4px">→</span> pour naviguer.</li>
-    <li>À la fin, <b>Exporte le JSON</b> et transmets-le. Ton travail est sauvegardé dans le navigateur
-    au fur et à mesure — tu peux fermer et reprendre.</li>
+    <li>Mets tes initiales dans <b>Relecteur·rice</b>.</li>
+    <li>Lis les <b>Constats</b> (bouton « replier le texte » pour gagner de la place ensuite).</li>
+    <li>Chaque axe s'ouvre à tour de rôle. Les options montrent <b>code, libellé et définition</b> — pas besoin
+    de mémoriser. Tape une option : l'axe se referme et le suivant s'ouvre.</li>
+    <li><b>Gravité</b> est obligatoire. <b>Domaine</b>, <b>Mécanisme</b> et <b>Modificateurs</b> acceptent plusieurs
+    choix (bouton « Suivant › » pour passer). Rouvre un axe en tapant son titre pour corriger.</li>
+    <li>Sur ordinateur : <span class="kbd">1</span>–<span class="kbd">9</span> choisissent dans l'axe ouvert,
+    <span class="kbd">←</span> <span class="kbd">→</span> changent de fiche, <span class="kbd">Entrée</span> valide.</li>
+    <li>À la fin, <b>Exporte</b> et transmets le JSON. Tout est sauvegardé au fur et à mesure.</li>
   </ol>
-  <p style="color:var(--ink-soft);font-size:13px">Il n'y a pas de « bonne » réponse imposée : c'est
-  précisément le désaccord entre experts qui mesure la part subjective de chaque axe.</p>`;
-
+  <p style="color:var(--ink-soft);font-size:13px">Pas de « bonne » réponse imposée : le désaccord entre experts
+  mesure précisément la part subjective de chaque axe.</p>`;
 function openHelp() {
-  const bg = document.createElement("div");
-  bg.className = "modal-bg"; bg.id = "help-modal";
+  const bg = document.createElement("div"); bg.className="modal-bg"; bg.id="help-modal";
   bg.innerHTML = `<div class="modal">${HELP_HTML}</div>`;
-  bg.onclick = e => { if (e.target === bg || e.target.id === "help-close") bg.remove(); };
+  bg.onclick = e => { if (e.target===bg || e.target.id==="help-close") bg.remove(); };
   document.body.appendChild(bg);
 }
 document.getElementById("help-btn").onclick = openHelp;
-document.addEventListener("keydown", e => {
-  if (e.key === "Escape") { const m = document.getElementById("help-modal"); if (m) m.remove(); }
-});
-if (!localStorage.getItem("icpe-validation:seen-help")) {
-  localStorage.setItem("icpe-validation:seen-help", "1");
-  setTimeout(openHelp, 400);
-}
 
 load();
 </script>
