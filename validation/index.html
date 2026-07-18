@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Validation des tags — revue à l'aveugle</title>
+<meta name="description" content="Revue humaine à l'aveugle d'un échantillon de fiches ICPE taguées, pour mesurer la justesse du tagging par axe.">
+<link rel="stylesheet" href="../shared/tokens.css?v=1">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: 'IBM Plex Sans', system-ui, sans-serif; line-height: 1.5;
+  }
+  :root[data-theme="dark"] {
+    --paper: #1a1714; --paper-2: #221e19; --paper-3: #2a2520;
+    --ink: #f4efe6; --ink-soft: rgba(244,239,230,0.72);
+    --rule-soft: rgba(244,239,230,0.22);
+  }
+  code, .mono { font-family: 'IBM Plex Mono', monospace; }
+
+  header.bar {
+    position: sticky; top: 0; z-index: 10; background: var(--paper-2);
+    border-bottom: 1px solid var(--rule-soft); padding: 10px 18px;
+    display: flex; gap: 18px; align-items: center; flex-wrap: wrap;
+  }
+  header .title { font-family: 'Fraunces', serif; font-weight: 600; font-size: 18px; margin-right: auto; }
+  header label { font-size: 13px; color: var(--ink-soft); }
+  header input, header button {
+    font: inherit; font-size: 13px; padding: 5px 9px;
+    border: 1px solid var(--rule-soft); border-radius: 6px;
+    background: var(--paper); color: var(--ink);
+  }
+  header button { cursor: pointer; }
+  header button:hover { background: var(--paper-3); }
+  .progress { font-variant-numeric: tabular-nums; font-size: 13px; }
+  .progress b { color: var(--rust); }
+
+  main { max-width: 1200px; margin: 0 auto; padding: 18px;
+         display: grid; grid-template-columns: 1fr 380px; gap: 22px; align-items: start; }
+  @media (max-width: 860px) { main { grid-template-columns: 1fr; } }
+
+  .context { background: var(--paper-2); border: 1px solid var(--rule-soft);
+             border-radius: 10px; padding: 18px 20px; }
+  .context h2 { font-family: 'Fraunces', serif; font-size: 19px; margin: 0 0 2px; }
+  .context .meta { font-size: 13px; color: var(--ink-soft); margin-bottom: 14px; }
+  .context .meta .mono { color: var(--rust); }
+  .field-label { font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
+                 color: var(--ink-soft); margin: 16px 0 5px; }
+  .body-text { white-space: pre-wrap; font-size: 15px; }
+  .body-text.prescription { font-size: 14px; color: var(--ink-soft); }
+
+  .form { position: sticky; top: 72px; }
+  .axis { margin-bottom: 15px; }
+  .axis > .field-label { margin-top: 0; }
+  .opts { display: flex; flex-wrap: wrap; gap: 5px; }
+  .opt {
+    font: inherit; font-size: 12.5px; padding: 4px 8px; cursor: pointer;
+    border: 1px solid var(--rule-soft); border-radius: 6px;
+    background: var(--paper); color: var(--ink); font-family: 'IBM Plex Mono', monospace;
+  }
+  .opt:hover { border-color: var(--rust); }
+  .opt[aria-pressed="true"] { background: var(--rust); color: #fff; border-color: var(--rust); }
+  .opt .lbl { font-family: 'IBM Plex Sans', sans-serif; opacity: .75; margin-left: 5px; }
+
+  .actions { margin-top: 8px; display: flex; gap: 10px; align-items: center; }
+  .actions button.primary {
+    font: inherit; font-weight: 600; padding: 9px 16px; cursor: pointer;
+    background: var(--rust); color: #fff; border: none; border-radius: 7px;
+  }
+  .actions button.ghost { background: none; border: 1px solid var(--rule-soft);
+    padding: 9px 12px; border-radius: 7px; cursor: pointer; color: var(--ink); font: inherit; }
+  .actions .hint { font-size: 12px; color: var(--ink-soft); margin-left: auto; }
+  .done-badge { color: var(--ochre); font-size: 12px; font-weight: 600; }
+
+  .intro { max-width: 640px; margin: 40px auto; padding: 0 18px; }
+  .intro h1 { font-family: 'Fraunces', serif; }
+  .intro code { background: var(--paper-3); padding: 1px 5px; border-radius: 4px; }
+  .kbd { font-family: 'IBM Plex Mono', monospace; font-size: 12px; border: 1px solid var(--rule-soft);
+         border-bottom-width: 2px; border-radius: 4px; padding: 1px 5px; }
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <span class="title">Validation des tags — à l'aveugle</span>
+  <label>Relecteur·rice <input id="reviewer" placeholder="ex. AB" size="6" autocomplete="off"></label>
+  <span class="progress" id="progress">…</span>
+  <button id="prev" title="Précédent (←)">←</button>
+  <button id="next" title="Suivant (→)">→</button>
+  <button id="export">Exporter JSON</button>
+  <button id="import">Importer</button>
+  <input type="file" id="file" accept="application/json" hidden>
+  <button id="theme" title="Thème clair/sombre">◐</button>
+</header>
+
+<div id="app"></div>
+
+<div class="intro" id="intro">
+  <h1>Chargement…</h1>
+</div>
+
+<script>
+const AXES_SINGLE = ["gravity", "dynamic", "trajectory", "stage", "actor"];
+const AXES_MULTI  = ["domains", "mechanisms", "modifiers"];
+const AXIS_TITLE = {
+  gravity: "Gravité", dynamic: "Dynamique relationnelle", trajectory: "Trajectoire",
+  stage: "Stade procédural", actor: "Acteur principal",
+  domains: "Domaine(s) technique(s)", mechanisms: "Mécanisme(s)", modifiers: "Modificateurs",
+};
+let DATA = null, idx = 0, decisions = {};
+
+const storeKey = () => "icpe-validation:" + (document.getElementById("reviewer").value.trim() || "anon");
+
+function load() {
+  fetch("validation-sample.json?v=1").then(r => r.json()).then(d => {
+    DATA = d;
+    document.getElementById("reviewer").value = localStorage.getItem("icpe-validation:last-reviewer") || "";
+    restore();
+    idx = firstUnreviewed();
+    render();
+  }).catch(e => {
+    document.getElementById("intro").innerHTML = "<h1>Erreur</h1><p>Impossible de charger l'échantillon : " + e + "</p>";
+  });
+}
+function restore() { try { decisions = JSON.parse(localStorage.getItem(storeKey())) || {}; } catch { decisions = {}; } }
+function persist() { localStorage.setItem(storeKey(), JSON.stringify(decisions));
+  localStorage.setItem("icpe-validation:last-reviewer", document.getElementById("reviewer").value.trim()); }
+function firstUnreviewed() {
+  const i = DATA.items.findIndex(it => !decisions[it.fiche_id]);
+  return i === -1 ? 0 : i;
+}
+
+function render() {
+  const it = DATA.items[idx];
+  const cur = decisions[it.fiche_id] || {};
+  document.getElementById("intro").style.display = "none";
+  const rev = !!decisions[it.fiche_id];
+  document.getElementById("progress").innerHTML =
+    `fiche <b>${idx + 1}</b>/${DATA.n} · ${Object.keys(decisions).length} jugée(s)`;
+
+  const axisHtml = (field) => {
+    const opts = DATA.options[field];
+    const multi = AXES_MULTI.includes(field);
+    const val = cur[field] ?? (multi ? [] : null);
+    const pressed = (o) => multi ? (val || []).includes(o) : val === o;
+    return `<div class="axis" data-field="${field}">
+      <div class="field-label">${AXIS_TITLE[field]}${multi ? " (multi)" : ""}</div>
+      <div class="opts">${opts.map(o =>
+        `<button class="opt" data-opt="${o}" aria-pressed="${pressed(o)}"
+          >${o}<span class="lbl">${(DATA.labels[o]||"").slice(0,22)}</span></button>`).join("")}</div>
+    </div>`;
+  };
+
+  document.getElementById("app").innerHTML = `<main>
+    <section class="context">
+      <h2>${esc(it.nom || "—")}</h2>
+      <div class="meta">${esc(it.commune||"")} · ${esc(it.date||"")} · thème : ${esc(it.theme||"—")}
+        · <span class="mono">${it.fiche_id}</span></div>
+      <div class="field-label">Constats</div>
+      <div class="body-text">${esc(it.constats_body)}</div>
+      ${it.prescription ? `<div class="field-label">Prescription</div>
+        <div class="body-text prescription">${esc(it.prescription)}</div>` : ""}
+    </section>
+    <section class="form">
+      ${[...AXES_SINGLE, ...AXES_MULTI].map(axisHtml).join("")}
+      <div class="actions">
+        <button class="primary" id="submit">${rev ? "Mettre à jour" : "Valider"} & suivant</button>
+        ${rev ? '<span class="done-badge">✓ jugée</span>' : ""}
+        <span class="hint"><span class="kbd">Entrée</span> valider · <span class="kbd">←</span> <span class="kbd">→</span> naviguer</span>
+      </div>
+    </section>
+  </main>`;
+
+  document.querySelectorAll(".axis").forEach(ax => {
+    const field = ax.dataset.field, multi = AXES_MULTI.includes(field);
+    ax.querySelectorAll(".opt").forEach(btn => btn.onclick = () => {
+      const o = btn.dataset.opt, d = decisions[it.fiche_id] || (decisions[it.fiche_id] = {});
+      if (multi) { d[field] = d[field] || []; const i = d[field].indexOf(o);
+        i === -1 ? d[field].push(o) : d[field].splice(i, 1);
+        btn.setAttribute("aria-pressed", d[field].includes(o));
+      } else { d[field] = (d[field] === o) ? null : o;
+        ax.querySelectorAll(".opt").forEach(b => b.setAttribute("aria-pressed", b.dataset.opt === d[field]));
+      }
+    });
+  });
+  document.getElementById("submit").onclick = submit;
+}
+
+function submit() {
+  const it = DATA.items[idx], d = decisions[it.fiche_id];
+  if (!d || !d.gravity) { flash("Renseigne au moins la gravité avant de valider."); return; }
+  d.ts = Date.now(); d.reviewer = document.getElementById("reviewer").value.trim();
+  persist();
+  if (idx < DATA.n - 1) { idx++; render(); window.scrollTo(0, 0); }
+  else { flash("Échantillon terminé — pense à exporter le JSON."); render(); }
+}
+function flash(msg) {
+  const h = document.querySelector(".hint"); if (!h) { alert(msg); return; }
+  const old = h.innerHTML; h.textContent = msg; h.style.color = "var(--rust)";
+  setTimeout(() => { h.innerHTML = old; h.style.color = ""; }, 2600);
+}
+function esc(s) { return String(s ?? "").replace(/[&<>]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c])); }
+
+// nav + keyboard
+document.getElementById("prev").onclick = () => { if (idx > 0) { idx--; render(); window.scrollTo(0,0); } };
+document.getElementById("next").onclick = () => { if (idx < DATA.n - 1) { idx++; render(); window.scrollTo(0,0); } };
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "INPUT") return;
+  if (e.key === "ArrowLeft") document.getElementById("prev").click();
+  else if (e.key === "ArrowRight") document.getElementById("next").click();
+  else if (e.key === "Enter") submit();
+});
+document.getElementById("reviewer").onchange = () => { restore(); idx = firstUnreviewed(); render(); };
+
+// export / import
+document.getElementById("export").onclick = () => {
+  const rev = document.getElementById("reviewer").value.trim() || "anon";
+  const blob = new Blob([JSON.stringify({
+    tool: "icpe-validation", version: 1, archetype: "contextual",
+    reviewer: rev, exported: new Date().toISOString(),
+    source: "validation-sample.json", sample_seed: DATA.seed,
+    total_items: DATA.n, reviewed_count: Object.keys(decisions).length,
+    decisions,
+  }, null, 1)], { type: "application/json" });
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob);
+  a.download = `validation-${rev}.json`; a.click();
+};
+document.getElementById("import").onclick = () => document.getElementById("file").click();
+document.getElementById("file").onchange = (e) => {
+  const f = e.target.files[0]; if (!f) return;
+  f.text().then(t => { const d = JSON.parse(t);
+    decisions = d.decisions || d; persist(); idx = firstUnreviewed(); render();
+    flash("Importé : " + Object.keys(decisions).length + " jugements."); });
+};
+document.getElementById("theme").onclick = () => {
+  const r = document.documentElement, dark = r.getAttribute("data-theme") === "dark";
+  r.setAttribute("data-theme", dark ? "light" : "dark");
+  localStorage.setItem("icpe-validation:theme", dark ? "light" : "dark");
+};
+if (localStorage.getItem("icpe-validation:theme") === "dark")
+  document.documentElement.setAttribute("data-theme", "dark");
+
+load();
+</script>
+</body>
+</html>
