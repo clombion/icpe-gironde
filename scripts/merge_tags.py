@@ -164,11 +164,24 @@ def main() -> int:
         print("[error] Aucune ligne à écrire", file=sys.stderr)
         return 1
 
-    # Write parquet via DuckDB
+    # Write parquet via DuckDB. Toutes les colonnes sont des chaînes
+    # (valeur simple ou JSON array string) — table à schéma explicite +
+    # insert par lot, DuckDB ne sait pas scanner une liste de dicts.
     import duckdb
 
+    columns = [
+        "fiche_id", "domains", "mechanisms", "modifiers", "dynamic",
+        "actor", "stage", "gravity", "trajectory", "confidence",
+    ]
     con = duckdb.connect(":memory:")
-    con.execute("CREATE TABLE tags AS SELECT * FROM rows")
+    con.execute(
+        f"CREATE TABLE tags ({', '.join(f'{c} VARCHAR' for c in columns)})"
+    )
+    placeholders = ", ".join("?" for _ in columns)
+    con.executemany(
+        f"INSERT INTO tags VALUES ({placeholders})",
+        [[r[c] for c in columns] for r in rows],
+    )
     con.execute(f"COPY tags TO '{OUTPUT_PARQUET}' (FORMAT PARQUET, COMPRESSION ZSTD)")
     con.close()
 

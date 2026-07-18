@@ -6,7 +6,7 @@ Bugs et incidents significatifs rencontrés pendant le développement : cause ra
 
 Format **BUG-NNN**. Chaque entrée a des sections structurées (Résumé, Cause racine, Correction, Prévention) pour rester cherchable et réutilisable.
 
-Prochain ID : **BUG-007**
+Prochain ID : **BUG-008**
 
 ---
 
@@ -91,3 +91,17 @@ Prochain ID : **BUG-007**
 **Correction** : Réécriture globale + reconstruction du pivot faites (2026-07-17). La centralisation de la base URL dans une constante unique (`_paths.py` côté Python, module partagé côté JS) reste à faire.
 
 **Prévention** : Décision documentée dans decision-log § 5 (« URLs Pages inscrites dans les données ») pour que le coût d'un futur renommage soit connu d'avance.
+
+---
+
+## BUG-007 — merge_tags.py plantait sur la liste de dicts DuckDB
+
+**Sévérité** : Majeure | **Classe** : Chemin jamais exécuté | **Statut** : Corrigé
+
+**Résumé** : `merge_tags.py` faisait `CREATE TABLE tags AS SELECT * FROM rows` où `rows` est une liste de dicts Python. DuckDB refuse (`replacement scan` n'accepte que DataFrame/Arrow), plantant au tout premier merge complet.
+
+**Cause racine** : La ligne n'avait jamais été atteinte pendant tout le développement — le garde-fou « refuse si un batch n'a pas de final Skeptic » (voir BUG-005) bloquait en amont tant que la Phase 4 était incomplète. Le bug latent est devenu visible exactement quand les 81 batches ont été audités et que le garde-fou a laissé passer.
+
+**Correction** : Table à schéma explicite (toutes colonnes VARCHAR — valeur simple ou JSON array string) + `executemany` par lot, sans dépendance pandas/pyarrow.
+
+**Prévention** : Un chemin protégé par un garde-fou strict n'est jamais exercé jusqu'à ce que la condition se lève — les scripts glue de fin de pipeline méritent un test d'intégration sur un mini-jeu complet, pas seulement sur le cas « refus ». Leçon reversée à [[dev-script-build]] (tester le chemin heureux d'un script glue, pas seulement le refus).
