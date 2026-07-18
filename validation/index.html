@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Validation des tags — revue à l'aveugle</title>
 <meta name="description" content="Revue humaine à l'aveugle d'un échantillon de fiches ICPE taguées, pour mesurer la justesse du tagging par axe.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23b4502e'/%3E%3Cpath d='M9 16.5l4.5 4.5L23 11' stroke='%23fff' stroke-width='3.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="../shared/tokens.css?v=1">
 <style>
   * { box-sizing: border-box; }
@@ -110,6 +111,18 @@
     font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; }
   .modal .close { float: right; cursor: pointer; border: 1px solid var(--rule-soft);
     background: none; color: var(--ink); border-radius: 7px; padding: 6px 12px; font: inherit; }
+
+  /* --- mobile (placé en fin de feuille pour l'emporter sur les règles de base) --- */
+  @media (max-width: 860px) {
+    .form { position: static; }                       /* pas de sticky en colonne unique */
+    .opt { padding: 9px 12px; font-size: 13.5px; min-height: 40px; }  /* cibles tactiles */
+    .opt .lbl { display: none; }                      /* le libellé passe en infobulle au tap */
+    header.bar { padding: 8px 12px; gap: 8px 10px; }
+    header .title { font-size: 15px; width: 100%; margin-right: 0; }
+    .context, .modal { padding-left: 16px; padding-right: 16px; }
+    #tip.on { left: 12px !important; right: 12px; max-width: none;
+              top: auto !important; bottom: 14px; text-align: center; }
+  }
 </style>
 </head>
 <body>
@@ -289,6 +302,19 @@ document.addEventListener("mousemove", e => { if (tip.classList.contains("on")) 
 document.addEventListener("mouseout", e => {
   if (e.target.closest("[data-help]")) tip.classList.remove("on");
 });
+// touch / no-hover : tap shows the definition as a transient bottom banner
+// (hover never fires on touch). Tapping a code both selects it AND explains it.
+if (!matchMedia("(hover: hover)").matches) {
+  let tipTimer;
+  document.addEventListener("click", e => {
+    const el = e.target.closest("[data-help]");
+    if (!el || !el.getAttribute("data-help")) return;
+    tip.textContent = el.getAttribute("data-help");
+    tip.classList.add("on");
+    clearTimeout(tipTimer);
+    tipTimer = setTimeout(() => tip.classList.remove("on"), 2800);
+  });
+}
 function moveTip(e) {
   const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
   let x = e.clientX + pad, y = e.clientY + pad;
