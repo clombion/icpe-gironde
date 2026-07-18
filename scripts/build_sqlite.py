@@ -29,6 +29,7 @@ L'écriture SQLite utilise le module stdlib ``sqlite3``.
 
 from __future__ import annotations
 
+import json
 import os
 import sqlite3
 import sys
@@ -52,6 +53,34 @@ INDEX_COLUMNS = [
     "trajectory",
     "dynamic",
 ]
+
+
+MULTI_LABEL_AXES = ("domains", "mechanisms", "modifiers")
+
+
+def _build_long_tag_table(scon, columns: list[str]) -> None:
+    """Déplie les colonnes JSON multi-label en table longue
+    ``fiche_tags(fiche_id, axis, code)``, indexée sur ``(axis, code)``."""
+    present = [a for a in MULTI_LABEL_AXES if a in columns]
+    if not present:
+        return
+    scon.execute(
+        "CREATE TABLE fiche_tags (fiche_id TEXT, axis TEXT, code TEXT)"
+    )
+    long_rows: list[tuple[str, str, str]] = []
+    for axis in present:
+        for (fiche_id, payload) in scon.execute(
+            f'SELECT fiche_id, "{axis}" FROM fiches WHERE "{axis}" IS NOT NULL'
+        ).fetchall():
+            try:
+                codes = json.loads(payload) if payload else []
+            except (json.JSONDecodeError, TypeError):
+                continue
+            long_rows.extend((fiche_id, axis, code) for code in codes)
+    scon.executemany("INSERT INTO fiche_tags VALUES (?, ?, ?)", long_rows)
+    scon.execute("CREATE INDEX idx_fiche_tags_code ON fiche_tags(axis, code)")
+    scon.execute("CREATE INDEX idx_fiche_tags_fiche ON fiche_tags(fiche_id)")
+    print(f"[long] fiche_tags : {len(long_rows)} lignes ({len(present)} axes)")
 
 
 def main() -> int:
@@ -103,6 +132,11 @@ def main() -> int:
         if col in columns:
             scon.execute(f'CREATE INDEX "idx_{col}" ON fiches("{col}")')
     print(f"[index] {len(INDEX_COLUMNS)} indexes créés")
+
+    # Table longue des axes multi-label (domains, mechanisms, modifiers) :
+    # 1 ligne par (fiche, axe, code). Évite le parsing JSON côté requête —
+    # un GROUP BY / JOIN direct suffit pour compter ou filtrer par code.
+    _build_long_tag_table(scon, columns)
 
     scon.commit()
     scon.execute("VACUUM")

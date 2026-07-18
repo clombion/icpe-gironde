@@ -109,11 +109,17 @@ La première section, **Décisions en attente**, liste les choix identifiés mai
 **Décision :** `fiches-tags.parquet` séparé, joint à `fiches.parquet` par `build_sqlite.py` au moment de la projection sqlite. Le pivot source n'est jamais modifié.
 **Justification :** Supprimer le fichier de tags suffit à revenir en arrière ; le pipeline automatisé peut régénérer les tags sans toucher à la source.
 
-### Filtrage SQL : colonnes simples indexées + JSON arrays
+### Filtrage SQL : colonnes simples indexées + JSON arrays + table longue
 
-**Situation :** Exposer 6 axes de tags dans les filtres web.
-**Décision :** Les axes mono-valeur (gravité, trajectoire, dynamique) deviennent des colonnes indexées ; les axes multi-label (domaines, mécanismes) sont stockés en JSON array string, parsés côté client.
-**Justification :** Filtrage SQL natif sur les axes principaux sans faire exploser le schéma pour les axes multi-label.
+**Situation :** Exposer 6 axes de tags dans les filtres web et les angles d'analyse.
+**Décision :** Les axes mono-valeur (gravité, trajectoire, dynamique) deviennent des colonnes indexées ; les axes multi-label (domaines, mécanismes, modificateurs) sont stockés en JSON array string **et** dépliés par `build_sqlite.py` en table longue `fiche_tags(fiche_id, axis, code)` indexée sur `(axis, code)`.
+**Justification :** Filtrage SQL natif sur les axes principaux ; la table longue évite le parsing JSON côté requête pour compter/filtrer par code multi-label (un `GROUP BY` direct suffit). Le JSON reste pour l'affichage client.
+
+### Codes de tags canonisés à l'écriture
+
+**Situation :** Le même code de tag pouvait être stocké en forme longue (`R14_NEUTRE_NC`) ou courte (`R14`) selon les batches d'agents.
+**Décision :** `merge_tags.py` canonise tout code à sa forme préfixe au moment d'écrire le pivot (`_tags_util.canonical_code`), avec un self-check qui refuse toute sortie non canonique. Les modificateurs (`m_DELAI`) ne matchent pas le motif préfixe et restent entiers.
+**Justification :** Un `SELECT DISTINCT` en aval scindait sinon le même code en deux valeurs (voir BUG-008). La canonisation est un invariant de l'artefact publié, imposé chez le producteur, pas laissé à chaque lecteur.
 
 ### Traitement des alias hors taxonomie : trois classes, pas de règle générale
 

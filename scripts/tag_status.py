@@ -27,13 +27,13 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
 import sys
 from pathlib import Path
 from typing import Any
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _paths import PROJECT_ROOT  # noqa: E402
+from _tags_util import canonical_code  # noqa: E402
 
 __version__ = "1.0.0"
 
@@ -145,21 +145,13 @@ def validate_entries(
     return errors
 
 
-def _norm_code(value: Any) -> str:
-    """Forme comparable d'un code : G1_OBSERVATION et G1 sont le même code,
-    mais m_DELAI reste entier (son préfixe « m » n'est pas discriminant)."""
-    text = str(value)
-    prefix = text.split("_")[0]
-    return prefix if re.fullmatch(r"[A-Z]+\d+", prefix) else text
-
-
 def _norm(field: str, value: Any) -> Any:
     """Forme comparable d'une valeur de tag : les différences purement
     représentationnelles (ordre de liste, null vs [], code court vs id
     complet) ne comptent pas comme corrections."""
     if field in MULTI_LABEL_FIELDS:
-        return frozenset(_norm_code(v) for v in (value or []))
-    return _norm_code(value) if value else ""
+        return frozenset(canonical_code(v) for v in (value or []))
+    return canonical_code(value) if value else ""
 
 
 def correction_stats(

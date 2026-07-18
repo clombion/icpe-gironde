@@ -91,3 +91,13 @@ fiches.parquet,(calculé),epci_nom,Nom de l'EPCI.
 fiches.parquet,(calculé),epci_siren,SIREN de l'EPCI.
 fiches.parquet,(calculé),regime_icpe,"Régime ICPE normalisé (AUTORISATION, ENREGISTREMENT, AUTRE, NON_ICPE)."
 fiches.parquet,(calculé),categorie_seveso,"Catégorie Seveso normalisée (NON_SEVESO, SEUIL_BAS, SEUIL_HAUT, ou vide)."
+fiches-tags.parquet,fiche_id,fiche_id,Clé de jointure vers fiches.parquet (une fiche de constat).
+fiches-tags.parquet,domains,domains,"Axe 1 — domaine(s) technique(s), multi-label JSON. D01 incendie, D02 ATEX, D03 Seveso, D04 eaux, D05 air/bruit, D06 sols, D07 rétention, D08 déchets, D09 biodiversité, D10 électrique/ESP, D11 sécurité, D12 admin, D13 cessation, D14 risque bio, D15 secteur, D16 autre."
+fiches-tags.parquet,mechanisms,mechanisms,"Axe 2 — mécanisme(s) réglementaire(s), multi-label JSON. M01 documentation, M04 mise en demeure, M07 contrôle, M08 conformité, M14 constat technique, M17 classification, M19 cessation (liste complète : taxonomy-v5)."
+fiches-tags.parquet,modifiers,modifiers,"Modificateurs, multi-label JSON. m_DELAI délai correctif chiffré imposé ; m_MENACE avertissement conditionnel (« à défaut, MED »)."
+fiches-tags.parquet,dynamic,dynamic,"Axe 3 — dynamique relationnelle exploitant/inspection. R01 proactif, R02 promesse, R03 façade, R04 méconnaissance, R09 blocage tiers, R10 tension, R13 neutre conforme, R14 neutre NC (liste complète : taxonomy-v5)."
+fiches-tags.parquet,actor,actor,"Axe 4a — acteur principal (A01 exploitant, A02 inspection, A03 préfet, A04 SDIS…)."
+fiches-tags.parquet,stage,stage,"Axe 4b — stade procédural (S01 constat, S02 injonction, S03 correction, S04 vérification, S05 escalade…)."
+fiches-tags.parquet,gravity,gravity,"Axe 5 — gravité du constat, G1 (observation) à G6 (le plus grave). Absente des données brutes Géorisques."
+fiches-tags.parquet,trajectory,trajectory,"Axe 6 — trajectoire temporelle. T1 premier constat, T2 suivi, T3 amélioration, T4 stagnation, T7 chronique…"
+fiches-tags.parquet,confidence,confidence,"Confiance du tagging (high/medium/low), issue de la passe Skeptic."

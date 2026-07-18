@@ -6,7 +6,7 @@ Bugs et incidents significatifs rencontrés pendant le développement : cause ra
 
 Format **BUG-NNN**. Chaque entrée a des sections structurées (Résumé, Cause racine, Correction, Prévention) pour rester cherchable et réutilisable.
 
-Prochain ID : **BUG-008**
+Prochain ID : **BUG-009**
 
 ---
 
@@ -105,3 +105,17 @@ Prochain ID : **BUG-008**
 **Correction** : Table à schéma explicite (toutes colonnes VARCHAR — valeur simple ou JSON array string) + `executemany` par lot, sans dépendance pandas/pyarrow.
 
 **Prévention** : Un chemin protégé par un garde-fou strict n'est jamais exercé jusqu'à ce que la condition se lève — les scripts glue de fin de pipeline méritent un test d'intégration sur un mini-jeu complet, pas seulement sur le cas « refus ». Leçon reversée à [[dev-script-build]] (tester le chemin heureux d'un script glue, pas seulement le refus).
+
+---
+
+## BUG-008 — Codes de tags stockés en deux formes, scindés à la lecture
+
+**Sévérité** : Majeure | **Classe** : Vocabulaire contrôlé | **Statut** : Corrigé
+
+**Résumé** : La taxonomie autorise deux écritures du même code — forme longue (`R14_NEUTRE_NC`) et courte (`R14`). Les agents ont émis les deux selon les batches. `merge_tags.py` stockait verbatim, si bien que `SELECT DISTINCT dynamic` renvoyait 29 valeurs pour 15 codes réels : `R14` et `R14_NEUTRE_NC` comptaient séparément (2983 / 1980). 4 des 5 axes mono-valeur touchés. Un filtre web aurait listé chaque code deux fois et sous-compté.
+
+**Cause racine** : La validation vérifiait l'**appartenance** (le code est-il dans le codebook ?) mais jamais la **forme canonique** (est-ce l'unique représentation convenue ?). Un vocabulaire peut être valide et pourtant incohérent. La tolérance de `tag_status._norm_code` — accepter les deux formes — était juste pour la validation mais masquait la divergence, qui a survécu à l'audit complet des 81 batches.
+
+**Correction** : `scripts/_tags_util.py` (`canonical_code`/`canonical_list`, forme préfixe) partagé. `merge_tags.py` canonise chaque code à l'écriture du pivot + self-check qui refuse toute sortie non canonique. Pivot et sqlite reconstruits : `dynamic` repasse de 29 à 15 valeurs distinctes.
+
+**Prévention** : Principe « normaliser à l'écriture, pas seulement valider l'appartenance » ajouté à [[ai-llm-harness]] (vocabulaire contrôlé). La canonisation est un invariant de l'artefact publié, imposé par un self-check dans le producteur (merge), pas laissé à charge de chaque lecteur.

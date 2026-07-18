@@ -35,7 +35,9 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _paths import CARTE_DATA_DIR, PROJECT_ROOT  # noqa: E402
+from _paths import CARTE_DATA_DIR, CARTE_METADATA_CSV, PROJECT_ROOT  # noqa: E402
+from _metadonnees_util import merge_metadata  # noqa: E402
+from _tags_util import canonical_code, canonical_list  # noqa: E402
 
 TAGS_DIR = PROJECT_ROOT / "outputs-fiches" / "tags"
 MANIFEST_PATH = PROJECT_ROOT / "outputs-fiches" / "manifest-all.csv"
@@ -140,17 +142,21 @@ def main() -> int:
             missing_slugs.append(slug)
             continue
 
+        # Canonicalise on write : la même valeur peut arriver en forme
+        # courte (R14) ou longue (R14_NEUTRE_NC) selon les batches. Le pivot
+        # publié doit être canonique, sinon un SELECT DISTINCT en aval scinde
+        # le code en deux (voir docs/bug-history BUG-008).
         rows.append(
             {
                 "fiche_id": fiche_id,
-                "domains": json.dumps(tag.get("domains", []), ensure_ascii=False),
-                "mechanisms": json.dumps(tag.get("mechanisms", []), ensure_ascii=False),
-                "modifiers": json.dumps(tag.get("modifiers", []), ensure_ascii=False),
-                "dynamic": tag.get("dynamic", ""),
-                "actor": tag.get("actor", ""),
-                "stage": tag.get("stage", ""),
-                "gravity": tag.get("gravity", ""),
-                "trajectory": tag.get("trajectory", ""),
+                "domains": json.dumps(canonical_list(tag.get("domains")), ensure_ascii=False),
+                "mechanisms": json.dumps(canonical_list(tag.get("mechanisms")), ensure_ascii=False),
+                "modifiers": json.dumps(canonical_list(tag.get("modifiers")), ensure_ascii=False),
+                "dynamic": canonical_code(tag.get("dynamic", "")) if tag.get("dynamic") else "",
+                "actor": canonical_code(tag.get("actor", "")) if tag.get("actor") else "",
+                "stage": canonical_code(tag.get("stage", "")) if tag.get("stage") else "",
+                "gravity": canonical_code(tag.get("gravity", "")) if tag.get("gravity") else "",
+                "trajectory": canonical_code(tag.get("trajectory", "")) if tag.get("trajectory") else "",
                 "confidence": tag.get("confidence", ""),
             }
         )
@@ -163,6 +169,13 @@ def main() -> int:
     if not rows:
         print("[error] Aucune ligne à écrire", file=sys.stderr)
         return 1
+
+    # Self-check : la sortie doit être canonique (invariant du pivot publié).
+    for r in rows:
+        singles = (r["dynamic"], r["actor"], r["stage"], r["gravity"], r["trajectory"])
+        if any(v and canonical_code(v) != v for v in singles):
+            print(f"[error] code non canonique après normalisation : {r['fiche_id']}", file=sys.stderr)
+            return 1
 
     # Write parquet via DuckDB. Toutes les colonnes sont des chaînes
     # (valeur simple ou JSON array string) — table à schéma explicite +
@@ -196,7 +209,48 @@ def main() -> int:
     print(f"[stats] gravity: {dict(sorted(gravity_dist.items()))}")
     print(f"[stats] confidence: {dict(sorted(confidence_dist.items()))}")
 
+    _write_metadata()
     return 0
+
+
+def _write_metadata() -> None:
+    """Documente les colonnes de tags dans le dictionnaire partagé, pour
+    que le catalogue /donnees/ expose le sens des codes (un lecteur peut
+    ainsi résoudre R09 → blocage tiers sans ouvrir la taxonomie)."""
+    owner = OUTPUT_PARQUET.name  # fiches-tags.parquet
+    defs = [
+        ("fiche_id", "Clé de jointure vers fiches.parquet (une fiche de constat)."),
+        ("domains", "Axe 1 — domaine(s) technique(s), multi-label JSON. "
+         "D01 incendie, D02 ATEX, D03 Seveso, D04 eaux, D05 air/bruit, "
+         "D06 sols, D07 rétention, D08 déchets, D09 biodiversité, "
+         "D10 électrique/ESP, D11 sécurité, D12 admin, D13 cessation, "
+         "D14 risque bio, D15 secteur, D16 autre."),
+        ("mechanisms", "Axe 2 — mécanisme(s) réglementaire(s), multi-label JSON. "
+         "M01 documentation, M04 mise en demeure, M07 contrôle, "
+         "M08 conformité, M14 constat technique, M17 classification, "
+         "M19 cessation (liste complète : taxonomy-v5)."),
+        ("modifiers", "Modificateurs, multi-label JSON. m_DELAI délai correctif "
+         "chiffré imposé ; m_MENACE avertissement conditionnel (« à défaut, MED »)."),
+        ("dynamic", "Axe 3 — dynamique relationnelle exploitant/inspection. "
+         "R01 proactif, R02 promesse, R03 façade, R04 méconnaissance, "
+         "R09 blocage tiers, R10 tension, R13 neutre conforme, R14 neutre NC "
+         "(liste complète : taxonomy-v5)."),
+        ("actor", "Axe 4a — acteur principal (A01 exploitant, A02 inspection, "
+         "A03 préfet, A04 SDIS…)."),
+        ("stage", "Axe 4b — stade procédural (S01 constat, S02 injonction, "
+         "S03 correction, S04 vérification, S05 escalade…)."),
+        ("gravity", "Axe 5 — gravité du constat, G1 (observation) à G6 (le plus grave). "
+         "Absente des données brutes Géorisques."),
+        ("trajectory", "Axe 6 — trajectoire temporelle. T1 premier constat, "
+         "T2 suivi, T3 amélioration, T4 stagnation, T7 chronique…"),
+        ("confidence", "Confiance du tagging (high/medium/low), issue de la passe Skeptic."),
+    ]
+    owner_rows = [
+        {"fichier": owner, "nom_original": alias, "alias": alias, "definition": definition}
+        for alias, definition in defs
+    ]
+    merge_metadata(CARTE_METADATA_CSV, owner, owner_rows)
+    print(f"[meta] {len(owner_rows)} colonnes de tags documentées dans {CARTE_METADATA_CSV.name}")
 
 
 if __name__ == "__main__":
