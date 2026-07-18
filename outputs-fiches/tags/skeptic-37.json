@@ -1,0 +1,163 @@
+{
+  "total_audited": 25,
+  "errors_found": 13,
+  "corrections": [
+    {
+      "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f03",
+      "field": "domains",
+      "hunter_value": "D01",
+      "corrected_value": "D01, D11",
+      "reason": "Sensibilisation du personnel = formation/consigne de sécurité (D11_SECURITE), en plus du volet défense incendie (D01)."
+    },
+    {
+      "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f03",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "\"L'exploitant doit sensibiliser son personnel d'ici 1 mois\" est une demande formelle avec délai numérique explicite — correspond exactement à S02_INJONCTION, pas à une simple observation (S01)."
+    },
+    {
+      "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f03",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "Le poteau incendie à 140m existe et respecte la distance requise (<200m) ; la NC est une lacune de connaissance/sensibilisation du personnel, sans dimension physique (aucun équipement dégradé/absent/hors service) — G2 formelle, pas G3."
+    },
+    {
+      "slug": "grelier-fils52078192025-11-2138441797800010f17",
+      "field": "mechanisms",
+      "hunter_value": "M07",
+      "corrected_value": "M07, M14",
+      "reason": "Le rapport transmis par l'expert révèle un aménagement de compensation (la mare) physiquement absent le jour du passage — NC technique constatée directement, en plus du suivi périodique (M07)."
+    },
+    {
+      "slug": "grelier-fils52078192025-11-2138441797800010f17",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "L'aménagement de compensation (mare) est explicitement absent — dispositif absent = G3 minimum selon la règle \"G3 avant G2\", pas une NC purement documentaire."
+    },
+    {
+      "slug": "grelier-fils52078192025-11-2138441797800010f17",
+      "field": "stage",
+      "hunter_value": "S03",
+      "corrected_value": "S01",
+      "reason": "Premier rapport de suivi transmis avec une observation de terrain (aménagement manquant) transmise à la DDTM33 — observation, pas une action corrective en cours (S03)."
+    },
+    {
+      "slug": "grelier-fils52078192025-11-2138441797800010f17",
+      "field": "dynamic",
+      "hunter_value": "R13",
+      "corrected_value": "R14",
+      "reason": "Une non-conformité factuelle est notée (aménagement manquant) — R14_NEUTRE_NC, pas R13 (conformité) qui contredit la gravité G3 assignée."
+    },
+    {
+      "slug": "groupe-bernard-sa52005952023-05-0945820299100022f04",
+      "field": "mechanisms",
+      "hunter_value": "M08",
+      "corrected_value": "M08, M09",
+      "reason": "Le texte indique explicitement que \"cette prescription sera corrigée lors d'une prochaine modification de l'arrêté préfectoral\" — signal direct de M09_PAC (arrêté complémentaire), en plus de la conformité technique établie par étude (M08)."
+    },
+    {
+      "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f02",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "Aucun délai numérique n'apparaît dans le texte (simple observation demandant de préciser l'autonomie batteries/GSM) — m_DELAI non supporté par le corpus."
+    },
+    {
+      "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f03",
+      "field": "trajectory",
+      "hunter_value": "T3",
+      "corrected_value": "T1",
+      "reason": "\"va être équipé de nouvelles caméras\" est un engagement FUTUR non encore réalisé (cohérent avec R02_PROMESSE déjà assigné) — ce n'est pas une amélioration déjà constatée (T3)."
+    },
+    {
+      "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f03",
+      "field": "stage",
+      "hunter_value": "S03",
+      "corrected_value": "S01",
+      "reason": "Simple observation/promesse de l'exploitant sans délai ni début d'action vérifiable — S01_CONSTAT, pas une correction en cours (S03)."
+    },
+    {
+      "slug": "grelier-fils52078192025-11-2138441797800010f14",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "La \"Demande à formuler\" (se rapprocher du bureau d'études) ne comporte aucun délai chiffré — m_DELAI non supporté par le texte."
+    },
+    {
+      "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f06",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "\"L'inspection demande un justificatif de la validation du SDIS...sous 1 mois\" est une demande formelle avec délai numérique — S02_INJONCTION, pas une simple observation (S01)."
+    },
+    {
+      "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f10",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "Le \"délai d'un mois maximum\" évoqué est la valeur réglementaire de l'arrêté (intervention du prestataire après un impact de foudre), vérifiée dans la procédure de l'exploitant — ce n'est pas un délai correctif imposé par l'inspection dans ce constat."
+    },
+    {
+      "slug": "groupe-bernard-sa52005952023-05-0945820299100022f08",
+      "field": "mechanisms",
+      "hunter_value": "M14",
+      "corrected_value": "M01",
+      "reason": "Aucune dégradation physique constatée sur site — la question porte sur la localisation du serveur informatique hébergeant l'état des stocks (robustesse documentaire), qui relève de M01_DOCUMENTATION, pas d'un constat technique terrain (M14)."
+    },
+    {
+      "slug": "groupe-bernard-sa52005952023-05-0945820299100022f08",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "(aucun)",
+      "reason": "Aucun délai chiffré dans le texte (simple demande de précision) — m_DELAI non supporté."
+    },
+    {
+      "slug": "groupe-bernard-sa52005952023-05-0945820299100022f08",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S01",
+      "reason": "Demande de précision sans délai chiffré — S01_CONSTAT, pas S02_INJONCTION qui suppose un délai."
+    },
+    {
+      "slug": "groupe-bernard-sa52005952023-05-0945820299100022f07",
+      "field": "mechanisms",
+      "hunter_value": "M14",
+      "corrected_value": "M01",
+      "reason": "Le point porte sur la justification documentaire de la présence d'un dispositif (bande protectrice), pas sur un défaut physique constaté — M01_DOCUMENTATION plutôt que M14_CONSTAT_TECHNIQUE."
+    },
+    {
+      "slug": "groupe-bernard-sa52005952023-05-0945820299100022f07",
+      "field": "modifiers",
+      "hunter_value": "m_DELAI",
+      "corrected_value": "m_DELAI, m_MENACE",
+      "reason": "\"Dans le cas où l'exploitant ne serait pas en capacité de justifier..., ce point sera ajouté au projet de mise en demeure\" est un avertissement conditionnel explicite — m_MENACE manquant, en plus du délai de 15 jours déjà identifié (m_DELAI)."
+    },
+    {
+      "slug": "greece-9352086862025-03-2097865076000025f12",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S05",
+      "reason": "\"L'inspection...propose au préfet de mettre en demeure l'exploitant\" est un passage explicite au niveau coercitif supérieur — S05_ESCALADE domine sur la simple demande de surveillance à 1 mois (S02)."
+    },
+    {
+      "slug": "groupe-bernard-sa52005952023-05-0945820299100022f01",
+      "field": "domains",
+      "hunter_value": "D07",
+      "corrected_value": "D01, D07",
+      "reason": "Le confinement des eaux d'extinction incendie relève à la fois du risque incendie (D01) et du confinement des liquides (D07) — label D01 manquant."
+    },
+    {
+      "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f08",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "\"L'inspection demande à l'exploitant sous 2 mois de présenter un rapport sans non conformité\" est une demande formelle avec délai numérique — S02_INJONCTION, pas une simple observation (S01)."
+    }
+  ],
+  "false_positive_rate": 0.52,
+  "error_patterns": "Deux motifs systématiques dominent : (1) m_DELAI appliqué sans délai chiffré présent dans le constats_body (4 occurrences : f02, f14, f10, f08) — le modèle applique le modificateur par association avec le thème \"délai\" du texte source (arrêté préfectoral, procédure interne) plutôt que sur un délai réellement imposé par l'inspection dans cette fiche ; (2) stage S02_INJONCTION manqué quand un délai chiffré formel est bien présent dans le texte mais le stade reste S01_CONSTAT (3 occurrences : f03, f06, f08 green-recup) — asymétrie avec le motif (1). Un cas de M14 appliqué à une question de robustesse documentaire plutôt qu'à une NC physique confirmée (2 occurrences, mêmes acteurs groupe-bernard f07/f08) et un cas de m_MENACE manqué malgré un avertissement conditionnel explicite de MED. Le pattern R10_TENSION pour promesse non tenue n'a pas été observé dans ce batch (l'unique usage de R10 relève d'un désaccord technique documenté, correctement caractérisé). Le stage S06_CLOTURE est utilisé de façon large pour toute conformité constatée sur un point (\"fin de procédure\" au sens large), cohérent avec la convention établie dans les batches précédents (30-36) — non traité comme une erreur ici pour rester cohérent avec le corpus déjà validé.",
+  "verdict": "Qualité correcte mais avec un taux de correction élevé (52% des enregistrements audités) concentré sur des erreurs de second ordre (stage, modifiers) plutôt que sur les axes structurants (domain, mechanism restent globalement fiables). Aucune erreur de type faux M08, gravité sous-estimée sur NC physique avérée, ou R02 sur-attribué n'a été trouvée. Le motif m_DELAI sans délai chiffré mérite d'être surveillé sur les prochains batches Hunter."
+}

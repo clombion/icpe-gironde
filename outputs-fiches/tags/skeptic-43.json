@@ -1,0 +1,488 @@
+{
+  "total_audited": 130,
+  "medium_low_reaudited": 63,
+  "high_spotchecked": 23,
+  "errors_found": 40,
+  "corrections": [
+    {
+      "slug": "lafarge-granulats-lg-abzac31048412022-12-0556211088201575f04",
+      "field": "domains",
+      "hunter_value": [
+        "D09_BIODIVERSITE",
+        "D01_INCENDIE"
+      ],
+      "corrected_value": [
+        "D09_BIODIVERSITE"
+      ],
+      "reason": "D01_INCENDIE not supported: constats_body is entirely about défrichement/chiroptères/Capricorne, no incendie signal."
+    },
+    {
+      "slug": "lafarge-granulats-lg-abzac31048412022-12-0556211088201575f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline in the demand ('fournir les justificatifs... transmettre') — m_DELAI requires a délai correctif, not present."
+    },
+    {
+      "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-01-1356211088202235f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline stated; 'mérite d'être remontée' is a suggestion, not an injunction with délai."
+    },
+    {
+      "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-01-1356211088202235f02",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Berge trop basse (hauteur non respectée) with overflow risk toward excluded parcel is a physical NC signal → G3 minimum per gravity heuristic, not purely documentary G2."
+    },
+    {
+      "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-06-0156211088202235f01",
+      "field": "domains",
+      "hunter_value": [
+        "D15_SECTEUR",
+        "D03_SEVESO"
+      ],
+      "corrected_value": [
+        "D15_SECTEUR"
+      ],
+      "reason": "D03_SEVESO unsupported: fiche is about carrière plan/GEREP transmission, no Seveso/EDD/MMR/PPRT content anywhere (constats_body or Prescription)."
+    },
+    {
+      "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-06-0156211088202235f01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M01_DOCUMENTATION",
+        "M03_REPORTING"
+      ],
+      "corrected_value": [
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "M03_REPORTING over-labeled: GEREP figures are cited only as context, not flagged as an erroneous/incomplete declaration; real issue is the missing certified plan / annual transmission (M01)."
+    },
+    {
+      "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-06-0156211088202235f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M03_REPORTING",
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M03_REPORTING"
+      ],
+      "reason": "M14_CONSTAT_TECHNIQUE unsupported: no physical/technical observation on site; the finding is a GEREP-vs-dossier volume mismatch (reporting inconsistency), inconsistent with hunter's own G2 (non-physical) gravity."
+    },
+    {
+      "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-06-0156211088202235f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline; demand is to justify volumes 'avant l'échéance de la carrière' with no sous-X-jours delay."
+    },
+    {
+      "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-06-0156211088202235f03",
+      "field": "domains",
+      "hunter_value": [
+        "D08_DECHETS",
+        "D11_SECURITE"
+      ],
+      "corrected_value": [
+        "D08_DECHETS"
+      ],
+      "reason": "D11_SECURITE unsupported: no safety/access/PPE content; fiche is entirely about inert-waste acceptance procedure at a carrière."
+    },
+    {
+      "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-06-0156211088202235f04",
+      "field": "dynamic",
+      "hunter_value": "R02_PROMESSE",
+      "corrected_value": "R14_NEUTRE_NC",
+      "reason": "R02_PROMESSE misapplied: exploitant claims a PAST completed action ('déclare avoir renforcé la berge') pending proof, not a FUTURE commitment — per taxonomy R02 requires a future, unverifiable action."
+    },
+    {
+      "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-06-0156211088202235f04",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Same berge-height NC as sibling fiche f02 (overflow risk, hauteur non respectée) — physical dimension present, not resolved/verified → G3 minimum."
+    },
+    {
+      "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912023-06-0156211088202235f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline in the demand to justify curage/vidange; only 'au redémarrage de la carrière' is mentioned."
+    },
+    {
+      "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912025-12-1156211088202235f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline stated for providing the new acte de cautionnement."
+    },
+    {
+      "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912025-12-1156211088202235f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline; demand is to justify surverse/calendrier without a stated délai."
+    },
+    {
+      "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912025-12-1156211088202235f06",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline for refermer le volucompteur."
+    },
+    {
+      "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912025-12-1156211088202235f08",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline in the demand to clarify/justify the piézomètre network."
+    },
+    {
+      "slug": "lafarge-granulats-lg-cabanac-et-villagrains52097912025-12-1156211088202235f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline anywhere in the demand for GEOCYCLE procedure / traçabilité improvements."
+    },
+    {
+      "slug": "lafarge-granulats-lg-fontet52037162022-10-0356211088202243f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline; 'dès réception' is not a délai correctif."
+    },
+    {
+      "slug": "lafarge-granulats-lg-fontet52037162022-10-0356211088202243f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08_CONFORMITE",
+        "M02_MESURE",
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M08_CONFORMITE",
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "reason": "M02_MESURE unsupported: le contrôle annuel est 'correctement réalisé' — no protocole/méthodologie issue; the finding is punctual physical anomalies (M14), not a measurement-methodology problem."
+    },
+    {
+      "slug": "lafarge-granulats-lg-fontet52037162022-10-0356211088202243f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline; 'délais raisonnables' is vague, not a délai correctif."
+    },
+    {
+      "slug": "lafarge-granulats-lg-ic-le-fieu52082922025-11-1856211088201575f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline; exploitant 'prévoit' future tableaux d'affichage with no date (matches R02_PROMESSE, not m_DELAI)."
+    },
+    {
+      "slug": "lafarge-granulats-lg-ic-le-fieu52082922025-11-1856211088201575f06",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline in the demand to transmit the 2025 rapport."
+    },
+    {
+      "slug": "lafarge-granulats-lg-ic-saucats52063572023-05-3156211088202144f02",
+      "field": "trajectory",
+      "hunter_value": "T4_STAGNATION",
+      "corrected_value": "T7_CHRONIQUE",
+      "reason": "Same unobserved/unresolved deviation busée finding spans 2016 to 2023 (7 years, 2+ inspections) — matches T7_CHRONIQUE ('>3 ans ou >2 inspections') rather than T4_STAGNATION."
+    },
+    {
+      "slug": "lafarge-granulats-lg-ic-saucats52063572023-05-3156211088202144f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline; demand applies 'lors de la prochaine campagne d'analyse'."
+    },
+    {
+      "slug": "lafarge-granulats-lg-ic-saucats52063572023-05-3156211088202144f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline; demand is conditional ('dès réception des résultats... dans le cas où')."
+    },
+    {
+      "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f03",
+      "field": "trajectory",
+      "hunter_value": "T3_AMELIORATION",
+      "corrected_value": "T4_STAGNATION",
+      "reason": "Text explicitly states the current plan 'ne permet pas de s'assurer que la côte minimale autorisée est respectée' — the 2017 NC's resolution cannot be confirmed, so no verified 'amélioration'; T3_AMELIORATION overstates the outcome."
+    },
+    {
+      "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f05",
+      "field": "domains",
+      "hunter_value": [
+        "D15_SECTEUR",
+        "D10_ELECTRIQUE_ESP"
+      ],
+      "corrected_value": [
+        "D15_SECTEUR"
+      ],
+      "reason": "D10_ELECTRIQUE_ESP unsupported: fiche is entirely about cautionnement/garanties financières and phasage, no electrical/ESP equipment content."
+    },
+    {
+      "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M10_GARANTIES",
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M10_GARANTIES"
+      ],
+      "reason": "M14_CONSTAT_TECHNIQUE unsupported: 'retard de phase' is an administrative/planning gap, not a physical technical observation; text explicitly states no irrégularité is raised at this stage."
+    },
+    {
+      "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f08",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline; 'point non abordé en séance: l'exploitant transmettra' has no délai."
+    },
+    {
+      "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f08",
+      "field": "trajectory",
+      "hunter_value": "T3_AMELIORATION",
+      "corrected_value": "T2_SUIVI",
+      "reason": "Text shows continued periodic tracking following up on a prior DEM point, not a demonstrated improvement over a worse historical state — T2_SUIVI fits better than T3_AMELIORATION."
+    },
+    {
+      "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f12",
+      "field": "stage",
+      "hunter_value": "S02_INJONCTION",
+      "corrected_value": "S01_CONSTAT",
+      "reason": "No 'Demande à formuler' / injunction language present in constats_body — this is a pure finding (PGD not transmitted to Préfète), not a formal demande with délai."
+    },
+    {
+      "slug": "lafarge-granulats-lg-le-fieu52082772022-09-0856211088201575f13",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline; 'l'exploitant tiendra informé l'inspection' has no délai correctif stated."
+    },
+    {
+      "slug": "lafarge-granulats-lg-le-fieu52082772025-11-1856211088201575f02",
+      "field": "domains",
+      "hunter_value": [
+        "D12_ADMIN",
+        "D03_SEVESO"
+      ],
+      "corrected_value": [
+        "D12_ADMIN"
+      ],
+      "reason": "D03_SEVESO unsupported: fiche is a GEREP declaration detail issue for a carrière, no Seveso content in constats_body or Prescription."
+    },
+    {
+      "slug": "lafarge-granulats-lg-le-fieu52082772025-11-1856211088201575f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline; demand applies to the 2025 declaration, not a délai correctif."
+    },
+    {
+      "slug": "lafarge-granulats-lg-le-fieu52082772025-11-1856211088201575f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline; 'devra porter une attention' has no délai stated."
+    },
+    {
+      "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f04",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Formal demand with numeric delay present ('reviendra... sous 15 jours') — matches S02_INJONCTION definition ('demande formelle avec délai'), not S01_CONSTAT."
+    },
+    {
+      "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f06",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Formal demand with numeric delay present ('transmettre sous 2 mois') — matches S02_INJONCTION, not S01_CONSTAT."
+    },
+    {
+      "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f06",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M09_PAC",
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M09_PAC"
+      ],
+      "reason": "M14_CONSTAT_TECHNIQUE unsupported: the finding is an unreported modification of exploitation conditions (administrative notification gap), not a physical technical observation."
+    },
+    {
+      "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f10",
+      "field": "dynamic",
+      "hunter_value": "R14_NEUTRE_NC",
+      "corrected_value": "R13_NEUTRE_CONFORME",
+      "reason": "Text is fully conforming ('résultats...conformes...n'appelle aucune remarque') with no NC — hunter's reasoning text actually describes the sibling fiche f11 (piézomètres), not this fiche's content (eaux de surface, no anomaly)."
+    },
+    {
+      "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f10",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08_CONFORMITE",
+        "M02_MESURE"
+      ],
+      "corrected_value": [
+        "M08_CONFORMITE"
+      ],
+      "reason": "M02_MESURE unsupported once the reasoning mix-up with f11 is corrected: no methodology issue raised for this fiche's own results."
+    },
+    {
+      "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f10",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No demand and no deadline present — fully conforming finding."
+    },
+    {
+      "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f11",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M02_MESURE",
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M02_MESURE"
+      ],
+      "reason": "M14_CONSTAT_TECHNIQUE unsupported: no 'hors service/dégradé' physical finding; the issue is missing methodology/analysis in the piézomètre report (M02)."
+    },
+    {
+      "slug": "lafarge-granulats-lg-saucats52082022023-05-3156211088202144f12",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline; demand is conditional ('dès réception... dans le cas où')."
+    },
+    {
+      "slug": "laffort52007512023-02-2379088731900016f02",
+      "field": "domains",
+      "hunter_value": [
+        "D01_INCENDIE",
+        "D07_RETENTION"
+      ],
+      "corrected_value": [
+        "D01_INCENDIE"
+      ],
+      "reason": "D07_RETENTION unsupported: fiche is entirely about état des matières stockées documentation (AM 11/04/2017), no cuves/rétention/confinement content."
+    },
+    {
+      "slug": "lamouroux-gilbert31066282023-02-23nosiretf01",
+      "field": "actor",
+      "hunter_value": "A02_INSPECTION",
+      "corrected_value": "A01_EXPLOITANT",
+      "reason": "A02_INSPECTION is not the principal actor: the fiche's subject is the exploitant's residual site condition (véhicule, pièces, moteurs), the inspection merely notes it will inform the maire."
+    },
+    {
+      "slug": "lamouroux-gilbert31066282023-02-23nosiretf02",
+      "field": "actor",
+      "hunter_value": "A06_BET",
+      "corrected_value": "A01_EXPLOITANT",
+      "reason": "A06_BET is not the principal actor: TEREO is a subcontracted BET, but the exploitant is the one transmitting/responsible for the report; same actor-mislabeling pattern as sibling f01."
+    },
+    {
+      "slug": "lapoule-roland52068812023-06-1238449580000011f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline anywhere in this fiche's constats_body (GIDAF/VLE dépassement finding, fine proposed, no délai correctif stated)."
+    },
+    {
+      "slug": "lapoule-roland52068812023-06-1238449580000011f04",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Formal demand with numeric delay present ('justifier sous un délai maximal de 3 mois') — matches S02_INJONCTION, not S01_CONSTAT."
+    },
+    {
+      "slug": "lapoule-roland52068812023-06-1238449580000011f05",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Formal demand with numeric delay present ('justifier sous un délai maximal de 3 mois') — matches S02_INJONCTION, not S01_CONSTAT."
+    },
+    {
+      "slug": "lapoule-roland52068812024-01-2338449580000011f11",
+      "field": "stage",
+      "hunter_value": "S02_INJONCTION",
+      "corrected_value": "S01_CONSTAT",
+      "reason": "No 'Demande à formuler' section in constats_body (unlike the 2023 sibling fiche) — pure observation that exploitant now has the phone number, no formal injunction with délai stated."
+    },
+    {
+      "slug": "lavigne-jimmy1000314682023-09-15nosiretf01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric deadline in this fiche's own constats_body — the 'sous 2 mois' delay belongs to sibling fiche f02, not f01's MED-options text."
+    },
+    {
+      "slug": "le-mas-des-bouilles-a-bises-abzac-22-tripoteau533248882023-03-1651509701200014f01",
+      "field": "actor",
+      "hunter_value": "A02_INSPECTION",
+      "corrected_value": "A01_EXPLOITANT",
+      "reason": "A02_INSPECTION is not the principal actor: the fiche's subject is the kennel operator's animal-keeping conditions causing nuisances, not an inspection action."
+    }
+  ],
+  "false_positive_rate": 0.308,
+  "error_patterns": "1) m_DELAI over-application (24 records): Hunter attached m_DELAI whenever a fiche contained a 'Demande à formuler'/'Observations' section, even when the demand carried no numeric délai ('dès réception', 'lors de la prochaine campagne', 'mérite d'être', or no demand at all). Verified systematically with a regex over constats_body for délai signals (sous/dans X jours|mois|semaine, délai de, d'ici au, avant le, au plus tard) cross-checked against every m_DELAI-tagged record in the batch, then manually confirmed each flagged case. No case of the inverse error (numeric delay present but m_DELAI missing) was confirmed after removing false positives from an imprecise regex pass. 2) D03_SEVESO bleed across sibling Lafarge-carrière fiches (2 records): applied to GEREP/plan-transmission fiches with zero Seveso/EDD/MMR/PPRT content, likely carried over from other fiches in the same inspection report that do legitimately discuss Seveso topics (e.g. laffort f09, correctly tagged). 3) Actor mislabeling (3 records): A02_INSPECTION or A06_BET assigned as principal actor when the exploitant remains the subject of the finding and the inspection/BET is only a secondary mentioned party. 4) Reasoning/value swap between sibling fiches (1 record, lg-saucats f10/f11): Hunter's stated reasoning for f10 actually describes f11's piézomètre content; f10 itself is a fully conforming eaux-de-surface finding, but was tagged with f11's NC-oriented mechanisms/dynamic. 5) M14_CONSTAT_TECHNIQUE over-labeling on administrative/documentary or reporting findings with no physical observation (5 records) — e.g. GEREP volume mismatches, phase-vs-garanties-financières comparisons, unreported modification of exploitation conditions — where hunter's own G2 (non-physical) gravity already contradicted the M14 tag. 6) Domain over-labeling from adjacent-fiche bleed (D01_INCENDIE, D11_SECURITE, D10_ELECTRIQUE_ESP, D07_RETENTION — 5 records) where the constats_body has zero content matching the domain's taxonomy signals. 7) S01_CONSTAT/S02_INJONCTION stage-modifier inconsistency (6 records): several fiches had a formal demand with a numeric délai in constats_body but were staged S01_CONSTAT instead of S02_INJONCTION (or the reverse — S02_INJONCTION with m_DELAI already empty and no demand text at all, should be S01_CONSTAT). 8) R02_PROMESSE vs R14_NEUTRE_NC confusion (1 record): a claim of a completed-but-unproven PAST action was tagged as a FUTURE promise. No instances of the R10_TENSION/unfulfilled-promise pattern were found — R10_TENSION is not used anywhere in this batch (0 occurrences).",
+  "verdict": "Hunter output is solid overall (0% M15, well-calibrated confidence flags — nearly all confirmed errors were self-flagged as medium confidence). The dominant error mode is systematic over-application of m_DELAI without checking for an actual numeric délai in the text, plus smaller multi-label bleed (domains/mechanisms) likely from adjacent fiches in the same multi-point inspection report. No code-validity violations (invalid ids, modifiers-in-mechanisms, multi-valued single fields) were found. Corrected 40 of 130 records (30.8%), all field-level (no wholesale re-classifications)."
+}

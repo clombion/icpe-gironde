@@ -1,0 +1,338 @@
+{
+  "total_audited": 130,
+  "errors_found": 47,
+  "corrections": [
+    {
+      "slug": "heidelberg-materials-france-granulats-virelade52059202024-10-1557216565201419f02",
+      "field": "modifiers",
+      "hunter_value": ["m_MENACE"],
+      "corrected_value": ["m_MENACE", "m_DELAI"],
+      "reason": "Relevé topographique mensuel demandé 'sur les 6 prochains mois' : délai numérique explicite manqué par le Hunter, qui n'avait retenu que m_MENACE."
+    },
+    {
+      "slug": "hermes-maroquinerie-de-guyenne1000104072025-12-0478992861100035f01",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande (PAC rubriques 2360.1/2355/2925.2) sans échéance chiffrée dans le texte."
+    },
+    {
+      "slug": "hermes-maroquinerie-de-guyenne1000104072025-12-0478992861100035f04",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "'début 2026' qualifie la date attendue du PAC, pas un délai imposé pour la transmission des justificatifs Kbis."
+    },
+    {
+      "slug": "hermes-maroquinerie-de-guyenne1000104072025-12-0478992861100035f05",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande d'actualisation du tableau des déchets sans échéance chiffrée."
+    },
+    {
+      "slug": "hermes-maroquinerie-de-guyenne1000104072025-12-0478992861100035f06",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande d'intégration au PAC sans échéance chiffrée."
+    },
+    {
+      "slug": "hermes-maroquinerie-de-guyenne1000104072025-12-0478992861100035f11",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de dispositif de surveillance/alarme sans échéance chiffrée."
+    },
+    {
+      "slug": "hermes-maroquinerie-sellerie31037032026-03-0378992861100043f03",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande d'étiquetage des produits chimiques sans échéance chiffrée."
+    },
+    {
+      "slug": "hermes-maroquinerie-sellerie31037032026-03-0378992861100043f06",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande d'état des matières stockées sans échéance chiffrée."
+    },
+    {
+      "slug": "huilerie-g-i-d1000342792024-04-1759575098500011f02",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de plan des réseaux sans échéance chiffrée."
+    },
+    {
+      "slug": "huilerie-g-i-d1000342792024-04-1759575098500011f04",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de justification des mesures de confinement sans échéance chiffrée."
+    },
+    {
+      "slug": "hurtaud-damien1002924332025-05-1593501274000012f01",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de justification des volumes de pneus neufs sans échéance chiffrée."
+    },
+    {
+      "slug": "hurtaud-damien1002924332025-05-1593501274000012f02",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de justification des volumes de pneus usagés sans échéance chiffrée."
+    },
+    {
+      "slug": "hydrogene-de-france-hdf1000428502026-01-1478959595600010f01",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande d'argumentaire rubrique 3420 sans échéance chiffrée."
+    },
+    {
+      "slug": "hydrogene-de-france-hdf1000428502026-01-1478959595600010f03",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de justification réserve incendie/RIA sans échéance chiffrée."
+    },
+    {
+      "slug": "hydrogene-de-france-hdf1000428502026-01-1478959595600010f06",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "'fin d'année 2026' qualifie la date de démarrage de l'installation, pas un délai imposé pour la vérification des détecteurs."
+    },
+    {
+      "slug": "hydrogene-de-france-hdf1000428502026-01-1478959595600010f09",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de justification de rétention des eaux incendie sans échéance chiffrée."
+    },
+    {
+      "slug": "intermarche-bordeaux-caphy52004852023-05-0933313234800017f05",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de test du dispositif d'arrêt d'urgence sans échéance chiffrée."
+    },
+    {
+      "slug": "intermarche-bordeaux-caphy52004852024-09-2633313234800017f02",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de mise en conformité des 6 NC du rapport périodique sans échéance chiffrée."
+    },
+    {
+      "slug": "intermarche-bordeaux-caphy52004852024-09-2633313234800017f03",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de levée de l'observation n°13 sans échéance chiffrée (le délai de 3 mois cité appartient au constat de mai 2023, déjà soldé)."
+    },
+    {
+      "slug": "intermarche-bordeaux-caphy52004852024-09-2633313234800017f05",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de transmission de l'attestation d'essai 2024 sans échéance chiffrée."
+    },
+    {
+      "slug": "intermarche-bordeaux-caphy52004852024-09-2633313234800017f08",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande du récépissé de transport SEPS sans échéance chiffrée."
+    },
+    {
+      "slug": "invivo52004592022-10-0477569019100348f06",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de vérification des dates d'inspection périodique sans échéance chiffrée."
+    },
+    {
+      "slug": "invivo52004592022-10-0477569019100348f14",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de tableau de classement à jour sans échéance chiffrée."
+    },
+    {
+      "slug": "invivo52004592022-10-0477569019100348f15",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de dispositif de rétention des eaux d'extinction sans échéance chiffrée."
+    },
+    {
+      "slug": "invivo52004592023-07-2077569019100348f04",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de rapport de contrôle de mise en service du compresseur sans échéance chiffrée."
+    },
+    {
+      "slug": "invivo52004592023-07-2077569019100348f06",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de transmission du rapport d'étude de bruit 'dès réception', sans délai chiffré pour ce constat de suivi (le délai d'un an cité appartient au constat précédent, déjà engagé)."
+    },
+    {
+      "slug": "intermarche-bordeaux-caphy52004852023-05-0933313234800017f09",
+      "field": "mechanisms",
+      "hunter_value": ["M14"],
+      "corrected_value": ["M01"],
+      "reason": "Modes opératoires absents au poste de chargement = absence de document (M01), pas un constat technique physique (M14) ; cohérent avec la gravité G2 (NC purement documentaire) déjà retenue par le Hunter."
+    },
+    {
+      "slug": "intermarche-bordeaux-caphy52004852023-05-0933313234800017f16",
+      "field": "mechanisms",
+      "hunter_value": ["M09"],
+      "corrected_value": ["M09", "M14"],
+      "reason": "Cuve 80m3 'HS' au niveau de la double paroi = dégradation physique observée sur site, en plus de la démarche PAC (M09) déjà identifiée."
+    },
+    {
+      "slug": "intermarche-bordeaux-caphy52004852023-05-0933313234800017f16",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Cuve 'hors service' (double paroi) = NC technique avec risque potentiel, G3 minimum selon l'heuristique de gravité, pas G2."
+    },
+    {
+      "slug": "intermarche-bordeaux-caphy52004852023-05-0933313234800017f16",
+      "field": "domains",
+      "hunter_value": ["D12"],
+      "corrected_value": ["D12", "D07"],
+      "reason": "Cuve de stockage carburant = D07_RETENTION en plus du contexte PAC/admin (D12) déjà retenu."
+    },
+    {
+      "slug": "intermarche-solidis-station-service31044182023-04-1834989196000024f02",
+      "field": "domains",
+      "hunter_value": ["D12"],
+      "corrected_value": ["D05"],
+      "reason": "Gaz à effet de serre fluorés (rubrique 1185, fluides frigorigènes HFC) relève de D05_AIR_BRUIT ('GES/ETS/quotas carbone'), pas de D12_ADMIN qui couvre la nomenclature/déclaration ICPE générale."
+    },
+    {
+      "slug": "intermarche-solidis-station-service31044182023-04-1834989196000024f03",
+      "field": "domains",
+      "hunter_value": ["D12"],
+      "corrected_value": ["D05"],
+      "reason": "Idem f02 : restrictions d'usage des HFC (règlement 517/2014) = D05, pas D12."
+    },
+    {
+      "slug": "intermarche-solidis-station-service31044182023-04-1834989196000024f04",
+      "field": "domains",
+      "hunter_value": ["D12"],
+      "corrected_value": ["D05"],
+      "reason": "Idem f02 : attestation de capacité pour intervention sur fluide frigorigène = D05, pas D12."
+    },
+    {
+      "slug": "intermarche-solidis-station-service31044182023-04-1834989196000024f05",
+      "field": "domains",
+      "hunter_value": ["D12"],
+      "corrected_value": ["D05"],
+      "reason": "Idem f02 : registre des fluides frigorigènes = D05, pas D12."
+    },
+    {
+      "slug": "intermarche-solidis-station-service31044182023-04-1834989196000024f06",
+      "field": "domains",
+      "hunter_value": ["D12"],
+      "corrected_value": ["D05"],
+      "reason": "Idem f02 : substances appauvrissant la couche d'ozone = D05, pas D12."
+    },
+    {
+      "slug": "intermarche-solidis-station-service31044182023-04-1834989196000024f07",
+      "field": "domains",
+      "hunter_value": ["D12"],
+      "corrected_value": ["D05"],
+      "reason": "Idem f02 : interdiction de recharge en cas de fuite = D05, pas D12."
+    },
+    {
+      "slug": "intermarche-solidis-station-service31044182023-04-1834989196000024f08",
+      "field": "domains",
+      "hunter_value": ["D12"],
+      "corrected_value": ["D05"],
+      "reason": "Idem f02 : système de détection de fuites GES fluorés = D05, pas D12."
+    },
+    {
+      "slug": "intermarche-solidis-station-service31044182023-04-1834989196000024f09",
+      "field": "domains",
+      "hunter_value": ["D12"],
+      "corrected_value": ["D05"],
+      "reason": "Idem f02 : registre détection de fuite = D05, pas D12."
+    },
+    {
+      "slug": "intermarche-solidis-station-service31044182023-04-1834989196000024f10",
+      "field": "domains",
+      "hunter_value": ["D12"],
+      "corrected_value": ["D05"],
+      "reason": "Idem f02 : registre fluide frigorigène = D05, pas D12."
+    },
+    {
+      "slug": "intermarche-solidis-station-service31044182023-04-1834989196000024f11",
+      "field": "domains",
+      "hunter_value": ["D12"],
+      "corrected_value": ["D05"],
+      "reason": "Idem f02 : fréquence de contrôle d'étanchéité selon charge en CO2 eq = D05, pas D12."
+    },
+    {
+      "slug": "intermarche-solidis-station-service31044182023-04-1834989196000024f12",
+      "field": "domains",
+      "hunter_value": ["D12"],
+      "corrected_value": ["D05"],
+      "reason": "Idem f02 : vignettes de contrôle d'étanchéité = D05, pas D12."
+    },
+    {
+      "slug": "hostein-et-laval52009012025-03-1345520654000011f02",
+      "field": "dynamic",
+      "hunter_value": "R02",
+      "corrected_value": "R14",
+      "reason": "'L'exploitant s'engage, dans un délai d'un mois...' est la formulation de l'injonction de l'inspection (mise en demeure), pas un engagement rapporté de l'exploitant ; le texte montre au contraire une indécision ('n'a pas réalisé le choix'). R02 sur-attribué."
+    },
+    {
+      "slug": "inter-pressing1000799762025-02-1833249944100027f01",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "Absence de démarche d'antériorité constatée factuellement, sans qu'aucune ignorance ne soit invoquée par l'exploitant dans le texte. R04 sur-attribué."
+    },
+    {
+      "slug": "inter-pressing1000799762025-02-1833249944100027f12",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "Constat factuel qu'aucune visite de contrôle n'a eu lieu depuis 7 ans, sans invocation explicite d'ignorance (contrairement à f11 où l'exploitant dit 'ne pas avoir connaissance'). R04 sur-attribué."
+    },
+    {
+      "slug": "invivo52004592022-10-0477569019100348f11",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T2",
+      "reason": "Le texte référence explicitement 'FSMD 6 du rapport du 28 octobre 2020' : suivi d'un constat antérieur, pas un premier constat (T1)."
+    },
+    {
+      "slug": "invivo52004592022-10-0477569019100348f13",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T2",
+      "reason": "Le texte référence explicitement 'le précédent rapport de mesure de bruit, en date du 25 novembre 2019' : suivi d'un constat antérieur, pas T1."
+    },
+    {
+      "slug": "invivo52004592022-10-0477569019100348f15",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T2",
+      "reason": "Le texte référence explicitement 'voir FSMD 6 du rapport du 28 octobre 2020' : suivi d'un constat antérieur, pas T1."
+    }
+  ],
+  "false_positive_rate": 0.36,
+  "error_patterns": "Pattern dominant (26/47 corrections, ~55%) : sur-application systématique de m_DELAI sur les fiches S02_INJONCTION quand le texte contient une date quelconque (date de courrier, date d'arrêté cité, date de mise en service) sans qu'il s'agisse d'une échéance corrective imposée à l'exploitant. Un cas inverse (1 fiche) où un délai numérique explicite ('sur les 6 prochains mois') a été manqué au profit du seul m_MENACE. Second pattern : le domaine D12_ADMIN sur-employé pour toute la fiche 'gaz à effet de serre fluorés' (rubrique 1185) d'un exploitant (11 fiches), alors que la taxonomie rattache explicitement 'GES/ETS/quotas carbone' à D05_AIR_BRUIT — D12 n'était fondé que sur la fiche de déclaration/changement d'exploitant initiale. Troisième pattern, plus limité : R04_MECONNAISSANCE attribué sur un simple constat factuel d'absence de démarche, sans invocation explicite d'ignorance par l'exploitant dans le texte (2 fiches) ; un cas de R02_PROMESSE confondant la formulation impérative d'une mise en demeure avec un engagement rapporté de l'exploitant. Erreurs ponctuelles : une trajectoire T1 malgré référence explicite à un constat antérieur nommé (FSMD, rapport daté) sur 3 fiches d'une même série de suivi multi-inspections ; un M14 manqué (cuve 'HS') faisant sous-évaluer la gravité G2→G3 et sous-représenter le domaine D07 sur une fiche ; un M14 sur-employé pour une absence de document procédural (modes opératoires) qui relève de M01. Le pattern R10_TENSION sur-employé pour promesse non tenue, signalé comme récurrent dans d'autres batches, n'apparaît pas dans ce batch : aucun code R10 n'a été assigné par le Hunter (0/130), donc rien à corriger sur cet axe.",
+  "verdict": "Qualité globale bonne sur les axes structurants (mécanisme/gravité/stade sont majoritairement corrects, 0% M15, aucune violation de la règle STRICT sur les codes eux-mêmes). Le taux de correction (36% des fiches touchées par au moins une correction) est tiré presque entièrement par un biais mécanique et récurrent du Hunter sur m_DELAI (traiter toute date mentionnée dans le texte comme un délai correctif) et par une survalorisation de D12_ADMIN au détriment de D05_AIR_BRUIT sur une fiche entière consacrée aux GES fluorés. Ces deux biais, une fois corrigés, ramènent le taux d'erreur réel par fiche-décision à un niveau nettement plus bas ; aucune erreur de sécurité (sous-estimation de gravité en cascade, MED manquée) n'a été trouvée hormis le cas isolé de la cuve HS."
+}

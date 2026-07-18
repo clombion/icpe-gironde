@@ -1,0 +1,750 @@
+{
+  "total_audited": 130,
+  "errors_found": 86,
+  "corrections": [
+    {
+      "slug": "jv-coating-ex-electrochrome52010122023-11-1678193928500024f07",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M04_MED"
+      ],
+      "corrected_value": [
+        "M04_MISE_EN_DEMEURE"
+      ],
+      "reason": "Invalid code 'M04_MED' is not an exact taxonomy id; corrected to M04_MISE_EN_DEMEURE per STRICT code validity rules."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122023-11-1678193928500024f08",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M04_MED"
+      ],
+      "corrected_value": [
+        "M04_MISE_EN_DEMEURE"
+      ],
+      "reason": "Invalid code 'M04_MED' is not an exact taxonomy id; corrected to M04_MISE_EN_DEMEURE per STRICT code validity rules."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122024-04-3078193928500024f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M04_MED"
+      ],
+      "corrected_value": [
+        "M04_MISE_EN_DEMEURE"
+      ],
+      "reason": "Invalid code 'M04_MED' is not an exact taxonomy id; corrected to M04_MISE_EN_DEMEURE per STRICT code validity rules."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122024-04-3078193928500024f04",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M04_MED"
+      ],
+      "corrected_value": [
+        "M04_MISE_EN_DEMEURE"
+      ],
+      "reason": "Invalid code 'M04_MED' is not an exact taxonomy id; corrected to M04_MISE_EN_DEMEURE per STRICT code validity rules."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122024-04-3078193928500024f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M04_MED"
+      ],
+      "corrected_value": [
+        "M04_MISE_EN_DEMEURE"
+      ],
+      "reason": "Invalid code 'M04_MED' is not an exact taxonomy id; corrected to M04_MISE_EN_DEMEURE per STRICT code validity rules."
+    },
+    {
+      "slug": "jean-luc-lacoste31019752025-06-1953880964100011f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M04_MED"
+      ],
+      "corrected_value": [
+        "M04_MISE_EN_DEMEURE"
+      ],
+      "reason": "Invalid code 'M04_MED' is not an exact taxonomy id; corrected to M04_MISE_EN_DEMEURE per STRICT code validity rules."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122023-03-2878193928500024f21",
+      "field": "dynamic",
+      "hunter_value": "R06",
+      "corrected_value": "R02",
+      "reason": "L'exploitant précise que le raccordement du laveur et l'installation des sondes 'seront réalisés' avant la mise en service -- engagement futur non vérifiable = signal classique de R02_PROMESSE. R06_VIDE_JURIDIQUE (dissolution/liquidation) ne correspond pas du tout au texte."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122023-11-1678193928500024f01",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122023-11-1678193928500024f03",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122023-11-1678193928500024f04",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122023-11-1678193928500024f05",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122023-11-1678193928500024f06",
+      "field": "dynamic",
+      "hunter_value": "R08",
+      "corrected_value": "R14",
+      "reason": "R08_CONTRAINTE_ECONOMIQUE requiert un coût chiffré présenté comme un frein ; aucun montant n'est cité dans le texte (cas de cessation d'activité sans dimension économique explicite) -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122023-11-1678193928500024f07",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R09",
+      "reason": "Clôture supprimée par un tiers (le voisin, suite à une mésentente foncière), pas par l'exploitant -- signal de R09_BLOCAGE_TIERS. R05_VIDE_FACTUEL (exploitant physiquement absent) ne correspond pas au texte."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122023-11-1678193928500024f08",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122023-11-1678193928500024f09",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122024-04-3078193928500024f03",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122024-04-3078193928500024f04",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122024-04-3078193928500024f05",
+      "field": "dynamic",
+      "hunter_value": "R08",
+      "corrected_value": "R14",
+      "reason": "R08_CONTRAINTE_ECONOMIQUE requiert un coût chiffré présenté comme un frein ; aucun montant n'est cité dans le texte (cas de cessation d'activité sans dimension économique explicite) -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122024-04-3078193928500024f07",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122024-04-3078193928500024f08",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122024-04-3078193928500024f09",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122024-04-3078193928500024f10",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122024-04-3078193928500024f13",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122025-11-2578193928500024f02",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122025-11-2578193928500024f04",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122025-11-2578193928500024f05",
+      "field": "dynamic",
+      "hunter_value": "R08",
+      "corrected_value": "R14",
+      "reason": "R08_CONTRAINTE_ECONOMIQUE requiert un coût chiffré présenté comme un frein ; aucun montant n'est cité dans le texte (cas de cessation d'activité sans dimension économique explicite) -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122025-11-2578193928500024f06",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122025-11-2578193928500024f08",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122025-11-2578193928500024f09",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122025-11-2578193928500024f10",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "jean-luc-lacoste31019752025-06-1953880964100011f01",
+      "field": "dynamic",
+      "hunter_value": "R06",
+      "corrected_value": "R11",
+      "reason": "Attestations ATTES SECUR/ATTES MEMOIRE frauduleuses (usurpation d'identité commerciale) pouvant faire l'objet d'une procédure judiciaire -- signal clair de R11_PENAL. R06_VIDE_JURIDIQUE (dissolution/liquidation) ne correspond pas."
+    },
+    {
+      "slug": "jean-luc-lacoste31019752025-06-1953880964100011f02",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R10",
+      "reason": "L'exploitant affirme une réduction d'activité (324 kW, 17020 m2) que le contrôle terrain ne permet pas de constater -- conflit de données / diagnostic contesté = R10_TENSION. R05_VIDE_FACTUEL ne correspond pas (exploitant présent et actif lors du contrôle)."
+    },
+    {
+      "slug": "keenat1000363762024-01-3084895387300058f01",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "keenat1000363762025-02-1884895387300058f01",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "keenat1000363762025-02-1884895387300058f02",
+      "field": "dynamic",
+      "hunter_value": "R08",
+      "corrected_value": "R14",
+      "reason": "R08_CONTRAINTE_ECONOMIQUE requiert un coût chiffré présenté comme un frein ; aucun montant n'est cité dans le texte (cas de cessation d'activité sans dimension économique explicite) -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "keenat1000363762025-02-1884895387300058f03",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "keenat1000363762025-02-1884895387300058f04",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "keenat1000363762025-02-1884895387300058f05",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "keenat1000363762025-02-1884895387300058f06",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "keenat1000363762025-02-1884895387300058f07",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "keenat1000363762025-02-1884895387300058f08",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "keenat1000363762025-02-1884895387300058f09",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "keenat1000363762025-02-1884895387300058f10",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R11",
+      "reason": "Transfert transfrontalier de déchets dangereux sans notification ni consentement des autorités = délit (art L.541-46), PNTTD informé pour suites pénales -- signal clair de R11_PENAL, pas de R05_VIDE_FACTUEL."
+    },
+    {
+      "slug": "keenat1000363762025-08-0484895387300058f01",
+      "field": "dynamic",
+      "hunter_value": "R08",
+      "corrected_value": "R14",
+      "reason": "R08_CONTRAINTE_ECONOMIQUE requiert un coût chiffré présenté comme un frein ; aucun montant n'est cité dans le texte (cas de cessation d'activité sans dimension économique explicite) -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "koba-global-services31067952023-01-3041752507800131f01",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R07",
+      "reason": "Exploitant décrit une impossibilité technique explicite (logiciel Effitrace ne permet pas d'extraire la quantité totale de matières combustibles à un instant t) -- signal clair de R07_CONTRAINTE_TECHNIQUE, pas d'ignorance invoquée (R04 mal appliqué)."
+    },
+    {
+      "slug": "kubeko1000604492024-12-0390514677500010f02",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kuehne-nagel52081672023-01-0333358346601373f06",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kuehne-nagel52081672023-01-0333358346601373f08",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kuehne-nagel52081672024-06-2033358346601373f01",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kuehne-nagel52081672024-06-2033358346601373f04",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kuehne-nagel52081672024-06-2033358346601373f08",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kuehne-nagel52081672024-06-2033358346601373f09",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kuehne-nagel52081672024-06-2033358346601373f10",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kuehne-nagel52081672024-06-2033358346601373f11",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kuehne-nagel52081672024-06-2033358346601373f12",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f01",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f02",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f03",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f04",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f07",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f09",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f10",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f12",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f14",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f16",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f17",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f18",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f19",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f20",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f21",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f23",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f24",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f25",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092023-11-0780883153100062f03",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "kurita52051092023-11-0780883153100062f07",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "kurita52051092023-11-0780883153100062f11",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092023-11-0780883153100062f12",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092023-11-0780883153100062f13",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092024-07-1080883153100062f01",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092024-07-1080883153100062f03",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092024-07-1080883153100062f05",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092024-07-1080883153100062f06",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "kurita52051092024-07-1080883153100062f07",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "kurita52051092024-07-1080883153100062f08",
+      "field": "dynamic",
+      "hunter_value": "R08",
+      "corrected_value": "R14",
+      "reason": "R08_CONTRAINTE_ECONOMIQUE requiert un coût chiffré présenté comme un frein ; aucun montant n'est cité dans le texte (cas de cessation d'activité sans dimension économique explicite) -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "kurita52051092025-09-1780883153100062f01",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "kurita52051092025-09-1780883153100062f02",
+      "field": "dynamic",
+      "hunter_value": "R08",
+      "corrected_value": "R14",
+      "reason": "R08_CONTRAINTE_ECONOMIQUE requiert un coût chiffré présenté comme un frein ; aucun montant n'est cité dans le texte (cas de cessation d'activité sans dimension économique explicite) -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "l-electrolyse-sas52008692022-07-2846020064500022f01",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "l-electrolyse-sas52008692022-07-2846020064500022f02",
+      "field": "dynamic",
+      "hunter_value": "R05",
+      "corrected_value": "R14",
+      "reason": "R05_VIDE_FACTUEL ('exploitant physiquement absent') mal appliqué à une NC factuelle standard (souvent liée à une MED) sans que l'exploitant soit absent -- corrigé en R14_NEUTRE_NC (défaut taxonomique)."
+    },
+    {
+      "slug": "l-electrolyse-sas52008692022-07-2846020064500022f03",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "R04_MECONNAISSANCE ('exploitant invoque ignorance') mal appliqué à une NC factuelle sans dynamique relationnelle particulière -- R13/R14 est le défaut taxonomique et aucun signal d'ignorance invoquée n'est présent dans le texte. Corrigé en R14_NEUTRE_NC."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122023-03-2878193928500024f21",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré : aucun délai correctif chiffré n'est imposé par l'inspection dans le constats_body (seule une date de mise en service de ligne, annoncée par l'exploitant, y figure)."
+    },
+    {
+      "slug": "kuehne-nagel52081672024-06-2033358346601373f11",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "m_DELAI manquant : le texte impose explicitement un délai chiffré ('L'exploitant justifie... sous 1 mois') qui n'était pas reflété dans les modifiers."
+    },
+    {
+      "slug": "kubeko1000604492024-12-0390514677500010f01",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S01",
+      "reason": "S02_INJONCTION requiert une 'demande formelle avec délai' ; le texte ne comporte ni demande formelle ni délai (sensibilisation informelle des gérants / renvoi au pouvoir de police du maire). Corrigé en S01_CONSTAT."
+    },
+    {
+      "slug": "kubeko1000604492024-12-0390514677500010f02",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S01",
+      "reason": "S02_INJONCTION requiert une 'demande formelle avec délai' ; le texte ne comporte ni demande formelle ni délai (sensibilisation informelle des gérants / renvoi au pouvoir de police du maire). Corrigé en S01_CONSTAT."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122023-11-1678193928500024f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M17_CLASSIFICATION"
+      ],
+      "corrected_value": [
+        "M17_CLASSIFICATION",
+        "M09_PAC"
+      ],
+      "reason": "Mécanisme manquant : la NC porte avant tout sur l'absence de porter-à-connaissance préalable à l'installation de la chaudière (art 1.61 AP) -- M09_PAC, en plus de M17_CLASSIFICATION pour la détermination de rubrique."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08_CONFORMITE"
+      ],
+      "corrected_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "reason": "Faux M08 : le texte indique que 'la plupart' des contenants sont étiquetés mais que certains GRV (4-5) ont des étiquettes endommagées/illisibles -- NC résiduelle, pas une conformité constatée. Corrigé en M14_CONSTAT_TECHNIQUE."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f05",
+      "field": "dynamic",
+      "hunter_value": "R13",
+      "corrected_value": "R14",
+      "reason": "Dynamique corrigée en cohérence avec le retrait de M08_CONFORMITE (NC résiduelle et non conformité factuelle)."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f05",
+      "field": "gravity",
+      "hunter_value": "G1",
+      "corrected_value": "G2",
+      "reason": "NC résiduelle purement liée à un défaut d'étiquetage (formel/documentaire, sans dimension physique/fonctionnelle) -- G2 plutôt que G1."
+    },
+    {
+      "slug": "kurita52051092023-05-1680883153100062f11",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M17_CLASSIFICATION"
+      ],
+      "corrected_value": [
+        "M08_CONFORMITE"
+      ],
+      "reason": "M17_CLASSIFICATION sur-appliqué : le constat porte sur une zone de stockage non déclarée (obligation de porter-à-connaissance) dont la régularisation est actée et le point de MED explicitement levé ('Ce point de la mise en demeure du 19 juillet 2022 est levé') -- NC résolue, donc M08_CONFORMITE."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122023-11-1678193928500024f01",
+      "field": "trajectory",
+      "hunter_value": "T3",
+      "corrected_value": "T4",
+      "reason": "Trajectoire erronée : le texte référence explicitement la précédente inspection ('comme annoncé/précédemment indiqué suite à la précédente inspection') et décrit un retard persistant sans évolution -- ne peut être T1_PREMIER (aucun historique) ni T3_AMELIORATION (aucune amélioration constatée). Corrigé en T4_STAGNATION, cohérent avec le même constat encore taggé T4 lors de l'inspection suivante (2024-04-30)."
+    },
+    {
+      "slug": "jv-coating-ex-electrochrome52010122023-11-1678193928500024f04",
+      "field": "trajectory",
+      "hunter_value": "T3",
+      "corrected_value": "T4",
+      "reason": "Trajectoire erronée : le texte référence explicitement la précédente inspection ('comme annoncé/précédemment indiqué suite à la précédente inspection') et décrit un retard persistant sans évolution -- ne peut être T1_PREMIER (aucun historique) ni T3_AMELIORATION (aucune amélioration constatée). Corrigé en T4_STAGNATION, cohérent avec le même constat encore taggé T4 lors de l'inspection suivante (2024-04-30)."
+    }
+  ],
+  "false_positive_rate": 0.66,
+  "error_patterns": "Dominant systematic error (84/100 field corrections, 82 records): the dynamic (axis 3, R##) field is decoupled from the taxonomy's actual definitions across the whole batch. Hunter used R04_MECONNAISSANCE (52x), R05_VIDE_FACTUEL (22x), R08_CONTRAINTE_ECONOMIQUE (7x) and R06_VIDE_JURIDIQUE (2x) as informal buckets -- R04 for 'any documentary/factual NC', R05 for 'any NC on a MED track or severe technical NC', R08 for 'any cessation-related fiche', R06 for 'anything involving cessation or fraud' -- rather than their narrow literal meanings (invoked ignorance, exploitant physically absent, a cited quantified cost as a blocker, dissolution/liquidation). Verified against corpus text for 36+ records spanning every company in the batch: virtually none of the R04/R05/R08 cases show the exploitant invoking ignorance or being absent, and none of the R08 cases cite a quantified cost. Per the taxonomy, R13/R14 is the default and R01-R12 should only be assigned on a clear signal; corrected the great majority to R14_NEUTRE_NC. A handful of these mistagged records did carry a genuine specific signal buried under the wrong code: one R07_CONTRAINTE_TECHNIQUE (software cannot report real-time stock), one R09_BLOCAGE_TIERS (fence removed by a neighbour, not the exploitant), one R10_TENSION (exploitant claims reduced activity, field inspection contradicts it), two R11_PENAL (fraudulent site-safety attestations / undeclared cross-border waste transfer, both explicitly flagged for penal follow-up), and one R02_PROMESSE (exploitant commits to a future, unverified installation date). Secondary patterns: (a) S02_INJONCTION applied to two records with no formal delay-bound demand in the text (one pure awareness-raising, one a referral to the mayor's police powers) -- corrected to S01_CONSTAT; conversely found one record with an explicit numeric deadline ('sous 1 mois') missing the m_DELAI modifier, and one record with m_DELAI applied to a self-announced commissioning date rather than an inspector-imposed deadline, so it was removed. (b) The R10_TENSION-oversuse pattern flagged for this audit was not found -- R10 was not used at all by Hunter in this batch; instead one genuine R10 case was found mislabeled as R05. (c) Isolated content errors caught by corpus re-read: one invented code (M04_MED, corrected to M04_MISE_EN_DEMEURE, 6 occurrences), one false M08 (partial label conformity presented as full conformity, Hunter's own reasoning said 'NC mineure'), one over-aggressive M17 where the fiche was really a resolved PAC-driven NC (M08), one missed multi-label M09_PAC (chaudière installed without prior porter-à-connaissance), and two wrong-trajectory records (T1/T3 despite explicit references to the previous inspection and zero improvement, corrected to T4_STAGNATION for consistency with the same NC's T4 tag in the following inspection cycle).",
+  "verdict": "Domains, mechanisms (apart from the M04_MED typo and 2 mislabeled records), stage, actor, and gravity are solid -- multi-label on axis 1/2 is used correctly and the M08-first / M14-second heuristic is applied faithfully. However axis 3 (dynamic) is systematically unreliable in this batch: Hunter substituted its own informal 'severity/theme' shorthand for the taxonomy's actual R-code definitions, producing a 66% record-level correction rate once the corpus is checked. Every fiche in the batch needed its dynamic field re-derived from the taxonomy definitions rather than trusted at face value. final-41.json applies the correction batch-wide (not just to the sampled/re-read subset) because the misuse pattern was confirmed consistently across every company and date range sampled (jv-coating, jean-luc-lacoste, keenat, koba, kubeko, kuehne-nagel, kurita, l-electrolyse). Recommend flagging this as a prompt-level issue for future Hunter batches: the R13/R14-default rule needs to be reinforced, ideally with the R04/R05/R08 definitions restated verbatim next to a negative example ('does NOT mean: any factual NC / any NC on a MED track / any cessation-related fiche')."
+}

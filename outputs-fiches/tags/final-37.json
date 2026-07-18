@@ -1,0 +1,2440 @@
+[
+  {
+    "slug": "greece-9352086862025-03-2097865076000025f08",
+    "domains": [
+      "D11",
+      "D07"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence physique constatée de dispositif de protection contre les heurts sur les appareils de distribution d'une station service — NC technique directe terrain. G3 car dispositif physique absent avec risque pollution associé."
+  },
+  {
+    "slug": "greece-9352086862025-03-2097865076000025f09",
+    "domains": [
+      "D06"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Non-réalisation du diagnostic de pollution imposé par AP du 22/02/2024. MED proposée + NC technique (diagnostic non réalisé malgré obligation). G4 car MED proposée + NC avérée pollution sols."
+  },
+  {
+    "slug": "greece-9352086862025-03-2097865076000025f10",
+    "domains": [
+      "D06"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Suite directe du constat f09 — diagnostic non réalisé bloque l'évaluation de compatibilité milieu. MED proposée. G4 par continuité avec f09."
+  },
+  {
+    "slug": "greece-9352086862025-03-2097865076000025f11",
+    "domains": [
+      "D06"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Point non contrôlable faute de diagnostic de pollution (cf point précédent). Plan de gestion conditionnel à réaliser. G3 car blocage technique découlant d'une NC amont."
+  },
+  {
+    "slug": "greece-9352086862025-03-2097865076000025f12",
+    "domains": [
+      "D04",
+      "D07"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04",
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Flottant hydrocarbures 5 cm + teneurs benzène très supérieures à VG (9100 µg/L vs 1 µg/L) + fréquence semestrielle non respectée. MED proposée. G4 : pollution active mesurée avec dépassements VLE + MED. (Skeptic: stade S02→S05 (MED proposée au préfet = escalade, action dominante du constat).)"
+  },
+  {
+    "slug": "green-pressing-dlt1002859702025-02-1880006309100030f01",
+    "domains": [
+      "D13",
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M19",
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pressing sans activité nettoyage à sec — obligation de cessation pour l'exploitant précédent (R512-75-1). NC administrative/procédurale sur cessation. G2 car purement documentaire/administrative, aucune dimension physique active. Sous-tag: pressing."
+  },
+  {
+    "slug": "green-pressing-dlt1002859702025-02-1880006309100030f02",
+    "domains": [
+      "D13",
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M19",
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de déclaration de changement d'exploitant pour Monsieur et Madame MECIF. Obligation de déclarer cessation incombe au dernier exploitant rubrique 2345-2. NC purement administrative."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f01",
+    "domains": [
+      "D04",
+      "D09"
+    ],
+    "mechanisms": [
+      "M09",
+      "M10",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "PAC déposé mais incomplet: exutoire eaux polluées non identifié, compatibilité rejets non vérifiée, récolement AM absent. Disposition partiellement respectée. Cautionnement présent mais limité. G3 car NC technique sur identification rejets aqueux. T2 suivi d'APMD 2021."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f02",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Réserve d'eau 180m³ non mise en place malgré APMD 2021 — exploitant attendait retour inspection. MED active + NC physique. Devis fournis a posteriori. G4: MED active non levée + NC technique concomitante. T4: même constat que 2021."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f03",
+    "domains": [
+      "D01",
+      "D11"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Poteau incendie à 140m connu mais personnel non informé. NC de connaissance/formation. R04 car exploitant invoque méconnaissance (personnel ne savait pas). G3 car lacune sur dispositif sécurité incendie. (Skeptic: domaine D11 ajouté (formation), stade S01→S02 (délai numérique manqué), gravité G3→G2 (pas de dimension physique, dispositif présent et conforme).)"
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f04",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Commandes désenfumage endommagées signalées dans PAC mais réparation non justifiée. Inspection demande contrôle externe. G3 car équipement désenfumage potentiellement non fonctionnel. T4: PAC indique problème connu, pas de justificatif de correction."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f05",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PAC prévoit détection optique de fumée mais devis signé absent pour ce système. Caméras thermiques: devis OK. Détection optique manquante. G3 car dispositif de détection incendie non commandé."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f06",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Validation SDIS de la défense incendie non justifiée. Exploitant indique avoir pris contact post-inspection. G3 car absence de validation SDIS de la défense incendie. (Skeptic: stade S01→S02 (délai numérique \"sous 1 mois\" manqué).)"
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f07",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "4 RIA présents mais inaccessibles car derrière légioblocks. NC physique directement observée. G3 car équipements de lutte incendie physiquement inaccessibles."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f08",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle extincteurs/RIA réalisé tardivement, rapport mentionne plusieurs NC. Devis remise en conformité en cours. G3 car contrôle tardif + NC matérielles dans rapport. (Skeptic: stade S01→S02 (délai numérique \"sous 2 mois\" manqué).)"
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f09",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Cases identifiées mais hauteur tas dépasse légioblocks + T béton rajoutés à proscrire. NC physique sur dispositifs coupe-feu. G3 car dépassement hauteur murs coupe-feu. T2: suivi constat 2021 sur murs coupe-feu."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f10",
+    "domains": [
+      "D01",
+      "D11"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Voies de circulation toujours non dégagées — camions bloquant accès et sorties de secours. APMD 2021 non respecté. Exploitant invoque justification (éviter siphonage). G4: MED active + voies engins pompiers bloquées = NC technique majeure. T4: constat identique à 2021."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f11",
+    "domains": [
+      "D01",
+      "D11"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Formation incendie annuelle: dernière en 08/2021, aucune en 2022. NC documentaire/organisationnelle sur formation périodique. G2 car NC purement documentaire. T4: constat similaire."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f12",
+    "domains": [
+      "D07",
+      "D04"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Aucun bassin de confinement présent — APMD 2021 non respecté. Exploitant attendait retour inspection. Bon de commande demandé sous 3 mois. G4: MED active + absence totale de rétention. T4: même constat."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f13",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Collecte séparative des eaux toujours non justifiée. NC persistante. G3 car NC technique sur réseau séparatif eaux. T4: toujours pas justifié (constat 2021 maintenu)."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f14",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [],
+    "dynamic": "R12",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fréquence trimestrielle analyses non respectée mais demande enregistrement en cours (APC). Inspection ne propose pas sanctions. R12: souplesse inspection (mesure compensatoire acceptée). G2: NC fréquence purement formelle."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f15",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Origine HAP non identifiée mais analyses récentes conformes (15/11/2022 sans dépassement). Point MED levé. Conformité constatée. G1 car levée de constat. T3: amélioration."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f16",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Résultats analyses dans GIDAF. Point MED levé. Conformité."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f17",
+    "domains": [
+      "D04",
+      "D07"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vanne d'obturation et 2 réseaux distincts non localisés/montrés sur site. Personne n'a pu montrer l'existence physique de la vanne. NC technique sur confinement incendie. G3 car dispositif critique de confinement non démontré opérationnel."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f18",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Aucun endroit non clôturé constaté. Point MED levé. Conformité."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f19",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Travaux faits, eau stagnante absente, bitume réparé — point MED peut être levé. Mais bardage détérioré signalé + justificatif travaux demandé. G2 car résidu NC mineure (bardage détérioré, documentation justificatif). T3: amélioration principale."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f20",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Gros travail nettoyage réalisé. Point MED peut être levé."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f21",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Étude de bruit non réalisée malgré plainte reçue le 10/11/2021. G3 car mesure non réalisée sur point technique avec plainte avérée."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f22",
+    "domains": [
+      "D05",
+      "D08"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T7",
+    "confidence": "high",
+    "reasoning": "Odeurs nauséabondes constatées (poissons en décomposition). Plainte 10/11/2021 — problème persiste depuis plus d'un an. G3 car NC technique sensorielle avec plainte. T7: persistance > 1 an."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f23",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Limites de propriété dégagées, exemptes de déchets. Point MED levé."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f24",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Flux déchetterie professionnelle/reste activité non séparés contrairement au PAC. NC physique constatée sur organisation des flux."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f25",
+    "domains": [
+      "D08",
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cases stockage non conformes au PAC. Déchets plastiques bloquant accès à un RIA. NC physique double (stockage + accessibilité RIA)."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f26",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Liste codes déchets manquante dans PAC. Mise à jour documentaire requise. G2 car NC purement documentaire."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f27",
+    "domains": [
+      "D08",
+      "D07"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R12",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pots de peinture (DDs) stockés au milieu du bâtiment sans bac étanche ni local produits chimiques. Activité non autorisée mais inspection ne propose pas sanctions (R12 souplesse). G3 car stockage DD sans rétention."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f28",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01",
+      "M11",
+      "M05"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registres incomplets + codes traitement erronés (R1 au lieu de D pour ISDND). Fraude TGAP potentielle. PV transmis Procureure. G4: délit pénal mentionné + PV. M11 car signalement incident pénal."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f29",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01",
+      "M05"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Transferts transfrontaliers déchets vers Espagne sans documents requis (Annexe VII, contrat). Délit pénal potentiel signalé à Procureure. G4 car PV/délit pénal potentiel."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152022-11-1030812809900022f30",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Attestations 7 flux annuelles non délivrées. NC documentaire sur attestation valorisation déchets papier/métal/plastique."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f01",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M03"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Absence de compte Trackdéchets identifié sur SIRET — panne informatique empêche vérification sur site. Exploitant affirme avoir compte. Justificatifs demandés sous 15 jours + menace MED. G2 NC documentaire/reporting. T4: constat similaire 2022."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f02",
+    "domains": [
+      "D07",
+      "D04"
+    ],
+    "mechanisms": [
+      "M14",
+      "M05",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Travaux confinement EI en cours mais barrières amovibles toujours absentes + bordures incomplètes. APMD non respecté — amende 500€ proposée + information Procureur. G4: MED + NC technique. T4: stagnation depuis 2021."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f03",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Désenfumage: lanterneaux présents mais rapport de vérification non transmis (panne informatique). Commandes endommagées non confirmées réparées. Justificatifs demandés. G3 car fonctionnalité désenfumage non démontrée. T4: constat 2022 non soldé."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f04",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Caméras thermiques installées depuis 12/2022, connectées alarme. Report visuel constaté. Mais contrat entretien périodique non encore souscrit (à venir). R02: exploitant s'engage à souscrire contrat. G2 car lacune documentaire/contractuelle mineure. T3: amélioration depuis 2022."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f05",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "RIA déplacés dans zones accessibles. Essai conclusif réalisé à la demande de l'inspecteur. Constat levé."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f06",
+    "domains": [
+      "D01",
+      "D11"
+    ],
+    "mechanisms": [
+      "M14",
+      "M05",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "3 allées sur 4 dégagées mais zone entre bureaux et bâtiment obstruée par bennes. APMD 2021 non respecté. Amende 5000€ + information Procureur. G4: MED + NC physique voies engins. T4: constat 2022 maintenu."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f07",
+    "domains": [
+      "D08",
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Sensibilisation chauffeurs réalisée, arrivages de bennes contaminées désormais épisodiques. Aucune odeur ni déchet alimentaire constaté. Correction spontanée (R01). T3 amélioration."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f08",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plan récolement + attestation conformité réseaux EP/EU fournis. Éléments n'appellent pas de commentaires. Constat 2022 soldé."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f09",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Séparation flux déchetterie/tri toujours non effective. Affichages non installés. En cours selon exploitant. Menace MED. G3 car NC physique sur organisation flux. T4: constat 2022 non soldé."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f10",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Code traitement corrigé de R1 à D1 dans logiciel. Inspection prend acte. Constat 2022 soldé."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f11",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "TTD vers Espagne: annexes VII et contrats présentés mais codes déchets incohérents, cases non remplies, doutes sur valorisation vs élimination. Accès registre impossible (panne). Justificatifs demandés. G3 car NC documentaire avec dimension pénale potentielle. T4: constat 2022 non soldé."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f12",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Procédure interne 7 flux mise en place 02/2023. Demandes envoyées aux exutoires. Responsables sensibilisés. Constat 2022 soldé."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f13",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M05",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Murs coupe-feu alvéoles <3m et stocks dépassant hauteur murs. NC persistante depuis plusieurs années. Amende 5000€ + information Procureur. Non-conformité de nature à favoriser propagation incendie. G4: MED + NC physique majeure. T4: APMD 2021 non respecté."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f14",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Essai simultané PI non réalisé, réserve 180m³ installée mais contrôle annuel non calé. APMD proposé pour défense incendie. G4: MED proposée + défense incendie incomplète. T4: essai demandé 2022 toujours non fait."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f15",
+    "domains": [
+      "D01",
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Exploitant refuse batteries usagées. Aucune batterie usagée constatée. Conformité sur ce point."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f16",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "État des stocks non consultable (panne informatique). Justificatifs demandés sous 15 jours + menace MED. G2 car NC documentaire (état des stocks non disponible à l'inspection)."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f17",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun déchet interdit constaté lors de la visite terrain."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f18",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan réseaux aqueux non conforme — vanne de confinement manuelle non représentée. Mise à jour plan demandée sous 3 mois. G2 NC documentaire (plan incomplet)."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f19",
+    "domains": [
+      "D04",
+      "D07"
+    ],
+    "mechanisms": [
+      "M07",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Séparateur HC non curé annuellement (exploitant l'admet). APMD proposé. G3 car entretien obligatoire non réalisé sur équipement anti-pollution."
+  },
+  {
+    "slug": "green-recup-33-ex-larroude52073152023-11-0930812809900022f20",
+    "domains": [
+      "D04",
+      "D07"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vanne confinement EI: accès difficile, aucun panneau, aucun essai fonctionnement, fortement corrodée, position fermée avec filet d'eau (non étanche). APMD proposé. G4: MED + équipement corrodé et non étanche = risque pollution avéré."
+  },
+  {
+    "slug": "grelier-fils52078192023-02-2338441797800010f01",
+    "domains": [
+      "D11",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Panneaux accès chantier en place. Conformité. Sous-tag: carrieres."
+  },
+  {
+    "slug": "grelier-fils52078192023-02-2338441797800010f02",
+    "domains": [
+      "D11",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Clôture en place sur tout périmètre incluant parcelles extension. Signalétique risques en place. Conformité."
+  },
+  {
+    "slug": "grelier-fils52078192023-02-2338441797800010f03",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M10"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Acte de cautionnement GROUPAMA remis lors inspection. Conformité garanties financières."
+  },
+  {
+    "slug": "grelier-fils52078192023-02-2338441797800010f04",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déclaration GEREP effectuée, production 6530m³ (~11kt) conforme plafond 30kt. N'appelle pas de commentaire."
+  },
+  {
+    "slug": "grelier-fils52078192023-02-2338441797800010f05",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Puissance exploitée limitée par longueur pelle hydraulique (3m). Profondeur minimale +4,43m NGF respectée. Conformité."
+  },
+  {
+    "slug": "grelier-fils52078192023-02-2338441797800010f06",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plans derniers datent 2016/2020 — pas de version récente avec cotes et courbes de niveau. NC documentaire sur plan carrière. G2 NC purement documentaire (plan non mis à jour annuellement)."
+  },
+  {
+    "slug": "grelier-fils52078192023-02-2338441797800010f07",
+    "domains": [
+      "D04",
+      "D15"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dernières analyses eau datent de 12/2019 pour fossé et plan d'eau. Fréquence annuelle non respectée. G3 car mesure non réalisée sur suivi eau milieu naturel."
+  },
+  {
+    "slug": "grelier-fils52078192023-02-2338441797800010f08",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Remise en état à l'avancée réalisée. Berges travaillées, remblaiement en place, aménagement secours. Déversoir reporté avec travaux extension — prévu dans projet AP. Conformité globale."
+  },
+  {
+    "slug": "grelier-fils52078192025-11-2138441797800010f01",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M10"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Acte de cautionnement 58 586€ valable jusqu'en 05/2028 — correspond exactement à la 1ère période quinquennale. Conformité."
+  },
+  {
+    "slug": "grelier-fils52078192025-11-2138441797800010f02",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan d'état des lieux daté 11/2024 mais insuffisant — 26 points seulement, pas les éléments fixes requis. Nouveau relevé complet demandé sous 2 mois. G2 NC documentaire (plan incomplet)."
+  },
+  {
+    "slug": "grelier-fils52078192025-11-2138441797800010f03",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Extraction démarrée par pointe Sud-Ouest conforme au plan phasage. Surface décapée = phase 1 uniquement. Merlons créés. Production 14kt conforme à la moyenne prévue. Conformité."
+  },
+  {
+    "slug": "grelier-fils52078192025-11-2138441797800010f04",
+    "domains": [
+      "D11",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Accès carrière par chemin perpendiculaire RD254, panneaux danger sortie camions en place. Conformité accès."
+  },
+  {
+    "slug": "grelier-fils52078192025-11-2138441797800010f05",
+    "domains": [
+      "D11",
+      "D04",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Clôture en bon état sur bords Sud/Ouest/Est. Bornes zone humide présentes. Piézomètres en bon état (capuchon cadenassé). Suivi écologique compensation remis. Conformité globale."
+  },
+  {
+    "slug": "grelier-fils52078192025-11-2138441797800010f06",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan exploitation ne permet pas d'apprécier respect distances 50m (habitation Gayot) ni 10m (bords de fouille). Mesure approximative inspection sur vue aérienne suggère conformité. Justificatifs via plan mis à jour demandés. G2 NC documentaire (plan insuffisant). Point jugé conforme mais documentation manquante."
+  },
+  {
+    "slug": "grelier-fils52078192025-11-2138441797800010f07",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Merlons en place (1m Ouest, 2m Nord). Végétation reprise sur quasi-totalité. Extrémité Est récemment ajoutée encore en terre. Conformité."
+  },
+  {
+    "slug": "grelier-fils52078192025-11-2138441797800010f08",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Extraction sur plateforme stabilisée. Extraction à pelle hydraulique sans rabattement de nappe confirmé. Berges pas encore remises en état (activité précoce). Conformité aux modalités d'exploitation."
+  },
+  {
+    "slug": "grelier-fils52078192025-11-2138441797800010f09",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Cote minimale plan exploitation 5,61m NGF respecte le seuil +4,5m NGF. Épaisseur maximale extraction respectée. Conformité."
+  },
+  {
+    "slug": "grelier-fils52078192025-11-2138441797800010f10",
+    "domains": [
+      "D04",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Eaux météoriques s'infiltrent ou ruissellent vers plan d'eau. Plateforme en grave. Conformité."
+  },
+  {
+    "slug": "grelier-fils52078192025-11-2138441797800010f11",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre manuscrit évacuations remis — date, tonnage jour, tonnage cumulé. Plus précis qu'exigé (nombre camions). Conformité."
+  },
+  {
+    "slug": "grelier-fils52078192025-11-2138441797800010f12",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun remblaiement à ce jour (activité précoce). Terres découverte suffisantes pour phase 1. Conformité."
+  },
+  {
+    "slug": "grelier-fils52078192025-11-2138441797800010f13",
+    "domains": [
+      "D04",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08",
+      "M02"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport suivi annuel 08/2025 remis. Relevés 06/2025 et 11/2025 valident fréquence semestrielle. Graphique évolution nappe inclus. Niveaux sans remarque. NC mineure sur dates (pas hautes/basses eaux franches) mais point jugé conforme. Observation formulée."
+  },
+  {
+    "slug": "grelier-fils52078192025-11-2138441797800010f14",
+    "domains": [
+      "D04",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14",
+      "M02"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "MES très élevées en aval (1100 mg/L vs seuil 25 mg/L). Impact fort carrière suspecté sur MES. Incohérence profondeurs piézomètres (nappes différentes possibles). Exploitant doit se rapprocher BET. G3 car impact caractérisé sur qualité nappe non expliqué. (Skeptic: modificateur m_DELAI retiré (aucun délai chiffré dans la demande).)"
+  },
+  {
+    "slug": "grelier-fils52078192025-11-2138441797800010f15",
+    "domains": [
+      "D05",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Étude bruit 07/2025 remise (< 1 an après mise en service). Émergence habitations proches: 1 dB max. Conformité."
+  },
+  {
+    "slug": "grelier-fils52078192025-11-2138441797800010f16",
+    "domains": [
+      "D12",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "GEREP 2024 déclaré (1,7kt conforme au registre de sortie). Production 2025 ~14kt en cours. Conformité."
+  },
+  {
+    "slug": "grelier-fils52078192025-11-2138441797800010f17",
+    "domains": [
+      "D09",
+      "D15"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Premier rapport suivi écologique mesure compensation 11/2025 remis. Inspection transmet au Service Eau et Nature DDTM33. Rapport indique certains aménagements (mare) non présents — DDTM33 compétente. G2 car lacune mineure (aménagement compensation manquant). M07 car suivi écologique = vérification périodique. (Skeptic: mécanisme M14 ajouté (aménagement physiquement absent), gravité G2→G3, stade S03→S01, dynamique R13→R14 (incohérent avec une NC notée).)"
+  },
+  {
+    "slug": "grenier-alain-isdi31010362023-02-0238497478800018f01",
+    "domains": [
+      "D13",
+      "D06"
+    ],
+    "mechanisms": [
+      "M19",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T7",
+    "confidence": "high",
+    "reasoning": "Cessation activité ISDI depuis 2019 mais dossier cessation incomplet. Pollution avérée dans remblais (50% sondages non inertes). Qualité eaux souterraines non évaluée. ATTES-SECUR et ATTES-MEMOIRE non transmis. SUP proposée. G4: pollution avérée + procédure cessation bloquée + MED. T7: inaction depuis 2019 = >3 ans."
+  },
+  {
+    "slug": "grenier-alain-isdi31010362023-02-0238497478800018f02",
+    "domains": [
+      "D13"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Activités de dépôt cessées. Aucun apport de déchets constaté pendant inspection. Conformité sur point activité."
+  },
+  {
+    "slug": "gres-medocains-ancien-barraud52037132022-09-2230533140700018f01",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Extraction 2021: 135t, sous le plafond 2000t. Exploitation phase 1 uniquement. Conformité tonnage. Sous-tag: carrieres."
+  },
+  {
+    "slug": "gres-medocains-ancien-barraud52037132022-09-2230533140700018f02",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bornes délimitant périmètre constatées sur bordure Est. Conformité."
+  },
+  {
+    "slug": "gres-medocains-ancien-barraud52037132022-09-2230533140700018f03",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Stériles déposés dans plan d'eau en exploitation (au lieu d'être stockés séparément). Fond de fouille avec aspérités du fait de cette pratique. Remise en état à améliorer lors prochaine campagne. G3 car NC physique sur gestion décapage/stériles avec impact fond fouille."
+  },
+  {
+    "slug": "gres-medocains-ancien-barraud52037132022-09-2230533140700018f04",
+    "domains": [
+      "D04",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Niveau eau bas en 2022, pompage en juillet réalisé avec rejet dans même plan d'eau sans retour. Années à plus fort débit: pompage vers plan d'eau non exploité. Modalités conformes à l'AP."
+  },
+  {
+    "slug": "gres-medocains-ancien-barraud52037132022-09-2230533140700018f05",
+    "domains": [
+      "D04",
+      "D15"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant non certain de la présence du bassin de décantation. Eaux de surverse semblent dirigées vers fossé communal au Sud. Inspection demande vérification et justificatifs fossés. G3 car dispositif anti-pollution (bassin décantation) d'existence incertaine."
+  },
+  {
+    "slug": "gres-medocains-ancien-barraud52037132022-09-2230533140700018f06",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Puissance exploitée limitée à la capacité de la pelle hydraulique, respecte limite 3,5m. Conformité."
+  },
+  {
+    "slug": "gres-medocains-ancien-barraud52037132022-09-2230533140700018f07",
+    "domains": [
+      "D15"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan du site non mis à jour (dernière version 06/2015). Ne montre pas clairement zones déjà exploitées ni limite de fouille. Plan mis à jour demandé sous 15 jours. G2 NC documentaire (plan non à jour)."
+  },
+  {
+    "slug": "gres-medocains-ancien-barraud52037132022-09-2230533140700018f08",
+    "domains": [
+      "D11",
+      "D15"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Accès fermés par clôtures (sauf zone exploitation). Remise en place après inspection + pancartes signalisation confirmées. Conformité."
+  },
+  {
+    "slug": "grife-joue-club-ex-gemfi-sas31032272022-11-1533975372500037f01",
+    "domains": [
+      "D07",
+      "D04"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Fissures traversantes, effondrements tuyauteries enterrées (inspection télévisuelle 09/2022). Pas de planning de correction. Aucune mesure compensatoire. Devis 70k€ sans suite. APMD proposé. G4: MED + NC technique majeure (réseau confinement EI non étanche). T4: écarts connus depuis 09/2021."
+  },
+  {
+    "slug": "grife-joue-club-ex-gemfi-sas31032272022-11-1533975372500037f02",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M01",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "PDI non complet (AM 1510), non disponible sur site, personnel non formé. APMD proposé. G4: MED + lacune critique plan défense incendie. T4: constat inspection précédente non levé."
+  },
+  {
+    "slug": "grife-joue-club-ex-gemfi-sas31032272022-11-1533975372500037f03",
+    "domains": [
+      "D07"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contrat OSIS 28/01/2022 prévoit vérification annuelle bon fonctionnement arrêts d'urgence. Constat précédent soldé. R01 correction spontanée. T3 amélioration."
+  },
+  {
+    "slug": "grife-joue-club-ex-gemfi-sas31032272022-11-1533975372500037f04",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Essai simultané PI + colonnes sèches 08/04/2022 — débit 90m³/h par colonne, satisfait exigence ≥60m³/h. Fuite résorbée. Constat précédent levé."
+  },
+  {
+    "slug": "grife-joue-club-ex-gemfi-sas31032272022-11-1533975372500037f05",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Motopompe diesel remplacée 09/2022 mais PV attestant du bon fonctionnement non encore transmis à Bureau Véritas. NC résiduelle sur documentation contrôle motopompe critique. G3 car équipement critique de lutte incendie sans attestation complète. T3: sprinklage HS levé, mais attestation manquante."
+  },
+  {
+    "slug": "grife-joue-club-ex-gemfi-sas31032272022-11-1533975372500037f06",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Protection foudre: vérification visuelle 09/2022 conforme sauf prise de terre peu accessible (en cours de levée). NC initiale levée par travaux. Protections foudre local sprinklage non requises par norme. R01. T3 amélioration."
+  },
+  {
+    "slug": "grife-joue-club-ex-gemfi-sas31032272022-11-1533975372500037f07",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Désenfumage: rapport 14/10/2022 bon état général MAIS température déclenchement automatique non détaillée. Doute sur asservissement désenfumage vs sprinklage. Contrôle conformité demandé. G3 car dispositif incendie sans attestation de conformité sur point technique."
+  },
+  {
+    "slug": "grife-joue-club-ex-gemfi-sas31032272022-11-1533975372500037f08",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registre contrôles hebdomadaires confirme pression 10 bar. Manomètre réseau sprinklage contrôlé: pression légèrement supérieure à 10 bar. Conformité."
+  },
+  {
+    "slug": "grife-joue-club-ex-gemfi-sas31032272023-02-2833975372500037f01",
+    "domains": [
+      "D07",
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contrôle inopiné 28/02/2023: dispositifs physiques obturant réseaux EP quais cellules 3 et 4 en place et intègres. Mesures conservatoires APMD respectées. R01 mise en place spontanée. T3 amélioration."
+  },
+  {
+    "slug": "grife-joue-club-ex-gemfi-sas31032272025-05-2033975372500037f01",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "PDI v4 03/2025 — points MED 12/2022 sur PDI levés. Personnel formé, PDI disponible. Mais: essai annuel débit simultané PI/colonnes sèches non transmis + manche à air arrachée. G2 NC documentaire/technique mineure résiduelle. T3: amélioration majeure depuis MED."
+  },
+  {
+    "slug": "grife-joue-club-ex-gemfi-sas31032272025-05-2033975372500037f02",
+    "domains": [
+      "D07",
+      "D04"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Points MED 12/2022 sur confinement EI levés (travaux réparation réseau 03/2024, inspection vidéo 01/2023). Mais: inspection télévisuelle annuelle non justifiée + fond bassin déformé (remontée nappe). G2 NC résiduelle mineure (documentation contrôle annuel manquante + déformation bassin à surveiller). T3: amélioration."
+  },
+  {
+    "slug": "groupe-bernard-sa52005952023-05-0945820299100022f01",
+    "domains": [
+      "D01",
+      "D07"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Muret périphérique mis en place pour diriger écoulements chai A vers regard EP. Constat 2022 levé. R01 solution passive installée. (Skeptic: domaine D01 ajouté (confinement des eaux d'extinction incendie).)"
+  },
+  {
+    "slug": "groupe-bernard-sa52005952023-05-0945820299100022f02",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "3 extincteurs remplacés (rapport DESAUTEL 08/2022). Constat levé."
+  },
+  {
+    "slug": "groupe-bernard-sa52005952023-05-0945820299100022f03",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Vérification complète foudre 04/2023: 8 défectuosités dont une signalée 06/2022 non levée. Délai 1 mois écoulé sans remise en conformité. APMD proposé 3 mois. R02 exploitant s'engage à lever dans prochaines semaines/année. G4: MED + NC foudre persistante. T4: défectuosité 2022 toujours non levée."
+  },
+  {
+    "slug": "groupe-bernard-sa52005952023-05-0945820299100022f04",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08",
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R10",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Étude CNPP 11/2022 démontre que flux thermiques restent à l'intérieur des chais malgré ouvertures. Mur E/G RF 2h inférieur à REI240 mais modélisations confirment effets irréversibles contenus dans limites propriété. Prescription sera corrigée par AP. R10 tension sur interprétation technique. G2 NC documentaire résolue par étude. Constat soldé avec note sur adaptation prescription. (Skeptic: mécanisme M09_PAC ajouté (modification d'arrêté préfectoral annoncée) — label manquant, reste du enregistrement inchangé.)"
+  },
+  {
+    "slug": "groupe-bernard-sa52005952023-05-0945820299100022f05",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Attestation Bureau Veritas 2019 sur Sobovi/Millésima, mais extensions non confirmées incluses dans l'étude. Exploitant doit justifier sous 15 jours. G3 car NC potentielle sur dispositions constructives RF extensions non démontrée."
+  },
+  {
+    "slug": "groupe-bernard-sa52005952023-05-0945820299100022f06",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de bande incombustible 5m sur toiture Grand Chai côté mur séparatif Millésima. NC physique directement observée. APMD 4 mois proposé. G4: MED + NC physique constructive sur dispositif anti-propagation incendie."
+  },
+  {
+    "slug": "groupe-bernard-sa52005952023-05-0945820299100022f07",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bande protectrice Sobovi/extension: récolement CNPP dit OK mais exploitant doit justifier sous 15 jours la présence effective. Point conditionnel. G3 car NC potentielle sur dispositif anti-propagation incendie. (Skeptic: mécanisme M14→M01 (justification documentaire en attente, pas de défaut physique confirmé), modificateur m_MENACE ajouté (menace conditionnelle de MED).)"
+  },
+  {
+    "slug": "groupe-bernard-sa52005952023-05-0945820299100022f08",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "État des stocks tenu sur tableur — quantités conformes, accessible aux dirigeants. Mais localisation serveur hors bâtiments potentiellement sinistrés non précisée. G3 car disponibilité état des stocks en cas d'incendie non garantie. (Skeptic: mécanisme M14→M01 (question de robustesse documentaire, pas de NC physique), modificateur m_DELAI retiré, stade S02→S01.)"
+  },
+  {
+    "slug": "groupe-bernard-sa52005952023-05-0945820299100022f09",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S05",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Distance stockage/sprinklage cellule S: 45 cm au lieu de 1m requis. APMD 4 mois proposé. G4: MED + NC physique sur distance critique sprinklage/stockage."
+  },
+  {
+    "slug": "groupe-bernard-sa52005952023-05-0945820299100022f10",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Quantités stockées par bâtiment vérifiées — toutes conformes aux quantités maximales de l'AP."
+  },
+  {
+    "slug": "groupe-bernard-sa52005952023-05-0945820299100022f11",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Types de stockage (racks vs masse) non conformes à l'AP dans plusieurs chais. Modélisations incendie basées sur l'organisation contractuelle. PAC nécessaire. G3 car modification organisation stockage sans validation administrative — impact sur modélisations incendie."
+  },
+  {
+    "slug": "groupe-bernard-sa52005952023-05-0945820299100022f12",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport entretien GMP diesel 01/2023 conforme. Rapport contrôle sprinklage NFPA13 08/2022: 1 NC corrigée confirmée sur site. Conformité."
+  },
+  {
+    "slug": "groupe-bernard-sa52005952023-05-0945820299100022f13",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Désenfumage extensions Millésima/Sobovi: thermodéclencheur 93°C, sprinklage 74°C — ordre correct. Rapport contrôle DESAUTEL 10/2022 bon état. Conformité."
+  },
+  {
+    "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f01",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Clôture sur toute la périphérie. Conformité."
+  },
+  {
+    "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f02",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Accès constamment surveillés, POI documente interventions hors heures. Observation: préciser autonomie batteries et fonctionnement GSM. Conformité principale, demande d'observation. (Skeptic: modificateur m_DELAI retiré (aucun délai chiffré dans le texte).)"
+  },
+  {
+    "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f03",
+    "domains": [
+      "D11"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R02",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Nouvelles caméras surveillance prévues pour améliorer couverture zones sensibles. En cas coupure électrique: appel astreinte. R02 exploitant s'engage à améliorer. G2 NC mineure sur couverture caméras. (Skeptic: trajectoire T3→T1 (promesse future, pas encore réalisée), stade S03→S01.)"
+  },
+  {
+    "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f04",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réserve incendie 240m³ présente + zone accès pompiers. SDIS dispose camion pompe pour prélèvement. Conformité."
+  },
+  {
+    "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f05",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aucun stockage en vrac d'engrais rubrique 4702-I le jour de la visite. Prescription lances autopropulsives non applicable."
+  },
+  {
+    "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f06",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réserve incendie vérifiée 12/2022: 4 points NC. Actions correctives demandées sous 3 mois. G3 car NC technique sur équipement incendie critique."
+  },
+  {
+    "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f07",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Système détection incendie complété (quelques détecteurs manquants selon référentiel R7, facture installation 07/2022). Constat 2020 levé."
+  },
+  {
+    "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f08",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Exploitant a transmis éléments PAC pour modification prescription essai mousse. Inspection peut modifier prescription. Constat levé après transmission justificatifs. Amélioration technique documentée. G3 rétrograde: résolu donc G1 mais processus encore en cours d'instruction. G1 car constat soldé."
+  },
+  {
+    "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f10",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "2 compteurs foudre installés (constat 2020 levé). Mais procédure mode dégradé incomplète (tracabilité vérifications + délai prestataire non précisés). G3 car procédure foudre incomplète sur point technique. T3: amélioration (compteurs installés). (Skeptic: modificateur m_DELAI retiré (le délai cité est une exigence réglementaire préexistante vérifiée, pas un délai correctif imposé ici).)"
+  },
+  {
+    "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f11",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Travaux protection foudre réalisés 03/2022. Rapport vérification 04/2023: parafoudre bâtiment indispensable mauvaises caractéristiques + compteur foudre hangar hors service. Ecart 2020 non levé mais pas de sanction proposée. G3 car équipements protection foudre encore NC. T3: amélioration partielle."
+  },
+  {
+    "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f12",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Résultats analyses 2 points rejet conformes à tous paramètres AP 2005. Constat 2020 levé."
+  },
+  {
+    "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f13",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S06",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Récépissé OVALIS Environnement 05/2021 pour transport déchets transmis. Curage débourbeur 10/2021 documenté. Constat levé."
+  },
+  {
+    "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f14",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Vanne guillotine installée et figurant sur plan. Mais plan d'entrée pour secours ne la mentionne pas encore. Mise à jour plan d'entrée demandée. G2 NC documentaire résiduelle (plan secours non mis à jour). T3 amélioration."
+  },
+  {
+    "slug": "groupe-nau-ex-cic52057832023-04-2451040103700039f15",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A02",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Carnets métrologiques sonomètres non transmis — en attente société COUDRON (disponibles mi-septembre 2023). NC documentaire sur conformité appareil de mesure. G2 purement documentaire. T4: demandé 2022, toujours en attente."
+  }
+]

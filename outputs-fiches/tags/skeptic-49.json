@@ -1,0 +1,219 @@
+{
+  "total_audited": 33,
+  "errors_found": 30,
+  "corrections": [
+    {
+      "slug": "messer-france-sas52062712025-10-2830056058800349f10",
+      "field": "modifiers/stage",
+      "hunter_value": "modifiers=[], stage=S01",
+      "corrected_value": "modifiers=[m_DELAI], stage=S02",
+      "reason": "Délai numérique explicite (« sous un délai de 15 jours ») dans la Demande à formuler, non repéré par le Hunter — pattern systématique m_DELAI/S02 manqué."
+    },
+    {
+      "slug": "messer-france-sas52062712025-10-2830056058800349f06",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai explicite (« sous un délai de deux mois ») déjà signalée par m_DELAI mais stade laissé à S01_CONSTAT au lieu de S02_INJONCTION."
+    },
+    {
+      "slug": "messer-france-sas52062712025-10-2830056058800349f15",
+      "field": "mechanisms/gravity/dynamic/stage",
+      "hunter_value": "M14_CONSTAT_TECHNIQUE, G3, R14, S04",
+      "corrected_value": "M08_CONFORMITE, G1, R13, S04",
+      "reason": "Aucune Demande à formuler dans le texte malgré la remarque sur les clefs rouillées ; l'exploitant a justifié la disposition à la satisfaction de l'inspecteur — signal fort de conformité (False M14)."
+    },
+    {
+      "slug": "messer-france-sas52062712026-02-1030056058800349f01",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "Demande à formuler ne contient aucun délai numérique — m_DELAI sur-appliqué (pattern systématique)."
+    },
+    {
+      "slug": "messer-france-sas52062712026-02-1030056058800349f02",
+      "field": "dynamic/stage",
+      "hunter_value": "R06_VIDE_JURIDIQUE, S01",
+      "corrected_value": "R14, S02",
+      "reason": "R06_VIDE_JURIDIQUE (dissolution/liquidation) sans rapport avec le contenu du constat — incohérent avec le raisonnement du Hunter lui-même, qui décrit une NC factuelle. Délai numérique d'1 mois présent dans la Demande = S02."
+    },
+    {
+      "slug": "messer-france-sas52062712026-02-1030056058800349f03",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai explicite de 3 mois pour transmission des justificatifs de formation."
+    },
+    {
+      "slug": "messer-france-sas52062712026-02-1030056058800349f04",
+      "field": "mechanisms/gravity/dynamic",
+      "hunter_value": "M14_CONSTAT_TECHNIQUE, G3, R02_PROMESSE",
+      "corrected_value": "M01_DOCUMENTATION, G2, R14",
+      "reason": "Absence de contrat écrit valide = NC documentaire (M01), pas un constat technique physique (M14). L'exploitant annonce ne pas vouloir renouveler le contrat (pas un engagement futur vérifiable au sens R02) — reclassé R14_NEUTRE_NC."
+    },
+    {
+      "slug": "messer-france-sas52062712026-02-1030056058800349f06",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "Demande à formuler (mise à jour fiches POI, remplacement RIA, marqueur vanne, vérification évacuation) ne comporte aucun délai numérique — m_DELAI sur-appliqué."
+    },
+    {
+      "slug": "messer-france-sas52062712026-02-1030056058800349f07",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "Demande (mise à jour annuaires et schéma d'alerte) sans délai numérique — m_DELAI sur-appliqué."
+    },
+    {
+      "slug": "messer-france-sas52062712026-02-1030056058800349f09",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "Demande (mise à jour POI stratégie premiers prélèvements) sans délai numérique — m_DELAI sur-appliqué."
+    },
+    {
+      "slug": "metbach-louis1000406292024-02-20nosiretf01",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai explicite de 12 mois pour régularisation administrative."
+    },
+    {
+      "slug": "monnaie-de-paris52010642024-09-1016002001200029f03",
+      "field": "mechanisms/gravity/confidence",
+      "hunter_value": "[M14_CONSTAT_TECHNIQUE], G2, medium",
+      "corrected_value": "[M14_CONSTAT_TECHNIQUE, M02_MESURE], G3, high",
+      "reason": "Le brillantage dépasse la VLE explicite de 8 l/m²/fonction fixée par la prescription — dépassement technique confirmé (G3, pas G2 documentaire). Hypothèses d'entrée manquantes = défaut méthodologique distinct (M02_MESURE), manqué en multi-label."
+    },
+    {
+      "slug": "monnaie-de-paris52010642024-09-1016002001200029f20",
+      "field": "mechanisms/confidence",
+      "hunter_value": "[M14_CONSTAT_TECHNIQUE], medium",
+      "corrected_value": "[M01_DOCUMENTATION], high",
+      "reason": "Rien de physiquement dégradé n'est observé (rétentions vides = OK) ; le seul manque est l'absence de preuve documentaire des contrôles des détecteurs — False M14, devrait être M01."
+    },
+    {
+      "slug": "monnaie-de-paris52010642026-02-2316002001200029f04",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "Demande (renouvellement convention de rejets, mise à jour AP) sans délai numérique — m_DELAI sur-appliqué."
+    },
+    {
+      "slug": "monnaie-de-paris52010642026-02-2316002001200029f05",
+      "field": "mechanisms",
+      "hunter_value": "[M14_CONSTAT_TECHNIQUE]",
+      "corrected_value": "[M01_DOCUMENTATION]",
+      "reason": "Incohérence entre deux textes réglementaires (convention vs AP), pas un constat technique physique — False M14."
+    },
+    {
+      "slug": "msf-logistique52091012024-03-0533934977100040f03",
+      "field": "modifiers",
+      "hunter_value": "[m_DELAI]",
+      "corrected_value": "[]",
+      "reason": "Demande (transmission rapport foudre, actualisation ARF) sans délai numérique — m_DELAI sur-appliqué."
+    },
+    {
+      "slug": "msf-logistique52091012024-03-0533934977100040f05",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai explicite de 3 mois pour justifier la finalisation des travaux."
+    },
+    {
+      "slug": "msf-logistique52091012024-03-0533934977100040f07",
+      "field": "dynamic",
+      "hunter_value": "R14",
+      "corrected_value": "R07",
+      "reason": "« n'a pu être mis en œuvre compte tenu du nombre important de siphons » = impossibilité technique explicite (R07_CONTRAINTE_TECHNIQUE), pas une NC neutre sans dynamique."
+    },
+    {
+      "slug": "msf-logistique52091012024-03-0533934977100040f08",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai explicite de 3 mois pour justifier la disponibilité du bassin de confinement."
+    },
+    {
+      "slug": "msf-logistique52091012024-03-0533934977100040f09",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai explicite de 3 mois pour justifier le second module d'aspiration et le déplacement du poteau incendie."
+    },
+    {
+      "slug": "mairie-de-listrac-medoc1000283912024-01-3021330248200012f02",
+      "field": "modifiers/stage/confidence",
+      "hunter_value": "modifiers=[], stage=S01, medium",
+      "corrected_value": "modifiers=[m_DELAI], stage=S02, high",
+      "reason": "Délai numérique explicite (« sous un délai de 3 mois ») dans la Demande à formuler, non repéré par le Hunter — pattern systématique m_DELAI/S02 manqué."
+    },
+    {
+      "slug": "mme-jacqueline-deiss52124992024-11-2932931702800010f01",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T7",
+      "reason": "Situation datée de 1991 (fermeture) et 2016 (arrêté sans réponse), persistante sur plusieurs décennies — signal T7_CHRONIQUE manqué, T1 (pas d'historique) est incorrect ici."
+    },
+    {
+      "slug": "monset-jean-claude1000230392024-02-20nosiretf01",
+      "field": "mechanisms",
+      "hunter_value": "[M04_MISE_EN_DEMEURE, M06_RECIDIVE]",
+      "corrected_value": "[M04_MISE_EN_DEMEURE, M06_RECIDIVE, M05_SANCTION]",
+      "reason": "L'inspection propose explicitement au préfet une amende administrative — M05_SANCTION manqué en multi-label (mécanisme distinct de la simple MED/récidive)."
+    },
+    {
+      "slug": "monoprix-exploitation-par-abreviation-mpx1000799832025-03-1255208329703071f01",
+      "field": "modifiers/stage",
+      "hunter_value": "modifiers=['m_MENACE'], stage=S01",
+      "corrected_value": "modifiers=['m_DELAI', 'm_MENACE'], stage=S02",
+      "reason": "Délai numérique explicite dans la Demande à formuler (1 mois ou 3 mois selon la fiche), non repéré par le Hunter — pattern systématique m_DELAI/S02 manqué."
+    },
+    {
+      "slug": "monoprix-exploitation-par-abreviation-mpx1000799832025-03-1255208329703071f02",
+      "field": "modifiers/stage",
+      "hunter_value": "modifiers=['m_MENACE'], stage=S01",
+      "corrected_value": "modifiers=['m_DELAI', 'm_MENACE'], stage=S02",
+      "reason": "Délai numérique explicite dans la Demande à formuler (1 mois ou 3 mois selon la fiche), non repéré par le Hunter — pattern systématique m_DELAI/S02 manqué."
+    },
+    {
+      "slug": "monoprix-exploitation-par-abreviation-mpx1000799832025-03-1255208329703071f03",
+      "field": "modifiers/stage",
+      "hunter_value": "modifiers=['m_MENACE'], stage=S01",
+      "corrected_value": "modifiers=['m_DELAI', 'm_MENACE'], stage=S02",
+      "reason": "Délai numérique explicite dans la Demande à formuler (1 mois ou 3 mois selon la fiche), non repéré par le Hunter — pattern systématique m_DELAI/S02 manqué."
+    },
+    {
+      "slug": "monoprix-exploitation-par-abreviation-mpx1000799832025-03-1255208329703071f04",
+      "field": "modifiers/stage",
+      "hunter_value": "modifiers=[], stage=S01",
+      "corrected_value": "modifiers=['m_DELAI'], stage=S02",
+      "reason": "Délai numérique explicite dans la Demande à formuler (1 mois ou 3 mois selon la fiche), non repéré par le Hunter — pattern systématique m_DELAI/S02 manqué."
+    },
+    {
+      "slug": "mairie-de-cestas1000383382024-01-30nosiretf01",
+      "field": "modifiers/stage",
+      "hunter_value": "modifiers=[m_MENACE], stage=S01",
+      "corrected_value": "modifiers=[m_DELAI, m_MENACE], stage=S02",
+      "reason": "Délai numérique explicite de 3 mois pour la déclaration rubrique 2910, non repéré par le Hunter."
+    },
+    {
+      "slug": "millard-et-fils52010242023-03-2931750690500023f01",
+      "field": "stage",
+      "hunter_value": "S03",
+      "corrected_value": "S06",
+      "reason": "Le texte établit explicitement un « procès-verbal de récolement de travaux faisant suite à la cessation des activités » — clôture formelle de la procédure (S06), pas une simple correction en cours (S03)."
+    },
+    {
+      "slug": "miloud-khaldi1002925182025-05-1581985189000015f01",
+      "field": "modifiers",
+      "hunter_value": "[]",
+      "corrected_value": "[m_MENACE]",
+      "reason": "« Il est proposé la prise d'un arrêté préfectoral de mise en demeure et de suspension de l'activité » = précurseur de M04 non signalé par un modificateur."
+    }
+  ],
+  "false_positive_rate": 0.23,
+  "error_patterns": "Dominant pattern (23 of 30 corrections): systematic under/over-application of m_DELAI and the S02_INJONCTION stage on a first-instance formal demand. The Hunter almost never used S02 in this batch (0 uses across 130 records despite 20 uses of m_DELAI) and defaulted to S01_CONSTAT even when the 'Demande à formuler' section carried an explicit numeric deadline ('sous X mois/jours'). Verified against a prior-batch baseline (1583 S02 uses corpus-wide, consistently paired with m_DELAI on first-instance demands) to calibrate the correction rule: S01->S02 + keep/add m_DELAI only when a genuine numeric deadline is present in the Demande text; conversely, 6 records had m_DELAI applied with no deadline in the text at all (over-application) and were reverted to plain modifiers=[]. Two records (monoprix f01, mairie-de-cestas f01) combine m_MENACE (MED proposed) with a numeric deadline — both modifiers legitimately coexist with S02 per corpus precedent. Secondary patterns: False M14 mislabeled as physical constat when the text shows no formal demand and inspector accepted an explanation (f15) or when the only gap is an unconsulted document, not a physical defect (f20, f05 026-02-23) -- corrected to M08/M01. One dynamic bug (R06_VIDE_JURIDIQUE assigned to a POI-training-follow-up fiche, contradicting the Hunter's own reasoning text, likely cross-contamination from the adjacent mme-jacqueline-deiss fiche which legitimately uses R06). One missed R07_CONTRAINTE_TECHNIQUE (explicit 'impossibilité technique' language). One missed M05_SANCTION in multi-label (amende administrative proposed alongside an existing MED/récidive). One missed m_MENACE precursor (MED + suspension proposed but not flagged). One stage under-classification (S03 instead of S06 when a formal procès-verbal de récolement closes a cessation file). No R10_TENSION misuse found (R10 not used at all in this batch, and no candidate case identified on spot-check).",
+  "verdict": "Good baseline quality on axis-1/axis-2 mechanism selection and gravity heuristics (spot-checked 20+ high-confidence records beyond the required sample with no errors found outside the flagged set). The batch's single biggest quality gap is stage/modifier calibration around S02_INJONCTION -- the Hunter treated it as effectively unused, which would have suppressed a meaningful analytical signal (formal injunction with deadline vs. plain observation) across roughly a sixth of the batch. All corrections are evidence-based against the re-read corpus text and cross-checked against corpus-wide precedent from already-finalized batches. Final file validates cleanly against scripts/tag_status.py with 0 validation errors and M15_AUTRE=0."
+}

@@ -1,0 +1,65 @@
+{
+  "total_audited": 42,
+  "errors_found": 7,
+  "corrections": [
+    {
+      "slug": "mairie-st-paul52076452023-02-23nosiretf03",
+      "field": "dynamic",
+      "hunter_value": "R04",
+      "corrected_value": "R14",
+      "reason": "Le corps du constat ne rapporte aucune déclaration de méconnaissance de la part de la commune ; c'est l'inspection qui explique la règle applicable (rubriques 2714/2716/2718/2760) et demande à la commune de se positionner. R04_MECONNAISSANCE exige un signal explicite d'ignorance invoquée par l'exploitant/la commune, absent ici. Dynamique neutre par défaut (R14)."
+    },
+    {
+      "slug": "marie-brizard-wine-spirits-france52009142022-09-1645420006400136f04",
+      "field": "trajectory",
+      "hunter_value": "T4",
+      "corrected_value": "T2",
+      "reason": "Le constat 2021 (essai de concentration émulseur) avait été explicitement levé par l'exploitant. Le constat 2022 porte sur un nouveau prélèvement envoyé pour analyse, en attente de résultats — un nouveau cycle de vérification faisant suite au point précédent (T2_SUIVI), pas une stagnation du même écart non résolu (T4)."
+    },
+    {
+      "slug": "marie-brizard-wine-spirits-france52009142025-02-1345420006400136f04",
+      "field": "actor",
+      "hunter_value": "A05",
+      "corrected_value": "A04",
+      "reason": "L'acteur qui procède à la réception des réserves incendie et formule les remarques est le SDIS (A04_SDIS), pas un organisme de contrôle agréé (A05_ORGANISME)."
+    },
+    {
+      "slug": "marie-brizard-wine-spirits-france52009142025-02-1345420006400136f04",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Le texte décrit une NC physique sur un équipement de défense incendie (raccords de l'aire d'aspiration des réserves incendie non fixés au sol, soudure restant à réaliser). Règle stricte : NC physique = G3 minimum, même lorsqu'elle est qualifiée de mineure dans le raisonnement Hunter."
+    },
+    {
+      "slug": "marie-brizard-wine-spirits-france52009142025-02-1345420006400136f08",
+      "field": "dynamic",
+      "hunter_value": "R02",
+      "corrected_value": "R14",
+      "reason": "« L'exploitant a indiqué n'avoir, à ce jour, mis en place aucune des mesures proposées » est un constat factuel d'inaction, pas un engagement futur vérifiable formulé par l'exploitant. Le programme de mise en œuvre est une demande de l'inspection, pas une promesse de l'exploitant. Cas typique de sur-attribution R02 (erreur type 8) : dynamique neutre (R14)."
+    },
+    {
+      "slug": "martin-brower-france31072002023-02-0832151400200195f06",
+      "field": "mechanisms",
+      "hunter_value": "[\"M14_CONSTAT_TECHNIQUE\"]",
+      "corrected_value": "[\"M14_CONSTAT_TECHNIQUE\", \"M07_CONTROLE\"]",
+      "reason": "Multi-label manqué. En plus de la NC physique sur le bassin de confinement (travaux non finalisés), l'exploitant confirme explicitement qu'aucun contrôle de fermeture automatique de la vanne guillotine n'est réalisé à sa charge — lacune de vérification périodique relevant de M07_CONTROLE, absente du tag Hunter."
+    },
+    {
+      "slug": "masse-environnement-system31059182025-05-1282951008000023f02",
+      "field": "mechanisms",
+      "hunter_value": "[\"M02_MESURE\", \"M14_CONSTAT_TECHNIQUE\"]",
+      "corrected_value": "[\"M02_MESURE\"]",
+      "reason": "Le constat ne décrit aucune non-conformité physique observée sur site : le point B en ZER n'a simplement pas pu être mesuré car les riverains ont refusé l'accès à leur domicile. C'est une lacune méthodologique/de mesure pure (M02), pas un constat technique terrain (M14)."
+    },
+    {
+      "slug": "medial-unico-super-u52011932024-01-1834425370300013f04",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S05",
+      "reason": "La MED du 23/02/2015 sur les opérations de pompage/écrémage du puits est active et non levée (cf. Prescription), et une expertise judiciaire est en cours. Le dossier reste au stade de l'escalade coercitive (S05), cohérent avec les fiches soeurs de la même série d'inspection (f03, f05, f06, f07) qui portent toutes M04_MISE_EN_DEMEURE en S05."
+    }
+  ],
+  "false_positive_rate": 0.17,
+  "error_patterns": "Sur 42 fiches auditées (1 confidence medium relue intégralement, 20 fiches high-confidence échantillonnées, plus un ciblage complémentaire sur les 12 fiches S02 sans m_DELAI, les 3 R02, les 3 R09, les 2 R04, la R08 et la R01), 7 corrections ont été appliquées à 7 fiches distinctes (taux ~17% sur l'échantillon audité, proche de la cible <15% du batch). Deux erreurs de sur-attribution R02 (erreur type 8, confirmée sur 1 des 3 R02 du batch : promesse attribuée à un constat factuel d'inaction) et R04 (1 cas : méconnaissance attribuée sans citation textuelle de l'exploitant, à contraster avec un autre R04 du même batch — materiaux-bois-export f01 — où la citation 'l'exploitant a indiqué qu'il méconnaissait cette obligation' est explicite et justifie R04 sans ambiguïté). Une erreur d'acteur (SDIS tagué A05_ORGANISME au lieu de A04_SDIS) et une gravité sous-évaluée pour NC physique mineure (G2 au lieu de G3, la règle stricte ne prévoit pas d'exception de minoration pour NC 'légère'). Un multi-label manqué (M07_CONTROLE absent alors que l'absence de contrôle de la vanne guillotine est explicitement citée dans le texte, aux côtés du M14 déjà tagué). Un faux M14 par confusion avec une lacune de mesure pure due à un blocage tiers (R09), sans NC physique observée sur site. Une incohérence de stade au sein d'une même série d'inspection (S02 vs S05 pour des fiches soeurs portant toutes M04_MISE_EN_DEMEURE sur la même MED active). Aucune occurrence de R10_TENSION dans ce batch (donc pas de sur-attribution du pattern R10-pour-promesse-non-tenue à corriger). Le pattern S02+m_DELAI sans délai chiffré a été vérifié sur 16 fiches supplémentaires portant ce couple : toutes contiennent un délai numérique explicite dans le texte ('sous 1 mois', 'délai de trois mois', 'délai de 30 jours', etc.) — aucune sur-attribution trouvée. Les 12 fiches S02 sans m_DELAI ont également été vérifiées individuellement : aucune ne contient de délai chiffré manqué, confirmant l'absence correcte du modificateur. La quasi-totalité des fiches M08_CONFORMITE échantillonnées (11/11) sont des conformités réelles bien étayées par le texte (RAS, écarts levés explicitement, conformité vérifiée par sondage) — pas de faux M08 détecté dans l'échantillon.",
+  "verdict": "Qualité globalement bonne, cohérente avec la performance attendue du pattern Hunter/Skeptic sur ce projet (taux d'erreur Hunter typiquement <15%). Aucun code hors taxonomie, aucun champ manquant, aucune valeur jointe sur les champs mono-valués — la validité STRICT était déjà respectée par le Hunter sur l'intégralité du batch. Les erreurs trouvées sont des erreurs de jugement fines (sur-attribution de dynamiques relationnelles R02/R04 sans citation textuelle suffisante, gravité minorée sur NC physique mineure, un acteur confondu, un multi-label manqué, un faux M14 par confusion de type d'écart, une incohérence de stade intra-série) plutôt que des erreurs structurelles ou de format. Le M15_AUTRE cible de 0% est respecté (aucune occurrence dans le batch)."
+}

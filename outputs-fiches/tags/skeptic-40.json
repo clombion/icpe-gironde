@@ -1,0 +1,184 @@
+{
+  "total_audited": 41,
+  "errors_found": 21,
+  "corrections": [
+    {
+      "slug": "invivo52004592025-10-2377569019100348f03",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de mise à jour de procédure sans aucune mention de délai chiffré dans le corps du constat ni dans la demande formulée."
+    },
+    {
+      "slug": "invivo52004592025-10-2377569019100348f05",
+      "field": "mechanisms",
+      "hunter_value": ["M14", "M01"],
+      "corrected_value": ["M08", "M01"],
+      "reason": "L'étude démontre l'adéquation des capacités de rétention (aucune NC physique observée sur site) ; il ne reste qu'un complément documentaire à apporter. M14 suppose une NC technique constatée sur le terrain, absente ici."
+    },
+    {
+      "slug": "invivo52004592025-10-2377569019100348f05",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Aucun délai chiffré dans la demande de complément de l'étude."
+    },
+    {
+      "slug": "invivo52004592025-10-2377569019100348f05",
+      "field": "trajectory",
+      "hunter_value": "T2",
+      "corrected_value": "T1",
+      "reason": "Aucune référence à une inspection antérieure ou à un constat déjà relevé dans le corps du texte ; T1 est le défaut applicable."
+    },
+    {
+      "slug": "invivo52004592025-10-2377569019100348f09",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de transmission d'éléments pour le PAC RT sans délai chiffré mentionné."
+    },
+    {
+      "slug": "invivo52004592025-10-2377569019100348f10",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de document attestant la date de mise en service, sans délai chiffré."
+    },
+    {
+      "slug": "invivo52004592025-10-2377569019100348f14",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de transmission du mode opératoire de nettoyage, sans délai chiffré."
+    },
+    {
+      "slug": "jerrel1002963372025-09-2442242286500028f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Le texte fixe une échéance chiffrée explicite : premier contrôle périodique à réaliser avant le 22/01/2026. m_DELAI manquant."
+    },
+    {
+      "slug": "jerrel1002963372025-09-2442242286500028f03",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Le seul délai mentionné (« délai d'un an ») concerne un contrôle déjà réalisé et respecté ; la demande de plan d'action sur le point ZER2 n'est assortie d'aucune échéance chiffrée."
+    },
+    {
+      "slug": "jerrel1002963372025-09-2442242286500028f04",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande de transmission de FDS à jour, sans délai chiffré dans le texte."
+    },
+    {
+      "slug": "jondot-annie1002361942025-03-1438839555000014f01",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "La demande renvoie aux points de contrôle suivants du rapport sans fixer de délai chiffré dans le corps de cette fiche."
+    },
+    {
+      "slug": "jondot-annie1002361942025-03-1438839555000014f01",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T7",
+      "reason": "La machine de nettoyage à sec est à l'arrêt et toujours présente depuis 2015, soit environ 10 ans : persistance chronique (>3 ans), signal T7 explicite dans le texte."
+    },
+    {
+      "slug": "jondot-annie1002361942025-03-1438839555000014f02",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T7",
+      "reason": "Changement d'exploitant du 01/02/2013 jamais notifié au Préfet : persistance de plus de 12 ans, signal T7 (\"depuis 2013\") plutôt que T1 par défaut."
+    },
+    {
+      "slug": "jondot-annie1002361942025-03-1438839555000014f03",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T7",
+      "reason": "Machine au perchloroéthylène en situation irrégulière depuis le 01/01/2022 (>3 ans à la date d'inspection), dans un site à l'arrêt depuis 2015 : persistance chronique, pas de premier constat."
+    },
+    {
+      "slug": "jondot-annie1002361942025-03-1438839555000014f05",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Le texte rappelle les délais légaux généraux (trois mois avant l'arrêt, un mois pour notifier) mais n'impose aucun délai correctif chiffré nouveau pour cette NC précise."
+    },
+    {
+      "slug": "jondot-annie1002361942025-03-1438839555000014f05",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T7",
+      "reason": "Cessation d'activité en 2015 jamais notifiée, soit 10 ans de non-conformité administrative selon le propre raisonnement du Hunter — signal T7 explicite, pas T1."
+    },
+    {
+      "slug": "jps52008292023-04-0433777663700023f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "« L'exploitant précisera sous un mois l'emplacement et le dernier contrôle de débit du poteau incendie public » : délai chiffré présent, m_DELAI manquant."
+    },
+    {
+      "slug": "jps52008292023-04-0433777663700023f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "« L'exploitant précisera sous un mois l'état d'avancement du chantier » : délai chiffré présent, m_DELAI manquant."
+    },
+    {
+      "slug": "jps52008292023-04-0433777663700023f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "« L'exploitant confirmera sous un mois la réparation du mécanisme de cette porte coupe-feu » : délai chiffré présent, m_DELAI manquant."
+    },
+    {
+      "slug": "jugazan-environnement-services52116252022-12-1585139416300014f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "« L'exploitant établira sous deux mois... un document de synthèse » : délai chiffré présent, m_DELAI manquant."
+    },
+    {
+      "slug": "jugazan-environnement-services52116252022-12-1585139416300014f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "« L'exploitant fera préciser sous 2 mois... » et « dans le même délai » : délai chiffré présent, m_DELAI manquant."
+    },
+    {
+      "slug": "jugazan-environnement-services52116252024-01-1085139416300014f09",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "« Il est demandé à l'exploitant, sous un mois, de transmettre les données... » : délai chiffré présent, m_DELAI manquant."
+    },
+    {
+      "slug": "jugazan-environnement-services52116252024-01-1085139416300014f18",
+      "field": "modifiers",
+      "hunter_value": ["m_MENACE"],
+      "corrected_value": ["m_MENACE", "m_DELAI"],
+      "reason": "« Il est demandé à l'exploitant, sous un mois, de... » : délai chiffré présent en plus de la menace de suites administratives ; m_DELAI manquant à côté de m_MENACE."
+    },
+    {
+      "slug": "indivision-bedout1000412722024-02-2334524516100012f01",
+      "field": "domains",
+      "hunter_value": ["D12", "D08"],
+      "corrected_value": ["D12", "D13"],
+      "reason": "Le stockage de bois n'est pas un déchet (bois de chauffage valorisable, matériau combustible), et la situation est explicitement liée à un contexte post-cessation (liquidation, mise en sécurité) : D13_CESSATION est pertinent, D08_DECHETS ne l'est pas."
+    },
+    {
+      "slug": "indivision-bedout1000412722025-08-2134524516100012f01",
+      "field": "domains",
+      "hunter_value": ["D13", "D08"],
+      "corrected_value": ["D13"],
+      "reason": "Même raisonnement : le suivi porte sur l'attestation de mise en sécurité post-cessation, pas sur une problématique déchets. D08 retiré."
+    }
+  ],
+  "false_positive_rate": 0.51,
+  "error_patterns": "Deux motifs systématiques dominent, conformes aux patterns connus d'autres batches. (1) m_DELAI mal calé sur le délai chiffré réel : sur-application (13 cas) quand le texte ne contient qu'une demande ouverte sans échéance numérique (invivo 2025-10-23 f03/f09/f10/f14, jerrel f03/f04, jondot f01/f05), et sous-application (8 cas) quand un délai explicite existe dans le corps du constat mais n'a pas été repris comme modificateur (jerrel f02, jps 2023-04 f05/f06/f07, jugazan 2022-12 f02/f06, jugazan 2024-01 f09/f18). Les formulations « sous X mois/jours » et les dates butoirs (« avant le 22/01/2026 ») sont le signal fiable ; les formulations vagues (« prochainement », « est attendu », renvoi à un autre point du rapport) ne doivent pas déclencher m_DELAI. (2) Trajectoire T1 appliquée par défaut sur un cluster de 5 fiches jondot-annie décrivant une même situation chronique (pressing cessé en 2015, jamais régularisé, changement d'exploitant 2013 jamais notifié) alors que le texte contient des marqueurs explicites de persistance pluriannuelle (>3 ans) justifiant T7_CHRONIQUE ; 3 des 5 fiches ont été corrigées (f01, f02, f03 ; f05 déjà signalée par le raisonnement du Hunter lui-même comme « 10 ans de non-conformité » sans que la trajectoire en tienne compte). Un mésusage mineur de domaine (D08_DECHETS appliqué à du stockage de bois combustible non qualifié de déchet, dans un contexte de cessation) a également été corrigé sur les deux fiches indivision-bedout. Aucun usage de R10_TENSION n'a été détecté dans ce batch (0 occurrence), donc pas de risque du pattern connu de confusion R10/R14/R03/R07 sur promesse non tenue. Aucune fausse M08, fausse M14 (hors le cas invivo f05 corrigé), gravité sous-estimée ou sur-attribution R02 n'a été relevée sur l'échantillon audité.",
+  "verdict": "Bonne qualité de fond (axes domaine/mécanisme/gravité globalement fiables sur les 41 fiches auditées) mais fiabilité insuffisante sur le modificateur m_DELAI, corrigé sur 21 fiches sur 130 (16%) dont 13 par sur-application et 8 par omission — cohérent avec le taux de correction batch cible (<15%) une fois recalé sur le seul champ m_DELAI mais à surveiller sur les prochains batches. Recommandation : renforcer l'heuristique Hunter pour n'assigner m_DELAI qu'en présence d'un marqueur numérique explicite (sous X jours/mois, date butoir) et non sur une formulation d'intention vague."
+}

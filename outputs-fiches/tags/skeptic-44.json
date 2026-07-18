@@ -1,0 +1,408 @@
+{
+  "total_audited": 130,
+  "errors_found": 57,
+  "corrections": [
+    {
+      "slug": "lesieur-bassens52116332024-03-0745720861900108f01",
+      "field": "mechanisms",
+      "hunter_value": ["M14", "m_DELAI"],
+      "corrected_value": ["M01"],
+      "reason": "m_DELAI is a modifier, never valid inside mechanisms (STRICT). Also reclassified M14->M01: text asks exploitant to clarify ESP type/regime in an existing list (documentation completeness), not a physical NC."
+    },
+    {
+      "slug": "lesieur-bassens52116332024-03-0745720861900108f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline present ('dans un délai de 3 mois'); moved from mechanisms to modifiers per STRICT rules."
+    },
+    {
+      "slug": "lesieur-bassens52116332024-03-0745720861900108f08",
+      "field": "mechanisms",
+      "hunter_value": ["M14", "m_DELAI"],
+      "corrected_value": ["M14"],
+      "reason": "m_DELAI removed: demande only says 'dès réception' (upon receipt), not a numeric corrective deadline; m_DELAI requires a specific délai."
+    },
+    {
+      "slug": "lesieur-bassens52116332024-03-0745720861900108f10",
+      "field": "mechanisms",
+      "hunter_value": ["M14", "m_DELAI"],
+      "corrected_value": ["M14"],
+      "reason": "m_DELAI is a modifier, never valid inside mechanisms (STRICT)."
+    },
+    {
+      "slug": "lesieur-bassens52116332024-03-0745720861900108f10",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline present ('dans un délai de 1 mois'); moved from mechanisms to modifiers."
+    },
+    {
+      "slug": "lesieur-bassens52116332024-03-0745720861900108f11",
+      "field": "mechanisms",
+      "hunter_value": ["M09", "m_DELAI"],
+      "corrected_value": ["M09"],
+      "reason": "m_DELAI is a modifier, never valid inside mechanisms (STRICT)."
+    },
+    {
+      "slug": "lesieur-bassens52116332024-03-0745720861900108f11",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline present ('dans un délai de 3 mois'); moved from mechanisms to modifiers."
+    },
+    {
+      "slug": "lesieur-bassens52116332024-03-0745720861900108f13",
+      "field": "mechanisms",
+      "hunter_value": ["M14", "m_DELAI"],
+      "corrected_value": ["M14"],
+      "reason": "m_DELAI is a modifier, never valid inside mechanisms (STRICT)."
+    },
+    {
+      "slug": "lesieur-bassens52116332024-03-0745720861900108f13",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline present ('dans un délai de 3 mois'); moved from mechanisms to modifiers."
+    },
+    {
+      "slug": "lesieur-bassens52116332024-03-0745720861900108f13",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Demande formelle avec délai explicite ('dans un délai de 3 mois') present in constats_body -> S02_INJONCTION, not S01_CONSTAT."
+    },
+    {
+      "slug": "lesieur-bassens52116332024-03-0745720861900108f24",
+      "field": "mechanisms",
+      "hunter_value": ["M14", "m_DELAI"],
+      "corrected_value": ["M14"],
+      "reason": "m_DELAI removed: demande only says 'dès réception' (upon receipt of contrôle report), not a numeric corrective deadline."
+    },
+    {
+      "slug": "lidl-snc31001082024-04-0934326262204901f11",
+      "field": "mechanisms",
+      "hunter_value": ["M07", "M14", "m_DELAI"],
+      "corrected_value": ["M07", "M14"],
+      "reason": "m_DELAI is a modifier, never valid inside mechanisms (STRICT)."
+    },
+    {
+      "slug": "lidl-snc31001082024-04-0934326262204901f11",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline present ('délai maximum d'un mois' / 'sous un mois'); moved from mechanisms to modifiers."
+    },
+    {
+      "slug": "lidl-snc31001082025-03-1334326262204901f11",
+      "field": "mechanisms",
+      "hunter_value": ["M14", "m_DELAI"],
+      "corrected_value": ["M14"],
+      "reason": "m_DELAI removed: demande ('met en œuvre des actions correctives...') has no numeric deadline anywhere in the text."
+    },
+    {
+      "slug": "linde-france-sa1000028532024-11-1539263124800201f11",
+      "field": "mechanisms",
+      "hunter_value": ["M07", "M14", "m_DELAI"],
+      "corrected_value": ["M07"],
+      "reason": "m_DELAI is a modifier, never valid inside mechanisms (STRICT). Also removed M14: no physical NC observed on site — the gap is a missed periodic POI exercise, i.e. a control/verification lapse (M07), not a physical constat."
+    },
+    {
+      "slug": "linde-france-sa1000028532024-11-1539263124800201f11",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline present ('dans un délai de 2 mois'); moved from mechanisms to modifiers."
+    },
+    {
+      "slug": "lisi-aerospace-additive-manufacturing31019742026-01-1381840391700029f03",
+      "field": "mechanisms",
+      "hunter_value": ["M14", "R09", "M04"],
+      "corrected_value": ["M14", "M04"],
+      "reason": "'R09' is a dynamic-axis code and is never valid inside mechanisms (STRICT); it is already correctly captured in the dynamic field as R09_BLOCAGE_TIERS."
+    },
+    {
+      "slug": "le-pressing1002828292024-12-1782751678200014f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline present ('sous 15 jours') and omitted by Hunter."
+    },
+    {
+      "slug": "le-pressing1002828292024-12-1782751678200014f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline present ('sous 1 mois') and omitted by Hunter."
+    },
+    {
+      "slug": "le-pressing1002828292024-12-1782751678200014f09",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline present ('sous 1 mois' / 'sous 3 mois') and omitted by Hunter."
+    },
+    {
+      "slug": "le-roy-logistique31049722025-01-3044199620400653f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline present ('transmet sous un mois') and omitted by Hunter."
+    },
+    {
+      "slug": "leclerc-blaye-distribution-ancien-site52112582025-09-2331922755900014f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline present ('Dans un délai d'un mois') and omitted by Hunter."
+    },
+    {
+      "slug": "lesieur-bassens52116332024-03-0745720861900108f21",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline present ('Dans un délai de 3 mois') and omitted by Hunter."
+    },
+    {
+      "slug": "lidl-snc31001082024-04-0934326262204901f08",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline present ('sous un mois') and omitted by Hunter."
+    },
+    {
+      "slug": "lisi-aerospace-additive-manufacturing31019742024-07-1181840391700029f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline present ('sous deux mois') and omitted by Hunter."
+    },
+    {
+      "slug": "lixol-groupe-berkem52013572024-02-2964638008900037f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline present ('dans un délai de 1 mois') and omitted by Hunter."
+    },
+    {
+      "slug": "lixol-groupe-berkem52013572024-02-2964638008900037f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline present ('Dans un délai de 2 mois') and omitted by Hunter."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152023-06-1531721606700023f01",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "'Observations' section with explicit deadline ('sous 1 mois') for classification info -> S02_INJONCTION."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152023-06-1531721606700023f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline omitted by Hunter."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152023-06-1531721606700023f02",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "'Observations' section with explicit deadline ('sous un délai de 3 mois') -> S02_INJONCTION."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152023-06-1531721606700023f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline omitted by Hunter."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152023-06-1531721606700023f03",
+      "field": "mechanisms",
+      "hunter_value": ["M08"],
+      "corrected_value": ["M17"],
+      "reason": "False M08: text is a nomenclature threshold determination ('les stockages d'engrais ne relèvent donc pas d'un classement au titre des ICPE') -- textbook M17_CLASSIFICATION signal ('ne relève pas de'), not a conformity constat."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152023-06-1531721606700023f04",
+      "field": "mechanisms",
+      "hunter_value": ["M08"],
+      "corrected_value": ["M17"],
+      "reason": "False M08: text is a nomenclature threshold determination ('l'installation de stockage d'engrais liquide ne relève pas des installations classées') -- M17_CLASSIFICATION signal, not a conformity constat."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152023-06-1531721606700023f05",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Explicit régularisation deadlines ('délai d'un mois', 'délai de 6 mois', 'délai de 2 mois') -> S02_INJONCTION."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152023-06-1531721606700023f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline omitted by Hunter."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152023-06-1531721606700023f06",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "'Observations' section with explicit deadline ('délai de 1 mois') -> S02_INJONCTION."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152023-06-1531721606700023f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline omitted by Hunter."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152023-06-1531721606700023f07",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "'Observations' section with explicit deadline ('délai d'un mois') -> S02_INJONCTION."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152023-06-1531721606700023f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline omitted by Hunter."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152023-06-1531721606700023f07",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "Gas bottles stored too close to a storage cell = 'distance non respectée', a G3 minimum signal per the gravity heuristic, even though the bottles were empty at inspection time."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152024-05-2831721606700023f02",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "'Demande à formuler' with explicit deadline ('délai de 3 mois') -> S02_INJONCTION."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152024-05-2831721606700023f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline omitted by Hunter."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152024-05-2831721606700023f02",
+      "field": "mechanisms",
+      "hunter_value": ["M14", "M04"],
+      "corrected_value": ["M17", "M04"],
+      "reason": "False M14: content is entirely about determining whether séchoirs are subject to ICPE nomenclature (rubrique 2910) -- a classification determination (M17_CLASSIFICATION), not a physical constat. MED proposed on the classification point (M04)."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152024-05-2831721606700023f04",
+      "field": "mechanisms",
+      "hunter_value": ["M08"],
+      "corrected_value": ["M14"],
+      "reason": "False M08: inspector explicitly could NOT verify dust removal on most silo cells ('n'a pas pu constater le dépoussiérage') due to newly-observed severely degraded stairs -- a physical uncertainty/NC (M14), not a confirmed conformity."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152024-05-2831721606700023f04",
+      "field": "gravity",
+      "hunter_value": "G1",
+      "corrected_value": "G3",
+      "reason": "Newly observed 'état extrêmement dégradé des escaliers' is a physical degradation signal -> G3 minimum, not G1."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152024-05-2831721606700023f04",
+      "field": "dynamic",
+      "hunter_value": "R13",
+      "corrected_value": "R14",
+      "reason": "Not a confirmed conformity (inspector could not verify most of the installation) -> R14_NEUTRE_NC, not R13_NEUTRE_CONFORME."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152024-05-2831721606700023f04",
+      "field": "trajectory",
+      "hunter_value": "T3",
+      "corrected_value": "T2",
+      "reason": "This is a suivi visit of the 2023 dust-removal NC that surfaces a new stairway-degradation issue -- partial follow-up (T2_SUIVI), not a completed improvement (T3)."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152024-05-2831721606700023f07",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "'Demande à formuler' with explicit deadline ('délai de 3 mois') -> S02_INJONCTION."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152024-05-2831721606700023f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline omitted by Hunter."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152024-05-2831721606700023f08",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "'Demande à formuler' with explicit deadline ('délai de 3 mois') -> S02_INJONCTION."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152024-05-2831721606700023f08",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline omitted by Hunter."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152024-05-2831721606700023f09",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "'Demande à formuler' with explicit deadline ('délai de 3 mois') -> S02_INJONCTION."
+    },
+    {
+      "slug": "le-pot-au-pin1000231152024-05-2831721606700023f09",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline omitted by Hunter."
+    },
+    {
+      "slug": "lidl-snc31001082024-04-0934326262204901f01",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "'Demande à formuler' with explicit deadline ('sous un mois') -> S02_INJONCTION."
+    },
+    {
+      "slug": "lidl-snc31001082024-04-0934326262204901f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Numeric deadline omitted by Hunter."
+    },
+    {
+      "slug": "leclerc-blaye-distribution-ancien-site52112582025-09-2331922755900014f04",
+      "field": "mechanisms",
+      "hunter_value": ["M08"],
+      "corrected_value": ["M08", "M19"],
+      "reason": "Missed multi-label: removal of the 2 hydrocarbon tanks is itself a mise en sécurité action under R512-39-1 (évacuation des produits dangereux), matching M19_CESSATION alongside the conformity confirmation (M08), consistent with sibling records f01/f02/f06/f07 in the same report."
+    },
+    {
+      "slug": "les-grands-chais-de-france52008412022-09-1331599920100058f01",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "M09_PAC content (dossier de demande d'autorisation jugé non recevable) is a purely administrative/procedural gap with no physical dimension stated in constats_body -> G2, consistent with every other M09_PAC record in this batch (all tagged G2)."
+    }
+  ],
+  "false_positive_rate": 0.27,
+  "error_patterns": "Two dominant, batch-specific patterns account for 40 of the 57 corrections. (1) STRICT code-validity: hunter-44 never once populated the `modifiers` array — whenever it detected a délai it stuffed 'm_DELAI' inside `mechanisms` instead (9 records), and once leaked a dynamic-axis code ('R09') into `mechanisms` (1 record). (2) The flagged S02_INJONCTION/m_DELAI pairing check: Hunter under-used both m_DELAI and S02_INJONCTION together — 10 records already staged S02 were missing the m_DELAI modifier despite an explicit numeric deadline in the demande, and a further 9 records carried a formal 'Demande à formuler'/'Observations' section with an explicit numeric délai but were left at S01_CONSTAT instead of promoted to S02_INJONCTION (all fixed, with m_DELAI added alongside). Conversely, 3 records had m_DELAI attached to demandes with only 'dès réception' (no number) and had it removed. Beyond the délai/stage cluster, the recurring qualitative error was False M08/M14 confusion on nomenclature-threshold constats: 3 records about determining whether an installation is subject to ICPE classification ('ne relève pas de', 'non classé') were tagged M08_CONFORMITE or M14_CONSTAT_TECHNIQUE instead of M17_CLASSIFICATION. One record (le-pot-au-pin f04, 2024-05-28) was a genuine False M08: the inspector explicitly could not verify most of the installation and surfaced a new physical degradation (staircase), requiring M08->M14, G1->G3, R13->R14 and T3->T2 together. One missed multi-label (M19 alongside M08) and one gravity outlier inconsistent with sibling M09_PAC records in the same batch (G3->G2) round out the findings. The two systematic patterns explicitly flagged for this audit (R10_TENSION misuse and S02/m_DELAI mismatch) were checked batch-wide: R10 does not appear anywhere in hunter-44's dynamic field (no instances to correct), while the S02/m_DELAI mismatch was confirmed as a real, substantial issue as described above. All 130 records carried empty `reasoning` strings from Hunter; reasoning was written for every corrected record in final-44.json and left as Hunter supplied (empty) for uncorrected records, since reasoning content is outside the taxonomy-code audit scope.",
+  "verdict": "Below the batch's usual quality bar: hunter-44 has a genuine, batch-wide STRICT-validity defect (modifiers array never used) and a systematic under-application of the S02_INJONCTION/m_DELAI pairing, together accounting for 70% of all corrections. Once these mechanical defects are fixed, the underlying mechanism/gravity/trajectory/dynamic judgment calls were mostly sound — only 6 of 130 records needed a substantive re-classification (M08/M14 vs M17, one multi-label miss, one gravity outlier). No instances of R10_TENSION misuse, no invented/mangled codes elsewhere in the batch, and confidence was uniformly (and appropriately, in retrospect) 'high' since none of the found errors were genuinely ambiguous once the corpus was re-read. final-44.json validates cleanly against scripts/tag_status.py."
+}
