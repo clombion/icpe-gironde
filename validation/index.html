@@ -102,6 +102,40 @@
     .shead { padding: 14px; min-height: 56px; }
     .orow { padding: 12px 14px; }
   }
+
+  /* Peek-from-the-side text panel (mobile) — the fiche text stays one tap away
+     after you scroll into the options. Edge tab = the "peek"; opens a wide,
+     readable panel. Documented as a side-sheet variant (Material). */
+  #text-tab, #text-panel, #text-backdrop { display: none; }
+  @media (max-width: 860px) {
+    #text-tab { display: block; position: fixed; right: 0; top: 40%; z-index: 40;
+      writing-mode: vertical-rl; transform: rotate(180deg);
+      background: var(--rust); color: #fff; border: none; padding: 16px 9px;
+      border-radius: 11px 0 0 11px; font: inherit; font-weight: 600; font-size: 13px;
+      letter-spacing: .03em; cursor: pointer; box-shadow: -2px 2px 10px rgba(0,0,0,.22); }
+    #text-backdrop { display: block; position: fixed; inset: 0; z-index: 44;
+      background: rgba(0,0,0,.4); opacity: 0; pointer-events: none; transition: opacity .2s; }
+    #text-backdrop.on { opacity: 1; pointer-events: auto; }
+    #text-panel { display: flex; flex-direction: column; position: fixed; top: 0; bottom: 0; right: 0;
+      z-index: 45; width: min(93vw, 540px); background: var(--paper);
+      border-left: 1px solid var(--rule-soft); transform: translateX(100%); transition: transform .22s ease; }
+    #text-panel.open { transform: translateX(0); box-shadow: -6px 0 26px rgba(0,0,0,.28); }
+    .tp-head { display: flex; align-items: center; justify-content: space-between; gap: 10px;
+      padding: 13px 16px; border-bottom: 1px solid var(--rule-soft); }
+    .tp-head b { font-family: 'Fraunces', serif; font-size: 15px; }
+    .tp-head button { font: inherit; background: none; border: 1px solid var(--rule-soft);
+      color: var(--ink); border-radius: 8px; padding: 8px 13px; cursor: pointer; min-height: 40px; }
+    #tp-body { overflow: auto; padding: 14px 16px 28px; -webkit-overflow-scrolling: touch; }
+    #tp-body .fl { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); margin: 4px 0 4px; }
+    #tp-body .body-text { white-space: pre-wrap; font-size: 15px; }
+    #tp-body .body-text.prescription { font-size: 13.5px; color: var(--ink-soft); margin-top: 12px; }
+    /* le texte inline en haut est redondant avec le panneau — on l'allège */
+    .context .body-wrap { max-height: 4.5em; overflow: hidden;
+      -webkit-mask-image: linear-gradient(#000 60%, transparent); mask-image: linear-gradient(#000 60%, transparent); }
+    .context .toggle { display: none; }
+    .context::after { content: "Texte complet : onglet « Texte » à droite ›"; display: block;
+      font-size: 12.5px; color: var(--rust); margin-top: 8px; }
+  }
 </style>
 </head>
 <body>
@@ -121,6 +155,13 @@
 
 <div id="app"></div>
 <div class="intro" id="intro"><h1>Chargement…</h1></div>
+
+<button id="text-tab" aria-label="Voir le texte de la fiche">📄 Texte</button>
+<div id="text-backdrop"></div>
+<aside id="text-panel" aria-hidden="true" aria-label="Texte de la fiche">
+  <div class="tp-head"><b>Texte de la fiche</b><button id="tp-close">Fermer ✕</button></div>
+  <div id="tp-body"></div>
+</aside>
 
 <script>
 // axis order for labelling: gravity first (required), then subject, then the rest
@@ -211,6 +252,9 @@ function render() {
       ${decisions[it.fiche_id].done ? '<span class="done-badge">✓ finie</span>' : ""}
     </div>
   </main>`;
+  const tb = document.getElementById("tp-body");
+  tb.innerHTML = `<div class="fl">Constats</div><div class="body-text">${esc(it.constats_body)}</div>` +
+    (it.prescription ? `<div class="fl">Prescription</div><div class="body-text prescription">${esc(it.prescription)}</div>` : "");
   wire();
 }
 
@@ -250,13 +294,13 @@ function submit() {
   if (!isAnswered("gravity")) { openSec = "gravity"; render(); return; }
   d.done = true; d.ts = Date.now(); d.reviewer = document.getElementById("reviewer").value.trim();
   persist();
-  if (idx < DATA.n - 1) { idx++; openSec = null; ctxCollapsed = false; render(); window.scrollTo(0,0); }
+  if (idx < DATA.n - 1) { idx++; openSec = null; ctxCollapsed = false; closeText(); render(); window.scrollTo(0,0); }
   else render();
 }
 
 // nav + keyboard
-document.getElementById("prev").onclick = () => { if (idx>0){ idx--; openSec=null; ctxCollapsed=false; render(); window.scrollTo(0,0);} };
-document.getElementById("next").onclick = () => { if (idx<DATA.n-1){ idx++; openSec=null; ctxCollapsed=false; render(); window.scrollTo(0,0);} };
+document.getElementById("prev").onclick = () => { if (idx>0){ idx--; openSec=null; ctxCollapsed=false; closeText(); render(); window.scrollTo(0,0);} };
+document.getElementById("next").onclick = () => { if (idx<DATA.n-1){ idx++; openSec=null; ctxCollapsed=false; closeText(); render(); window.scrollTo(0,0);} };
 document.addEventListener("keydown", e => {
   if (e.target.tagName === "INPUT" || document.getElementById("help-modal")) {
     if (e.key === "Escape") document.getElementById("help-modal")?.remove();
@@ -318,6 +362,19 @@ function openHelp() {
   document.body.appendChild(bg);
 }
 document.getElementById("help-btn").onclick = openHelp;
+
+// peek-from-the-side text panel
+const txtPanel = document.getElementById("text-panel"), txtBd = document.getElementById("text-backdrop");
+function openText() { txtPanel.classList.add("open"); txtBd.classList.add("on"); txtPanel.setAttribute("aria-hidden", "false"); }
+function closeText() { txtPanel.classList.remove("open"); txtBd.classList.remove("on"); txtPanel.setAttribute("aria-hidden", "true"); }
+document.getElementById("text-tab").onclick = openText;
+document.getElementById("tp-close").onclick = closeText;
+txtBd.onclick = closeText;
+let txtSwipeX = null;
+txtPanel.addEventListener("pointerdown", e => { txtSwipeX = e.clientX; });
+txtPanel.addEventListener("pointerup", e => { if (txtSwipeX != null && e.clientX - txtSwipeX > 60) closeText(); txtSwipeX = null; });
+// close on Escape (folds into the existing keydown via a capture check)
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeText(); });
 
 load();
 </script>
