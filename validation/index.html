@@ -115,13 +115,20 @@
   /* --- mobile (placé en fin de feuille pour l'emporter sur les règles de base) --- */
   @media (max-width: 860px) {
     .form { position: static; }                       /* pas de sticky en colonne unique */
-    .opt { padding: 9px 12px; font-size: 13.5px; min-height: 40px; }  /* cibles tactiles */
+    .opts { gap: 8px; }                               /* écarte les codes pour éviter les mis-taps */
+    .opt { padding: 11px 13px; font-size: 14px; min-height: 44px; }  /* cible tactile 44px */
     .opt .lbl { display: none; }                      /* le libellé passe en infobulle au tap */
+    /* le titre d'axe entier est la zone de tap pour son explication */
+    .field-label { padding: 10px 2px; margin: 10px 0 6px; cursor: pointer;
+                   display: flex; align-items: center; }
+    .field-label .info { width: 20px; height: 20px; font-size: 12px; margin-left: 8px; }
     header.bar { padding: 8px 12px; gap: 8px 10px; }
     header .title { font-size: 15px; width: 100%; margin-right: 0; }
+    header button { min-height: 40px; }
     .context, .modal { padding-left: 16px; padding-right: 16px; }
-    #tip.on { left: 12px !important; right: 12px; max-width: none;
-              top: auto !important; bottom: 14px; text-align: center; }
+    #tip { font-size: 14px; }
+    #tip.on { left: 10px !important; right: 10px; max-width: none;
+              top: auto !important; bottom: 12px; text-align: center; padding: 11px 14px; }
   }
 </style>
 </head>
@@ -193,7 +200,7 @@ function render() {
     const pressed = (o) => multi ? (val || []).includes(o) : val === o;
     const axisHelp = esc((DATA.axis_help || {})[field] || "");
     return `<div class="axis" data-field="${field}">
-      <div class="field-label">${AXIS_TITLE[field]}${multi ? " (multi)" : ""}<i class="info" data-help="${axisHelp}">ⓘ</i></div>
+      <div class="field-label" data-help="${axisHelp}">${AXIS_TITLE[field]}${multi ? " (multi)" : ""}<i class="info">ⓘ</i></div>
       <div class="opts">${opts.map(o =>
         `<button class="opt" data-opt="${o}" aria-pressed="${pressed(o)}"
           data-help="${esc((DATA.labels[o]||"") + " — " + ((DATA.code_help||{})[o]||""))}"
@@ -302,19 +309,21 @@ document.addEventListener("mousemove", e => { if (tip.classList.contains("on")) 
 document.addEventListener("mouseout", e => {
   if (e.target.closest("[data-help]")) tip.classList.remove("on");
 });
-// touch / no-hover : tap shows the definition as a transient bottom banner
-// (hover never fires on touch). Tapping a code both selects it AND explains it.
-if (!matchMedia("(hover: hover)").matches) {
-  let tipTimer;
-  document.addEventListener("click", e => {
-    const el = e.target.closest("[data-help]");
-    if (!el || !el.getAttribute("data-help")) return;
-    tip.textContent = el.getAttribute("data-help");
-    tip.classList.add("on");
-    clearTimeout(tipTimer);
-    tipTimer = setTimeout(() => tip.classList.remove("on"), 2800);
-  });
-}
+// Touch: tap shows the definition as a transient bottom banner (hover never
+// fires on touch). Detect touch by pointerType — robust across devices, unlike
+// the (hover) media query which many phones report as hover-capable.
+// Tapping a code both selects it AND explains it; tapping an axis title explains
+// the axis. Tapping the banner dismisses it.
+let tipTimer;
+document.addEventListener("pointerup", e => {
+  if (e.pointerType !== "touch") return;   // desktop keeps hover
+  const el = e.target.closest("[data-help]");
+  if (!el || !el.getAttribute("data-help")) return;
+  tip.textContent = el.getAttribute("data-help");
+  tip.classList.add("on");
+  clearTimeout(tipTimer);
+  tipTimer = setTimeout(() => tip.classList.remove("on"), 4000);
+});
 function moveTip(e) {
   const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
   let x = e.clientX + pad, y = e.clientY + pad;
