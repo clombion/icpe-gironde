@@ -1,0 +1,537 @@
+{
+  "total_audited": 130,
+  "errors_found": 69,
+  "corrections": [
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52004202025-01-2957214219800033f01",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52004202025-11-1257214219800033f05",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52004202025-11-1257214219800033f06",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52004202025-11-1257214219800033f08",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472024-12-2057214219800033f01",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472024-12-2057214219800033f02",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472024-12-2057214219800033f04",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472024-12-2057214219800033f05",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472024-12-2057214219800033f08",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472024-12-2057214219800033f09",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472024-12-2057214219800033f11",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472025-12-0457214219800033f03",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "smurfit-westrock-france52012762024-03-0549325490800046f03",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "smurfit-westrock-france52012762024-03-0549325490800046f04",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "smurfit-westrock-france52012762024-03-0549325490800046f05",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "smurfit-westrock-france52012762025-12-0249325490800046f01",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "sn-brudis-sas52084112025-03-1234287596000011f03",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "sn-brudis-sas52084112025-03-1234287596000011f05",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "sn-brudis-sas52084112025-03-1234287596000011f06",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "sn-brudis-sas52084112025-03-1234287596000011f08",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "sn-brudis-sas52084112025-03-1234287596000011f09",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soba-bennes-du-sud-ouest31065852022-09-1282122883000013f05",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soba-bennes-du-sud-ouest31065852022-09-1282122883000013f06",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soba-bennes-du-sud-ouest31065852022-09-1282122883000013f07",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soba-bennes-du-sud-ouest31065852022-09-1282122883000013f08",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soba-bennes-du-sud-ouest31065852022-09-1282122883000013f09",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soba-bennes-du-sud-ouest31065852023-02-2382122883000013f02",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soba-bennes-du-sud-ouest31065852023-09-2982122883000013f01",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soba-bennes-du-sud-ouest31065852023-09-2982122883000013f04",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102022-10-1344237668700012f02",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102022-10-1344237668700012f03",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102022-10-1344237668700012f04",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102022-10-1344237668700012f05",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102022-10-1344237668700012f06",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102022-10-1344237668700012f07",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102022-10-1344237668700012f08",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102022-10-1344237668700012f09",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102022-10-1344237668700012f10",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102022-10-1344237668700012f12",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102022-10-1344237668700012f14",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102022-10-1344237668700012f15",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102022-10-1344237668700012f16",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102022-10-1344237668700012f17",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102023-09-0644237668700012f08",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102023-09-0644237668700012f12",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Taxonomy: S02_INJONCTION = 'Demande formelle avec délai'. Constats body contains an explicit corrective demand with a numeric/dated deadline (systematic Hunter pattern: S02 never used across batch)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52004202025-11-1257214219800033f16",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Demande à formuler contains no numeric/dated corrective deadline (open-ended request) — m_DELAI over-applied; stage remains S01_CONSTAT."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472025-12-0457214219800033f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Demande à formuler contains no numeric/dated corrective deadline (open-ended request) — m_DELAI over-applied; stage remains S01_CONSTAT."
+    },
+    {
+      "slug": "smurfit-westrock-france52012762024-03-0549325490800046f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Demande à formuler contains no numeric/dated corrective deadline (open-ended request) — m_DELAI over-applied; stage remains S01_CONSTAT."
+    },
+    {
+      "slug": "smurfit-westrock-france52012762024-03-0549325490800046f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "m_MENACE"
+      ],
+      "reason": "Demande à formuler contains no numeric/dated corrective deadline (open-ended request) — m_DELAI over-applied; stage remains S01_CONSTAT."
+    },
+    {
+      "slug": "smurfit-westrock-france52012762025-05-0549325490800046f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Demande à formuler contains no numeric/dated corrective deadline (open-ended request) — m_DELAI over-applied; stage remains S01_CONSTAT."
+    },
+    {
+      "slug": "smurfit-westrock-france52012762025-05-0549325490800046f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Demande à formuler contains no numeric/dated corrective deadline (open-ended request) — m_DELAI over-applied; stage remains S01_CONSTAT."
+    },
+    {
+      "slug": "sn-brudis-sas52084112025-03-1234287596000011f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Demande à formuler contains no numeric/dated corrective deadline (open-ended request) — m_DELAI over-applied; stage remains S01_CONSTAT."
+    },
+    {
+      "slug": "sn-brudis-sas52084112025-03-1234287596000011f01",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S05_ESCALADE",
+      "reason": "Corps: 'L'inspection des installations classées propose au préfet de mettre en demeure l'exploitant' — formal MED proposal is the escalation act itself, not a mere observation/injunction (S01/S02)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472023-04-2057214219800033f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08_CONFORMITE",
+        "M01_DOCUMENTATION"
+      ],
+      "corrected_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "reason": "Corps décrit des déchets 'stockés en surcapacité' dans les alvéoles 1&2 (NC physique héritée du dépassement 2022), pas encore recouverts — ce n'est pas une conformité constatée (False M08)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472023-04-2057214219800033f05",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S03_CORRECTION",
+      "reason": "Action corrective en cours (transfert des déchets + couverture prévue sous 2 mois, DOE à l'issue des travaux)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472023-04-2057214219800033f05",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "NC physique (stockage en surcapacité) = G3 minimum, pas G2 (l'erreur venait du classement en pure NC documentaire)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472025-12-0457214219800033f09",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08_CONFORMITE"
+      ],
+      "corrected_value": [
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "Corps: 'Cf. fiche des constats concernant le suivi de la hauteur des lixiviats' — renvoie explicitement à la fiche f02 du même batch (même sujet, même site, même date), qui documente une NC (registre lixiviats incomplet au point haut), pas une conformité."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472025-12-0457214219800033f09",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Aligné sur f02 (même NC référencée): demande de compléter le registre."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472025-12-0457214219800033f09",
+      "field": "dynamic",
+      "hunter_value": "R13_NEUTRE_CONFORME",
+      "corrected_value": "R14_NEUTRE_NC",
+      "reason": "NC factuelle référencée (cf. f02), pas une conformité (False M08 → R13 est donc aussi faux)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472025-12-0457214219800033f09",
+      "field": "gravity",
+      "hunter_value": "G1",
+      "corrected_value": "G2",
+      "reason": "Aligné sur f02: NC purement documentaire (registre incomplet)."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472025-12-0457214219800033f09",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T4",
+      "reason": "Aligné sur f02: NC documentaire persistante par rapport à une demande similaire de 2024."
+    },
+    {
+      "slug": "soba-bennes-du-sud-ouest31065852022-09-1282122883000013f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Corps: 'Il est rappelé que ce type d'écart peut conduire à des sanctions administratives de type mise en demeure à défaut de mise en place des actions correctives nécessaires' — avertissement conditionnel explicite, m_MENACE omis par le Hunter (pattern c: sous-usage de m_MENACE)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102023-09-0644237668700012f12",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M02_MESURE"
+      ],
+      "corrected_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "reason": "Absence de capacité de rétention du silo à boues (NC physique héritée de 2022) — le nouveau silo est commandé mais pas encore installé; M02_MESURE (protocole de mesure) ne correspond pas au constat."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52083472022-10-0557214219800033f02",
+      "field": "dynamic",
+      "hunter_value": "R12_PRAGMATISME",
+      "corrected_value": "R07_CONTRAINTE_TECHNIQUE",
+      "reason": "Corps: 'L'exploitant indique qu'il ne trouve pas de poteaux plus hauts pour élever les filets' — signal explicite de contrainte technique invoquée par l'exploitant, plus fort que la lecture R12_PRAGMATISME (souplesse de l'inspection) retenue par le Hunter."
+    },
+    {
+      "slug": "smurfit-westrock-france52012762025-05-0549325490800046f02",
+      "field": "dynamic",
+      "hunter_value": "R13_NEUTRE_CONFORME",
+      "corrected_value": "R02_PROMESSE",
+      "reason": "Corps: 'L'exploitant s'est engagé à transmettre les éléments rapidement' — signal explicite d'engagement sur action future non vérifiable au moment de l'inspection (R13_NEUTRE_CONFORME n'est pas approprié: le PAC est en cours d'instruction, pas une conformité constatée)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102023-09-0644237668700012f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07_CONTROLE"
+      ],
+      "corrected_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "reason": "L'arrête-flammes/torchère reste physiquement absent (NC de 2022 non résolue, contrainte de zonage PLUi) — M07_CONTROLE (vérification) ne correspond pas; le constat central est la persistance de l'équipement absent."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102023-09-0644237668700012f13",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08_CONFORMITE"
+      ],
+      "corrected_value": [
+        "M07_CONTROLE"
+      ],
+      "reason": "Corps: 'L'exploitant a indiqué qu'il s'engageait à ce que le délai de 30 min [...] soit respecté' — c'est un engagement verbal (R02_PROMESSE), pas une conformité établie par preuve (False M08); relève du contrôle de l'organisation de surveillance (M07), pas d'une conformité constatée."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102023-09-0644237668700012f13",
+      "field": "gravity",
+      "hunter_value": "G1",
+      "corrected_value": "G3",
+      "reason": "NC de sécurité (délai d'intervention) non démontrée comme corrigée — reste au niveau G3 de la demande de 2022, pas G1 (conformité non prouvée par une simple déclaration verbale)."
+    },
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102023-09-0644237668700012f13",
+      "field": "trajectory",
+      "hunter_value": "T3",
+      "corrected_value": "T4",
+      "reason": "Aucune preuve de correction fournie (simple engagement verbal) — la NC de 2022 (délai 1h) n'est pas démontrée résolue, donc persistance (T4) plutôt qu'amélioration constatée (T3)."
+    }
+  ],
+  "false_positive_rate": 0.5308,
+  "error_patterns": "Systematic under-use of S02_INJONCTION: Hunter used S01_CONSTAT for 0/130 records with a formal corrective demand + deadline in constats_body (45 records reclassified S01->S02). Conversely, 7 records had m_DELAI applied to open-ended demands with no numeric/dated deadline (modifier removed, stage kept S01). One record (sn-brudis f01) had an active MED proposal to the prefect but was left at S01 instead of S05_ESCALADE. m_MENACE was under-applied once (soba f05, 2022-09-12) despite an explicit conditional MED threat ('à défaut de mise en place des actions correctives'). Two False-M08 errors found: a fiche describing an unresolved physical NC (waste overcapacity awaiting cover) tagged conforming, and a cross-reference fiche ('Cf. fiche des constats...') that inherited the wrong verdict instead of the referenced fiche's actual NC finding. A few mechanism mismatches where M07_CONTROLE or M02_MESURE were used for what is really a persisting physical NC (M14_CONSTAT_TECHNIQUE) once a corrective promise replaces the original constat. R10_TENSION was not used in this batch (pattern a not present).",
+  "verdict": "Hunter output is structurally sound (100% code validity, correct field shapes, 0% M15) but exhibits the known systematic S02_INJONCTION under-use pattern at very high frequency (45/130 = 35% of records affected) plus isolated False-M08 and mechanism-choice errors. After correction the batch is internally consistent with the taxonomy's stage/mechanism/gravity heuristics."
+}

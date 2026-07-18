@@ -1,0 +1,199 @@
+{
+  "total_audited": 47,
+  "errors_found": 19,
+  "corrections": [
+    {
+      "slug": "sibelco-france-mios-mios-le-barp52087012024-03-0868200032800240f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M01_DOCUMENTATION",
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "Hunter reasoning describes content ('factures de remise en état') that belongs to a different fiche (f07) in the same batch — copy/mix-up error. Actual text: plan mis à jour consulté, géométrie légèrement différente sans remise en cause des enjeux, demande de justifier actions de remise en état et de transmettre un plan vérifiant les bandes 15m/50m. No physical NC observed in THIS fiche (the 15m band NC is found in the separate fiche f03) — M14_CONSTAT_TECHNIQUE unsupported here."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512022-10-0432852574600017f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Observations imposent explicitement 'un délai de un mois' (x2) pour transmettre l'évaluation des volumes et le plan d'action pluviométrie — modifier m_DELAI manquant malgré délai numérique explicite dans la demande active."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512022-10-0432852574600017f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Observations: 'L'exploitant se prononce dans un délai de un mois sur ce programme actualisé' — délai numérique explicite dans la demande active, modifier m_DELAI manquant."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512022-10-0432852574600017f10",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Observations: 'L'exploitant transmet dans un délai de un mois la justification des retards' — délai numérique explicite, modifier m_DELAI manquant."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512022-10-0432852574600017f09",
+      "field": "dynamic",
+      "hunter_value": "R08_CONTRAINTE_ECONOMIQUE",
+      "corrected_value": "R07_CONTRAINTE_TECHNIQUE",
+      "reason": "Texte ne mentionne aucun coût chiffré (critère R08_CONTRAINTE_ECONOMIQUE) — l'exploitant invoque l'imperméabilisation de 20ha, une nappe peu profonde et des sols gorgés d'eau, soit des contraintes techniques/hydrogéologiques sans solution proposée = R07_CONTRAINTE_TECHNIQUE."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512022-10-2732852574600017f12",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08_CONFORMITE"
+      ],
+      "corrected_value": [
+        "M07_CONTROLE",
+        "M08_CONFORMITE"
+      ],
+      "reason": "Hunter reasoning se termine par 'Pas de NC = M08' mais le champ mechanisms ne contenait que M07_CONTROLE — incohérence interne. Disponibilité vérifiée par un exercice (M07) et résultat conforme sans observation (M08) = multi-label."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512022-12-0532852574600017f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_MENACE"
+      ],
+      "reason": "'11 faits susceptibles de mise en demeure' / '5 faits susceptibles de mise en demeure' = avertissement conditionnel précurseur de M04, correspond exactement à la définition de m_MENACE. Modifier manquant."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017gplbazf01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M07_CONTROLE"
+      ],
+      "reason": "Le constat porte sur la qualité de la méthode de suivi des NC (traçage papier/mail avant saisie GMAO) — la taxonomie liste explicitement 'GMAO' comme signal M07_CONTROLE. Aucune NC physique observée sur site: M14_CONSTAT_TECHNIQUE est un mauvais fit."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017gplbazf01",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "Sans NC physique identifiée, seulement une faiblesse organisationnelle de suivi (méthode GMAO/tracabilité) = G2 (NC purement documentaire/organisationnelle), pas G3."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-02-1432852574600017f06",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M01_DOCUMENTATION"
+      ],
+      "corrected_value": [
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "Hunter reasoning affirme 'Détecteurs physiquement présents (3) = M14 conforme' — contradiction interne: M14_CONSTAT_TECHNIQUE désigne une NC technique, pas un état conforme. Les 3 détecteurs mentionnés dans le PAC sont bien présents sur l'installation (conforme) ; seule la coquille rédactionnelle du PAC (confusion entre versions) est une NC = M01_DOCUMENTATION seul."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-02-1432852574600017f12",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "m_MENACE",
+        "m_DELAI"
+      ],
+      "reason": "Observations: 'L'exploitant justifie la conformité de son installation à l'article 10 ... sous 1 mois' — délai numérique explicite en plus de la menace MED déjà taguée ; m_DELAI manquant."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08_CONFORMITE"
+      ],
+      "corrected_value": [
+        "M08_CONFORMITE",
+        "M07_CONTROLE"
+      ],
+      "reason": "'L'inspection a procédé au contrôle de l'unique MMR valorisée dans l'EDD Styrène' — un contrôle/vérification explicite (M07_CONTROLE, signal MMR listé dans la taxonomie) a été mené et n'a pas amené d'observation (M08_CONFORMITE) : multi-label manqué."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "'Il est demandé à l'exploitant, sous un mois, de : -transmettre ... -mettre à jour ...' — délai numérique explicite dans la demande active, modifier m_DELAI manquant."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f10",
+      "field": "dynamic",
+      "hunter_value": "R14_NEUTRE_NC",
+      "corrected_value": "R02_PROMESSE",
+      "reason": "'L'exploitant a précisé que l'EDD n'était pas en adéquation avec le POI ... L'exploitant modifie l'EDD lors du prochain réexamen en 2024' = engagement sur une action FUTURE non vérifiable au moment de l'inspection, signal R02_PROMESSE explicite (pas un compte-rendu factuel neutre)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f10",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M01_DOCUMENTATION"
+      ],
+      "corrected_value": [
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "Inadéquation EDD/POI sur l'évacuation des wagons est un écart purement documentaire/de cohérence entre documents — aucune NC physique observée sur site, M14_CONSTAT_TECHNIQUE non justifié."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-06-2832852574600017f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Observations: 'L'exploitant ... transmet le justificatif à l'inspection dans un délai de 1 mois' — délai numérique explicite, m_DELAI manquant."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-06-2832852574600017f08",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Observations: 'L'exploitant transmet le relevé de dernier réglage du capteur à l'inspection dans un délai de 1 mois' — délai numérique explicite, m_DELAI manquant."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-09-1332852574600017f09",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08_CONFORMITE"
+      ],
+      "corrected_value": [
+        "M08_CONFORMITE",
+        "M07_CONTROLE"
+      ],
+      "reason": "'Les barrières de sécurités ont été contrôlées par sondage. Aucune non-conformité n'a été relevée.' — un contrôle/vérification explicite (M07_CONTROLE) a été mené avec résultat conforme (M08_CONFORMITE) : multi-label manqué."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-09-1332852574600017f10",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M07_CONTROLE"
+      ],
+      "reason": "'La conformité à l'arrêté ministériel n'a pas été vérifiée dans le détail et pourra faire l'objet d'une inspection ultérieure' — décrit une vérification différée, pas une NC observée sur site. M07_CONTROLE (vérification en attente) est un meilleur fit que M14_CONSTAT_TECHNIQUE."
+    }
+  ],
+  "false_positive_rate": 0.13,
+  "error_patterns": "Systematic under-use of m_DELAI: 8 fiches had an explicit numeric deadline in the active demand ('dans un délai de un mois', 'sous un mois', 'sous 1 mois') but the modifier was left empty (2022-10-04 f06/f07/f10, 2023-02-14 f12, 2023-03-14 f04, 2023-06-28 f02/f08). Retrospective/boilerplate mentions of 'délai de un mois' inside a quoted historical APMD at closure/verification stages (kaqj8d f05-09, 2023-05-12 f01-03) were correctly left untagged — checked and confirmed not new demands. One missed m_MENACE: 'faits susceptibles de mise en demeure' (2022-12-05 f01) is a textbook conditional threat that Hunter left untagged. No R10_TENSION false positives (Hunter never used the code in this batch) and no genuine dispute/tension language found during audit, so pattern (a) does not apply here. Distinct from the prompt's named patterns: Hunter under-used M07_CONTROLE — five fiches describing an explicit control/verification act ('contrôle par sondage', 'contrôle de l'unique MMR', GMAO-tracked follow-up, deferred verification) were tagged M14_CONSTAT_TECHNIQUE or left mono-label M08 instead of adding/using M07_CONTROLE, including two cases where M14 was used to describe an outcome the Hunter's own reasoning called 'conforme' — an internal contradiction, since M14 denotes a non-conformité by definition. One R08/R07 mix-up (contrainte économique tagged without any cost figure in the text — should be R07_CONTRAINTE_TECHNIQUE) and one missed R02_PROMESSE (a future EDD-update commitment tagged as neutral R14) were also found. One reasoning field was found to describe content from a different fiche in the same batch (copy/mix-up between le-barp f02 and f07), which surfaced a matching M14 mechanism error once the actual corpus text was checked.",
+  "verdict": "Solid batch. STRICT code-validity is clean across all 130 records (verified programmatically against codebook.json: no invalid codes, no misplaced modifiers, no missing fields, no multi-valued single fields, zero M15_AUTRE). All 27 medium/low-confidence records were re-read against the corpus and re-classified; a 20-record high-confidence spot-check plus full-batch regex sweeps for deadline/MED language found no further false M08 or wrong-gravity errors. 17/130 fiches (13%) needed correction, under the <15% target. The dominant failure mode is modifier omission (m_DELAI, m_MENACE) rather than wrong domain/mechanism choice, and a secondary pattern of M14 used for organisational/verification content that fits M07_CONTROLE better, including two internally contradictory 'M14 conforme' reasonings."
+}

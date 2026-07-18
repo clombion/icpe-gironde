@@ -1,0 +1,65 @@
+{
+  "total_audited": 130,
+  "errors_found": 6,
+  "corrections": [
+    {
+      "slug": "sas-melusine-energie31059802022-12-1585036642800017f02",
+      "field": "mechanisms",
+      "hunter_value": ["M04_MECONNAISSANCE", "M14_CONSTAT_TECHNIQUE"],
+      "corrected_value": ["M14_CONSTAT_TECHNIQUE"],
+      "reason": "M04_MECONNAISSANCE is not a valid taxonomy code (M04 = M04_MISE_EN_DEMEURE; 'méconnaissance' is a dynamique concept, already captured correctly by dynamic=R04_MECONNAISSANCE). Text ('ne sait pas si c'est un produit dangereux') matches M14's incertitude signal ('n'a pas pu préciser'), already present as the second mechanism in the array."
+    },
+    {
+      "slug": "sas-maubrac1001271942024-10-2534367907200011f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Demande text reads 'L'exploitant détaille dans un délai d'un mois : ...' — a numeric deadline (1 month) is explicitly imposed, matching m_DELAI ('Délai correctif imposé'). Hunter under-used the S02/m_DELAI pairing here."
+    },
+    {
+      "slug": "sas-sodia-aquitaine52112142025-10-1042434247500045f02",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande text ('L'exploitant doit justifier : - de la réparation... - de la présence de détecteurs...') contains no numeric deadline anywhere in constats_body or demande. m_DELAI requires an actual imposed delay; none is stated."
+    },
+    {
+      "slug": "scaso-soc-centrale-approvision-sud-ouest52006992025-10-2059695013900045f08",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "Demande text ('L'exploitant justifie... apporte la garantie... transmet l'attestation...') contains no numeric deadline. m_DELAI requires an actual imposed delay; none is stated in constats_body."
+    },
+    {
+      "slug": "sas-sodia-aquitaine52112142025-10-1042434247500045f04",
+      "field": "mechanisms/dynamic/gravity",
+      "hunter_value": {
+        "mechanisms": ["M08_CONFORMITE"],
+        "dynamic": "R13_NEUTRE_CONFORME",
+        "gravity": "G1"
+      },
+      "corrected_value": {
+        "mechanisms": ["M14_CONSTAT_TECHNIQUE"],
+        "dynamic": "R14_NEUTRE_NC",
+        "gravity": "G2"
+      },
+      "reason": "Text states safety devices (arrêts d'urgence, dispositif de communication, mise à la terre) are present but 'n'ont cependant pas été testés lors de l'inspection' — matches the M14 incertitude heuristic ('sans pouvoir confirmer') rather than M08_CONFORMITE, which requires a positive conformity finding. Gravity downgraded G1→G2 (untested/unverified, no confirmed physical defect)."
+    },
+    {
+      "slug": "scea-gauthier-pertignas1003050342025-12-1583163401900010f01",
+      "field": "domains/actor",
+      "hunter_value": {
+        "domains": ["D15_SECTEUR"],
+        "actor": "A02_INSPECTION"
+      },
+      "corrected_value": {
+        "domains": ["D12_ADMIN", "D15_SECTEUR"],
+        "actor": "A01_EXPLOITANT"
+      },
+      "reason": "M17_CLASSIFICATION (nomenclature threshold determination) consistently pairs with D12_ADMIN elsewhere in this batch (9/10 other M17 records); this one was the sole outlier with D15_SECTEUR only — missed multi-label. Actor was A02_INSPECTION but the fiche centers on the exploitant's own déroctage works and the seuils checked against his activity — A01_EXPLOITANT is the correct default."
+    }
+  ],
+  "false_positive_rate": 0.046,
+  "error_patterns": "Audit scope: all 11 medium-confidence records re-read against corpus (no low-confidence records exist in this batch), plus a spot-check of ~24 high-confidence records spanning M08/M14/M17/M19/M04 mechanisms and the sca/scea/scaso/sas company clusters. Structural STRICT-validity check run programmatically across all 130 records against the taxonomy-v5 code lists: found exactly the one known invalid code (M04_MECONNAISSANCE in mechanisms, sas-melusine-energie...017f02) — corrected by dropping it, since the dynamique already carried R04_MECONNAISSANCE and M14_CONSTAT_TECHNIQUE was already present as the technically-correct mechanism. Checked all three named systematic Hunter patterns: (a) R10_TENSION misuse — not applicable, R10_TENSION is not used anywhere in this batch (dynamic distribution is 65×R13, 61×R14, 2×R04, 1×R08, 1×R09, 0×R10, 0×R02); (b) S02_INJONCTION/m_DELAI pairing without a numeric deadline — found and fixed 3 instances: one missed m_DELAI (sas-maubrac...f01, 'délai d'un mois' in the demande) and two false-positive m_DELAI tags where the demande text sets no numeric deadline at all (sas-sodia-aquitaine...045f02, scaso...045f08); all other m_DELAI-tagged records (salanova f04/f05/f07, scaso52127702023 f05/f09) were verified to have an actual numeric deadline in the demande text ('sous X mois/jours') and needed no change. Also verified no S01_CONSTAT record has a non-empty demande field, and no S02/S05 record's demande contains an unflagged numeric deadline beyond the one caught above; (c) m_MENACE under-application — checked every occurrence of 'à défaut'/'faute de quoi'/'sous peine' across the batch corpus (3 literal hits plus one case-sensitivity miss on 'A défaut'); all four are ordinary regulatory 'or failing that' phrasing unrelated to a mise en demeure threat, not conditional MED warnings, so no m_MENACE additions were warranted. The batch's single existing m_MENACE tag (scaso...045f02, Seveso threshold breach with a draft MED arrêté attached to the report) was reviewed and left as-is — it is a precursor-to-M04 situation (draft/contradictory-phase, not yet a signed APMD), which is exactly what m_MENACE is defined to capture. One False-M08 error found (error type 1): sas-sodia-aquitaine...045f04 had safety devices whose presence was confirmed but whose function was explicitly untested ('n'ont cependant pas été testés'), which the taxonomy's M14 incertitude heuristic ('sans pouvoir confirmer') covers, not M08_CONFORMITE. One missed-multi-label + wrong-actor error (error types 5 and implicit actor mismatch): scea-gauthier-pertignas...010f01 was the only M17_CLASSIFICATION record in the batch missing the D12_ADMIN domain pairing that all 9 other M17 records carry, and had actor A02_INSPECTION where the fiche's content centers on the exploitant's own works. Also checked and found clean: MED-active + M14 combinations already gravity G4+ everywhere (no G2/G3-when-should-be-G4 errors); no T1 record mentions a prior inspection ('lors de l'inspection précédente', 'déjà constaté') anywhere in its corpus text; no R02_PROMESSE used anywhere in the batch, so error type 8 does not apply; the two non-default R04_MECONNAISSANCE dynamics (melusine-energie f02, salanova52013182025 f06) both have explicit exploitant-stated ignorance language ('ne sait pas si', 'ne pas avoir connaissance') and are correctly assigned.",
+  "verdict": "High quality batch. Hunter's structural STRICT-validity compliance was 129/130 (99.2%) before this audit, with a single known invalid code already flagged for review and confirmed/corrected here. Stage classification (S01 vs S02) was checked broadly, including for records whose corpus text lacks an explicit 'Demande à formuler' header — this is not itself an error signal in this corpus format (the header is frequently omitted even where a real regulatory violation implicitly requires correction, e.g. undeclared installations, threshold breaches, illegal waste burning); Hunter's stage calls held up correctly in every such case checked, including three medium-confidence sas-lelay records that were initially suspected of stage misclassification but were found on direct inspection to already carry the correct S01_CONSTAT (one of them explicitly marked 'Sans suite' by the inspector, which Hunter had already respected). Net error rate on this batch is 6/130 (4.6%), below the <15% target and consistent with the ~11% baseline observed across the full corpus. No M15_AUTRE usage. All corrections are narrow, single- or few-field fixes; no domain-axis or mechanism-axis errors beyond the two already listed were found in the sampled/audited set."
+}

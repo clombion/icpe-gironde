@@ -1,0 +1,2372 @@
+[
+  {
+    "slug": "smicotom52010262025-11-0525330070100021f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M03_REPORTING"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Nonylphénol mesuré et jamais dépassé = conformité sur ce point. Mais GIDAF inadapté car cadre non conforme = NC documentaire/reporting (M03). L'exploitant s'engage à transmettre bilan d'incohérences = R14 factuel. Pas de dimension physique sur la NC GIDAF = G2."
+  },
+  {
+    "slug": "smicotom52010262025-11-0525330070100021f09",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Première analyse prévue avant fin 2025, fréquence semestrielle sera respectée dans les délais. Prescription récente du 4 août 2025, délai tenable. Constat de conformité anticipée sans NC. G1 car pas d'écart."
+  },
+  {
+    "slug": "smicotom52010262025-11-0525330070100021f10",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Paramètres contrôlés mensuellement, dépassements ponctuels pH/phosphore/arsenic dûment justifiés et retour en conformité constaté dès l'analyse suivante. Correction confirmée = T3. G1 car conformité rétablie."
+  },
+  {
+    "slug": "smicotom52010262025-11-0525330070100021f11",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Analyse prévue le 13 novembre 2025 dans le délai réglementaire. Difficultés opérationnelles et financières mentionnées mais analyse planifiée conforme. Même profil que f09. G1 car pas de dépassement constaté, conformité attendue."
+  },
+  {
+    "slug": "smicotom52010262025-11-0525330070100021f12",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réseau d'injection aérien contrôlable, débitmètre positionné, processus entièrement manuel sous contrôle opérateur qualifié. Inspection juge la prescription satisfaite. Conformité constatée sur le bon état de fonctionnement contrôlable du réseau."
+  },
+  {
+    "slug": "smicotom52010262025-11-0525330070100021f13",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrat de maintenance avec contrôle semestriel, dernier rapport du 21/10/2025 : situation conforme, aucune maintenance à réaliser. Inspection juge satisfaisante la vérification. M07 pour le contrôle périodique + M08 pour la conformité constatée."
+  },
+  {
+    "slug": "smicotom52010262025-11-0525330070100021f14",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "5 lagunes étanchées état satisfaisant, capacités suffisantes (>15 jours), lagunes de réserve vides constatées le jour J, tableau hebdomadaire de suivi présenté. Repère de volume de réserve non matérialisé mais inspection ne le juge pas nécessaire ici. Globalement conforme."
+  },
+  {
+    "slug": "smicotom52010262025-11-0525330070100021f15",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas de bassin dédié au stockage de lixiviat à réinjecter — prescription inadaptée selon inspection. NC sur le fait que la prescription AP 2013 n'est pas respectée, mais inspection ne voit pas de risque et juge la prescription inadaptée. Demande de se positionner sur risque inhibition méthanogénèse. G2 car NC formelle/administrative, inspection ne retient pas de risque physique."
+  },
+  {
+    "slug": "smicotom52010262025-11-0525330070100021f16",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "L'inspection n'a pas vérifié la présence et le fonctionnement des vannes de coupure et pompes de relevage sur le terrain. Incertitude de constat (M14 à incertitude) — 'n'a pas vérifié'. Risque de débordement lagunes non écarté physiquement = G3 minimum par précaution (dispositif non confirmé fonctionnel)."
+  },
+  {
+    "slug": "smicotom52010262025-11-0525330070100021f17",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Globalement conforme (manomètre, sécurité automatique, réseau aérien). Mais réseau entre cuve et casiers masqué par végétation, détection de fuite pas aisée. Inspection note vigilance particulière nécessaire. M08 pour conformité globale, M14 pour le constat terrain sur la végétation masquant le réseau. G2 car le risque est mentionné mais reste potentiel/mineur documentaire."
+  },
+  {
+    "slug": "smicotom52010262025-11-0525330070100021f18",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Coupure électrique du 02/10/2025 a réinitialisé les paramètres d'archivage vidéo, écrasant toutes les données antérieures. NC physique/technique sur le système d'enregistrement (paramètres réinitialisés = hors service fonctionnel). Caméra ne permet pas d'identifier la nature des déchets. Demandes sous 15 jours/1 mois avec délais = m_DELAI. G3 car système d'enregistrement vidéo inopérant pour son objectif principal."
+  },
+  {
+    "slug": "smicotom52010262025-11-0525330070100021f19",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Journal d'indisponibilité transmis confirme 2 jours en 2024, 3 jours en 2025, toutes dues à maintenances transformateur. Bien en dessous du seuil de 10 jours. Conformité constatée. M01 pour la fourniture documentaire post-inspection, M08 pour la conformité du bilan."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Visite complète déchèterie : capacités totales conformes à celles enregistrées (DND et DD). Tableau de nomenclature présenté (2710-2 E et 2710-1 DC). Bâtiment CdC signalé. Conformité administrative constatée = M08 + M17. G1 car aucun dépassement ni écart."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f02",
+    "domains": [
+      "D01_INCENDIE",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plan DDS absent le jour de la visite mais transmis le 2/12/2025 avec photo d'affichage. NC résolue entre inspection et clôture du rapport. M01 pour l'absence initiale de document, M08 car NC résolue. T3 correction constatée."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f03",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchèterie intégralement clôturée, accès service fermé portail, horaires d'ouverture affichés, accès fermé à 12h45 (hors horaires). Clôtures intérieures interdisant l'accès du bâtiment CdC. Conformité totale constatée."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f04",
+    "domains": [
+      "D11_SECURITE",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Voie de service dimensionnée PL, locaux accessibles sur 2 façades, voies suffisamment larges. Pas de quai dénivelé. Conformité constatée sur accessibilité secours. G1."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f05",
+    "domains": [
+      "D10_ELECTRIQUE_ESP",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "NC initiale rapport Alpes Contrôle (tubes protection canalisation plastique) résolue : inspection constate chemins de câbles métalliques raccordés à la terre. NC levée = M08 + T3 (correction constatée lors de l'inspection)."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Détecteurs fumées dans DEEE, DDS et local personnel, raccordés SSI, alarme astreinte hors horaires, procédure maintenance planifiée dans VGP. Conformité constatée. M07 pour contrôles périodiques planifiés. G1."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Aménagement accordé par SDIS (courrier 09/03/2023), réserve 240m³ à 164m constatée accessible et équipée raccordement, téléphone portable, plans intervention affichés, 18+1 extincteurs. Conformité totale sur moyens incendie."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plan intervention v09/2025 présenté, plans évacuation v09/2025. Dossier PDI transmis SDIS le 02/12/2025. Conformité documentaire constatée, transmission post-inspection = NC résolue. T3."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f09",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fiches réflexe incendie et déversement/pollution présentées, conformes aux prescriptions réglementaires, affichées local personnel. Interdiction feu/fumée affichée entrée. Conformité totale."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f10",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pas de quai en hauteur, dépôt en alvéoles puis chargement par agents. Piétons sécurisés, pas de dénivelé à risque. Conformité constatée. G1."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f11",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "3 zones réemploi (préau meubles, matériaux, maison objets), surface cumulée <10% total, agents valoristes pour orientation. Conformité constatée sur zone réemploi."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f12",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fût huiles végétales usagées posé directement au sol sans rétention = NC physique terrain constatée. M14 car dispositif absent sur le terrain. Délai 15 jours imposé = m_DELAI. G3 car stockage de liquide potentiellement polluant sans rétention (dispositif absent)."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f13",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Inspection n'a pas pu identifier clairement le positionnement du point de prélèvement des eaux pluviales. Pas encore d'analyse (site ouvert 09/2025). M14 pour impossibilité terrain d'identifier point prélèvement. M01 pour absence de plan. Menace MED si pas de retour dans les délais = m_MENACE. G3 car conformité du rejet non vérifiable."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f14",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bassin maçonné vs géomembrané prévu, seules eaux toiture transitent par bassin (pas les eaux polluées voirie), capacité 260m³ non confirmée, exutoire à moitié immergé, niveau faible malgré fortes pluies. Plusieurs NC physiques terrain constatées sur le système de collecte eaux. G3 car fonctionnement du bassin non conforme et capacité non démontrée. m_MENACE car MED envisagée."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f15",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Site ouvert le 15/09/2025, mesure bruit programmée pour 2026. Première mesure dans l'année suivant démarrage = conforme (pas encore exigible). NC documentaire pure car mesure non encore due. G2 purement formel/calendaire."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f16",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Registres déchets sortants vérifiés par sondage via Trackdéchets et registre Brangeon, toutes informations prescrites présentes. Travaux en cours pour intégrer registres = amélioration. Conformité constatée."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f17",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Agents valoristes accueillent usagers, déchets dangereux (hors lampes/DEEE/piles/huiles) réceptionnés par personnel habilité, entreposés local DDS avec rétention. Pas de stockage à même le sol constaté. Conformité totale."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f18",
+    "domains": [
+      "D08_DECHETS",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Local DDS organisé correctement (classes, identification, pictogrammes, douche sécurité). Mais plan local DDS absent le jour de la visite et interdiction fumer non affichée. Plan transmis le 2/12/2025 avec photo. NC résolues post-inspection = T3. G2 car NC purement documentaire/formelle (plan manquant, panneau fumée)."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f19",
+    "domains": [
+      "D08_DECHETS",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Local DDS ventilé : entrée air partie basse, extraction mécanique, évacuation haute façade opposée, débouché loin des habitations. Débit extraction asservi détection fumées. Conformité totale ventilation/ATEX."
+  },
+  {
+    "slug": "smicval-reignac1000118152025-11-2825330661700015f20",
+    "domains": [
+      "D07_RETENTION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Information sur mode opératoire déversement et risques non affichée à proximité cuve huiles minérales. NC terrain constatée (affichage absent). Délai 15 jours. G3 car cuve huiles sans affichage requis = dimension sécurité physique (risque mélange huiles)."
+  },
+  {
+    "slug": "smicval-st-denis-de-pile52011632022-10-2488531095300017f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M09_PAC"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Dépassements août 2022 MES+DCO (ponctuels, justifiés). Cuve tampon lixiviats/eaux voirie toujours pas mise en place malgré engagement IED antérieur — 'l'exploitant n'a toujours pas mis en place'. M09 pour le porter-à-connaissance nécessaire avant abandon surveillance. T4 stagnation car même demande répétée depuis inspection 2021. R02 car exploitant a indiqué au printemps avoir missionné TERGYS (engagement futur non réalisé). Menace MED début 2023. G3."
+  },
+  {
+    "slug": "smicval-st-denis-de-pile52011632022-10-2488531095300017f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Dépassements persistants STEP eaux usées sanitaires : MES non conforme, dépassements DCO juillet/août, phosphore non conforme depuis juillet. Situation s'améliore depuis 2019 mais NC encore présentes. Exploitation SUEZ depuis juillet 2021 n'a pas résolu. Menace nouvelle MED si dépassement récurrent. T4 car NC persistante malgré interventions. G3."
+  },
+  {
+    "slug": "smicval-st-denis-de-pile52011632022-10-2488531095300017f03",
+    "domains": [
+      "D04_EAUX",
+      "D06_SOLS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Forage rebouché dans les règles. Anomalies P1B probablement d'origine agricole. Inspection valide prise en compte P4B pour surveillance eaux souterraines. Conformité sur ce point, amélioration du réseau piézométrique. T3."
+  },
+  {
+    "slug": "smicval-st-denis-de-pile52011632022-10-2488531095300017f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Exploitant n'a pas justifié de mesures de bruit. Même demande formulée lors inspection précédente 2021 non satisfaite. T4 stagnation. NC purement documentaire (absence de rapport de mesure) = G2. M01 pour absence de document de mesure."
+  },
+  {
+    "slug": "smicval-st-denis-de-pile52011632022-10-2488531095300017f05",
+    "domains": [
+      "D12_ADMIN",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M09_PAC",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Capacités déchèterie actualisées non portées à connaissance. Bac rétention huiles alimentaires plein et sale = NC physique terrain. M09 pour le PAC nécessaire sur actualisation nomenclature. M14 pour le bac de rétention plein et sale (état physique dégradé). T4 car même NC depuis 2021 (FSMD 6). G3 car bac rétention physiquement hors service (plein et sale)."
+  },
+  {
+    "slug": "smicval-st-denis-de-pile52011632024-07-0388531095300017f01",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Rapport IMPULSE avril 2024 : micro-station fonctionne conformément aux attentes, valeurs en sortie conformes. Sauf pH bilan décembre 2023 justifié par temps de lancement. Correction constatée depuis l'inspection 2022 qui demandait l'étude. T3. G1 conformité rétablie."
+  },
+  {
+    "slug": "smicval-st-denis-de-pile52011632024-07-0388531095300017f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Bassin lixiviats obturation faite (surverse stoppée = conforme pour ce sous-point). Mais cuve tampon séparation lixiviats/eaux voirie toujours pas installée. Exploitant fournit devis AKVO mais 'ne peut pas apporter d'éléments permettant de répondre à la demande'. T4 car même NC depuis 2021. R02 car exploitant indique étudier la possibilité (engagement futur). G3 car risque pollution eaux voirie non écarté."
+  },
+  {
+    "slug": "smicval-st-denis-de-pile52011632024-07-0388531095300017f03",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réserve incendie Sud : eaux chargées lixiviats, non démontré utilisable en incendie = non conforme. Réserve incendie centre de tri : volume non connu le jour de l'inspection = non conforme. Deux réserves incendie physiquement non conformes/incertaines. G3 car moyens incendie insuffisants/non démontrés. M14 pour les deux constats terrain."
+  },
+  {
+    "slug": "smicval-st-denis-de-pile52011632024-07-0388531095300017f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Rapport acoustique QCS déc. 2022 : émergence non respectée ZER1 et ZER2 jour et nuit. Exploitant explique les dépassements par travaux centre de tri et indique nouvelle mesure commandée pour 2024. M02 pour la qualité méthodologique douteuse (matériel possiblement non à jour, mesure lors de travaux). M14 pour les dépassements constatés. T4 car suite du constat 2022. R02 engagement mesure 2024. G3 car dépassements VLE sonores confirmés."
+  },
+  {
+    "slug": "smicval-st-denis-de-pile52011632024-07-0388531095300017f05",
+    "domains": [
+      "D12_ADMIN",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M09_PAC",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Tableau nomenclature actualisé non encore porté à connaissance (intégration au prochain PAC en cours). Bac rétention huiles alimentaires insuffisant pour 2 fûts. M09 pour PAC nécessaire. M14 pour bac rétention insuffisant (constat physique terrain). T4 même NC bac rétention depuis 2021. G3 car rétention insuffisante = NC physique avec risque pollution."
+  },
+  {
+    "slug": "smicval-st-denis-de-pile52011632024-07-0388531095300017f06",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport vérification protection foudre juin 2023 : 5 NC. Exploitant n'a pas pu fournir éléments montrant résorption. M07 car vérification périodique foudre a révélé NC non levées. M01 pour l'absence de justificatifs de résorption. Menace MED si pas de réponse. G3 car 5 NC foudre non résolues = risque technique avec sécurité installation."
+  },
+  {
+    "slug": "smicval-st-denis-de-pile52011632024-07-0388531095300017f07",
+    "domains": [
+      "D07_RETENTION",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dispositif d'arrêt d'urgence présent au niveau ensemble de mesurage pompe à essence. Ne pas appelle de commentaire. (Nota : inspection n'a pas testé = incertitude légère mais constat positif). G1 conformité constatée."
+  },
+  {
+    "slug": "smicval-st-denis-de-pile52011632024-07-0388531095300017f08",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant n'a pas pu attester que test bon fonctionnement coupure générale est réalisé au moins une fois par an. NC documentaire/absence de traçabilité. G2 car NC purement documentaire (absence d'attestation du test annuel)."
+  },
+  {
+    "slug": "smicval-st-denis-de-pile52011632024-07-0388531095300017f09",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Station service libre-service sans surveillance : pas de dispositif de communication permettant d'alerter immédiatement la personne désignée. NC physique terrain (équipement absent). M14 dispositif absent/manquant. G3 car dispositif de sécurité absent pour exploitation libre-service sans surveillance (risque accidentel)."
+  },
+  {
+    "slug": "smicval-st-denis-de-pile52011632024-07-0388531095300017f10",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Réserve absorbant présente sur site à proximité station service en quantité suffisante. Ne pas appelle de commentaires. Conformité constatée. G1."
+  },
+  {
+    "slug": "smicval-st-denis-de-pile52011632024-07-0388531095300017f11",
+    "domains": [
+      "D05_AIR_BRUIT",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Plainte reçue 23/04/2024 : milans noirs emportent déchets plastiques vers terrains voisins + nuisance sonore. Mesures mises en place (bâches, abri, sacs compostables) constatées partiellement. Inspection constate rapaces présents mais 1 seul aux andains. 'Prématuré de considérer que les mesures répondent totalement'. M14 car NC physique terrain (nuisances encore présentes). R02 car exploitant s'engage à maintenir mesures et mettre filet. G3 car nuisances avérées sur voisinage non entièrement résolues."
+  },
+  {
+    "slug": "smicval-vayres52125012025-03-2025330661700015f01",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PDI non transmis au SDIS et non disponible entrée site le jour de la visite. Plan entreposages intérieurs/extérieurs non à jour (dangers local DDS manquants). M01 pour absence/obsolescence documentaire. R02 car exploitant s'est engagé à envoyer SDIS dans les plus brefs délais. G2 car NC purement documentaire/formelle."
+  },
+  {
+    "slug": "smicval-vayres52125012025-03-2025330661700015f02",
+    "domains": [
+      "D01_INCENDIE",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exercice incendie 29/05/2024 avec compte-rendu. Informations dispensées opérateurs internes (livret accueil), prestataires chargement/déchargement (protocole sécurité), autres prestataires (plan prévention). Conformité sur formation/exercice."
+  },
+  {
+    "slug": "smicval-vayres52125012025-03-2025330661700015f03",
+    "domains": [
+      "D08_DECHETS",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "DEEE avec batteries lithium non séparés des autres DEEE. NC physique terrain constatée (dispositif de tri absent). M14 car équipement/organisation absent. G3 car risque incendie lithium si batteries endommagées lors manutention."
+  },
+  {
+    "slug": "smicval-vayres52125012025-03-2025330661700015f04",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Extincteurs + réserve eau vessie 120m³ avec prise raccordement SDIS. Rapports contrôle annuel réserve (16/10/2024) et extincteurs (22/03/2024) présentés, aucune remarque. M07 pour contrôles périodiques à jour. Conformité totale moyens incendie."
+  },
+  {
+    "slug": "smicval-vayres52125012025-03-2025330661700015f05",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de détecteur de fumée dans le local technique = NC physique terrain (dispositif absent). M14 équipement absent. R02 car exploitant a indiqué qu'il allait procéder à la mise en place. G3 car local technique sans détection incendie = risque sécurité réel."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf01",
+    "domains": [
+      "D12_ADMIN",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M09_PAC"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Volume DND estimé 765m³ vs 349m³ autorisé = dépassement important. Exploitant invoque incompréhension (n'avait pas comptabilisé bennes en attente, pourquoi capacité 2710-2 pas mise à jour lors travaux 2017-2018). R04 car exploitant invoque méconnaissance. PAC transmis fin mai 2023. M14 pour dépassement physique constaté. M09 pour PAC en cours. T4 car NC bénigne depuis inspection 2016 jamais vraiment résolue (ECART 3 persiste). G3 car dépassement significatif des seuils ICPE."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf02",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Site propre et bien entretenu le jour de l'inspection. Conformité constatée sur propreté/entretien. G1."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf03",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitation assurée par 3 ou 4 agents valoristes en fonction de l'activité. Personne nommément désignée présente. Conformité constatée sur personnel exploitation."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf04",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Portail de secours entrouvert, système de fermeture cassé par visiteur nocturne. NC physique terrain constatée : équipement de sécurité (fermeture) dégradé/hors service. M14. G3 car clôture/sécurité physiquement compromise. Délai 15 jours."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf05",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Accès sur RDV (lisser flux), 4 files entrée, locaux/bennes/aires accessibles secours, potelets et rembardes anti-chute quai haut. Conformité totale sur circulation et accès secours."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf06",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Seul le local DDS (75m²) a des détecteurs d'incendie. Locaux accueil, réemploi, réserve sans détecteurs. NC physique terrain (équipements absents dans plusieurs locaux). M14 pour absence équipements. G3 car locaux sans détection incendie = risque incendie potentiel non détecté."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Extincteurs + poteau incendie intérieur. Dernier contrôle Accord Incendie 14/10/2022 : débit 86m³/h à 1 bar. RAS. M07 pour vérification périodique à jour. NC 2016 (DEM 17) résolue = T3. Conformité totale moyens incendie."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf08",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plan intervention en façade bâtiment accueil + plan réseau collecte eaux. Mais pictogrammes de dangers pour local DDS absents du plan d'intervention. NC purement documentaire (plan incomplet). G2 car NC formelle sur document (pas de risque physique supplémentaire). Délai 15 jours."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf09",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Consignes exploitation affichées local accueil (incendie + déversement) et local DDS (manipulation substances chimiques). RAS. NC 2016 (ECART 7) résolue = T3. Conformité totale consignes."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf10",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Attestations de conformité Q18 et Q19 Qualiconsult 24/25 novembre 2022 présentées. M07 pour vérification périodique réalisée. Conformité totale installations électriques/matériels sécurité."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf11",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Suivi formations 4 agents présenté (générale + DDS), 1 agent inscrit recyclage DDS 28/06/2023, autres à jour. Conformité constatée sur formation personnel."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf12",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Potelets à chaque place de stationnement, rembardes pleines tout le long du quai, panneaux triangulaires oranges, zone basse réservée personnel avec clôture/chaînes, cheminement piéton haute. Rien n'empêchait circulation. NC 2016 (ECART 5) résolue = T3."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf13",
+    "domains": [
+      "D07_RETENTION",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Égouttures visibles au niveau zone déversement huiles de vidange + autour des fûts huiles alimentaires. Zone dégradée en partie basse quai (imperméabilisation). 3 NC physiques terrain constatées. M14 pour l'état physique dégradé. G3 car égouttures actives + zone non étanche = risque pollution sol/eau réel."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf14",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Plan réseau collecte eaux pluviales présenté, toutes eaux collectées et traitées par séparateur HC. Vidange par OSIS 25/11/2022 avec BSD Trackdéchets. NC 2016 (ECART 14) résolue = T3. Conformité totale."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf15",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Résultats 2022 : dépassements importants MES 730/100, DCO 763/300, métaux totaux 102.4/15 (dont 42.3 aluminium, 58 fer, 1.46 zinc). Dépassements très significatifs VLE confirmés. Résultats 2021 conformes. G4 car dépassements VLE confirmés sur eau avec concentrations très élevées. M14 pour les dépassements mesurés. m_MENACE car inspection se réserve possibilité MED."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf16",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Local DDS structure métallique ajourée façade et pleine toiture = prescriptions techniques. NC 2016 (ECART 4 et DEM 10) résolues = T3. Conformité totale local entreposage DD."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf17",
+    "domains": [
+      "D08_DECHETS",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Locaux grillagés = ventilation satisfaisante. NC 2016 (ECART 10) résolue = T3. Conformité constatée sur ventilation local DD."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf18",
+    "domains": [
+      "D08_DECHETS",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Bac roulettes absorbant pour réception DD, local DDS avec caillebotis intégral et cuvette rétention en dessous. Conformité constatée sur rétention local. NC 2016 résolue = T3."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf19",
+    "domains": [
+      "D01_INCENDIE",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Pictogrammes de risques affichés devant local DD. Mais non encore reportés sur plan d'intervention (renvoi au constat f08 et demande associée). NC purement documentaire (plan d'intervention incomplet). G2. M14 car constat en lien avec le document manquant (plan)."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf20",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Déchets dangereux réceptionnés via bac roulettes absorbant par agent valoriste, triés et entreposés local dédié par filière et compatibilité (plan + matrice affichés). Contenants identifiés. Accès public interdit. NC 2016 (ECART 6) résolue = T3. Conformité totale."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf21",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Local DDS bien organisé mais 2 NC : absence interdiction fumer affichée + DASRI au sol dans local (présence DASRI perforants). M14 pour la présence physique de DASRI au sol (stockage non conforme) et l'absence du panneau fumée. G2 car NC formelles/réglementaires documentaires (affichage manquant + conformité DASRI à vérifier), sans risque immédiat démontré."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf22",
+    "domains": [
+      "D07_RETENTION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Cuve huiles double enveloppe, détection fuite testée, jauge niveau, potelet protection, absorbant présent. Mais affiche information mode opératoire déversement et risques peu visible. NC persistante depuis 2016 (ECART 12). T4 car même NC. G2 car NC purement formelle/documentaire (affiche peu visible, pas de fuite ou écoulement)."
+  },
+  {
+    "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf23",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Suivi déchets dangereux éco-DDS, DEEE dangereux, piles non réalisé via Trackdéchets (utilisation obligatoire depuis 01/07/2022). Exploitant utilise plateformes éco-organismes. M03 pour non-utilisation Trackdéchets réglementaire. G2 NC purement documentaire/reporting."
+  },
+  {
+    "slug": "smurfit-kappa-distribution1000397382024-02-0630088337800063f01",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Stockage palettes bois susceptible d'être soumis réglementation ICPE. Exploitant n'a pas pu indiquer volume/tonnage exact au regard rubriques 1532 et 1510. 'Susceptible de constituer une NC'. M17 pour vérification seuil/classement ICPE. G2 car NC formelle/administrative (absence de détermination de classement, pas de risque physique confirmé)."
+  },
+  {
+    "slug": "smurfit-kappa-distribution1000397382024-02-0630088337800063f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Stockage papier/carton susceptible d'être soumis à ICPE. Exploitant n'a pas pu indiquer volume/tonnage exact au regard rubriques 1530 et 1510. 'Susceptible de constituer une NC'. M17 pour vérification classement. G2 NC administrative."
+  },
+  {
+    "slug": "smurfit-kappa-distribution1000397382024-02-0630088337800063f03",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Imprimerie sur carton susceptible d'être soumise à ICPE. Exploitant n'a pas pu indiquer quantité journalière produits d'impression au regard rubrique 2450. 'Susceptible de constituer une NC'. M17 pour vérification classement. G2 NC administrative."
+  },
+  {
+    "slug": "smurfit-kappa-distribution1000397382024-02-0630088337800063f04",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Atelier transformation cartons susceptible d'être soumis à ICPE. Exploitant n'a pas pu indiquer capacité de production précise au regard rubrique applicable. 'Susceptible de constituer une NC'. M17 pour vérification classement. G2 NC administrative."
+  },
+  {
+    "slug": "smurfit-kappa-distribution1000397382024-02-0630088337800063f05",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Synthèse des 4 fiches précédentes : exploitant soumis à plusieurs rubriques ICPE, demande de vérification globale de sa situation administrative. M17 pour la vérification globale du classement ICPE. G2 NC administrative globale."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202022-12-0757214219800033f01",
+    "domains": [
+      "D04_EAUX",
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M12_IED_MTD"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "NEA-MTD MES+DCO annoncés non tenus fin 2022 (dérogations expirées 01/05/21). Dérogation NOx four à chaux conforme. Exploitant annonce mesures correctives (nouveau bac décantation, remplacement méthaniseur) = R02 engagement futur. Menace MED si planning de mise en conformité non transmis. T4 car même NC depuis expiration dérogation sans résolution. G3 car dépassements NEA-MTD confirmés sur rejets aqueux."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202022-12-0757214219800033f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M03_REPORTING",
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "GIDAF renseigné mensuellement mais novembre/décembre non encore saisis au jour de l'inspection. Blanc non conforme dans rapport contrôle annuel juin 2022 (discrédite le résultat). Délai transmission prestataire > 1 mois. M03 pour GIDAF incomplet. M02 pour blanc non conforme qui invalide mesure. G2 NC documentaire/reporting sans dimension physique directe. Exploitant doit recadrer prestataire."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202022-12-0757214219800033f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fréquences de mesure des rejets aqueux respectées (journalières MES/DCO/azote/phosphore, bi-hebdo DBO5, mensuelles AOX etc., trimestrielles HCT/métaux). Conformité constatée sur fréquences. Corps très court, renvoi à fiche f02 pour blanc contaminé. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202022-12-0757214219800033f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION",
+      "M03_REPORTING"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle de recalage réalisé le 9/11/22 mais rapport pas disponible le jour de l'inspection. Rappel: résultats doivent être saisis dans GIDAF. M01 pour indisponibilité du rapport. M03 pour la saisie GIDAF non effectuée. NC purement documentaire/formelle = G2."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202022-12-0757214219800033f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Dépassements VLE multiples confirmés: MES (journaliers jan-fév, mars, avr jusqu'à 200mg/l vs 130), DCO (journaliers jan, mars, avr jusqu'à 1400mg/l vs 740), phosphore mensuel (11 vs 10mg/l avr), indice phénol (valeur très supérieure VLE juillet), AOX mensuel (1,296 vs 1mg/l juin). Température > 35°C de mai à octobre (jusqu'à 38°C en juillet). Dépassements journaliers dans tolerance 2xVLE <10% pour MES/DCO/phosphore/phénol. AOX dépassement mensuel NC. Action corrective javel efficace pour AOX. G3 car dépassements VLE confirmés sur rejets aqueux. T4 contexte NC persistante NEA-MTD."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202022-12-0757214219800033f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Température rejets > 35°C (AP autorisation) de mai à octobre (jusqu'à 38°C juillet). Convention SIBA 04/10/22 tolère 38°C mais AP est la référence réglementaire opposable. Exploitant s'engage à intégrer demande d'aménagement dans dossier autorisation (avant 31/12/2022) = R02. M14 pour dépassements constatés. M09 pour le PAC à venir. G3 car NC VLE température confirmée. T4 car NC déjà mentionnée inspection 12/02/21."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202022-12-0757214219800033f07",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fréquences de mesure atmosphériques respectées. Corps très court, conformité constatée sur fréquences mesure air. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202022-12-0757214219800033f08",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Résultats mesure annuelle chaudière LN conformes SAUF STR (DMS > VLE 5mg/Nm3 annuel et 10 journalier) pour première fois sans explication physique. Nouvelles mesures vérification lancées fin novembre (résultats pas encore connus). M14 pour dépassement VLE STR constaté. M07 car révélé par contrôle périodique annuel. Menace suites admin si non levée. G3 car dépassement VLE émissions atmosphériques confirmé (première occurrence, incertitude sur cause)."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202022-12-0757214219800033f09",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Résultats mesure annuelle four à chaux (1 conduit) conformes. Conformité totale constatée sur émissions atmosphériques four à chaux. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202022-12-0757214219800033f10",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation stripping condensats: contrôle juin — DMS non déterminé (problème prise échantillon). Contrôle octobre — H2S non conforme (pH soude incorrect). Rapport avril 2022 fait apparaître SO2 (556 vs 120 mg/Nm3) et NOx (920 vs 400 mg/Nm3) non conformes non justifiés. Multiple NC VLE confirmées sur installation stripping. Menace suites admin. G3 car dépassements VLE multiples confirmés. Nouveau contrôle prévu décembre."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202022-12-0757214219800033f11",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Tour nouvelles installations stripping effluents + collecte térébenthine: 4 NC terrain constatées: (1) affichage fonctionnement déluge moussant absent (présenté en séance = pas encore posé); (2) efficacité répartition moussant sur surface rétention à tester; (3) rétention poste empotage aérienne (vs enterrée prévue au PAC) avec surface différente — effets feu de nappe à justifier; (4) attestations coupe-feu murs bac clarificateur et TC72 non transmises. G3 car NC physiques sur installations SEVESO térébenthine (liquide inflammable) avec systèmes de sécurité non démontrés conformes."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-01-1857214219800033f01",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport mesure annuelle chaudière LN (juin 2022): version préliminaire 16/09, version finale 11/01/2023 = plus de 6 mois après mesures. Exploitant n'avait pas fixé de délai dans CDC. M02 pour délai de réception rapport hors délais réglementaires (1 mois). R04 car exploitant invoque absence de délai dans CDC = méconnaissance de l'obligation. G2 car NC purement organisationnelle/documentaire (mesures réalisées, résultats finalement disponibles)."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-01-1857214219800033f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Deux émissaires chaudière LN équipés mesure continue T°, pression, O2 gaz résiduaires. Aucun écart constaté. Conformité totale sur mesure continue paramètres de combustion. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-01-1857214219800033f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Analyseur CO+H2O cheminée 10A hors service depuis fin novembre 2022 (délais réparation constructeur). NC depuis novembre: mesure en continu vapeur d'eau non assurée sur 10A. M14 car équipement de mesure hors service depuis ~2 mois. Exploitant réfléchit à matériel de rechange = R02 engagement potentiel. G3 car instrument de surveillance continue hors service = surveillance lacunaire d'une installation IED/SEVESO."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-01-1857214219800033f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "STR mesure continue chaudière LN: dérogation accordée dans AP post-CODERST IED, mesure périodique suffisante (article 11.4). Aucun écart constaté. Conformité constatée sur ce point. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-01-1857214219800033f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Four à chaux utilise gaz et biogaz: exemption de mesure continue STR applicable (article 10.3). Aucun écart constaté. Conformité totale. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-01-1857214219800033f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fluor mesure continue chaudière LN: flux mesuré 0,012 kg/h << seuil 5 kg/h déclenchant mesure continue. Aucun écart constaté. Conformité totale. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-01-1857214219800033f07",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Brome et acide cyanhydrique: exploitant 'n'a pas été en mesure de prouver' que flux < 2 kg/h (seuil mesure continue). Chlore et H2S prouvés sous le seuil. M14 pour incertitude sur flux ('n'a pas été en mesure de prouver/démontrer'). Délai: mesures dans 2 mois post-redémarrage. G3 car obligation de surveillance continue potentiellement non respectée pour substances toxiques (brome, HCN) sans pouvoir le démontrer."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-01-1857214219800033f08",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Liqueur noire: fiches DGPR/DGEC la classent comme déchet (rubrique 277x). Exploitant doit justifier statut sous-produit selon 6 critères Directive 2008/98/CE. Chaudière non classée 277x. M17 pour nécessité de déterminer classement rubrique applicable. Délai 2 mois pour justifications. G3 car si liqueur noire = déchet sans classement 277x = NC majeure sur régime ICPE applicable à installation SEVESO/IED."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-01-1857214219800033f09",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Certificat QAL1 AMS NOx chaudière LN et four à chaux contrôlé (date validité, étendue mesure, plage). Aucun écart constaté. M07 pour vérification périodique QAL1. Conformité totale. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-01-1857214219800033f10",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Contrôles QAL2 et AST AMS chaudière LN 2021-2022: nombreuses NC (R² poussières <0,6/<0,57 vs >0,8 attendu, QAL2 non conformes CO/O2/poussières, AST non conformes CO/O2/NOx/humidité) sans aucune mesure corrective retenue. AMS CO conduit 10A et O2 des 2 conduits non fiables depuis ≥2 ans. M07 pour les contrôles QAL2/AST révélant les NC. M14 pour les appareils physiquement non conformes/non fiables. T4 car NC persistantes 2021→2022 sans action. Menace suites admin. G3 car mesures de surveillance continues IED/SEVESO non fiables = lacune majeure."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-01-1857214219800033f11",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "QAL3 NOx chaudière LN et four à chaux: réalisé tous les 3 mois, dernier 22/12/2022 sans anomalie. M07 pour contrôle périodique QAL3. Aucun écart constaté. Conformité. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-01-1857214219800033f12",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Paramétrage outil calcul moyennes horaires validées (soustraction intervalle confiance 95%) pour SO2, NOx, Poussières contrôlé sans écart. Conformité totale sur paramétrage AMS. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-01-1857214219800033f13",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Droites d'étalonnage AMS conduits 10A+10B chaudière LN (SO2) comparées aux derniers contrôles QAL2: aucun écart. M07 pour vérification étalonnage QAL2. Conformité totale. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-05-0457214219800033f01",
+    "domains": [
+      "D04_EAUX",
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M12_IED_MTD"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T7",
+    "confidence": "high",
+    "reasoning": "NEA-MTD MES+DCO non conformes bilan 2022 (dérogations expirées 01/05/21). NOx four à chaux conforme. Projet STEP 12M€ présenté (démarrage janvier 2025). Exploitant souhaite dérogation supplémentaire. M12 pour NC NEA-MTD IED persistante. R02 car exploitant s'engage à déposer dossier dérogation sous 15j. Menace MED à défaut. T7 car NC depuis expiration dérogation mai 2021 = >2 ans au moment de l'inspection mai 2023. G3 car dépassements NEA-MTD eau confirmés."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-05-0457214219800033f02",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Inventaire bois en tonnes (55,6 kt écorces + 17 kt plaquettes + 110 kt bois brut) mais pas d'outil conversion tonnes→volumes. Rubrique 1532 réglementée en volumes. NC sur capacité à démontrer conformité. M17 car vérification seuil classement ICPE 1532 impossible sans conversion. Menace MED si non-conformité avérée. G2 car NC purement formelle/administrative (volumes probablement conformes mais non démontrables)."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-05-0457214219800033f03",
+    "domains": [
+      "D07_RETENTION",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Stocks substances dangereuses présentés: térébenthine 15m³ vs 32m³ autorisés, fioul lourd 364t vs 500m³ autorisé, fioul léger 27m³ = limite. Tous conformes aux niveaux maximum autorisés. Conformité constatée sur inventaire stocks dangereux. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-05-0457214219800033f04",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Volumes rétentions cohérents avec volumes liquides: térébenthine 72,6m³ > 32m³, fioul lourd 500m³ = 500m³ (vigilance jonction ancienne/nouvelle), fioul léger cuve 1000L dans rétention 1400L. Conformité constatée par sondage. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-05-0457214219800033f05",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI",
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rétention fioul lourd RC14: désordre D3 (classe 3 selon guide DT92) constaté lors dernière surveillance. Guide impose actions correctives dans délai 3 ans. Exploitant a mis en place surveillance renforcée mais pas de plan d'actions correctives. M07 car contrôle périodique surveillance PM2I révèle NC. M14 car désordre physique D3 sur ouvrage de rétention. Menace suites admin. Délai 15 jours. G3 car rétention fioul lourd avec désordre structurel non traité = risque pollution réel."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202023-05-0457214219800033f06",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rétentions térébenthine, fioul lourd et fioul léger constatées étanches, isolées réseau EP, volumes disponibles le jour de l'inspection. Conformité totale sur disponibilité rétentions. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-08-2957214219800033f01",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure MOC globale présentée et conforme: validation chef département, notification croisée, point quotidien changement d'équipe. Liste MOC consultée. Consignation vannes sprinklage PK1/PK4 constatée sur place (cadenas, barrette consignation). M07 pour vérification terrain du fonctionnement de la procédure. Conformité constatée sur processus MOC global. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-08-2957214219800033f02",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "MOC ne permet pas identification claire et unique des organes coupés: vannes sprinklage PK1/PK4 non numérotées, MOC ne fait référence qu'aux postes sprinklage sans identifier précisément les vannes. M14 pour NC physique sur organisation (équipements de sécurité non identifiables précisément dans documents de consignation). G3 car identification lacunaire des organes de sécurité consignés dans installation SEVESO = risque intervention sur mauvais organe."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-08-2957214219800033f03",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consignations tracées dans tableaux dédiés par zone + reprises dans MOC mais pas de registre global 'cahier de shunt'. Organisation ne permet pas d'identifier rapidement l'ensemble des consignations en cours en cas d'incident/accident. M14 pour lacune organisationnelle physique (pas de registre centralisé). M01 pour absence de document de suivi centralisé. G3 car en cas d'incident sur installation SEVESO, impossibilité d'identifier rapidement les barrières de sécurité hors service = risque aggravé."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-08-2957214219800033f04",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Formation MOC réalisée lors mise en place + tutoriels disponibles. Mais pas de suivi réel des formations/habilitations des personnes aptes à poser des shunts ou valider leur pose. M01 pour absence de traçabilité des formations/habilitations MOC. G2 car NC purement documentaire/formelle (traçabilité absente mais formation initialement réalisée). Pas de dimension physique directe."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-12-0357214219800033f01",
+    "domains": [
+      "D04_EAUX",
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M12_IED_MTD",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Bilan 2023: DCO dépasse BREF de 9% mais conforme aux VLE de la dérogation accordée 13/06/2024. MES, azote, phosphore conformes. Bilan 2024 partiel: rejets aqueux conformes aux VLE BREF sans même utiliser la dérogation, grâce à ajout boues biologiques + centrifugeuse temporaire. STEP prévue mars 2025. R01 car exploitant a pris des mesures proactives (boues biologiques + centrifugeuse) permettant conformité avant STEP. T3 car amélioration constatée par rapport aux bilans 2022-2023. G2 car avec dérogation conforme (NC formelle subsistante au regard strict du BREF)."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-12-0357214219800033f02",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M03_REPORTING",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "GIDAF renseigné mensuellement. Rapport contrôle annuel atmosphérique (15-16/05/2024) transmis 30/09/2024, complément N2O réalisé septembre et transmis 27/11/2024. Délais respectés (< 1 mois après résultats complets). M03 pour GIDAF + transmission rapport. Conformité constatée. T3 car amélioration par rapport aux retards constatés en 2022. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-12-0357214219800033f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fréquences mesure rejets aqueux respectées (journalières MES/DCO/azote/phosphore, bi-hebdo DBO5, mensuelles AOX/phénols/métaux, trimestrielles HCT/chrome/cuivre etc.). Conformité constatée. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-12-0357214219800033f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contrôle recalage réalisé 01/09/2024, résultats saisis dans GIDAF. M07 pour contrôle périodique annuel. Conformité totale. T3 par rapport à 2022 (rapport non disponible). G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-12-0357214219800033f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Dépassements VLE 2024: DCO journaliers jan-fév (769 vs 740 mg/l), température juin-août > 38°C (cf. f06), MES journaliers jan/mai/juin (jusqu'à 224 vs 130 mg/l). Moyennes mensuelles conformes pour DCO/MES (tolérance 2xVLE <10%). Aucun dépassement indice phénol (amélioration). M14 pour dépassements journaliers VLE confirmés. T4 car NC température récurrente depuis 2022. G3 car dépassements VLE eaux confirmés (température + MES + DCO même si dans tolérance mensuelle)."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-12-0357214219800033f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "18 dépassements température (38°C) entre mai et août, max 41,2°C. Pic juillet → alerte SIBA. Projet 'évapo' (remplacement TAR par tours adiabatiques, 62M€) prévu 2027. R02 car exploitant présente projet évapo = engagement futur. M14 pour dépassements VLE température confirmés. M09 pour PAC prévu 2025. T4 car NC température récurrente depuis au moins inspection 2022. G3 car dépassements VLE confirmés avec alerte milieu récepteur."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-12-0357214219800033f07",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fréquences mesure atmosphériques respectées. Corps très court. Conformité constatée. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-12-0357214219800033f08",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Résultats mesure annuelle chaudière LN (2 cheminées, mai + N2O septembre): tous conformes. M07 pour contrôle annuel. T3 par rapport aux NC STR de 2022. Conformité totale. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-12-0357214219800033f09",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Résultats mesure annuelle four à chaux (1 conduit, mai + N2O septembre): tous conformes. M07 pour contrôle annuel. Conformité totale sur émissions atmosphériques four à chaux. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-12-0357214219800033f10",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Stripping condensats: SO2 non conforme (194 vs 120 mg/Nm3). Installation en cours de fiabilisation: seuls SOG injectés, CNCG non utilisé. Nouvel injecteur CNCG attendu fin 2024/début 2025. M14 pour dépassement VLE SO2 confirmé. R02 car exploitant s'engage à installer nouvel injecteur. Délai nouveau contrôle sous 3 mois. T4 car NC stripping persistante depuis au moins 2022 (SO2/NOx non conformes constatés inspection 2022). G3 car dépassement VLE SO2 confirmé sur installation IED."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-12-0357214219800033f11",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Recyclage eaux: STEP pour lavage rondins, recyclage eaux refroidissement, séparation eaux peu contaminées MAP6. Étude technico-économique transmise justifie >50% eau recyclée → exemption article 3. M08 conformité démontrée par étude. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-12-0357214219800033f12",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Sécheresse 2023: uniquement niveau 'vigilance'. Sensibilisation personnel mise en place. Corps très court. Conformité constatée sur gestion sécheresse. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-12-0357214219800033f13",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M03_REPORTING"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Volumes prélevés déclarés via GIDAF (nouvelle méthode). Aucun niveau crise atteint. M03 pour reporting GIDAF en place. M08 conformité constatée. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-12-0357214219800033f14",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant exempté article 3. Présentation état des lieux prélèvements/rejets (points 1+6 exigibles): sans remarque. Volume référence déterminé. Projet évapo mentionné (investissement impactant ressource eau). Conformité constatée. G1."
+  },
+  {
+    "slug": "smurfit-westrock-cellulose-du-pin52004202024-12-0357214219800033f15",
+    "domains": [
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant exempté article 3 (>50% eau recyclée). Dispositions article 2 non applicables. Corps très court: 'L'exploitant n'est pas concerné par cet article'. M08 conformité constatée (exemption valide). G1."
+  }
+]

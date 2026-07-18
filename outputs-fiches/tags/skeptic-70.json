@@ -1,0 +1,400 @@
+{
+  "total_audited": 130,
+  "corpus_reread": 51,
+  "errors_found": 39,
+  "corrections": [
+    {
+      "slug": "soc-cooperat-agricole-cuma-de-st-emilion52092102025-08-1144237668700012f01",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "soc-franc-constr-mecaniques-electriques52000012024-02-2259645008000012f01",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "soc-franc-constr-mecaniques-electriques52000012024-02-2259645008000012f03",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "soc-franc-constr-mecaniques-electriques52000012024-02-2259645008000012f05",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI', 'm_MENACE'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI', 'm_MENACE'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "soc-franc-constr-mecaniques-electriques52000012024-02-2259645008000012f10",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "soc-generale-d-archives1000274062023-09-1273820764600246f03",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "soc-generale-d-archives1000274062023-09-1273820764600246f05",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "societe-des-nouveaux-hypermarches1000429032024-03-2548759616500117f04",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "societe-des-nouveaux-hypermarches1000429032024-03-2548759616500117f09",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "societe-des-nouveaux-hypermarches1000429032024-03-2548759616500117f11",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "societe-des-nouveaux-hypermarches1000429032024-03-2548759616500117f13",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "societe-des-nouveaux-hypermarches1000429032025-02-1748759616500117f01",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "societe-des-nouveaux-hypermarches1000429032025-02-1748759616500117f02",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "societe-des-nouveaux-hypermarches1000429032025-02-1748759616500117f03",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "societe-des-nouveaux-hypermarches1000429032025-02-1748759616500117f04",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "socoreg52009692025-09-0449326200000018f02",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sofrilog-ouest52054902023-06-0978803455100101f01",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sofrilog-ouest52054902023-06-0978803455100101f03",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sofrilog-ouest52054902023-06-0978803455100101f05",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sofrilog-ouest52054902023-06-0978803455100101f06",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sofrilog-ouest52054902023-06-0978803455100101f07",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sofrilog-ouest52054902023-06-0978803455100101f08",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sofrilog-ouest52054902023-06-0978803455100101f12",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sofrilog-ouest52054902023-06-0978803455100101f16",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sogimac1000134532024-02-1332030463700038f01",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sogimac1000134532024-02-1332030463700038f04",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI', 'm_MENACE'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI', 'm_MENACE'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sogimac1000134532024-02-1332030463700038f06",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sogimac1000134532024-02-1332030463700038f07",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sogimac1000134532024-02-1332030463700038f08",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI', 'm_MENACE'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI', 'm_MENACE'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sogimac1000134532024-02-1332030463700038f10",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sogimac1000134532024-02-1332030463700038f11",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sogimac1000134532024-02-1332030463700038f12",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI', 'm_MENACE'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI', 'm_MENACE'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sogimac1000134532024-02-1332030463700038f13",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "sogimac1000134532024-02-1332030463700038f14",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI', 'm_MENACE'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI', 'm_MENACE'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "solutions-polymeres52087372023-02-2898847565300016f13",
+      "field": "mechanisms/modifiers",
+      "hunter_value": "modifiers ['m_DELAI'] placed inside mechanisms array",
+      "corrected_value": "['m_DELAI'] moved to modifiers array",
+      "reason": "STRICT rule: modifiers (m_DELAI, m_MENACE) go only in `modifiers`, never in `mechanisms`."
+    },
+    {
+      "slug": "societe-cooperative-agricole-univitis-les-leves-et-thoumeyragues-village-des-bouhets-sud533208462022-07-2733055838800014f03",
+      "field": "domains",
+      "hunter_value": [
+        "D11_INCIDENT"
+      ],
+      "corrected_value": [
+        "D04_EAUX"
+      ],
+      "reason": "D11_INCIDENT is not a valid taxonomy code (D11 is D11_SECURITE, unrelated to personnel safety here). Both undeclared incidents are water discharges (wine spill to milieu naturel, ERI rejected into the Gravouse via a torn lagoon liner) -> D04_EAUX."
+    },
+    {
+      "slug": "societe-cooperative-agricole-univitis-les-leves-et-thoumeyragues-village-des-bouhets-sud533208462022-07-2733055838800014f15",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M02_MESURE"
+      ],
+      "reason": "False M14: absence d'une analyse de sol de suivi justifiée est un défaut de protocole/fréquence de mesure (M02_MESURE), non un constat physique direct sur site."
+    },
+    {
+      "slug": "societe-cooperative-agricole-univitis-les-leves-et-thoumeyragues-village-des-bouhets-sud533208462022-07-2733055838800014f15",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Reclassification lève l'ambiguïté qui justifiait la confiance medium."
+    },
+    {
+      "slug": "societe-des-nouveaux-hypermarches1000429032024-03-2548759616500117f14",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "False M14: la pollution est sur une parcelle tierce voisine, non sur le site inspecté; le point à corriger est une information documentaire manquante (destination des rejets), pas un constat physique direct."
+    },
+    {
+      "slug": "societe-des-nouveaux-hypermarches1000429032024-03-2548759616500117f14",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Reclassification lève l'ambiguïté qui justifiait la confiance medium."
+    },
+    {
+      "slug": "sofrilog-ouest52054902023-06-0978803455100101f19",
+      "field": "mechanisms/dynamic/gravity",
+      "hunter_value": {
+        "mechanisms": [
+          "M14_CONSTAT_TECHNIQUE"
+        ],
+        "dynamic": "R14_NEUTRE_NC",
+        "gravity": "G2"
+      },
+      "corrected_value": {
+        "mechanisms": [
+          "M08_CONFORMITE"
+        ],
+        "dynamic": "R13_NEUTRE_CONFORME",
+        "gravity": "G1"
+      },
+      "reason": "False M14 (should be M08): le produit biocide reste couvert par les mesures transitoires de l'article 89.2 du BPR tant que la dernière substance active du produit n'est pas approuvée — situation identique et analogue à la fiche soeur f20 jugée conforme."
+    },
+    {
+      "slug": "sofrilog-ouest52054902023-06-0978803455100101f19",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Reclassification lève l'ambiguïté qui justifiait la confiance medium."
+    },
+    {
+      "slug": "societe-des-nouveaux-hypermarches1000429032024-03-2548759616500117f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Over-applied m_DELAI (Hunter pattern b): Demande de réparer la borne d'appel assistance et d'en expliquer les causes, sans délai chiffré dans le texte. STRICT rule requires a numeric deadline in text to justify m_DELAI; S02_INJONCTION is kept since a formal 'Demande à formuler' is still present."
+    },
+    {
+      "slug": "societe-des-nouveaux-hypermarches1000429032024-03-2548759616500117f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Over-applied m_DELAI (Hunter pattern b): Demande de transmettre un document attestant la vérification de l'obturateur, sans délai chiffré dans le texte. STRICT rule requires a numeric deadline in text to justify m_DELAI; S02_INJONCTION is kept since a formal 'Demande à formuler' is still present."
+    },
+    {
+      "slug": "societe-des-nouveaux-hypermarches1000429032024-03-2548759616500117f13",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Over-applied m_DELAI (Hunter pattern b): Demande de préciser qui a procédé à la destruction des cuves/séparateur, sans délai chiffré dans le texte. STRICT rule requires a numeric deadline in text to justify m_DELAI; S02_INJONCTION is kept since a formal 'Demande à formuler' is still present."
+    },
+    {
+      "slug": "societe-des-nouveaux-hypermarches1000429032025-02-1748759616500117f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Over-applied m_DELAI (Hunter pattern b): Demande de transmettre un document attestant la vérification de l'obturateur (suite 2025), sans délai chiffré dans le texte. STRICT rule requires a numeric deadline in text to justify m_DELAI; S02_INJONCTION is kept since a formal 'Demande à formuler' is still present."
+    },
+    {
+      "slug": "sofrilog-ouest52054902023-06-0978803455100101f12",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Over-applied m_DELAI (Hunter pattern b): Le 'délai de 48h' évoqué est une exigence de protocole de prélèvement, pas un délai correctif imposé; aucun délai chiffré de correction n'est donné. STRICT rule requires a numeric deadline in text to justify m_DELAI; S02_INJONCTION is kept since a formal 'Demande à formuler' is still present."
+    },
+    {
+      "slug": "sogimac1000134532024-02-1332030463700038f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Over-applied m_DELAI (Hunter pattern b): La 'Demande à formuler' ne fait que rappeler la règle des 7 m; le délai d'1 mois cité ('d'ici 1 mois') est une annonce de l'exploitant, non un délai imposé par l'inspection. STRICT rule requires a numeric deadline in text to justify m_DELAI; S02_INJONCTION is kept since a formal 'Demande à formuler' is still present."
+    },
+    {
+      "slug": "sogimac1000134532024-02-1332030463700038f10",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Over-applied m_DELAI (Hunter pattern b): Demande de mettre en place un plan de défense incendie, sans délai chiffré dans le texte. STRICT rule requires a numeric deadline in text to justify m_DELAI; S02_INJONCTION is kept since a formal 'Demande à formuler' is still present."
+    },
+    {
+      "slug": "solutions-polymeres52087372023-02-2898847565300016f13",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "Over-applied m_DELAI (Hunter pattern b): Demande de mise à jour des consignes de sécurité, sans délai chiffré dans le texte. STRICT rule requires a numeric deadline in text to justify m_DELAI; S02_INJONCTION is kept since a formal 'Demande à formuler' is still present."
+    }
+  ],
+  "false_positive_rate": 0.3,
+  "error_patterns": "Dominant systemic error: on all 130 records, Hunter placed m_DELAI/m_MENACE inside the `mechanisms` array instead of `modifiers` (STRICT violation, fixed on the 35 records that actually carried a modifier -- 33 m_DELAI-only-affected + overlap of 4 records also carrying m_MENACE) — `modifiers` was empty on every Hunter record. Pattern (b), S02/m_DELAI over-application: on 8 of the 35 modifier-bearing records, Hunter attached m_DELAI to a formal 'Demande à formuler' that carries no numeric deadline in the corpus text (e.g. hypermarches f09/f11/f13, hypermarches-2025 f03, sofrilog f12, sogimac f01/f10, solutions-polymeres f13) -- S02_INJONCTION was kept (a formal demande is still present) but the m_DELAI modifier was removed since STRICT requires an explicit number in text. In the 20+ records checked with an explicit 'sous X mois/jours' or dated deadline, S02+m_DELAI was applied correctly, so this is a systematic over-eagerness rather than a blanket rule. No inverse case (numeric deadline present but Hunter left S01) was found in the audited sample. Pattern (a), R10_TENSION misuse: not present in this batch -- R10_TENSION was never assigned by Hunter, so no correction was needed; the one clear 'unfulfilled past promise' case (village f03, 2020 incident notification never filed) was already correctly tagged R14_NEUTRE_NC rather than R10. Pattern (c), m_MENACE under-application: not found in the audited sample -- the 5 records with explicit conditional MED threat language ('à défaut', 'expose l'exploitant à de possibles suites administratives de type mise en demeure') all already carried m_MENACE (soc-franc-constr f05 and sogimac f04/f08/f12/f14); no missed candidates surfaced in the 51 corpus-reread records. One invalid taxonomy code: village f03 used domain 'D11_INCIDENT' (does not exist; D11 is D11_SECURITE) for two undeclared water-discharge incidents (wine spill, ERI rejected into the Gravouse) -- corrected to D04_EAUX. Three false-M14 cases where Hunter over-used the 'physical constat' mechanism for what were really a measurement/monitoring-protocol gap (village f15: soil follow-up analysis not programmed -> M02_MESURE), a documentary tracing request about a neighbouring parcel's pollution (hypermarches-2024 f14 -> M01_DOCUMENTATION), and a case that was actually compliant under BPR transitional provisions and should never have been flagged as NC at all (sofrilog f19, mirrors sibling fiche f20 -> M08_CONFORMITE, G1, R13_NEUTRE_CONFORME).",
+  "verdict": "Hunter's semantic classification (domain/mechanism selection logic, R-code discipline, gravity heuristics) is sound: no false M08, no R10 misuse, no over-aggressive M17, no missed multi-label, and the M08/M14/M01/M07 priority order was followed correctly across the audited sample. The batch's real problem is mechanical STRICT-format compliance: every single record misplaced its modifiers, and roughly a quarter of the m_DELAI-bearing records attached that modifier without textual support. Both are fixed deterministically in final-70.json. Net quality after correction: high."
+}

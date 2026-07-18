@@ -1,0 +1,362 @@
+{
+  "total_audited": 60,
+  "errors_found": 25,
+  "corrections": [
+    {
+      "slug": "sarl-moulin-du-caouley52008782022-06-0732368394600012f10",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08_CONFORMITE",
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M08_CONFORMITE",
+        "M09_PAC"
+      ],
+      "reason": "\"Niveau de prélèvement non fixé dans les arrêtés\" is a gap in the AP itself, not a physically observed NC. False M14 -> M09_PAC (AP needs a modification)."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f11",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M01_DOCUMENTATION",
+        "M07_CONTROLE"
+      ],
+      "reason": "New EP system works well; the 4 outstanding demands (curage, signage, procedure, plan update) are documentary/maintenance, not physical degradation. False M14."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f11",
+      "field": "dynamic",
+      "hunter_value": "R13_NEUTRE_CONFORME",
+      "corrected_value": "R14_NEUTRE_NC",
+      "reason": "4 formal demands with explicit delays remain open; not conforme."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f11",
+      "field": "stage",
+      "hunter_value": "S03_CORRECTION",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Constats body issues formal demands with numeric delays (1 mois, 3 mois); nothing on these points is yet corrected."
+    },
+    {
+      "slug": "sas-j-dubourg52034892022-09-2781742313000019f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "Depth of extraction explicitly conforme; the actual demand is plan/GF coherence, a documentary issue. False M14."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412022-10-1185021387700010f01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M04_MISE_EN_DEMEURE"
+      ],
+      "corrected_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "reason": "Full-text search finds zero occurrences of \"demeure\" anywhere in this fiche; it is a plain injunction with a 6-month delay, not a MED."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412022-10-1185021387700010f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M04_MISE_EN_DEMEURE"
+      ],
+      "corrected_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "reason": "No MED text anywhere in this fiche (verified by full-text search); plain injunction, 6-month delay."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412022-10-1185021387700010f04",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M04_MISE_EN_DEMEURE"
+      ],
+      "corrected_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "reason": "No MED text anywhere in this fiche; plain injunction, 3-month delay."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412022-10-1185021387700010f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M04_MISE_EN_DEMEURE"
+      ],
+      "corrected_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "reason": "No MED text anywhere in this fiche; plain injunction, 6-month delay."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412022-10-1185021387700010f06",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M04_MISE_EN_DEMEURE"
+      ],
+      "corrected_value": [
+        "M02_MESURE"
+      ],
+      "reason": "No MED text in fiche (M04 removed); absence of monitoring is a methodological gap (M02), not an observed physical NC (M14), for consistency with the near-identical sibling fiche f07."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412022-10-1185021387700010f06",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "Purely a surveillance/documentary gap with no physical dimension described; matches the G2 given to the near-identical sibling fiche f07."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412022-10-1185021387700010f07",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M02_MESURE",
+        "M04_MISE_EN_DEMEURE"
+      ],
+      "corrected_value": [
+        "M02_MESURE"
+      ],
+      "reason": "No MED text anywhere in this fiche; plain injunction, 6-month delay."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-avenue-andre-ampere1000030412022-10-1185021387700010f08",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M04_MISE_EN_DEMEURE"
+      ],
+      "corrected_value": [
+        "M02_MESURE"
+      ],
+      "reason": "No MED text in fiche (M04 removed); \"n'a pas été en mesure de justifier\" the noise levels is an absence-of-measurement issue (M02), not a directly observed physical NC (no activity was even occurring during the visit)."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f08",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Constats body contains an explicit numeric-delay demand (\"sous 1 mois\"); Hunter left it at S01 despite the deadline."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f09",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Constats body contains an explicit numeric-delay demand (\"sous 1 mois\")."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132023-07-1985021387700010f09",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G4",
+      "reason": "Prescription block contains an active MED (\"est mise en demeure de respecter...dans un délai de 3 mois\", point 2 annexe I) directly matching the NC technique described (composants plastiques non démontés) — per taxonomy heuristic \"G4 si MED active + NC technique concomitante\", Hunter under-graded this to G3."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M04_MISE_EN_DEMEURE",
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "reason": "This year's Prescription for the auvent point has no active MED text; the only MED language present is a QUOTED conditional threat from the prior year (\"si l'écart perdure en 2024, l'inspection pourra proposer...mise en demeure\"). False M04 -> should be m_MENACE, not an active MED."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Under-applied m_MENACE: live conditional threat of MED carried over from the prior year's demand, still hanging over the unresolved auvent issue."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f01",
+      "field": "stage",
+      "hunter_value": "S03_CORRECTION",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Auvent still not in place; a fresh 3-month delay was set, nothing has actually been corrected yet."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08_CONFORMITE"
+      ],
+      "corrected_value": [
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "\"Demande à formuler\" field is empty, but the fiche's real demand is embedded in the \"Constats et demande suite à la dernière inspection\" section: a traçabilité system required within 1 month with a conditional MED threat. Hunter read only the empty field and missed the substantive demand -> false M08."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "\"sous 1 mois\" delay and \"A défaut, l'inspection pourra proposer...mise en demeure\" conditional threat, both missed because they sit in a section after the (empty) formal demand field."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f02",
+      "field": "dynamic",
+      "hunter_value": "R13_NEUTRE_CONFORME",
+      "corrected_value": "R14_NEUTRE_NC",
+      "reason": "Real outstanding demand exists; not conforme."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f02",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Formal demand with explicit 1-month delay."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f02",
+      "field": "gravity",
+      "hunter_value": "G1",
+      "corrected_value": "G2",
+      "reason": "Purely documentary NC (absence of traçabilité system), not conformity."
+    },
+    {
+      "slug": "sas-capy-la-teste-de-buch-436-av-de-l-aerodrome52079132024-02-0785021387700010f02",
+      "field": "trajectory",
+      "hunter_value": "T3_AMELIORATION",
+      "corrected_value": "T1_PREMIER",
+      "reason": "New forward-looking demand, not a resolution of a prior NC."
+    },
+    {
+      "slug": "sas-distillerie-douence52013822023-02-2832849829000035f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Constats body ends with the explicit conditional threat \"L'absence de réalisation des actions supra expose l'exploitant à des suites administratives de type mise en demeure\" — textbook m_MENACE, missed."
+    },
+    {
+      "slug": "sas-distillerie-douence52013822023-02-2832849829000035f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_MENACE"
+      ],
+      "reason": "Same conditional-threat closing sentence present; missed."
+    },
+    {
+      "slug": "sas-distillerie-douence52013822023-02-2832849829000035f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Same conditional-threat closing sentence present; missed."
+    },
+    {
+      "slug": "sas-distillerie-douence52013822023-02-2832849829000035f06",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Same conditional-threat closing sentence present; missed."
+    },
+    {
+      "slug": "sas-distillerie-douence52013822023-02-2832849829000035f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Same conditional-threat closing sentence present; missed."
+    },
+    {
+      "slug": "sarl-les-pierres-de-frontenac-frontenac-bignon52095902024-05-3045070130500036f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric delay anywhere in the text for the remaining demand (\"formaliser la procédure d'entretien\"); m_DELAI over-applied."
+    },
+    {
+      "slug": "sas-carrefour-stations-service52098742025-09-1750476710400087f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric delay anywhere in the text; m_DELAI over-applied."
+    },
+    {
+      "slug": "sas-distillerie-douence52013822025-09-0332849829000035f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric delay in the demand itself (\"cette année\" is contextual, not an imposed deadline); m_DELAI over-applied."
+    },
+    {
+      "slug": "sas-distillerie-douence52013822025-09-0332849829000035f17",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric delay anywhere in the text; m_DELAI over-applied."
+    },
+    {
+      "slug": "sas-distillerie-douence52013822025-09-0332849829000035f20",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric delay anywhere in the text; m_DELAI over-applied."
+    },
+    {
+      "slug": "sas-la-compagnie-des-pruneaux533250712025-01-0780372646200010f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "No numeric delay anywhere in the text; m_DELAI over-applied."
+    }
+  ],
+  "false_positive_rate": 0.42,
+  "error_patterns": "Three systematic patterns dominate, all confirmed present in this batch: (1) M04_MISE_EN_DEMEURE over-application: Hunter tagged M04 on 7 consecutive fiches of the sas-capy-la-teste-de-buch-avenue-andre-ampere / 2022-10-11 inspection where the corpus contains zero occurrences of \"demeure\" anywhere in the fiche (verified by full-text search across all 24 M04-tagged records in the batch) -- these are plain injunctions with numeric delays, not MEDs. A related variant appears in 2 fiches of the 2024-02-07 capy inspection where M04 was applied to a QUOTED conditional threat from the prior year's report rather than an active MED for the current point -- corrected to m_MENACE instead. (2) m_MENACE under-application: the sas-distillerie-douence 2023-02-28 inspection closes every open-item fiche with the identical sentence 'L'absence de réalisation des actions supra expose l'exploitant à des suites administratives de type mise en demeure' -- a textbook conditional MED threat -- yet Hunter never tagged m_MENACE across any of the 5 fiches carrying it (f01, f03, f05, f06, f07). (3) m_DELAI over-application: 6 records across 4 different companies had m_DELAI attached to demands with no numeric deadline anywhere in the text (contextual phrases like 'cette année' were mistaken for imposed delays). Beyond these three flagged patterns, additional False-M14 errors were found: Hunter repeatedly classified administrative/regulatory gaps (AP missing a provision), pure documentation gaps (plan coherence, absent traçabilité system), and absence-of-measurement issues (no monitoring in place, no noise measurement taken) as M14_CONSTAT_TECHNIQUE (physically observed NC) when no physical degradation was actually described in the text -- corrected to M09_PAC, M01_DOCUMENTATION, or M02_MESURE depending on the specific gap. One clear gravity miscalibration (G3 should be G4 per the 'MED active + NC technique concomitante' rule) and 3 stage miscalibrations (S01_CONSTAT should be S02_INJONCTION given an explicit numeric-delay demand in the constats body) were also found and corrected, all within the same MED-related record cluster. No instances of R10_TENSION misuse were found (Hunter never used R10 in this batch, so pattern (a) from the audit brief does not apply here).",
+  "verdict": "Batch quality is below the project's <15% error target: 25/60 audited fiches (42%) required at least one field correction, concentrated almost entirely in one recurring company (sas-capy-la-teste-de-buch, 4 inspection dates) whose report format apparently confused Hunter -- quoted historical MED/threat language from prior-year sections was repeatedly read as this year's active enforcement action, and 'Demande à formuler' fields left blank in the primary field caused Hunter to miss substantive demands embedded further down in the document. Outside this cluster (sarl-les-pierres, sarl-moulin-du-caouley, sas-brochard, sas-des-vignobles, sas-j-dubourg, sas-la-compagnie-des-pruneaux, sas-carrefour), Hunter's tagging was accurate and the sampled high-confidence records held up under spot-check. All corrections apply cleanly against the STRICT code-validity rules -- post-correction validation against the full taxonomy vocabulary found 0 invalid codes, 0 cross-axis contamination (mechanisms/modifiers), 0 multi-valued single fields, and 0 missing fields across all 130 records."
+}

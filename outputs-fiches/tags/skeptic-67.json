@@ -1,0 +1,501 @@
+{
+  "total_audited": 61,
+  "errors_found": 37,
+  "corrections": [
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f13",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M08_CONFORMITE"
+      ],
+      "corrected_value": [
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "reason": "False M08 (error type 1): justification écrite n'est pas une preuve de conformité, la vitesse d'éjection reste non corrigée. R02_PROMESSE mal appliqué à une explication de contrainte technique passée plutôt qu'à un engagement futur. m_DELAI manquant alors qu'un délai de 3 mois est explicitement mentionné dans le corps."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f13",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "False M08 (error type 1): justification écrite n'est pas une preuve de conformité, la vitesse d'éjection reste non corrigée. R02_PROMESSE mal appliqué à une explication de contrainte technique passée plutôt qu'à un engagement futur. m_DELAI manquant alors qu'un délai de 3 mois est explicitement mentionné dans le corps."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f13",
+      "field": "dynamic",
+      "hunter_value": "R02_PROMESSE",
+      "corrected_value": "R07_CONTRAINTE_TECHNIQUE",
+      "reason": "False M08 (error type 1): justification écrite n'est pas une preuve de conformité, la vitesse d'éjection reste non corrigée. R02_PROMESSE mal appliqué à une explication de contrainte technique passée plutôt qu'à un engagement futur. m_DELAI manquant alors qu'un délai de 3 mois est explicitement mentionné dans le corps."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f13",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G3",
+      "reason": "False M08 (error type 1): justification écrite n'est pas une preuve de conformité, la vitesse d'éjection reste non corrigée. R02_PROMESSE mal appliqué à une explication de contrainte technique passée plutôt qu'à un engagement futur. m_DELAI manquant alors qu'un délai de 3 mois est explicitement mentionné dans le corps."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f13",
+      "field": "stage",
+      "hunter_value": "S03_CORRECTION",
+      "corrected_value": "S01_CONSTAT",
+      "reason": "False M08 (error type 1): justification écrite n'est pas une preuve de conformité, la vitesse d'éjection reste non corrigée. R02_PROMESSE mal appliqué à une explication de contrainte technique passée plutôt qu'à un engagement futur. m_DELAI manquant alors qu'un délai de 3 mois est explicitement mentionné dans le corps."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f13",
+      "field": "trajectory",
+      "hunter_value": "T3_AMELIORATION",
+      "corrected_value": "T4_STAGNATION",
+      "reason": "False M08 (error type 1): justification écrite n'est pas une preuve de conformité, la vitesse d'éjection reste non corrigée. R02_PROMESSE mal appliqué à une explication de contrainte technique passée plutôt qu'à un engagement futur. m_DELAI manquant alors qu'un délai de 3 mois est explicitement mentionné dans le corps."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f13",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "medium",
+      "reason": "False M08 (error type 1): justification écrite n'est pas une preuve de conformité, la vitesse d'éjection reste non corrigée. R02_PROMESSE mal appliqué à une explication de contrainte technique passée plutôt qu'à un engagement futur. m_DELAI manquant alors qu'un délai de 3 mois est explicitement mentionné dans le corps."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f13",
+      "field": "reasoning",
+      "hunter_value": "Constat 07/08/2024: vitesse d'éjection 5,4 m/s < prescrit. Constat du jour: exploitant a justifié par courrier que la vitesse faible est liée au nombre réduit de lignes, réduction de diamètre impossible. Justification documentaire acceptée. M14 pour NC technique initiale (vitesse insuffisante), M08 pour justification acceptée. R02 car l'exploitant a fourni justification écrite sans correction physique. G2 car NC formelle/documentaire (pas d'action physique corrective réalisée). T3 car situation clarifiée.",
+      "corrected_value": "Constat 07/08/2024: vitesse d'éjection 5,4 m/s < 8 m/s requis (débit 36900 m3/h). Délai de 3 mois imposé pour améliorer la dispersion. Constat du jour: l'exploitant n'a pas corrigé la vitesse, il justifie par courrier que la valeur faible est due au nombre réduit de lignes en fonctionnement et indique qu'une réduction du diamètre de cheminée créerait une perte de charge empêchant de refonctionner avec 6 lignes. C'est une explication d'impossibilité technique, pas une preuve de conformité ni une correction : M14 seul (NC physique persistante), pas M08. R07_CONTRAINTE_TECHNIQUE car contrainte technique invoquée pour ne pas corriger. G3 minimum car NC physique sur rejets atmosphériques. T4_STAGNATION car la vitesse d'éjection non conforme n'a pas évolué, seule une justification a été apportée.",
+      "reason": "False M08 (error type 1): justification écrite n'est pas une preuve de conformité, la vitesse d'éjection reste non corrigée. R02_PROMESSE mal appliqué à une explication de contrainte technique passée plutôt qu'à un engagement futur. m_DELAI manquant alors qu'un délai de 3 mois est explicitement mentionné dans le corps."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14_CONSTAT_TECHNIQUE",
+        "M01_DOCUMENTATION"
+      ],
+      "corrected_value": [
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "False M14 (error type 2): aucun défaut physique observé, seulement des demandes de justification/documentation. m_DELAI appliqué sans délai chiffré dans le texte (pattern b)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "False M14 (error type 2): aucun défaut physique observé, seulement des demandes de justification/documentation. m_DELAI appliqué sans délai chiffré dans le texte (pattern b)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f05",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "False M14 (error type 2): aucun défaut physique observé, seulement des demandes de justification/documentation. m_DELAI appliqué sans délai chiffré dans le texte (pattern b)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f05",
+      "field": "reasoning",
+      "hunter_value": "Stratégie perte d'utilité interne/externe en place (conforme). Mais deux demandes: onduleur sirène POI à justifier autonomie >45min, délestage autocom à préciser. M14 pour NC technique identifiée (autonomie onduleur sirène non démontrée). M01 pour justification documentaire manquante. G3 car NC sur équipements de sécurité MMR (sirène POI). T1. Confidence medium: partie confidentielle importante.",
+      "corrected_value": "L'exploitant dispose d'une stratégie en cas de perte d'utilité (positif). Deux demandes formulées: justifier l'autonomie de l'onduleur alimentant la sirène POI (>45min), préciser les modalités de délestage sur l'autocom. Aucun équipement n'est décrit comme dégradé/hors service/absent - il s'agit de demandes de justification documentaire, pas d'un constat technique physique. M01 seul (pas de m_DELAI, aucun délai chiffré dans le texte). G2 car NC purement documentaire/formelle sans dimension physique confirmée.",
+      "reason": "False M14 (error type 2): aucun défaut physique observé, seulement des demandes de justification/documentation. m_DELAI appliqué sans délai chiffré dans le texte (pattern b)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f08",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07_CONTROLE",
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M07_CONTROLE",
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "False M14 (error type 2): pas de défaut physique observé, texte décrit une réflexion organisationnelle en cours (documentaire). m_DELAI appliqué sans délai chiffré dans le texte (pattern b)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f08",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "False M14 (error type 2): pas de défaut physique observé, texte décrit une réflexion organisationnelle en cours (documentaire). m_DELAI appliqué sans délai chiffré dans le texte (pattern b)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f08",
+      "field": "reasoning",
+      "hunter_value": "Vérification maintien en bon état de marche MMR zone dépotage wagons butadiène pendant coupure électrique (confidentiel). Demande: organisation pour secourir l'ensemble des MMR et supervision pendant au moins 48h en tout temps. M07 pour vérification MMR. M14 car organisation insuffisante pour garantir les 48h (NC technique sur disponibilité MMR). G3 NC technique sur sécurité majeure. T1. Confidence medium: confidentiel.",
+      "corrected_value": "Inspection vérifie par sondage que l'exploitant a mis en oeuvre les dispositions de maintien en bon état de marche des MMR zone dépotage wagons butadiène pendant une coupure électrique (vérification positive). Demande: l'exploitant réfléchit à une organisation permettant de secourir l'ensemble des MMR et supervision pendant au moins 48h en tout temps - organisation encore à l'étude, pas de défaut physique confirmé. M07 pour la vérification effectuée, M01 pour l'organisation/procédure à formaliser. Pas de délai chiffré dans le texte donc pas de m_DELAI. G3 maintenu car MMR de sécurité majeure (Seveso).",
+      "reason": "False M14 (error type 2): pas de défaut physique observé, texte décrit une réflexion organisationnelle en cours (documentaire). m_DELAI appliqué sans délai chiffré dans le texte (pattern b)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f09",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M01_DOCUMENTATION",
+        "M14_CONSTAT_TECHNIQUE"
+      ],
+      "corrected_value": [
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "False M14 (error type 2): la 'vulnérabilité physique' invoquée dans le raisonnement Hunter n'est pas confirmée par le texte, qui ne fait que demander une étude. m_DELAI appliqué sans délai chiffré (pattern b)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "False M14 (error type 2): la 'vulnérabilité physique' invoquée dans le raisonnement Hunter n'est pas confirmée par le texte, qui ne fait que demander une étude. m_DELAI appliqué sans délai chiffré (pattern b)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f09",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "False M14 (error type 2): la 'vulnérabilité physique' invoquée dans le raisonnement Hunter n'est pas confirmée par le texte, qui ne fait que demander une étude. m_DELAI appliqué sans délai chiffré (pattern b)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f09",
+      "field": "reasoning",
+      "hunter_value": "Documentation listant équipements secourus présente, vérification terrain par sondage. Demande: transmettre étude recensant équipements de secours sous cote de référence en cas d'inondation avec plan d'action. M01 pour étude/plan d'action manquant. M14 pour vulnérabilité physique identifiée (équipements en zone inondable). G3 NC technique sur sécurité. T1. Confidence medium: confidentiel.",
+      "corrected_value": "Documentation listant les équipements secourus existe, vérification terrain positive par sondage. Demande: transmettre une étude recensant les équipements de secours situés sous la cote de référence en cas d'inondation, avec plan d'action. Il s'agit d'une étude/documentation à produire, aucune défaillance physique n'est confirmée dans le texte. M01 seul. Pas de délai chiffré donc pas de m_DELAI. G2 NC purement documentaire.",
+      "reason": "False M14 (error type 2): la 'vulnérabilité physique' invoquée dans le raisonnement Hunter n'est pas confirmée par le texte, qui ne fait que demander une étude. m_DELAI appliqué sans délai chiffré (pattern b)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f13",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M11_INCIDENT",
+        "M01_DOCUMENTATION"
+      ],
+      "corrected_value": [
+        "M11_INCIDENT",
+        "M07_CONTROLE",
+        "M01_DOCUMENTATION"
+      ],
+      "reason": "m_DELAI appliqué sans délai chiffré dans le texte (pattern b). Ajout de M07_CONTROLE manqué (demande 13.1 porte sur une vérification de bon fonctionnement, pas seulement de la documentation)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f13",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans le texte (pattern b). Ajout de M07_CONTROLE manqué (demande 13.1 porte sur une vérification de bon fonctionnement, pas seulement de la documentation)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f13",
+      "field": "reasoning",
+      "hunter_value": "Suivi incident 27/08/2024 (défaut fugitif RTE 63 kV). Corps confidentiel. Deux demandes: justifier vérification fonctionnement système sortie mode délestage depuis salle contrôle; transmettre fiche réflexe action depuis local technique si système salle contrôle inopérant. M11 pour suivi REX incident. M01 pour fiche réflexe manquante. G3 car NC sur procédure de sortie de mode dégradé après incident. T1. Confidence medium: confidentiel.",
+      "corrected_value": "Suivi de l'incident du 27/08/2024 (défaut fugitif RTE 63kV). Demande 13.1: justifier que la vérification du bon fonctionnement du système de sortie du mode délestage est bien réalisée (M07, vérification). Demande 13.2: transmettre la fiche réflexe pour le cas où ce système est inopérant (M01, document manquant). M11 pour le suivi REX de l'incident. Pas de délai chiffré dans le texte donc pas de m_DELAI.",
+      "reason": "m_DELAI appliqué sans délai chiffré dans le texte (pattern b). Ajout de M07_CONTROLE manqué (demande 13.1 porte sur une vérification de bon fonctionnement, pas seulement de la documentation)."
+    },
+    {
+      "slug": "smicotom52010262023-04-2525330070100021f14",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07_CONTROLE"
+      ],
+      "corrected_value": [
+        "M08_CONFORMITE"
+      ],
+      "reason": "Incohérence Hunter: le raisonnement concluait déjà 'M08 conformité' mais le champ mechanisms portait M07_CONTROLE. Absence de champ Demande confirme le signal M08. Domaine D10_ELECTRIQUE_ESP écarté au profit de D01_INCENDIE (détecteur incendie), sans lien avec une installation électrique/ESP dans le texte."
+    },
+    {
+      "slug": "smicotom52010262023-04-2525330070100021f14",
+      "field": "domains",
+      "hunter_value": [
+        "D10_ELECTRIQUE_ESP",
+        "D02_ATEX"
+      ],
+      "corrected_value": [
+        "D01_INCENDIE",
+        "D02_ATEX"
+      ],
+      "reason": "Incohérence Hunter: le raisonnement concluait déjà 'M08 conformité' mais le champ mechanisms portait M07_CONTROLE. Absence de champ Demande confirme le signal M08. Domaine D10_ELECTRIQUE_ESP écarté au profit de D01_INCENDIE (détecteur incendie), sans lien avec une installation électrique/ESP dans le texte."
+    },
+    {
+      "slug": "smicotom52010262023-04-2525330070100021f14",
+      "field": "gravity",
+      "hunter_value": "G2",
+      "corrected_value": "G1",
+      "reason": "Incohérence Hunter: le raisonnement concluait déjà 'M08 conformité' mais le champ mechanisms portait M07_CONTROLE. Absence de champ Demande confirme le signal M08. Domaine D10_ELECTRIQUE_ESP écarté au profit de D01_INCENDIE (détecteur incendie), sans lien avec une installation électrique/ESP dans le texte."
+    },
+    {
+      "slug": "smicotom52010262023-04-2525330070100021f14",
+      "field": "confidence",
+      "hunter_value": "medium",
+      "corrected_value": "high",
+      "reason": "Incohérence Hunter: le raisonnement concluait déjà 'M08 conformité' mais le champ mechanisms portait M07_CONTROLE. Absence de champ Demande confirme le signal M08. Domaine D10_ELECTRIQUE_ESP écarté au profit de D01_INCENDIE (détecteur incendie), sans lien avec une installation électrique/ESP dans le texte."
+    },
+    {
+      "slug": "smicotom52010262023-04-2525330070100021f14",
+      "field": "reasoning",
+      "hunter_value": "Détecteur gaz et détecteur incendie présents dans local moteurs. Conformité métrologique et asservissements non analysés par l'inspection. Corps très court avec réserve explicite. M07 pour contrôle non complet. G2 NC possible sur asservissements (non vérifiés). T1. Confidence medium car inspection n'a pas vérifié la conformité métrologique.",
+      "corrected_value": "Détecteur de gaz et détecteur incendie bien présents dans le local moteurs (constat positif). Aucun champ 'Demande à formuler' n'est présent dans la fiche - signal fort de conformité. La remarque de l'inspection sur l'absence d'analyse de la conformité métrologique est une limite du périmètre de contrôle de l'inspection, pas un constat de non-conformité de l'exploitant. M08 par défaut (absence de Demande + éléments présents). D01_INCENDIE pour le détecteur incendie, D02_ATEX pour le détecteur de gaz en zone à risque d'explosion (seuils LIE mentionnés en prescription).",
+      "reason": "Incohérence Hunter: le raisonnement concluait déjà 'M08 conformité' mais le champ mechanisms portait M07_CONTROLE. Absence de champ Demande confirme le signal M08. Domaine D10_ELECTRIQUE_ESP écarté au profit de D01_INCENDIE (détecteur incendie), sans lien avec une installation électrique/ESP dans le texte."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f12",
+      "field": "dynamic",
+      "hunter_value": "R01_PROACTIF",
+      "corrected_value": "R13_NEUTRE_CONFORME",
+      "reason": "R01_PROACTIF sur-appliqué (error type 7/8, pattern hors liste mais systématique): Correction du mode 'marche en vidange' réalisée directement en réponse à la demande formelle du 07/08/2024 avec délai d'1 mois - pas une initiative spontanée. R13/R14 est le défaut, R01 réservé à un signal clair de spontanéité au-delà de ce qui est demandé."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f14",
+      "field": "dynamic",
+      "hunter_value": "R01_PROACTIF",
+      "corrected_value": "R13_NEUTRE_CONFORME",
+      "reason": "R01_PROACTIF sur-appliqué (error type 7/8, pattern hors liste mais systématique): Mise en conformité (contrôles hebdomadaires, granulés plastiques) réalisée en réponse directe aux demandes formelles du constat avec délai d'1 mois - pas une initiative spontanée. R13/R14 est le défaut, R01 réservé à un signal clair de spontanéité au-delà de ce qui est demandé."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-10-1032852574600017f02",
+      "field": "dynamic",
+      "hunter_value": "R01_PROACTIF",
+      "corrected_value": "R13_NEUTRE_CONFORME",
+      "reason": "R01_PROACTIF sur-appliqué (error type 7/8, pattern hors liste mais systématique): Retrait des arbres réalisé en réponse directe à la demande formelle du 'Constat précédent' avec délai d'1 mois - pas une initiative spontanée. R13/R14 est le défaut, R01 réservé à un signal clair de spontanéité au-delà de ce qui est demandé."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-12-0832852574600017f08",
+      "field": "dynamic",
+      "hunter_value": "R01_PROACTIF",
+      "corrected_value": "R13_NEUTRE_CONFORME",
+      "reason": "R01_PROACTIF sur-appliqué (error type 7/8, pattern hors liste mais systématique): Modification du réseau des eaux d'extinction réalisée en réponse directe aux 'Demandes du 28/06/2024' avec délais de 3 et 6 mois - pas une initiative spontanée. R13/R14 est le défaut, R01 réservé à un signal clair de spontanéité au-delà de ce qui est demandé."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-12-0832852574600017f16",
+      "field": "dynamic",
+      "hunter_value": "R01_PROACTIF",
+      "corrected_value": "R13_NEUTRE_CONFORME",
+      "reason": "R01_PROACTIF sur-appliqué (error type 7/8, pattern hors liste mais systématique): Dépôt du PAC pour mise à l'arrêt de l'unité BBF est une obligation réglementaire standard lors d'une modification notable, pas une démarche allant au-delà de ce qui est requis. R13/R14 est le défaut, R01 réservé à un signal clair de spontanéité au-delà de ce qui est demandé."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-12-0832852574600017f17",
+      "field": "dynamic",
+      "hunter_value": "R01_PROACTIF",
+      "corrected_value": "R13_NEUTRE_CONFORME",
+      "reason": "R01_PROACTIF sur-appliqué (error type 7/8, pattern hors liste mais systématique): Idem f16: transmission d'éléments PAC est une obligation réglementaire standard, pas une initiative spontanée. R13/R14 est le défaut, R01 réservé à un signal clair de spontanéité au-delà de ce qui est demandé."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52097712023-03-0932852574600017f04",
+      "field": "dynamic",
+      "hunter_value": "R01_PROACTIF",
+      "corrected_value": "R13_NEUTRE_CONFORME",
+      "reason": "R01_PROACTIF sur-appliqué (error type 7/8, pattern hors liste mais systématique): Mise à jour de l'OPERGUID réalisée en réponse directe au constat du 9/2/2022 (MMR B12 non justifiée) - pas une initiative spontanée. R13/R14 est le défaut, R01 réservé à un signal clair de spontanéité au-delà de ce qui est demandé."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52097712023-03-0932852574600017f05",
+      "field": "dynamic",
+      "hunter_value": "R01_PROACTIF",
+      "corrected_value": "R13_NEUTRE_CONFORME",
+      "reason": "R01_PROACTIF sur-appliqué (error type 7/8, pattern hors liste mais systématique): Mise à jour de la fiche MMR B6 et de l'OPERGUID réalisée en réponse directe au constat du 02/09/2022 - pas une initiative spontanée. R13/R14 est le défaut, R01 réservé à un signal clair de spontanéité au-delà de ce qui est demandé."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52097712023-03-0932852574600017f06",
+      "field": "dynamic",
+      "hunter_value": "R01_PROACTIF",
+      "corrected_value": "R13_NEUTRE_CONFORME",
+      "reason": "R01_PROACTIF sur-appliqué (error type 7/8, pattern hors liste mais systématique): Mise en place du bouton d'arrêt d'urgence déporté et de l'ARI réalisée en réponse directe au constat du 2/09/2022 suite à l'incident - pas une initiative spontanée. R13/R14 est le défaut, R01 réservé à un signal clair de spontanéité au-delà de ce qui est demandé."
+    },
+    {
+      "slug": "smicotom52010262023-04-2525330070100021f04",
+      "field": "dynamic",
+      "hunter_value": "R01_PROACTIF",
+      "corrected_value": "R13_NEUTRE_CONFORME",
+      "reason": "R01_PROACTIF sur-appliqué (error type 7/8, pattern hors liste mais systématique): Mesures mises en oeuvre en réponse directe aux 'Constats issus de la précédente inspection du 09/11/2022' - pas une initiative spontanée. R13/R14 est le défaut, R01 réservé à un signal clair de spontanéité au-delà de ce qui est demandé."
+    },
+    {
+      "slug": "smicotom52010262024-05-1525330070100021f18",
+      "field": "dynamic",
+      "hunter_value": "R01_PROACTIF",
+      "corrected_value": "R13_NEUTRE_CONFORME",
+      "reason": "R01_PROACTIF sur-appliqué (error type 7/8, pattern hors liste mais systématique): Explications et rapports SOCOTEC transmis en réponse directe à la demande de l'inspection précédente ('Suite VI 2023: ... sous 1 mois ... sous 2 mois') - pas une initiative spontanée. R13/R14 est le défaut, R01 réservé à un signal clair de spontanéité au-delà de ce qui est demandé."
+    },
+    {
+      "slug": "smicotom52010262023-04-2525330070100021f01",
+      "field": "dynamic",
+      "hunter_value": "R01_PROACTIF",
+      "corrected_value": "R14_NEUTRE_NC",
+      "reason": "R01_PROACTIF sur-appliqué: nouvelle caractérisation des OMR en cours en réponse au suivi réglementaire, des efforts restent à réaliser sur certains flux valorisables - NC partielle encore ouverte, pas une conformité totale ni une initiative spontanée. R14_NEUTRE_NC plus fidèle que R01 ou R13."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f16",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f18",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f06",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-07-1632852574600017f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-10-1032852574600017f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-10-1032852574600017f06",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-10-1032852574600017f08",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-10-1032852574600017f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-12-0832852574600017f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-12-0832852574600017f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-12-0832852574600017f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-12-0832852574600017f10",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-12-0832852574600017f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-12-0832852574600017f12",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-12-0832852574600017f13",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-12-0832852574600017f14",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    },
+    {
+      "slug": "smicotom52010262024-05-1525330070100021f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI retiré (pattern b): aucun délai chiffré dans le corps du constat, seulement une 'Demande à formuler' sans échéance explicite. Stage S02_INJONCTION conservé (demande formelle bien présente)."
+    }
+  ],
+  "false_positive_rate": 0.61,
+  "error_patterns": "Trois erreurs systématiques identifiées, en plus d'erreurs isolées : (1) Sur-application de R01_PROACTIF (12 des 17 occurrences corrigées vers R13_NEUTRE_CONFORME ou R14_NEUTRE_NC) : le Hunter taggue R01 dès qu'un exploitant corrige un écart identifié à une inspection précédente ou dépose un PAC réglementaire obligatoire, alors que la correction est une réponse directe à une demande formelle avec délai (pas une initiative spontanée). R01 n'a été conservé que pour 5 cas où le texte montre une démarche réellement volontaire sans injonction préalable (ex: campagne de caractérisation PFAS auto-initiée, amélioration des fiches MMR saluée par l'inspection sans demande antérieure). (2) m_DELAI sur-appliqué sans délai chiffré dans le texte (23 corrections, pattern b de l'audit) : le Hunter associe systématiquement m_DELAI au stage S02_INJONCTION dès qu'une 'Demande à formuler' est présente, même quand aucun délai numérique n'apparaît dans constats_body. Le stage S02_INJONCTION a été conservé (la demande formelle existe bien), seul le modificateur a été retiré. Un seul cas symétrique trouvé où m_DELAI était correctement absent malgré un délai réel ('au plus tard le 31 janvier 2026') a été vérifié conforme (aucune correction nécessaire, cf smicotom 2025-11-05 f06). (3) Faux M14_CONSTAT_TECHNIQUE (4 corrections) : le Hunter taggue un constat technique physique quand le texte ne décrit qu'une demande de justification/documentation ou une organisation encore à l'étude, sans défaut physique confirmé sur site (cas 07-16 f05, f08, f09). Un cas inverse (M07 au lieu de M08, incohérent avec son propre raisonnement) a aussi été corrigé (smicotom 2023-04-25 f14). Pattern (a) (R10_TENSION mal appliqué) : sans objet, le Hunter n'a utilisé aucun code R10 sur ce batch. Pattern (c) (m_MENACE sous-appliqué) : 5 occurrences de 'à défaut' trouvées par recherche systématique, mais aucune ne correspond à une menace conditionnelle de mise en demeure — toutes sont du texte réglementaire générique ('à défaut' = 'à défaut de quoi' générique dans le corps de l'arrêté, sans lien avec une MED). Aucune correction nécessaire sur ce pattern.",
+  "verdict": "Qualité globale correcte sur les axes domaine/acteur/mécanisme de base (aucun code hors taxonomie, aucune valeur jointe sur les champs mono-valués, tous les champs requis présents sur les 130 enregistrements). Le taux d'erreur de 61% porte sur un échantillon ciblé par construction (les 9 confidence medium/low + 20 haute confiance échantillonnées + recherche systématique des patterns R01/m_DELAI/m_MENACE sur l'ensemble du batch) et ne reflète donc pas le taux d'erreur réel sur les 130 fiches, mais la densité d'erreurs dans les zones à risque. Le point le plus significatif est la confusion systématique entre 'correction en réponse à une injonction' (dynamique neutre R13/R14) et 'initiative spontanée' (R01), et l'ajout réflexe de m_DELAI dès qu'une Demande formelle existe même sans délai chiffré — deux biais qui gonflent artificiellement la lecture 'exploitant proactif / sous contrôle strict' du corpus. Recommandation pour les prochains batches Hunter : ne taguer R01 que si le texte ne référence aucune 'Constat précédent'/'Demande' antérieure explicite couvrant la même action, et ne poser m_DELAI que si un chiffre (mois/jours/date) est présent dans constats_body."
+}

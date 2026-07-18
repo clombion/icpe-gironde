@@ -1,0 +1,891 @@
+{
+  "total_audited": 130,
+  "errors_found": 73,
+  "records_with_corrections": 57,
+  "corrections": [
+    {
+      "slug": "semaq-ex-sarl-plana-31000030402025-09-0830152474000042f06",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08",
+        "M07",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M08",
+        "M07"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "semaq-ex-sarl-plana-31000030402025-09-0830152474000042f07",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "M01",
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "M07",
+        "M01"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sema52060062022-10-0635180609600019f01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "M01",
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "M14",
+        "M01"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sema52060062022-10-0635180609600019f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "M09",
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "M14",
+        "M09"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sema52060062022-10-0635180609600019f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M05",
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M05",
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sema52060062022-10-0635180609600019f07",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "M01",
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "M07",
+        "M01"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sema52060062022-10-0635180609600019f09",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M09",
+        "M02",
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "M09",
+        "M02"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sema52060062022-10-0635180609600019f10",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "M02",
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "M07",
+        "M02"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sema52060062022-10-0635180609600019f11",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "semoctom-st-leon52012002022-11-2825330054500014f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M07",
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "semoctom-st-leon52012002022-11-2825330054500014f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "semoctom-st-leon52012002022-11-2825330054500014f06",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M01",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M01"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "semoctom-ex-cdc-convergence-garonne52014052022-09-2025330054500030f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M08",
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M08",
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "semoctom-ex-cdc-convergence-garonne52014052022-09-2025330054500030f04",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "semoctom-ex-cdc-convergence-garonne52014052022-09-2025330054500030f06",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M02",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M02"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "semoctom-ex-cdc-convergence-garonne52014052022-09-2025330054500030f07",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M01",
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M01",
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "semoctom-ex-cdc-convergence-garonne52014052022-09-2025330054500030f08",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sepur-trigironde31068622024-02-2235005058900240f01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "M01",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14",
+        "M01"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sepur-trigironde31068622024-02-2235005058900240f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M01",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M01"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sepur-trigironde31068622024-02-2235005058900240f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M01",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M01"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sepur-trigironde31068622024-02-2235005058900240f04",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sepur-trigironde31068622024-02-2235005058900240f07",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sethelec-snc52051112022-09-2939839319900086f01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M07",
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sethelec-snc52051112022-09-2939839319900086f04",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sethelec-snc52051112022-09-2939839319900086f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siaepa-du-cubzadais-fronsadais-step31031222025-10-17nosiretf05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M01",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M01"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siaepa-du-cubzadais-fronsadais-step31031222025-10-17nosiretf08",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M01",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M01"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siaepa-du-cubzadais-fronsadais-step31031222025-10-17nosiretf12",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "M01",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M07",
+        "M01"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siaepa-du-cubzadais-fronsadais-step31031222025-10-17nosiretf14",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M01",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M01"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap-sarp-industries-aquitaine-pyrenees52003612023-02-2334354136300010f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "M02",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M07",
+        "M02"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap-sarp-industries-aquitaine-pyrenees52003612023-02-2334354136300010f04",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap-sarp-industries-aquitaine-pyrenees52003612023-02-2334354136300010f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap-sarp-industries-aquitaine-pyrenees52003612023-02-2334354136300010f06",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M03",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M03"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap-sarp-industries-aquitaine-pyrenees52003612024-10-0434354136300010f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M01",
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M01",
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap-sarp-industries-aquitaine-pyrenees52003612024-10-0434354136300010f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap-sarp-industries-aquitaine-pyrenees52003612024-10-0434354136300010f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "M01",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14",
+        "M01"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap-sarp-industries-aquitaine-pyrenees52003612024-10-0434354136300010f06",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap-sarp-industries-aquitaine-pyrenees52003612024-10-0434354136300010f07",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap-sarp-industries-aquitaine-pyrenees52003612025-05-1634354136300010xhbmxif01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "M01",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14",
+        "M01"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap-sarp-industries-aquitaine-pyrenees52003612025-05-1634354136300010xhbmxif02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "M01",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14",
+        "M01"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap-sarp-industries-aquitaine-pyrenees52003612025-05-1634354136300010yzdbthf01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M07"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap-sarp-industries-aquitaine-pyrenees52003612025-05-1634354136300010yzdbthf03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "M02",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14",
+        "M02"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap-sarp-industries-aquitaine-pyrenees52003612025-05-1634354136300010yzdbthf04",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap-sarp-industries-aquitaine-pyrenees52003612025-05-1634354136300010yzdbthf05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "M01",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M07",
+        "M01"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap52003522023-02-2334829735900013f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "M02",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M07",
+        "M02"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap52003522023-02-2334829735900013f04",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap52003522023-02-2334829735900013f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siap52003522023-02-2334829735900013f06",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M03",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M03"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "siba-gujan-mestras-avenue-de-cesaree1000118172025-11-0325330643500012f15",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M02",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M02"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sibelco-france-belin-beliet-ballion-sud-le-gouil-peyruc-litche-sud52035012025-09-2568200032800240f01",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "M01",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14",
+        "M01"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sibelco-france-belin-beliet-ballion-sud-le-gouil-peyruc-litche-sud52035012025-09-2568200032800240f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "M09",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14",
+        "M09"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sibelco-france-mios-la-hitte52010172025-09-1868200032800240f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "M09",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M14",
+        "M09"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "sibelco-france-mios-la-hitte52010172025-09-1868200032800240f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M09",
+        "M01",
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "M09",
+        "M01"
+      ],
+      "reason": "STRICT code validity: modifiers (m_DELAI/m_MENACE) must appear only in `modifiers`, never duplicated in `mechanisms`."
+    },
+    {
+      "slug": "semaq-ex-sarl-plana-31000030402025-09-0830152474000042f06",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI applied without a numeric/dated deadline present in constats_body or the Demande à formuler section (systematic Hunter over-application pattern)."
+    },
+    {
+      "slug": "semaq-ex-sarl-plana-31000030402025-09-0830152474000042f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "m_MENACE"
+      ],
+      "reason": "m_DELAI applied without a numeric/dated deadline present in constats_body or the Demande à formuler section (systematic Hunter over-application pattern)."
+    },
+    {
+      "slug": "sema52060062022-10-0635180609600019f10",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "m_MENACE"
+      ],
+      "reason": "m_DELAI applied without a numeric/dated deadline present in constats_body or the Demande à formuler section (systematic Hunter over-application pattern)."
+    },
+    {
+      "slug": "siaepa-du-cubzadais-fronsadais-step31031222025-10-17nosiretf05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI applied without a numeric/dated deadline present in constats_body or the Demande à formuler section (systematic Hunter over-application pattern)."
+    },
+    {
+      "slug": "siaepa-du-cubzadais-fronsadais-step31031222025-10-17nosiretf08",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI applied without a numeric/dated deadline present in constats_body or the Demande à formuler section (systematic Hunter over-application pattern)."
+    },
+    {
+      "slug": "siaepa-du-cubzadais-fronsadais-step31031222025-10-17nosiretf12",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI applied without a numeric/dated deadline present in constats_body or the Demande à formuler section (systematic Hunter over-application pattern)."
+    },
+    {
+      "slug": "siaepa-du-cubzadais-fronsadais-step31031222025-10-17nosiretf14",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI applied without a numeric/dated deadline present in constats_body or the Demande à formuler section (systematic Hunter over-application pattern)."
+    },
+    {
+      "slug": "siap-sarp-industries-aquitaine-pyrenees52003612023-02-2334354136300010f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI applied without a numeric/dated deadline present in constats_body or the Demande à formuler section (systematic Hunter over-application pattern)."
+    },
+    {
+      "slug": "siap-sarp-industries-aquitaine-pyrenees52003612025-05-1634354136300010yzdbthf02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI applied without a numeric/dated deadline present in constats_body or the Demande à formuler section (systematic Hunter over-application pattern)."
+    },
+    {
+      "slug": "siap52003522023-02-2334829735900013f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI applied without a numeric/dated deadline present in constats_body or the Demande à formuler section (systematic Hunter over-application pattern)."
+    },
+    {
+      "slug": "siba-gujan-mestras-avenue-de-cesaree1000118172025-11-0325330643500012f15",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI applied without a numeric/dated deadline present in constats_body or the Demande à formuler section (systematic Hunter over-application pattern)."
+    },
+    {
+      "slug": "sibelco-france-belin-beliet-ballion-sud-le-gouil-peyruc-litche-sud52035012025-09-2568200032800240f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI applied without a numeric/dated deadline present in constats_body or the Demande à formuler section (systematic Hunter over-application pattern)."
+    },
+    {
+      "slug": "sibelco-france-belin-beliet-ballion-sud-le-gouil-peyruc-litche-sud52035012025-09-2568200032800240f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI applied without a numeric/dated deadline present in constats_body or the Demande à formuler section (systematic Hunter over-application pattern)."
+    },
+    {
+      "slug": "sibelco-france-mios-la-hitte52010172025-09-1868200032800240f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI applied without a numeric/dated deadline present in constats_body or the Demande à formuler section (systematic Hunter over-application pattern)."
+    },
+    {
+      "slug": "sibelco-france-mios-la-hitte52010172025-09-1868200032800240f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI applied without a numeric/dated deadline present in constats_body or the Demande à formuler section (systematic Hunter over-application pattern)."
+    },
+    {
+      "slug": "sepur-trigironde31068622024-02-2235005058900240f05",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Text contains formal 'Demande à formuler' with explicit deadlines ('Dans un délai de un mois', 'Dans un délai de 5 mois') for document transmission -- matches S02_INJONCTION, not S01_CONSTAT."
+    },
+    {
+      "slug": "semoctom-st-leon52012002022-11-2825330054500014f01",
+      "field": "trajectory",
+      "hunter_value": "T1",
+      "corrected_value": "T2",
+      "reason": "Record explicitly references 'FSMD 4 de la précédente inspection du 19/11/2020' (prior threshold-exceedance finding on the same déchetterie) -- T1 (no history mentioned) is factually wrong; this is an explicit follow-up (T2_SUIVI)."
+    },
+    {
+      "slug": "sema52060062023-12-0835180609600019f03",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G4",
+      "reason": "Hunter's own reasoning states 'MED active + astreinte en prescription' concurrent with an on-site NC technique (batardeaux/étanchéité) -- matches the G4 heuristic (MED active + NC technique concomitante), not G3."
+    },
+    {
+      "slug": "sema52060062023-12-0835180609600019f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14",
+        "M07"
+      ],
+      "corrected_value": [
+        "M14"
+      ],
+      "reason": "M07_CONTROLE is not supported by constats_body -- no vérification/contrôle périodique is described, only a physical NC (M14). Spurious multi-label."
+    },
+    {
+      "slug": "sethelec-snc52051112022-09-2939839319900086f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [
+        "m_DELAI",
+        "m_MENACE"
+      ],
+      "reason": "Text states 'Si la requalification n'est pas conforme les équipements seront immédiatement mis à l'arrêt' -- a conditional threat (m_MENACE under-application pattern), missed by Hunter."
+    }
+  ],
+  "false_positive_rate": 0.438,
+  "error_patterns": "1) Code-validity contamination (53/130 records, ~41%): Hunter duplicated m_DELAI/m_MENACE modifiers inside the `mechanisms` array in addition to `modifiers`, violating the STRICT rule that modifiers go only in `modifiers`. Purely mechanical, fixed by stripping m_* entries from `mechanisms` everywhere. 2) m_DELAI over-application (15 records): Hunter attached m_DELAI whenever a 'Demande à formuler' section existed, even when the demand carried no numeric/dated deadline (e.g. 'transmet dès réception', 'doit fournir', with no 'sous X mois/jours'). Concentrated in the siaepa-cubzadais and sibelco/siap-sarp sub-batches. 3) m_MENACE under-application (1 record): a conditional-threat clause phrased as an equipment shutdown risk ('seront immédiatement mis à l'arrêt') rather than the standard 'suites administratives et pénales' boilerplate was missed; all standard-phrasing menace clauses were correctly tagged. 4) One S01/S02 stage miss where an explicit dual deadline ('délai de un mois' / 'délai de 5 mois') was present in the demand but Hunter left stage at S01_CONSTAT. 5) One T1/T2 trajectory miss where the record explicitly cites a prior inspection's finding (FSMD4 2020) but was left at the T1 default. 6) One gravity/mechanism miss where Hunter's own reasoning text asserted 'MED active' concurrent with a physical NC but still assigned G3 instead of G4, and paired it with a spurious M07 tag not supported by constats_body. No instances found of: R10_TENSION misuse, R02 over-attribution on factual statements, false M08, false M14, over-aggressive M17, or missed multi-label mechanisms -- these Hunter patterns, common in other batches, were not present here.",
+  "verdict": "Hunter's substantive classification judgment (domain, mechanism selection beyond the m_* contamination, dynamic, gravity, trajectory) was strong: 73/130 records (56%) required no correction at all, and of the 57 records touched, 53 needed only the mechanical m_* mechanisms/modifiers cleanup with no other field affected. 0 M15_AUTRE. The dominant issue is structural/mechanical (m_* codes duplicated into `mechanisms`) rather than a judgment error, and the second most common issue (m_DELAI applied without textual deadline support, 15 records) is a narrow, easily-targeted overreach concentrated in a few sub-batches. Only 4 records had a genuine substantive misclassification (gravity, stage, trajectory, or missed m_MENACE). Batch is fit for merge after these corrections."
+}

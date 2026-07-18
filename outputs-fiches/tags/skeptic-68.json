@@ -1,0 +1,108 @@
+{
+  "total_audited": 130,
+  "audit_method": "All 130 records checked programmatically against STRICT code-validity rules (exact taxonomy ids, no cross-axis codes, modifiers only in modifiers[], single value per mono-label field, all required fields present). All 4 medium-confidence records re-read against local/corpus-all in full. 20+ high-confidence records spot-checked across all 6 companies/fiche groups in the batch (smicotom, smicval-reignac, smicval-st-denis-de-pile x2 inspections, smicval-vayres, smicval-dechetterie-saint-gervais, smurfit-kappa-distribution, smurfit-westrock-cellulose-du-pin x5 inspections). Additionally ran full-batch corpus scans (grep over constats_body only, Prescription block excluded) for: (a) R10_TENSION misuse, (b) m_MENACE trigger phrases ('à défaut', 'faute de quoi', 'se réserve la possibilité de mettre en demeure', 'mise en demeure') cross-referenced against modifiers[], (c) numeric-deadline phrases ('sous N jours/mois', 'dans un délai de N') cross-referenced against m_DELAI presence for every S02_INJONCTION+m_DELAI record, (d) presence of a 'Demande à formuler à l'exploitant' section cross-referenced against stage assignment, (e) prior-inspection reference phrases cross-referenced against trajectory=T1.",
+  "errors_found": 14,
+  "corrections": [
+    {
+      "slug": "smicotom52010262025-11-0525330070100021f08",
+      "field": "domains",
+      "hunter_value": ["D04_EAUX", "D03_REPORTING"],
+      "corrected_value": ["D04_EAUX"],
+      "reason": "D03_REPORTING is not a valid taxonomy code (D03 is D03_SEVESO on axis 1; 'reporting' is a mechanism concept). The reporting/GIDAF issue is already correctly captured by M03_REPORTING on axis 2 (mechanisms). The invalid domain code was wrong-axis noise and is dropped rather than remapped, since D04_EAUX already covers the substantive water-monitoring domain."
+    },
+    {
+      "slug": "smicotom52010262025-11-0525330070100021f15",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corpus contains a 'Demande à formuler à l'exploitant à la suite du constat' section requesting the exploitant take a position on methanogenesis-inhibition risk from mixed leachate. This is a formal request, not a passive observation — matches S02_INJONCTION."
+    },
+    {
+      "slug": "smicval-st-denis-de-pile52011632024-07-0388531095300017f11",
+      "field": "stage",
+      "hunter_value": "S01_CONSTAT",
+      "corrected_value": "S02_INJONCTION",
+      "reason": "Corpus contains a 'Demande à formuler à l'exploitant' section (maintain nuisance-mitigation measures, install a protective net, report corrective actions) — a formal request, not S01_CONSTAT's passive observation."
+    },
+    {
+      "slug": "smicval-st-denis-de-pile52011632024-07-0388531095300017f11",
+      "field": "domains",
+      "hunter_value": ["D05_AIR_BRUIT", "D09_BIODIVERSITE"],
+      "corrected_value": ["D05_AIR_BRUIT", "D08_DECHETS"],
+      "reason": "D09_BIODIVERSITE (protected-species/habitat conservation: ERC, chiroptères, défrichement) does not fit a complaint about black kites scattering plastic waste onto neighboring land. The fiche's substance and the corrective measures described (compostable bags, tarps over andains, shelter) are all biodéchets-containment measures — D08_DECHETS is the correct second domain, not a biodiversity-protection domain."
+    },
+    {
+      "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf15",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_MENACE"],
+      "reason": "Corpus: 'En cas de nouveau dépassement constaté, l'inspection se réserve la possibilité de proposer à M. le Préfet de mettre en demeure l'exploitant' — a genuine conditional MED threat tied to the current inspection's water-discharge VLE exceedances. Hunter's own reasoning text already states 'm_MENACE car inspection se réserve possibilité MED' but the modifiers array was left empty — a field/reasoning mismatch bug, not a new judgment call."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52004202022-12-0757214219800033f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Corpus: 'L'exploitant doit recadrer son prestataire sur les délais de transmission (sous 1 mois)' — a specific numeric corrective deadline is imposed on the exploitant; m_DELAI was missing despite the S02_INJONCTION stage already reflecting a formal demand."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52004202023-01-1857214219800033f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Corpus: 'Il informera l'inspection des mesures correctives retenues sous 1 mois' — a specific numeric deadline; m_DELAI was missing."
+    },
+    {
+      "slug": "smurfit-westrock-cellulose-du-pin52004202023-01-1857214219800033f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": ["m_DELAI"],
+      "reason": "Corpus: 'L'exploitant informera sous 1 mois l'inspection de la réparation' — a specific numeric deadline; m_DELAI was missing."
+    },
+    {
+      "slug": "smicval-st-denis-de-pile52011632024-07-0388531095300017f03",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "The 'Demande à formuler' text ('procède à une nouvelle évaluation', 'prend attache auprès du SDIS 33', 'fait vérifier') contains no numeric corrective deadline ('sous X jours/mois') anywhere in the fiche. m_DELAI was over-applied — likely because the fiche discusses a formal S02_INJONCTION demand, but stage and modifier are independent: a formal demand does not by itself imply a stated deadline."
+    },
+    {
+      "slug": "smicval-st-denis-de-pile52011632024-07-0388531095300017f06",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI", "m_MENACE"],
+      "corrected_value": ["m_MENACE"],
+      "reason": "The demand ('L'exploitant indique les mesures mises en place... A défaut, l'inspection... proposera... mise en demeure') states a conditional MED threat (m_MENACE, correctly kept) but gives no numeric deadline for when the exploitant must respond. m_DELAI was over-applied."
+    },
+    {
+      "slug": "smicval-vayres52125012025-03-2025330661700015f01",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "The only deadline language in the fiche is the exploitant's own vague promise ('dans les plus brefs délais'), and the formal demand section ('fournisse la preuve...', 'actualise le plan...') states no numeric deadline. m_DELAI was over-applied."
+    },
+    {
+      "slug": "smicval-vayres52125012025-03-2025330661700015f03",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "The demand ('Il est attendu que l'exploitant mette en oeuvre...', 'Il est également attendu que...') contains no numeric corrective deadline anywhere in the fiche. m_DELAI was over-applied."
+    },
+    {
+      "slug": "smicval-vayres52125012025-03-2025330661700015f05",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "The exploitant's own promise is vague ('dans les meilleurs délais') and the formal demand ('apporte la preuve de la mise en place') states no numeric deadline. m_DELAI was over-applied."
+    },
+    {
+      "slug": "smicval-dechetterie-saint-gervais52118432023-05-26nosiretf19",
+      "field": "modifiers",
+      "hunter_value": ["m_DELAI"],
+      "corrected_value": [],
+      "reason": "This fiche's own text ('cf. constat précédent + demande associée') carries no numeric deadline — the deadline that exists lives in the cross-referenced f08 fiche, not in f19's own constat. m_DELAI was over-applied to a record whose own text states no timeframe."
+    }
+  ],
+  "false_positive_rate": 0.108,
+  "error_patterns": "Two systematic patterns dominate, both matching the known Hunter failure modes flagged for this project: (1) m_DELAI over-application — Hunter attaches m_DELAI to essentially every S02_INJONCTION record almost reflexively, apparently treating 'has a formal demand' and 'has a numeric corrective deadline' as the same signal. 6 of 14 corrections are m_DELAI removals where the demand text specifies no 'sous N jours/mois' timeframe, only vague language ('dans les meilleurs délais') or an open-ended request. (2) m_DELAI under-application in the opposite direction on 3 records where a genuine 'sous 1 mois' deadline was present in an 'Observations' sub-section (not a labelled 'Demande à formuler' block) and Hunter seems to have only scanned for the labelled demand section, missing inline observational deadlines. (3) One m_MENACE field/reasoning mismatch bug (reasoning text correctly identified the conditional MED threat but the value never made it into the modifiers array) — worth flagging to the Hunter prompt maintainer since it suggests an output-serialization slip rather than a classification error. (4) Two stage errors (S01_CONSTAT used despite a present 'Demande à formuler' section) and one over-aggressive/wrong-axis domain pairing (D09_BIODIVERSITE used for a waste-containment nuisance complaint rather than D08_DECHETS) round out the findings. No instances of the R10_TENSION-for-unfulfilled-promise pattern were found (R10_TENSION does not appear anywhere in this batch). The known D03_REPORTING invalid code was confirmed and corrected per the STRICT code-validity rule, dropped rather than remapped since M03_REPORTING already covers the substance on axis 2.",
+  "verdict": "Good batch overall — 10.8% error rate (14/130), all corrections narrow and mechanical (modifier presence, one stage/domain pair, one invalid code), no false M08/false M14/wrong-gravity/wrong-R-code errors found in the medium-confidence set or the 20+ record high-confidence sample. The one qualitative finding worth carrying forward to Hunter prompt tuning: m_DELAI is being used as a proxy for 'this is a formal demand' rather than 'this demand states a specific numeric timeframe' — 9 of 14 corrections trace back to that conflation (6 removals + 3 additions where the deadline sat outside the labelled demand block). All 130 records in final-68.json are STRICT-compliant: exact taxonomy ids, modifiers isolated to modifiers[], one value per mono-label field, all fields present."
+}

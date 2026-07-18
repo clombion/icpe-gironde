@@ -1,0 +1,392 @@
+{
+  "total_audited": 130,
+  "errors_found": 42,
+  "corrections": [
+    {
+      "slug": "scg-sable-calcaire-granulats-isdi-martignas-sur-jalle52136802025-02-2452031250500016f10",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sci-b-c1000103042022-09-1553087671300013f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai chiffré présent dans le texte (ex: 'sous une semaine', 'sous 3 mois', 'sous un mois') mais m_DELAI absent des modificateurs Hunter."
+    },
+    {
+      "slug": "sea-invest-bordeaux-bassens-1-rue-richelieu52003432023-03-1431887184500059f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_MENACE"
+      ],
+      "corrected_value": [
+        "m_MENACE",
+        "m_DELAI"
+      ],
+      "reason": "Délai chiffré présent dans le texte (ex: 'sous une semaine', 'sous 3 mois', 'sous un mois') mais m_DELAI absent des modificateurs Hunter."
+    },
+    {
+      "slug": "sea-invest-bordeaux-bassens-1-rue-richelieu52003432024-06-2631887184500059f03",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-bassens-1-rue-richelieu52003432024-06-2631887184500059f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-bassens-1-rue-richelieu52003432024-06-2631887184500059f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-bassens-1-rue-richelieu52003432024-06-2631887184500059f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-bassens-1-rue-richelieu52003432024-06-2631887184500059f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-bassens-1-rue-richelieu52003432024-06-2631887184500059f12",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-bassens-avenue-bellerive-des-moines52003302022-11-1031887184500034f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-sas52003422024-01-3034524192100013f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-sas52003422024-01-3034524192100013f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-sas52003422026-02-2634524192100013f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-sas52003422026-02-2634524192100013f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-sas52003422026-02-2634524192100013f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-terminal-agroalimentaire52003322023-05-1133089594700167f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-terminal-agroalimentaire52003322023-05-1133089594700167f04",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-terminal-agroalimentaire52003322023-05-1133089594700167f05",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-terminal-agroalimentaire52003322023-05-1133089594700167f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-terminal-agroalimentaire52003322023-05-1133089594700167f10",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-terminal-agroalimentaire52003322023-05-1133089594700167f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-terminal-agroalimentaire52003322023-05-1133089594700167f12",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-terminal-agroalimentaire52003322023-05-1133089594700167f13",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-terminal-agroalimentaire52003322023-05-1133089594700167f14",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-terminal-agroalimentaire52003322023-05-1133089594700167f16",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-terminal-agroalimentaire52003322023-05-1133089594700167f16",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G4",
+      "reason": "Dépassement de VLE bruit confirmé par mesure Bureau Veritas (points 3 et 4 non conformes jour et nuit) : signal explicite de G4_RISQUE_AVERE ('dépassement VLE confirmé') dans la taxonomie, pas seulement G3."
+    },
+    {
+      "slug": "sea-invest-bordeaux-terminal-agroalimentaire52003322023-05-1133089594700167f18",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-terminal-agroalimentaire52003322024-06-2033089594700167f07",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-terminal-agroalimentaire52003322024-06-2033089594700167f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "sea-invest-bordeaux-terminal-agroalimentaire52003322024-06-2033089594700167f14",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "secapress-bouliac1002379922026-01-2230801900900221f03",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14"
+      ],
+      "corrected_value": [
+        "M01"
+      ],
+      "reason": "Inspecteur n'a pas eu accès aux installations (pressing en centre commercial) : absence totale de constat physique, donc pas de M14 (qui suppose une observation, même indirecte, sur site). La demande porte sur des informations manquantes (justification écrite + caractéristiques des installations) : M01_DOCUMENTATION est le code adapté."
+    },
+    {
+      "slug": "secapress-saint-medard-en-jalles1002365192026-01-2243411652100031f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M14"
+      ],
+      "corrected_value": [
+        "M01"
+      ],
+      "reason": "Inspecteur n'a pas eu accès aux installations (pressing en centre commercial) : absence totale de constat physique, donc pas de M14 (qui suppose une observation, même indirecte, sur site). La demande porte sur des informations manquantes (justification écrite + caractéristiques des installations) : M01_DOCUMENTATION est le code adapté."
+    },
+    {
+      "slug": "self-beton-biganos1002896342025-04-1095323850800014f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai chiffré présent dans le texte (ex: 'sous une semaine', 'sous 3 mois', 'sous un mois') mais m_DELAI absent des modificateurs Hunter."
+    },
+    {
+      "slug": "selfbeton-aillas1002884582025-03-2591210855200015f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai chiffré présent dans le texte (ex: 'sous une semaine', 'sous 3 mois', 'sous un mois') mais m_DELAI absent des modificateurs Hunter."
+    },
+    {
+      "slug": "semaq-ex-sarl-plana-31000030402024-10-1630152474000042f01",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "semaq-ex-sarl-plana-31000030402024-10-1630152474000042f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "semaq-ex-sarl-plana-31000030402024-10-1630152474000042f08",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "semaq-ex-sarl-plana-31000030402024-10-1630152474000042f09",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "semaq-ex-sarl-plana-31000030402024-10-1630152474000042f10",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "semaq-ex-sarl-plana-31000030402024-10-1630152474000042f11",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "semaq-ex-sarl-plana-31000030402024-10-1630152474000042f12",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    },
+    {
+      "slug": "semaq-ex-sarl-plana-31000030402025-09-0830152474000042f02",
+      "field": "modifiers",
+      "hunter_value": [
+        "m_DELAI"
+      ],
+      "corrected_value": [],
+      "reason": "m_DELAI appliqué sans délai chiffré dans constats_body (pattern systématique Hunter : m_DELAI quasi-automatique dès stage=S02, indépendamment du texte)."
+    }
+  ],
+  "false_positive_rate": 0.323,
+  "error_patterns": "Erreur systématique dominante (35/42 corrections) : Hunter applique m_DELAI quasi automatiquement dès que stage=S02, sans vérifier la présence d'un délai chiffré dans constats_body. Sur les 73 fiches S02, 71 portaient m_DELAI ; parmi elles 35 n'avaient aucun délai chiffré (aucune occurrence de 'sous N jours/mois/semaines', 'dans un délai de N ...') dans le texte — la demande était formelle mais sans échéance verbalisée. Concentré sur les lots SEA INVEST (bassens-1-rue-richelieu, bassens-avenue, sas, terminal-agroalimentaire) et SEMAQ, où de nombreuses fiches 'Demande à formuler' n'imposent pas de délai explicite. Erreur inverse (sous-usage) : 4 fiches avaient un délai chiffré explicite ('sous une semaine', 'sous un mois', 'sous 3 mois') mais m_DELAI était absent des modificateurs Hunter — correction en sens inverse. m_MENACE : conforme au heuristique 'à défaut'/'faute de quoi'/conditionnel MED — Hunter l'avait déjà correctement appliqué partout où le texte contient une menace conditionnelle de mise en demeure (bassens-1-rue f01, bassens-avenue f02/f03, seac f02/f03) ; aucun cas manqué trouvé lors de l'audit ciblé (grep 'à défaut', 'faute de quoi', formulations conditionnelles de MED). R10_TENSION : jamais utilisé par Hunter sur ce batch (0 occurrence) — le pattern de sur-usage documenté sur d'autres batches ne se manifeste pas ici. 2 erreurs isolées de mécanisme (M14 -> M01) sur des fiches pressing où l'inspection n'a pas eu accès aux installations : absence totale de constat physique, donc pas de M14 (qui suppose une observation, même indirecte) ; la demande porte sur des documents/justificatifs manquants, donc M01_DOCUMENTATION. 1 erreur de gravité (G3 -> G4) : dépassement de VLE bruit confirmé par mesure (signal explicite de G4 dans la taxonomie), sous-coté en G3 par Hunter.",
+  "verdict": "Qualité globale bonne sur le fond (domaines, mécanismes principaux, acteurs, dynamiques R13/R14/R02/R04/R12, trajectoires T1-T7 tous cohérents avec le texte ; aucun code invalide, aucun champ manquant, 0% M15_AUTRE). Le point faible concentré est le modificateur m_DELAI, appliqué par Hunter comme un quasi-défaut du stage S02 plutôt que sur preuve textuelle explicite — ceci gonfle le taux d'erreur du batch (32%) bien au-delà de la cible <15%, mais il s'agit d'un biais mono-dimensionnel et mécanique (modificateur, pas domaine/mécanisme/gravité structurants) facilement détectable et corrigible par une règle de vérification textuelle systématique côté Hunter. En excluant les 35+4 corrections m_DELAI, le taux d'erreur réel sur les axes structurants (mécanisme, gravité) tombe à 3/130 (2.3%), conforme à la cible."
+}

@@ -1,0 +1,2318 @@
+[
+  {
+    "slug": "sibelco-france-mios-la-hitte52010172025-09-1868200032800240f04",
+    "domains": [
+      "D04_EAUX",
+      "D12_ADMIN"
+    ],
+    "mechanisms": [
+      "M17_CLASSIFICATION",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Exploitant ne peut pas encore se positionner vis-à-vis de l'arrêté ministériel sécheresse (positionnement seuil AM = M17); données de suivi insuffisantes pour démontrer conformité = M01. Demande formelle émise. Pas de NC physique donc G2."
+  },
+  {
+    "slug": "sibelco-france-mios-la-hitte52010172025-09-1868200032800240f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Résultats conformes aux seuils mais problèmes méthodologiques: accréditation retirée pour MES, délai prélèvement/analyse non respecté, référentiel erroné. NC purement méthodologique/documentaire = M02. Demande formelle de justifier méthode conforme."
+  },
+  {
+    "slug": "sibelco-france-mios-la-hitte52010172025-09-1868200032800240f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "VLE poussières dépassées sur séchoir (36,95 et 33,11 vs 20 mg/Nm3): NC technique mesurée = M14. Référentiel de contrôle erroné = M02. Dépassement VLE confirmé sur équipement physique = G3."
+  },
+  {
+    "slug": "sibelco-france-mios-la-hitte52010172025-09-1868200032800240f07",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R04_MECONNAISSANCE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Émergence diurne non respectée en zone réglementée (2x supérieure au seuil) = NC technique = M14. Mesure acoustique ne couvre pas période séchage = M07. Exploitant sans explication, envisage nouveau contrôle = R04. Délai 15j + 3 mois imposé = m_DELAI. NC physique acoustique = G3."
+  },
+  {
+    "slug": "sibelco-france-mios-mios-le-barp52087012024-03-0868200032800240f01",
+    "domains": [
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Accès conformes, panneaux en place, conseil départemental juge sécurité suffisante, demande de panneaux supplémentaires levée. Conformité explicite = M08, clôture = S06, amélioration constatée = T3."
+  },
+  {
+    "slug": "sibelco-france-mios-mios-le-barp52087012024-03-0868200032800240f02",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Plan d'exploitation à jour consulté, phase t+5ans en cours (légère différence géométrie sans remise en cause des enjeux de stabilité/garanties financières). Demande de justifier explicitement les actions de remise en état et de transmettre le plan 2024 mis à jour (vérification bande 15m et rideau boisé 50m, traité en détail dans les fiches suivantes) = M01 (document à produire/mettre à jour). NC purement documentaire = G2."
+  },
+  {
+    "slug": "sibelco-france-mios-mios-le-barp52087012024-03-0868200032800240f03",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Bande de recul 15m potentiellement non respectée: plan matérialise 10m devenant 7,5m sur plan bathymétrique vs 15m requis. NC technique de distance physique potentiellement non respectée = M14. Instabilité potentielle terrain voisin si bande non conforme = G3."
+  },
+  {
+    "slug": "sibelco-france-mios-mios-le-barp52087012024-03-0868200032800240f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rapport eaux superficielles sans anomalie, piézométrie stable, turbidité P22 expliquée par remise en état. Aucune demande. Conformité factuelle = M08."
+  },
+  {
+    "slug": "sibelco-france-mios-mios-le-barp52087012024-03-0868200032800240f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Résultats campagne bruit conformes, prise en compte hameau Gargails, n'appelle pas de remarque. Conformité explicite = M08."
+  },
+  {
+    "slug": "sibelco-france-mios-mios-le-barp52087012024-03-0868200032800240f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fonctionnement de nuit déclaré pour maîtrise coûts énergétiques, pas de plainte, n'appelle pas de remarque. Exploitant proactif dans déclaration, pas de NC = M08."
+  },
+  {
+    "slug": "sibelco-france-mios-mios-le-barp52087012024-03-0868200032800240f07",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Factures de débroussaillage non reliées aux parcelles, tracabilité insuffisante pour démontrer intervention tous les 5 ans = M01 (absence de preuve documentaire adéquate). Sur terrain zones entretenues. NC documentaire pure = G2."
+  },
+  {
+    "slug": "sictom-sud-gironde-ex-ussgetom52060682024-02-15nosiretf01",
+    "domains": [
+      "D11_SECURITE",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Portique radioactivité défaillant, procédure non appliquée, 8 camions entrés sans contrôle. NC technique équipement hors service + procédure non suivie = M14. Procédure non appliquée = M01 (connaissance du personnel insuffisante). Équipement de détection défaillant sur site actif = G3."
+  },
+  {
+    "slug": "sictom-sud-gironde-ex-ussgetom52060682024-02-15nosiretf02",
+    "domains": [
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Travaux réalisés (colonnes aspiration bassin), réception pas encore faite donc plans défense incendie non mis à jour. PEI obsolète toujours sur plans. NC purement documentaire (plans non actualisés) = M01, G2. Amélioration physique réalisée = T3."
+  },
+  {
+    "slug": "sifland52004102022-10-1046520085500018f01",
+    "domains": [
+      "D15_SECTEUR"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Stockages de bois inspectés sans remarque particulière. Conformité factuelle = M08."
+  },
+  {
+    "slug": "sifland52004102022-10-1046520085500018f02",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "17 NC électriques récurrentes (déjà relevées en 2020), seulement 4 réparées sur facture. MED proposée à préfète. NC technique récurrente = M14, MED proposée = M04. MED active + NC technique non résolue récurrente = G4. Même constat 2020→2021→2022 = T4."
+  },
+  {
+    "slug": "sifland52004102022-10-1046520085500018f03",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Étude technique foudre mise à jour, certificat conformité Indélec fourni, matériels inspectés sans remarque = M08."
+  },
+  {
+    "slug": "sifland52004102022-10-1046520085500018f04",
+    "domains": [
+      "D07_RETENTION",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Absence de capacité de rétention eaux d'extinction déjà relevée lors inspection 2021, toujours non résolue, MED proposée. NC technique physique (rétention absente) = M14. MED proposée = M04. MED + NC technique = G4. Récidive 2021→2022 = T4."
+  },
+  {
+    "slug": "sifland52004102022-10-1046520085500018f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "VLE atmosphériques respectées, rejets cyclofiltre sans remarque = M08."
+  },
+  {
+    "slug": "sifland52004102022-10-1046520085500018f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Résultats et fréquences mesures rejets aqueux sans remarque = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-09-2332852574600017f01",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Procédure gestion risque foudre consultée, simulation réalisée avec opérateur suivant protocole correctement = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-09-2332852574600017f02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Exploitant transmet relevés géomètre démontrant cote 5,25m NGF atteinte sur murets protection pomperie = M08. Correction réalisée = T3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-09-2332852574600017f03",
+    "domains": [
+      "D03_SEVESO",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Fûts stockés en zone byzantine (zone inondation PPRI) pouvant devenir objets dérivants dangereux. NC technique physique de positionnement = M14. Risque potentiel inondation/objets dérivants = G3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-09-2332852574600017f04",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle trimestriel points d'appel conforme (Operguid EP/I/30), derniers contrôles vérifiés avec dates correctes dans logiciel Asphales = M07 conforme."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-09-2332852574600017f05",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "low",
+    "reasoning": "Partie confidentielle. Corps: 'Voir partie confidentielle'. Impossible de classifier sur constats_body seul. Par défaut M08 car corps vide sans NC ni demande visible."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-09-2332852574600017f06",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "low",
+    "reasoning": "Partie confidentielle. Corps vide de contenu classifiable. Par défaut M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-09-2332852574600017f07",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "low",
+    "reasoning": "Partie confidentielle. Corps vide. Par défaut M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-09-2332852574600017f08",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "low",
+    "reasoning": "Partie confidentielle. Corps vide. Par défaut M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-09-2332852574600017f09",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Liste MMR styrène avec beaucoup d'éléments 'à compléter' dans colonnes 'conduite à tenir en cas d'indisponibilité' et 'cinétiques'. L'exploitant transmettra tableau complété et EDD mise à jour = M01 (document incomplet/obsolète). NC documentaire = G2."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-0432852574600017f01",
+    "domains": [
+      "D04_EAUX",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plans réseaux incomplets (rejet Estey Rabey et ouvrage confinement eaux extinction absents). Écoulement constaté dans tiretaine sans pluie. NC technique (écoulement inexpliqué) = M14. Plans incomplets = M01. Délai 1 mois = m_DELAI. Ecoulement physique non expliqué = G3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-0432852574600017f02",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Multiple NC: dégradation (fente) collecteur béton; eaux nettoyage/tests incendie non traitées par station biologique; tiretaine sans point prélèvement; suintements parois; irisations/matières flottantes. NC technique physique (fente collecteur, irisations) = M14. Plans non exhaustifs = M01. Plusieurs NC physiques eau = G3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-0432852574600017f03",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "VLE MES dépassées épisodiquement. Exploitant justifie par ruissellements pluvieux, n'a pas de solution. Dimensionnement déshuileur/débourbeur questionné. NC technique avec dépassements VLE = M14. G3 car dépassements VLE confirmés."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-0432852574600017f04",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rejet dans Estey Rabey constaté incolore et inodore. Aspect des eaux rejetées satisfaisant au droit du collecteur. Observation descriptive sans NC = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-0432852574600017f05",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Débits sortants station non mesurés. Points prélèvement déplacés par rapport au plan AP. Caractérisation eaux tiretaine absente. Plan à mettre à jour. NC purement documentaire/méthodologique sans impact physique immédiat = M14 (incertitude mesure) + M01 (plan non à jour). G2 car pas de dépassement VLE sur ce point."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-0432852574600017f06",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Débit journalier rejet général dépassé tous les jours en février 2022 (3700 m3 vs 3097 m3 max). Exploitant ne justifie pas par éléments concrets le lien avec pluie. NC technique avec dépassements VLE débit confirmés = M14. G3 car dépassements VLE confirmés."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-0432852574600017f07",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M03_REPORTING",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fréquences autosurveillance respectées à 75% et 50% en GIDAF sur période contrôlée. Absence de déclaration avril-juin 2022. Transmission tardive confirmée. NC reporting GIDAF = M03. Inspection propose programme actualisé = M07. NC purement déclarative = G2."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-0432852574600017f08",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "VLE MES et DCO dépassées épisodiquement en flux. Température >30°C en juillet 2022. Substances dangereuses prioritaires non toutes recherchées RSDE. Nonylphénol détecté. NC technique VLE multiples = M14. Substances non mesurées = M02. G3 pour dépassements VLE confirmés."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-0432852574600017f09",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R07_CONTRAINTE_TECHNIQUE",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Dépassements VLE débit journalier rejet général, DCO et MES en flux. Exploitant n'a pas de solution: invoque imperméabilisation de 20ha, nappe peu profonde, sols gorgés d'eau en hiver (contraintes techniques/hydrogéologiques, aucun coût chiffré) = R07_CONTRAINTE_TECHNIQUE. NC technique sans solution = G3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-0432852574600017f10",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M03_REPORTING"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déclarations GIDAF avril et juin 2022 non effectuées dans délais (transmises tardivement le 3/10/2022). Retard lié à laboratoire SGS. NC reporting GIDAF = M03. Purement déclarative = G2."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-0432852574600017f11",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Laboratoire interne sans accréditation COFRAC. Fiabilité pratiques échantillonnage non démontrée. NC méthodologique qualité mesure = M02. G2 car purement documentaire/methodologique."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-0432852574600017f12",
+    "domains": [
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle recalage 2021 identifié groupe froid préleveur non fonctionnel et autres NC. Contrôle 2022 perdu par SGS, nouveau prévu octobre 2022. NC sur contrôle de recalage = M07. Groupe froid remplacé, sonde repositionnée = correction partielle. NC technique équipement mesure = M14. G2 car instrument mesure non physiquement dangereux."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-2732852574600017f01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "POI transmis avec plusieurs feuillets manquants (notamment système alarme). Document incomplet = M01. NC purement documentaire = G2."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-2732852574600017f02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Compte rendu exercice POI transmis. Version précédente mars 2021. Prescription respectée = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-2732852574600017f03",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Opérateurs formés mais n'ont pas suivi check-list POI lors exercice inopiné, réalisant 'les opérations d'expérience'. NC comportementale / procédurale = M14 (constat pratique terrain). NC organisationnelle sans dimension physique immédiate = G2."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-2732852574600017f04",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Disponibilité moyens pour gestion accident simulée démontrée. Justification capacité intervention bureau études transmise = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-2732852574600017f05",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Éléments présents dans POI, vérifiés lors exercice = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-2732852574600017f06",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Décision passage en PPI non mentionnée explicitement dans schéma d'alerte POI. NC documentaire dans document POI = M01. G2 purement documentaire."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-2732852574600017f07",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Événements sans conséquences extérieures non répertoriés dans fiches scénarios POI pour effets dominos. Lacune documentaire POI = M01. G2 purement documentaire."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-2732852574600017f08",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Consignes présentes dans POI. Exercice simulation décidée par IIC pour des raisons pratiques (effectif réduit). Aucune NC = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-2732852574600017f09",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dispositions présentes dans POI. Exercice arrêté à scénario sans déclenchement PPI donc non mises en place mais prescription respectée = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-2732852574600017f10",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Éléments présents dans POI, rôle logistique simulé sans observation = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-2732852574600017f11",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exercices hebdomadaires et mensuels, REX exercice POI consulté, exercice inopiné a vérifié dispositions = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-2732852574600017f12",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Point applicable POI postérieurs à jan 2023. Disponibilité bureau étude validée par téléphone/mail, déplacement simulé. Pas de NC = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-2732852574600017f13",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "REX exercice en annexe confidentielle. Observation: plan environnement proche absent du POI, mise à jour complète POI requise, formation à renforcer. NC documentaire POI = M01. G2 purement documentaire."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-2732852574600017f14",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "État matières stockées présent en deux versions (autorités/public), référencé dans POI, partagé via outil en ligne = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-10-2732852574600017f15",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Personnel positionné dans zone flux thermique >8 kW/m2 lors intervention. IIC ne peut garantir que lances incendie suffiraient. NC technique positionnement sécurité intervention = M14. Risque flux thermique excédant limite 8kW/m2 = G3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512022-12-0532852574600017f01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Inspection MMR1 conduit à 11 faits susceptibles MED, MMR4 à 5 faits susceptibles MED. NC techniques MMR multiples = M14. Mise à jour EDD et fiches MMR requises = M01. Multiples NC MMR Seveso = G3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017gplbazf01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Corps confidentiel mais observation visible: méthode de suivi des NC tracées sur papiers et mails avant saisie GMAO questionne la qualité du suivi et la capacité à bien suivre les travaux. Signal GMAO = M07_CONTROLE (vérification/suivi). Aucune NC physique observée = G2 (NC organisationnelle/documentaire)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017gplbazf02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Liste MMR complétée transmise par exploitant = M08. Correction réalisée = T3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017gplbazf03",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "low",
+    "reasoning": "Corps entièrement confidentiel. Par défaut M08 (corps vide de NC visible)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017gplbazf04",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suite constat fûts zone byzantine (PPRI). Exploitant présente deux axes amélioration: étude clôture grillagée + fiches réflexes inondation. Lors inspection 20/01/23: barrières temporaires en place, périmètre étude présenté. Correction en cours = M14 (suivi constat antérieur). Exploitant proactif = R01. Amélioration constatée = T3. Risque inondation encore potentiel = G3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017gplbazf05",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "low",
+    "reasoning": "Corps entièrement confidentiel. Par défaut M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017kaqj8df01",
+    "domains": [
+      "D03_SEVESO",
+      "D11_SECURITE"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi constat 2022 sur consignes EE alarmes. Exploitant a mis à jour dépliant EE, benchmark réalisé. S'engage à exercice POI annuel mais pas encore réalisé (attend nouveau système accès). Demande points rassemblement alternatifs suite constat toxiques. Correction partielle, engagement futur = R02. Amélioration documentaire constatée = T3. NC organisationnelle = G2."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017kaqj8df02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi constat 27/10/2022 (opérateurs n'avaient pas suivi check-list). Exploitant a remis fiches POI en salle de contrôle, rappel hebdomadaire. IIC a constaté fiches présentes et opérateurs s'y réfèrent. Correction effective = M08 + T3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017kaqj8df03",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi constats 27/10 sur wagons et POI. Exploitant a intégré procédure protection wagons + caméra thermique dans fiche intervention. POI mis à jour (plan environnement proche reste manquant mais exploitant veillera). Correction effective démontrée = M08. Exploitant proactif = R01. T3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017kaqj8df04",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi POI incomplet + flux thermique. Exploitant a transmis POI mis à jour avec feuillets manquants, distances 5/8 kW figurent dans fiches scénarios. Correction effective = M08. T3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017kaqj8df05",
+    "domains": [
+      "D03_SEVESO",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "APMD 19/07/2022 sur explosimètres et détecteurs flamme rétention SUD. Constat du jour: explosimètres et détecteurs flamme présents conformément PAC. APMD respectée = M08 + M04 levée. S06 clôture MED. T3 amélioration."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017kaqj8df06",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "APMD 19/07/2022 sur pelles étangs. Constat du jour: pelles manœuvrables ou en cours réparation. APMD respectée sur maintien fermées. S06 partielle. T3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017kaqj8df07",
+    "domains": [
+      "D07_RETENTION",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "APMD sur plans réseaux. Plans zone U100 mis à jour. Mais manque de rigueur par sondage: absence RF 620 et merlon bac styrène sur certains plans. NC documentaire plans réseaux résiduels = M01. APMD partiellement satisfaite = M08/M04. G2 documentaire. T3 amélioration partielle."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017kaqj8df08",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "APMD sur procédure suivi pelles étangs. Exploitant a mis en place tracabilité quotidienne, procédure HI0047-14. APMD respectée = M08 + M04 levée. R01 (déploiement proactif procédure). T3. S06."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017kaqj8df09",
+    "domains": [
+      "D04_EAUX",
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "APMD sur collecteur cuvette rétention Alkyls. Constat du jour: collecteur en amont bouché, APMD peut être levée. M08 + M04 levée. S06. T3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017kaqj8df10",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Exploitant a transmis déclaration de conformité Uxello ref:220719_001 attestant pertinence facteur 1kg/m³ pour système extinction poudre. Correction réalisée = M08. T3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-01-2032852574600017kaqj8df11",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R08_CONTRAINTE_ECONOMIQUE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant justifie coût minimum 700k€ pour stockage fixe INDUSTRENE, délais importants. Contraintes techniques multiples (bras dépotage). Inspection accepte provisoirement flexible mais demande réévaluation si production augmente. Contrainte économique explicitée = R08. NC technique stockage mobile avec risque = M14. G3 stockage dangereux non optimal."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-02-1432852574600017f01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "État stocks général ne prend pas en compte wagons. Commentaire sur fiche récapitulative prêtant à confusion. NC documentaire état stocks incomplet = M01. Constat terrain pelle étang/wagons physiquement vu = M14 (constat terrain). NC documentaire = G2."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-02-1432852574600017f02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fiche récapitulative wagons n'indique pas interdiction voies 13 et 15 pour wagons alkyls. NC documentaire procédure = M01. G2 purement documentaire."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-02-1432852574600017f03",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Affichage spécifique présent, opérateur vérifie marquage réglementaire 4 faces wagon à réception = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-02-1432852574600017f04",
+    "domains": [
+      "D03_SEVESO",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Explosimètres, détections flammes et extincteurs poudres présents sur voie 8 conformément PAC = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-02-1432852574600017f05",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "EDD solvant remise 29/07/2022 conformément à APC. Date respectée = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-02-1432852574600017f06",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Coquille dans le PAC: la localisation des nouveaux détecteurs représentés sur le plan est identique à celle des moyens existants, source de confusion sur la nature des engagements en équipements de sécurité. Les 3 détecteurs mentionnés dans le PAC sont vérifiés présents sur l'installation (pas de NC physique). NC purement rédactionnelle/documentaire sur la rigueur du PAC = M01_DOCUMENTATION. G2 documentaire."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-02-1432852574600017f07",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Équipements MMR vus sur site. Efficacité non testée (couronne arrosage non testée cause gel + sécurité). PV réception transmis. NC sur test MMR = M07. G2 car équipements présents, test non réalisé = documentaire/vérification."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-02-1432852574600017f08",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "VLE COV respectées selon rapports APAVE octobre 2022 = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-02-1432852574600017f09",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vitesse injection et débit nominal respectés, caractéristiques cheminée conformes = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-02-1432852574600017f10",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Suivi rejets mis en place et résultats transmis = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-02-1432852574600017f11",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Documents POI, EDD solvant mis à jour avant mise en service, PAC annexé à EDD = M08. T3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-02-1432852574600017f12",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE",
+      "m_DELAI"
+    ],
+    "dynamic": "R07_CONTRAINTE_TECHNIQUE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Flexible laissé à demeure sur voirie zone dépotage contrairement AM 12/10/2011. Exploitant invoque variabilité taille wagons (impossibilité technique tuyauteries fixes). NC physique flexible non conforme = M14. Contrainte technique invoquée = R07. Menace MED = m_MENACE. G3 risque fuite liquide inflammable."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-02-1432852574600017f13",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Corps confidentiel mais synthèse visible: efficacité MMR B3 SOL36 à justifier, vérification efficacité explosimètres requise pour phénomènes dangereux. NC sur efficacité MMR = M14. G3 MMR potentiellement inopérante."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Modifications EDD unité styrène à intégrer dans notice réexamen 2024. Projet STAR abandonné sans documenter mesures réduction risque à la source. Compilation modifications requises = M01 (documents à mettre à jour). NC documentaire EDD = G2. Suivi inspection précédente = T2."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Corps confidentiel mais synthèse: inspection MMR unique valorisée EDD Styrène, éléments contrôlés n'amènent pas d'observation = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f03",
+    "domains": [
+      "D02_ATEX",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Explosimètres présents sur zone, rapport vérification trimestrielle MSA janvier 2023 sans anomalie. Fréquence annuelle conforme ADR, seuils 20% et 50% LIE vérifiés = M07 conforme."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f04",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Corps confidentiel mais synthèse: justification dimensionnement coupe-feu siphon caniveau requise pour compatibilité nappe styrène enflammée. NC sur dispositif coupe-feu = M14. Risque nappe inflammable = G3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f05",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Système extinction rétention déportée et couronnes refroidissement RA026 vus, aucune anomalie visuelle = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f06",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Dimensionnement système extinction point bas RA026 vérifié, n'appelle pas d'observation = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f07",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Disponibilité émulseur pour extinction point bas RA026 démontrée = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f08",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vanne pelle étang rétention styrène bien fermée lors inspection = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f09",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R12_PRAGMATISME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Exploitant n'a pas ajouté piquages groupe froid secours mais justifie équipes peuvent déconnecter et groupe froid location disponible en 2-3 jours. Cinétique compatible température critique styrène. Inspection accepte sans observation = M08. R12 (souplesse inspection, mesure compensatoire acceptée)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f10",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R02_PROMESSE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Corps confidentiel + synthèse: EDD non en adéquation avec le POI sur l'évacuation des wagons. L'exploitant s'engage à modifier l'EDD lors du prochain réexamen en 2024 (engagement futur non vérifiable) = R02_PROMESSE. Écart purement documentaire de cohérence EDD/POI = M01_DOCUMENTATION. G2 documentaire."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f11",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "POI février 2023 intègre fiche scénario S6b feu cuvette déportée styrène avec activation manuelle système mousse. Action EDD réalisée = M08. T3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f12",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Pompe PA059-2 installée, PV test vanne TOR 2020 concluant. Action EDD réalisée = M08. T3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f13",
+    "domains": [
+      "D03_SEVESO",
+      "D01_INCENDIE"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "low",
+    "reasoning": "Corps confidentiel + calcul débits protection incendie styrène. Aucune NC visible dans partie visible = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f14",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE",
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "4 flexibles datant jan 2017 non remplacés à échéance jan 2023 (durée vie 6 ans). Contrôle jan 2023 non exhaustif (items marqués 'non applicables'). Flexibles finalement renouvelés mars 2023. NC sur contrôle périodique ADR = M07. Flexibles périmés = M14 (équipement non conforme). Menace MED = m_MENACE. G3 équipements dangereux périmés."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f15",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "low",
+    "reasoning": "Corps entièrement confidentiel. Par défaut M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f16",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Surface rétention déportée 48m² dans POI cohérente avec EDD. Dimensions conformes aux hypothèses EDD = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f17",
+    "domains": [
+      "D02_ATEX",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "low",
+    "reasoning": "Corps entièrement confidentiel (locotracteurs ATEX). Par défaut M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f18",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R07_CONTRAINTE_TECHNIQUE",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Flexibles styrène 6m laissés à demeure, impossibilité tuyauteries fixes invoquée (variabilité wagons 4 fournisseurs). Inspection demande justification conformité AM ou échéancier. Menace MED = m_MENACE. NC physique flexible = M14. Contrainte technique = R07. G3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-03-1432852574600017f19",
+    "domains": [
+      "D07_RETENTION",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_MENACE"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rétention RA026 (1671m²) en matériaux meubles (argile 30cm + liner). Conformité article 22.1-1 AM 03/10/2010 non démontrée. Exploitant ne peut apporter éléments. NC technique rétention physique non conforme = M14. Menace MED = m_MENACE. G3 rétention liquide inflammable."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-05-1232852574600017f01",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S04_VERIFICATION",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Suivi APMD 19/07/2022 pelles étangs. Toutes pelles réparées. Mais vanne VO500 non étanche malgré remplacement (ballon obturateur provisoire). Par sondage vannes vérifiées fermées. APMD respectée = M08/M04. Vanne encore fuyarde = M14 résiduel. G3 rétention non parfaitement étanche mais APMD formellement levée. T3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-05-1232852574600017f02",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "APMD procédure obturation pelles étangs. Exploitant a mis en place tracabilité quotidienne, procédure déployée, opérateurs interrogés suivent. Fiche ADR ouverte pour vanne fuyarde. APMD respectée = M08/M04. S06 clôture. T3. R01 proactif."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-05-1232852574600017f03",
+    "domains": [
+      "D07_RETENTION",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S06_CLOTURE",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "APMD sur plans réseaux. Plans mis à jour, pelle VO500 représentée, inspection ne constate pas d'écart entre plan et terrain. APMD levée = M08/M04. S06. T3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-06-2832852574600017f01",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Volume rétention massif ouest stockage solvants UB1 conforme (plus gros réservoir 630m³ contenu dans rétention, 50% capacité totale contenu). Prescription respectée = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-06-2832852574600017f02",
+    "domains": [
+      "D07_RETENTION"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T7",
+    "confidence": "high",
+    "reasoning": "Désordres D3P cuvette RA007-2 identifiés en 2019, 2021 et 2022, mesures prioritaires non mises en oeuvre dans 6 mois. Classement 3P non reclassé en 3. Cassure côté ouest socle béton toujours présente avec risque infiltration sous fond réservoir. NC technique physique = M14. G3 risque réel. Désordres persistants 2019-2022 >3 ans = T7."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-06-2832852574600017f03",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Suivi inspection 14/02/2023: efficacité MMR B3 SOL36 remise en doute car justifications insuffisantes sur conditions météo. NC technique MMR potentiellement inopérante = M14. G3. T2 suivi."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-06-2832852574600017f04",
+    "domains": [
+      "D04_EAUX",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Coulures créant dépôt produit CMR (AOS13) au sol sous tuyauterie à proximité cuvette. Exigences FDS non respectées. NC physique produit CMR sur sol = M14. G3 NC physique substance CMR dans zone potentiellement connectée à rétention déportée."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-06-2832852574600017f05",
+    "domains": [
+      "D04_EAUX",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Méthode évacuation rétention déportée par contrôle visuel insuffisante pour CMR AOS13. Risque envoi produit CMR vers station traitement non prévue pour ce produit. NC technique procédurale protection milieu = M14. G3 risque envoi CMR milieu."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-06-2832852574600017f06",
+    "domains": [
+      "D08_DECHETS",
+      "D04_EAUX"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Déchirement bigbag MBP5 (produit CMR) avec possible rejet milieu naturel via réseau EP non condamné. Déchets nettoyage dans poubelle sans rétention étanche, entrouverte. APMU émis 30/06/2023. NC technique physique grave = M14. MED urgence = M04. MED active + rejet potentiel CMR milieu = G4."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-06-2832852574600017f07",
+    "domains": [
+      "D07_RETENTION",
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE",
+      "M04_MISE_EN_DEMEURE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S05_ESCALADE",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "GRV posés hors rétention, stockages IBC dans rétention non prévus par EDD, identifications confuses, GRV vides hors rétention. MED proposée pour exploiter conformément EDD ou déposer PAC. NC technique physique stockage dangereux hors rétention = M14. MED proposée = M04. G4 stockages dangereux non conformes non prévus en EDD."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-06-2832852574600017f08",
+    "domains": [
+      "D02_ATEX",
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Dérive capteur explosimètre bac styrène RA26 constatée en salle contrôle (valeur 10% LEL sans odeur). Capteur en dérive = M14. G3 capteur détection gaz inflammable non fiable."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-06-2832852574600017f09",
+    "domains": [
+      "D03_SEVESO",
+      "D02_ATEX"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Zone stockage containers Nord: détecteurs gaz et flamme présents, extincteur vérifié sans remarque = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-09-1332852574600017f01",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M09_PAC"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Installation pilote EPI BBF mise en service juillet 2023 après commissioning. Exploitation conforme PAC 2019 = M09 (mise en oeuvre PAC). Constat descriptif mise en service sans NC."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-09-1332852574600017f02",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Plans transmis justifiant installations au-dessus cote 5,25m NGF. Volume rétention EPI BBG justifié = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-09-1332852574600017f03",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Depuis avril 2023, problèmes connexion automate oxydateur thermique/process. Certains jours oxydateur traitait 0% flux BBF. NC technique équipement défaillant = M14. Délai compte rendu intervention = m_DELAI. G3 oxydateur traitant 0% rejets COV."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-09-1332852574600017f04",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Hauteur 10m et diamètre 34cm conformes. Débit nominal et vitesse éjection minimale respectés = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-09-1332852574600017f05",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Campagne août 2023: VLE respectées. Rejets intégrés au suivi général = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-09-1332852574600017f06",
+    "domains": [
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M02_MESURE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Lors mesure, COVT amont dépassant 600 000 ppm -> laboratoire a arrêté mesure pour protéger matériel. Mesures amont butadiène et acétaldéhyde non réalisées. NC méthodologique mesure = M02. G2 purement méthodologique."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-09-1332852574600017f07",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Rejets aqueux évacués comme déchets (25t slop incinéré SIAP). BSD consulté. Exploitant en attente de caractérisation = M08 (gestion conforme faute de mieux, conformément prescription)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-09-1332852574600017f08",
+    "domains": [
+      "D08_DECHETS"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Statut catalyseurs usagés non clarifié (propriété, déchets, etc.). Exploitant incertain de pouvoir disposer des éléments exigés. NC documentaire statut déchet = M01. G2 purement documentaire."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-09-1332852574600017f09",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE",
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Barrières sécurité contrôlées par sondage, aucune NC relevée = M08."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-09-1332852574600017f10",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M07_CONTROLE"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S01_CONSTAT",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "medium",
+    "reasoning": "Poste chargement/déchargement équipé explosimètres et rétention. Conformité à l'arrêté ministériel pas vérifiée dans le détail, fera l'objet d'une inspection ultérieure = vérification différée = M07_CONTROLE. G2 car pas de NC physique identifiée."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-09-1332852574600017f11",
+    "domains": [
+      "D10_ELECTRIQUE_ESP"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R13_NEUTRE_CONFORME",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "ARF mise à jour, corrections observations première vérification foudre réalisées dans délais = M08. T3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-09-1332852574600017f12",
+    "domains": [
+      "D03_SEVESO",
+      "D05_AIR_BRUIT"
+    ],
+    "mechanisms": [
+      "M01_DOCUMENTATION"
+    ],
+    "modifiers": [],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Fiches réflexes BBF mises à jour (FDS TBC transmise). Mais plan surveillance GES non mis à jour conformément APC 21/12/2020 = M01. G2 documentaire."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-09-1332852574600017f13",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M08_CONFORMITE"
+    ],
+    "modifiers": [],
+    "dynamic": "R01_PROACTIF",
+    "actor": "A01_EXPLOITANT",
+    "stage": "S03_CORRECTION",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Éléments sécurité 13.1-13.4 vus conformes. Cinétique barrière 13.5 corrigée par exploitant après inspection (annexe 7 mis à jour). Exploitant proactif correction rapide = R01. M08 = T3."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-09-1332852574600017f14",
+    "domains": [
+      "D03_SEVESO"
+    ],
+    "mechanisms": [
+      "M14_CONSTAT_TECHNIQUE"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14_NEUTRE_NC",
+    "actor": "A02_INSPECTION",
+    "stage": "S02_INJONCTION",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "HAZOP réalisé mais recommandation SIL 2 pour chaîne sécurité combustion COV non adressée par exploitant. Justification requise. NC sur niveau de confiance MMR = M14. G3 SIL non certifié = risque MMR combustion."
+  }
+]

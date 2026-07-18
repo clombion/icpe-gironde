@@ -1,0 +1,2504 @@
+[
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-10-2532852574600017f01",
+    "domains": [
+      "D01",
+      "D04",
+      "D05"
+    ],
+    "mechanisms": [
+      "M11",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S05",
+    "gravity": "G6",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Incendie survenu sur la chaine de fabrication (G6_INCIDENT). Constat technique d'équipements endommagés/hors service post-sinistre (M14). Déclaration d'incident obligatoire (M11). Domaines : incendie (D01), eaux d'extinction (D04), émissions COV/fumées (D05). Dynamique factuelle neutre NC (R14)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-10-2532852574600017f02",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M01",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de rapport de vérification périodique des installations électriques (M07) et document de contrôle non fourni (M01). NC technique sur équipements sous pression sans attestation à jour (G3 car contrôle non réalisé = signal G3). Domaine électrique/ESP (D10). Injonction avec délai (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-10-2532852574600017f03",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Porter-à-connaissance sur modification de l'étude de dangers (EDD) suite à l'incendie (M09). Seveso seuil haut, modification substantielle des MMR implique PAC obligatoire. G3 car enjeu EDD non mis à jour post-incident. Suivi d'une situation antérieure (T2)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-10-2532852574600017f04",
+    "domains": [
+      "D05",
+      "D11"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R04",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Constat technique : dispositifs de captage COV absents ou non fonctionnels post-incendie, signalisation sécurité défaillante (D11). Exploitant invoque méconnaissance de l'état dégradé de certains équipements (R04_MECONNAISSANCE). G3 car équipements physiquement absents/non fonctionnels."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-0932852574600017f01",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M02"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Conformité constatée sur les mesures d'émissions atmosphériques COV (M08). Protocole de mesure vérifié et conforme (M02 confirmé ok). Aucune remarque, résultats sous VLE. G1_OBSERVATION. R13_NEUTRE_CONFORME."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-0932852574600017f02",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M03"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Conformité constatée sur le reporting GEREP des émissions (M03 conforme) et bilan des rejets atmosphériques (M08). Aucun écart relevé. G1_OBSERVATION. R13_NEUTRE_CONFORME."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-0932852574600017f03",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "MED active sur les émissions de COV/OTR (M04) avec NC technique persistante sur l'efficacité du dispositif de traitement thermique (M14 : équipement dégradé/sous-performant). G4 : MED active + NC technique concomitante. R14_NEUTRE_NC."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-0932852574600017f04",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "NC sur la méthodologie de mesure des émissions COV : paramètres non mesurés, fréquence insuffisante, représentativité contestée (M02). G3 car contrôle/mesure non réalisé conformément. Suivi d'un constat antérieur (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-0932852574600017f05",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R01",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Conformité sur vérifications périodiques des équipements de traitement des COV (M07 et M08). Exploitant a spontanément mis à jour les contrôles (R01_PROACTIF). Correction réalisée (S03). G2 car NC antérieure était purement documentaire, désormais résolue. T3_AMELIORATION."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-0932852574600017f06",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M01",
+      "M03"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de document de suivi des émissions diffuses et défaut de reporting Trackdéchets/GEREP (M01 + M03). NC purement documentaire/formelle sans dimension physique constatée (G2). Injonction à produire les documents (S01 observation menant à S02 implicite). R14_NEUTRE_NC."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-0932852574600017f07",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "NC sur protocole de mesure (M02 : paramètres inadéquats, délais non respectés) et absence de registre des mesures (M01). G3 car mesure non réalisée = signal G3 (contrôle non réalisé). R14_NEUTRE_NC."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-0932852574600017f08",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Conformité constatée sur l'ensemble du système de surveillance des émissions atmosphériques diffuses. Aucune observation. G1_OBSERVATION. R13_NEUTRE_CONFORME."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f01",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M09",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Vérification post-PAC sur modification EDD SEVESO : document consulté mais mise à jour partielle encore attendue (M09 + M01 obsolescence partielle). G2 car NC reste documentaire/formelle. Contre-visite/vérification (S04). Suivi explicite d'un constat antérieur (T2)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f02",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "NC sur vérification périodique d'une MMR SEVESO : contrôle non réalisé dans les délais réglementaires (M07). G3 car contrôle non réalisé sur dispositif de maîtrise des risques (signal G3). Injonction (S02). Pas d'historique mentionné (T1). Confiance medium : corps court."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f03",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PAC requis sur modification de procédé impactant l'EDD (M09). NC purement administrative/formelle sans dimension physique observée (G2). Injonction (S02). Confiance medium : peu de détails dans le corps."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f04",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Vérification périodique d'une MMR non réalisée à échéance (M07). G3 car contrôle/vérification non réalisé sur barrière de sécurité SEVESO. Injonction (S02). Pas d'historique (T1). Confiance medium : corps court."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f05",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M09",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle périodique d'équipement de sécurité SEVESO non réalisé dans les délais (M07). G3 minimum pour contrôle non réalisé sur MMR. Injonction (S02). Confiance medium : corps court."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f06",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contrôle périodique non réalisé (M07) ET constat terrain d'un équipement MMR dégradé/non conforme (M14). G3 car NC physique observée. Injonction (S02). Confiance medium : détails limités."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f07",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Perte de MMR (M11 : déclaration d'incident sur perte de barrière SEVESO) + contrôle périodique non réalisé (M07). G4 : MED active sur MMR + NC technique sur dispositif de sécurité. Suivi explicite d'une situation antérieure (T2). Constat terrain (S01)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f08",
+    "domains": [
+      "D03",
+      "D07"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Constat technique SEVESO : cuvette de rétention non conforme (D07) / équipement dégradé (M14). Document de conception non fourni (M01). G3 car NC physique sur rétention (distance/volume non respecté ou fissuré). Constat (S01). R14_NEUTRE_NC."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f09",
+    "domains": [
+      "D01",
+      "D03"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "NC croisée incendie/SEVESO : vérification périodique du système de détection incendie non réalisée (M07) et constat physique de capteurs dégradés (M14). G3 car NC technique avec risque potentiel. Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f10",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de document SEVESO requis (plan d'organisation des secours, registre des exercices SMS) (M01). NC purement documentaire (G2). Injonction (S02). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf01",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M14",
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Constat technique sur système de traitement COV : OTR sous-performant, paramètres hors spécification (M14). Protocole de mesure inadéquat (M02). G3 car équipement non fonctionnel dans ses paramètres. Suivi d'un constat antérieur (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf02",
+    "domains": [
+      "D03",
+      "D11"
+    ],
+    "mechanisms": [
+      "M08",
+      "M02"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Conformité constatée sur procédures de sécurité SEVESO et plan de prévention (M08). Protocole de mesure mis à jour et conforme (M02). Exploitant a mis en conformité spontanément (R01). Correction réalisée (S03). G2 car antérieurement NC documentaire résolue. T3_AMELIORATION."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf03",
+    "domains": [
+      "D11",
+      "D03"
+    ],
+    "mechanisms": [
+      "M08",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Conformité sur dispositifs sécurité personnes SEVESO (M08) avec constat technique d'un équipement mineur remis en état (M14 résolu). R01_PROACTIF : correction spontanée. S03. G2 car dimension physique résolue. T3_AMELIORATION."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf04",
+    "domains": [
+      "D03",
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite : conformité totale constatée sur SMS SEVESO et sécurité personnes (M08). Aucun écart. G1_OBSERVATION. R13_NEUTRE_CONFORME. T3_AMELIORATION (suite aux corrections antérieures)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf05",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PAC requis sur modification impactant l'EDD (nouvelle installation, extension) (M09). NC purement administrative/procédurale (G2). Injonction (S02). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf06",
+    "domains": [
+      "D03",
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Vérification périodique MMR et système détection incendie : contrôles globalement réalisés (M07) mais constat de lacune mineure (M14 indirect : rapport tiers ne couvrant pas un point). G2 car dimension physique non avérée directement, lacune documentaire du rapport. Suivi (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf07",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Porter-à-connaissance requis sur modification procédé SEVESO (M09). NC procédurale/administrative (G2). Injonction (S02). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf08",
+    "domains": [
+      "D03",
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Conformité constatée sur plan de prévention et procédures d'urgence SEVESO (M08). R01_PROACTIF : exploitant a mis à jour les documents spontanément. G2 car antérieurement NC documentaire résolue. S03. T3_AMELIORATION."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf09",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Constat technique : équipement de captage/traitement COV dégradé ou hors service (M14). G3 car NC physique sur installation. Suivi d'un constat antérieur (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf10",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M02"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Conformité sur mesures d'émissions atmosphériques (M08) et protocole de mesure validé (M02). Résultats sous VLE, aucune observation. G1_OBSERVATION. R13_NEUTRE_CONFORME."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf11",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "NC sur méthodologie de mesure COV (M02 : paramètres manquants) et absence de registre des mesures (M01). NC purement documentaire/formelle (G2). Injonction (S02). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf12",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Contre-visite déchets : conformité totale constatée (registre déchets, BSD, filières) (M08). Aucun écart. G1_OBSERVATION. R13_NEUTRE_CONFORME. T2 car suivi d'un point antérieur levé."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1032852574600017qqv1abf01",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite MMR SEVESO : contrôles périodiques globalement réalisés (M07/M08) mais résidu de NC technique sur un équipement (G3 maintenu car résidu physique). T3 car amélioration globale constatée depuis la dernière inspection. S04 contre-visite."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1032852574600017qqv1abf02",
+    "domains": [
+      "D07",
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite rétention/électrique/ESP : conformité sur vérifications périodiques (M07/M08) mais constat résiduel d'un équipement sous pression avec anomalie physique (M14). G3 car NC physique résiduelle. T3 amélioration globale. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1032852574600017qqv1abf03",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08",
+      "M04"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Levée de MED SEVESO après vérification des MMR (M04 levé + M07/M08 conformes). R01_PROACTIF : exploitant a réalisé toutes les corrections. S06_CLOTURE. G3 maintenu car contexte SEVESO avec résidu de vigilance. T3_AMELIORATION."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1032852574600017qqv1abf04",
+    "domains": [
+      "D08",
+      "D07"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Constat technique : stockage déchets dangereux non conforme (rétention insuffisante, étiquetage absent) (M14 + D07/D08). Document de suivi non fourni (M01). G3 car NC physique sur stockage dangereux. Suivi d'un constat antérieur (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1032852574600017qqv1abf05",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "NC sur vérification périodique d'une MMR (M07) et constat physique d'un équipement MMR dégradé (M14). G3 car NC technique sur barrière de sécurité SEVESO. Suivi (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1032852574600017qqv1abf06",
+    "domains": [
+      "D07",
+      "D06"
+    ],
+    "mechanisms": [
+      "M04",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "MED active sur rétention/sols (M04) avec NC technique persistante : cuvette de rétention fissurée/non étanche, risque de pollution sols (M14). G4 : MED active + NC technique concomitante. T4_STAGNATION : même constat sans évolution. Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f01",
+    "domains": [
+      "D01",
+      "D11"
+    ],
+    "mechanisms": [
+      "M11",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G5",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "APMU (arrêté de mesures d'urgence) suite à déclenchement POI incendie (M11) avec MED active (M04) sur le système de détection/extinction (D01/D11). G5_URGENCE : APMU actif, délai 48h imposé. Suivi d'un événement antérieur (T2). Injonction urgente (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f02",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Conformité constatée sur les moyens de lutte incendie après correction (M08). Résidu de G3 car contexte APMU/incendie avec vigilance maintenue. R13_NEUTRE_CONFORME. S03 correction réalisée. T3_AMELIORATION."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f03",
+    "domains": [
+      "D01",
+      "D04",
+      "D08"
+    ],
+    "mechanisms": [
+      "M08",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Vérification post-incendie : conformité sur eaux d'extinction et gestion déchets post-sinistre (M08) mais constat résiduel de traces de pollution/débris (M14). G3 car NC physique résiduelle. Suivi de l'incendie (T2). Correction partielle (S03)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f04",
+    "domains": [
+      "D10",
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Contre-visite électrique/ESP et émissions atmosphériques : conformité totale (M08). Aucun écart. G1_OBSERVATION. R13_NEUTRE_CONFORME. T2 car suite à inspection antérieure."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f05",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M14",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Contre-visite incendie : NC technique résiduelle sur un équipement de lutte incendie (RIA ou extincteur hors service) (M14) et vérification périodique non à jour (M07). G3 car NC physique résiduelle. Suivi post-incendie (T2). S04 contre-visite."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f06",
+    "domains": [
+      "D03",
+      "D11"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de document SEVESO (plan d'évacuation non mis à jour) (M01) et constat physique de signalisation sécurité absente/illisible (M14). G3 car NC physique (signalisation absente). Constat (S01). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f07",
+    "domains": [
+      "D08"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Conformité constatée sur la gestion des déchets post-incendie (registre, BSD, filières) (M08). Aucune observation. G1_OBSERVATION. R13_NEUTRE_CONFORME."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f08",
+    "domains": [
+      "D05",
+      "D04"
+    ],
+    "mechanisms": [
+      "M14",
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "NC croisée émissions atmosphériques/eaux : constat physique de rejet COV non traité (M14) et protocole de mesure des eaux non conforme (M02). G3 car NC physique sur émissions. Constat (S01). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f09",
+    "domains": [
+      "D01",
+      "D03"
+    ],
+    "mechanisms": [
+      "M11"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G6",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Déclaration d'incident/accident incendie avec impact SEVESO (M11). G6_INCIDENT : événement incendie survenu avec déclenchement POI. R13_NEUTRE_CONFORME sur la procédure de déclaration elle-même. T2 suivi de l'événement. S03 compte-rendu circonstancié réalisé."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f10",
+    "domains": [
+      "D10"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Contre-visite électrique/ESP : vérification périodique réalisée (M07) mais rapport incomplet sur un point (M14 indirect : lacune du rapport tiers). G2 car lacune documentaire du rapport, pas NC physique directe. T2 suivi. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f11",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "PAC requis sur modification post-incendie impactant l'EDD SEVESO (M09). NC procédurale/administrative (G2). Suivi de l'incendie (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f12",
+    "domains": [
+      "D05",
+      "D04",
+      "D08"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Constat technique multi-domaines post-incendie : résidus de produits dangereux/eaux polluées non traités (M14), absence de registre de suivi (M01). G3 car NC physique (produits dangereux sans confinement). Suivi de l'incendie (T2). Constat (S01)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-03-0632852574600017f01",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Conformité constatée sur le SMS SEVESO : procédures, registres et revues conformes (M08). Aucune observation. G1_OBSERVATION. R13_NEUTRE_CONFORME."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-03-0632852574600017f02",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Conformité constatée sur les exercices et plans d'urgence SEVESO (M08). Aucune observation. G1_OBSERVATION. R13_NEUTRE_CONFORME."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-03-0632852574600017f03",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "NC sur vérifications périodiques des MMR : rapport de contrôle non fourni / absent (M07 + M01). NC purement documentaire/formelle (G2 car pas de constat physique de dégradation). Injonction (S02). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-03-0632852574600017f04",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "NC sur vérification périodique MMR (M07) + constat physique d'équipement MMR dégradé (M14) + document non fourni (M01). G3 car NC physique sur barrière de sécurité SEVESO. Injonction (S02). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-03-0632852574600017f05",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M14",
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Constat technique SEVESO : équipement MMR absent/non fonctionnel (M14) et absence de document de suivi (M01). G3 car NC physique sur MMR. Constat (S01). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-03-0632852574600017f06",
+    "domains": [
+      "D03",
+      "D11"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Conformité globale sur vérifications périodiques (M08) mais NC mineure sur calendrier d'exercices (M07 : délai légèrement dépassé). NC purement temporelle/documentaire (G2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-03-0632852574600017f07",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14",
+      "M11"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Perte de MMR déclarée (M11) + vérification périodique non réalisée (M07) + constat physique d'équipement hors service (M14). G4 : MED active + NC technique sur barrière SEVESO. Suivi d'une situation antérieure (T2). Constat (S01)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-03-0632852574600017f08",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M11",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G5",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "APMU (mesure d'urgence) sur perte de MMR critique SEVESO avec constat physique (M11 + M14). G5_URGENCE : risque imminent identifié, délai 48h ou APMU actif, perte de barrière de sécurité majeure. Constat (S01). Pas d'historique antérieur mentionné (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-04-0532852574600017f01",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M04",
+      "M06"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S06",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Levée de MED COV/OTR (M04 levé + M06 récidive antérieure surmontée) avec conformité constatée (M08). R01_PROACTIF : exploitant a réalisé les corrections. S06_CLOTURE. G3 maintenu car contexte MED COV avec vigilance résiduelle. T3_AMELIORATION."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-04-0532852574600017f02",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "NC persistante sur protocole de mesure COV (M02 : fréquence, paramètres) + constat physique d'équipement de mesure dégradé (M14). G3 car NC physique sur équipement. T4_STAGNATION : même constat sans évolution depuis inspection précédente. Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-04-0532852574600017f03",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Conformité sur mesures d'émissions COV (M08) et protocole mis à jour (M02 conforme). R01_PROACTIF : corrections spontanées. S03. G2 car antérieurement NC documentaire résolue. T3_AMELIORATION."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-04-0532852574600017f04",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M01",
+      "M03"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Absence de registre de suivi des émissions diffuses (M01) et défaut de reporting GEREP (M03). NC purement documentaire/formelle (G2). Suivi d'un constat antérieur (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-04-0532852574600017f05",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "NC sur protocole de mesure (M02 : paramètres manquants) et absence de document de suivi (M01). NC purement documentaire/formelle (G2). Suivi (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-04-0532852574600017f06",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M03"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Défaut de reporting numérique GEREP sur les émissions atmosphériques (M03). NC purement formelle/administrative (G2). Suivi (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-04-0532852574600017f07",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02",
+      "M11"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "NC sur protocole de mesure COV (M02) et déclaration incident sur dépassement VLE (M11 : REX/rapport circonstancié requis). G3 car dépassement VLE = NC technique avec risque potentiel. Suivi (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-06-2832852574600017f01",
+    "domains": [
+      "D04",
+      "D01"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de document de plan de gestion des eaux pluviales/d'extinction incendie (M01). NC purement documentaire (G2). Injonction (S02). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-06-2832852574600017f02",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Conformité constatée sur la surveillance des eaux souterraines (piézomètres, analyses) (M08). Aucune observation. G1_OBSERVATION. R13_NEUTRE_CONFORME."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-06-2832852574600017f03",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Conformité constatée sur les rejets aqueux et traitement des eaux industrielles (M08). Résultats sous seuils. Aucune observation. G1_OBSERVATION. R13_NEUTRE_CONFORME."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-06-2832852574600017f04",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "NC sur la méthodologie de prélèvement des eaux (M02 : délai réglementaire non respecté, point de prélèvement non représentatif). NC purement méthodologique/formelle (G2). Injonction (S02). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-06-2832852574600017f05",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G1",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Conformité constatée sur le suivi des eaux pluviales et séparateur hydrocarbures (M08). Aucune observation. G1_OBSERVATION. R13_NEUTRE_CONFORME."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-06-2832852574600017f06",
+    "domains": [
+      "D04",
+      "D06"
+    ],
+    "mechanisms": [
+      "M14",
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Constat technique : pollution résiduelle sols/eaux souterraines (PFAS ou hydrocarbures) observée sur site (M14) et protocole de mesure non conforme (M02). G3 car NC physique (pollution constatée). Injonction (S02). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-06-2832852574600017f07",
+    "domains": [
+      "D01",
+      "D04"
+    ],
+    "mechanisms": [
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "PAC requis sur modification du système de collecte des eaux d'extinction incendie (M09 : impact sur eaux et risque incendie). G3 car enjeu physique sur eaux/incendie (pas purement documentaire). Injonction (S02). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-07-0332852574600017f01",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07",
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "NC sur vérification périodique MMR SEVESO (M07 : délai dépassé) et PAC requis sur modification impactant l'EDD (M09). G3 car contrôle non réalisé sur barrière de sécurité. Injonction (S02). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-07-0332852574600017f02",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Constat technique SEVESO : équipement MMR physiquement dégradé ou absent (M14). G3 car NC physique sur barrière de sécurité. Constat (S01). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-07-0332852574600017f03",
+    "domains": [
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Contre-visite incendie : vérification périodique réalisée (M07) mais rapport de contrôle ne couvrant pas un point spécifique (M14 indirect : lacune rapport tiers). G2 car NC documentaire du rapport (pas de constat physique direct). S04 contre-visite. Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-07-0332852574600017f04",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M01",
+      "M09"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Absence de document SEVESO requis (M01 : registre MMR non tenu à jour) + PAC requis sur modification EDD (M09). G3 car absence de registre MMR = signal fort sur barrières de sécurité. Injonction (S02). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-08-0732852574600017f01",
+    "domains": [
+      "D05",
+      "D03"
+    ],
+    "mechanisms": [
+      "M04",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G4",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "MED active COV (M04) en cours de levée avec conformité partielle constatée (M08). R01_PROACTIF : exploitant a réalisé corrections substantielles. G4 : MED encore active malgré corrections partielles. Suivi (T2). Correction en cours (S03)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-08-0732852574600017f02",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Contre-visite émissions atmosphériques : conformité totale (M08). Aucun écart. G1_OBSERVATION. R13_NEUTRE_CONFORME. Suivi inspection antérieure (T2)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-08-0732852574600017f03",
+    "domains": [
+      "D10",
+      "D05"
+    ],
+    "mechanisms": [
+      "M11",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G6",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Incident électrique/incendie survenu : déclaration d'incident (M11) et constat physique des dégâts (M14 : équipements hors service, câblage endommagé). G6_INCIDENT : événement survenu. R13_NEUTRE_CONFORME sur la procédure de déclaration. Pas d'historique (T1). Compte-rendu (S03)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-08-0732852574600017f04",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M11"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Déclaration REX suite à dépassement ponctuel VLE (M11) + conformité rétablie constatée (M08). R01_PROACTIF : exploitant a corrigé et déclaré. G3 car dépassement VLE antérieur = NC physique. Suivi (T2). Correction réalisée (S03)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-08-0732852574600017f05",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M14",
+      "M04"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S01",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "MED active COV persistante (M04) avec constat physique d'OTR/équipement de traitement non fonctionnel dans ses paramètres (M14). G4 : MED active + NC technique concomitante. T4_STAGNATION : même constat sans évolution. Constat (S01)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-08-0732852574600017f06",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Constat technique : équipement de captage COV dégradé/absent (M14). G3 car NC physique. Constat (S01). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-08-0732852574600017f07",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T1",
+    "confidence": "high",
+    "reasoning": "Constat technique : dispositif de surveillance/captage COV absent ou non fonctionnel (M14). G3 car NC physique. Constat (S01). Pas d'historique (T1)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f01",
+    "domains": [
+      "D04",
+      "D06"
+    ],
+    "mechanisms": [
+      "M08",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Conformité constatée sur la surveillance eaux/sols (M08) avec constat résiduel d'une anomalie physique mineure résolue (M14). R01_PROACTIF : exploitant a corrigé spontanément. G3 car résidu de NC physique sur eaux/sols. T3_AMELIORATION. Correction (S03)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f02",
+    "domains": [
+      "D04",
+      "D06"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Constat technique : présence de PFAS détectée dans les eaux souterraines au-delà des seuils (M14 : NC physique/analytique). G3 car pollution physique constatée. Constat (S01). Suivi d'une problématique antérieure (T2)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f03",
+    "domains": [
+      "D04",
+      "D01"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Constat technique : contamination eaux liée aux mousses PFAS utilisées pour l'incendie, teneurs élevées dans les piézomètres (M14). G3 car NC physique sur eaux. Constat (S01). Suivi de l'incident incendie (T2)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f04",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "NC sur protocole de mesure des eaux (M02 : paramètres PFAS non inclus, fréquence insuffisante). NC méthodologique/formelle (G2). Suivi (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f05",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M02",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "NC sur protocole de mesure eaux (M02) et absence de plan de surveillance actualisé (M01). NC documentaire/formelle (G2). Suivi (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f06",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite : conformité totale sur système de traitement des eaux industrielles (M08). R01_PROACTIF : exploitant a mis en conformité. G1_OBSERVATION. T3_AMELIORATION. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f07",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M01",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Absence de rapport de suivi piézométrique (M01) et constat d'un piézomètre endommagé (M14 mineur : signal physique mais résolution simple). G2 car lacune principalement documentaire malgré signal physique mineur (piézomètre endommagé = G3 limite, mais classé G2 car l'enjeu immédiat est le suivi documentaire). Suivi (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f08",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite eaux : conformité constatée (M08) avec résidu de constat technique mineur (M14 : légère anomalie résolue). R01_PROACTIF. G2 car résidu purement documentaire/mineur. T3_AMELIORATION. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f09",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "Absence de document de surveillance eaux requis (M01 : rapport PFAS non transmis dans les délais). NC purement documentaire (G2). Suivi (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f10",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M14",
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "NC sur méthode analytique eaux (M02 : seuil de détection inadapté pour PFAS) et constat d'anomalie dans les résultats (M14 indirect : résultats non représentatifs). G2 car NC méthodologique/analytique sans pollution physique directement observée. Suivi (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f11",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M02",
+      "M03"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "NC persistante sur protocole de mesure eaux (M02) et défaut de reporting GIDAF (M03). NC documentaire/formelle (G2). T4_STAGNATION : même constat persistant. Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f12",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M08",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Conformité sur le système de traitement principal (M08) mais constat de légère anomalie sur équipement secondaire (M14 mineur). G2 car NC physique mineure, sans impact avéré. T4_STAGNATION : anomalie persistante sans résolution. Constat (S01)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f13",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "NC sur fréquence de mesure des rejets aqueux (M02 : mesures insuffisantes, délai non respecté). NC méthodologique/formelle (G2). Suivi (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f14",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Conformité sur vérifications périodiques équipements eaux (M07/M08). R01_PROACTIF : exploitant a réalisé les contrôles spontanément. G2 car antérieurement NC documentaire résolue. T3_AMELIORATION. S03."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f15",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Constat physique persistant : anomalie sur équipement de traitement des eaux (M14 : dégradé, non conforme aux spécifications). G3 car NC physique. T4_STAGNATION : même constat sans évolution. Constat (S01)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f16",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M02",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "NC sur protocole de mesure (M02) et plan de surveillance non mis à jour (M01). NC documentaire/formelle (G2). Suivi (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f17",
+    "domains": [
+      "D04"
+    ],
+    "mechanisms": [
+      "M07",
+      "M02"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G2",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "NC sur vérification périodique des équipements de mesure eaux (M07) et protocole de mesure non conforme (M02). NC documentaire/formelle/méthodologique (G2). Suivi (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f01",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Conformité constatée sur émissions COV avec vérifications périodiques à jour (M08/M07). R01_PROACTIF : exploitant a réalisé toutes les corrections. G3 maintenu car contexte MED COV avec vigilance résiduelle. T3_AMELIORATION. S03."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f02",
+    "domains": [
+      "D03",
+      "D01"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G3",
+    "trajectory": "T2",
+    "confidence": "high",
+    "reasoning": "NC sur vérification périodique MMR SEVESO (M07) et constat physique d'équipement dégradé SEVESO/incendie (M14). G3 car NC physique sur barrière. Suivi (T2). Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f03",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Conformité constatée sur le système de surveillance des émissions diffuses COV (M08). R01_PROACTIF. G2 car antérieurement NC documentaire résolue. T3_AMELIORATION. S03."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f04",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M02"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite : conformité sur mesures d'émissions COV (M08) et protocole amélioré (M02 conforme). G2 car antérieurement NC documentaire/méthodologique résolue. T3_AMELIORATION. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f05",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M07"
+    ],
+    "modifiers": [],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite : conformité constatée sur vérifications périodiques et mesures COV (M08/M07). R13_NEUTRE_CONFORME. G2 car résolution NC documentaire antérieure. T3_AMELIORATION. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f06",
+    "domains": [
+      "D06",
+      "D07"
+    ],
+    "mechanisms": [
+      "M08",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Conformité constatée sur rétention/sols (M08) avec résidu de constat technique mineur résolu (M14). R01_PROACTIF. G3 maintenu car contexte pollution sols/PFAS avec vigilance résiduelle. T3_AMELIORATION. S03."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f07",
+    "domains": [
+      "D01",
+      "D11"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Conformité constatée sur moyens de lutte incendie et sécurité personnes (M08). R01_PROACTIF : remise en état complète. G3 maintenu car contexte post-incendie avec vigilance. T3_AMELIORATION. S03."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f08",
+    "domains": [
+      "D01",
+      "D10"
+    ],
+    "mechanisms": [
+      "M08",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite incendie/électrique : conformité globale (M08) mais résidu de constat technique (M14 : équipement partiellement rétabli). G3 car NC physique résiduelle. T3_AMELIORATION globale. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f09",
+    "domains": [
+      "D03",
+      "D11"
+    ],
+    "mechanisms": [
+      "M08",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite SMS SEVESO/sécurité : conformité constatée (M08) avec résidu documentaire mineur résolu (M01). R01_PROACTIF. G2 car résidu purement documentaire. T3_AMELIORATION. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f10",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02",
+      "M08"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite : conformité sur mesures COV (M08) avec légère NC résiduelle sur protocole (M02 : un paramètre encore manquant). G2 car résidu documentaire/méthodologique. T3_AMELIORATION. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f11",
+    "domains": [
+      "D01",
+      "D03"
+    ],
+    "mechanisms": [
+      "M11",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G6",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Déclaration d'incident incendie avec impact SEVESO (M11) + conformité sur la procédure de gestion post-incident (M08). G6_INCIDENT : incendie survenu. R01_PROACTIF : déclaration et gestion exemplaires. T3_AMELIORATION (procédure améliorée depuis précédent). S03."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f12",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite SMS SEVESO : conformité totale (M08). R01_PROACTIF. G2 car antérieurement NC documentaire résolue. T3_AMELIORATION. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f13",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite SEVESO : conformité totale sur procédures et registres (M08). R01_PROACTIF. G2 car antérieurement NC documentaire résolue. T3_AMELIORATION. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f14",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite SEVESO : conformité totale sur les MMR et leur suivi (M08). R01_PROACTIF. G2 car antérieurement NC résolue. T3_AMELIORATION. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f15",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "Contre-visite : NC persistante sur vérification périodique MMR (M07 : délai encore dépassé) + résidu de constat physique (M14 : équipement pas encore rétabli). G3 car NC physique persistante. T4_STAGNATION : pas d'évolution malgré contre-visite. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f16",
+    "domains": [
+      "D03",
+      "D11"
+    ],
+    "mechanisms": [
+      "M11",
+      "M08"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G4",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Déclaration d'incident SEVESO avec perte de MMR (M11) + conformité sur gestion de crise (M08). G4 : incident avec MED potentielle sur MMR + NC technique sur barrière. R01_PROACTIF : gestion exemplaire de l'incident. T3_AMELIORATION. S03."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f17",
+    "domains": [
+      "D03"
+    ],
+    "mechanisms": [
+      "M07",
+      "M08"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite : conformité sur vérifications périodiques SEVESO (M07/M08). R01_PROACTIF. G2 car antérieurement NC documentaire résolue. T3_AMELIORATION. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f18",
+    "domains": [
+      "D03",
+      "D07"
+    ],
+    "mechanisms": [
+      "M04",
+      "M05",
+      "M14",
+      "M01"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "MED active (M04) + astreinte/sanction administrative (M05) sur rétention SEVESO avec constat physique (M14 : cuvette non conforme) et absence de document (M01). G4 : MED active + NC technique. T4_STAGNATION : même constat persistant malgré sanctions. Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f01",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite : conformité totale sur émissions COV (M08). R01_PROACTIF. G2 car antérieurement NC documentaire/formelle résolue. T3_AMELIORATION. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f02",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M14"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S03",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Conformité sur surveillance COV (M08) avec résidu de constat technique mineur résolu (M14). G2 car résidu mineur. T3_AMELIORATION. Correction (S03)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f03",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M04",
+      "M14",
+      "M06"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S02",
+    "gravity": "G4",
+    "trajectory": "T5",
+    "confidence": "high",
+    "reasoning": "MED active COV (M04) + récidive (M06 : même NC sur OTR/traitement COV) + constat physique d'équipement hors paramètres (M14). G4 : MED active + NC technique. T5_AGGRAVATION : situation empire par rapport à l'inspection précédente. Injonction (S02)."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f04",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite : conformité totale sur le système de surveillance des émissions diffuses COV (M08). R01_PROACTIF. G1_OBSERVATION. T3_AMELIORATION. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f05",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M03"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite : conformité sur mesures COV (M08) et reporting GEREP à jour (M03). R01_PROACTIF. G2 car antérieurement NC documentaire/reporting résolue. T3_AMELIORATION. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f06",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08",
+      "M03"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite : conformité totale sur reporting et surveillance COV (M08/M03). R01_PROACTIF. G1_OBSERVATION. T3_AMELIORATION. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f07",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M02",
+      "M08"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G2",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite : conformité globale sur mesures COV (M08) avec résidu NC sur protocole (M02 : un paramètre encore à améliorer). G2 car résidu méthodologique. T3_AMELIORATION. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f08",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M08"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R13",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G1",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Contre-visite : conformité totale sur l'ensemble du suivi des émissions atmosphériques COV (M08). Aucun écart. G1_OBSERVATION. R13_NEUTRE_CONFORME. T3_AMELIORATION. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f09",
+    "domains": [
+      "D05",
+      "D03"
+    ],
+    "mechanisms": [
+      "M11",
+      "M08"
+    ],
+    "modifiers": [
+      "m_DELAI"
+    ],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G3",
+    "trajectory": "T3",
+    "confidence": "high",
+    "reasoning": "Déclaration REX sur incident COV avec impact SEVESO (M11) + conformité sur la gestion post-incident (M08). G3 car incident COV avec dimension SEVESO. R01_PROACTIF : déclaration et gestion proactives. T3_AMELIORATION. S04."
+  },
+  {
+    "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f10",
+    "domains": [
+      "D05"
+    ],
+    "mechanisms": [
+      "M04",
+      "M14"
+    ],
+    "modifiers": [],
+    "dynamic": "R14",
+    "actor": "A01",
+    "stage": "S04",
+    "gravity": "G4",
+    "trajectory": "T4",
+    "confidence": "high",
+    "reasoning": "MED active COV (M04) avec constat physique d'OTR/équipement hors paramètres (M14). G4 : MED active + NC technique concomitante. T4_STAGNATION : même constat sans évolution. Injonction (S02)."
+  }
+]

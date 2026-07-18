@@ -1,0 +1,1216 @@
+{
+  "total_audited": 130,
+  "errors_found": 145,
+  "corrections": [
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f08",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-1032852574600017qqv1abf06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f14",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-04-0532852574600017f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f09",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-03-0632852574600017f08",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-1032852574600017qqv1abf01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-04-0532852574600017f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-1032852574600017qqv1abf03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f13",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f08",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f10",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-1032852574600017qqv1abf04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf09",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-06-2832852574600017f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f08",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-1032852574600017qqv1abf05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-1032852574600017qqv1abf02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-07-0332852574600017f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f17",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f12",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf08",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-04-0532852574600017f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-08-0732852574600017f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f16",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f10",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f13",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f16",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-07-0332852574600017f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-04-0532852574600017f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-04-0532852574600017f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-0932852574600017f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-03-0632852574600017f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-0932852574600017f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f09",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-0932852574600017f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f11",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-04-0532852574600017f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-08-0732852574600017f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f08",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f18",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f15",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f08",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-08-0732852574600017f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-04-0532852574600017f07",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f12",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-07-0332852574600017f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-06-2832852574600017f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf01",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f09",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f03",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-06-2832852574600017f04",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f06",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f09",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f05",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f02",
+      "field": "modifiers",
+      "hunter_value": [],
+      "corrected_value": [
+        "m_DELAI"
+      ],
+      "reason": "Délai correctif chiffré present dans le corps (Observations/Demande) mais non capté par Hunter (0/130 modifiers assignés dans le batch)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-0932852574600017f06",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Délai correctif chiffré present dans le corps (ex. « dans un délai de X mois ») : la fiche constitue une injonction formelle, pas une simple observation."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-0932852574600017f07",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Délai correctif chiffré present dans le corps (ex. « dans un délai de X mois ») : la fiche constitue une injonction formelle, pas une simple observation."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f07",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Délai correctif chiffré present dans le corps (ex. « dans un délai de X mois ») : la fiche constitue une injonction formelle, pas une simple observation."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f08",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Délai correctif chiffré present dans le corps (ex. « dans un délai de X mois ») : la fiche constitue une injonction formelle, pas une simple observation."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f06",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Délai correctif chiffré present dans le corps (ex. « dans un délai de X mois ») : la fiche constitue une injonction formelle, pas une simple observation."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f08",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Délai correctif chiffré present dans le corps (ex. « dans un délai de X mois ») : la fiche constitue une injonction formelle, pas une simple observation."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f12",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Délai correctif chiffré present dans le corps (ex. « dans un délai de X mois ») : la fiche constitue une injonction formelle, pas une simple observation."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-03-0632852574600017f08",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Délai correctif chiffré present dans le corps (ex. « dans un délai de X mois ») : la fiche constitue une injonction formelle, pas une simple observation."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-08-0732852574600017f06",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Délai correctif chiffré present dans le corps (ex. « dans un délai de X mois ») : la fiche constitue une injonction formelle, pas une simple observation."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-08-0732852574600017f07",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Délai correctif chiffré present dans le corps (ex. « dans un délai de X mois ») : la fiche constitue une injonction formelle, pas une simple observation."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f02",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Délai correctif chiffré present dans le corps (ex. « dans un délai de X mois ») : la fiche constitue une injonction formelle, pas une simple observation."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f03",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Délai correctif chiffré present dans le corps (ex. « dans un délai de X mois ») : la fiche constitue une injonction formelle, pas une simple observation."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f12",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Délai correctif chiffré present dans le corps (ex. « dans un délai de X mois ») : la fiche constitue une injonction formelle, pas une simple observation."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f15",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S02",
+      "reason": "Délai correctif chiffré present dans le corps (ex. « dans un délai de X mois ») : la fiche constitue une injonction formelle, pas une simple observation."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-10-2532852574600017f02",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S01",
+      "reason": "Aucun délai ni condition de mise en œuvre formulée dans le corps ; S02 nécessite une « demande formelle avec délai » (parfois demande absente/vide)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f10",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S01",
+      "reason": "Aucun délai ni condition de mise en œuvre formulée dans le corps ; S02 nécessite une « demande formelle avec délai » (parfois demande absente/vide)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf07",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S01",
+      "reason": "Aucun délai ni condition de mise en œuvre formulée dans le corps ; S02 nécessite une « demande formelle avec délai » (parfois demande absente/vide)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f01",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S01",
+      "reason": "Aucun délai ni condition de mise en œuvre formulée dans le corps ; S02 nécessite une « demande formelle avec délai » (parfois demande absente/vide)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-1732852574600017f11",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S01",
+      "reason": "Aucun délai ni condition de mise en œuvre formulée dans le corps ; S02 nécessite une « demande formelle avec délai » (parfois demande absente/vide)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-03-0632852574600017f03",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S01",
+      "reason": "Aucun délai ni condition de mise en œuvre formulée dans le corps ; S02 nécessite une « demande formelle avec délai » (parfois demande absente/vide)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-03-0632852574600017f06",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S01",
+      "reason": "Aucun délai ni condition de mise en œuvre formulée dans le corps ; S02 nécessite une « demande formelle avec délai » (parfois demande absente/vide)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-06-2832852574600017f01",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S01",
+      "reason": "Aucun délai ni condition de mise en œuvre formulée dans le corps ; S02 nécessite une « demande formelle avec délai » (parfois demande absente/vide)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f10",
+      "field": "stage",
+      "hunter_value": "S02",
+      "corrected_value": "S04",
+      "reason": "Le texte ne formule pas de nouvelle injonction : il s'agit d'un suivi/contre-visite de la MED déjà active (S04_VERIFICATION), pas d'une nouvelle demande (S02)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-10-2532852574600017f01",
+      "field": "stage",
+      "hunter_value": "S01",
+      "corrected_value": "S05",
+      "reason": "La fiche se termine par une proposition d'arrêté de mesure d'urgence au Préfet : passage au niveau coercitif supérieur (S05_ESCALADE), pas une simple observation terrain."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf02",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf03",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-10328525746000170vaqgkf08",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-01-1032852574600017qqv1abf03",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-04-0532852574600017f01",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-04-0532852574600017f03",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-08-0732852574600017f01",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-08-0732852574600017f04",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f01",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f06",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R13",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f08",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512024-11-1432852574600017f14",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f01",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f03",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f06",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f07",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f09",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f11",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f12",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f13",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f14",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f16",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-01-3132852574600017f17",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f01",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f04",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R13",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f05",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f06",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R13",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512025-04-1132852574600017f09",
+      "field": "dynamic",
+      "hunter_value": "R01",
+      "corrected_value": "R14",
+      "reason": "R01_PROACTIF sur-attribué : le texte montre l'exploitant répondant à une demande, une MED ou un APMU antérieurs (« suite à l'inspection précédente », « conformément à sa réponse du... »), pas une action spontanée/auto-commandée. R13/R14 est le défaut."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f02",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07"
+      ],
+      "corrected_value": [
+        "M09"
+      ],
+      "reason": "Le texte porte sur la révision de la cohérence du nœud papillon CON1 de l'EDD (scénario majorant), pas sur une vérification périodique manquante (M07 non étayé par le texte)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f02",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "Correction purement analytique/documentaire de l'EDD, aucune dimension physique constatée sur site."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f04",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07"
+      ],
+      "corrected_value": [
+        "M01",
+        "M07"
+      ],
+      "reason": "Corriger la fiche MMR B1 et assurer sa traçabilité relève de M01 (documentation) ; vérifier la réalisation effective des tests relève de M07 (revue MMR) — Hunter n'avait retenu que M07 (missed multi-label)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f04",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "Demande de clarification/traçabilité documentaire sur la fiche MMR, aucun équipement décrit comme dégradé/hors service sur site."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f05",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07"
+      ],
+      "corrected_value": [
+        "M09",
+        "M01"
+      ],
+      "reason": "Révision du nœud H de l'EDD (M09) et correction/traçabilité de la fiche MMR B3 (M01) ; aucune vérification périodique manquante mentionnée (M07 non étayé)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f05",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "Correction analytique/documentaire (nœud EDD + fiche MMR), aucune dimension physique constatée."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f06",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "M14"
+      ],
+      "corrected_value": [
+        "M09"
+      ],
+      "reason": "False M14 : le texte demande uniquement de revoir un nœud de l'EDD (perte de confinement RF001-X) et de proposer des MMR complémentaires pour le PPRT — aucun constat terrain d'équipement dégradé n'est décrit."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f06",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "Demande purement analytique sur l'EDD/PPRT, sans dimension physique observée sur site."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f07",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "M11"
+      ],
+      "corrected_value": [
+        "M01"
+      ],
+      "reason": "Le texte porte sur la correction de la définition de la fiche MMR B9 et l'explication d'un shunt constaté en 2021 (documentation), pas sur une déclaration d'incident en cours (M11) ni un contrôle périodique manqué (M07), ni MED active (aucune mention de MED dans le corps)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f07",
+      "field": "gravity",
+      "hunter_value": "G4",
+      "corrected_value": "G2",
+      "reason": "Correction documentaire de la fiche MMR, sans MED active ni NC physique constatée dans ce corps."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f09",
+      "field": "mechanisms",
+      "hunter_value": [
+        "M07",
+        "M14"
+      ],
+      "corrected_value": [
+        "M07",
+        "M01"
+      ],
+      "reason": "« Sans délai, fiabiliser le contrôle et la maintenance » et « mettre en place un référentiel de contrôle et une traçabilité » relèvent de M07 (revue MMR/contrôle) et M01 (traçabilité documentaire) ; aucun équipement n'est décrit comme physiquement dégradé (M14 non étayé)."
+    },
+    {
+      "slug": "simorep-cie-cs-michelin52003512023-11-2832852574600017f09",
+      "field": "gravity",
+      "hunter_value": "G3",
+      "corrected_value": "G2",
+      "reason": "Demande de fiabilisation du processus de contrôle/traçabilité, sans constat physique d'équipement dégradé."
+    }
+  ],
+  "false_positive_rate": 0.769,
+  "error_patterns": "Batch entier consacré à un seul site (SIMOREP/Michelin, Bassens, SEVESO seuil haut) suivi sur 18 mois (2023-10 a 2025-04), largement post-incendie du 25/10/2023. Quatre erreurs systematiques identifiees : (1) m_DELAI jamais utilise par Hunter (0/130) alors que 81 fiches sur 130 contiennent un delai correctif chiffre explicite dans le corps (« dans un delai de X mois », « sous X jours », « sans delai ») ; (2) desaccord stade/delai : 14 fiches taguees S01_CONSTAT contenaient en realite une injonction chiffree (-> S02), et a l'inverse 9 fiches taguees S02_INJONCTION n'avaient ni delai ni demande formelle exploitable (-> S01), plus 1 fiche de suivi de MED active reclassee en S04_VERIFICATION et 1 fiche d'ouverture d'incident avec proposition d'arrete d'urgence reclassee en S05_ESCALADE ; (3) R01_PROACTIF sur-attribue 29 fois : dans 28 cas sur 29, le texte montre l'exploitant repondant a une demande, une MED (APMD) ou un APMU deja formules par l'inspection lors d'une inspection precedente (« suite a l'inspection precedente », « conformement a sa reponse du... »), ce qui est une conformite constatee (R13/R14 = defaut de l'axe), pas une action spontanee/auto-commandee ; un seul cas (campagne volontaire de detection/reparation de fuites COV avec recrutement dedie, sans injonction prealable identifiee dans le corps) justifie R01 ; (4) cluster de 6 fiches du 28/11/2023 consacrees a la revue quinquennale de l'EDD/nœuds papillon/fiches MMR : Hunter a systematiquement mal classe ces corrections analytiques/documentaires en M07_CONTROLE (« controle periodique non realise »), une lecture non etayee par le texte (aucune mention de controle manque), avec un cas de M14 pur hallucine (aucun constat terrain dans le corps) ; corrige vers M09_PAC/M01_DOCUMENTATION et gravite G2 (NC analytique/documentaire, sans dimension physique).",
+  "verdict": "Qualite de fond correcte sur les axes domaine/mecanisme majoritaires (M08, M14 conforme, M04/M05 MED) et aucun code invalide, mais deux axes systematiquement fragilises sur l'ensemble du batch : le couple stade/m_DELAI (jamais peuple) et la dynamique R01 (sur-attribuee des que l'exploitant montre une action correctrice, sans verifier si elle etait spontanee). Corrections appliquees a 100% des occurrences identifiees ; confiance elevee sur les corrections car chacune est ancree dans une citation directe du corps du constat."
+}
