@@ -106,13 +106,14 @@
   /* Peek-from-the-side text panel (mobile) — the fiche text stays one tap away
      after you scroll into the options. Edge tab = the "peek"; opens a wide,
      readable panel. Documented as a side-sheet variant (Material). */
-  #text-tab, #text-panel, #text-backdrop { display: none; }
+  #text-tab, #text-panel, #text-backdrop, .open-text { display: none; }
   @media (max-width: 860px) {
     #text-tab { display: block; position: fixed; right: 0; top: 40%; z-index: 40;
-      writing-mode: vertical-rl; transform: rotate(180deg);
+      writing-mode: vertical-rl;                 /* texte vertical, sans rotation qui inversait coins + ombre */
       background: var(--rust); color: #fff; border: none; padding: 16px 9px;
-      border-radius: 11px 0 0 11px; font: inherit; font-weight: 600; font-size: 13px;
-      letter-spacing: .03em; cursor: pointer; box-shadow: -2px 2px 10px rgba(0,0,0,.22); }
+      border-radius: 11px 0 0 11px;              /* coins arrondis côté contenu (gauche), plat contre le bord (droite) */
+      font: inherit; font-weight: 600; font-size: 13px;
+      letter-spacing: .03em; cursor: pointer; box-shadow: -3px 2px 11px rgba(0,0,0,.24); }
     #text-backdrop { display: block; position: fixed; inset: 0; z-index: 44;
       background: rgba(0,0,0,.4); opacity: 0; pointer-events: none; transition: opacity .2s; }
     #text-backdrop.on { opacity: 1; pointer-events: auto; }
@@ -133,8 +134,8 @@
     .context .body-wrap { max-height: 4.5em; overflow: hidden;
       -webkit-mask-image: linear-gradient(#000 60%, transparent); mask-image: linear-gradient(#000 60%, transparent); }
     .context .toggle { display: none; }
-    .context::after { content: "Texte complet : onglet « Texte » à droite ›"; display: block;
-      font-size: 12.5px; color: var(--rust); margin-top: 8px; }
+    .open-text { display: inline-block; margin-top: 8px; background: none; border: none;
+      color: var(--rust); font: inherit; font-weight: 600; font-size: 13.5px; cursor: pointer; padding: 6px 0; }
   }
 </style>
 </head>
@@ -244,6 +245,7 @@ function render() {
         ${it.prescription ? `<div class="fl">Prescription</div><div class="body-text prescription">${esc(it.prescription)}</div>` : ""}
       </div>
       <button class="toggle" id="ctx-toggle">${ctxCollapsed ? "▾ Déplier le texte" : "▴ Replier le texte"}</button>
+      <button class="open-text" id="open-text-inline">Lire le texte complet →</button>
     </section>
     ${ORDER.map(secHtml).join("")}
     <div class="actions">
@@ -261,6 +263,7 @@ function render() {
 function wire() {
   const it = DATA.items[idx];
   document.getElementById("ctx-toggle").onclick = () => { ctxCollapsed = !ctxCollapsed; render(); };
+  document.getElementById("open-text-inline")?.addEventListener("click", openText);
   document.querySelectorAll(".shead").forEach(h => h.onclick = () => {
     const f = h.dataset.sec; openSec = (openSec === f) ? null : f; render();
     document.querySelector(".sec.open")?.scrollIntoView({ block: "nearest", behavior: "smooth" });
