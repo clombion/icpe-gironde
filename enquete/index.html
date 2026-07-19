@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>L'enquête — ICPE en Gironde</title>
+<meta name="description" content="Ce que révèle le classement automatique des fiches d'inspection ICPE en Gironde : la routine des contrôles, les risques avérés, les installations récidivistes.">
+
+<!-- CSP — page statique, ne charge que des fichiers locaux. -->
+<meta http-equiv="Content-Security-Policy"
+      content="default-src 'none';
+               script-src 'self' 'unsafe-inline';
+               style-src 'self' 'unsafe-inline';
+               img-src 'self' data:;
+               connect-src 'self';
+               font-src 'self' data:;">
+
+<link rel="stylesheet" href="../shared/tokens.css?v=12">
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead__topline">
+    <div>
+      <div class="masthead__label">Cahier d'enquête</div>
+      <h1 class="masthead__title">L'enquête</h1>
+    </div>
+    <a class="masthead__home" href="../">← retour à l'accueil</a>
+  </div>
+  <p class="masthead__sub">Ce que révèle le classement des 10 514 constats d'inspection, en trois angles.</p>
+</header>
+
+<div class="disclaimer" role="note">
+  <strong>À lire d'abord.</strong> Ces constats reposent sur un classement
+  <em>automatique</em> (modèle de langage) des fiches d'inspection, avec un taux
+  d'erreur mesuré sur échantillon. Les chiffres et les classements sont
+  <strong>indicatifs, pas des verdicts</strong> : chaque angle renvoie vers
+  l'outil d'exploration pour remonter aux fiches sources. Une inspection plus
+  fréquente ou un écart signalé ne valent pas condamnation — les grands sites
+  (Seveso) sont contrôlés plus souvent par construction.
+</div>
+
+<main class="enquete" id="angles" aria-busy="true">
+  <p class="enquete__loading" id="loading">Chargement des constats…</p>
+</main>
+
+<footer class="footer">
+  <p>
+    Projet pédagogique — IJBA 2026 ·
+    <a href="https://github.com/clombion/icpe-gironde" target="_blank" rel="noopener">code source</a>
+  </p>
+</footer>
+
+<script type="module" src="app.js?v=1"></script>
+</body>
+</html>

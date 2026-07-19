@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>enquete/lib.js tests</title>
+</head>
+<body>
+<h1>enquete/lib.js — tests</h1>
+<pre id="output"></pre>
+<script type="module">
+import { formatFr, barWidthPct } from './lib.js';
+
+const output = document.getElementById('output');
+let passed = 0, failed = 0;
+function assertEqual(actual, expected, message) {
+  const ok = actual === expected;
+  if (ok) { passed++; output.textContent += '  ✓ ' + message + '\n'; }
+  else { failed++; output.textContent += `  ✗ FAIL: ${message} (got ${JSON.stringify(actual)}, expected ${JSON.stringify(expected)})\n`; }
+}
+
+// formatFr — narrow no-break space ( ) grouping
+assertEqual(formatFr(743), '743', 'formatFr: under 1000');
+assertEqual(formatFr(7096), '7 096', 'formatFr: thousands');
+assertEqual(formatFr(10514), '10 514', 'formatFr: ten-thousands');
+assertEqual(formatFr(0), '0', 'formatFr: zero');
+
+// barWidthPct
+assertEqual(barWidthPct(202, 202), '100.0%', 'bar: full');
+assertEqual(barWidthPct(101, 202), '50.0%', 'bar: half');
+assertEqual(barWidthPct(0, 202), '0.0%', 'bar: zero');
+assertEqual(barWidthPct(5, 0), '0%', 'bar: zero max guarded');
+assertEqual(barWidthPct(300, 202), '100.0%', 'bar: clamped to 100');
+
+output.textContent += '\n' + passed + ' passed, ' + failed + ' failed\n';
+document.title = failed === 0 ? '✓ enquete/lib.js — all passed' : '✗ enquete/lib.js — ' + failed + ' FAILED';
+</script>
+</body>
+</html>

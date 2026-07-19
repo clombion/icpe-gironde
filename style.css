@@ -85,6 +85,7 @@ a:hover { text-decoration: underline; }
 .card--ochre { border-left-color: var(--ochre); }
 .card--lead { border-left-color: var(--lead); }
 .card--moss { border-left-color: var(--moss); }
+.card--azur { border-left-color: var(--azur); }
 
 .card__title {
   font-family: var(--font-display);
