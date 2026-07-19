@@ -10,8 +10,8 @@
 import {
   buildFilterWhereClause, serializeFilterState, parseFilterState,
   formatSearchResult, rowsToCsv, pivotMatrix,
-} from './lib.js?v=13';
-import { fetchWithProgress } from './loader.js?v=13';
+} from './lib.js?v=14';
+import { fetchWithProgress } from './loader.js?v=14';
 
 const SQLITE_URL = new URL('../carte/data/fiches.sqlite', import.meta.url).href;
 const TAXO_URL = new URL('../carte/data/taxonomy-labels.json', import.meta.url).href;

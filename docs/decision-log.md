@@ -143,6 +143,12 @@ La première section, **Décisions en attente**, liste les choix identifiés mai
 **Décision :** GitHub Pages, HTML/CSS/JS purs, aucune étape de build. La page Vérifier utilise sql.js (SQLite WASM, ~1 Mo) sur `fiches.sqlite` pré-indexé.
 **Justification :** Zéro infrastructure à maintenir, contribution possible par simple PR, et le moteur SQL complet tourne dans le navigateur.
 
+### Explorateur par tags : famille sql.js, base réutilisée, genre d'axe en base
+
+**Situation :** Exposer le classement automatique (taxonomie v5) dans le navigateur. `/rapports/` a deux familles de pages : live-sql.js (Vérifier — requêtes ouvertes) et JSON pré-calculé (Analyser par angle — questions figées).
+**Décision :** L'explorateur à facettes rejoint la famille live-sql.js et réutilise `fiches.sqlite` (servie gzippée ≈11,6 Mo, mise en cache HTTP, partagée avec Vérifier) plutôt qu'une base allégée dédiée. Le genre d'axe (mono/multi-label) est sondé en base (`SELECT DISTINCT axis FROM fiche_tags`), jamais codé en dur ni tiré du codebook. Les libellés viennent de `codebook.json` via `taxonomy-labels.json`. Les 478 fiches non taggées sont exclues (corpus = 10 514) ; `gravity IS NOT NULL` est un proxy exact, garanti par un invariant co-NULL vérifié au build.
+**Justification :** L'espace de filtrage est combinatoire, non pré-calculable → famille live-sql.js. Le parcours découverte→vérification renvoie de toute façon vers Vérifier (qui charge la base complète), donc réutiliser paie le téléchargement une fois au lieu de deux. La base physique est l'autorité du genre d'axe ; toute autre source réintroduirait un second point de vérité pour `modifiers`/`confidence` que le codebook ne porte pas.
+
 ### URLs Pages inscrites dans les données
 
 **Situation :** Chaque rapport PDF et markdown a une URL GitHub Pages, stockée dans les CSV et le pivot (`url_pages`, `url_markdown`).

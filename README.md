@@ -15,7 +15,7 @@ utilisables directement dans le navigateur, sans installation :
 | **Audit des coordonnées** | [/audit/](https://clombion.github.io/icpe-gironde/audit/) | Revue collaborative par bucket — mini-carte, verdicts, export JSON |
 | **Tableau des décisions** | [/audit/table.html](https://clombion.github.io/icpe-gironde/audit/table.html) | Vue tabulaire de toutes les décisions — filtres, tri, export CSV |
 | **Catalogue des données** | [/donnees/](https://clombion.github.io/icpe-gironde/donnees/) | Dictionnaire des colonnes avec échantillons cliquables |
-| **Rapports d'inspection** | [/rapports/](https://clombion.github.io/icpe-gironde/rapports/) | 10 599 fiches de constat — recherche plein texte, analyse par angle |
+| **Rapports d'inspection** | [/rapports/](https://clombion.github.io/icpe-gironde/rapports/) | 10 599 fiches de constat — recherche plein texte, analyse par angle, exploration à facettes des tags |
 
 ## Ce que la carte permet
 
@@ -90,7 +90,7 @@ python3 scripts/build_metadata_samples.py
 
 ## Rapports d'inspection
 
-L'outil `/rapports/` offre 3 sous-pages pour exploiter les rapports
+L'outil `/rapports/` offre 4 sous-pages pour exploiter les rapports
 d'inspection ICPE extraits de Géorisques :
 
 - **Vérifier** (`/rapports/`) — recherche plein texte via sql.js
@@ -101,6 +101,13 @@ d'inspection ICPE extraits de Géorisques :
 - **Analyser par angle** (`/rapports/angles.html`) — 5 requêtes SQL
   prédéfinies avec export CSV en un clic. Contributions via PR (1
   fichier `.md` par angle dans `rapports/angles/`)
+- **Explorer** (`/rapports/explorer.html`) — exploration à facettes du
+  classement automatique (taxonomie v5, 6 axes) sur les 10 514 fiches
+  taggées : filtres combinés (ET entre axes, OU dans un axe) à comptes
+  vivants, vue Liste (lien vers le snippet PDF de Vérifier) et vue
+  Répartition (barres par axe + matrice croisée cliquable). Les 478
+  fiches non classées ne figurent pas ici. Genre d'axe et libellés
+  dérivés du codebook / de la base
 - **Méthodologie** (`/rapports/methodologie.html`) — documentation
   complète du pipeline d'extraction (5 étapes, statistiques de
   couverture, limitations connues, instructions de reproduction)

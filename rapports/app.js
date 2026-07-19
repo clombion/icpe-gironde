@@ -13,8 +13,8 @@ import {
   formatSearchResult,
   isMobileViewport,
   reflowText,
-} from './lib.js';
-import { fetchWithProgress } from './loader.js';
+} from './lib.js?v=14';
+import { fetchWithProgress } from './loader.js?v=14';
 
 // --- Configuration -------------------------------------------------------
 
