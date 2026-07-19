@@ -114,6 +114,9 @@
       border-radius: 11px 0 0 11px;              /* coins arrondis côté contenu (gauche), plat contre le bord (droite) */
       font: inherit; font-weight: 600; font-size: 13px;
       letter-spacing: .03em; cursor: pointer; box-shadow: -3px 2px 11px rgba(0,0,0,.24); }
+    /* rotation sur le texte seul (pas le bouton) : lecture bas→haut, pied des
+       lettres contre le bord droit, sans inverser coins ni ombre du bouton */
+    #text-tab .tt-label { display: inline-block; transform: rotate(180deg); }
     #text-backdrop { display: block; position: fixed; inset: 0; z-index: 44;
       background: rgba(0,0,0,.4); opacity: 0; pointer-events: none; transition: opacity .2s; }
     #text-backdrop.on { opacity: 1; pointer-events: auto; }
@@ -157,7 +160,7 @@
 <div id="app"></div>
 <div class="intro" id="intro"><h1>Chargement…</h1></div>
 
-<button id="text-tab" aria-label="Voir le texte de la fiche">📄 Texte</button>
+<button id="text-tab" aria-label="Voir le texte de la fiche"><span class="tt-label">Texte</span></button>
 <div id="text-backdrop"></div>
 <aside id="text-panel" aria-hidden="true" aria-label="Texte de la fiche">
   <div class="tp-head"><b>Texte de la fiche</b><button id="tp-close">Fermer ✕</button></div>
