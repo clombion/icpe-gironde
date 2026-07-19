@@ -483,3 +483,12 @@
   .explorer { grid-template-columns: 1fr; }
   .explorer__filters { position: static; }
 }
+
+/* --- Explorer: Liste --- */
+.liste__bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; font-family: var(--font-data); font-size: 13px; color: var(--ink-soft); }
+.liste__csv { font-family: var(--font-data); font-size: 13px; cursor: pointer; padding: 4px 8px; }
+.explorer .result-item { display: block; text-decoration: none; color: inherit; border: 1px solid var(--rule-soft); border-radius: 6px; padding: 8px 10px; margin-bottom: 6px; }
+.explorer .result-item:hover { border-color: var(--rust); }
+.explorer .result-item__title { font-family: var(--font-body); font-weight: 600; color: var(--ink); margin: 0; }
+.explorer .result-item__subtitle { font-family: var(--font-data); font-size: 12px; color: var(--ink-soft); margin: 2px 0 0; }
+.explorer .result-item__badge { display: inline-block; margin-top: 4px; font-family: var(--font-data); font-size: 11px; color: var(--ink-soft); }

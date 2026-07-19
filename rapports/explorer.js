@@ -7,7 +7,10 @@
  * (10 514 fiches) is the baseline: `f.gravity IS NOT NULL` — a valid proxy
  * because all single-label axes are NULL together (build-time invariant).
  */
-import { buildFilterWhereClause, serializeFilterState, parseFilterState } from './lib.js?v=13';
+import {
+  buildFilterWhereClause, serializeFilterState, parseFilterState,
+  formatSearchResult, rowsToCsv, pivotMatrix,
+} from './lib.js?v=13';
 import { fetchWithProgress } from './loader.js?v=13';
 
 const SQLITE_URL = new URL('../carte/data/fiches.sqlite', import.meta.url).href;
@@ -199,10 +202,99 @@ function applyFilters() {
   else renderRepartition();
 }
 
-// --- View stubs (Phases 6 & 7 replace these) --------------------------
-function renderListe() {
-  document.getElementById('view-liste').textContent = '(liste — phase 6)';
+// --- Liste view --------------------------------------------------------
+
+const LISTE_CAP = 500; // display budget only — CSV export is uncapped
+
+function listeRows() {
+  const { clauses, params } = matchClauses();
+  const sql = `SELECT fiche_id, nom_complet, titre, nom_commune, date_inspection, gravity
+    FROM fiches f ${composeWhere(clauses)}
+    ORDER BY (f.gravity IN ('G6','G5','G4')) DESC, date_inspection DESC
+    LIMIT ${LISTE_CAP + 1}`;
+  return runQuery(sql, params);
 }
+
+function renderListe() {
+  const host = document.getElementById('view-liste');
+  host.innerHTML = '';
+  const rows = listeRows();
+  const capped = rows.length > LISTE_CAP;
+  const shown = capped ? rows.slice(0, LISTE_CAP) : rows;
+
+  const bar = document.createElement('div');
+  bar.className = 'liste__bar';
+  const info = document.createElement('span');
+  info.textContent = capped
+    ? `${LISTE_CAP}+ fiches — affinez les filtres pour tout voir`
+    : `${shown.length} fiche${shown.length > 1 ? 's' : ''}`;
+  bar.appendChild(info);
+  const csvBtn = document.createElement('button');
+  csvBtn.type = 'button';
+  csvBtn.className = 'liste__csv';
+  csvBtn.textContent = 'Télécharger CSV';
+  csvBtn.addEventListener('click', exportCsv);
+  bar.appendChild(csvBtn);
+  host.appendChild(bar);
+
+  if (!shown.length) {
+    const p = document.createElement('p');
+    p.className = 'results__empty';
+    p.textContent = 'Aucune fiche pour ces filtres.';
+    host.appendChild(p);
+    return;
+  }
+
+  const frag = document.createDocumentFragment();
+  for (const row of shown) {
+    const { title, subtitle } = formatSearchResult(row);
+    const a = document.createElement('a');
+    a.className = 'result-item';
+    a.href = './#' + row.fiche_id;
+    const h = document.createElement('p');
+    h.className = 'result-item__title';
+    h.textContent = title;
+    a.appendChild(h);
+    if (subtitle) {
+      const sub = document.createElement('p');
+      sub.className = 'result-item__subtitle';
+      sub.textContent = subtitle;
+      a.appendChild(sub);
+    }
+    if (row.gravity) {
+      const b = document.createElement('span');
+      b.className = 'result-item__badge';
+      b.textContent = `${row.gravity} · ${TAXO.labels[row.gravity] || ''}`.trim();
+      a.appendChild(b);
+    }
+    frag.appendChild(a);
+  }
+  host.appendChild(frag);
+}
+
+function exportCsv() {
+  const { clauses, params } = matchClauses();
+  const sql = `SELECT fiche_id, nom_complet, nom_commune, date_inspection, gravity, trajectory
+    FROM fiches f ${composeWhere(clauses)} ORDER BY date_inspection DESC`;
+  const rows = runQuery(sql, params);
+  const csv = rowsToCsv(rows, [
+    { key: 'fiche_id', header: 'fiche_id' },
+    { key: 'nom_complet', header: 'installation' },
+    { key: 'nom_commune', header: 'commune' },
+    { key: 'date_inspection', header: 'date' },
+    { key: 'gravity', header: 'gravite' },
+    { key: 'trajectory', header: 'trajectoire' },
+  ]);
+  const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'explorer-icpe.csv';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+// --- Répartition view (Phase 7 replaces this stub) --------------------
 function renderRepartition() {
   document.getElementById('view-repartition').textContent = '(répartition — phase 7)';
 }
