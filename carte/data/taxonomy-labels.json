@@ -1,0 +1,591 @@
+{
+ "version": "v5",
+ "axes": [
+  {
+   "field": "gravity",
+   "name": "Gravité",
+   "multi_label": false,
+   "codes": [
+    {
+     "code": "G1",
+     "label": "Observation",
+     "help": "Conforme, aucun enjeu"
+    },
+    {
+     "code": "G2",
+     "label": "Écart mineur",
+     "help": "NC PUREMENT documentaire/formelle sans dimension physique"
+    },
+    {
+     "code": "G3",
+     "label": "Écart significatif",
+     "help": "NC technique avec risque potentiel. Hors service, dégradé, non fonctionnel, distance violée, dispositif absent"
+    },
+    {
+     "code": "G4",
+     "label": "Risque avéré",
+     "help": "Danger identifié, action rapide nécessaire. MED active + NC technique, dépassement VLE"
+    },
+    {
+     "code": "G5",
+     "label": "Urgence",
+     "help": "Risque imminent. Délai 48h, pollution en cours, perte de MMR"
+    },
+    {
+     "code": "G6",
+     "label": "Incident survenu",
+     "help": "Incendie, déversement, mortalité piscicole, contamination"
+    }
+   ]
+  },
+  {
+   "field": "domains",
+   "name": "Domaine technique",
+   "multi_label": true,
+   "codes": [
+    {
+     "code": "D01",
+     "label": "Incendie et moyens de lutte",
+     "help": "Incendie, désenfumage, détection, POI, RIA, exercices, moyens de lutte, mousse, sprinklage"
+    },
+    {
+     "code": "D02",
+     "label": "Atmosphères explosives",
+     "help": "Zonage ATEX, DRPCE, certification matériels, ventilation zones explosives"
+    },
+    {
+     "code": "D03",
+     "label": "Risque majeur",
+     "help": "Étude de dangers, effets domino, MMR/SIL, SMS, PPRT, zones d'effet"
+    },
+    {
+     "code": "D04",
+     "label": "Eaux et milieu aquatique",
+     "help": "Rejets aqueux, eaux pluviales, eaux souterraines, piézomètres, MES/DCO/DBO5, milieu récepteur, prélèvements, forages, PFAS dans les eaux"
+    },
+    {
+     "code": "D05",
+     "label": "Air, bruit et émissions",
+     "help": "Rejets atmosphériques, poussières, COV, solvants, bruit, odeurs, GES/ETS/quotas carbone, dioxines/furanes"
+    },
+    {
+     "code": "D06",
+     "label": "Sols et pollution",
+     "help": "Pollution sols, contamination historique, diagnostic, réhabilitation, ALUR, CASIAS, SUP, PFAS dans les sols"
+    },
+    {
+     "code": "D07",
+     "label": "Rétention et confinement",
+     "help": "Rétention, confinement liquides, cuves, stockage produits dangereux, séparateurs hydrocarbures"
+    },
+    {
+     "code": "D08",
+     "label": "Déchets et filières",
+     "help": "Registre déchets, BSD, DAP, VHU, DEEE, filières, éco-organisme, transfert transfrontalier, terres excavées/RNDTS"
+    },
+    {
+     "code": "D09",
+     "label": "Biodiversité",
+     "help": "Espèces protégées, continuité écologique, ERC, chiroptères, défrichement, espèces invasives"
+    },
+    {
+     "code": "D10",
+     "label": "Électrique et équipements sous pression",
+     "help": "Installations électriques, vérification, ESP (chaudières, réservoirs, compresseurs), AM 20/11/2017, protection foudre"
+    },
+    {
+     "code": "D11",
+     "label": "Sécurité des personnes",
+     "help": "Clôture, accès, signalisation, formation, EPI, co-activité/plan de prévention, consignes d'urgence"
+    },
+    {
+     "code": "D12",
+     "label": "Situation administrative",
+     "help": "Nomenclature ICPE, déclaration, classement, régime, PAC, changement exploitant, antériorité"
+    },
+    {
+     "code": "D13",
+     "label": "Cessation d'activité",
+     "help": "Sites abandonnés/orphelins, liquidation, mise en sécurité post-fermeture, déclassement, urbanisme post-ICPE"
+    },
+    {
+     "code": "D14",
+     "label": "Risque biologique",
+     "help": "Légionelles, TAR, sous-produits animaux"
+    },
+    {
+     "code": "D15",
+     "label": "Domaines sectoriels",
+     "help": "Sous-tags: methanisation, carrieres, elevage, pressing, froid_frigorigenes, amiante, photovoltaique, agroalimentaire, portuaire, pyrotechnique, cogeneration, entrepot_logistique, pisciculture, silo_cereales"
+    },
+    {
+     "code": "D16",
+     "label": "Autre domaine",
+     "help": "Domaine ne rentrant dans aucune catégorie"
+    }
+   ]
+  },
+  {
+   "field": "mechanisms",
+   "name": "Mécanisme",
+   "multi_label": true,
+   "codes": [
+    {
+     "code": "M01",
+     "label": "Documentation",
+     "help": "Absence OU obsolescence de preuve documentaire, registres, attestations, plans, transmission"
+    },
+    {
+     "code": "M02",
+     "label": "Qualité de la mesure",
+     "help": "Protocole inadéquat, représentativité, fréquence, paramètres non mesurés, délai réglementaire non respecté"
+    },
+    {
+     "code": "M03",
+     "label": "Reporting numérique",
+     "help": "GEREP, Trackdéchets, GIDAF"
+    },
+    {
+     "code": "M04",
+     "label": "Mise en demeure",
+     "help": "APMD, levée, non-respect"
+    },
+    {
+     "code": "M05",
+     "label": "Sanction",
+     "help": "Astreinte, amende, consignation, liquidation, travaux d'office, PV"
+    },
+    {
+     "code": "M06",
+     "label": "Récidive",
+     "help": "Même NC entre inspections successives"
+    },
+    {
+     "code": "M07",
+     "label": "Contrôle périodique",
+     "help": "Vérification organisme agréé, contre-visite, autosurveillance, thermographie, revue MMR/GMAO"
+    },
+    {
+     "code": "M08",
+     "label": "Conformité constatée",
+     "help": "Conformité, levée de MED, validation positive, NC résolue, absence d'écart"
+    },
+    {
+     "code": "M09",
+     "label": "Porter-à-connaissance",
+     "help": "Notification modification, étude de dangers, arrêté complémentaire, PCA"
+    },
+    {
+     "code": "M10",
+     "label": "Garanties financières",
+     "help": "Cautionnement, provisions pour remise en état"
+    },
+    {
+     "code": "M11",
+     "label": "Incident",
+     "help": "Déclaration incident/accident, rapport circonstancié, perte de MMR, REX"
+    },
+    {
+     "code": "M12",
+     "label": "IED/MTD",
+     "help": "Meilleures techniques disponibles, BREF, NEA-MTD, OTNOC, réexamen/bilan décennal"
+    },
+    {
+     "code": "M14",
+     "label": "Constat technique terrain",
+     "help": "NC technique directement observée sur site — état physique dégradé, distances non respectées, équipement absent/hors service/inopérant"
+    },
+    {
+     "code": "M15",
+     "label": "Autre mécanisme",
+     "help": "Dernier recours uniquement"
+    },
+    {
+     "code": "M17",
+     "label": "Classification nomenclature",
+     "help": "Vérification de seuil/classement ICPE, détermination de rubrique, positionnement vis-à-vis d'un régime"
+    },
+    {
+     "code": "M19",
+     "label": "Obligations post-cessation",
+     "help": "R512-39-1, mise en sécurité site abandonné, ATTES SECUR, mémoire du site"
+    }
+   ]
+  },
+  {
+   "field": "trajectory",
+   "name": "Trajectoire",
+   "multi_label": false,
+   "codes": [
+    {
+     "code": "T1",
+     "label": "Premier constat",
+     "help": "Pas d'historique mentionné"
+    },
+    {
+     "code": "T2",
+     "label": "Suivi",
+     "help": "Suivi explicite d'un constat antérieur"
+    },
+    {
+     "code": "T3",
+     "label": "Amélioration",
+     "help": "Correction constatée depuis dernière inspection"
+    },
+    {
+     "code": "T4",
+     "label": "Stagnation",
+     "help": "Même constat, aucune évolution"
+    },
+    {
+     "code": "T5",
+     "label": "Aggravation",
+     "help": "Situation empire"
+    },
+    {
+     "code": "T6",
+     "label": "Accumulation",
+     "help": "Nouvelles NC + anciennes non résolues"
+    },
+    {
+     "code": "T7",
+     "label": "Chronique",
+     "help": "Persistance >3 ans ou >2 inspections"
+    }
+   ]
+  },
+  {
+   "field": "stage",
+   "name": "Stade",
+   "multi_label": false,
+   "codes": [
+    {
+     "code": "S01",
+     "label": "Constat",
+     "help": "Observation terrain"
+    },
+    {
+     "code": "S02",
+     "label": "Injonction",
+     "help": "Demande formelle avec délai"
+    },
+    {
+     "code": "S03",
+     "label": "Correction",
+     "help": "Action corrective en cours/réalisée"
+    },
+    {
+     "code": "S04",
+     "label": "Vérification",
+     "help": "Contre-visite, post-correction"
+    },
+    {
+     "code": "S05",
+     "label": "Escalade",
+     "help": "Passage au niveau coercitif supérieur"
+    },
+    {
+     "code": "S06",
+     "label": "Clôture",
+     "help": "Levée MED, fin procédure"
+    },
+    {
+     "code": "S07",
+     "label": "Autre stade",
+     "help": ""
+    }
+   ]
+  },
+  {
+   "field": "actor",
+   "name": "Acteur",
+   "multi_label": false,
+   "codes": [
+    {
+     "code": "A01",
+     "label": "Exploitant",
+     "help": ""
+    },
+    {
+     "code": "A02",
+     "label": "Inspection ICPE (DREAL/DDPP/UD)",
+     "help": ""
+    },
+    {
+     "code": "A03",
+     "label": "Préfet",
+     "help": ""
+    },
+    {
+     "code": "A04",
+     "label": "SDIS",
+     "help": ""
+    },
+    {
+     "code": "A05",
+     "label": "Organisme agréé de contrôle",
+     "help": ""
+    },
+    {
+     "code": "A06",
+     "label": "Bureau d'études",
+     "help": ""
+    },
+    {
+     "code": "A07",
+     "label": "Éco-organisme",
+     "help": ""
+    },
+    {
+     "code": "A08",
+     "label": "Collectivité (mairie, EPCI)",
+     "help": ""
+    },
+    {
+     "code": "A09",
+     "label": "ADEME",
+     "help": ""
+    },
+    {
+     "code": "A10",
+     "label": "Justice (procureur, tribunal)",
+     "help": ""
+    },
+    {
+     "code": "A11",
+     "label": "Propriétaire foncier / bailleur",
+     "help": ""
+    },
+    {
+     "code": "A12",
+     "label": "Tiers (voisin, INERIS, DREETS)",
+     "help": ""
+    },
+    {
+     "code": "A13",
+     "label": "Autre acteur",
+     "help": ""
+    }
+   ]
+  },
+  {
+   "field": "dynamic",
+   "name": "Dynamique",
+   "multi_label": false,
+   "codes": [
+    {
+     "code": "R01",
+     "label": "Exploitant proactif",
+     "help": "Correction spontanée, audit auto-commandé, anticipation"
+    },
+    {
+     "code": "R02",
+     "label": "Promesse sans preuve",
+     "help": "Engagement verbal/écrit vers action FUTURE non vérifiable. Pas pour les comptes-rendus factuels."
+    },
+    {
+     "code": "R03",
+     "label": "Façade de conformité",
+     "help": "Dispositif installé mais non fonctionnel, registre tenu mais données fausses"
+    },
+    {
+     "code": "R04",
+     "label": "Méconnaissance",
+     "help": "Exploitant invoque ignorance de la règle"
+    },
+    {
+     "code": "R05",
+     "label": "Vide factuel",
+     "help": "Exploitant physiquement absent, site sans interlocuteur"
+    },
+    {
+     "code": "R06",
+     "label": "Vide juridique",
+     "help": "Dissolution, liquidation judiciaire, procédure collective"
+    },
+    {
+     "code": "R07",
+     "label": "Contrainte technique",
+     "help": "Impossibilité technique, substitution REACH"
+    },
+    {
+     "code": "R08",
+     "label": "Contrainte économique",
+     "help": "Coût chiffré comme frein"
+    },
+    {
+     "code": "R09",
+     "label": "Blocage tiers",
+     "help": "Bailleur, éco-organisme défaillant, infrastructure publique, outil admin défaillant"
+    },
+    {
+     "code": "R10",
+     "label": "Tension entre acteurs",
+     "help": "Conflit données, diagnostic contesté"
+    },
+    {
+     "code": "R11",
+     "label": "Dimension pénale",
+     "help": "PV procureur, menaces/violences, exploitation illégale"
+    },
+    {
+     "code": "R12",
+     "label": "Pragmatisme inspection",
+     "help": "Souplesse, mesure compensatoire acceptée, modulation"
+    },
+    {
+     "code": "R13",
+     "label": "Neutre conforme",
+     "help": "Conformité factuelle, défaut"
+    },
+    {
+     "code": "R14",
+     "label": "Neutre non-conforme",
+     "help": "NC factuelle sans dynamique notable, défaut"
+    },
+    {
+     "code": "R15",
+     "label": "Autre dynamique",
+     "help": "Inclassable"
+    }
+   ]
+  },
+  {
+   "field": "modifiers",
+   "name": "Modificateurs",
+   "multi_label": true,
+   "codes": [
+    {
+     "code": "m_DELAI",
+     "label": "Délai correctif",
+     "help": "Délai imposé (15j, 1 mois, 3 mois, urgence 48h). Accompagne un autre M."
+    },
+    {
+     "code": "m_MENACE",
+     "label": "Avertissement conditionnel",
+     "help": "Précurseur de M04. 'À défaut, mise en demeure'."
+    }
+   ]
+  },
+  {
+   "field": "confidence",
+   "name": "Confiance",
+   "multi_label": false,
+   "codes": [
+    {
+     "code": "high",
+     "label": "Élevée",
+     "help": ""
+    },
+    {
+     "code": "medium",
+     "label": "Moyenne",
+     "help": ""
+    },
+    {
+     "code": "low",
+     "label": "Faible",
+     "help": ""
+    }
+   ]
+  }
+ ],
+ "labels": {
+  "D01": "Incendie et moyens de lutte",
+  "D02": "Atmosphères explosives",
+  "D03": "Risque majeur",
+  "D04": "Eaux et milieu aquatique",
+  "D05": "Air, bruit et émissions",
+  "D06": "Sols et pollution",
+  "D07": "Rétention et confinement",
+  "D08": "Déchets et filières",
+  "D09": "Biodiversité",
+  "D10": "Électrique et équipements sous pression",
+  "D11": "Sécurité des personnes",
+  "D12": "Situation administrative",
+  "D13": "Cessation d'activité",
+  "D14": "Risque biologique",
+  "D15": "Domaines sectoriels",
+  "D16": "Autre domaine",
+  "M01": "Documentation",
+  "M02": "Qualité de la mesure",
+  "M03": "Reporting numérique",
+  "M04": "Mise en demeure",
+  "M05": "Sanction",
+  "M06": "Récidive",
+  "M07": "Contrôle périodique",
+  "M08": "Conformité constatée",
+  "M09": "Porter-à-connaissance",
+  "M10": "Garanties financières",
+  "M11": "Incident",
+  "M12": "IED/MTD",
+  "M14": "Constat technique terrain",
+  "M15": "Autre mécanisme",
+  "M17": "Classification nomenclature",
+  "M19": "Obligations post-cessation",
+  "R01": "Exploitant proactif",
+  "R02": "Promesse sans preuve",
+  "R03": "Façade de conformité",
+  "R04": "Méconnaissance",
+  "R05": "Vide factuel",
+  "R06": "Vide juridique",
+  "R07": "Contrainte technique",
+  "R08": "Contrainte économique",
+  "R09": "Blocage tiers",
+  "R10": "Tension entre acteurs",
+  "R11": "Dimension pénale",
+  "R12": "Pragmatisme inspection",
+  "R13": "Neutre conforme",
+  "R14": "Neutre non-conforme",
+  "R15": "Autre dynamique",
+  "A01": "Exploitant",
+  "A02": "Inspection ICPE (DREAL/DDPP/UD)",
+  "A03": "Préfet",
+  "A04": "SDIS",
+  "A05": "Organisme agréé de contrôle",
+  "A06": "Bureau d'études",
+  "A07": "Éco-organisme",
+  "A08": "Collectivité (mairie, EPCI)",
+  "A09": "ADEME",
+  "A10": "Justice (procureur, tribunal)",
+  "A11": "Propriétaire foncier / bailleur",
+  "A12": "Tiers (voisin, INERIS, DREETS)",
+  "A13": "Autre acteur",
+  "S01": "Constat",
+  "S02": "Injonction",
+  "S03": "Correction",
+  "S04": "Vérification",
+  "S05": "Escalade",
+  "S06": "Clôture",
+  "S07": "Autre stade",
+  "G1": "Observation",
+  "G2": "Écart mineur",
+  "G3": "Écart significatif",
+  "G4": "Risque avéré",
+  "G5": "Urgence",
+  "G6": "Incident survenu",
+  "T1": "Premier constat",
+  "T2": "Suivi",
+  "T3": "Amélioration",
+  "T4": "Stagnation",
+  "T5": "Aggravation",
+  "T6": "Accumulation",
+  "T7": "Chronique",
+  "m_DELAI": "Délai correctif",
+  "m_MENACE": "Avertissement conditionnel",
+  "high": "Élevée",
+  "medium": "Moyenne",
+  "low": "Faible"
+ },
+ "axis_name": {
+  "gravity": "Gravité",
+  "domains": "Domaine technique",
+  "mechanisms": "Mécanisme",
+  "trajectory": "Trajectoire",
+  "stage": "Stade",
+  "actor": "Acteur",
+  "dynamic": "Dynamique",
+  "modifiers": "Modificateurs",
+  "confidence": "Confiance"
+ }
+}

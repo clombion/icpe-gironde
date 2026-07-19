@@ -36,45 +36,17 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _paths import CARTE_DATA_DIR, PROJECT_ROOT  # noqa: E402
 
+from _axes_util import load_axes  # noqa: E402
+
 SEED = 42
 FICHES = CARTE_DATA_DIR / "fiches.parquet"
 TAGS = CARTE_DATA_DIR / "fiches-tags.parquet"
-CODEBOOK = PROJECT_ROOT / "outputs-fiches" / "codebook.json"
 OUT = PROJECT_ROOT / "validation" / "validation-sample.json"
 
 # Quotas par bande de gravité (les rares sont sur-échantillonnées).
 GRAVITY_QUOTA = {"G1": 18, "G2": 18, "G3": 18, "G4": 18, "G5": 10, "G6": 10}
 DYN_BOOST = 8  # fiches supplémentaires forçant les dynamiques rares
 RARE_DYN = ("R03", "R04", "R09", "R10", "R11")
-
-AXIS_FIELD_TO_ID = {
-    "domains": "axe1", "mechanisms": "axe2", "dynamic": "axe3",
-    "actor": "axe4a", "stage": "axe4b", "gravity": "axe5", "trajectory": "axe6",
-}
-
-
-def load_axes() -> tuple[dict, dict, dict, dict]:
-    """(codes par champ, code→libellé, code→définition, champ→définition d'axe)."""
-    cb = json.loads(CODEBOOK.read_text(encoding="utf-8"))
-    by_id = {ax["id"]: ax for ax in cb["axes"]}
-    options: dict[str, list[str]] = {}
-    labels: dict[str, str] = {}
-    code_help: dict[str, str] = {}
-    axis_help: dict[str, str] = {}
-    for field, axis_id in AXIS_FIELD_TO_ID.items():
-        axis = by_id[axis_id]
-        options[field] = [c["id"].split("_")[0] for c in axis["codes"]]
-        axis_help[field] = axis.get("description", "")
-        for c in axis["codes"]:
-            short = c["id"].split("_")[0]
-            labels[short] = c["name"]
-            code_help[short] = c.get("description", "")
-    axis_help["modifiers"] = "Nuances qui accompagnent un mécanisme, jamais seules."
-    options["modifiers"] = [m["id"] for m in by_id["axe2"].get("modifiers", [])]
-    for m in by_id["axe2"].get("modifiers", []):
-        labels[m["id"]] = m["name"]
-        code_help[m["id"]] = m.get("description", "")
-    return options, labels, code_help, axis_help
 
 
 def confidence_rank(conf: str) -> int:
