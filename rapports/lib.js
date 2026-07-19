@@ -162,3 +162,115 @@ export function reflowText(text) {
 export function isMobileViewport() {
   return window.matchMedia('(max-width: 719px)').matches;
 }
+
+// --- Explorer: filter WHERE building -----------------------------------
+
+/**
+ * Build parameterized filter clauses from a filter state.
+ * Returns BARE clauses (no leading WHERE) so callers own the WHERE and can
+ * prepend a baseline predicate (matches app.js buildFilterWhere convention).
+ * AND across axes, OR (IN / EXISTS…IN) within an axis. Base query aliases fiches as `f`.
+ * @param {Object<string,string[]>} filters - axis field → selected codes
+ * @param {{field:string,multi:boolean}[]} axes - ordered axis kinds (from taxonomy)
+ * @returns {{clauses: string[], params: string[]}}
+ */
+export function buildFilterWhereClause(filters, axes) {
+  const clauses = [];
+  const params = [];
+  for (const { field, multi } of axes) {
+    const codes = (filters && filters[field]) || [];
+    if (!codes.length) continue;
+    const placeholders = codes.map(() => '?').join(',');
+    if (multi) {
+      clauses.push(`EXISTS (SELECT 1 FROM fiche_tags t WHERE t.fiche_id = f.fiche_id AND t.axis = '${field}' AND t.code IN (${placeholders}))`);
+    } else {
+      clauses.push(`f.${field} IN (${placeholders})`);
+    }
+    params.push(...codes);
+  }
+  return { clauses, params };
+}
+
+// --- Explorer: URL filter state ----------------------------------------
+
+/**
+ * Serialize a filter state to a URL hash fragment (no leading '#').
+ * @param {Object<string,string[]>} filters
+ * @param {string[]} fields - ordered axis-field list (from taxonomy)
+ * @returns {string}
+ */
+export function serializeFilterState(filters, fields) {
+  const parts = [];
+  for (const field of fields) {
+    const codes = (filters && filters[field]) || [];
+    if (!codes.length) continue;
+    parts.push(`${field}=${codes.map(encodeURIComponent).join(',')}`);
+  }
+  return parts.join('&');
+}
+
+/**
+ * Parse a URL hash fragment into a filter state with every field key present.
+ * @param {string} hash
+ * @param {string[]} fields - ordered axis-field list (from taxonomy)
+ * @returns {Object<string,string[]>}
+ */
+export function parseFilterState(hash, fields) {
+  const out = {};
+  for (const field of fields) out[field] = [];
+  if (!hash) return out;
+  const raw = hash.startsWith('#') ? hash.slice(1) : hash;
+  for (const pair of raw.split('&')) {
+    if (!pair) continue;
+    const eq = pair.indexOf('=');
+    if (eq < 0) continue;
+    const field = pair.slice(0, eq);
+    if (!Object.prototype.hasOwnProperty.call(out, field)) continue;
+    out[field] = pair.slice(eq + 1).split(',').filter(Boolean).map(decodeURIComponent);
+  }
+  return out;
+}
+
+// --- Explorer: matrix pivot --------------------------------------------
+
+/**
+ * Pivot {r,c,n} rows into a dense grid over the given ordered axis values.
+ * Rows whose r/c fall outside the value lists are ignored.
+ * @param {{r:string,c:string,n:number}[]} rows
+ * @param {string[]} rowValues
+ * @param {string[]} colValues
+ * @returns {{grid:number[][], rowTotals:number[], colTotals:number[], total:number}}
+ */
+export function pivotMatrix(rows, rowValues, colValues) {
+  const rIdx = new Map(rowValues.map((v, i) => [v, i]));
+  const cIdx = new Map(colValues.map((v, i) => [v, i]));
+  const grid = rowValues.map(() => colValues.map(() => 0));
+  for (const { r, c, n } of rows) {
+    if (!rIdx.has(r) || !cIdx.has(c)) continue;
+    grid[rIdx.get(r)][cIdx.get(c)] += n;
+  }
+  const rowTotals = grid.map((row) => row.reduce((a, b) => a + b, 0));
+  const colTotals = colValues.map((_, j) => grid.reduce((a, row) => a + row[j], 0));
+  const total = rowTotals.reduce((a, b) => a + b, 0);
+  return { grid, rowTotals, colTotals, total };
+}
+
+// --- Explorer: CSV -----------------------------------------------------
+
+function csvCell(value) {
+  const s = value == null ? '' : String(value);
+  return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+}
+
+/**
+ * Serialize rows to CSV. columns = [{key, header}]. CRLF line endings.
+ * A value containing " , or a newline is wrapped in double quotes with internal " doubled.
+ * @param {Object[]} rows
+ * @param {{key:string,header:string}[]} columns
+ * @returns {string}
+ */
+export function rowsToCsv(rows, columns) {
+  const head = columns.map((c) => csvCell(c.header)).join(',');
+  const body = rows.map((row) => columns.map((c) => csvCell(row[c.key])).join(','));
+  return [head, ...body].join('\r\n');
+}

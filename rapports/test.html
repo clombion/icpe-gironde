@@ -14,7 +14,20 @@ import {
   buildSqlLikePattern,
   canvasCoordinatesFromBbox,
   formatSearchResult,
+  buildFilterWhereClause,
+  serializeFilterState,
+  parseFilterState,
+  pivotMatrix,
+  rowsToCsv,
 } from './lib.js';
+
+const AXES = [
+  { field: 'gravity', multi: false },
+  { field: 'domains', multi: true },
+  { field: 'mechanisms', multi: true },
+  { field: 'trajectory', multi: false },
+];
+const FIELDS = ['gravity', 'domains', 'mechanisms', 'trajectory'];
 
 const output = document.getElementById('output');
 let passed = 0;
@@ -98,6 +111,61 @@ assertEqual(fmt.badge, 'Mise en demeure', 'format: badge');
 
 const fmtProse = formatSearchResult({ titre: null, nom_commune: null, date_inspection: '', type_suite: null });
 assertEqual(fmtProse.title, '(rapport complet)', 'format prose: fallback title');
+
+// --- buildFilterWhereClause (bare clauses — callers own WHERE) ---
+
+assertEqual(buildFilterWhereClause({}, AXES), { clauses: [], params: [] },
+  'filter: empty → no clauses');
+assertEqual(
+  buildFilterWhereClause({ gravity: ['G4', 'G5'] }, AXES),
+  { clauses: ['f.gravity IN (?,?)'], params: ['G4', 'G5'] },
+  'filter: single-label gravity');
+assertEqual(
+  buildFilterWhereClause({ domains: ['D01'] }, AXES),
+  { clauses: ["EXISTS (SELECT 1 FROM fiche_tags t WHERE t.fiche_id = f.fiche_id AND t.axis = 'domains' AND t.code IN (?))"],
+    params: ['D01'] },
+  'filter: multi-label domains');
+assertEqual(
+  buildFilterWhereClause({ gravity: ['G4'], domains: ['D01', 'D04'] }, AXES),
+  { clauses: ['f.gravity IN (?)',
+    "EXISTS (SELECT 1 FROM fiche_tags t WHERE t.fiche_id = f.fiche_id AND t.axis = 'domains' AND t.code IN (?,?))"],
+    params: ['G4', 'D01', 'D04'] },
+  'filter: AND across axes, order gravity→domains');
+assertEqual(buildFilterWhereClause({ gravity: [] }, AXES), { clauses: [], params: [] },
+  'filter: empty array ignored');
+
+// --- serialize / parseFilterState ---
+
+assertEqual(serializeFilterState({ gravity: ['G4', 'G5'], domains: ['D01'] }, FIELDS),
+  'gravity=G4,G5&domains=D01', 'serialize: two axes in order');
+assertEqual(serializeFilterState({ domains: ['D01'], gravity: ['G4'] }, FIELDS),
+  'gravity=G4&domains=D01', 'serialize: axis order normalized');
+assertEqual(serializeFilterState({}, FIELDS), '', 'serialize: empty');
+assertEqual(parseFilterState('#gravity=G4,G5&domains=D01', FIELDS).gravity, ['G4', 'G5'],
+  'parse: gravity codes');
+assertEqual(parseFilterState('gravity=G4', FIELDS).domains, [], 'parse: absent axis is empty array');
+assertEqual(parseFilterState('bogus=X', FIELDS).gravity, [], 'parse: unknown key ignored');
+assertEqual(parseFilterState(serializeFilterState({ gravity: ['G4'], mechanisms: ['M04'] }, FIELDS), FIELDS).mechanisms,
+  ['M04'], 'round-trip: mechanisms survive');
+
+// --- pivotMatrix ---
+
+const pm = pivotMatrix(
+  [{ r: 'G4', c: 'D01', n: 178 }, { r: 'G4', c: 'D04', n: 149 }, { r: 'G6', c: 'D01', n: 21 }],
+  ['G4', 'G6'], ['D01', 'D04']);
+assertEqual(pm.grid, [[178, 149], [21, 0]], 'pivot: grid');
+assertEqual(pm.rowTotals, [327, 21], 'pivot: row totals');
+assertEqual(pm.colTotals, [199, 149], 'pivot: col totals');
+assertEqual(pm.total, 348, 'pivot: grand total');
+
+// --- rowsToCsv ---
+
+assertEqual(
+  rowsToCsv([{ a: 'x', b: 1 }], [{ key: 'a', header: 'A' }, { key: 'b', header: 'B' }]),
+  'A,B\r\nx,1', 'csv: simple');
+assertEqual(
+  rowsToCsv([{ a: 'a,b', b: 'he said "hi"' }], [{ key: 'a', header: 'A' }, { key: 'b', header: 'B' }]),
+  'A,B\r\n"a,b","he said ""hi"""', 'csv: escaping');
 
 // --- Summary ---
 
