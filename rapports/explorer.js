@@ -294,9 +294,137 @@ function exportCsv() {
   URL.revokeObjectURL(url);
 }
 
-// --- Répartition view (Phase 7 replaces this stub) --------------------
+// --- Répartition view --------------------------------------------------
+
+const MATRIX_AXES = ['gravity', 'domains', 'mechanisms', 'trajectory', 'stage', 'actor', 'dynamic'];
+const matrixSel = { row: 'gravity', col: 'domains' };
+
+/** Distribution of one axis over the current filters: [{code,n}] descending. */
+function axisDistribution(field) {
+  const { clauses, params } = matchClauses();
+  if (axisMeta(field).multi_label) {
+    const sql = `SELECT t.code AS code, COUNT(DISTINCT f.fiche_id) AS n
+      FROM fiches f JOIN fiche_tags t ON t.fiche_id = f.fiche_id AND t.axis = '${field}'
+      ${composeWhere(clauses)} GROUP BY t.code ORDER BY n DESC`;
+    return runQuery(sql, params);
+  }
+  return runQuery(`SELECT f.${field} AS code, COUNT(*) AS n FROM fiches f
+    ${composeWhere(clauses)} GROUP BY f.${field} ORDER BY n DESC`, params);
+}
+
+/** Cross-tab {r,c,n} for two axes over the current filters. */
+function matrixData(rowAxis, colAxis) {
+  const { clauses, params } = matchClauses();
+  const rowMulti = axisMeta(rowAxis).multi_label;
+  const colMulti = axisMeta(colAxis).multi_label;
+  const rowExpr = rowMulti ? 'tr.code' : `f.${rowAxis}`;
+  const colExpr = colMulti ? 'tc.code' : `f.${colAxis}`;
+  let joins = '';
+  if (rowMulti) joins += ` JOIN fiche_tags tr ON tr.fiche_id = f.fiche_id AND tr.axis = '${rowAxis}'`;
+  if (colMulti) joins += ` JOIN fiche_tags tc ON tc.fiche_id = f.fiche_id AND tc.axis = '${colAxis}'`;
+  const sql = `SELECT ${rowExpr} AS r, ${colExpr} AS c, COUNT(DISTINCT f.fiche_id) AS n
+    FROM fiches f ${joins} ${composeWhere(clauses)} GROUP BY r, c`;
+  return runQuery(sql, params).filter((x) => x.r && x.c);
+}
+
 function renderRepartition() {
-  document.getElementById('view-repartition').textContent = '(répartition — phase 7)';
+  const host = document.getElementById('view-repartition');
+  host.innerHTML = '';
+
+  for (const field of PRIMARY) {
+    const meta = axisMeta(field);
+    const dist = axisDistribution(field);
+    const max = dist.reduce((m, d) => Math.max(m, d.n), 0) || 1;
+    const block = document.createElement('div');
+    block.className = 'repart__axis';
+    const h = document.createElement('h3');
+    h.textContent = meta.name;
+    block.appendChild(h);
+    for (const d of dist) {
+      const bar = document.createElement('div');
+      bar.className = 'repart__bar';
+      const lbl = document.createElement('span');
+      lbl.className = 'repart__lbl';
+      lbl.textContent = `${d.code} · ${TAXO.labels[d.code] || ''}`;
+      const track = document.createElement('span');
+      track.className = 'repart__track';
+      const fill = document.createElement('span');
+      fill.className = 'repart__fill';
+      fill.style.width = `${(d.n / max * 100).toFixed(1)}%`;
+      track.appendChild(fill);
+      const num = document.createElement('span');
+      num.className = 'repart__n';
+      num.textContent = d.n;
+      bar.append(lbl, track, num);
+      block.appendChild(bar);
+    }
+    host.appendChild(block);
+  }
+
+  renderMatrix(host);
+}
+
+function renderMatrix(host) {
+  const wrap = document.createElement('div');
+  wrap.className = 'repart__matrix';
+  const title = document.createElement('h3');
+  title.textContent = 'Matrice croisée';
+  wrap.appendChild(title);
+
+  const controls = document.createElement('div');
+  controls.className = 'repart__mctrl';
+  const opts = (sel) => MATRIX_AXES
+    .map((f) => `<option value="${f}"${f === sel ? ' selected' : ''}>${axisMeta(f).name}</option>`).join('');
+  controls.innerHTML =
+    `<label>Lignes <select id="mrow">${opts(matrixSel.row)}</select></label>` +
+    `<label>Colonnes <select id="mcol">${opts(matrixSel.col)}</select></label>`;
+  wrap.appendChild(controls);
+  const note = document.createElement('p');
+  note.className = 'repart__mnote';
+  note.textContent = 'Cliquez une cellule pour filtrer sur ce croisement et voir les fiches.';
+  wrap.appendChild(note);
+  const tableHost = document.createElement('div');
+  tableHost.className = 'repart__mtable';
+  wrap.appendChild(tableHost);
+  host.appendChild(wrap);
+
+  const rowSel = controls.querySelector('#mrow');
+  const colSel = controls.querySelector('#mcol');
+  rowSel.addEventListener('change', () => { matrixSel.row = rowSel.value; drawTable(); });
+  colSel.addEventListener('change', () => { matrixSel.col = colSel.value; drawTable(); });
+
+  function drawTable() {
+    const rowVals = axisMeta(matrixSel.row).codes.map((c) => c.code);
+    const colVals = axisMeta(matrixSel.col).codes.map((c) => c.code);
+    const { grid, rowTotals, colTotals } = pivotMatrix(matrixData(matrixSel.row, matrixSel.col), rowVals, colVals);
+    // No grand/row/col totals shown: they inflate for multi-label axes.
+    const rKeep = rowVals.map((_, i) => rowTotals[i] > 0);
+    const cKeep = colVals.map((_, j) => colTotals[j] > 0);
+    let html = '<table><thead><tr><th></th>';
+    colVals.forEach((c, j) => { if (cKeep[j]) html += `<th title="${TAXO.labels[c] || ''}">${c}</th>`; });
+    html += '</tr></thead><tbody>';
+    rowVals.forEach((r, i) => {
+      if (!rKeep[i]) return;
+      html += `<tr><th title="${TAXO.labels[r] || ''}">${r}</th>`;
+      colVals.forEach((c, j) => {
+        if (!cKeep[j]) return;
+        const n = grid[i][j];
+        html += `<td class="repart__cell${n ? '' : ' repart__cell--0'}" data-r="${r}" data-c="${c}">${n || ''}</td>`;
+      });
+      html += '</tr>';
+    });
+    html += '</tbody></table>';
+    tableHost.innerHTML = html;
+    tableHost.querySelectorAll('.repart__cell:not(.repart__cell--0)').forEach((td) => {
+      td.addEventListener('click', () => {
+        state.filters[matrixSel.row] = [td.dataset.r]; // replace (D4-A)
+        state.filters[matrixSel.col] = [td.dataset.c];
+        onFiltersChanged();
+        switchView('liste');
+      });
+    });
+  }
+  drawTable();
 }
 
 // --- Events ------------------------------------------------------------

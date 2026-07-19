@@ -492,3 +492,21 @@
 .explorer .result-item__title { font-family: var(--font-body); font-weight: 600; color: var(--ink); margin: 0; }
 .explorer .result-item__subtitle { font-family: var(--font-data); font-size: 12px; color: var(--ink-soft); margin: 2px 0 0; }
 .explorer .result-item__badge { display: inline-block; margin-top: 4px; font-family: var(--font-data); font-size: 11px; color: var(--ink-soft); }
+
+/* --- Explorer: Répartition --- */
+.repart__axis { margin-bottom: 18px; }
+.repart__axis h3, .repart__matrix h3 { font-family: var(--font-body); font-size: 14px; color: var(--ink); margin: 0 0 6px; }
+.repart__bar { display: grid; grid-template-columns: 230px 1fr 52px; gap: 8px; align-items: center; font-family: var(--font-data); font-size: 12px; color: var(--ink); margin: 2px 0; }
+.repart__lbl { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.repart__track { background: var(--rule-soft); border-radius: 3px; height: 12px; }
+.repart__fill { display: block; height: 12px; background: var(--rust); border-radius: 3px; }
+.repart__n { text-align: right; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+.repart__matrix { margin-top: 22px; }
+.repart__mctrl { display: flex; gap: 16px; margin-bottom: 6px; font-family: var(--font-data); font-size: 13px; color: var(--ink); }
+.repart__mnote { font-family: var(--font-data); font-size: 12px; color: var(--ink-soft); margin: 0 0 8px; }
+.repart__mtable { overflow-x: auto; }
+.repart__mtable table { border-collapse: collapse; font-family: var(--font-data); font-size: 12px; }
+.repart__mtable th, .repart__mtable td { border: 1px solid var(--rule-soft); padding: 4px 8px; text-align: center; color: var(--ink); }
+.repart__cell { cursor: pointer; font-variant-numeric: tabular-nums; }
+.repart__cell:not(.repart__cell--0):hover { background: var(--rust); color: #fff; }
+.repart__cell--0 { color: transparent; cursor: default; }
