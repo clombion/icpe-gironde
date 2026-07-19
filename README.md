@@ -1,21 +1,23 @@
 # ICPE en Gironde — cahier d'enquête
 
-Quatre outils d'enquête sur les **Installations Classées pour la
+Cinq outils d'enquête sur les **Installations Classées pour la
 Protection de l'Environnement** (ICPE) en Gironde :
 **carte interactive**, **audit des coordonnées**,
-**catalogue des données**, et **rapports d'inspection**.
+**catalogue des données**, **rapports d'inspection**, et
+**l'enquête** (constats grand public).
 
 Le site est déployé sur **GitHub Pages** — tous les outils sont
 utilisables directement dans le navigateur, sans installation :
 
 | Outil | URL | Description |
 |---|---|---|
-| **Accueil** | [clombion.github.io/…/](https://clombion.github.io/icpe-gironde/) | Page d'entrée avec les 4 cartes |
+| **Accueil** | [clombion.github.io/…/](https://clombion.github.io/icpe-gironde/) | Page d'entrée avec les 5 cartes |
 | **Carte interactive** | [/carte/](https://clombion.github.io/icpe-gironde/carte/) | 2 890 ICPE filtrables, réserves naturelles, ortho-photo IGN |
 | **Audit des coordonnées** | [/audit/](https://clombion.github.io/icpe-gironde/audit/) | Revue collaborative par bucket — mini-carte, verdicts, export JSON |
 | **Tableau des décisions** | [/audit/table.html](https://clombion.github.io/icpe-gironde/audit/table.html) | Vue tabulaire de toutes les décisions — filtres, tri, export CSV |
 | **Catalogue des données** | [/donnees/](https://clombion.github.io/icpe-gironde/donnees/) | Dictionnaire des colonnes avec échantillons cliquables |
 | **Rapports d'inspection** | [/rapports/](https://clombion.github.io/icpe-gironde/rapports/) | 10 599 fiches de constat — recherche plein texte, analyse par angle, exploration à facettes des tags |
+| **L'enquête** | [/enquete/](https://clombion.github.io/icpe-gironde/enquete/) | Trois constats grand public tirés du classement (routine, risques avérés, récidivistes), chiffres pré-calculés + liens vers l'explorateur |
 
 ## Ce que la carte permet
 
