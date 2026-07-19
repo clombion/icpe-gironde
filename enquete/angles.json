@@ -1,0 +1,142 @@
+{
+ "corpus": {
+  "tagged": 10514,
+  "untagged": 478,
+  "total": 10992
+ },
+ "angles": [
+  {
+   "id": "routine",
+   "title": "L'inspection, c'est surtout de la routine",
+   "big": {
+    "value": 7096,
+    "of": 10514,
+    "pct": 67.5
+   },
+   "detail": {
+    "m08": 4539,
+    "m08_label": "Conformité constatée"
+   },
+   "creuser": "../rapports/explorer.html#mechanisms=M08"
+  },
+  {
+   "id": "risques-averes",
+   "title": "Où sont les risques avérés",
+   "big": {
+    "value": 743,
+    "of": 10514,
+    "pct": 7.1
+   },
+   "bars": [
+    {
+     "code": "D01",
+     "label": "Incendie et moyens de lutte",
+     "n": 202
+    },
+    {
+     "code": "D04",
+     "label": "Eaux et milieu aquatique",
+     "n": 161
+    },
+    {
+     "code": "D08",
+     "label": "Déchets et filières",
+     "n": 117
+    },
+    {
+     "code": "D07",
+     "label": "Rétention et confinement",
+     "n": 108
+    },
+    {
+     "code": "D12",
+     "label": "Situation administrative",
+     "n": 102
+    },
+    {
+     "code": "D06",
+     "label": "Sols et pollution",
+     "n": 79
+    }
+   ],
+   "creuser": "../rapports/explorer.html#gravity=G4,G5,G6"
+  },
+  {
+   "id": "recidivistes",
+   "title": "Les récidivistes",
+   "signals": [
+    {
+     "key": "aggravation",
+     "code": "T5",
+     "label": "Aggravation",
+     "n": 114
+    },
+    {
+     "key": "chronique",
+     "code": "T7",
+     "label": "Chronique",
+     "n": 110
+    },
+    {
+     "key": "mise_en_demeure",
+     "code": "M04",
+     "label": "Mise en demeure",
+     "n": 772
+    }
+   ],
+   "named": [
+    {
+     "nom": "KURITA",
+     "commune": "Bayon-sur-Gironde",
+     "n": 14
+    },
+    {
+     "nom": "JV COATING (ex ELECTROCHROME)",
+     "commune": "Mérignac",
+     "n": 12
+    },
+    {
+     "nom": "Etablissement Jacques DOURTHE",
+     "commune": "Balizac",
+     "n": 9
+    },
+    {
+     "nom": "PENA METAUX  SAS",
+     "commune": "Mérignac",
+     "n": 9
+    },
+    {
+     "nom": "LAPOULE Roland",
+     "commune": "Audenge",
+     "n": 8
+    },
+    {
+     "nom": "CEREXAGRI SA",
+     "commune": "Bassens",
+     "n": 7
+    },
+    {
+     "nom": "KUEHNE+NAGEL",
+     "commune": "Blanquefort",
+     "n": 7
+    },
+    {
+     "nom": "SAIPOL SA — Bassens — 5, avenue Bellerive des Moines (#1)",
+     "commune": "Bassens",
+     "n": 7
+    },
+    {
+     "nom": "ECOBENNE — Marcheprime",
+     "commune": "Marcheprime",
+     "n": 6
+    },
+    {
+     "nom": "PENA ENVIRONNEMENT",
+     "commune": "Saint-Jean-d'Illac",
+     "n": 6
+    }
+   ],
+   "creuser": "../rapports/explorer.html#trajectory=T5,T7"
+  }
+ ]
+}
