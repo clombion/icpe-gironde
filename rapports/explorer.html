@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Explorer par tags — rapports d'inspection ICPE</title>
+<meta name="description" content="Explorer les fiches de constat ICPE en Gironde par thème, gravité et mécanisme, à partir du classement automatique validé.">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="style.css?v=13">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead__topline">
+    <div>
+      <div class="masthead__label">Cahier d'enquête</div>
+      <h1 class="masthead__title">Explorer par tags</h1>
+    </div>
+    <a class="masthead__home" href="../">← retour à l'accueil</a>
+  </div>
+  <nav class="masthead__nav">
+    <a href="./">Vérifier</a>
+    <a href="angles.html">Analyser par angle</a>
+    <a href="explorer.html" class="active">Explorer</a>
+  </nav>
+</header>
+
+<p class="explorer-caveat">
+  Les tags proviennent d'un classement automatique (LLM) validé sur échantillon :
+  taux d'erreur substantielle mesuré ≈ 10 %. Fiables en agrégat, à vérifier fiche
+  par fiche via le rapport source (onglet Vérifier). La confiance du classement
+  est elle-même un filtre. 478 fiches non classées ne figurent pas ici.
+</p>
+
+<div id="init-loading" class="init-loading">
+  <div class="loading__spinner"></div>
+  <div class="init-loading__info">
+    <span id="init-status">Chargement du moteur SQL…</span>
+    <div class="init-loading__bar"><div class="init-loading__fill" id="init-progress"></div></div>
+    <span class="init-loading__step" id="init-step">1 / 2</span>
+  </div>
+</div>
+
+<main id="layout" class="explorer" hidden>
+  <aside class="explorer__filters">
+    <div class="explorer__headline" id="headline">— fiches</div>
+    <div id="filters-primary"></div>
+    <details class="explorer__more"><summary>Plus de filtres</summary><div id="filters-secondary"></div></details>
+    <button type="button" id="reset-filters" class="explorer__reset">Réinitialiser les filtres</button>
+  </aside>
+  <section class="explorer__results">
+    <div class="explorer__viewtabs" role="tablist">
+      <button type="button" id="tab-liste" class="active" role="tab">Liste</button>
+      <button type="button" id="tab-repartition" role="tab">Répartition</button>
+    </div>
+    <div id="view-liste"></div>
+    <div id="view-repartition" hidden></div>
+  </section>
+</main>
+
+<script type="module" src="explorer.js?v=13"></script>
+</body>
+</html>

@@ -14,6 +14,7 @@ import {
   isMobileViewport,
   reflowText,
 } from './lib.js';
+import { fetchWithProgress } from './loader.js';
 
 // --- Configuration -------------------------------------------------------
 
@@ -83,30 +84,6 @@ function setProgress(pct, label) {
   initStatus.textContent = label;
   initStep.textContent = `${pct}%`;
   initProgress.style.width = `${pct}%`;
-}
-
-/**
- * Fetch a URL with real download progress via ReadableStream.
- * Falls back to a plain fetch if Content-Length is missing.
- */
-async function fetchWithProgress(url, onProgress) {
-  const resp = await fetch(url);
-  const total = +resp.headers.get('Content-Length');
-  if (!total || !resp.body) return new Uint8Array(await resp.arrayBuffer());
-  const reader = resp.body.getReader();
-  const chunks = [];
-  let received = 0;
-  for (;;) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    chunks.push(value);
-    received += value.length;
-    onProgress(received, total);
-  }
-  const result = new Uint8Array(received);
-  let pos = 0;
-  for (const chunk of chunks) { result.set(chunk, pos); pos += chunk.length; }
-  return result;
 }
 
 /**
